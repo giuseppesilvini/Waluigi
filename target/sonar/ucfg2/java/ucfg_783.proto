@@ -1,0 +1,60 @@
+
+Ìcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaSituacaoOperacionalSimplesNacional;§
+œ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFNotaSituacaoOperacionalSimplesNacional.java ;  (H"5*å
+2! !(O¤
+¡
+! !(Ok
+situacaoOperacionalTcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional"__id*"
+
+__unknown_file (
+""¦
+£
+! !(Ok
+situacaoOperacionalTcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional"
+__arrayGet*z
+
+__unknown_file (^
+\
+%0Vcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional[]*"
+
+__unknown_file (
+""*
+4
+1*ˆ
+3# #(*"y
+# #(+m
+k
+situacaoOperacionalTcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional*£
+4" "(#²¯
+" "(/
+%1java.lang.String"rcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional#getCodigo()Ljava/lang/String;*‰
+
+__unknown_file (m
+k
+situacaoOperacionalTcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional2getCodigo()ÖÓ
+" "(>
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*®
+5!R !(z™
+–
+	!R !(ƒ\
+%0Vcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional[]"´com.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional#values()[Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaSituacaoOperacionalSimplesNacional;*t
+
+__unknown_file (X"V
+Tcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional*
+2*!
+1& &("
+& &(
+"":&
+ I  (\
+codigojava.lang.StringBX"V
+Tcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacionalH

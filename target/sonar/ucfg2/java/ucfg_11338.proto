@@ -1,0 +1,110 @@
+
+’com.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub$MdfeRecepcaoEventoResult#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;©
+ú/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/recepcaoevento/MDFeRecepcaoEventoStub.javaÄ- Ä(9"startingBlock*ª
+startingBlockÄ9 Ä(ìù
+ö
+
+ˇ ˇ(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*F
+
+__unknown_file (*
+(
+parentQNamejavax.xml.namespace.QNamej
+h
+
+ÄZ Ä(e(
+parentQNamejavax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%5ù
+ö
+
+ˇ ˇ(
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*F
+
+__unknown_file (*
+(
+factoryorg.apache.axiom.om.OMFactoryl
+j
+Äã Ä(í(
+factoryorg.apache.axiom.om.OMFactory"__annotation*"
+
+__unknown_file (
+
+%6*
+1*∞
+1
+Åo Å(sZ
+X
+Åu Å(ñ
+%0javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""lj
+
+ÅD Å(n0
+%1*org.apache.axis2.databinding.ADBDataSource"*org.apache.axis2.databinding.ADBDataSource¨
+©
+Å@ Å(ó
+%2"uorg.apache.axis2.databinding.ADBDataSource#<init>(Lorg/apache/axis2/databinding/ADBBean;Ljavax/xml/namespace/QName;)V*N
+
+__unknown_file (2
+0
+%1*org.apache.axis2.databinding.ADBDataSource*ç
+
+__unknown_file (qo
+mcom.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub$MdfeRecepcaoEventoResult*=
+
+__unknown_file (!
+
+%0javax.xml.namespace.QNameñ
+ì
+Å Å(ò.
+
+dataSource org.apache.axiom.om.OMDataSource"__id*N
+
+__unknown_file (2
+0
+%1*org.apache.axis2.databinding.ADBDataSourceY
+W
+
+Ç7 Ç(X
+%3javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""ıÚ
+
+Ç Ç(Y*
+%4$org.apache.axiom.om.OMSourcedElement"íorg.apache.axiom.om.OMFactory#createOMElement(Lorg/apache/axiom/om/OMDataSource;Ljavax/xml/namespace/QName;)Lorg/apache/axiom/om/OMSourcedElement;*F
+
+__unknown_file (*
+(
+factoryorg.apache.axiom.om.OMFactory*L
+
+__unknown_file (0
+.
+
+dataSource org.apache.axiom.om.OMDataSource*=
+
+__unknown_file (!
+
+%3javax.xml.namespace.QName2NcreateOMElement(Lorg/apache/axiom/om/OMDataSource;Ljavax/xml/namespace/QName;)":
+
+Ç Ç(Z,
+*
+%4$org.apache.axiom.om.OMSourcedElement:6
+
+Ä: Ä(f(
+parentQNamejavax.xml.namespace.QName:7
+Äg Ä(í(
+factoryorg.apache.axiom.om.OMFactoryBqo
+mcom.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub$MdfeRecepcaoEventoResultH

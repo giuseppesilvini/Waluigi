@@ -1,0 +1,64 @@
+
+¸com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemModalidadeBCICMS#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoItemModalidadeBCICMS;
+’/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFNotaInfoItemModalidadeBCICMS.java1 (>"5*µ
+2 (<‘
+Ž
+ (<X
+
+modalidadeJcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemModalidadeBCICMS"__id*"
+
+__unknown_file (
+""‰
+†
+ (<X
+
+modalidadeJcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemModalidadeBCICMS"
+__arrayGet*p
+
+__unknown_file (T
+R
+%0Lcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemModalidadeBCICMS[]*"
+
+__unknown_file (
+""*
+4
+1*u
+3 (!"f
+ ("Z
+X
+
+modalidadeJcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemModalidadeBCICMS*…
+4 (”‘
+ (&
+%1java.lang.String"hcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemModalidadeBCICMS#getCodigo()Ljava/lang/String;*v
+
+__unknown_file (Z
+X
+
+modalidadeJcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemModalidadeBCICMS2getCodigo()ÖÓ
+ (5
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*…
+5? (]ð
+í
+? (fR
+%0Lcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemModalidadeBCICMS[]" com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemModalidadeBCICMS#values()[Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoItemModalidadeBCICMS;*j
+
+__unknown_file (N"L
+Jcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemModalidadeBCICMS*
+2*!
+1   ("
+   (
+"":&
+? (R
+codigojava.lang.StringBN"L
+Jcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemModalidadeBCICMSH

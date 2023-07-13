@@ -1,0 +1,24 @@
+
+Zcom.fincatto.documentofiscal.validadores.DFXMLValidador#validaLote400(Ljava/lang/String;)Z‰
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/validadores/DFXMLValidador.java1 1('"1*ô
+12 2(Ð
+Í
+2 2(H
+%0boolean"hcom.fincatto.documentofiscal.validadores.DFXMLValidador#valida400(Ljava/lang/String;Ljava/lang/String;)Z*W
+
+__unknown_file (;"9
+7com.fincatto.documentofiscal.validadores.DFXMLValidador*<
+
+__unknown_file ( 
+
+
+arquivoXMLjava.lang.String*1
+
+__unknown_file (
+enviNFe_v4.00.xsd"
+2 2(I
+"":*
+1( 1(?
+
+arquivoXMLjava.lang.StringB;"9
+7com.fincatto.documentofiscal.validadores.DFXMLValidadorHP

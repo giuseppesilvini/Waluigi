@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFTipoIntegracaoPagamento#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFTipoIntegracaoPagamento;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe310.classes.nota.NFTipoIntegracaoPagamento#getCodigo()Ljava/lang/String;

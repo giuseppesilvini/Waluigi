@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.classes.CTTipoImpressao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoImpressao;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.cte300.classes.CTTipoImpressao#getCodigo()Ljava/lang/String;

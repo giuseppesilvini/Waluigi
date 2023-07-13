@@ -1,0 +1,40 @@
+
+¨com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoVeiculoCorTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoVeiculoCor;)Ljava/lang/String;£
+ò/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFNotaInfoVeiculoCorTransformer.java ("startingBlock*Ù
+startingBlock (>¡
+æ
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*l
+
+__unknown_file (P
+N
+
+veiculoCor@com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoVeiculoCorè
+å
+3 (=N
+
+veiculoCor@com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoVeiculoCor"__annotation*"
+
+__unknown_file (
+
+%1*
+1*∂
+1 (Ä˝
+ (%
+%0java.lang.String"^com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoVeiculoCor#getCodigo()Ljava/lang/String;*l
+
+__unknown_file (P
+N
+
+veiculoCor@com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoVeiculoCor2getCodigo()"$
+ (&
+
+%0java.lang.String:Z
+ (=N
+
+veiculoCor@com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoVeiculoCorBTR
+Pcom.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoVeiculoCorTransformerH

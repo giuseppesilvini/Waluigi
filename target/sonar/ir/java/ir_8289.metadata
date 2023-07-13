@@ -1,0 +1,10 @@
+com.fincatto.documentofiscal.cte300.webservices.WSInutilizacao#geraDadosInutilizacao(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/cte300/classes/evento/inutilizacao/CTEnviaEventoInutilizacao;
+com.fincatto.documentofiscal.cte300.classes.evento.inutilizacao.CTEnviaEventoInutilizacao#<init>()V
+com.fincatto.documentofiscal.DFModelo#getCodigo()Ljava/lang/String;
+java.math.BigDecimal#instance-init#
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.classes.evento.inutilizacao.CTEnviaEventoInutilizacao#instance-init#
+org.apache.commons.lang3.StringUtils#leftPad(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+java.math.BigDecimal#<init>(Ljava/lang/String;)V
+com.fincatto.documentofiscal.cte300.classes.evento.inutilizacao.CTEventoInutilizacaoDados#instance-init#
+com.fincatto.documentofiscal.cte300.classes.evento.inutilizacao.CTEventoInutilizacaoDados#<init>()V

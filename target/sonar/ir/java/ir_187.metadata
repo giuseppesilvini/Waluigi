@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.utils.DFSocketFactory#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V
+com.fincatto.documentofiscal.utils.DFSocketFactory#createSSLContext(Lcom/fincatto/documentofiscal/DFConfig;)Ljavax/net/ssl/SSLContext;

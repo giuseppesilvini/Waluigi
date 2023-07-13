@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.nota.CTeNotaInfoDadosComplementares#setMunicipioOrigem(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#tamanho2ate40(Ljava/lang/String;Ljava/lang/String;)V

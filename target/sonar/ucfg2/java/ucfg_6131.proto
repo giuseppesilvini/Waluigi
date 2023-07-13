@@ -1,0 +1,60 @@
+
+äcom.fincatto.documentofiscal.cte200.classes.CTModal#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTModal;Ö
+{/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/classes/CTModal.java ('"5*‚
+2 (s
+q
+ (;
+tipo3com.fincatto.documentofiscal.cte200.classes.CTModal"__id*"
+
+__unknown_file (
+""’
+“
+ (;
+tipo3com.fincatto.documentofiscal.cte200.classes.CTModal"
+__arrayGet*Y
+
+__unknown_file (=
+;
+%05com.fincatto.documentofiscal.cte200.classes.CTModal[]*"
+
+__unknown_file (
+""*
+4
+1*X
+3 ("I
+ (=
+;
+tipo3com.fincatto.documentofiscal.cte200.classes.CTModal*—
+4 (‡›
+ ( 
+%1java.lang.String"Qcom.fincatto.documentofiscal.cte200.classes.CTModal#getCodigo()Ljava/lang/String;*Y
+
+__unknown_file (=
+;
+tipo3com.fincatto.documentofiscal.cte200.classes.CTModal2getCodigo()÷”
+ (/
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*®
+5" ()ì
+ê
+" (2;
+%05com.fincatto.documentofiscal.cte200.classes.CTModal[]"rcom.fincatto.documentofiscal.cte200.classes.CTModal#values()[Lcom/fincatto/documentofiscal/cte200/classes/CTModal;*S
+
+__unknown_file (7"5
+3com.fincatto.documentofiscal.cte200.classes.CTModal*
+2*!
+1 ("
+ (
+"":&
+( (;
+codigojava.lang.StringB7"5
+3com.fincatto.documentofiscal.cte200.classes.CTModalH

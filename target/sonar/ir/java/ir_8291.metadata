@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTTipoUnidadeCargaTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoUnidadeCarga;
+com.fincatto.documentofiscal.cte300.classes.CTTipoUnidadeCarga#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoUnidadeCarga;

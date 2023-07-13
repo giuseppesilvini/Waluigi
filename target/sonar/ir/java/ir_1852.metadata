@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+==
+NfeConsultaStub com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V

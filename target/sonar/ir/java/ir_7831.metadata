@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSCartaCorrecao#corrigeNota(Ljava/lang/String;Ljava/lang/String;I)Lcom/fincatto/documentofiscal/nfe310/classes/evento/NFEnviaEventoRetorno;
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#instance-init#
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V
+com.fincatto.documentofiscal.nfe310.webservices.WSCartaCorrecao#efetuaCorrecao(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.nfe310.webservices.WSCartaCorrecao#gerarDadosCartaCorrecao(Ljava/lang/String;Ljava/lang/String;I)Lcom/fincatto/documentofiscal/nfe310/classes/evento/cartacorrecao/NFEnviaEventoCartaCorrecao;

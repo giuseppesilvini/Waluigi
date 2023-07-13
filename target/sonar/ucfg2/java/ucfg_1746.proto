@@ -1,0 +1,54 @@
+
+Œcom.fincatto.documentofiscal.nfe310.classes.NFAutorizador31$17#getNfeDownloadNF(Lcom/fincatto/documentofiscal/DFAmbiente;)Ljava/lang/String;
+ƒ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFAutorizador31.javaÅ Å(&"startingBlock*Â
+startingBlock
+Å& Å(A¨
+¥
+
+Ä Ä(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Q
+
+__unknown_file (5
+3
+ambiente'com.fincatto.documentofiscal.DFAmbienteu
+s
+
+Å8 Å(@3
+ambiente'com.fincatto.documentofiscal.DFAmbiente"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Û
+1
+Æ Æ({
+y
+
+Æ Æ(A
+%0;com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31"__id*"
+
+__unknown_file (
+""¤¡
+
+Æ Æ(0
+%1java.lang.String"‰com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31#getNfeDownloadNF(Lcom/fincatto/documentofiscal/DFAmbiente;)Ljava/lang/String;*_
+
+__unknown_file (C
+A
+%0;com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31*Q
+
+__unknown_file (5
+3
+ambiente'com.fincatto.documentofiscal.DFAmbiente2;getNfeDownloadNF(Lcom/fincatto/documentofiscal/DFAmbiente;)"&
+
+Æ Æ(1
+
+%1java.lang.String:A
+
+Å' Å(@3
+ambiente'com.fincatto.documentofiscal.DFAmbienteBB@
+>com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31$17H

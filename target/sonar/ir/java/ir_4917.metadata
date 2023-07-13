@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoTipoVeiculo;
+java.lang.String#equals(Ljava/lang/Object;)Z
+org.apache.commons.lang3.StringUtils#leftPad(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo#getCodigo()Ljava/lang/String;

@@ -1,0 +1,46 @@
+
+≥com.fincatto.documentofiscal.nfe310.transformers.NFProdutoCompoeValorNotaTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFProdutoCompoeValorNota;ß
+ú/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFProdutoCompoeValorNotaTransformer.java	$ 	(("startingBlock*ä
+startingBlock	( 	(=ç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	6 	(<
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*í
+1
+ 
+('®
+•
+
+ 
+(=J
+%0Dcom.fincatto.documentofiscal.nfe310.classes.NFProdutoCompoeValorNota"¨com.fincatto.documentofiscal.nfe310.classes.NFProdutoCompoeValorNota#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFProdutoCompoeValorNota;*d
+
+__unknown_file (H"F
+Dcom.fincatto.documentofiscal.nfe310.classes.NFProdutoCompoeValorNota*8
+
+__unknown_file (
+
+codigojava.lang.String"X
+
+ 
+(>L
+J
+%0Dcom.fincatto.documentofiscal.nfe310.classes.NFProdutoCompoeValorNota:&
+	) 	(<
+codigojava.lang.StringBXV
+Tcom.fincatto.documentofiscal.nfe310.transformers.NFProdutoCompoeValorNotaTransformerH

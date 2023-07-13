@@ -1,0 +1,551 @@
+
+Ûcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#nfeDownloadNF(Lcom/fincatto/documentofiscal/nfe310/webservices/downloadnf/NfeDownloadNFStub$NfeDadosMsg;Lcom/fincatto/documentofiscal/nfe310/webservices/downloadnf/NfeDownloadNFStub$NfeCabecMsgE;)Lcom/fincatto/documentofiscal/nfe310/webservices/downloadnf/NfeDownloadNFStub$NfeDownloadNFResult;ü
+î/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/downloadnf/NfeDownloadNFStub.javajl j(y"62*¿
+46	u u(Õà
+Ö
+	u u(Õ)
+env"org.apache.axiom.soap.SOAPEnvelope"__id*G
+
+__unknown_file (+
+)
+%26"org.apache.axiom.soap.SOAPEnvelopeôñ
+v v(
+%27void"+org.apache.axiom.om.OMSerializable#build()V*G
+
+__unknown_file (+
+)
+env"org.apache.axiom.soap.SOAPEnvelope2build()*
+40
+44*ó
+47	u u(Õˇ
+¸
+	u u(Õ)
+%26"org.apache.axiom.soap.SOAPEnvelope"ñcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;Lcom/fincatto/documentofiscal/nfe310/webservices/downloadnf/NfeDownloadNFStub$NfeDadosMsg;ZLjavax/xml/namespace/QName;)Lorg/apache/axiom/soap/SOAPEnvelope;*l
+
+__unknown_file (PN
+Lcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub*F
+
+__unknown_file (*
+(
+%16!org.apache.axiom.soap.SOAPFactory*Ü
+
+__unknown_file (j
+h
+nfeDadosMsg0Xcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub$NfeDadosMsg*,
+
+__unknown_file (
+
+%21boolean*>
+
+__unknown_file ("
+ 
+%24javax.xml.namespace.QName*
+46*Ÿ
+48
+uä u(∫Ö
+Ç
+
+uä u(∫
+%22java.lang.String"__id*U
+
+__unknown_file (97
+5http://www.portalfiscal.inf.br/nfe/wsdl/NfeDownloadNF\
+Z
+
+uº u(À
+%23java.lang.String"__id*-
+
+__unknown_file (
+nfeDownloadNFKI
+
+u u(â 
+%24javax.xml.namespace.QName"javax.xml.namespace.QNameç
+ä
+
+uÏ u(Ã
+%25"Gjavax.xml.namespace.QName#<init>(Ljava/lang/String;Ljava/lang/String;)V*>
+
+__unknown_file ("
+ 
+%24javax.xml.namespace.QName*5
+
+__unknown_file (
+
+%22java.lang.String*5
+
+__unknown_file (
+
+%23java.lang.String*
+47*‡
+49	ut u(Í»
+≈
+	ut u(Í
+%21boolean"zcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#optimizeContent(Ljavax/xml/namespace/QName;)Z*l
+
+__unknown_file (PN
+Lcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub*>
+
+__unknown_file ("
+ 
+%19javax.xml.namespace.QName*
+48*◊
+50uf u(rÖ
+Ç
+
+uß u(◊
+%17java.lang.String"__id*U
+
+__unknown_file (97
+5http://www.portalfiscal.inf.br/nfe/wsdl/NfeDownloadNF\
+Z
+
+uŸ u(Ë
+%18java.lang.String"__id*-
+
+__unknown_file (
+nfeDownloadNFKI
+
+uç u(¶ 
+%19javax.xml.namespace.QName"javax.xml.namespace.QNameç
+ä
+
+uâ u(È
+%20"Gjavax.xml.namespace.QName#<init>(Ljava/lang/String;Ljava/lang/String;)V*>
+
+__unknown_file ("
+ 
+%19javax.xml.namespace.QName*5
+
+__unknown_file (
+
+%17java.lang.String*5
+
+__unknown_file (
+
+%18java.lang.String*
+49*£
+51u" u(då
+â
+u" u(d(
+%16!org.apache.axiom.soap.SOAPFactory"^org.apache.axis2.client.Stub#getFactory(Ljava/lang/String;)Lorg/apache/axiom/soap/SOAPFactory;*<
+
+__unknown_file ( "
+org.apache.axis2.client.Stub*5
+
+__unknown_file (
+
+%15java.lang.String*
+50*ﬂ
+52u2 u(c»≈
+u2 u(c
+%15java.lang.String"Eorg.apache.axis2.client.Options#getSoapVersionURI()Ljava/lang/String;*D
+
+__unknown_file ((
+&
+%14org.apache.axis2.client.Options2getSoapVersionURI()*
+51*é
+53r r(Jú
+ô
+r r(J9
+messageContext'org.apache.axis2.context.MessageContext"__id*L
+
+__unknown_file (0
+.
+%13'org.apache.axis2.context.MessageContexta
+_
+t t(3)
+env"org.apache.axiom.soap.SOAPEnvelope"__id*"
+
+__unknown_file (
+""ıÚ
+u2 u(O&
+%14org.apache.axis2.client.Options"Uorg.apache.axis2.client.OperationClient#getOptions()Lorg/apache/axis2/client/Options;*Y
+
+__unknown_file (=
+;
+_operationClient'org.apache.axis2.client.OperationClient2getOptions()*
+52*ß
+31Ü Ü(«h
+f
+Ü Ü(«
+objectjava.lang.Object"__id*5
+
+__unknown_file (
+
+%45java.lang.Object"*
+
+á á(}
+
+objectjava.lang.Object*˚
+54r r(2w
+u
+r r(;?
+%118com.fincatto.documentofiscal.utils.MessageContextFactory"__id*"
+
+__unknown_file (
+""ª
+∏
+rC r(I,
+%12%com.fincatto.documentofiscal.DFConfig"__id*x
+
+__unknown_file (\*ZN
+Lcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub"
+config≠™
+r r(J.
+%13'org.apache.axis2.context.MessageContext"ëcom.fincatto.documentofiscal.utils.MessageContextFactory#create(Lcom/fincatto/documentofiscal/DFConfig;)Lorg/apache/axis2/context/MessageContext;*]
+
+__unknown_file (A
+?
+%118com.fincatto.documentofiscal.utils.MessageContextFactory*J
+
+__unknown_file (.
+,
+%12%com.fincatto.documentofiscal.DFConfig2/create(Lcom/fincatto/documentofiscal/DFConfig;)*
+53*≥
+32Ü_ Ü(≈ô
+ñ
+Ü, Ü(∆
+%45java.lang.Object"ócom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#fromOM(Lorg/apache/axiom/om/OMElement;Ljava/lang/Class;)Ljava/lang/Object;*l
+
+__unknown_file (PN
+Lcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub*B
+
+__unknown_file (&
+$
+%44org.apache.axiom.om.OMElement*"
+
+__unknown_file (
+""*
+31*π
+55p p(j
+h
+	p@ p(ê
+%9java.lang.String"__id*=
+
+__unknown_file (!
+whttp:queryParameterSeparator∂≥
+	p p(ñ
+%10void"âorg.apache.axis2.client.Stub#addPropertyToOperationClient(Lorg/apache/axis2/client/OperationClient;Ljava/lang/String;Ljava/lang/Object;)V*l
+
+__unknown_file (PN
+Lcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub*Y
+
+__unknown_file (=
+;
+_operationClient'org.apache.axis2.client.OperationClient*4
+
+__unknown_file (
+
+%9java.lang.String*!
+
+__unknown_file (
+&2kaddPropertyToOperationClient(Lorg/apache/axis2/client/OperationClient;Ljava/lang/String;Ljava/lang/Object;)*
+54*ˆ
+33
+Ü8 Ü(]›⁄
+
+Ü8 Ü(]$
+%44org.apache.axiom.om.OMElement"Norg.apache.axiom.om.OMElement#getFirstElement()Lorg/apache/axiom/om/OMElement;*C
+
+__unknown_file ('
+%
+%43org.apache.axiom.soap.SOAPBody2getFirstElement()*
+32*Ñ
+56oL o(PÌÍ
+o o(Q
+
+%8void"Eorg.apache.axis2.client.Options#setExceptionToBeThrownOnSOAPFault(Z)V*C
+
+__unknown_file ('
+%
+%7org.apache.axis2.client.Options* 
+
+__unknown_file (22$setExceptionToBeThrownOnSOAPFault(Z)*
+55*â
+34
+Ö Ö(dè
+å
+
+Ö Ö(d/
+	returnEnv"org.apache.axiom.soap.SOAPEnvelope"__id*G
+
+__unknown_file (+
+)
+%42"org.apache.axiom.soap.SOAPEnvelopeﬁ€
+
+Ü8 Ü(K%
+%43org.apache.axiom.soap.SOAPBody"Lorg.apache.axiom.soap.SOAPEnvelope#getBody()Lorg/apache/axiom/soap/SOAPBody;*M
+
+__unknown_file (1
+/
+	returnEnv"org.apache.axiom.soap.SOAPEnvelope2	getBody()*
+33*ã
+57o o(ÙÒ
+o o()%
+%7org.apache.axis2.client.Options"Uorg.apache.axis2.client.OperationClient#getOptions()Lorg/apache/axis2/client/Options;*Y
+
+__unknown_file (=
+;
+_operationClient'org.apache.axis2.client.OperationClient2getOptions()*
+56*≈
+35Ñ Ñ(∞•
+¢
+Ñ Ñ(∞?
+returnMessageContext'org.apache.axis2.context.MessageContext"__id*L
+
+__unknown_file (0
+.
+%41'org.apache.axis2.context.MessageContextÉÄ
+
+ÖA Ö(c)
+%42"org.apache.axiom.soap.SOAPEnvelope"Yorg.apache.axis2.context.MessageContext#getEnvelope()Lorg/apache/axiom/soap/SOAPEnvelope;*]
+
+__unknown_file (A
+?
+returnMessageContext'org.apache.axis2.context.MessageContext2getEnvelope()*
+34*π
+58n4 n(y¢ü
+n n(z
+
+%6void">org.apache.axis2.client.Options#setAction(Ljava/lang/String;)V*C
+
+__unknown_file ('
+%
+%5org.apache.axis2.client.Options*c
+
+__unknown_file (GE
+Chttp://www.portalfiscal.inf.br/nfe/wsdl/NfeDownloadNF/nfeDownloadNF2setAction(Ljava/lang/String;)*
+57*ﬁ
+36
+ÑQ Ñ(aR
+P
+Ñt Ñ(Æ
+%40java.lang.String"__id*"
+
+__unknown_file (
+InÒÓ
+ÑQ Ñ(Ø.
+%41'org.apache.axis2.context.MessageContext"vorg.apache.axis2.client.OperationClient#getMessageContext(Ljava/lang/String;)Lorg/apache/axis2/context/MessageContext;*Y
+
+__unknown_file (=
+;
+_operationClient'org.apache.axis2.client.OperationClient*5
+
+__unknown_file (
+
+%40java.lang.String2%getMessageContext(Ljava/lang/String;)*
+35*≠
+59	m m(çû
+õ
+	m m(ç;
+_operationClient'org.apache.axis2.client.OperationClient"__id*K
+
+__unknown_file (/
+-
+%4'org.apache.axis2.client.OperationClientÙÒ
+n n()%
+%5org.apache.axis2.client.Options"Uorg.apache.axis2.client.OperationClient#getOptions()Lorg/apache/axis2/client/Options;*Y
+
+__unknown_file (=
+;
+_operationClient'org.apache.axis2.client.OperationClient2getOptions()*
+58*Û
+37
+É É(⁄◊
+
+É É(*
+%39void"3org.apache.axis2.client.OperationClient#execute(Z)V*Y
+
+__unknown_file (=
+;
+_operationClient'org.apache.axis2.client.OperationClient* 
+
+__unknown_file (22
+execute(Z)*
+36*é
+38
+Å Å(ıÚ
+
+Å Å(>
+%38void"eorg.apache.axis2.client.OperationClient#addMessageContext(Lorg/apache/axis2/context/MessageContext;)V*Y
+
+__unknown_file (=
+;
+_operationClient'org.apache.axis2.client.OperationClient*W
+
+__unknown_file (;
+9
+messageContext'org.apache.axis2.context.MessageContext2<addMessageContext(Lorg/apache/axis2/context/MessageContext;)*
+37*‚
+39 (À»
+ (+
+%37void"Zorg.apache.axis2.context.MessageContext#setEnvelope(Lorg/apache/axiom/soap/SOAPEnvelope;)V*W
+
+__unknown_file (;
+9
+messageContext'org.apache.axis2.context.MessageContext*G
+
+__unknown_file (+
+)
+env"org.apache.axiom.soap.SOAPEnvelope21setEnvelope(Lorg/apache/axiom/soap/SOAPEnvelope;)*
+38*Ñ
+60	mM m(åÏÈ
+	mM m(å-
+%4'org.apache.axis2.client.OperationClient"xorg.apache.axis2.client.ServiceClient#createClient(Ljavax/xml/namespace/QName;)Lorg/apache/axis2/client/OperationClient;*I
+
+__unknown_file (-
++
+%0%org.apache.axis2.client.ServiceClient*=
+
+__unknown_file (!
+
+%3javax.xml.namespace.QName2)createClient(Ljavax/xml/namespace/QName;)*
+59*¬
+61mM m(Q√
+¿
+mM m(`+
+%0%org.apache.axis2.client.ServiceClient"__id*Ä
+
+__unknown_file (d*bN
+Lcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub"
+_serviceClient∆
+√
+mn m(~2
+%1,org.apache.axis2.description.AxisOperation[]"__id*}
+
+__unknown_file (a*_N
+Lcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub"
+_operationsæ
+ª
+	mn m(Å0
+%2*org.apache.axis2.description.AxisOperation"
+__arrayGet*P
+
+__unknown_file (4
+2
+%1,org.apache.axis2.description.AxisOperation[]*
+
+__unknown_file (2 €ÿ
+	mn m(ã
+%3javax.xml.namespace.QName"Oorg.apache.axis2.description.AxisOperation#getName()Ljavax/xml/namespace/QName;*N
+
+__unknown_file (2
+0
+%2*org.apache.axis2.description.AxisOperation2	getName()*
+60*á
+62kA k(Eq
+o
+k k(F9
+messageContext'org.apache.axis2.context.MessageContext"__id*"
+
+__unknown_file (
+""*
+61*¨
+40} }(ƒ
+¡
+} }(,
+%35%org.apache.axis2.client.ServiceClient"__id*Ä
+
+__unknown_file (d*bN
+Lcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub"
+_serviceClientŒÀ
+} }(9
+%36void"aorg.apache.axis2.client.ServiceClient#addHeadersToEnvelope(Lorg/apache/axiom/soap/SOAPEnvelope;)V*J
+
+__unknown_file (.
+,
+%35%org.apache.axis2.client.ServiceClient*G
+
+__unknown_file (+
+)
+env"org.apache.axiom.soap.SOAPEnvelope2:addHeadersToEnvelope(Lorg/apache/axiom/soap/SOAPEnvelope;)*
+39*ê
+41	y y(‹ê
+ç
+	y y(‹6
+omElementnfeCabecMsg1org.apache.axiom.om.OMElement"__id*B
+
+__unknown_file (&
+$
+%33org.apache.axiom.om.OMElementÂ‚
+z z(:
+%34void"lorg.apache.axis2.client.Stub#addHeader(Lorg/apache/axiom/om/OMElement;Lorg/apache/axiom/soap/SOAPEnvelope;)V*l
+
+__unknown_file (PN
+Lcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub*T
+
+__unknown_file (8
+6
+omElementnfeCabecMsg1org.apache.axiom.om.OMElement*G
+
+__unknown_file (+
+)
+env"org.apache.axiom.soap.SOAPEnvelope2NaddHeader(Lorg/apache/axiom/om/OMElement;Lorg/apache/axiom/soap/SOAPEnvelope;)*
+40*√
+42	yL y(€´
+®
+	yL y(€$
+%33org.apache.axiom.om.OMElement"Œcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#toOM(Lcom/fincatto/documentofiscal/nfe310/webservices/downloadnf/NfeDownloadNFStub$NfeCabecMsgE;Z)Lorg/apache/axiom/om/OMElement;*l
+
+__unknown_file (PN
+Lcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub*á
+
+__unknown_file (k
+i
+nfeCabecMsg1Ycom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub$NfeCabecMsgE*,
+
+__unknown_file (
+
+%32boolean*
+41*‡
+43	yd y(⁄»
+≈
+	yd y(⁄
+%32boolean"zcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#optimizeContent(Ljavax/xml/namespace/QName;)Z*l
+
+__unknown_file (PN
+Lcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub*>
+
+__unknown_file ("
+ 
+%30javax.xml.namespace.QName*
+42*’
+44yL y(PÖ
+Ç
+
+yó y(«
+%28java.lang.String"__id*U
+
+__unknown_file (97
+5http://www.portalfiscal.inf.br/nfe/wsdl/NfeDownloadNF\
+Z
+
+y… y(ÿ
+%29java.lang.String"__id*-
+
+__unknown_file (
+nfeDownloadNFJH
+	y} y(ñ 
+%30javax.xml.namespace.QName"javax.xml.namespace.QNameå
+â
+	yy y(Ÿ
+%31"Gjavax.xml.namespace.QName#<init>(Ljava/lang/String;Ljava/lang/String;)V*>
+
+__unknown_file ("
+ 
+%30javax.xml.namespace.QName*5
+
+__unknown_file (
+
+%28java.lang.String*5
+
+__unknown_file (
+
+%29java.lang.String*
+43:u
+	jz j(Êh
+nfeDadosMsg0Xcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub$NfeDadosMsg:w
+
+jÁ j(”i
+nfeCabecMsg1Ycom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub$NfeCabecMsgEBPN
+Lcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStubH

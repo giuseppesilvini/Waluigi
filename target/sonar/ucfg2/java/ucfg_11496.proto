@@ -1,0 +1,134 @@
+
+ßcom.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub#fromOM(Lorg/apache/axiom/om/OMElement;Ljava/lang/Class;)Ljava/lang/Object;±
+§/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/statusservico/consulta/NfeStatusServico4Stub.javaØ Ø(#"startingBlock*‡
+13
+± ±(~ƒ¡
+± ±(ã
+%0boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+8
+11*£
+startingBlock
+Ø# Ø(j£
+†
+
+Æ Æ(!
+%7"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElementh
+f
+
+ØH Ø(M&
+paramorg.apache.axiom.om.OMElement"__annotation*"
+
+__unknown_file (
+
+%7î
+ë
+
+Æ Æ(!
+%8"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*5
+
+__unknown_file (
+
+typejava.lang.ClassY
+W
+
+Øe Ø(i
+typejava.lang.Class"__annotation*"
+
+__unknown_file (
+
+%8*
+13*ì
+4µ µ(π"Ä
+µ µ(πq
+o
+%5icom.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeResultMsg*¸
+5µ µ(∏‰
+·
+µ µ(∏o
+%5icom.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeResultMsg"Ücom.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeResultMsg$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe400/webservices/statusservico/consulta/NfeStatusServico4Stub$NfeResultMsg;*ë
+
+__unknown_file (u"s
+qcom.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeResultMsg$Factory*D
+
+__unknown_file ((
+&
+%4 javax.xml.stream.XMLStreamReader*
+4*†
+6
+µ µ(âÜ
+µè µ(∑&
+%4 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+5*ﬁ
+8
+¥ ¥(ƒ¡
+¥ ¥(å
+%3boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+6
+1*ë
+9≤ ≤(∏"
+≤ ≤(∏p
+n
+%2hcom.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeDadosMsg*˘
+10≤ ≤(∑‡
+›
+≤ ≤(∑n
+%2hcom.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeDadosMsg"Ñcom.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeDadosMsg$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe400/webservices/statusservico/consulta/NfeStatusServico4Stub$NfeDadosMsg;*ê
+
+__unknown_file (t"r
+pcom.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeDadosMsg$Factory*D
+
+__unknown_file ((
+&
+%1 javax.xml.stream.XMLStreamReader*
+9*¢
+11
+≤ ≤(âÜ
+≤é ≤(∂&
+%1 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+10*%
+1
+∫ ∫("
+
+∫ ∫(
+"":4
+
+Ø$ Ø(N&
+paramorg.apache.axiom.om.OMElement:%
+
+ØO Ø(i
+typejava.lang.ClassB`^
+\com.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub

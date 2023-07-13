@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTIndicadorTomadorTransformer#write(Lcom/fincatto/documentofiscal/cte300/classes/CTIndicadorTomador;)Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.classes.CTIndicadorTomador#getCodigo()Ljava/lang/String;

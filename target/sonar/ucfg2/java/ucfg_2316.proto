@@ -1,0 +1,75 @@
+
+‡com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao#getXmlAssinado(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;’
+‡/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSCartaCorrecao.javaZ Z( "1*õ
+1[( [(,“
+[( [(xa
+%0[com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao"Ûcom.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao#gerarDadosCartaCorrecao(Ljava/lang/String;Ljava/lang/String;I)Lcom/fincatto/documentofiscal/nfe400/classes/evento/cartacorrecao/NFEnviaEventoCartaCorrecao;*_
+
+__unknown_file (CA
+?com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*?
+
+__unknown_file (#
+!
+textoCorrecaojava.lang.String*"
+
+__unknown_file (
+""2>gerarDadosCartaCorrecao(Ljava/lang/String;Ljava/lang/String;I)õò
+	[( [(ƒ
+%1java.lang.String"@com.fincatto.documentofiscal.DFBase#toString()Ljava/lang/String;*
+
+__unknown_file (c
+a
+%0[com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao2
+toString()o
+m
+	[ [(„$
+cartaCorrecaoXMLjava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.String²
+¯
+\' \(20
+%2*com.fincatto.documentofiscal.nfe.NFeConfig"__id*k
+
+__unknown_file (O*MA
+?com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao"
+configƒ€
+\ \(&<
+%36com.fincatto.documentofiscal.utils.DFAssinaturaDigital"6com.fincatto.documentofiscal.utils.DFAssinaturaDigital¨
+¥
+\ \(3
+%4"gcom.fincatto.documentofiscal.utils.DFAssinaturaDigital#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V*Z
+
+__unknown_file (>
+<
+%36com.fincatto.documentofiscal.utils.DFAssinaturaDigital*N
+
+__unknown_file (2
+0
+%2*com.fincatto.documentofiscal.nfe.NFeConfigÚ×
+\ \(V
+%5java.lang.String"mcom.fincatto.documentofiscal.utils.DFAssinaturaDigital#assinarDocumento(Ljava/lang/String;)Ljava/lang/String;*Z
+
+__unknown_file (>
+<
+%36com.fincatto.documentofiscal.utils.DFAssinaturaDigital*B
+
+__unknown_file (&
+$
+cartaCorrecaoXMLjava.lang.String2$assinarDocumento(Ljava/lang/String;)"$
+\ \(W
+
+%5java.lang.String:+
+Z! Z(:
+chaveAcessojava.lang.String:-
+Z; Z(V!
+textoCorrecaojava.lang.String: 
+
+__unknown_file (
+""BCA
+?com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecaoH

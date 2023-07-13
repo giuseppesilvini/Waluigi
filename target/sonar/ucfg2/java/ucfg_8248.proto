@@ -1,0 +1,27 @@
+
+Ðcom.fincatto.documentofiscal.mdfe3.webservices.WSFacade#consultaStatus(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultastatusservico/MDFeConsStatServRet;‰
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSFacade.javaN N(-"1*‰
+1O O(É
+Æ
+O O($E
+%0?com.fincatto.documentofiscal.mdfe3.webservices.WSStatusConsulta"__id*m
+
+__unknown_file (Q*O9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacade"
+wsStatusConsultaÃÀ
+O O(7Z
+%1Tcom.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServRet"Øcom.fincatto.documentofiscal.mdfe3.webservices.WSStatusConsulta#consultaStatus(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultastatusservico/MDFeConsStatServRet;*c
+
+__unknown_file (G
+E
+%0?com.fincatto.documentofiscal.mdfe3.webservices.WSStatusConsulta*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa2BconsultaStatus(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)"h
+O O(8\
+Z
+%1Tcom.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServRet:B
+N. N(J6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativaB;9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacadeH

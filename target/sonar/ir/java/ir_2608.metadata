@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.transformers.MDFTipoCarroceriaTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoCarroceria;
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCarroceria#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoCarroceria;

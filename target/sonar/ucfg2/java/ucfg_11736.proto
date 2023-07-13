@@ -1,0 +1,40 @@
+
+Õcom.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub#toOM(Lcom/fincatto/documentofiscal/cte300/webservices/consulta/CteConsultaStub$CteConsultaCTResult;Z)Lorg/apache/axiom/om/OMElement;ù
+ê/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/consulta/CteConsultaStub.java€* €(."1*«
+1
+› ›(Z
+X
+›" ›(á
+%0javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""“
+œ
+›â ›(Ω#
+%1org.apache.axiom.om.OMFactory"Sorg.apache.axiom.om.OMAbstractFactory#getOMFactory()Lorg/apache/axiom/om/OMFactory;*E
+
+__unknown_file ()"'
+%org.apache.axiom.om.OMAbstractFactoryŒÀ
+› ›(æ#
+%2org.apache.axiom.om.OMElement"ƒcom.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub$CteConsultaCTResult#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;*É
+
+__unknown_file (g
+e
+param\com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub$CteConsultaCTResult*=
+
+__unknown_file (!
+
+%0javax.xml.namespace.QName*A
+
+__unknown_file (%
+#
+%1org.apache.axiom.om.OMFactory2HgetOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)"4
+› ›(ø%
+#
+%2org.apache.axiom.om.OMElement:t
+€/ €(òe
+param\com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub$CteConsultaCTResult: 
+
+__unknown_file (
+""BLJ
+Hcom.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub

@@ -1,0 +1,36 @@
+
+Çcom.fincatto.documentofiscal.nfe310.transformers.NFLoteIndicadorProcessamentoTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/lote/envio/NFLoteIndicadorProcessamento;)Ljava/lang/String;«
+ /Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFLoteIndicadorProcessamentoTransformer.java ("startingBlock*³
+startingBlock (Rá
+Þ
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*‹
+
+__unknown_file (o
+m
+indicadorProcessamentoScom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamento®
+«
+; (Qm
+indicadorProcessamentoScom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamento"__annotation*"
+
+__unknown_file (
+
+%1*
+1*é
+1 (%³°
+ (1
+%0java.lang.String"qcom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamento#getCodigo()Ljava/lang/String;*‹
+
+__unknown_file (o
+m
+indicadorProcessamentoScom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamento2getCodigo()"$
+ (2
+
+%0java.lang.String:y
+ (Qm
+indicadorProcessamentoScom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamentoB\Z
+Xcom.fincatto.documentofiscal.nfe310.transformers.NFLoteIndicadorProcessamentoTransformerH

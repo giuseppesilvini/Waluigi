@@ -1,0 +1,62 @@
+
+¨com.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub$CteCabecMsgE#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader;£
+–/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/retrecepcao/CteRetRecepcaoStub.javaè0 è(="startingBlock* 
+startingBlock
+è= è(d—
+”
+
+ç ç(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*@
+
+__unknown_file ($
+"
+qNamejavax.xml.namespace.QNamed
+b
+
+è^ è(c"
+qNamejavax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%3*
+1*ÿ
+1
+ê ê(‹
+ˆ
+
+ê ê((`
+%0Zcom.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub$CteCabecMsg"__id*‘
+
+__unknown_file (u*s]
+[com.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub$CteCabecMsgE"
+localCteCabecMsgY
+W
+
+ê7 ê(L
+%1javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""ÌÉ
+
+ê ê(M&
+%2 javax.xml.stream.XMLStreamReader"§com.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub$CteCabecMsg#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader;*~
+
+__unknown_file (b
+`
+%0Zcom.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub$CteCabecMsg*=
+
+__unknown_file (!
+
+%1javax.xml.namespace.QName2*getPullParser(Ljavax/xml/namespace/QName;)"6
+
+ê ê(N(
+&
+%2 javax.xml.stream.XMLStreamReader:0
+
+è> è(c"
+qNamejavax.xml.namespace.QNameB_]
+[com.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub$CteCabecMsgEH

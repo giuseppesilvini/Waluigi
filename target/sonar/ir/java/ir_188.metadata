@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.utils.DFSocketFactory#createSocket(Ljava/lang/String;ILjava/net/InetAddress;I)Ljava/net/Socket;
+javax.net.ssl.SSLContext#getSocketFactory()Ljavax/net/ssl/SSLSocketFactory;

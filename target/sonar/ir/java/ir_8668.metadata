@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.DFModelo#getModelosNotasNaoEletronicas()Ljava/util/List;
+java.util.Collections#unmodifiableList(Ljava/util/List;)Ljava/util/List;

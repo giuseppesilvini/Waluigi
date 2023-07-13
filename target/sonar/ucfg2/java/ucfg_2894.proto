@@ -1,0 +1,48 @@
+
+úcom.fincatto.documentofiscal.cte300.transformes.CTTipoServicoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoServico;õ
+ê/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/transformes/CTTipoServicoTransformer.java
+ 
+("startingBlock*Ü
+startingBlock
+ 
+(*ã
+à
+	 	(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+arg0java.lang.StringX
+V
+
+% 
+()
+arg0java.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ÿ
+1 (˙
+˜
+ (0?
+%09com.fincatto.documentofiscal.cte300.classes.CTTipoServico"ñcom.fincatto.documentofiscal.cte300.classes.CTTipoServico#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoServico;*Y
+
+__unknown_file (=";
+9com.fincatto.documentofiscal.cte300.classes.CTTipoServico*6
+
+__unknown_file (
+
+arg0java.lang.String"M
+ (1A
+?
+%09com.fincatto.documentofiscal.cte300.classes.CTTipoServico:$
+
+ 
+()
+arg0java.lang.StringBLJ
+Hcom.fincatto.documentofiscal.cte300.transformes.CTTipoServicoTransformerH

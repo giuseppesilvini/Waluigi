@@ -1,0 +1,60 @@
+
+®com.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTIdentificadorEmissor;ï
+ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/classes/CTIdentificadorEmissor.java) (6"5*ô
+2 (2á
+Ñ
+ (2N
+ambienteBcom.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor"__id*"
+
+__unknown_file (
+""˜
+Ù
+ (2N
+ambienteBcom.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor"
+__arrayGet*h
+
+__unknown_file (L
+J
+%0Dcom.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor[]*"
+
+__unknown_file (
+""*
+4
+1*k
+3 ("\
+ ( P
+N
+ambienteBcom.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor*á
+4 (Çˇ
+ ($
+%1java.lang.String"`com.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor#getCodigo()Ljava/lang/String;*l
+
+__unknown_file (P
+N
+ambienteBcom.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor2getCodigo()ÍÁ
+ (=
+%2boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
+2
+3*Â
+55 (K–
+Õ
+5 (TJ
+%0Dcom.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor[]"êcom.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor#values()[Lcom/fincatto/documentofiscal/cte200/classes/CTIdentificadorEmissor;*b
+
+__unknown_file (F"D
+Bcom.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor*
+2*!
+1 ("
+ (
+"":&
+7 (J
+codigojava.lang.StringBF"D
+Bcom.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissorH

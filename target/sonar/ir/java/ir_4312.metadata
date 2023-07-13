@@ -1,0 +1,6 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSLoteEnvio#enviaLote(Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvio;Z)Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvioRetornoDados;
+com.fincatto.documentofiscal.nfe400.webservices.WSLoteEnvio#comunicaLote(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;Z)Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvioRetorno;
+com.fincatto.documentofiscal.nfe400.classes.lote.envio.NFLoteEnvioRetornoDados#instance-init#
+com.fincatto.documentofiscal.nfe400.classes.lote.envio.NFLoteEnvioRetornoDados#<init>(Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvioRetorno;Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvio;)V
+==
+getLoteAssinado com.fincatto.documentofiscal.nfe400.webservices.WSLoteEnvio#getLoteAssinado(Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvio;)Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvio;

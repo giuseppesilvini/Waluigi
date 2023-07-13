@@ -1,0 +1,35 @@
+
+öcom.fincatto.documentofiscal.mdfe3.classes.MDFRetornoStatus#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/MDFRetornoStatus;ê
+É/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/classes/MDFRetornoStatus.javaÂ# Â(0"1*Ñ
+1
+Ê Ê(∏
+µ
+
+Ê. Ê(F	
+%0int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
+
+__unknown_file ("
+java.lang.Integer*8
+
+__unknown_file (
+
+codigojava.lang.String‰
+·
+
+Ê Ê(GA
+%1;com.fincatto.documentofiscal.mdfe3.classes.MDFRetornoStatus"âcom.fincatto.documentofiscal.mdfe3.classes.MDFRetornoStatus#valueOfCodigo(I)Lcom/fincatto/documentofiscal/mdfe3/classes/MDFRetornoStatus;*[
+
+__unknown_file (?"=
+;com.fincatto.documentofiscal.mdfe3.classes.MDFRetornoStatus*'
+
+__unknown_file (
+	
+%0int"Q
+
+Ê Ê(HC
+A
+%1;com.fincatto.documentofiscal.mdfe3.classes.MDFRetornoStatus:(
+
+Â1 Â(D
+codigojava.lang.StringB?"=
+;com.fincatto.documentofiscal.mdfe3.classes.MDFRetornoStatusH

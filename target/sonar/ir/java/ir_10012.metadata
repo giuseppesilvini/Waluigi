@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.classes.nota.MDFInfoIdentificacao#setDigitoVerificador(Ljava/lang/Integer;)V
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#exatamente1(Ljava/lang/Integer;Ljava/lang/String;)V

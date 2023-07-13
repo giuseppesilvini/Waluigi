@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#getCpfEmitente()Ljava/lang/String;
+java.lang.String#substring(II)Ljava/lang/String;
+==
+isEmitentePessoaFisica com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#isEmitentePessoaFisica()Z

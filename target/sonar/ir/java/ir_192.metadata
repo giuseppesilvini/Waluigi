@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.utils.DFSocketFactory#createTrustManagers(Lcom/fincatto/documentofiscal/DFConfig;)[Ljavax/net/ssl/TrustManager;
+javax.net.ssl.TrustManagerFactory#getInstance(Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;
+javax.net.ssl.TrustManagerFactory#init(Ljava/security/KeyStore;)V
+javax.net.ssl.TrustManagerFactory#getTrustManagers()[Ljavax/net/ssl/TrustManager;
+javax.net.ssl.TrustManagerFactory#getDefaultAlgorithm()Ljava/lang/String;

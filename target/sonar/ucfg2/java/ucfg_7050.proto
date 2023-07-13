@@ -1,0 +1,60 @@
+
+Äcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoCondicao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoItemProdutoVeiculoCondicao;£
+˜/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFNotaInfoItemProdutoVeiculoCondicao.java7 (D"5*»
+2 (<‘
+Ž
+ (<X
+tipoPcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoCondicao"__id*"
+
+__unknown_file (
+""
+Œ
+ (<X
+tipoPcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoCondicao"
+__arrayGet*v
+
+__unknown_file (Z
+X
+%0Rcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoCondicao[]*"
+
+__unknown_file (
+""*
+4
+1*u
+3 ("f
+ (Z
+X
+tipoPcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoCondicao*‹
+4 (š—
+ ( 
+%1java.lang.String"ncom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoCondicao#getCodigo()Ljava/lang/String;*v
+
+__unknown_file (Z
+X
+tipoPcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoCondicao2getCodigo()ÖÓ
+ (/
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*
+5? (cˆ
+…
+? (lX
+%0Rcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoCondicao[]"¬com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoCondicao#values()[Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoItemProdutoVeiculoCondicao;*p
+
+__unknown_file (T"R
+Pcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoCondicao*
+2*!
+1 ("
+ (
+"":&
+E (X
+codigojava.lang.StringBT"R
+Pcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoCondicaoH

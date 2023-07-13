@@ -1,0 +1,60 @@
+
+®com.fincatto.documentofiscal.nfe310.classes.nota.NFOperadoraCartao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFOperadoraCartao;ï
+ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/nota/NFOperadoraCartao.java$ (1"5*õ
+2 (.à
+Ö
+ (.O
+	operadoraBcom.fincatto.documentofiscal.nfe310.classes.nota.NFOperadoraCartao"__id*"
+
+__unknown_file (
+""¯
+ı
+ (.O
+	operadoraBcom.fincatto.documentofiscal.nfe310.classes.nota.NFOperadoraCartao"
+__arrayGet*h
+
+__unknown_file (L
+J
+%0Dcom.fincatto.documentofiscal.nfe310.classes.nota.NFOperadoraCartao[]*"
+
+__unknown_file (
+""*
+4
+1*l
+3 ( "]
+ (!Q
+O
+	operadoraBcom.fincatto.documentofiscal.nfe310.classes.nota.NFOperadoraCartao*Ù
+4 (ÉÄ
+ (%
+%1java.lang.String"`com.fincatto.documentofiscal.nfe310.classes.nota.NFOperadoraCartao#getCodigo()Ljava/lang/String;*m
+
+__unknown_file (Q
+O
+	operadoraBcom.fincatto.documentofiscal.nfe310.classes.nota.NFOperadoraCartao2getCodigo()÷”
+ (4
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*Â
+51 (B–
+Õ
+1 (KJ
+%0Dcom.fincatto.documentofiscal.nfe310.classes.nota.NFOperadoraCartao[]"êcom.fincatto.documentofiscal.nfe310.classes.nota.NFOperadoraCartao#values()[Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFOperadoraCartao;*b
+
+__unknown_file (F"D
+Bcom.fincatto.documentofiscal.nfe310.classes.nota.NFOperadoraCartao*
+2*!
+1" "("
+" "(
+"":&
+2 (E
+codigojava.lang.StringBF"D
+Bcom.fincatto.documentofiscal.nfe310.classes.nota.NFOperadoraCartaoH

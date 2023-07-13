@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao#corrigeNotaAssinadaProtocolo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/cartacorrecao/NFProtocoloEventoCartaCorrecao;
+com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFProtocoloEventoCartaCorrecao#instance-init#
+com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFProtocoloEventoCartaCorrecao#<init>()V
+com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao#efetuaCorrecao(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;

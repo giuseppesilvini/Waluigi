@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;)Lorg/apache/axiom/soap/SOAPEnvelope;

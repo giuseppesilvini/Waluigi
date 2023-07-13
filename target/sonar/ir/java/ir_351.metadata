@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe400.classes.NFNotaMotivoDesoneracaoICMS#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaMotivoDesoneracaoICMS;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe400.classes.NFNotaMotivoDesoneracaoICMS#getCodigo()Ljava/lang/String;

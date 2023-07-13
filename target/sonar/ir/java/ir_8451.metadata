@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.transformers.MDFTipoTranportadorTransformer#write(Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoTranportador;)Ljava/lang/String;
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoTranportador#getCodigo()Ljava/lang/String;

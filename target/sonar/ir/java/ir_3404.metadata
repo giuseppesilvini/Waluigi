@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoArmamentoTipo#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoItemProdutoArmamentoTipo;
+com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoArmamentoTipo#getCodigo()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z

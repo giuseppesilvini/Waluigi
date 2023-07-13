@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoImpostoTributacaoICMSTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoImpostoTributacaoICMS;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoImpostoTributacaoICMS#getCodigo()Ljava/lang/String;

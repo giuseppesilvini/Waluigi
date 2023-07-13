@@ -1,0 +1,50 @@
+
+™com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResultType0#isReaderMTOMAware(Ljavax/xml/stream/XMLStreamReader;)Z©
+ú/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte/webservices/distribuicao/CTeDistribuicaoDFeSoapStub.java≠	 ≠	(/"5*Ô
+4∞	$ ∞	(ç◊‘
+∞	$ ∞	(ç
+%3boolean"-java.lang.Boolean#equals(Ljava/lang/Object;)Z*5
+
+__unknown_file (
+
+%0java.lang.Boolean*4
+
+__unknown_file (
+
+%2java.lang.Object2equals(Ljava/lang/Object;)*
+1*Ú
+5
+∞	$ ∞	((Q
+O
+
+∞	$ ∞	(:
+%0java.lang.Boolean"__id*"
+
+__unknown_file (
+""i
+g
+∞	U ∞	(ã
+%1java.lang.String"__id*:
+
+__unknown_file (
+IsDatahandlersAwareParsingùö
+∞	B ∞	(å
+%2java.lang.Object"Rjavax.xml.stream.XMLStreamReader#getProperty(Ljava/lang/String;)Ljava/lang/Object;*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader*4
+
+__unknown_file (
+
+%1java.lang.String2getProperty(Ljava/lang/String;)*
+4*%
+1
+¥	 ¥	($"
+
+¥	 ¥	(%
+"":8
+
+≠	0 ≠	(]*
+reader javax.xml.stream.XMLStreamReaderBw"u
+scom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResultType0HP

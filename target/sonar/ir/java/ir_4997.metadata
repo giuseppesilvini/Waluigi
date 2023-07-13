@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.transformers.MDFUnidadeMedidaPesoBrutoCargaTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFUnidadeMedidaPesoBrutoCarga;
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFUnidadeMedidaPesoBrutoCarga#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFUnidadeMedidaPesoBrutoCarga;

@@ -1,0 +1,48 @@
+
+ñcom.fincatto.documentofiscal.cte300.transformes.CTModeloNFTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTModeloNF;ò
+ç/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/transformes/CTModeloNFTransformer.java
+ 
+("startingBlock*Ü
+startingBlock
+ 
+('ã
+à
+	 	(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+arg0java.lang.StringX
+V
+
+" 
+(&
+arg0java.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1* 
+1 (Ó
+Î
+ (-<
+%06com.fincatto.documentofiscal.cte300.classes.CTModeloNF"êcom.fincatto.documentofiscal.cte300.classes.CTModeloNF#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTModeloNF;*V
+
+__unknown_file (:"8
+6com.fincatto.documentofiscal.cte300.classes.CTModeloNF*6
+
+__unknown_file (
+
+arg0java.lang.String"J
+ (.>
+<
+%06com.fincatto.documentofiscal.cte300.classes.CTModeloNF:$
+
+ 
+(&
+arg0java.lang.StringBIG
+Ecom.fincatto.documentofiscal.cte300.transformes.CTModeloNFTransformerH

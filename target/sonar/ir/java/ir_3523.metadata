@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFIndicadorIEDestinatarioTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFIndicadorIEDestinatario;
+com.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorIEDestinatario#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFIndicadorIEDestinatario;

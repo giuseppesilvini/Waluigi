@@ -1,0 +1,46 @@
+
+¡com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoSituacaoTributariaIPITransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoSituacaoTributariaIPI;Æ
+£/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFNotaInfoSituacaoTributariaIPITransformer.java	+ 	(/"startingBlock*ä
+startingBlock	/ 	(Dç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	= 	(C
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*µ
+1
+ 
+(.ƒ
+¡
+
+ 
+(DQ
+%0Kcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI"∫com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoSituacaoTributariaIPI;*k
+
+__unknown_file (O"M
+Kcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI*8
+
+__unknown_file (
+
+codigojava.lang.String"_
+
+ 
+(ES
+Q
+%0Kcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI:&
+	0 	(C
+codigojava.lang.StringB_]
+[com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoSituacaoTributariaIPITransformerH

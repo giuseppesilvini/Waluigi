@@ -1,0 +1,46 @@
+
+Åcom.fincatto.documentofiscal.transformers.DFAmbienteTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/DFAmbiente;í
+á/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/transformers/DFAmbienteTransformer.java	 	("startingBlock*ä
+startingBlock	 	(/ç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	( 	(.
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ä
+1
+ 
+(≥
+∞
+
+ 
+(/-
+%0'com.fincatto.documentofiscal.DFAmbiente"rcom.fincatto.documentofiscal.DFAmbiente#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/DFAmbiente;*G
+
+__unknown_file (+")
+'com.fincatto.documentofiscal.DFAmbiente*8
+
+__unknown_file (
+
+codigojava.lang.String";
+
+ 
+(0/
+-
+%0'com.fincatto.documentofiscal.DFAmbiente:&
+	 	(.
+codigojava.lang.StringBCA
+?com.fincatto.documentofiscal.transformers.DFAmbienteTransformerH

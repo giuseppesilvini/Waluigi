@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoInformacoesAdicionais#setInformacoesAdicionaisInteresseFisco(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#tamanho2000(Ljava/lang/String;Ljava/lang/String;)V

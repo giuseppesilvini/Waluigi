@@ -1,0 +1,16 @@
+com.fincatto.documentofiscal.cte300.webservices.WSNotaConsulta#efetuaConsulta(Lorg/apache/axiom/om/OMElement;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.cte300.classes.CTAutorizador31#valueOfTipoEmissao(Lcom/fincatto/documentofiscal/cte300/classes/CTTipoEmissao;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/cte300/classes/CTAutorizador31;
+com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub$CteCabecMsgE#instance-init#
+com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub#instance-init#
+com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub$CteCabecMsg#instance-init#
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.parsers.CTChaveParser#<init>(Ljava/lang/String;)V
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.IllegalArgumentException#instance-init#
+com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub$CteDadosMsg#instance-init#
+com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub$CteDadosMsg#<init>()V
+java.lang.Enum#name()Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.parsers.CTChaveParser#instance-init#
+com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub$CteCabecMsg#<init>()V
+com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub$CteCabecMsgE#<init>()V

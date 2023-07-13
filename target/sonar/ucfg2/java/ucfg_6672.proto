@@ -1,0 +1,36 @@
+
+¢com.fincatto.documentofiscal.mdfe3.transformers.MDFTipoEmissaoTransformer#write(Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoEmissao;)Ljava/lang/String;œ
+‘/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/transformers/MDFTipoEmissaoTransformer.java ("startingBlock*ä
+startingBlock (-¹
+¶
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*d
+
+__unknown_file (H
+F
+value=com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoEmissao‡
+„
+' (,F
+value=com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoEmissao"__annotation*"
+
+__unknown_file (
+
+%1*
+1*«
+1 (õò
+ ( 
+%0java.lang.String"[com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoEmissao#getCodigo()Ljava/lang/String;*d
+
+__unknown_file (H
+F
+value=com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoEmissao2getCodigo()"$
+ (!
+
+%0java.lang.String:R
+ (,F
+value=com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoEmissaoBMK
+Icom.fincatto.documentofiscal.mdfe3.transformers.MDFTipoEmissaoTransformerH

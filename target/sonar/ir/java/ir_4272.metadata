@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFProdutoCompoeValorNotaTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFProdutoCompoeValorNota;
+com.fincatto.documentofiscal.nfe400.classes.NFProdutoCompoeValorNota#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFProdutoCompoeValorNota;

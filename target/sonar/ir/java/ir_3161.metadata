@@ -1,0 +1,10 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSStatusConsulta#efetuaConsultaStatus(Lorg/apache/axiom/om/OMElement;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Lcom/fincatto/documentofiscal/DFModelo;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeDadosMsg#instance-init#
+com.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeDadosMsg#<init>()V
+com.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub#instance-init#
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400#valueOfCodigoUF(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe400/classes/NFAutorizador400;
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.Enum#name()Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+java.lang.IllegalArgumentException#instance-init#

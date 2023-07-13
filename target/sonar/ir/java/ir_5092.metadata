@@ -1,0 +1,6 @@
+com.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLote#envioRecepcao(Lcom/fincatto/documentofiscal/cte300/classes/enviolote/CTeEnvioLote;)Lcom/fincatto/documentofiscal/cte300/classes/enviolote/CTeEnvioLoteRetornoDados;
+com.fincatto.documentofiscal.cte300.classes.enviolote.CTeEnvioLoteRetornoDados#instance-init#
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#instance-init#
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V
+com.fincatto.documentofiscal.cte300.classes.enviolote.CTeEnvioLoteRetornoDados#<init>(Lcom/fincatto/documentofiscal/cte300/classes/enviolote/CTeEnvioLoteRetorno;Lcom/fincatto/documentofiscal/cte300/classes/enviolote/CTeEnvioLote;)V
+com.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLote#comunicaLote(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/enviolote/CTeEnvioLoteRetorno;

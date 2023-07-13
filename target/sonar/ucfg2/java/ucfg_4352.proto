@@ -1,0 +1,48 @@
+
+¾com.fincatto.documentofiscal.cte300.transformes.CTCodigoSituacaoTributariaICMSTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTCodigoSituacaoTributariaICMS;¬
+¡/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/transformes/CTCodigoSituacaoTributariaICMSTransformer.java
+* 
+(."startingBlock*†
+startingBlock
+. 
+(;‹
+ˆ
+	 	(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+arg0java.lang.StringX
+V
+
+6 
+(:
+arg0java.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*®
+1 (-¾
+»
+ (AP
+%0Jcom.fincatto.documentofiscal.cte300.classes.CTCodigoSituacaoTributariaICMS"¸com.fincatto.documentofiscal.cte300.classes.CTCodigoSituacaoTributariaICMS#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTCodigoSituacaoTributariaICMS;*j
+
+__unknown_file (N"L
+Jcom.fincatto.documentofiscal.cte300.classes.CTCodigoSituacaoTributariaICMS*6
+
+__unknown_file (
+
+arg0java.lang.String"^
+ (BR
+P
+%0Jcom.fincatto.documentofiscal.cte300.classes.CTCodigoSituacaoTributariaICMS:$
+
+/ 
+(:
+arg0java.lang.StringB][
+Ycom.fincatto.documentofiscal.cte300.transformes.CTCodigoSituacaoTributariaICMSTransformerH

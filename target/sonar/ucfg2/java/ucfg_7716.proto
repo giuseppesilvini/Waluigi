@@ -1,0 +1,46 @@
+
+ºcom.fincatto.documentofiscal.nfe400.transformers.NFOperacaoConsumidorFinalTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFOperacaoConsumidorFinal;¨
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFOperacaoConsumidorFinalTransformer.java	% 	()"startingBlock*Š
+startingBlock	) 	(>
+Š
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	7 	(=
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*°
+1
+ 
+((À
+½
+
+ 
+(>P
+%0Jcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal"¸com.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFOperacaoConsumidorFinal;*j
+
+__unknown_file (N"L
+Jcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal*8
+
+__unknown_file (
+
+codigojava.lang.String"^
+
+ 
+(?R
+P
+%0Jcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal:&
+	* 	(=
+codigojava.lang.StringBYW
+Ucom.fincatto.documentofiscal.nfe400.transformers.NFOperacaoConsumidorFinalTransformerH

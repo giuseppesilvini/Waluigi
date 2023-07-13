@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemImpostoICMSPartilhado#setUfICMSST(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)V
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigo()Ljava/lang/String;

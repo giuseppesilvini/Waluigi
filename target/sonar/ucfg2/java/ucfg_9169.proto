@@ -1,0 +1,157 @@
+
+écom.fincatto.documentofiscal.nfe310.webservices.WSConsultaCadastro#consultaCadastro(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe310/classes/cadastro/NFRetornoConsultaCadastro;•
+Š/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/WSConsultaCadastro.java (."1*·"
+11 (5³
+°
+1 (PM
+%0Gcom.fincatto.documentofiscal.nfe310.classes.cadastro.NFConsultaCadastro"âcom.fincatto.documentofiscal.nfe310.webservices.WSConsultaCadastro#getDadosConsulta(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe310/classes/cadastro/NFConsultaCadastro;*b
+
+__unknown_file (FD
+Bcom.fincatto.documentofiscal.nfe310.webservices.WSConsultaCadastro*6
+
+__unknown_file (
+
+cnpjjava.lang.String*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativaÚ
+×
+ (QX
+dadosConsultaGcom.fincatto.documentofiscal.nfe310.classes.cadastro.NFConsultaCadastro"__id*k
+
+__unknown_file (O
+M
+%0Gcom.fincatto.documentofiscal.nfe310.classes.cadastro.NFConsultaCadastroëè
+# (;
+%1java.lang.String"@com.fincatto.documentofiscal.DFBase#toString()Ljava/lang/String;*v
+
+__unknown_file (Z
+X
+dadosConsultaGcom.fincatto.documentofiscal.nfe310.classes.cadastro.NFConsultaCadastro2
+toString()i
+g
+ (<
+xmlConsultajava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.StringØÕ
+   (
+%2org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*b
+
+__unknown_file (FD
+Bcom.fincatto.documentofiscal.nfe310.webservices.WSConsultaCadastro2getLogger()ÖÓ
+   (+
+
+%3void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%2org.slf4j.Logger*=
+
+__unknown_file (!
+
+xmlConsultajava.lang.String2debug(Ljava/lang/String;)—
+”
+", "(M#
+%4org.apache.axiom.om.OMElement"`org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*B
+
+__unknown_file (&"$
+"org.apache.axiom.om.util.AXIOMUtil*=
+
+__unknown_file (!
+
+xmlConsultajava.lang.StringŠ
+‡
+" "(N2
+omElementConsultaorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%4org.apache.axiom.om.OMElement„
+
+#$ #(N#
+%5org.apache.axiom.om.OMElement"Ãcom.fincatto.documentofiscal.nfe310.webservices.WSConsultaCadastro#efetuaConsulta(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Lorg/apache/axiom/om/OMElement;)Lorg/apache/axiom/om/OMElement;*b
+
+__unknown_file (FD
+Bcom.fincatto.documentofiscal.nfe310.webservices.WSConsultaCadastro*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa*P
+
+__unknown_file (4
+2
+omElementConsultaorg.apache.axiom.om.OMElement
+
+# #(O*
+	resultadoorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%5org.apache.axiom.om.OMElementØÕ
+$ $(
+%6org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*b
+
+__unknown_file (FD
+Bcom.fincatto.documentofiscal.nfe310.webservices.WSConsultaCadastro2getLogger()·´
+$ $(3
+%7java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+	resultadoorg.apache.axiom.om.OMElement2
+toString()ÍÊ
+$ $(4
+
+%8void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%6org.slf4j.Logger*4
+
+__unknown_file (
+
+%7java.lang.String2debug(Ljava/lang/String;)µ
+²
+& &(0
+%9*com.fincatto.documentofiscal.nfe.NFeConfig"__id*n
+
+__unknown_file (R*PD
+Bcom.fincatto.documentofiscal.nfe310.webservices.WSConsultaCadastro"
+configú÷
+& &()-
+%10&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*N
+
+__unknown_file (2
+0
+%9*com.fincatto.documentofiscal.nfe.NFeConfig2getPersister()¸µ
+&P &(d
+%11java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+	resultadoorg.apache.axiom.om.OMElement2
+toString()›˜
+& &(eU
+%12Ncom.fincatto.documentofiscal.nfe310.classes.cadastro.NFRetornoConsultaCadastro"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*K
+
+__unknown_file (/
+-
+%10&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+%11java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)"c
+& &(fW
+U
+%12Ncom.fincatto.documentofiscal.nfe310.classes.cadastro.NFRetornoConsultaCadastro:$
+/ (A
+cnpjjava.lang.String:B
+B (^6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativaBFD
+Bcom.fincatto.documentofiscal.nfe310.webservices.WSConsultaCadastro

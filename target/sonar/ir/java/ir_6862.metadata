@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFOperadoraCartaoTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFOperadoraCartao;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.nota.NFOperadoraCartao#getCodigo()Ljava/lang/String;

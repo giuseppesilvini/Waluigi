@@ -1,0 +1,22 @@
+
+Vcom.fincatto.documentofiscal.cte300.parsers.CTChaveParser#isEmitidaContingenciaSCAN()Zå
+Å/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/parsers/CTChaveParser.javaF F(,"1*“
+1G G(‰·
+G G(
+%0java.lang.String"Vcom.fincatto.documentofiscal.cte300.parsers.CTChaveParser#getSerie()Ljava/lang/String;*Y
+
+__unknown_file (=;
+9com.fincatto.documentofiscal.cte300.parsers.CTChaveParser2
+getSerie()«ƒ
+G G(1
+%1boolean"-java.lang.String#matches(Ljava/lang/String;)Z*4
+
+__unknown_file (
+
+%0java.lang.String*'
+
+__unknown_file (	
+9\\d{2}2matches(Ljava/lang/String;)"
+G G(2
+""B=;
+9com.fincatto.documentofiscal.cte300.parsers.CTChaveParserHP

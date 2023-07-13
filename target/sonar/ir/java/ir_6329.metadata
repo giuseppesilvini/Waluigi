@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFOrigemProcessoTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/NFOrigemProcesso;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.NFOrigemProcesso#getCodigo()Ljava/lang/String;

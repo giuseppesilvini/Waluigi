@@ -1,0 +1,132 @@
+
+ìcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub#getEnvelopeNamespaces(Lorg/apache/axiom/soap/SOAPEnvelope;)Ljava/util/Map;ù
+ê/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/consulta/MDFeConsultaStub.javaá á(/"startingBlock*â
+2
+ãY ã(j£†
+
+ãY ã(q
+%4java.lang.Object"+java.util.Iterator#next()Ljava/lang/Object;*E
+
+__unknown_file ()
+'
+namespaceIteratorjava.util.Iterator2next()q
+o
+
+ã ã(r%
+nsorg.apache.axiom.om.OMNamespace"__id*4
+
+__unknown_file (
+
+%4java.lang.Object∏µ
+
+å å((
+%5java.lang.String"=org.apache.axiom.om.OMNamespace#getPrefix()Ljava/lang/String;*C
+
+__unknown_file ('
+%
+nsorg.apache.axiom.om.OMNamespace2getPrefix()ƒ¡
+
+å* å(>
+%6java.lang.String"Corg.apache.axiom.om.OMNamespace#getNamespaceURI()Ljava/lang/String;*C
+
+__unknown_file ('
+%
+nsorg.apache.axiom.om.OMNamespace2getNamespaceURI()◊
+‘
+
+å å(?
+%7java.lang.Object"__mapSet*8
+
+__unknown_file (
+
+	returnMapjava.util.Map*4
+
+__unknown_file (
+
+%5java.lang.String*4
+
+__unknown_file (
+
+%6java.lang.String*
+3*©
+3
+ä ä( èå
+
+ä ä(*
+%3boolean"java.util.Iterator#hasNext()Z*E
+
+__unknown_file ()
+'
+namespaceIteratorjava.util.Iterator2	hasNext()*
+2
+1*∂
+startingBlock
+á/ á(]¶
+£
+
+Ü Ü(2
+%8"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*G
+
+__unknown_file (+
+)
+env"org.apache.axiom.soap.SOAPEnvelopek
+i
+
+áY á(\)
+env"org.apache.axiom.soap.SOAPEnvelope"__annotation*"
+
+__unknown_file (
+
+%8*
+4*˘
+4
+à( à(?:8
+
+à, à(=
+%0java.util.HashMap"java.util.HashMaph
+f
+
+à( à(?
+%1"java.util.HashMap#<init>()V*5
+
+__unknown_file (
+
+%0java.util.HashMapg
+e
+
+à à(@
+	returnMapjava.util.Map"__id*5
+
+__unknown_file (
+
+%0java.util.HashMap‹Ÿ
+
+â5 â(S
+%2java.util.Iterator"Lorg.apache.axiom.om.OMElement#getAllDeclaredNamespaces()Ljava/util/Iterator;*G
+
+__unknown_file (+
+)
+env"org.apache.axiom.soap.SOAPEnvelope2getAllDeclaredNamespaces()u
+s
+
+â â(T'
+namespaceIteratorjava.util.Iterator"__id*6
+
+__unknown_file (
+
+%2java.util.Iterator*
+3*;
+1
+é é("*
+
+é é(
+
+	returnMapjava.util.Map:7
+
+á0 á(\)
+env"org.apache.axiom.soap.SOAPEnvelopeBLJ
+Hcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub

@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaNaoEncerrados#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultanaoencerrados/MDFeConsultaNaoEncerrados;
+com.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados#instance-init#
+com.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados#<init>()V

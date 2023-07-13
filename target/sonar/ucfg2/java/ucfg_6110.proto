@@ -1,0 +1,67 @@
+
+Jcom.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus#isRejeitado()Z
+ƒ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFRetornoStatus.javaÝ Ý("9*õ
+2
+à^ à(bÞÛ
+
+à^ à(t
+%5boolean"Ncom.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus#isJaInutilizado()Z*[
+
+__unknown_file (?=
+;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus2isJaInutilizado()*
+1*ð
+4
+àG à(KÖÓ
+
+àG à(Y
+%4boolean"Jcom.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus#isDuplicado()Z*[
+
+__unknown_file (?=
+;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus2isDuplicado()*
+2
+1*¶
+9
+Þ' Þ(6N
+L
+
+Þ' Þ(B
+%0java.util.List"__id*"
+
+__unknown_file (
+""ûø
+
+Þ' Þ(Q
+%1boolean",java.util.List#contains(Ljava/lang/Object;)Z*2
+
+__unknown_file (
+
+%0java.util.List*[
+
+__unknown_file (?=
+;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus2contains(Ljava/lang/Object;)N
+L
+
+ß% ß(>
+%2java.util.List"__id*"
+
+__unknown_file (
+""ûø
+
+ß% ß(M
+%3boolean",java.util.List#contains(Ljava/lang/Object;)Z*2
+
+__unknown_file (
+
+%2java.util.List*[
+
+__unknown_file (?=
+;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus2contains(Ljava/lang/Object;)*	
+2
+4
+1*%
+1
+à à(u"
+
+à à(u
+""B?=
+;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatusHP

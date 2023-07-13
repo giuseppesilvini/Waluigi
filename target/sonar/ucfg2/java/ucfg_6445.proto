@@ -1,0 +1,52 @@
+
+ncom.fincatto.documentofiscal.transformers.DFLocalDateTransformer#read(Ljava/lang/String;)Ljava/time/LocalDate;“
+ˆ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/transformers/DFLocalDateTransformer.java ("startingBlock*‰
+startingBlock (,Œ
+‰
+ (
+%14"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+datajava.lang.StringY
+W
+' (+
+datajava.lang.String"__annotation*#
+
+__unknown_file (
+
+%14*
+17*7
+16 (]"'
+ (]
+
+%1java.time.LocalDate*Ä
+17 (`
+^
+) ([(
+%0"java.time.format.DateTimeFormatter"__id*"
+
+__unknown_file (
+""Ë
+È
+ (\
+%1java.time.LocalDate"ljava.time.LocalDate#parse(Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/LocalDate;*3
+
+__unknown_file ("
+java.time.LocalDate*6
+
+__unknown_file (
+
+datajava.lang.String*F
+
+__unknown_file (*
+(
+%0"java.time.format.DateTimeFormatter*
+16:$
+ (+
+datajava.lang.StringBDB
+@com.fincatto.documentofiscal.transformers.DFLocalDateTransformerH

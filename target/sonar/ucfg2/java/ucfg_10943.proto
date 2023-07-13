@@ -1,0 +1,89 @@
+
+πcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub$ConsultaCadastro;ZLjavax/xml/namespace/QName;)Lorg/apache/axiom/soap/SOAPEnvelope;∞
+£/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub.javaÁ/ Á(9"7*T
+3
+Ï Ï( "C
+
+Ï Ï(!5
+3
+emptyEnvelope"org.apache.axiom.soap.SOAPEnvelope*™
+4
+Í Í(cìê
+
+Í Í(c
+
+%4void"Gorg.apache.axiom.om.OMContainer#addChild(Lorg/apache/axiom/om/OMNode;)V*B
+
+__unknown_file (&
+$
+%1org.apache.axiom.soap.SOAPBody*A
+
+__unknown_file (%
+#
+%3org.apache.axiom.om.OMElement2&addChild(Lorg/apache/axiom/om/OMNode;)*
+3*Ë
+5
+Í- Í(2Y
+W
+
+Í@ Í(Y
+%2javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""ˆÛ
+
+Í- Í(b#
+%3org.apache.axiom.om.OMElement"‘com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;*ì
+
+__unknown_file (w
+u
+paramlcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro*=
+
+__unknown_file (!
+
+%2javax.xml.namespace.QName*J
+
+__unknown_file (.
+,
+factory!org.apache.axiom.soap.SOAPFactory2HgetOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)*
+4*ç
+6
+È È(\í
+è
+
+È È(\3
+emptyEnvelope"org.apache.axiom.soap.SOAPEnvelope"__id*F
+
+__unknown_file (*
+(
+%0"org.apache.axiom.soap.SOAPEnvelope·ﬁ
+
+Í Í(#$
+%1org.apache.axiom.soap.SOAPBody"Lorg.apache.axiom.soap.SOAPEnvelope#getBody()Lorg/apache/axiom/soap/SOAPBody;*Q
+
+__unknown_file (5
+3
+emptyEnvelope"org.apache.axiom.soap.SOAPEnvelope2	getBody()*
+5*é
+7
+È? È(F˜Ù
+
+È? È([(
+%0"org.apache.axiom.soap.SOAPEnvelope"Zorg.apache.axiom.soap.SOAPFactory#getDefaultEnvelope()Lorg/apache/axiom/soap/SOAPEnvelope;*J
+
+__unknown_file (.
+,
+factory!org.apache.axiom.soap.SOAPFactory2getDefaultEnvelope()*
+6::
+
+Á: Á(d,
+factory!org.apache.axiom.soap.SOAPFactory:É
+
+Ád Á({u
+paramlcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro: 
+
+__unknown_file (
+"":9
+Áî Á(∫)
+elementQNamejavax.xml.namespace.QNameB_]
+[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub

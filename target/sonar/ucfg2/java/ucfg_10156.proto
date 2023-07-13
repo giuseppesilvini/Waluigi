@@ -1,0 +1,83 @@
+
+xcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeAutorizacao4Stub#optimizeContent(Ljavax/xml/namespace/QName;)ZŸ
+’/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/gerado/NFeAutorizacao4Stub.javaØ Ø(#"7* 
+2
+Ü Ü( ^
+\
+
+Ü Ü( $
+elementjavax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""¦
+£
+
+Ü Ü( $
+elementjavax.xml.namespace.QName"
+__arrayGet*?
+
+__unknown_file (#
+!
+%1javax.xml.namespace.QName[]*"
+
+__unknown_file (
+""*
+4
+1*%
+3
+Þ Þ("
+
+Þ Þ(
+""*’
+4
+Ý Ý(øõ
+
+Ý Ý(&
+%2boolean"5javax.xml.namespace.QName#equals(Ljava/lang/Object;)Z*A
+
+__unknown_file (%
+#
+opNamejavax.xml.namespace.QName*B
+
+__unknown_file (&
+$
+elementjavax.xml.namespace.QName2equals(Ljava/lang/Object;)*
+2
+3*Ì
+5
+Ü# Ü('µ
+²
+
+Ü# Ü(3!
+%1javax.xml.namespace.QName[]"__id*{
+
+__unknown_file (_*]L
+Jcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeAutorizacao4Stub"
+opNameArray*
+2*%
+6
+Ú Ú("
+
+Ú Ú(
+""*Ï
+7
+Ù Ù(µ
+²
+
+Ù Ù(!
+%0javax.xml.namespace.QName[]"__id*{
+
+__unknown_file (_*]L
+Jcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeAutorizacao4Stub"
+opNameArray*
+5
+6*%
+1
+á á("
+
+á á(
+"":1
+
+Ø$ Ø(J#
+opNamejavax.xml.namespace.QNameBNL
+Jcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeAutorizacao4StubP

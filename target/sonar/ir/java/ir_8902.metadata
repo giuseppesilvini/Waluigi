@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSFacade#consultaStatus(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe310/classes/statusservico/consulta/NFStatusServicoConsultaRetorno;

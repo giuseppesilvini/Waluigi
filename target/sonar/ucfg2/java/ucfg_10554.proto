@@ -1,0 +1,107 @@
+
+¯com.fincatto.documentofiscal.nfe400.webservices.WSNotaConsulta#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/consulta/NFNotaConsulta;‘
+†/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSNotaConsulta.java6 6(-"1*Ñ
+17, 7(@§¤
+70 7(>N
+%0Hcom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsulta"Hcom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsultaÕ
+Ò
+7, 7(@
+%1"Rcom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsulta#<init>()V*l
+
+__unknown_file (P
+N
+%0Hcom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsultaÛ
+Ø
+7 7(AX
+notaConsultaHcom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsulta"__id*l
+
+__unknown_file (P
+N
+%0Hcom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsulta±
+®
+8! 8(,0
+%2*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe400.webservices.WSNotaConsulta"
+configùö
+8! 8(:-
+%3'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*N
+
+__unknown_file (2
+0
+%2*com.fincatto.documentofiscal.nfe.NFeConfig2getAmbiente()™–
+8 8(;
+
+%4void"€com.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsulta#setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)V*v
+
+__unknown_file (Z
+X
+notaConsultaHcom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsulta*K
+
+__unknown_file (/
+-
+%3'com.fincatto.documentofiscal.DFAmbiente26setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)ØÕ
+9 9(,
+
+%5void"fcom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsulta#setChave(Ljava/lang/String;)V*v
+
+__unknown_file (Z
+X
+notaConsultaHcom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsulta*?
+
+__unknown_file (#
+!
+chaveDeAcessojava.lang.String2setChave(Ljava/lang/String;)U
+S
+:  :(;
+%6java.lang.String"__id*)
+
+__unknown_file (
+	CONSULTARÑÎ
+: :(<
+
+%7void"hcom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsulta#setServico(Ljava/lang/String;)V*v
+
+__unknown_file (Z
+X
+notaConsultaHcom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsulta*4
+
+__unknown_file (
+
+%6java.lang.String2setServico(Ljava/lang/String;)P
+N
+;. ;(K
+%8java.lang.String"__id*$
+
+__unknown_file (
+4.00><
+;# ;(-
+%9java.math.BigDecimal"java.math.BigDecimal¶
+³
+; ;(L
+%10"0java.math.BigDecimal#<init>(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%9java.math.BigDecimal*4
+
+__unknown_file (
+
+%8java.lang.StringÜÙ
+; ;(M
+%11void"kcom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsulta#setVersao(Ljava/math/BigDecimal;)V*v
+
+__unknown_file (Z
+X
+notaConsultaHcom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsulta*8
+
+__unknown_file (
+
+%9java.math.BigDecimal2!setVersao(Ljava/math/BigDecimal;)"f
+< <(Z
+X
+notaConsultaHcom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsulta:-
+6. 6(H!
+chaveDeAcessojava.lang.StringBB@
+>com.fincatto.documentofiscal.nfe400.webservices.WSNotaConsulta

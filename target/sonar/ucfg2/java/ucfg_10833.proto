@@ -1,0 +1,39 @@
+
+ôcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeConsultaProtocolo4Stub$NfeConsultaNFResult#generatePrefix(Ljava/lang/String;)Ljava/lang/String;•
+ò/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/gerado/NFeConsultaProtocolo4Stub.javaÃ( Ã(6"3*&
+2
+Œ Œ("
+
+Œ Œ(
+ns1*û
+3
+Õ Õ(ÑÅ
+
+Õ Õ(a
+%0boolean",java.lang.String#equals(Ljava/lang/Object;)Z*;
+
+__unknown_file (
+
+	namespacejava.lang.String*]
+
+__unknown_file (A?
+=http://www.portalfiscal.inf.br/nfe/wsdl/NFeConsultaProtocolo42equals(Ljava/lang/Object;)*
+2
+1*ˇ
+1
+– –(≈
+¬
+
+– –(P
+%1java.lang.String"Oorg.apache.axis2.databinding.utils.BeanUtil#getUniquePrefix()Ljava/lang/String;*K
+
+__unknown_file (/"-
++org.apache.axis2.databinding.utils.BeanUtil"&
+
+– –(Q
+
+%1java.lang.String:+
+
+Ã7 Ã(W
+	namespacejava.lang.StringBh"f
+dcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeConsultaProtocolo4Stub$NfeConsultaNFResult

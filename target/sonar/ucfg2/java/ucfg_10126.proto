@@ -1,0 +1,73 @@
+
+£com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;Lcom/fincatto/documentofiscal/mdfe3/webservices/statusservico/MDFeStatusServicoStub$MdfeDadosMsg;ZLjavax/xml/namespace/QName;)Lorg/apache/axiom/soap/SOAPEnvelope;ß
+ö/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/statusservico/MDFeStatusServicoStub.javaÅ/ Å(9"1*ö
+1
+ÉA É(H˜Ù
+
+ÉA É(](
+%0"org.apache.axiom.soap.SOAPEnvelope"Zorg.apache.axiom.soap.SOAPFactory#getDefaultEnvelope()Lorg/apache/axiom/soap/SOAPEnvelope;*J
+
+__unknown_file (.
+,
+factory!org.apache.axiom.soap.SOAPFactory2getDefaultEnvelope()í
+è
+
+É É(^3
+emptyEnvelope"org.apache.axiom.soap.SOAPEnvelope"__id*F
+
+__unknown_file (*
+(
+%0"org.apache.axiom.soap.SOAPEnvelope·ﬁ
+
+Ñ Ñ($
+%1org.apache.axiom.soap.SOAPBody"Lorg.apache.axiom.soap.SOAPEnvelope#getBody()Lorg/apache/axiom/soap/SOAPBody;*Q
+
+__unknown_file (5
+3
+emptyEnvelope"org.apache.axiom.soap.SOAPEnvelope2	getBody()Z
+X
+Ñ< Ñ(§
+%2javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""›⁄
+Ñ) Ñ(Æ#
+%3org.apache.axiom.om.OMElement"«com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub$MdfeDadosMsg#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;*Ü
+
+__unknown_file (j
+h
+param_com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub$MdfeDadosMsg*=
+
+__unknown_file (!
+
+%2javax.xml.namespace.QName*J
+
+__unknown_file (.
+,
+factory!org.apache.axiom.soap.SOAPFactory2HgetOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)îë
+Ñ Ñ(Ø
+
+%4void"Gorg.apache.axiom.om.OMContainer#addChild(Lorg/apache/axiom/om/OMNode;)V*B
+
+__unknown_file (&
+$
+%1org.apache.axiom.soap.SOAPBody*A
+
+__unknown_file (%
+#
+%3org.apache.axiom.om.OMElement2&addChild(Lorg/apache/axiom/om/OMNode;)"C
+
+Ö Ö(5
+3
+emptyEnvelope"org.apache.axiom.soap.SOAPEnvelope::
+
+Å: Å(j,
+factory!org.apache.axiom.soap.SOAPFactory:w
+Åk Å(◊h
+param_com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub$MdfeDadosMsg: 
+
+__unknown_file (
+"":8
+Å˜ Å(¢(
+methodQNamejavax.xml.namespace.QNameBVT
+Rcom.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub

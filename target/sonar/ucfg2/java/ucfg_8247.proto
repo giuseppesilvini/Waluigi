@@ -1,0 +1,27 @@
+
+ßcom.fincatto.documentofiscal.mdfe3.webservices.WSFacade#envioRecepcaoLote(Lcom/fincatto/documentofiscal/mdfe3/classes/lote/envio/MDFEnvioLote;)Lcom/fincatto/documentofiscal/mdfe3/classes/lote/envio/MDFEnvioLoteRetornoDados;‰
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSFacade.javaA$ A(5"1*­
+1B B(Å
+Â
+B B("C
+%0=com.fincatto.documentofiscal.mdfe3.webservices.WSRecepcaoLote"__id*k
+
+__unknown_file (O*M9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacade"
+wsRecepcaoLoteñî
+B B(>T
+%1Ncom.fincatto.documentofiscal.mdfe3.classes.lote.envio.MDFEnvioLoteRetornoDados"ácom.fincatto.documentofiscal.mdfe3.webservices.WSRecepcaoLote#envioRecepcao(Lcom/fincatto/documentofiscal/mdfe3/classes/lote/envio/MDFEnvioLote;)Lcom/fincatto/documentofiscal/mdfe3/classes/lote/envio/MDFEnvioLoteRetornoDados;*a
+
+__unknown_file (E
+C
+%0=com.fincatto.documentofiscal.mdfe3.webservices.WSRecepcaoLote*p
+
+__unknown_file (T
+R
+mdfEnvioLoteBcom.fincatto.documentofiscal.mdfe3.classes.lote.envio.MDFEnvioLote2SenvioRecepcao(Lcom/fincatto/documentofiscal/mdfe3/classes/lote/envio/MDFEnvioLote;)"b
+B B(?V
+T
+%1Ncom.fincatto.documentofiscal.mdfe3.classes.lote.envio.MDFEnvioLoteRetornoDados:^
+A6 A(OR
+mdfEnvioLoteBcom.fincatto.documentofiscal.mdfe3.classes.lote.envio.MDFEnvioLoteB;9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacadeH

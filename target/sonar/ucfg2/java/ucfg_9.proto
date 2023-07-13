@@ -1,0 +1,47 @@
+
+ecom.fincatto.documentofiscal.transformers.DFDateTransformer#write(Ljava/util/Date;)Ljava/lang/String;é
+É/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/transformers/DFDateTransformer.java ("startingBlock*Ñ
+startingBlock ()ä
+á
+ (
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+valuejava.util.DateW
+U
+# ((
+valuejava.util.Date"__annotation*"
+
+__unknown_file (
+
+%2*
+1*«
+1 (ù
+ö
+ (
+%0java.text.DateFormat"__id*l
+
+__unknown_file (P*N=
+;com.fincatto.documentofiscal.transformers.DFDateTransformer"
+DATE_FORMATÒÓ
+ (-
+%1java.lang.String"?java.text.DateFormat#format(Ljava/util/Date;)Ljava/lang/String;*8
+
+__unknown_file (
+
+%0java.text.DateFormat*5
+
+__unknown_file (
+
+valuejava.util.Date2format(Ljava/util/Date;)"$
+ (.
+
+%1java.lang.String:#
+ ((
+valuejava.util.DateB?=
+;com.fincatto.documentofiscal.transformers.DFDateTransformerH

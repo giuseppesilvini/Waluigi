@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.transformers.NFIndicadorPresencaCompradorTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFIndicadorPresencaComprador;
+com.fincatto.documentofiscal.nfe310.classes.nota.NFIndicadorPresencaComprador#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFIndicadorPresencaComprador;

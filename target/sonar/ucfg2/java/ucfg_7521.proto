@@ -1,0 +1,59 @@
+
+—com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub#toOM(Lcom/fincatto/documentofiscal/nfe310/webservices/nota/consulta/NfeConsulta2Stub$NfeDadosMsg;Z)Lorg/apache/axiom/om/OMElement;£
+ñ/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/nota/consulta/NfeConsulta2Stub.javaÃ
+* Ã
+(."1*æ
+1
+Œ
+ Œ
+(Y
+W
+
+Œ
+" Œ
+(G
+%0javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""–
+Õ
+
+Œ
+I Œ
+(}#
+%1org.apache.axiom.om.OMFactory"Sorg.apache.axiom.om.OMAbstractFactory#getOMFactory()Lorg/apache/axiom/om/OMFactory;*E
+
+__unknown_file ()"'
+%org.apache.axiom.om.OMAbstractFactory…∆
+
+Œ
+ Œ
+(~#
+%2org.apache.axiom.om.OMElement"¬com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeDadosMsg#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;*Å
+
+__unknown_file (e
+c
+paramZcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeDadosMsg*=
+
+__unknown_file (!
+
+%0javax.xml.namespace.QName*A
+
+__unknown_file (%
+#
+%1org.apache.axiom.om.OMFactory2HgetOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)"3
+
+Œ
+ Œ
+(%
+#
+%2org.apache.axiom.om.OMElement:q
+
+Ã
+/ Ã
+(Xc
+paramZcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeDadosMsg: 
+
+__unknown_file (
+""BRP
+Ncom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub

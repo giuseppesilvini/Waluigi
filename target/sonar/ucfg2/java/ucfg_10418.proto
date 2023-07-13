@@ -1,0 +1,46 @@
+
+°com.fincatto.documentofiscal.nfe310.transformers.NFTipoImpressaoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFTipoImpressao;û
+ì/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFTipoImpressaoTransformer.java	 	("startingBlock*ä
+startingBlock	 	(4ç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	- 	(3
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Â
+1
+ 
+(Ñ
+Å
+
+ 
+(4A
+%0;com.fincatto.documentofiscal.nfe310.classes.NFTipoImpressao"öcom.fincatto.documentofiscal.nfe310.classes.NFTipoImpressao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFTipoImpressao;*[
+
+__unknown_file (?"=
+;com.fincatto.documentofiscal.nfe310.classes.NFTipoImpressao*8
+
+__unknown_file (
+
+codigojava.lang.String"O
+
+ 
+(5C
+A
+%0;com.fincatto.documentofiscal.nfe310.classes.NFTipoImpressao:&
+	  	(3
+codigojava.lang.StringBOM
+Kcom.fincatto.documentofiscal.nfe310.transformers.NFTipoImpressaoTransformerH

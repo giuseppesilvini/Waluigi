@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;)Lorg/apache/axiom/soap/SOAPEnvelope;

@@ -1,0 +1,62 @@
+
+£com.fincatto.documentofiscal.nfe310.webservices.gerado.RecepcaoEventoStub$NfeCabecMsgE#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader;ž
+‘/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/gerado/RecepcaoEventoStub.javaª0 ª(="startingBlock* 
+startingBlock
+ª= ª(d—
+”
+
+© ©(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*@
+
+__unknown_file ($
+"
+qNamejavax.xml.namespace.QNamed
+b
+
+ª^ ª(c"
+qNamejavax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%3*
+1*ë
+1
+¬ ¬(
+þ
+
+¬ ¬(([
+%0Ucom.fincatto.documentofiscal.nfe310.webservices.gerado.RecepcaoEventoStub$NfeCabecMsg"__id*Œ
+
+__unknown_file (p*nX
+Vcom.fincatto.documentofiscal.nfe310.webservices.gerado.RecepcaoEventoStub$NfeCabecMsgE"
+localNfeCabecMsgY
+W
+
+¬7 ¬(L
+%1javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""Â¿
+
+¬ ¬(M&
+%2 javax.xml.stream.XMLStreamReader"¢com.fincatto.documentofiscal.nfe310.webservices.gerado.RecepcaoEventoStub$NfeCabecMsg#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader;*y
+
+__unknown_file (]
+[
+%0Ucom.fincatto.documentofiscal.nfe310.webservices.gerado.RecepcaoEventoStub$NfeCabecMsg*=
+
+__unknown_file (!
+
+%1javax.xml.namespace.QName2*getPullParser(Ljavax/xml/namespace/QName;)"6
+
+¬ ¬(N(
+&
+%2 javax.xml.stream.XMLStreamReader:0
+
+ª> ª(c"
+qNamejavax.xml.namespace.QNameBZX
+Vcom.fincatto.documentofiscal.nfe310.webservices.gerado.RecepcaoEventoStub$NfeCabecMsgEH

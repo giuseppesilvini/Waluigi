@@ -1,0 +1,60 @@
+
+ûcom.fincatto.documentofiscal.nfe400.classes.NFModalidadeFrete#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFModalidadeFrete;ê
+Ö/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFModalidadeFrete.java$ (1"5*ò
+2 (4â
+Ü
+ (4P
+modalidadeFrete=com.fincatto.documentofiscal.nfe400.classes.NFModalidadeFrete"__id*"
+
+__unknown_file (
+""Ù
+Ò
+ (4P
+modalidadeFrete=com.fincatto.documentofiscal.nfe400.classes.NFModalidadeFrete"
+__arrayGet*c
+
+__unknown_file (G
+E
+%0?com.fincatto.documentofiscal.nfe400.classes.NFModalidadeFrete[]*"
+
+__unknown_file (
+""*
+4
+1*m
+3 (&"^
+ ('R
+P
+modalidadeFrete=com.fincatto.documentofiscal.nfe400.classes.NFModalidadeFrete*
+4 (ˇ¸
+ (+
+%1java.lang.String"[com.fincatto.documentofiscal.nfe400.classes.NFModalidadeFrete#getCodigo()Ljava/lang/String;*n
+
+__unknown_file (R
+P
+modalidadeFrete=com.fincatto.documentofiscal.nfe400.classes.NFModalidadeFrete2getCodigo()÷”
+ (:
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*—
+57 (Hº
+π
+7 (QE
+%0?com.fincatto.documentofiscal.nfe400.classes.NFModalidadeFrete[]"Ücom.fincatto.documentofiscal.nfe400.classes.NFModalidadeFrete#values()[Lcom/fincatto/documentofiscal/nfe400/classes/NFModalidadeFrete;*]
+
+__unknown_file (A"?
+=com.fincatto.documentofiscal.nfe400.classes.NFModalidadeFrete*
+2*!
+1 ("
+ (
+"":&
+2 (E
+codigojava.lang.StringBA"?
+=com.fincatto.documentofiscal.nfe400.classes.NFModalidadeFreteH

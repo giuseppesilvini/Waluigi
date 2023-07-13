@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.validadores.DFListValidador#tamanho500(Ljava/util/List;Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFListValidador#validaTamanho(Ljava/util/List;ILjava/lang/String;)V

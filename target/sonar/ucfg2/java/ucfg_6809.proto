@@ -1,0 +1,66 @@
+
+Ðcom.fincatto.documentofiscal.cte300.webservices.WSCancelamento#cancelaNotaAssinada(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/evento/cancelamento/CTeRetornoCancelamento;‘
+†/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/WSCancelamento.java (."1*Ï
+1* (.¯
+¬
+* (a#
+%0org.apache.axiom.om.OMElement"–com.fincatto.documentofiscal.cte300.webservices.WSCancelamento#efetuaCancelamento(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.cte300.webservices.WSCancelamento*C
+
+__unknown_file ('
+%
+eventoAssinadoXmljava.lang.String*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.Stringˆ
+…
+ (b0
+omElementResultorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%0org.apache.axiom.om.OMElement´
+±
+ (3
+%1-com.fincatto.documentofiscal.cte300.CTeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.cte300.webservices.WSCancelamento"
+configüù
+ (),
+%2&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*Q
+
+__unknown_file (5
+3
+%1-com.fincatto.documentofiscal.cte300.CTeConfig2getPersister()½º
+M (g
+%3java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+omElementResultorg.apache.axiom.om.OMElement2
+toString() 
+ (h\
+%4Vcom.fincatto.documentofiscal.cte300.classes.evento.cancelamento.CTeRetornoCancelamento"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*J
+
+__unknown_file (.
+,
+%2&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%3java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)"j
+ (i^
+\
+%4Vcom.fincatto.documentofiscal.cte300.classes.evento.cancelamento.CTeRetornoCancelamento:+
+/ (H
+chaveAcessojava.lang.String:1
+I (g%
+eventoAssinadoXmljava.lang.StringBB@
+>com.fincatto.documentofiscal.cte300.webservices.WSCancelamento

@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.classes.CTIndicadorTomador#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTIndicadorTomador;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.cte300.classes.CTIndicadorTomador#getCodigo()Ljava/lang/String;

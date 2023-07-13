@@ -1,0 +1,46 @@
+
+•com.fincatto.documentofiscal.nfe400.transformers.NFProgramaEmissorTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFProcessoEmissor;†
+ï/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFProgramaEmissorTransformer.java	 	(!"startingBlock*ä
+startingBlock	! 	(6ç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	/ 	(5
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ô
+1
+ 
+( å
+â
+
+ 
+(6C
+%0=com.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor"ûcom.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFProcessoEmissor;*]
+
+__unknown_file (A"?
+=com.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor*8
+
+__unknown_file (
+
+codigojava.lang.String"Q
+
+ 
+(7E
+C
+%0=com.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor:&
+	" 	(5
+codigojava.lang.StringBQO
+Mcom.fincatto.documentofiscal.nfe400.transformers.NFProgramaEmissorTransformerH

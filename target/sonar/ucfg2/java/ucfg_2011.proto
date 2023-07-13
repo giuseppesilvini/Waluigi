@@ -1,0 +1,104 @@
+
+¦com.fincatto.documentofiscal.nfe310.webservices.WSLoteEnvio#getCabecalhoSOAP()Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/NfeAutorizacaoStub$NfeCabecMsgE;Ž
+ƒ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/WSLoteEnvio.javav v()"1*¨
+1w& w(7Á¾
+w* w(5[
+%0Ucom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsg"Ucom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgï
+ì
+w& w(7
+%1"_com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsg#<init>()V*y
+
+__unknown_file (]
+[
+%0Ucom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgò
+ï
+w w(8b
+	cabecalhoUcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsg"__id*y
+
+__unknown_file (]
+[
+%0Ucom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsg®
+«
+x x($0
+%2*com.fincatto.documentofiscal.nfe.NFeConfig"__id*g
+
+__unknown_file (K*I=
+;com.fincatto.documentofiscal.nfe310.webservices.WSLoteEnvio"
+configþ
+x x(-6
+%30com.fincatto.documentofiscal.DFUnidadeFederativa"`com.fincatto.documentofiscal.DFConfig#getCUF()Lcom/fincatto/documentofiscal/DFUnidadeFederativa;*N
+
+__unknown_file (2
+0
+%2*com.fincatto.documentofiscal.nfe.NFeConfig2getCUF()àÝ
+x x(=
+%4java.lang.String"Rcom.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;*T
+
+__unknown_file (8
+6
+%30com.fincatto.documentofiscal.DFUnidadeFederativa2getCodigoIbge()áÞ
+x x(>
+
+%5void"qcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsg#setCUF(Ljava/lang/String;)V*€
+
+__unknown_file (d
+b
+	cabecalhoUcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsg*4
+
+__unknown_file (
+
+%4java.lang.String2setCUF(Ljava/lang/String;)®
+«
+y! y(,0
+%6*com.fincatto.documentofiscal.nfe.NFeConfig"__id*g
+
+__unknown_file (K*I=
+;com.fincatto.documentofiscal.nfe310.webservices.WSLoteEnvio"
+configÌÉ
+y! y(8
+%7java.lang.String"Hcom.fincatto.documentofiscal.nfe.NFeConfig#getVersao()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+%6*com.fincatto.documentofiscal.nfe.NFeConfig2getVersao()ñî
+y y(9
+
+%8void"ycom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsg#setVersaoDados(Ljava/lang/String;)V*€
+
+__unknown_file (d
+b
+	cabecalhoUcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsg*4
+
+__unknown_file (
+
+%7java.lang.String2"setVersaoDados(Ljava/lang/String;)ÃÀ
+z/ z(;\
+%9Vcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgE"Vcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgEò
+ï
+z+ z(=
+%10"`com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgE#<init>()V*z
+
+__unknown_file (^
+\
+%9Vcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgEø
+õ
+z z(>g
+cabecalhoSOAPVcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgE"__id*z
+
+__unknown_file (^
+\
+%9Vcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgEÐÍ
+{ {(/
+%11void"¿com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgE#setNfeCabecMsg(Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/NfeAutorizacaoStub$NfeCabecMsg;)V*…
+
+__unknown_file (i
+g
+cabecalhoSOAPVcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgE*€
+
+__unknown_file (d
+b
+	cabecalhoUcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsg2gsetNfeCabecMsg(Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/NfeAutorizacaoStub$NfeCabecMsg;)"u
+| |(i
+g
+cabecalhoSOAPVcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgEB?=
+;com.fincatto.documentofiscal.nfe310.webservices.WSLoteEnvio

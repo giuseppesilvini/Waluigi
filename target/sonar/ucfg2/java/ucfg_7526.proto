@@ -1,0 +1,205 @@
+
+¨com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub#fromOM(Lorg/apache/axiom/om/OMElement;Ljava/lang/Class;Ljava/util/Map;)Ljava/lang/Object;£
+–/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/nota/consulta/NfeConsulta2Stub.javaó
+ ó
+(#"18*ß
+13
+ø
+ ø
+(;ÃÀ
+
+ø
+ ø
+(H
+%3boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+8
+11*‚
+14
+ö
+ ö
+(l"p
+
+ö
+ ö
+(lb
+`
+%2Zcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeDadosMsg*À
+15
+ö
+ ö
+(k§
+¤
+
+ö
+ ö
+(k`
+%2Zcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeDadosMsg"ècom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeDadosMsg$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe310/webservices/nota/consulta/NfeConsulta2Stub$NfeDadosMsg;*‚
+
+__unknown_file (f"d
+bcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeDadosMsg$Factory*D
+
+__unknown_file ((
+&
+%1 javax.xml.stream.XMLStreamReader*
+14* 
+16
+ö
+ ö
+('‡„
+
+ö
+B ö
+(j&
+%1 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+15*à
+18
+õ
+ õ
+(2ÃÀ
+
+õ
+ õ
+(?
+%0boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+13
+16*%
+1
+ ("
+
+ (
+""*‚
+4
+ü
+ ü
+(m"q
+
+ü
+ ü
+(mc
+a
+%8[com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE*Â
+5
+ü
+ ü
+(l«
+¨
+
+ü
+ ü
+(la
+%8[com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE"êcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe310/webservices/nota/consulta/NfeConsulta2Stub$NfeCabecMsgE;*ƒ
+
+__unknown_file (g"e
+ccom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE$Factory*D
+
+__unknown_file ((
+&
+%7 javax.xml.stream.XMLStreamReader*
+4*
+6
+ü
+ ü
+('‡„
+
+ü
+C ü
+(k&
+%7 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+5*İ
+8
+û
+ û
+(3ÃÀ
+
+û
+ û
+(@
+%6boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+6
+1*Š
+9
+ù
+ ù
+(u"y
+
+ù
+ ù
+(uk
+i
+%5ccom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeConsultaNF2Result*ã
+10
+ù
+ ù
+(tË
+È
+
+ù
+ ù
+(ti
+%5ccom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeConsultaNF2Result"úcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeConsultaNF2Result$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe310/webservices/nota/consulta/NfeConsulta2Stub$NfeConsultaNF2Result;*‹
+
+__unknown_file (o"m
+kcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeConsultaNF2Result$Factory*D
+
+__unknown_file ((
+&
+%4 javax.xml.stream.XMLStreamReader*
+9* 
+11
+ù
+ ù
+('‡„
+
+ù
+K ù
+(s&
+%4 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+10:4
+
+ó
+$ ó
+(N&
+paramorg.apache.axiom.om.OMElement:%
+
+ó
+O ó
+(j
+typejava.lang.Class:/
+ó
+k ó
+( 
+extraNamespacesjava.util.MapBRP
+Ncom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub

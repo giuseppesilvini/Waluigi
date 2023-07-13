@@ -1,0 +1,20 @@
+
+ com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;)Lorg/apache/axiom/soap/SOAPEnvelope;¡
+”/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/downloadnf/NfeDownloadNFStub.java’/ ’(9"1*Ã
+1
+“ “(÷ô
+
+“ “(+(
+%0"org.apache.axiom.soap.SOAPEnvelope"Zorg.apache.axiom.soap.SOAPFactory#getDefaultEnvelope()Lorg/apache/axiom/soap/SOAPEnvelope;*J
+
+__unknown_file (.
+,
+factory!org.apache.axiom.soap.SOAPFactory2getDefaultEnvelope()"8
+
+“ “(,*
+(
+%0"org.apache.axiom.soap.SOAPEnvelope::
+
+’: ’(i,
+factory!org.apache.axiom.soap.SOAPFactoryBPN
+Lcom.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub

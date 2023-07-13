@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTTipoPrazoDataEntregaTransformer#write(Lcom/fincatto/documentofiscal/cte300/classes/CTTipoPrazoDataEntrega;)Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.classes.CTTipoPrazoDataEntrega#getCodigo()Ljava/lang/String;

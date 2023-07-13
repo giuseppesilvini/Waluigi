@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.nota.CTeNotaEndereco#setCodigoMunicipio(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#exatamente7N(Ljava/lang/String;Ljava/lang/String;)V

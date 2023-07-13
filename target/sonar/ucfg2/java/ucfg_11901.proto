@@ -1,0 +1,15 @@
+
+pcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoCobrancaDuplicata#getDataVencimento()Ljava/time/LocalDate;ö
+è/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/classes/cte/CTInfoCobrancaDuplicata.java (&"1*‰
+1 (´
+®
+ ("
+%0java.time.LocalDate"__id*{
+
+__unknown_file (_*]I
+Gcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoCobrancaDuplicata"
+dataVencimento"'
+ (#
+
+%0java.time.LocalDateBKI
+Gcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoCobrancaDuplicataH

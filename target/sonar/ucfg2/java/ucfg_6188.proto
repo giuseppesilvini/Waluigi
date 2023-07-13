@@ -1,0 +1,27 @@
+
+¼com.fincatto.documentofiscal.cte300.webservices.WSFacade#consultaEnvioRecepcaoLote(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/enviolote/consulta/CTeConsultaRecLoteRet;‹
+€/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/WSFacade.javaK! K(:"1*Ä
+1L L(Õ
+Ò
+L L()K
+%0Ecom.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno"__id*s
+
+__unknown_file (W*U:
+8com.fincatto.documentofiscal.cte300.webservices.WSFacade"
+wsRecepcaoLoteRetornoòï
+L L(AZ
+%1Tcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLoteRet"¼com.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno#consultaLote(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/enviolote/consulta/CTeConsultaRecLoteRet;*i
+
+__unknown_file (M
+K
+%0Ecom.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno*;
+
+__unknown_file (
+
+	numRecibojava.lang.String2 consultaLote(Ljava/lang/String;)"h
+L L(B\
+Z
+%1Tcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLoteRet:)
+K; K(K
+	numRecibojava.lang.StringB<:
+8com.fincatto.documentofiscal.cte300.webservices.WSFacadeH

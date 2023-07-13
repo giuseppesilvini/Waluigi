@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoCartao#setCnpj(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#cnpj(Ljava/lang/String;)V

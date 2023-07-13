@@ -1,0 +1,45 @@
+
+ícom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub#toOM(Lcom/fincatto/documentofiscal/nfe/webservices/distribuicao/NFeDistribuicaoDFeSoapStub$NFeDistDFeInteresseResponse;Z)Lorg/apache/axiom/om/OMElement;©
+œ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe/webservices/distribuicao/NFeDistribuicaoDFeSoapStub.java©* ©(."1*ê
+1
+« «(Y
+W
+
+«" «(F
+%0javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""Ð
+Í
+
+«H «(|#
+%1org.apache.axiom.om.OMFactory"Sorg.apache.axiom.om.OMAbstractFactory#getOMFactory()Lorg/apache/axiom/om/OMFactory;*E
+
+__unknown_file ()"'
+%org.apache.axiom.om.OMAbstractFactoryõò
+
+« «(}#
+%2org.apache.axiom.om.OMElement"Øcom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub$NFeDistDFeInteresseResponse#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;*—
+
+__unknown_file ({
+y
+parampcom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub$NFeDistDFeInteresseResponse*=
+
+__unknown_file (!
+
+%0javax.xml.namespace.QName*A
+
+__unknown_file (%
+#
+%1org.apache.axiom.om.OMFactory2HgetOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)"3
+
+« «(~%
+#
+%2org.apache.axiom.om.OMElement:‡
+
+©/ ©(Wy
+parampcom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub$NFeDistDFeInteresseResponse: 
+
+__unknown_file (
+""BXV
+Tcom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub

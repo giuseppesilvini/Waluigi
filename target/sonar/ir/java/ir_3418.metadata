@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFInfoProdutorRuralReferenciada#setModeloDocumentoFiscal(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#exatamente2(Ljava/lang/String;Ljava/lang/String;)V

@@ -1,0 +1,36 @@
+
+¬com.fincatto.documentofiscal.cte200.transformers.CTTipoEntregaHorarioTransformer#write(Lcom/fincatto/documentofiscal/cte200/classes/CTTipoEntregaHorario;)Ljava/lang/String;£
+˜/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/transformers/CTTipoEntregaHorarioTransformer.java ("startingBlock*è
+startingBlock (8»
+¸
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*f
+
+__unknown_file (J
+H
+tipo@com.fincatto.documentofiscal.cte200.classes.CTTipoEntregaHorario‰
+†
+3 (7H
+tipo@com.fincatto.documentofiscal.cte200.classes.CTTipoEntregaHorario"__annotation*"
+
+__unknown_file (
+
+%1*
+1*°
+1 (ú÷
+ (
+%0java.lang.String"^com.fincatto.documentofiscal.cte200.classes.CTTipoEntregaHorario#getCodigo()Ljava/lang/String;*f
+
+__unknown_file (J
+H
+tipo@com.fincatto.documentofiscal.cte200.classes.CTTipoEntregaHorario2getCodigo()"$
+ ( 
+
+%0java.lang.String:T
+ (7H
+tipo@com.fincatto.documentofiscal.cte200.classes.CTTipoEntregaHorarioBTR
+Pcom.fincatto.documentofiscal.cte200.transformers.CTTipoEntregaHorarioTransformerH

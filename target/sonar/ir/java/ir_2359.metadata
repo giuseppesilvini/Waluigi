@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoVeiculo#setAnoModeloFabricacao(I)V
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#exatamente4(ILjava/lang/String;)V

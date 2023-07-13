@@ -1,0 +1,60 @@
+
+≤com.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaMotivoDesoneracaoICMS;ö
+è/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFNotaMotivoDesoneracaoICMS.java. (;"5*∫
+2 (@ï
+í
+ (@\
+motivoDesonaracaoGcom.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS"__id*"
+
+__unknown_file (
+""ä
+á
+ (@\
+motivoDesonaracaoGcom.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS"
+__arrayGet*m
+
+__unknown_file (Q
+O
+%0Icom.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS[]*"
+
+__unknown_file (
+""*
+4
+1*y
+3   (("j
+   ()^
+\
+motivoDesonaracaoGcom.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS*Ü
+4 (!ïí
+ (-
+%1java.lang.String"ecom.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS#getCodigo()Ljava/lang/String;*z
+
+__unknown_file (^
+\
+motivoDesonaracaoGcom.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS2getCodigo()÷”
+ (<
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*˘
+5C (^‰
+·
+C (gO
+%0Icom.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS[]"öcom.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS#values()[Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaMotivoDesoneracaoICMS;*g
+
+__unknown_file (K"I
+Gcom.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS*
+2*!
+1# #("
+# #(
+"":&
+< (O
+codigojava.lang.StringBK"I
+Gcom.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMSH

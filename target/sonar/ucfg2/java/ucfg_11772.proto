@@ -1,0 +1,104 @@
+
+©com.fincatto.documentofiscal.nfe400.webservices.WSEpec#comunicaEpec(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/epec/NFEnviaEventoEpecRetorno;Š
+~/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSEpec.java‚% ‚(1"1*å
+1
+ƒG ƒ(Ve
+c
+
+ƒh ƒ(t+
+%0%com.fincatto.documentofiscal.DFModelo"__id*"
+
+__unknown_file (
+""ƒ€
+
+ƒG ƒ(u`
+%1Zcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRecepcaoEvento4Stub$NfeResultMsg"Ýcom.fincatto.documentofiscal.nfe400.webservices.WSEpec#comunicaLoteRaw(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe400/webservices/gerado/NFeRecepcaoEvento4Stub$NfeResultMsg;*V
+
+__unknown_file (:8
+6com.fincatto.documentofiscal.nfe400.webservices.WSEpec*A
+
+__unknown_file (%
+#
+epecAssinadoXmljava.lang.String*I
+
+__unknown_file (-
++
+%0%com.fincatto.documentofiscal.DFModelo2JcomunicaLoteRaw(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)‡
+„
+
+ƒ ƒ(vp
+recepcaoLoteResultZcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRecepcaoEvento4Stub$NfeResultMsg"__id*~
+
+__unknown_file (b
+`
+%1Zcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRecepcaoEvento4Stub$NfeResultMsgæã
+
+„* „(N#
+%2org.apache.axiom.om.OMElement"‹com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRecepcaoEvento4Stub$NfeResultMsg#getExtraElement()Lorg/apache/axiom/om/OMElement;*Ž
+
+__unknown_file (r
+p
+recepcaoLoteResultZcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRecepcaoEvento4Stub$NfeResultMsg2getExtraElement()Š
+‡
+
+„ „(O0
+omElementResultorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%2org.apache.axiom.om.OMElement¿¼
+
+… …(6
+%3java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+omElementResultorg.apache.axiom.om.OMElement2
+toString()j
+h
+
+… …(7
+
+xmlRetornojava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.String«
+¨
+
+† †(0
+%4*com.fincatto.documentofiscal.nfe.NFeConfig"__id*b
+
+__unknown_file (F*D8
+6com.fincatto.documentofiscal.nfe400.webservices.WSEpec"
+configûø
+
+† †(),
+%5&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*N
+
+__unknown_file (2
+0
+%4*com.fincatto.documentofiscal.nfe.NFeConfig2getPersister()¤¡
+
+† †(ZV
+%6Pcom.fincatto.documentofiscal.nfe400.classes.evento.epec.NFEnviaEventoEpecRetorno"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*J
+
+__unknown_file (.
+,
+%5&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*<
+
+__unknown_file ( 
+
+
+xmlRetornojava.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)"f
+
+† †([X
+V
+%6Pcom.fincatto.documentofiscal.nfe400.classes.evento.epec.NFEnviaEventoEpecRetorno:1
+
+‚2 ‚(H#
+epecAssinadoXmljava.lang.StringB:8
+6com.fincatto.documentofiscal.nfe400.webservices.WSEpec

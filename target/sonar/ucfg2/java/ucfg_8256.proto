@@ -1,0 +1,32 @@
+
+ƒcom.fincatto.documentofiscal.mdfe3.webservices.WSFacade#consultaNaoEncerrados(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultanaoencerrados/MDFeConsultaNaoEncerradosRetorno;ã
+/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSFacade.javaµ, µ(A"1*Ñ
+1
+∂ ∂(Ÿ
+÷
+
+∂ ∂(+L
+%0Fcom.fincatto.documentofiscal.mdfe3.webservices.WSConsultaNaoEncerrados"__id*t
+
+__unknown_file (X*V9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacade"
+wsConsultaNaoEncerradosùö
+
+∂ ∂(Gg
+%1acom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerradosRetorno"”com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaNaoEncerrados#consultaNaoEncerrados(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultanaoencerrados/MDFeConsultaNaoEncerradosRetorno;*j
+
+__unknown_file (N
+L
+%0Fcom.fincatto.documentofiscal.mdfe3.webservices.WSConsultaNaoEncerrados*6
+
+__unknown_file (
+
+cnpjjava.lang.String2)consultaNaoEncerrados(Ljava/lang/String;)"w
+
+∂ ∂(Hi
+g
+%1acom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerradosRetorno:&
+
+µB µ(S
+cnpjjava.lang.StringB;9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacadeH

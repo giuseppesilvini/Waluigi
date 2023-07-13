@@ -1,0 +1,99 @@
+
+€com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResultType0#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;©
+ú/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte/webservices/distribuicao/CTeDistribuicaoDFeSoapStub.javaΩ	- Ω	(9"startingBlock*ª
+startingBlockΩ	9 Ω	(ìù
+ö
+
+º	 º	(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*F
+
+__unknown_file (*
+(
+parentQNamejavax.xml.namespace.QNamej
+h
+
+Ω	Z Ω	(e(
+parentQNamejavax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%3ù
+ö
+
+º	 º	(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*F
+
+__unknown_file (*
+(
+factoryorg.apache.axiom.om.OMFactoryl
+j
+Ω	ã Ω	(í(
+factoryorg.apache.axiom.om.OMFactory"__annotation*"
+
+__unknown_file (
+
+%4*
+1*ø
+1
+æ	o æ	(sÉÄ
+
+æ	D æ	(n{
+%0ucom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResultType0$1"ucom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResultType0$1Ü
+É
+
+æ	@ ƒ	(
+%1"uorg.apache.axis2.databinding.ADBDataSource#<init>(Lorg/apache/axis2/databinding/ADBBean;Ljavax/xml/namespace/QName;)V*ô
+
+__unknown_file (}
+{
+%0ucom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResultType0$1*ì
+
+__unknown_file (wu
+scom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResultType0*F
+
+__unknown_file (*
+(
+parentQNamejavax.xml.namespace.QName·
+ﬁ
+
+æ	 ƒ	(.
+
+dataSource org.apache.axiom.om.OMDataSource"__id*ô
+
+__unknown_file (}
+{
+%0ucom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResultType0$1˛˚
+
+≈	 ≈	(C*
+%2$org.apache.axiom.om.OMSourcedElement"íorg.apache.axiom.om.OMFactory#createOMElement(Lorg/apache/axiom/om/OMDataSource;Ljavax/xml/namespace/QName;)Lorg/apache/axiom/om/OMSourcedElement;*F
+
+__unknown_file (*
+(
+factoryorg.apache.axiom.om.OMFactory*L
+
+__unknown_file (0
+.
+
+dataSource org.apache.axiom.om.OMDataSource*F
+
+__unknown_file (*
+(
+parentQNamejavax.xml.namespace.QName2NcreateOMElement(Lorg/apache/axiom/om/OMDataSource;Ljavax/xml/namespace/QName;)":
+
+≈	 ≈	(D,
+*
+%2$org.apache.axiom.om.OMSourcedElement:6
+
+Ω	: Ω	(f(
+parentQNamejavax.xml.namespace.QName:7
+Ω	g Ω	(í(
+factoryorg.apache.axiom.om.OMFactoryBwu
+scom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResultType0H

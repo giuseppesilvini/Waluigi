@@ -1,0 +1,11 @@
+com.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeContingenciaOffline20#getQRCode()Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20#createHash(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.StringBuilder#instance-init#
+com.fincatto.documentofiscal.DFAmbiente#getCodigo()Ljava/lang/String;
+java.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+java.lang.StringBuilder#<init>()V
+java.time.format.DateTimeFormatter#format(Ljava/time/temporal/TemporalAccessor;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20#toHex(Ljava/lang/String;)Ljava/lang/String;
+java.time.format.DateTimeFormatter#ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;
+java.lang.StringBuilder#append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+java.lang.StringBuilder#toString()Ljava/lang/String;

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.evento.inutilizacao.CTEventoInutilizacaoDados#setJustificativa(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#tamanho15a255(Ljava/lang/String;Ljava/lang/String;)V

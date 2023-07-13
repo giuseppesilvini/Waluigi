@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;)Lorg/apache/axiom/soap/SOAPEnvelope;

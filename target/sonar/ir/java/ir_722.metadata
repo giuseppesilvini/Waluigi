@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte200.transformers.CTTipoServicoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTTipoServico;
+com.fincatto.documentofiscal.cte200.classes.CTTipoServico#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTTipoServico;

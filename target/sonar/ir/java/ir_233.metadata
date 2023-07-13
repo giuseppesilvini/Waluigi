@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.transformers.DFZonedDateTimeTransformer#write(Ljava/time/ZonedDateTime;)Ljava/lang/String;
+java.time.format.DateTimeFormatter#format(Ljava/time/temporal/TemporalAccessor;)Ljava/lang/String;

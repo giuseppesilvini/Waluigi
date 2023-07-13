@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.classes.nota.MDFInfo#getChaveAcesso()Ljava/lang/String;
+java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;

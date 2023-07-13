@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoImpostoTributacaoISSQN#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoImpostoTributacaoISSQN;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoImpostoTributacaoISSQN#getCodigo()Ljava/lang/String;

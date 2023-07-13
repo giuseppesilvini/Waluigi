@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.classes.nota.MDFInfoEmitenteEndereco#setSiglaUF(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#exatamente2(Ljava/lang/String;Ljava/lang/String;)V

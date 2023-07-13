@@ -1,0 +1,192 @@
+
+¨com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub#fromOM(Lorg/apache/axiom/om/OMElement;Ljava/lang/Class;Ljava/util/Map;)Ljava/lang/Object;ß
+ö/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/retornorecepcao/MDFeRetRecepcaoStub.javaÅ Å(#"startingBlock*‡
+13
+Ü Ü(~ƒ¡
+Ü Ü(ã
+%3boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+8
+11*â
+14Ñ Ñ(Ø"v
+Ñ Ñ(Øg
+e
+%2_com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeDadosMsg*÷
+15Ñ Ñ(Æº
+π
+Ñ Ñ(Æe
+%2_com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeDadosMsg"Úcom.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeDadosMsg$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/mdfe3/webservices/retornorecepcao/MDFeRetRecepcaoStub$MdfeDadosMsg;*á
+
+__unknown_file (k"i
+gcom.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeDadosMsg$Factory*D
+
+__unknown_file ((
+&
+%1 javax.xml.stream.XMLStreamReader*
+14*¢
+16
+Ñ Ñ(âÜ
+ÑÖ Ñ(≠&
+%1 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+15*·
+18
+É É(uƒ¡
+É É(Ç
+%0boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+13
+16*%
+1
+è è("
+
+è è(
+""*Ø
+startingBlockÅ# Å(è§
+°
+
+Ä Ä(!
+%10"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElementi
+g
+
+ÅH Å(M&
+paramorg.apache.axiom.om.OMElement"__annotation*#
+
+__unknown_file (
+
+%10ï
+í
+
+Ä Ä(!
+%11"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*5
+
+__unknown_file (
+
+typejava.lang.ClassZ
+X
+
+Åe Å(i
+typejava.lang.Class"__annotation*#
+
+__unknown_file (
+
+%11û
+õ
+
+Ä Ä(!
+%12"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*>
+
+__unknown_file ("
+ 
+extraNamespacesjava.util.Mapd
+b
+Å Å(é 
+extraNamespacesjava.util.Map"__annotation*#
+
+__unknown_file (
+
+%12*
+18*â
+4ä ä(∞"w
+ä ä(∞h
+f
+%8`com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeCabecMsgE*ÿ
+5ä ä(Ø¿
+Ω
+ä ä(Øf
+%8`com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeCabecMsgE"Ùcom.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeCabecMsgE$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/mdfe3/webservices/retornorecepcao/MDFeRetRecepcaoStub$MdfeCabecMsgE;*à
+
+__unknown_file (l"j
+hcom.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeCabecMsgE$Factory*D
+
+__unknown_file ((
+&
+%7 javax.xml.stream.XMLStreamReader*
+4*†
+6
+ä ä(âÜ
+äÜ ä(Æ&
+%7 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+5*ﬁ
+8
+â â(vƒ¡
+â â(É
+%6boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+6
+1*ë
+9á á(∏"
+á á(∏p
+n
+%5hcom.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeRetRecepcaoResult*˘
+10á á(∑‡
+›
+á á(∑n
+%5hcom.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeRetRecepcaoResult"Ñcom.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeRetRecepcaoResult$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/mdfe3/webservices/retornorecepcao/MDFeRetRecepcaoStub$MdfeRetRecepcaoResult;*ê
+
+__unknown_file (t"r
+pcom.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeRetRecepcaoResult$Factory*D
+
+__unknown_file ((
+&
+%4 javax.xml.stream.XMLStreamReader*
+9*¢
+11
+á á(âÜ
+áé á(∂&
+%4 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+10:4
+
+Å$ Å(N&
+paramorg.apache.axiom.om.OMElement:%
+
+ÅO Å(j
+typejava.lang.Class:/
+Åk Å(é 
+extraNamespacesjava.util.MapBVT
+Rcom.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub

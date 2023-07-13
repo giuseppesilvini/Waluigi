@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaCOFINS#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoSituacaoTributariaCOFINS;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaCOFINS#getCodigo()Ljava/lang/String;

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser#isEmitidaContingenciaSCVAN()Z
+java.lang.String#matches(Ljava/lang/String;)Z

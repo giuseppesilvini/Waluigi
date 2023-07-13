@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemProdutoDeclaracaoImportacaoAdicao#setNumeroAtoConcessorioDrawback(Ljava/math/BigInteger;)V
+com.fincatto.documentofiscal.validadores.DFBigIntegerValidador#tamanho11(Ljava/math/BigInteger;Ljava/lang/String;)V

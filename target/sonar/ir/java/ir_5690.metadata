@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoVeiculoCorTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoVeiculoCor;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoVeiculoCor#getCodigo()Ljava/lang/String;

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.nota.CTeNotaInfoCTeNormalInfoCargaInformacoesQuantidadeCarga#setQuantidade(Ljava/math/BigDecimal;)V
+com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#validaTamanho(Ljava/math/BigDecimal;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;)Ljava/lang/String;

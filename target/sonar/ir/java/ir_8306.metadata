@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemImpostoPISOutrasOperacoes#setValorAliquota(Ljava/math/BigDecimal;)V
+java.lang.IllegalStateException#instance-init#
+com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#tamanho15Com4CasasDecimais(Ljava/math/BigDecimal;Ljava/lang/String;)Ljava/lang/String;
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V

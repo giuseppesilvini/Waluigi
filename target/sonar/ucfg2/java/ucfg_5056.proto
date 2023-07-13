@@ -1,0 +1,54 @@
+
+‘com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400$6#getNfceRecepcaoEvento(Lcom/fincatto/documentofiscal/DFAmbiente;)Ljava/lang/String;‘
+„/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFAutorizador400.javaˆ ˆ(+"startingBlock*Â
+startingBlock
+ˆ+ ˆ(F¨
+¥
+
+‡ ‡(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Q
+
+__unknown_file (5
+3
+ambiente'com.fincatto.documentofiscal.DFAmbienteu
+s
+
+ˆ= ˆ(E3
+ambiente'com.fincatto.documentofiscal.DFAmbiente"__annotation*"
+
+__unknown_file (
+
+%2*
+1*è
+1
+‰ ‰(|
+z
+
+‰ ‰(B
+%0<com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400"__id*"
+
+__unknown_file (
+""°­
+
+‰ ‰(7
+%1java.lang.String"com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400#getNfceRecepcaoEvento(Lcom/fincatto/documentofiscal/DFAmbiente;)Ljava/lang/String;*`
+
+__unknown_file (D
+B
+%0<com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400*Q
+
+__unknown_file (5
+3
+ambiente'com.fincatto.documentofiscal.DFAmbiente2@getNfceRecepcaoEvento(Lcom/fincatto/documentofiscal/DFAmbiente;)"&
+
+‰ ‰(8
+
+%1java.lang.String:A
+
+ˆ, ˆ(E3
+ambiente'com.fincatto.documentofiscal.DFAmbienteBB@
+>com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400$6H

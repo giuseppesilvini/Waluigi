@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe310.classes.NFRetornoStatus#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFRetornoStatus;
+java.lang.Integer#parseInt(Ljava/lang/String;)I
+com.fincatto.documentofiscal.nfe310.classes.NFRetornoStatus#valueOfCodigo(I)Lcom/fincatto/documentofiscal/nfe310/classes/NFRetornoStatus;

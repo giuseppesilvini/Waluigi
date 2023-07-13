@@ -1,0 +1,40 @@
+
+µcom.fincatto.documentofiscal.mdfe3.transformers.MDFTipoUnidadeTransporteTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoUnidadeTransporte;¦
+›/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/transformers/MDFTipoUnidadeTransporteTransformer.java$ (("startingBlock*ˆ
+startingBlock( (6Œ
+‰
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+valuejava.lang.StringY
+W
+0 (5
+valuejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1* 
+1 ('³
+°
+ (<M
+%0Gcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoUnidadeTransporte"²com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoUnidadeTransporte#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoUnidadeTransporte;*g
+
+__unknown_file (K"I
+Gcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoUnidadeTransporte*7
+
+__unknown_file (
+
+valuejava.lang.String"[
+ (=O
+M
+%0Gcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoUnidadeTransporte:%
+) (5
+valuejava.lang.StringBWU
+Scom.fincatto.documentofiscal.mdfe3.transformers.MDFTipoUnidadeTransporteTransformerH

@@ -1,0 +1,39 @@
+
+˜com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeConsultaNF2Result#generatePrefix(Ljava/lang/String;)Ljava/lang/String;£
+–/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/nota/consulta/NfeConsulta2Stub.javaª( ª(6"3*&
+2
+¬ ¬("
+
+¬ ¬(
+ns1*•
+3
+« «(ûø
+
+« «(X
+%0boolean",java.lang.String#equals(Ljava/lang/Object;)Z*;
+
+__unknown_file (
+
+	namespacejava.lang.String*T
+
+__unknown_file (86
+4http://www.portalfiscal.inf.br/nfe/wsdl/NfeConsulta22equals(Ljava/lang/Object;)*
+2
+1*ÿ
+1
+® ®(Å
+Â
+
+® ®(P
+%1java.lang.String"Oorg.apache.axis2.databinding.utils.BeanUtil#getUniquePrefix()Ljava/lang/String;*K
+
+__unknown_file (/"-
++org.apache.axis2.databinding.utils.BeanUtil"&
+
+® ®(Q
+
+%1java.lang.String:+
+
+ª7 ª(W
+	namespacejava.lang.StringBg"e
+ccom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeConsultaNF2Result

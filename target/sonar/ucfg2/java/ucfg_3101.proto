@@ -1,0 +1,36 @@
+
+îcom.fincatto.documentofiscal.transformers.DFUnidadeFederativaTransformer#write(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Ljava/lang/String;õ
+ê/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/transformers/DFUnidadeFederativaTransformer.java ("startingBlock*‚
+startingBlock (D∏
+µ
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*c
+
+__unknown_file (G
+E
+unidadeFederativa0com.fincatto.documentofiscal.DFUnidadeFederativaÜ
+É
+2 (CE
+unidadeFederativa0com.fincatto.documentofiscal.DFUnidadeFederativa"__annotation*"
+
+__unknown_file (
+
+%1*
+1*•
+1 ( ÔÏ
+ (0
+%0java.lang.String"Rcom.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;*c
+
+__unknown_file (G
+E
+unidadeFederativa0com.fincatto.documentofiscal.DFUnidadeFederativa2getCodigoIbge()"$
+ (1
+
+%0java.lang.String:Q
+ (CE
+unidadeFederativa0com.fincatto.documentofiscal.DFUnidadeFederativaBLJ
+Hcom.fincatto.documentofiscal.transformers.DFUnidadeFederativaTransformerH

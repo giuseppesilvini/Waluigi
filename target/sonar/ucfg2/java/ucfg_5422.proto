@@ -1,0 +1,27 @@
+
+Òcom.fincatto.documentofiscal.nfe400.webservices.WSFacade#getLoteAssinado(Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvio;)Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvio;‹
+€/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSFacade.javaT T(&"1*ý
+1U U(Á
+¾
+U U(A
+%0;com.fincatto.documentofiscal.nfe400.webservices.WSLoteEnvio"__id*i
+
+__unknown_file (M*K:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacade"
+wsLoteEnvioÑÎ
+U U(5H
+%1Bcom.fincatto.documentofiscal.nfe400.classes.lote.envio.NFLoteEnvio"Õcom.fincatto.documentofiscal.nfe400.webservices.WSLoteEnvio#getLoteAssinado(Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvio;)Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvio;*_
+
+__unknown_file (C
+A
+%0;com.fincatto.documentofiscal.nfe400.webservices.WSLoteEnvio*h
+
+__unknown_file (L
+J
+loteBcom.fincatto.documentofiscal.nfe400.classes.lote.envio.NFLoteEnvio2UgetLoteAssinado(Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvio;)"V
+U U(6J
+H
+%1Bcom.fincatto.documentofiscal.nfe400.classes.lote.envio.NFLoteEnvio:V
+T' T(=J
+loteBcom.fincatto.documentofiscal.nfe400.classes.lote.envio.NFLoteEnvioB<:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacadeH

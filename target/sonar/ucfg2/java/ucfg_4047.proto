@@ -1,0 +1,60 @@
+
+úcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPag#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoInfPag;è
+Ñ/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoInfPag.java  (-"5*è
+2 ('Ö
+Ç
+ ('L
+tipoEmitente<com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPag"__id*"
+
+__unknown_file (
+""Ô
+Ï
+ ('L
+tipoEmitente<com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPag"
+__arrayGet*b
+
+__unknown_file (F
+D
+%0>com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPag[]*"
+
+__unknown_file (
+""*
+4
+1*i
+3 (#"Z
+ ($N
+L
+tipoEmitente<com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPag*ˇ
+4 (˙˜
+ ((
+%1java.lang.String"Zcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPag#getCodigo()Ljava/lang/String;*j
+
+__unknown_file (N
+L
+tipoEmitente<com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPag2getCodigo()ÍÁ
+ (A
+%2boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
+2
+3*Õ
+5* (7∏
+µ
+* (@D
+%0>com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPag[]"Ñcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPag#values()[Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoInfPag;*\
+
+__unknown_file (@">
+<com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPag*
+2*!
+1 ("
+ (
+"":&
+. (A
+codigojava.lang.StringB@">
+<com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPagH

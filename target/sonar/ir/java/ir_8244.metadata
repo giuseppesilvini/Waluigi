@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub#getUniqueSuffix()Ljava/lang/String;
+java.lang.System#currentTimeMillis()J

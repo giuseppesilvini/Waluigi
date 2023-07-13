@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemImpostoICMSSN900#setPercentualAliquotaImposto(Ljava/math/BigDecimal;)V
+com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#tamanho7ComAte4CasasDecimais(Ljava/math/BigDecimal;Ljava/lang/String;)Ljava/lang/String;

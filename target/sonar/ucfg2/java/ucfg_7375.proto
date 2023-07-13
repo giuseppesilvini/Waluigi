@@ -1,0 +1,15 @@
+
+tcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoISSQNTotal#getDataPrestacaoServico()Ljava/time/LocalDate;ò
+ç/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoISSQNTotal.javau u(,"1*Ë
+1v v(Ø
+¨
+v v((
+%0java.time.LocalDate"__id*
+
+__unknown_file (c*aG
+Ecom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoISSQNTotal"
+dataPrestacaoServico"'
+v v()
+
+%0java.time.LocalDateBIG
+Ecom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoISSQNTotalH

@@ -1,0 +1,30 @@
+
+¾com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoFormaPagamento#setValorPagamento(Ljava/math/BigDecimal;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoFormaPagamento;œ
+‘/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoFormaPagamento.java1$ 1(5"1*¬
+12 2(3”
+‘
+2 2(q
+%0java.lang.String"•com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#tamanho15Com2CasasDecimais(Ljava/math/BigDecimal;Ljava/lang/String;)Ljava/lang/String;*^
+
+__unknown_file (B"@
+>com.fincatto.documentofiscal.validadores.DFBigDecimalValidador*D
+
+__unknown_file ((
+&
+valorPagamentojava.math.BigDecimal*/
+
+__unknown_file (
+Valor Pagamentoª
+§
+2 2(q_K
+Icom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoFormaPagamento"
+valorPagamento"__id*4
+
+__unknown_file (
+
+%0java.lang.String"Y
+3 3(MK
+Icom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoFormaPagamento:2
+16 1(U&
+valorPagamentojava.math.BigDecimalBMK
+Icom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoFormaPagamentoH

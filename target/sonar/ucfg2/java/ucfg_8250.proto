@@ -1,0 +1,27 @@
+
+ªcom.fincatto.documentofiscal.mdfe3.webservices.WSFacade#consultaMdfe(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/consulta/MDFeNotaConsultaRetorno;‰
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSFacade.javac# c(/"1*œ
+1d d(Å
+Â
+d d("C
+%0=com.fincatto.documentofiscal.mdfe3.webservices.WSNotaConsulta"__id*k
+
+__unknown_file (O*M9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacade"
+wsNotaConsultaÞÛ
+d d(>V
+%1Pcom.fincatto.documentofiscal.mdfe3.classes.nota.consulta.MDFeNotaConsultaRetorno"°com.fincatto.documentofiscal.mdfe3.webservices.WSNotaConsulta#consultaNota(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/consulta/MDFeNotaConsultaRetorno;*a
+
+__unknown_file (E
+C
+%0=com.fincatto.documentofiscal.mdfe3.webservices.WSNotaConsulta*?
+
+__unknown_file (#
+!
+chaveDeAcessojava.lang.String2 consultaNota(Ljava/lang/String;)"d
+d d(?X
+V
+%1Pcom.fincatto.documentofiscal.mdfe3.classes.nota.consulta.MDFeNotaConsultaRetorno:-
+c0 c(J!
+chaveDeAcessojava.lang.StringB;9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacadeH

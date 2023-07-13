@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.transformers.DFUnidadeFederativaTransformer#write(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Ljava/lang/String;
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;

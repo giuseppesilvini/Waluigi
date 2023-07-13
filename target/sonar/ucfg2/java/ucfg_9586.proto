@@ -1,0 +1,42 @@
+
+»com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub#toOM(Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/NfeAutorizacaoStub$NfeCabecMsgE;Z)Lorg/apache/axiom/om/OMElement;û
+ë/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/gerado/NfeAutorizacaoStub.javaÙ	* Ù	(."1*∏
+1
+ˆ	 ˆ	(Y
+W
+
+ˆ	" ˆ	(J
+%0javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""—
+Œ
+ˆ	L ˆ	(Ä#
+%1org.apache.axiom.om.OMFactory"Sorg.apache.axiom.om.OMAbstractFactory#getOMFactory()Lorg/apache/axiom/om/OMFactory;*E
+
+__unknown_file ()"'
+%org.apache.axiom.om.OMAbstractFactory¡æ
+ˆ	 ˆ	(Å#
+%2org.apache.axiom.om.OMElement"æcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgE#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;*}
+
+__unknown_file (a
+_
+paramVcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgE*=
+
+__unknown_file (!
+
+%0javax.xml.namespace.QName*A
+
+__unknown_file (%
+#
+%1org.apache.axiom.om.OMFactory2HgetOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)"4
+ˆ	 ˆ	(Ç%
+#
+%2org.apache.axiom.om.OMElement:m
+
+Ù	/ Ù	([_
+paramVcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgE: 
+
+__unknown_file (
+""BMK
+Icom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub

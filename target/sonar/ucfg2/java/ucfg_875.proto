@@ -1,0 +1,86 @@
+
+Ucom.fincatto.documentofiscal.DFPais#getListByDesc(Ljava/lang/String;)Ljava/util/List;w
+k/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/DFPais.javaÉ É(,"1*­
+1
+Ê Ê(Õ
+Ò
+
+Ê Ê(,+
+%0%com.fincatto.documentofiscal.DFPais[]"Rcom.fincatto.documentofiscal.DFPais#values()[Lcom/fincatto/documentofiscal/DFPais;*C
+
+__unknown_file ('"%
+#com.fincatto.documentofiscal.DFPaisò
+ï
+
+Ê Ê(-
+%1java.util.stream.Stream"Ejava.util.Arrays#stream([Ljava/lang/Object;)Ljava/util/stream/Stream;*0
+
+__unknown_file ("
+java.util.Arrays*I
+
+__unknown_file (-
++
+%0%com.fincatto.documentofiscal.DFPais[]x
+v
+
+Ë Ë(^"
+%2java.util.function.Predicate"__declareFunction*1
+
+__unknown_file (
+__sonar_lambda_2$
+Š
+
+__unknown_file (.
+"
+%2java.util.function.Predicate"
+codigo"__id*8
+
+__unknown_file (
+
+codigojava.lang.String
+š
+
+__unknown_file (3
+"
+%2java.util.function.Predicate"
+DFPais.this"__id*C
+
+__unknown_file ('"%
+#com.fincatto.documentofiscal.DFPais®«
+
+Ê Ë(_
+%5java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%1java.util.stream.Stream*@
+
+__unknown_file ($
+"
+%2java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)°
+­
+
+Ì Ì(, 
+%6java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*;
+
+__unknown_file ("
+java.util.stream.Collectorsš—
+
+Ê Ì(-
+%7java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*;
+
+__unknown_file (
+
+%5java.util.stream.Stream*>
+
+__unknown_file ("
+ 
+%6java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)"$
+
+Ê Ì(.
+
+%7java.util.List:(
+
+É- É(:
+codigojava.lang.StringB'"%
+#com.fincatto.documentofiscal.DFPaisH

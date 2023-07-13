@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoVeiculo#setPesoLiquido(Ljava/math/BigDecimal;)V
+com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#tamanho9Com4CasasDecimais(Ljava/math/BigDecimal;Ljava/lang/String;)Ljava/lang/String;

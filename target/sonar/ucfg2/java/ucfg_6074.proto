@@ -1,0 +1,405 @@
+
+³com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao#geraDadosInutilizacao(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/inutilizacao/NFEnviaEventoInutilizacao;‘
+†/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/WSInutilizacao.javaA& A(;"1*§Z
+1B7 B(VÉÆ
+B; B(T_
+%0Ycom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEnviaEventoInutilizacao"Ycom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEnviaEventoInutilizacao÷
+ô
+B7 B(V
+%1"ccom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEnviaEventoInutilizacao#<init>()V*}
+
+__unknown_file (a
+_
+%0Ycom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEnviaEventoInutilizacaoý
+ú
+B B(Wi
+inutilizacaoYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEnviaEventoInutilizacao"__id*}
+
+__unknown_file (a
+_
+%0Ycom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEnviaEventoInutilizacaoÉÆ
+C4 C(M_
+%2Ycom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados"Ycom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados÷
+ô
+C0 C(O
+%3"ccom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados#<init>()V*}
+
+__unknown_file (a
+_
+%2Ycom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDadosö
+ó
+C C(Pb
+dadosYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados"__id*}
+
+__unknown_file (a
+_
+%2Ycom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados±
+®
+D D(%0
+%4*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao"
+configùö
+D D(3-
+%5'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*N
+
+__unknown_file (2
+0
+%4*com.fincatto.documentofiscal.nfe.NFeConfig2getAmbiente()µ²
+D D(4
+
+%6void"‘com.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados#setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)V*€
+
+__unknown_file (d
+b
+dadosYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados*K
+
+__unknown_file (/
+-
+%5'com.fincatto.documentofiscal.DFAmbiente26setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)ÕÒ
+E E(.
+
+%7void"vcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados#setAno(Ljava/lang/Integer;)V*€
+
+__unknown_file (d
+b
+dadosYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados*"
+
+__unknown_file (
+""2setAno(Ljava/lang/Integer;)ñî
+F F(#
+
+%8void"vcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados#setCnpj(Ljava/lang/String;)V*€
+
+__unknown_file (d
+b
+dadosYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados*>
+
+__unknown_file ("
+ 
+cnpjEmitentejava.lang.String2setCnpj(Ljava/lang/String;)„
+G G(-
+
+%9void"com.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados#setJustificativa(Ljava/lang/String;)V*€
+
+__unknown_file (d
+b
+dadosYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados*?
+
+__unknown_file (#
+!
+justificativajava.lang.String2$setJustificativa(Ljava/lang/String;)ÇÄ
+H' H(9
+%10java.lang.String"Ccom.fincatto.documentofiscal.DFModelo#getCodigo()Ljava/lang/String;*M
+
+__unknown_file (1
+/
+modelo%com.fincatto.documentofiscal.DFModelo2getCodigo()Œ‰
+H H(:
+%11void"‡com.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados#setModeloDocumentoFiscal(Ljava/lang/String;)V*€
+
+__unknown_file (d
+b
+dadosYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados*5
+
+__unknown_file (
+
+%10java.lang.String2,setModeloDocumentoFiscal(Ljava/lang/String;)W
+U
+I I(8
+%12java.lang.String"__id**
+
+__unknown_file (
+
+INUTILIZAR÷ô
+I I(9
+%13void"}com.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados#setNomeServico(Ljava/lang/String;)V*€
+
+__unknown_file (d
+b
+dadosYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados*5
+
+__unknown_file (
+
+%12java.lang.String2"setNomeServico(Ljava/lang/String;)Š‡
+J J(/
+%14void"com.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados#setNumeroNFInicial(Ljava/lang/String;)V*€
+
+__unknown_file (d
+b
+dadosYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados*?
+
+__unknown_file (#
+!
+numeroInicialjava.lang.String2&setNumeroNFInicial(Ljava/lang/String;)ƒ€
+K K(+
+%15void"com.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados#setNumeroNFFinal(Ljava/lang/String;)V*€
+
+__unknown_file (d
+b
+dadosYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados*=
+
+__unknown_file (!
+
+numeroFinaljava.lang.String2$setNumeroNFFinal(Ljava/lang/String;)íê
+L L(
+%16void"wcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados#setSerie(Ljava/lang/String;)V*€
+
+__unknown_file (d
+b
+dadosYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados*7
+
+__unknown_file (
+
+seriejava.lang.String2setSerie(Ljava/lang/String;)²
+¯
+M M(1
+%17*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao"
+configƒ€
+M M((7
+%180com.fincatto.documentofiscal.DFUnidadeFederativa"`com.fincatto.documentofiscal.DFConfig#getCUF()Lcom/fincatto/documentofiscal/DFUnidadeFederativa;*O
+
+__unknown_file (3
+1
+%17*com.fincatto.documentofiscal.nfe.NFeConfig2getCUF()ÆÃ
+M M()
+%19void"”com.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados#setUf(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)V*€
+
+__unknown_file (d
+b
+dadosYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados*U
+
+__unknown_file (9
+7
+%180com.fincatto.documentofiscal.DFUnidadeFederativa29setUf(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Ù
+Ö
+N2 N(\
+%20java.lang.String"eorg.apache.commons.lang3.StringUtils#leftPad(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;*D
+
+__unknown_file (("&
+$org.apache.commons.lang3.StringUtils*?
+
+__unknown_file (#
+!
+numeroInicialjava.lang.String* 
+
+__unknown_file (2	*!
+
+__unknown_file (
+0y
+w
+N N(].
+numeroInicialTamanhoMaximojava.lang.String"__id*5
+
+__unknown_file (
+
+%20java.lang.String×
+Ô
+O0 O(X
+%21java.lang.String"eorg.apache.commons.lang3.StringUtils#leftPad(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;*D
+
+__unknown_file (("&
+$org.apache.commons.lang3.StringUtils*=
+
+__unknown_file (!
+
+numeroFinaljava.lang.String* 
+
+__unknown_file (2	*!
+
+__unknown_file (
+0w
+u
+O O(Y,
+numeroFinalTamanhoMaximojava.lang.String"__id*5
+
+__unknown_file (
+
+%21java.lang.StringÑ
+Î
+P* P(L
+%22java.lang.String"eorg.apache.commons.lang3.StringUtils#leftPad(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;*D
+
+__unknown_file (("&
+$org.apache.commons.lang3.StringUtils*7
+
+__unknown_file (
+
+seriejava.lang.String* 
+
+__unknown_file (2*!
+
+__unknown_file (
+0q
+o
+P P(M&
+serieTamanhoMaximojava.lang.String"__id*5
+
+__unknown_file (
+
+%22java.lang.String²
+¯
+Q& Q(11
+%23*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao"
+configƒ€
+Q& Q(:7
+%240com.fincatto.documentofiscal.DFUnidadeFederativa"`com.fincatto.documentofiscal.DFConfig#getCUF()Lcom/fincatto/documentofiscal/DFUnidadeFederativa;*O
+
+__unknown_file (3
+1
+%23*com.fincatto.documentofiscal.nfe.NFeConfig2getCUF()âß
+Q& Q(J
+%25java.lang.String"Rcom.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;*U
+
+__unknown_file (9
+7
+%240com.fincatto.documentofiscal.DFUnidadeFederativa2getCodigoIbge()j
+h
+Q Q(J
+%26java.lang.String"__concat*
+Q Q(#
+ID*%
+Q& Q(J
+
+%25java.lang.Stringj
+h
+Q Q(e
+%27java.lang.String"__concat*%
+Q Q(J
+
+%26java.lang.String*
+QM Q(e
+""‡
+„
+Q Q(t
+%28java.lang.String"__concat*%
+Q Q(e
+
+%27java.lang.String*.
+Qh Q(t"
+ 
+cnpjEmitentejava.lang.StringÈÅ
+	Qw Q(‰
+%29java.lang.String"Ccom.fincatto.documentofiscal.DFModelo#getCodigo()Ljava/lang/String;*M
+
+__unknown_file (1
+/
+modelo%com.fincatto.documentofiscal.DFModelo2getCodigo()
+}
+	Q Q(‰
+%30java.lang.String"__concat*%
+Q Q(t
+
+%28java.lang.String*&
+	Qw Q(‰
+
+%29java.lang.String‘
+Ž
+	Q Q(ž
+%31java.lang.String"__concat*&
+	Q Q(‰
+
+%30java.lang.String*6
+
+QŒ Q(ž(
+&
+serieTamanhoMaximojava.lang.String™
+–
+	Q Q(»
+%32java.lang.String"__concat*&
+	Q Q(ž
+
+%31java.lang.String*>
+
+Q¡ Q(»0
+.
+numeroInicialTamanhoMaximojava.lang.String—
+”
+	Q Q(Ö
+%33java.lang.String"__concat*&
+	Q Q(»
+
+%32java.lang.String*<
+
+Q¾ Q(Ö.
+,
+numeroFinalTamanhoMaximojava.lang.Stringüù
+	Q Q(×
+%34void"com.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados#setIdentificador(Ljava/lang/String;)V*€
+
+__unknown_file (d
+b
+dadosYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados*5
+
+__unknown_file (
+
+%33java.lang.String2$setIdentificador(Ljava/lang/String;)Q
+O
+S. S(K
+%35java.lang.String"__id*$
+
+__unknown_file (
+3.10?=
+S# S(-
+%36java.math.BigDecimal"java.math.BigDecimal¸
+µ
+S S(L
+%37"0java.math.BigDecimal#<init>(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%36java.math.BigDecimal*5
+
+__unknown_file (
+
+%35java.lang.String€ý
+S S(M
+%38void"|com.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEnviaEventoInutilizacao#setVersao(Ljava/math/BigDecimal;)V*‡
+
+__unknown_file (k
+i
+inutilizacaoYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEnviaEventoInutilizacao*9
+
+__unknown_file (
+
+%36java.math.BigDecimal2!setVersao(Ljava/math/BigDecimal;)ÑÎ
+T T($
+%39void"Àcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEnviaEventoInutilizacao#setDados(Lcom/fincatto/documentofiscal/nfe310/classes/evento/inutilizacao/NFEventoInutilizacaoDados;)V*‡
+
+__unknown_file (k
+i
+inutilizacaoYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEnviaEventoInutilizacao*€
+
+__unknown_file (d
+b
+dadosYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados2esetDados(Lcom/fincatto/documentofiscal/nfe310/classes/evento/inutilizacao/NFEventoInutilizacaoDados;)"w
+U U(k
+i
+inutilizacaoYcom.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEnviaEventoInutilizacao: 
+
+__unknown_file (
+"":,
+A` A(z 
+cnpjEmitentejava.lang.String:&
+	A{ A(Ž
+seriejava.lang.String:/
+
+A A(ª!
+numeroInicialjava.lang.String:-
+
+A« A(Ä
+numeroFinaljava.lang.String:/
+
+AÅ A(à!
+justificativajava.lang.String:=
+
+Aá A(ö/
+modelo%com.fincatto.documentofiscal.DFModeloBB@
+>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.nota.CTeNotaInfoCTeNormalInfoModalDutoviario#setValorTarifa(Ljava/math/BigDecimal;)V
+com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#tamanho15comAte6CasasDecimais(Ljava/math/BigDecimal;Ljava/lang/String;)Ljava/lang/String;

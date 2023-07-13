@@ -1,0 +1,477 @@
+
+äcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario#gerarDadosManifestacaoDestinatario(Ljava/lang/String;Lcom/fincatto/documentofiscal/nfe400/classes/evento/manifestacaodestinatario/NFTipoEventoManifestacaoDestinatario;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/manifestacaodestinatario/NFEnviaEventoManifestacaoDestinatario;ù
+í/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSManifestacaoDestinatario.javaQ2 Q(T"4*π
+2] ](§°
+] ]()
+%15void"çcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario#setCnpj(Ljava/lang/String;)V*ù
+
+__unknown_file (Ä
+~
+
+infoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario*;
+
+__unknown_file (
+
+	cpfOuCnpjjava.lang.String2setCnpj(Ljava/lang/String;)*
+1*∑
+3[ [(¢ü
+[ [((
+%14void"åcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario#setCpf(Ljava/lang/String;)V*ù
+
+__unknown_file (Ä
+~
+
+infoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario*;
+
+__unknown_file (
+
+	cpfOuCnpjjava.lang.String2setCpf(Ljava/lang/String;)*
+1*˝%
+4RH R(lÎË
+RL R(jp
+%0jcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoManifestacaoDestinatario"jcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoManifestacaoDestinatarioö
+ó
+RH R(l
+%1"tcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoManifestacaoDestinatario#<init>()V*é
+
+__unknown_file (r
+p
+%0jcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoManifestacaoDestinatario≠
+™
+R R(mÜ
+manifestacaoDestinatariojcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoManifestacaoDestinatario"__id*é
+
+__unknown_file (r
+p
+%0jcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoManifestacaoDestinatarioÈÊ
+S4 S(M
+%2java.lang.String"ëcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFTipoEventoManifestacaoDestinatario#getDescricao()Ljava/lang/String;*ù
+
+__unknown_file (Ä
+~
+
+tipoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFTipoEventoManifestacaoDestinatario2getDescricao()âÜ
+S S(N
+
+%3void"gcom.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento#setDescricaoEvento(Ljava/lang/String;)V*¶
+
+__unknown_file (â
+Ü
+manifestacaoDestinatariojcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoManifestacaoDestinatario*4
+
+__unknown_file (
+
+%2java.lang.String2&setDescricaoEvento(Ljava/lang/String;)R
+P
+T+ T(T
+%4java.math.BigDecimal"__id*"
+
+__unknown_file (
+""ÉÄ
+T T(U
+
+%5void"bcom.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento#setVersao(Ljava/math/BigDecimal;)V*¶
+
+__unknown_file (â
+Ü
+manifestacaoDestinatariojcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoManifestacaoDestinatario*8
+
+__unknown_file (
+
+%4java.math.BigDecimal2!setVersao(Ljava/math/BigDecimal;)µ≤
+U U(9
+
+%6void"êcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoManifestacaoDestinatario#setJustificativa(Ljava/lang/String;)V*¶
+
+__unknown_file (â
+Ü
+manifestacaoDestinatariojcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoManifestacaoDestinatario*8
+
+__unknown_file (
+
+motivojava.lang.String2$setJustificativa(Ljava/lang/String;)˜Ù
+WD W(hv
+%7pcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario"pcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario¶
+£
+W@ W(j
+%8"zcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario#<init>()V*î
+
+__unknown_file (x
+v
+%7pcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario™
+ß
+W W(k~
+
+infoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario"__id*î
+
+__unknown_file (x
+v
+%7pcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatarioΩ
+∫
+X X(*0
+%9*com.fincatto.documentofiscal.nfe.NFeConfig"__id*v
+
+__unknown_file (Z*XL
+Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario"
+config˙˜
+X X(8.
+%10'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*N
+
+__unknown_file (2
+0
+%9*com.fincatto.documentofiscal.nfe.NFeConfig2getAmbiente()ÎË
+X X(9
+%11void"®com.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario#setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)V*ù
+
+__unknown_file (Ä
+~
+
+infoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario*L
+
+__unknown_file (0
+.
+%10'com.fincatto.documentofiscal.DFAmbiente26setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)®•
+Y Y((
+%12void"écom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario#setChave(Ljava/lang/String;)V*ù
+
+__unknown_file (Ä
+~
+
+infoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String2setChave(Ljava/lang/String;){y
+Z Z(
+
+%13int"java.lang.String#length()I*;
+
+__unknown_file (
+
+	cpfOuCnpjjava.lang.String2length()*
+2
+3*óZ
+1_ _(æ
+ª
+_7 _(B1
+%16*com.fincatto.documentofiscal.nfe.NFeConfig"__id*v
+
+__unknown_file (Z*XL
+Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario"
+config—Œ
+_7 _(P
+%17java.util.TimeZone"Gcom.fincatto.documentofiscal.DFConfig#getTimeZone()Ljava/util/TimeZone;*O
+
+__unknown_file (3
+1
+%16*com.fincatto.documentofiscal.nfe.NFeConfig2getTimeZone()úô
+_7 _([
+%18java.time.ZoneId"/java.util.TimeZone#toZoneId()Ljava/time/ZoneId;*7
+
+__unknown_file (
+
+%17java.util.TimeZone2
+toZoneId()Á
+‰
+_% _(\
+%19java.time.ZonedDateTime"Hjava.time.ZonedDateTime#now(Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;*7
+
+__unknown_file ("
+java.time.ZonedDateTime*5
+
+__unknown_file (
+
+%18java.time.ZoneId«ƒ
+_ _(]
+%20void"ûcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario#setDataHoraEvento(Ljava/time/ZonedDateTime;)V*ù
+
+__unknown_file (Ä
+~
+
+infoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario*<
+
+__unknown_file ( 
+
+%19java.time.ZonedDateTime2,setDataHoraEvento(Ljava/time/ZonedDateTime;)‰·
+`4 `(J
+%21java.lang.String"écom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFTipoEventoManifestacaoDestinatario#getCodigo()Ljava/lang/String;*ù
+
+__unknown_file (Ä
+~
+
+tipoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFTipoEventoManifestacaoDestinatario2getCodigo()Ó
+Î
+` `(]
+%22java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*)
+
+__unknown_file (
+	ID%s%s0%s*5
+
+__unknown_file (
+
+%21java.lang.String*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*!
+
+__unknown_file (
+1öó
+` `(^
+%23void"ãcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario#setId(Ljava/lang/String;)V*ù
+
+__unknown_file (Ä
+~
+
+infoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario*5
+
+__unknown_file (
+
+%22java.lang.String2setId(Ljava/lang/String;)ãà
+a a(/
+%24void"écom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario#setNumeroSequencialEvento(I)V*ù
+
+__unknown_file (Ä
+~
+
+infoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario* 
+
+__unknown_file (22setNumeroSequencialEvento(I)o
+m
+b b(37
+%250com.fincatto.documentofiscal.DFUnidadeFederativa"__id*"
+
+__unknown_file (
+""Ä˝
+b b(4
+%26void"Æcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario#setOrgao(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)V*ù
+
+__unknown_file (Ä
+~
+
+infoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario*U
+
+__unknown_file (9
+7
+%250com.fincatto.documentofiscal.DFUnidadeFederativa2<setOrgao(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)‰·
+c# c(9
+%27java.lang.String"écom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFTipoEventoManifestacaoDestinatario#getCodigo()Ljava/lang/String;*ù
+
+__unknown_file (Ä
+~
+
+tipoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFTipoEventoManifestacaoDestinatario2getCodigo()Æ´
+c c(:
+%28void"ïcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario#setCodigoEvento(Ljava/lang/String;)V*ù
+
+__unknown_file (Ä
+~
+
+infoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario*5
+
+__unknown_file (
+
+%27java.lang.String2#setCodigoEvento(Ljava/lang/String;)S
+Q
+d# d(L
+%29java.math.BigDecimal"__id*"
+
+__unknown_file (
+""∫∑
+d d(M
+%30void"ôcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario#setVersaoEvento(Ljava/math/BigDecimal;)V*ù
+
+__unknown_file (Ä
+~
+
+infoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario*9
+
+__unknown_file (
+
+%29java.math.BigDecimal2'setVersaoEvento(Ljava/math/BigDecimal;)ÌÍ
+e e(H
+%31void"˚com.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario#setManifestacaoDestinatario(Lcom/fincatto/documentofiscal/nfe400/classes/evento/manifestacaodestinatario/NFInfoManifestacaoDestinatario;)V*ù
+
+__unknown_file (Ä
+~
+
+infoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario*¶
+
+__unknown_file (â
+Ü
+manifestacaoDestinatariojcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoManifestacaoDestinatario2âsetManifestacaoDestinatario(Lcom/fincatto/documentofiscal/nfe400/classes/evento/manifestacaodestinatario/NFInfoManifestacaoDestinatario;)Ì
+g< g(\s
+%32lcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEventoManifestacaoDestinatario"lcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEventoManifestacaoDestinatario†
+ù
+g8 g(^
+%33"vcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEventoManifestacaoDestinatario#<init>()V*ë
+
+__unknown_file (u
+s
+%32lcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEventoManifestacaoDestinatarioü
+ú
+g g(_v
+eventolcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEventoManifestacaoDestinatario"__id*ë
+
+__unknown_file (u
+s
+%32lcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEventoManifestacaoDestinatario«ƒ
+h h((
+%34void"Ôcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEventoManifestacaoDestinatario#setInfoEvento(Lcom/fincatto/documentofiscal/nfe400/classes/evento/manifestacaodestinatario/NFInfoEventoManifestacaoDestinatario;)V*î
+
+__unknown_file (x
+v
+eventolcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEventoManifestacaoDestinatario*ù
+
+__unknown_file (Ä
+~
+
+infoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario2ÅsetInfoEvento(Lcom/fincatto/documentofiscal/nfe400/classes/evento/manifestacaodestinatario/NFInfoEventoManifestacaoDestinatario;)S
+Q
+i i(B
+%35java.math.BigDecimal"__id*"
+
+__unknown_file (
+""°û
+i i(C
+%36void"ècom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEventoManifestacaoDestinatario#setVersao(Ljava/math/BigDecimal;)V*î
+
+__unknown_file (x
+v
+eventolcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEventoManifestacaoDestinatario*9
+
+__unknown_file (
+
+%35java.math.BigDecimal2!setVersao(Ljava/math/BigDecimal;)˙˜
+kF k(kx
+%37qcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatario"qcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatario™
+ß
+kB k(m
+%38"{com.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatario#<init>()V*ñ
+
+__unknown_file (z
+x
+%37qcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatarioØ
+¨
+k k(nÄ
+enviaEventoqcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatario"__id*ñ
+
+__unknown_file (z
+x
+%37qcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatarioª
+∏
+l l(?
+%39java.util.List"Gjava.util.Collections#singletonList(Ljava/lang/Object;)Ljava/util/List;*5
+
+__unknown_file ("
+java.util.Collections*î
+
+__unknown_file (x
+v
+eventolcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEventoManifestacaoDestinatario†ù
+l l(@
+%40void"écom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatario#setEvento(Ljava/util/List;)V*†
+
+__unknown_file (É
+Ä
+enviaEventoqcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatario*3
+
+__unknown_file (
+
+%39java.util.List2setEvento(Ljava/util/List;)æ
+ª
+m> m(I1
+%41*com.fincatto.documentofiscal.nfe.NFeConfig"__id*v
+
+__unknown_file (Z*XL
+Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario"
+config—Œ
+m> m(W
+%42java.util.TimeZone"Gcom.fincatto.documentofiscal.DFConfig#getTimeZone()Ljava/util/TimeZone;*O
+
+__unknown_file (3
+1
+%41*com.fincatto.documentofiscal.nfe.NFeConfig2getTimeZone()úô
+m> m(b
+%43java.time.ZoneId"/java.util.TimeZone#toZoneId()Ljava/time/ZoneId;*7
+
+__unknown_file (
+
+%42java.util.TimeZone2
+toZoneId()Á
+‰
+m, m(c
+%44java.time.ZonedDateTime"Hjava.time.ZonedDateTime#now(Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;*7
+
+__unknown_file ("
+java.time.ZonedDateTime*5
+
+__unknown_file (
+
+%43java.time.ZoneId∑¥
+m, m(o
+%45java.time.Instant"Cjava.time.chrono.ChronoZonedDateTime#toInstant()Ljava/time/Instant;*<
+
+__unknown_file ( 
+
+%44java.time.ZonedDateTime2toInstant()ÖÇ
+m, m(~
+%46long"!java.time.Instant#toEpochMilli()J*6
+
+__unknown_file (
+
+%45java.time.Instant2toEpochMilli()Ø
+¨
+m m(
+%47java.lang.String",java.lang.Long#toString(J)Ljava/lang/String;*.
+
+__unknown_file ("
+java.lang.Long*)
+
+__unknown_file (
+
+%46longß§
+	m m(Ä
+%48void"êcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatario#setIdLote(Ljava/lang/String;)V*†
+
+__unknown_file (É
+Ä
+enviaEventoqcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatario*5
+
+__unknown_file (
+
+%47java.lang.String2setIdLote(Ljava/lang/String;)S
+Q
+n n(G
+%49java.math.BigDecimal"__id*"
+
+__unknown_file (
+""≤Ø
+n n(H
+%50void"îcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatario#setVersao(Ljava/math/BigDecimal;)V*†
+
+__unknown_file (É
+Ä
+enviaEventoqcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatario*9
+
+__unknown_file (
+
+%49java.math.BigDecimal2!setVersao(Ljava/math/BigDecimal;)"ê
+o o(É
+Ä
+enviaEventoqcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatario:+
+QU Q(n
+chaveAcessojava.lang.String:ã
+	Qo Q(•~
+
+tipoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFTipoEventoManifestacaoDestinatario:(
+
+Q¶ Q(∫
+motivojava.lang.String:+
+
+Qª Q(—
+	cpfOuCnpjjava.lang.StringBNL
+Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario

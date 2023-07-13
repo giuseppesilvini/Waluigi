@@ -1,0 +1,43 @@
+
+¦com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;)Lorg/apache/axiom/soap/SOAPEnvelope;§
+š/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/retornorecepcao/MDFeRetRecepcaoStub.javaü/ ü(9"startingBlock*¼
+startingBlock
+ü9 ü(j©
+¦
+
+û û(
+%1"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*J
+
+__unknown_file (.
+,
+factory!org.apache.axiom.soap.SOAPFactoryn
+l
+
+üb ü(i,
+factory!org.apache.axiom.soap.SOAPFactory"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ã
+1
+ý ý(÷ô
+
+ý ý(+(
+%0"org.apache.axiom.soap.SOAPEnvelope"Zorg.apache.axiom.soap.SOAPFactory#getDefaultEnvelope()Lorg/apache/axiom/soap/SOAPEnvelope;*J
+
+__unknown_file (.
+,
+factory!org.apache.axiom.soap.SOAPFactory2getDefaultEnvelope()"8
+
+ý ý(,*
+(
+%0"org.apache.axiom.soap.SOAPEnvelope::
+
+ü: ü(i,
+factory!org.apache.axiom.soap.SOAPFactoryBVT
+Rcom.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub

@@ -1,0 +1,17 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao#gerarDadosCartaCorrecao(Ljava/lang/String;Ljava/lang/String;I)Lcom/fincatto/documentofiscal/nfe400/classes/evento/cartacorrecao/NFEnviaEventoCartaCorrecao;
+com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#instance-init#
+com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento#<init>()V
+java.time.ZonedDateTime#now(Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento#instance-init#
+com.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento#<init>()V
+java.util.Collections#singletonList(Ljava/lang/Object;)Ljava/util/List;
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+java.lang.Long#toString(J)Ljava/lang/String;
+java.time.Instant#toEpochMilli()J
+java.lang.Integer#parseInt(Ljava/lang/String;)I
+com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao#<init>()V
+com.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento#instance-init#
+com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao#instance-init#
+com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#<init>(Ljava/lang/String;)V
+com.fincatto.documentofiscal.nfe400.classes.evento.NFEvento#instance-init#
+com.fincatto.documentofiscal.nfe400.classes.evento.NFEvento#<init>()V

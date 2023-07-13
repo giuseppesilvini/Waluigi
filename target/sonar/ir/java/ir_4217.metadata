@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.nota.CTeNotaInfoCTeNormalInfoModalAereoTransportePerigosoInfo#setQuantidadeTotal(Ljava/math/BigDecimal;)V
+com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#tamanho15Com4CasasDecimais(Ljava/math/BigDecimal;Ljava/lang/String;)Ljava/lang/String;

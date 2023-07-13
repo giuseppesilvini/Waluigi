@@ -1,0 +1,39 @@
+
+¿com.fincatto.documentofiscal.mdfe3.webservices.WSFacade#cancelaMdfe(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;‰
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSFacade.javaq q(""1*­
+1r r(Å
+Â
+r r("C
+%0=com.fincatto.documentofiscal.mdfe3.webservices.WSCancelamento"__id*k
+
+__unknown_file (O*M9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacade"
+wsCancelamentoýú
+r r(NH
+%1Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno"Åcom.fincatto.documentofiscal.mdfe3.webservices.WSCancelamento#cancelaNota(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;*a
+
+__unknown_file (E
+C
+%0=com.fincatto.documentofiscal.mdfe3.webservices.WSCancelamento*7
+
+__unknown_file (
+
+chavejava.lang.String*A
+
+__unknown_file (%
+#
+numeroProtocolojava.lang.String*8
+
+__unknown_file (
+
+motivojava.lang.String2CcancelaNota(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)"V
+r r(OJ
+H
+%1Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno:%
+q# q(6
+chavejava.lang.String:/
+q7 q(T#
+numeroProtocolojava.lang.String:&
+qU q(h
+motivojava.lang.StringB;9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacadeH

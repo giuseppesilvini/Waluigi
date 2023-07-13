@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.transformers.DFDateTransformer#write(Ljava/util/Date;)Ljava/lang/String;
+java.text.DateFormat#format(Ljava/util/Date;)Ljava/lang/String;

@@ -1,0 +1,36 @@
+
+Âcom.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoSituacaoTributariaIPITransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoSituacaoTributariaIPI;)Ljava/lang/String;®
+£/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFNotaInfoSituacaoTributariaIPITransformer.java ("startingBlock*¡
+startingBlock (TØ
+Õ
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*‚
+
+__unknown_file (f
+d
+situacaoTributariaIPIKcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI¥
+¢
+> (Sd
+situacaoTributariaIPIKcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ø
+1 ($¢Ÿ
+ (0
+%0java.lang.String"icom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI#getCodigo()Ljava/lang/String;*‚
+
+__unknown_file (f
+d
+situacaoTributariaIPIKcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI2getCodigo()"$
+ (1
+
+%0java.lang.String:p
+ (Sd
+situacaoTributariaIPIKcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPIB_]
+[com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoSituacaoTributariaIPITransformerH

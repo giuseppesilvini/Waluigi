@@ -1,0 +1,47 @@
+
+¹com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoResponsavelTecnico#setEmail(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoResponsavelTecnico; 
+•/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoResponsavelTecnico.java:( :(0"1*Á
+1; ;(ê
+ç
+; ;(>
+%0java.lang.String"xcom.fincatto.documentofiscal.validadores.DFStringValidador#email(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*Z
+
+__unknown_file (>"<
+:com.fincatto.documentofiscal.validadores.DFStringValidador*7
+
+__unknown_file (
+
+emailjava.lang.String*4
+
+__unknown_file (
+Responsavel tecnico º
+·
+< <(N
+%1java.lang.String"„com.fincatto.documentofiscal.validadores.DFStringValidador#validaIntervalo(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;*Z
+
+__unknown_file (>"<
+:com.fincatto.documentofiscal.validadores.DFStringValidador*7
+
+__unknown_file (
+
+emailjava.lang.String* 
+
+__unknown_file (2* 
+
+__unknown_file (2<*3
+
+__unknown_file (
+Responsavel tecnico¨
+¥
+= =(ZO
+Mcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoResponsavelTecnico"
+email"__id*7
+
+__unknown_file (
+
+emailjava.lang.String"]
+> >(QO
+Mcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoResponsavelTecnico:%
+:1 :(=
+emailjava.lang.StringBQO
+Mcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoResponsavelTecnicoH

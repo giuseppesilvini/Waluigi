@@ -1,0 +1,15 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSLoteConsulta#efetuaConsulta(Lorg/apache/axiom/om/OMElement;Lcom/fincatto/documentofiscal/DFModelo;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeRetAutorizacaoStub$NfeDadosMsg#<init>()V
+com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31#valueOfTipoEmissao(Lcom/fincatto/documentofiscal/nfe/NFTipoEmissao;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe310/classes/NFAutorizador31;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeRetAutorizacaoStub$NfeDadosMsg#instance-init#
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeRetAutorizacaoStub$NfeCabecMsgE#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeRetAutorizacaoStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeRetAutorizacaoStub$NfeCabecMsg#<init>()V
+java.lang.IllegalArgumentException#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeRetAutorizacaoStub$NfeCabecMsg#instance-init#
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeRetAutorizacaoStub#instance-init#
+java.lang.Enum#name()Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeRetAutorizacaoStub$NfeCabecMsgE#<init>()V

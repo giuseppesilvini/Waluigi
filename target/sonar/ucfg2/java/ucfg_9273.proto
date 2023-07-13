@@ -1,0 +1,92 @@
+
+Æcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub#fromOM(Lorg/apache/axiom/om/OMElement;Ljava/lang/Class;Ljava/util/Map;)Ljava/lang/Object;©
+ú/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte/webservices/distribuicao/CTeDistribuicaoDFeSoapStub.java‚ ‚(#"13*‡
+13
+‰ ‰(~ƒ¡
+‰ ‰(ã
+%0boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+8
+11*ö
+4Ë Ë(¿"á
+Ë Ë(¿x
+v
+%5pcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResponse*ò
+5Ë Ë(øÄ
+˝
+Ë Ë(øv
+%5pcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResponse"îcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResponse$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/cte/webservices/distribuicao/CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResponse;*ò
+
+__unknown_file (|"z
+xcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResponse$Factory*D
+
+__unknown_file ((
+&
+%4 javax.xml.stream.XMLStreamReader*
+4*†
+6
+Ë Ë(âÜ
+Ëñ Ë(æ&
+%4 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+5*ﬂ
+8Á Á(Üƒ¡
+Á Á(ì
+%3boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+6
+1*ë
+9Â Â(∏"
+Â Â(∏p
+n
+%2hcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse*˘
+10Â Â(∑‡
+›
+Â Â(∑n
+%2hcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse"Ñcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/cte/webservices/distribuicao/CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse;*ê
+
+__unknown_file (t"r
+pcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse$Factory*D
+
+__unknown_file ((
+&
+%1 javax.xml.stream.XMLStreamReader*
+9*¢
+11
+Â Â(âÜ
+Âé Â(∂&
+%1 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+10*%
+1
+Ì Ì("
+
+Ì Ì(
+"":4
+
+‚$ ‚(N&
+paramorg.apache.axiom.om.OMElement:%
+
+‚O ‚(j
+typejava.lang.Class:/
+‚k ‚(é 
+extraNamespacesjava.util.MapBXV
+Tcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub

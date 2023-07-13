@@ -1,0 +1,103 @@
+
+¦com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub#fromOM(Lorg/apache/axiom/om/OMElement;Ljava/lang/Class;)Ljava/lang/Object;°
+£/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub.javaü ü("13*ß
+13
+ÿ ÿ(&ÃÀ
+
+ÿ €(
+%0boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+8
+11*
+4
+† †(\"~
+
+† †(\p
+n
+%5hcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeResultMsg*ö
+5
+† †([ß
+Ü
+
+† †([n
+%5hcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeResultMsg"„com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeResultMsg$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub$NfeResultMsg;*
+
+__unknown_file (t"r
+pcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeResultMsg$Factory*D
+
+__unknown_file ((
+&
+%4 javax.xml.stream.XMLStreamReader*
+4*ž
+6
+† †(#‡„
+
+†2 †(Z&
+%4 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+5*Ý
+8
+„ „("ÃÀ
+
+„ …(
+%3boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+6
+1*”
+9
+ (`"‚
+
+ (`t
+r
+%2lcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro*‡
+10
+ (_ï
+ì
+
+ (_r
+%2lcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro"Œcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub$ConsultaCadastro;*”
+
+__unknown_file (x"v
+tcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro$Factory*D
+
+__unknown_file ((
+&
+%1 javax.xml.stream.XMLStreamReader*
+9* 
+11
+ ('‡„
+
+6 (^&
+%1 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+10*%
+1
+Œ Œ("
+
+Œ Œ(
+"":4
+
+ü ü(>&
+paramorg.apache.axiom.om.OMElement:%
+
+ý ý($
+typejava.lang.ClassB_]
+[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub

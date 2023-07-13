@@ -1,0 +1,209 @@
+
+∂com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub#fromOM(Lorg/apache/axiom/om/OMElement;Ljava/lang/Class;Ljava/util/Map;)Ljava/lang/Object;±
+§/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/statusservico/consulta/NfeStatusServico2Stub.javaﬁ
+ ﬁ
+(#"18*ﬂ
+13
+„
+ „
+(E√¿
+
+„
+ „
+(R
+%3boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+8
+11*ê
+14
+·
+ ·
+(q"~
+
+·
+ ·
+(qp
+n
+%2hcom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeDadosMsg*¯
+15
+·
+ ·
+(pﬂ
+‹
+
+·
+ ·
+(pn
+%2hcom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeDadosMsg"Ñcom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeDadosMsg$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe310/webservices/statusservico/consulta/NfeStatusServico2Stub$NfeDadosMsg;*ê
+
+__unknown_file (t"r
+pcom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeDadosMsg$Factory*D
+
+__unknown_file ((
+&
+%1 javax.xml.stream.XMLStreamReader*
+14*†
+16
+·
+ ·
+(,áÑ
+
+·
+G ·
+(o&
+%1 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+15*‡
+18
+‡
+ ‡
+(7√¿
+
+‡
+ ‡
+(D
+%0boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+13
+16*%
+1
+Ï
+ Ï
+("
+
+Ï
+ Ï
+(
+""*ê
+4
+Á
+ Á
+(r"
+
+Á
+ Á
+(rq
+o
+%8icom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeCabecMsgE*˙
+5
+Á
+ Á
+(q„
+‡
+
+Á
+ Á
+(qo
+%8icom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeCabecMsgE"Ücom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeCabecMsgE$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe310/webservices/statusservico/consulta/NfeStatusServico2Stub$NfeCabecMsgE;*ë
+
+__unknown_file (u"s
+qcom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeCabecMsgE$Factory*D
+
+__unknown_file ((
+&
+%7 javax.xml.stream.XMLStreamReader*
+4*û
+6
+Á
+ Á
+(,áÑ
+
+Á
+H Á
+(p&
+%7 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+5*›
+8
+Ê
+ Ê
+(8√¿
+
+Ê
+ Ê
+(E
+%6boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+6
+1*û
+9
+‰
+ ‰
+("å
+
+‰
+ ‰
+(~
+|
+%5vcom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeStatusServicoNF2Result*±
+10
+‰
+ ‰
+(~ô
+ñ
+
+‰
+ ‰
+(~|
+%5vcom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeStatusServicoNF2Result"†com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeStatusServicoNF2Result$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe310/webservices/statusservico/consulta/NfeStatusServico2Stub$NfeStatusServicoNF2Result;*†
+
+__unknown_file (É"Ä
+~com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeStatusServicoNF2Result$Factory*D
+
+__unknown_file ((
+&
+%4 javax.xml.stream.XMLStreamReader*
+9*†
+11
+‰
+ ‰
+(,áÑ
+
+‰
+U ‰
+(}&
+%4 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+10:4
+
+ﬁ
+$ ﬁ
+(N&
+paramorg.apache.axiom.om.OMElement:%
+
+ﬁ
+O ﬁ
+(j
+typejava.lang.Class:/
+ﬁ
+k ﬁ
+(é 
+extraNamespacesjava.util.MapB`^
+\com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub

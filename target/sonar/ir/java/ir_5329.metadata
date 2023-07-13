@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser#getDataEmissao()Ljava/time/LocalDate;
+com.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser#getDataEmissaoMes()I
+java.time.LocalDate#of(III)Ljava/time/LocalDate;
+com.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser#getDataEmissaoAno()I

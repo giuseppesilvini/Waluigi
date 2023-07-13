@@ -1,0 +1,26 @@
+
+Icom.fincatto.documentofiscal.cte300.classes.CTRetornoStatus#isDenegado()Zê
+É/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/classes/CTRetornoStatus.java‘ ‘("1*Û
+1
+’ ’(N
+L
+
+’ ’((
+%0java.util.List"__id*"
+
+__unknown_file (
+""˚¯
+
+’ ’(7
+%1boolean",java.util.List#contains(Ljava/lang/Object;)Z*2
+
+__unknown_file (
+
+%0java.util.List*[
+
+__unknown_file (?=
+;com.fincatto.documentofiscal.cte300.classes.CTRetornoStatus2contains(Ljava/lang/Object;)"
+
+’ ’(8
+""B?=
+;com.fincatto.documentofiscal.cte300.classes.CTRetornoStatusHP

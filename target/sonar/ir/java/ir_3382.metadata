@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte200.transformers.CTTipoEntregaDataTransformer#write(Lcom/fincatto/documentofiscal/cte200/classes/CTTipoEntregaData;)Ljava/lang/String;
+com.fincatto.documentofiscal.cte200.classes.CTTipoEntregaData#getCodigo()Ljava/lang/String;

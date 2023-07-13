@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFIdentificadorLocalDestinoOperacaoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFIdentificadorLocalDestinoOperacao;
+com.fincatto.documentofiscal.nfe400.classes.nota.NFIdentificadorLocalDestinoOperacao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFIdentificadorLocalDestinoOperacao;

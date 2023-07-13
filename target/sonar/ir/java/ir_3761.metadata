@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTModalTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTModal;
+com.fincatto.documentofiscal.cte300.classes.CTModal#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTModal;

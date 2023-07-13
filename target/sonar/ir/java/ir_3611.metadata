@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.classes.CTClasseTarifa#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTClasseTarifa;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.cte300.classes.CTClasseTarifa#getCodigo()Ljava/lang/String;

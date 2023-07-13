@@ -1,0 +1,36 @@
+
+õcom.fincatto.documentofiscal.cte300.transformes.CTFinalidadeTransformes#write(Lcom/fincatto/documentofiscal/cte300/classes/CTFinalidade;)Ljava/lang/String;ö
+è/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/transformes/CTFinalidadeTransformes.java ("startingBlock*◊
+startingBlock (*≥
+∞
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*^
+
+__unknown_file (B
+@
+arg08com.fincatto.documentofiscal.cte300.classes.CTFinalidadeÄ
+~
+% ()@
+arg08com.fincatto.documentofiscal.cte300.classes.CTFinalidade"__annotation*"
+
+__unknown_file (
+
+%1*
+1*†
+1 (ÍÁ
+ (
+%0java.lang.String"Vcom.fincatto.documentofiscal.cte300.classes.CTFinalidade#getCodigo()Ljava/lang/String;*^
+
+__unknown_file (B
+@
+arg08com.fincatto.documentofiscal.cte300.classes.CTFinalidade2getCodigo()"$
+ ( 
+
+%0java.lang.String:L
+ ()@
+arg08com.fincatto.documentofiscal.cte300.classes.CTFinalidadeBKI
+Gcom.fincatto.documentofiscal.cte300.transformes.CTFinalidadeTransformesH

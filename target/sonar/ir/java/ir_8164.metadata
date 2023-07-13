@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.transformers.NFModalidadeFreteTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFModalidadeFrete;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.classes.NFModalidadeFrete#getCodigo()Ljava/lang/String;

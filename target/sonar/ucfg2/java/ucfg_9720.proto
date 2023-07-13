@@ -1,0 +1,246 @@
+
+ßcom.fincatto.documentofiscal.nfe.webservices.distribuicao.WSDistribuicaoNFe#gerarNFDistribuicaoInt(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoInt;û
+ì/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe/webservices/distribuicao/WSDistribuicaoNFe.javaQ Q(4"9*∫
+2b b(∂≥
+b* b(CV
+%20Ocom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaNSU"Ocom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaNSUÂ
+‚
+b& b(E
+%21"Ycom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaNSU#<init>()V*t
+
+__unknown_file (X
+V
+%20Ocom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaNSUÏÈ
+b& b(QV
+%22Ocom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaNSU"ªcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaNSU#setNsu(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoConsultaNSU;*t
+
+__unknown_file (X
+V
+%20Ocom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaNSU*5
+
+__unknown_file (
+
+nsujava.lang.String2setNsu(Ljava/lang/String;)ïí
+b b(R
+%23void"™com.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt#setConsultaNSU(Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoConsultaNSU;)V*s
+
+__unknown_file (W
+U
+
+distDFeIntGcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt*t
+
+__unknown_file (X
+V
+%22Ocom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaNSU2asetConsultaNSU(Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoConsultaNSU;)*
+1*˘
+
+3` `(¶£
+`. `(?N
+%16Gcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoNSU"Gcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoNSU’
+“
+`* `(A
+%17"Qcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoNSU#<init>()V*l
+
+__unknown_file (P
+N
+%16Gcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoNSU€ÿ
+`* `(VN
+%18Gcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoNSU"±com.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoNSU#setUltimoNSU(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoNSU;*l
+
+__unknown_file (P
+N
+%16Gcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoNSU*8
+
+__unknown_file (
+
+ultNsujava.lang.String2 setUltimoNSU(Ljava/lang/String;)ÖÇ
+` `(W
+%19void"¶com.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt#setDistribuicaoNSU(Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoNSU;)V*s
+
+__unknown_file (W
+U
+
+distDFeIntGcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt*l
+
+__unknown_file (P
+N
+%18Gcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoNSU2]setDistribuicaoNSU(Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoNSU;)*
+1*Å
+4_ _(È
+Ê
+_ _(1
+%15boolean"Jorg.apache.commons.lang3.StringUtils#isNotBlank(Ljava/lang/CharSequence;)Z*D
+
+__unknown_file (("&
+$org.apache.commons.lang3.StringUtils*8
+
+__unknown_file (
+
+ultNsujava.lang.String*
+2
+3*∫
+5^ ^(∆√
+^2 ^(S^
+%11Wcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaChaveAcesso"Wcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaChaveAcessoı
+Ú
+^. ^(U
+%12"acom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaChaveAcesso#<init>()V*|
+
+__unknown_file (`
+^
+%11Wcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaChaveAcesso§°
+^. ^(q^
+%13Wcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaChaveAcesso"”com.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaChaveAcesso#setChaveAcesso(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoConsultaChaveAcesso;*|
+
+__unknown_file (`
+^
+%11Wcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaChaveAcesso*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String2"setChaveAcesso(Ljava/lang/String;)Ω∫
+^ ^(r
+%14void"∫com.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt#setConsultaChaveAcesso(Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoConsultaChaveAcesso;)V*s
+
+__unknown_file (W
+U
+
+distDFeIntGcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt*|
+
+__unknown_file (`
+^
+%13Wcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaChaveAcesso2qsetConsultaChaveAcesso(Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoConsultaChaveAcesso;)*
+1*Ü
+6] ](Ó
+Î
+] ](/
+%10boolean"Jorg.apache.commons.lang3.StringUtils#isNotBlank(Ljava/lang/CharSequence;)Z*D
+
+__unknown_file (("&
+$org.apache.commons.lang3.StringUtils*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*
+4
+5*„
+7Z Z(ŒÀ
+Z Z()
+
+%9void"dcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt#setCnpj(Ljava/lang/String;)V*s
+
+__unknown_file (W
+U
+
+distDFeIntGcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt*;
+
+__unknown_file (
+
+	cpfOuCnpjjava.lang.String2setCnpj(Ljava/lang/String;)*
+6*·
+8X X(Ã…
+X X((
+
+%8void"ccom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt#setCpf(Ljava/lang/String;)V*s
+
+__unknown_file (W
+U
+
+distDFeIntGcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt*;
+
+__unknown_file (
+
+	cpfOuCnpjjava.lang.String2setCpf(Ljava/lang/String;)*
+6* 
+9R- R(D•¢
+R1 R(BM
+%0Gcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt"Gcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt”
+–
+R- R(D
+%1"Qcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt#<init>()V*k
+
+__unknown_file (O
+M
+%0Gcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt◊
+‘
+R R(EU
+
+distDFeIntGcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt"__id*k
+
+__unknown_file (O
+M
+%0Gcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoIntª∏
+S S($
+
+%2void"fcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt#setVersao(Ljava/lang/String;)V*s
+
+__unknown_file (W
+U
+
+distDFeIntGcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt*$
+
+__unknown_file (
+1.012setVersao(Ljava/lang/String;)æ
+ª
+T T(*0
+%3*com.fincatto.documentofiscal.nfe.NFeConfig"__id*w
+
+__unknown_file ([*YM
+Kcom.fincatto.documentofiscal.nfe.webservices.distribuicao.WSDistribuicaoNFe"
+config˘ˆ
+T T(8-
+%4'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*N
+
+__unknown_file (2
+0
+%3*com.fincatto.documentofiscal.nfe.NFeConfig2getAmbiente()îë
+T T(9
+
+%5void"com.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt#setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)V*s
+
+__unknown_file (W
+U
+
+distDFeIntGcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt*K
+
+__unknown_file (/
+-
+%4'com.fincatto.documentofiscal.DFAmbiente26setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)Ã…
+U U(0
+
+%6void"ñcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt#setUnidadeFederativaAutor(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)V*s
+
+__unknown_file (W
+U
+
+distDFeIntGcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa2MsetUnidadeFederativaAutor(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)zx
+W W(	
+%7int"java.lang.String#length()I*;
+
+__unknown_file (
+
+	cpfOuCnpjjava.lang.String2length()*
+7
+8*r
+1d d("c
+d d(W
+U
+
+distDFeIntGcom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt:)
+Q5 Q(L
+	cpfOuCnpjjava.lang.String:B
+QM Q(j6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa:,
+	Qk Q(Ñ
+chaveAcessojava.lang.String:%
+
+QÖ Q(ñ
+nsujava.lang.String:(
+
+Qó Q(™
+ultNsujava.lang.StringBOM
+Kcom.fincatto.documentofiscal.nfe.webservices.distribuicao.WSDistribuicaoNFe

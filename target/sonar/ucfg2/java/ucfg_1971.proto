@@ -1,0 +1,36 @@
+
+¨com.fincatto.documentofiscal.nfe400.transformers.NFRegimeTributarioTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/NFRegimeTributario;)Ljava/lang/String;¡
+–/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFRegimeTributarioTransformer.java ("startingBlock*ä
+startingBlock (6¹
+¶
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*d
+
+__unknown_file (H
+F
+tipo>com.fincatto.documentofiscal.nfe400.classes.NFRegimeTributario‡
+„
+1 (5F
+tipo>com.fincatto.documentofiscal.nfe400.classes.NFRegimeTributario"__annotation*"
+
+__unknown_file (
+
+%1*
+1*¬
+1 (öó
+ (
+%0java.lang.String"\com.fincatto.documentofiscal.nfe400.classes.NFRegimeTributario#getCodigo()Ljava/lang/String;*d
+
+__unknown_file (H
+F
+tipo>com.fincatto.documentofiscal.nfe400.classes.NFRegimeTributario2getCodigo()"$
+ ( 
+
+%0java.lang.String:R
+ (5F
+tipo>com.fincatto.documentofiscal.nfe400.classes.NFRegimeTributarioBRP
+Ncom.fincatto.documentofiscal.nfe400.transformers.NFRegimeTributarioTransformerH

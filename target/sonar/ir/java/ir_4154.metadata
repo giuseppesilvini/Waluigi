@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSFacade#enviaEpec(Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvio;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/epec/NFEnviaEventoEpecRetorno;

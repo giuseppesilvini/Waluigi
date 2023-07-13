@@ -1,0 +1,50 @@
+
+™com.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub$NFeDistDFeInteresseResultType0#isReaderMTOMAware(Ljavax/xml/stream/XMLStreamReader;)Z©
+ú/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe/webservices/distribuicao/NFeDistribuicaoDFeSoapStub.javaà	 à	(/"5*Ô
+4ã	$ ã	(ç◊‘
+ã	$ ã	(ç
+%3boolean"-java.lang.Boolean#equals(Ljava/lang/Object;)Z*5
+
+__unknown_file (
+
+%0java.lang.Boolean*4
+
+__unknown_file (
+
+%2java.lang.Object2equals(Ljava/lang/Object;)*
+1*Ú
+5
+ã	$ ã	((Q
+O
+
+ã	$ ã	(:
+%0java.lang.Boolean"__id*"
+
+__unknown_file (
+""i
+g
+ã	U ã	(ã
+%1java.lang.String"__id*:
+
+__unknown_file (
+IsDatahandlersAwareParsingùö
+ã	B ã	(å
+%2java.lang.Object"Rjavax.xml.stream.XMLStreamReader#getProperty(Ljava/lang/String;)Ljava/lang/Object;*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader*4
+
+__unknown_file (
+
+%1java.lang.String2getProperty(Ljava/lang/String;)*
+4*%
+1
+è	 è	($"
+
+è	 è	(%
+"":8
+
+à	0 à	(]*
+reader javax.xml.stream.XMLStreamReaderBw"u
+scom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub$NFeDistDFeInteresseResultType0HP

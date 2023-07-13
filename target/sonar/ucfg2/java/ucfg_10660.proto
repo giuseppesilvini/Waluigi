@@ -1,0 +1,15 @@
+
+|com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoRastreabilidade#getDataValidade()Ljava/time/LocalDate;®
+ù/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoItemProdutoRastreabilidade.java? ?($"1*Ò
+1@ @(∏
+µ
+@ @( 
+%0java.time.LocalDate"__id*á
+
+__unknown_file (k*iW
+Ucom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoRastreabilidade"
+dataValidade"'
+@ @(!
+
+%0java.time.LocalDateBYW
+Ucom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoRastreabilidadeH

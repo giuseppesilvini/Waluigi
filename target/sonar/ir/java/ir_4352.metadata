@@ -1,0 +1,7 @@
+com.fincatto.documentofiscal.validadores.DFStringValidador#telefone(Ljava/lang/String;)V
+java.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+java.lang.IllegalStateException#instance-init#
+java.util.regex.Matcher#find()Z
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V
+java.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

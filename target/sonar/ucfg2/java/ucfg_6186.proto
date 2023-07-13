@@ -1,0 +1,27 @@
+
+—com.fincatto.documentofiscal.cte300.webservices.WSFacade#consultaStatus(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/cte300/classes/consultastatusservico/CTeConsStatServRet;ã
+Ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/WSFacade.java5 5(,"1*ç
+16 6(À
+»
+6 6($F
+%0@com.fincatto.documentofiscal.cte300.webservices.WSStatusConsulta"__id*n
+
+__unknown_file (R*P:
+8com.fincatto.documentofiscal.cte300.webservices.WSFacade"
+wsStatusConsulta≈¬
+6 6(7Z
+%1Tcom.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServRet"Ÿcom.fincatto.documentofiscal.cte300.webservices.WSStatusConsulta#consultaStatus(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/cte300/classes/consultastatusservico/CTeConsStatServRet;*d
+
+__unknown_file (H
+F
+%0@com.fincatto.documentofiscal.cte300.webservices.WSStatusConsulta*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa2BconsultaStatus(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)"h
+6 6(8\
+Z
+%1Tcom.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServRet:B
+5- 5(I6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativaB<:
+8com.fincatto.documentofiscal.cte300.webservices.WSFacadeH

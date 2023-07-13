@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.nfe310.classes.NFRetornoStatus#valueOfCodigo(I)Lcom/fincatto/documentofiscal/nfe310/classes/NFRetornoStatus;
+com.fincatto.documentofiscal.nfe310.classes.NFRetornoStatus#getCodigo()I
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.IllegalArgumentException#instance-init#
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

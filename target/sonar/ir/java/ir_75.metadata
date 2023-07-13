@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.classes.CTTipoTrafego#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoTrafego;
+com.fincatto.documentofiscal.cte300.classes.CTTipoTrafego#getCodigo()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z

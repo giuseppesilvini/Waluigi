@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.nota.CTeNotaInfoEmitente#setInscricaoEstadual(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#inscricaoEstadualSemIsencao(Ljava/lang/String;)V

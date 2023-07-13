@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.DFPais#getListByDesc(Ljava/lang/String;)Ljava/util/List;
+java.util.stream.Collectors#toList()Ljava/util/stream/Collector;
+java.util.Arrays#stream([Ljava/lang/Object;)Ljava/util/stream/Stream;
+com.fincatto.documentofiscal.DFPais#values()[Lcom/fincatto/documentofiscal/DFPais;

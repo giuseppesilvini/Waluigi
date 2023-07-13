@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao#corrigeNota(Ljava/lang/String;Ljava/lang/String;I)Lcom/fincatto/documentofiscal/nfe400/classes/evento/NFEnviaEventoRetorno;
+com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao#efetuaCorrecao(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+==
+getXmlAssinado com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao#getXmlAssinado(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;

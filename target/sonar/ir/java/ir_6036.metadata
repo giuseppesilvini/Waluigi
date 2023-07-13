@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;)Lorg/apache/axiom/soap/SOAPEnvelope;

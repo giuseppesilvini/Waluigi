@@ -1,0 +1,66 @@
+
+¨com.fincatto.documentofiscal.cte300.webservices.WSFacade#inutilizaNota(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/cte300/classes/evento/inutilizacao/CTeRetornoEventoInutilizacao;
+€/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/WSFacade.java‹( ‹(5"1*
+1
+Œ Œ(É
+Æ
+
+Œ Œ("D
+%0>com.fincatto.documentofiscal.cte300.webservices.WSInutilizacao"__id*l
+
+__unknown_file (P*N:
+8com.fincatto.documentofiscal.cte300.webservices.WSFacade"
+wsInutilizacaoÊÇ
+Œ Œ(’b
+%1\com.fincatto.documentofiscal.cte300.classes.evento.inutilizacao.CTeRetornoEventoInutilizacao"®com.fincatto.documentofiscal.cte300.webservices.WSInutilizacao#inutilizaNota(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/cte300/classes/evento/inutilizacao/CTeRetornoEventoInutilizacao;*b
+
+__unknown_file (F
+D
+%0>com.fincatto.documentofiscal.cte300.webservices.WSInutilizacao*"
+
+__unknown_file (
+""*>
+
+__unknown_file ("
+ 
+cnpjEmitentejava.lang.String*7
+
+__unknown_file (
+
+seriejava.lang.String*?
+
+__unknown_file (#
+!
+numeroInicialjava.lang.String*=
+
+__unknown_file (!
+
+numeroFinaljava.lang.String*?
+
+__unknown_file (#
+!
+justificativajava.lang.String*M
+
+__unknown_file (1
+/
+modelo%com.fincatto.documentofiscal.DFModelo2‘inutilizaNota(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)"s
+Œ Œ(“d
+b
+%1\com.fincatto.documentofiscal.cte300.classes.evento.inutilizacao.CTeRetornoEventoInutilizacao: 
+
+__unknown_file (
+"":.
+
+‹Z ‹(t 
+cnpjEmitentejava.lang.String:(
+‹u ‹(ˆ
+seriejava.lang.String:1
+‹‰ ‹(¤!
+numeroInicialjava.lang.String:/
+‹¥ ‹(¾
+numeroFinaljava.lang.String:1
+‹¿ ‹(Ú!
+justificativajava.lang.String:?
+‹Û ‹(ð/
+modelo%com.fincatto.documentofiscal.DFModeloB<:
+8com.fincatto.documentofiscal.cte300.webservices.WSFacadeH

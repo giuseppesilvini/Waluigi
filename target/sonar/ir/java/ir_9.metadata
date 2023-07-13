@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.transformers.DFDateTransformer#instance-init#
+java.text.SimpleDateFormat#<init>(Ljava/lang/String;Ljava/util/Locale;)V
+java.util.Locale#getDefault()Ljava/util/Locale;
+java.text.SimpleDateFormat#instance-init#

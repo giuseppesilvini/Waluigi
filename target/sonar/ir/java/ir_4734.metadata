@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoResponsavelTecnico#setTelefone(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoResponsavelTecnico;
+com.fincatto.documentofiscal.validadores.DFStringValidador#telefone(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

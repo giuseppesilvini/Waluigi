@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSInutilizacao#inutilizaNota(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/inutilizacao/NFRetornoEventoInutilizacao;
+com.fincatto.documentofiscal.nfe400.webservices.WSInutilizacao#efetuaInutilizacao(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.nfe400.webservices.WSInutilizacao#geraDadosInutilizacao(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/inutilizacao/NFEnviaEventoInutilizacao;
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#instance-init#
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V

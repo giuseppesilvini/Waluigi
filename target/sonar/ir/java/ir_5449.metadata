@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento#setDescricaoEvento(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#tamanho4a60(Ljava/lang/String;Ljava/lang/String;)V

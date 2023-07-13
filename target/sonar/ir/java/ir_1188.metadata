@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoEmitente#setInscricaoEstadualSubstituicaoTributaria(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#inscricaoEstadualSemIsencao(Ljava/lang/String;)V

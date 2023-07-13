@@ -1,0 +1,15 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSConsultaCadastro#efetuaConsulta(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Lorg/apache/axiom/om/OMElement;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeCabecMsgE#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeDadosMsg#<init>()V
+com.fincatto.documentofiscal.DFUnidadeFederativa#getDescricao()Ljava/lang/String;
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeDadosMsg#instance-init#
+com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31#valueOfCodigoUF(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe310/classes/NFAutorizador31;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeCabecMsg#<init>()V
+com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeCabecMsg#instance-init#
+java.lang.IllegalStateException#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeCabecMsgE#<init>()V
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V

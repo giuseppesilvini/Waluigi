@@ -1,0 +1,15 @@
+
+icom.fincatto.documentofiscal.nfe310.classes.NFProtocoloInfo#getDataRecebimento()Ljava/time/ZonedDateTime;Ž
+ƒ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFProtocoloInfo.javaT T(+"1*á
+1U U(¤
+¡
+U U(#
+%0java.time.ZonedDateTime"__id*p
+
+__unknown_file (T*R=
+;com.fincatto.documentofiscal.nfe310.classes.NFProtocoloInfo"
+dataRecebimento"+
+U U($
+
+%0java.time.ZonedDateTimeB?=
+;com.fincatto.documentofiscal.nfe310.classes.NFProtocoloInfoH

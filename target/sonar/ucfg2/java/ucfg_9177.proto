@@ -1,0 +1,57 @@
+
+Jcom.fincatto.documentofiscal.nfe310.classes.NFRetornoStatus#isRejeitado()Zê
+É/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFRetornoStatus.javaç ç("2"4"6"1*Ò
+2éÉ é(áÿ’
+éÉ é(ï
+%4boolean"Jcom.fincatto.documentofiscal.nfe310.classes.NFRetornoStatus#isDuplicado()Z*[
+
+__unknown_file (?=
+;com.fincatto.documentofiscal.nfe310.classes.NFRetornoStatus2isDuplicado()*
+1*Â
+4
+éV é(eN
+L
+
+éV é(o
+%2java.util.List"__id*"
+
+__unknown_file (
+""˚¯
+
+éV é(~
+%3boolean",java.util.List#contains(Ljava/lang/Object;)Z*2
+
+__unknown_file (
+
+%2java.util.List*[
+
+__unknown_file (?=
+;com.fincatto.documentofiscal.nfe310.classes.NFRetornoStatus2contains(Ljava/lang/Object;)*
+2
+1*Ë
+6
+é' é(6N
+L
+
+é' é(B
+%0java.util.List"__id*"
+
+__unknown_file (
+""˚¯
+
+é' é(Q
+%1boolean",java.util.List#contains(Ljava/lang/Object;)Z*2
+
+__unknown_file (
+
+%0java.util.List*[
+
+__unknown_file (?=
+;com.fincatto.documentofiscal.nfe310.classes.NFRetornoStatus2contains(Ljava/lang/Object;)*	
+2
+4
+1*'
+1é é(ñ"
+é é(ñ
+""B?=
+;com.fincatto.documentofiscal.nfe310.classes.NFRetornoStatusHP

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoItemProdutoVeiculoCondicaoChassiTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoItemProdutoVeiculoCondicaoChassi;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoVeiculoCondicaoChassi#getCodigo()Ljava/lang/String;

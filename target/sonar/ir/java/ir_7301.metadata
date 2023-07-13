@@ -1,0 +1,7 @@
+com.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20#getUrlQRCode()Ljava/lang/String;
+com.fincatto.documentofiscal.DFUnidadeFederativa#getQrCodeHomologacao()Ljava/lang/String;
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+org.apache.commons.lang3.StringUtils#isBlank(Ljava/lang/CharSequence;)Z
+com.fincatto.documentofiscal.DFUnidadeFederativa#getQrCodeProducao()Ljava/lang/String;
+java.lang.IllegalArgumentException#instance-init#

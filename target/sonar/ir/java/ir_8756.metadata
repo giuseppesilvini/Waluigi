@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.nfe400.classes.cadastro.NFIndicadorContribuinteCTe#valueOfCodigo(I)Lcom/fincatto/documentofiscal/nfe400/classes/cadastro/NFIndicadorContribuinteCTe;
+java.lang.IllegalStateException#instance-init#
+com.fincatto.documentofiscal.nfe400.classes.cadastro.NFIndicadorContribuinteCTe#getCodigo()I
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

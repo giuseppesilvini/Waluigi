@@ -1,0 +1,46 @@
+
+§com.fincatto.documentofiscal.cte200.transformers.CTRetiraMercadoriaTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTRetiraMercadoria;¡
+–/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/transformers/CTRetiraMercadoriaTransformer.java	 	(""startingBlock*Š
+startingBlock	" 	(7
+Š
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	0 	(6
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ô
+1
+ 
+(!
+
+
+ 
+(7D
+%0>com.fincatto.documentofiscal.cte200.classes.CTRetiraMercadoria" com.fincatto.documentofiscal.cte200.classes.CTRetiraMercadoria#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTRetiraMercadoria;*^
+
+__unknown_file (B"@
+>com.fincatto.documentofiscal.cte200.classes.CTRetiraMercadoria*8
+
+__unknown_file (
+
+codigojava.lang.String"R
+
+ 
+(8F
+D
+%0>com.fincatto.documentofiscal.cte200.classes.CTRetiraMercadoria:&
+	# 	(6
+codigojava.lang.StringBRP
+Ncom.fincatto.documentofiscal.cte200.transformers.CTRetiraMercadoriaTransformerH

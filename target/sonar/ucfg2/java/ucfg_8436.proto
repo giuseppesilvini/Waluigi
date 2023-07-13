@@ -1,0 +1,49 @@
+
+ºcom.fincatto.documentofiscal.cte300.transformes.CTUnidadeMedidaProdPerigososTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTUnidadeMedidaProdPerigosos;ª
+Ÿ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/transformes/CTUnidadeMedidaProdPerigososTransformer.java
+( 
+(,"startingBlock*†
+startingBlock
+, 
+(9‹
+ˆ
+	 	(
+
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+arg0java.lang.StringX
+V
+
+4 
+(8
+arg0java.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*¤
+1	 (%¶
+³
+	 (9N
+%0Hcom.fincatto.documentofiscal.cte300.classes.CTUnidadeMedidaProdPerigosos"´com.fincatto.documentofiscal.cte300.classes.CTUnidadeMedidaProdPerigosos#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTUnidadeMedidaProdPerigosos;*h
+
+__unknown_file (L"J
+Hcom.fincatto.documentofiscal.cte300.classes.CTUnidadeMedidaProdPerigosos*6
+
+__unknown_file (
+
+arg0java.lang.String"\
+ (:P
+N
+%0Hcom.fincatto.documentofiscal.cte300.classes.CTUnidadeMedidaProdPerigosos:$
+
+- 
+(8
+arg0java.lang.StringB[Y
+Wcom.fincatto.documentofiscal.cte300.transformes.CTUnidadeMedidaProdPerigososTransformerH

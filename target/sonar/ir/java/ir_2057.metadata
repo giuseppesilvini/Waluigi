@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFModalidadeTransporte#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFModalidadeTransporte;
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFModalidadeTransporte#getCodigo()Ljava/lang/String;
+java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z

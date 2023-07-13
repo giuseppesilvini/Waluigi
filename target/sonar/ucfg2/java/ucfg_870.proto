@@ -1,0 +1,50 @@
+
+__sonar_lambda_0$w
+k/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/DFPais.java½ ½(C"startingBlock*ä
+startingBlock
+½ ½(C‘
+Ž
+
+__unknown_file (
+codigojava.lang.Integer"__id*O
+
+__unknown_file (3*1%
+#com.fincatto.documentofiscal.DFPais"
+codigo­
+ª
+
+__unknown_file (2
+DFPais.this#com.fincatto.documentofiscal.DFPais"__id*T
+
+__unknown_file (8*6%
+#com.fincatto.documentofiscal.DFPais"
+DFPais.this*
+1*Õ
+1
+½" ½((ÆÃ
+
+½" ½(4
+%3java.lang.Integer"Bcom.fincatto.documentofiscal.DFPais#getCodigo()Ljava/lang/Integer;*K
+
+__unknown_file (/
+-
+dfPais#com.fincatto.documentofiscal.DFPais2getCodigo()ÛØ
+
+½" ½(C
+%4boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*5
+
+__unknown_file (
+
+%3java.lang.Integer*9
+
+__unknown_file (
+
+codigojava.lang.Integer2equals(Ljava/lang/Object;)"
+
+½" ½(C
+
+%4boolean:;
+
+½ ½(-
+dfPais#com.fincatto.documentofiscal.DFPaisB 
+java.util.function.Predicate

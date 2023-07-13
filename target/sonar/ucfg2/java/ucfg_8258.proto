@@ -1,0 +1,39 @@
+
+¹com.fincatto.documentofiscal.mdfe3.webservices.WSFacade#incluirCondutorAssinado(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;‹
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSFacade.javaÎ Î(."1*ƒ
+1
+Ï Ï(Í
+Ê
+
+Ï Ï(%F
+%0@com.fincatto.documentofiscal.mdfe3.webservices.WSIncluirCondutor"__id*n
+
+__unknown_file (R*P9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacade"
+wsIncluirCondutorÇÄ
+
+Ï Ï(]H
+%1Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno"Âcom.fincatto.documentofiscal.mdfe3.webservices.WSIncluirCondutor#incluirCondutorAssinado(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;*d
+
+__unknown_file (H
+F
+%0@com.fincatto.documentofiscal.mdfe3.webservices.WSIncluirCondutor*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*C
+
+__unknown_file ('
+%
+eventoAssinadoXmljava.lang.String2=incluirCondutorAssinado(Ljava/lang/String;Ljava/lang/String;)"X
+
+Ï Ï(^J
+H
+%1Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno:-
+
+Î/ Î(H
+chaveAcessojava.lang.String:3
+
+ÎI Î(g%
+eventoAssinadoXmljava.lang.StringB;9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacadeH

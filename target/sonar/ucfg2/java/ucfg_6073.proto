@@ -1,0 +1,371 @@
+
+´com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao#efetuaInutilizacao(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lorg/apache/axiom/om/OMElement;ë
+Ü/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/WSInutilizacao.java, ,(("4*‡
+2	: :(ä¥
+±
+
+:ü :(™1
+%28*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao"
+config˝˙
+
+:ü :(∏.
+%29'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*O
+
+__unknown_file (3
+1
+%28*com.fincatto.documentofiscal.nfe.NFeConfig2getAmbiente()Æ´
+	: :(π
+%25java.lang.String"åcom.fincatto.documentofiscal.nfe310.classes.NFAutorizador31#getNfceInutilizacao(Lcom/fincatto/documentofiscal/DFAmbiente;)Ljava/lang/String;*h
+
+__unknown_file (L
+J
+autorizador;com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31*L
+
+__unknown_file (0
+.
+%29'com.fincatto.documentofiscal.DFAmbiente2>getNfceInutilizacao(Lcom/fincatto/documentofiscal/DFAmbiente;)c
+a
+	: :(π
+%23java.lang.String"__id*5
+
+__unknown_file (
+
+%25java.lang.String*
+1*◊
+3:C :(N≤
+Ø
+:b :(m1
+%26*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao"
+config˚¯
+:b :({.
+%27'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*O
+
+__unknown_file (3
+1
+%26*com.fincatto.documentofiscal.nfe.NFeConfig2getAmbiente()´®
+:C :(|
+%24java.lang.String"ãcom.fincatto.documentofiscal.nfe310.classes.NFAutorizador31#getNfeInutilizacao(Lcom/fincatto/documentofiscal/DFAmbiente;)Ljava/lang/String;*h
+
+__unknown_file (L
+J
+autorizador;com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31*L
+
+__unknown_file (0
+.
+%27'com.fincatto.documentofiscal.DFAmbiente2=getNfeInutilizacao(Lcom/fincatto/documentofiscal/DFAmbiente;)b
+`
+:C :(|
+%23java.lang.String"__id*5
+
+__unknown_file (
+
+%24java.lang.String*
+1*œ7
+4-; -(L≈¬
+-? -(J]
+%0Wcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsg"Wcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsgÛ
+
+-; -(L
+%1"acom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsg#<init>()V*{
+
+__unknown_file (_
+]
+%0Wcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsgˆ
+Û
+- -(Md
+	cabecalhoWcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsg"__id*{
+
+__unknown_file (_
+]
+%0Wcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsg±
+Æ
+. .($0
+%2*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao"
+configÅ˛
+. .(-6
+%30com.fincatto.documentofiscal.DFUnidadeFederativa"`com.fincatto.documentofiscal.DFConfig#getCUF()Lcom/fincatto/documentofiscal/DFUnidadeFederativa;*N
+
+__unknown_file (2
+0
+%2*com.fincatto.documentofiscal.nfe.NFeConfig2getCUF()‡›
+. .(=
+%4java.lang.String"Rcom.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;*T
+
+__unknown_file (8
+6
+%30com.fincatto.documentofiscal.DFUnidadeFederativa2getCodigoIbge()Â‚
+. .(>
+
+%5void"scom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsg#setCUF(Ljava/lang/String;)V*Ç
+
+__unknown_file (f
+d
+	cabecalhoWcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsg*4
+
+__unknown_file (
+
+%4java.lang.String2setCUF(Ljava/lang/String;)P
+N
+/! /(>
+%6java.lang.String"__id*$
+
+__unknown_file (
+3.10ıÚ
+/ /(?
+
+%7void"{com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsg#setVersaoDados(Ljava/lang/String;)V*Ç
+
+__unknown_file (f
+d
+	cabecalhoWcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsg*4
+
+__unknown_file (
+
+%6java.lang.String2"setVersaoDados(Ljava/lang/String;)«ƒ
+1A 1(M^
+%8Xcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsgE"Xcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsgEı
+Ú
+1= 1(O
+%9"bcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsgE#<init>()V*|
+
+__unknown_file (`
+^
+%8Xcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsgE˘
+ˆ
+1 1(Pf
+
+cabecalhoEXcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsgE"__id*|
+
+__unknown_file (`
+^
+%8Xcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsgE◊‘
+2 2(,
+%10void"√com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsgE#setNfeCabecMsg(Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/NfeInutilizacao2Stub$NfeCabecMsg;)V*Ñ
+
+__unknown_file (h
+f
+
+cabecalhoEXcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsgE*Ç
+
+__unknown_file (f
+d
+	cabecalhoWcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsg2isetNfeCabecMsg(Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/NfeInutilizacao2Stub$NfeCabecMsg;)∆√
+4; 4(F^
+%11Wcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeDadosMsg"Wcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeDadosMsgı
+Ú
+47 4(H
+%12"acom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeDadosMsg#<init>()V*|
+
+__unknown_file (`
+^
+%11Wcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeDadosMsgÛ
+
+4 4(I`
+dadosWcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeDadosMsg"__id*|
+
+__unknown_file (`
+^
+%11Wcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeDadosMsg§
+°
+5$ 5(Q$
+%13org.apache.axiom.om.OMElement"`org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*B
+
+__unknown_file (&"$
+"org.apache.axiom.om.util.AXIOMUtil*I
+
+__unknown_file (-
++
+inutilizacaoXMLAssinadojava.lang.StringÉ
+Ä
+5 5(R*
+	omElementorg.apache.axiom.om.OMElement"__id*B
+
+__unknown_file (&
+$
+%13org.apache.axiom.om.OMElement’“
+6 6(
+%14org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao2getLogger()∏µ
+6 6(3
+%15java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+	omElementorg.apache.axiom.om.OMElement2
+toString()–Õ
+6 6(4
+%16void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*5
+
+__unknown_file (
+
+%14org.slf4j.Logger*5
+
+__unknown_file (
+
+%15java.lang.String2debug(Ljava/lang/String;)¢ü
+7 7((
+%17void"âcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeDadosMsg#setExtraElement(Lorg/apache/axiom/om/OMElement;)V*~
+
+__unknown_file (b
+`
+dadosWcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeDadosMsg*H
+
+__unknown_file (,
+*
+	omElementorg.apache.axiom.om.OMElement20setExtraElement(Lorg/apache/axiom/om/OMElement;)≤
+Ø
+9L 9(W1
+%18*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao"
+configÉÄ
+9L 9(`7
+%190com.fincatto.documentofiscal.DFUnidadeFederativa"`com.fincatto.documentofiscal.DFConfig#getCUF()Lcom/fincatto/documentofiscal/DFUnidadeFederativa;*O
+
+__unknown_file (3
+1
+%18*com.fincatto.documentofiscal.nfe.NFeConfig2getCUF()ƒ
+¡
+9, 9(aB
+%20;com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31"ºcom.fincatto.documentofiscal.nfe310.classes.NFAutorizador31#valueOfCodigoUF(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe310/classes/NFAutorizador31;*[
+
+__unknown_file (?"=
+;com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31*U
+
+__unknown_file (9
+7
+%190com.fincatto.documentofiscal.DFUnidadeFederativa¡
+æ
+9 9(bJ
+autorizador;com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31"__id*`
+
+__unknown_file (D
+B
+%20;com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31d
+b
+:% :(1,
+%21%com.fincatto.documentofiscal.DFModelo"__id*"
+
+__unknown_file (
+""Ä˝
+:% :(@
+%22boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*J
+
+__unknown_file (.
+,
+%21%com.fincatto.documentofiscal.DFModelo*M
+
+__unknown_file (1
+/
+modelo%com.fincatto.documentofiscal.DFModelo2equals(Ljava/lang/Object;)*
+2
+3*Ñ
+1	: :(∫m
+k
+	: :(∫!
+urlWebServicejava.lang.String"__id*5
+
+__unknown_file (
+
+%23java.lang.String≤
+Ø
+;[ ;(a1
+%30*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao"
+configÆ´
+;7 ;(KR
+%31Kcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub"Kcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub©
+¶
+;3 ;(b
+%32"écom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V*p
+
+__unknown_file (T
+R
+%31Kcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub*?
+
+__unknown_file (#
+!
+urlWebServicejava.lang.String*O
+
+__unknown_file (3
+1
+%30*com.fincatto.documentofiscal.nfe.NFeConfig∫∑
+	;3 ;(àk
+%33dcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeInutilizacaoNF2Result"˘com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub#nfeInutilizacaoNF2(Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/NfeInutilizacao2Stub$NfeDadosMsg;Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/NfeInutilizacao2Stub$NfeCabecMsgE;)Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/NfeInutilizacao2Stub$NfeInutilizacaoNF2Result;*p
+
+__unknown_file (T
+R
+%31Kcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub*~
+
+__unknown_file (b
+`
+dadosWcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeDadosMsg*Ñ
+
+__unknown_file (h
+f
+
+cabecalhoEXcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeCabecMsgE2«nfeInutilizacaoNF2(Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/NfeInutilizacao2Stub$NfeDadosMsg;Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/NfeInutilizacao2Stub$NfeCabecMsgE;)ì
+ê
+	; ;(âq
+	nf2Resultdcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeInutilizacaoNF2Result"__id*â
+
+__unknown_file (m
+k
+%33dcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeInutilizacaoNF2ResultÌ
+<' <(B$
+%34org.apache.axiom.om.OMElement"ïcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeInutilizacaoNF2Result#getExtraElement()Lorg/apache/axiom/om/OMElement;*è
+
+__unknown_file (s
+q
+	nf2Resultdcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeInutilizacaoNF2Result2getExtraElement()Ü
+É
+< <(C-
+dadosRetornoorg.apache.axiom.om.OMElement"__id*B
+
+__unknown_file (&
+$
+%34org.apache.axiom.om.OMElement’“
+= =(
+%35org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao2getLogger()ª∏
+= =(6
+%36java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*K
+
+__unknown_file (/
+-
+dadosRetornoorg.apache.axiom.om.OMElement2
+toString()–Õ
+= =(7
+%37void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*5
+
+__unknown_file (
+
+%35org.slf4j.Logger*5
+
+__unknown_file (
+
+%36java.lang.String2debug(Ljava/lang/String;)";
+> >(/
+-
+dadosRetornoorg.apache.axiom.om.OMElement:7
+,) ,(N+
+inutilizacaoXMLAssinadojava.lang.String:;
+,O ,(d/
+modelo%com.fincatto.documentofiscal.DFModeloBB@
+>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao

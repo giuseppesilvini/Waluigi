@@ -1,0 +1,269 @@
+
+Àcom.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub$CteCabecMsg#getStringToWrite(Ljavax/xml/namespace/QName;Ljavax/xml/stream/XMLStreamWriter;)Ljava/lang/String;§
+š/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/statusservico/CteStatusServicoStub.java½	 ½	('"9*Þ
+2
+Î	 Î	(­
+ª
+
+Î	% Î	(l
+%16java.lang.String"oorg.apache.axis2.databinding.utils.ConverterUtil#convertToString(Ljavax/xml/namespace/QName;)Ljava/lang/String;*P
+
+__unknown_file (4"2
+0org.apache.axis2.databinding.utils.ConverterUtil*@
+
+__unknown_file ($
+"
+qnamejavax.xml.namespace.QName—”
+
+Î	 Î	(m
+%17java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*F
+
+__unknown_file (*
+(
+stringToWritejava.lang.StringBuilder*5
+
+__unknown_file (
+
+%16java.lang.String2append(Ljava/lang/String;)*
+1*Þ
+3
+Ë	 Ë	(!­
+ª
+
+Ë	) Ë	(p
+%14java.lang.String"oorg.apache.axis2.databinding.utils.ConverterUtil#convertToString(Ljavax/xml/namespace/QName;)Ljava/lang/String;*P
+
+__unknown_file (4"2
+0org.apache.axis2.databinding.utils.ConverterUtil*@
+
+__unknown_file ($
+"
+qnamejavax.xml.namespace.QName—”
+
+Ë	 Ë	(q
+%15java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*F
+
+__unknown_file (*
+(
+stringToWritejava.lang.StringBuilder*5
+
+__unknown_file (
+
+%14java.lang.String2append(Ljava/lang/String;)*
+1*ï
+4
+É	 É	(!š—
+
+É	 É	(0
+%10java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*F
+
+__unknown_file (*
+(
+stringToWritejava.lang.StringBuilder*8
+
+__unknown_file (
+
+prefixjava.lang.String2append(Ljava/lang/String;)ùö
+
+É	 É	(<
+%11java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*<
+
+__unknown_file ( 
+
+%10java.lang.StringBuilder*!
+
+__unknown_file (
+:2append(Ljava/lang/String;)®
+«
+É	D É	(‹
+%12java.lang.String"oorg.apache.axis2.databinding.utils.ConverterUtil#convertToString(Ljavax/xml/namespace/QName;)Ljava/lang/String;*P
+
+__unknown_file (4"2
+0org.apache.axis2.databinding.utils.ConverterUtil*@
+
+__unknown_file ($
+"
+qnamejavax.xml.namespace.QNameŽ‹
+É	 É	(Œ
+%13java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*<
+
+__unknown_file ( 
+
+%11java.lang.StringBuilder*5
+
+__unknown_file (
+
+%12java.lang.String2append(Ljava/lang/String;)*
+1*¥
+5
+È	 È	(”‘
+
+È	 È	(!
+%8java.lang.String")java.lang.String#trim()Ljava/lang/String;*8
+
+__unknown_file (
+
+prefixjava.lang.String2trim()us
+
+È	 È	(*	
+%9int"java.lang.String#length()I*4
+
+__unknown_file (
+
+%8java.lang.String2length()*
+3
+4*Ð	
+6
+Ä	 Ä	(,õ
+ò
+
+Ä	 Ä	(V
+%5java.lang.String"com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub$NfeCabecMsgE#generatePrefix(Ljava/lang/String;)Ljava/lang/String;*z
+
+__unknown_file (^"\
+Zcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub$NfeCabecMsgE*>
+
+__unknown_file ("
+ 
+namespaceURIjava.lang.Stringf
+d
+
+Ä	 Ä	(V
+prefixjava.lang.String"__id*4
+
+__unknown_file (
+
+%5java.lang.Stringðí
+
+Å	 Å	(B
+
+%6void"Vjavax.xml.stream.XMLStreamWriter#writeNamespace(Ljava/lang/String;Ljava/lang/String;)V*K
+
+__unknown_file (/
+-
+	xmlWriter javax.xml.stream.XMLStreamWriter*8
+
+__unknown_file (
+
+prefixjava.lang.String*>
+
+__unknown_file ("
+ 
+namespaceURIjava.lang.String24writeNamespace(Ljava/lang/String;Ljava/lang/String;)æã
+
+Æ	 Æ	(=
+
+%7void"Qjavax.xml.stream.XMLStreamWriter#setPrefix(Ljava/lang/String;Ljava/lang/String;)V*K
+
+__unknown_file (/
+-
+	xmlWriter javax.xml.stream.XMLStreamWriter*8
+
+__unknown_file (
+
+prefixjava.lang.String*>
+
+__unknown_file ("
+ 
+namespaceURIjava.lang.String2/setPrefix(Ljava/lang/String;Ljava/lang/String;)*
+5*’
+7
+Ã	) Ã	(/yw
+
+Ã	) Ã	(8	
+%4int"java.lang.String#length()I*8
+
+__unknown_file (
+
+prefixjava.lang.String2length()*
+5
+6*§
+8
+Â	 Â	("¥¢
+
+Â	 Â	(:
+%3java.lang.String"Pjavax.xml.stream.XMLStreamWriter#getPrefix(Ljava/lang/String;)Ljava/lang/String;*K
+
+__unknown_file (/
+-
+	xmlWriter javax.xml.stream.XMLStreamWriter*>
+
+__unknown_file ("
+ 
+namespaceURIjava.lang.String2getPrefix(Ljava/lang/String;)f
+d
+
+Â	 Â	(:
+prefixjava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.String*
+6
+7*Ô
+9
+¾	" ¾	('»¸
+
+¾	" ¾	(9
+%0java.lang.String"=javax.xml.namespace.QName#getNamespaceURI()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+qnamejavax.xml.namespace.QName2getNamespaceURI()l
+j
+
+¾	 ¾	(: 
+namespaceURIjava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.StringT
+R
+
+¿	 ¿	(
+prefixjava.lang.String"__id*"
+
+__unknown_file (
+""FD
+
+À	. À	(;
+%1java.lang.StringBuilder"java.lang.StringBuildert
+r
+
+À	* À	(=
+%2"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%1java.lang.StringBuilder{
+y
+
+À	 À	(>(
+stringToWritejava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%1java.lang.StringBuilder*
+2
+8*í
+1
+Ð	 Ð	( ²¯
+
+Ð	 Ð	(+
+%18java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*F
+
+__unknown_file (*
+(
+stringToWritejava.lang.StringBuilder2
+toString()"'
+
+Ð	 Ð	(,
+
+%18java.lang.String:0
+
+½	( ½	(4"
+qnamejavax.xml.namespace.QName:;
+
+½	5 ½	(N-
+	xmlWriter javax.xml.stream.XMLStreamWriterBb`
+^com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub$CteCabecMsg

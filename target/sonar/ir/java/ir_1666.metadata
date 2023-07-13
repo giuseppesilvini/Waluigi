@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoTransporte#setReboques(Ljava/util/List;)V
+com.fincatto.documentofiscal.validadores.DFListValidador#tamanho5(Ljava/util/List;Ljava/lang/String;)V

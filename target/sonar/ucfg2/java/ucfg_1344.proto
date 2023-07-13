@@ -1,0 +1,60 @@
+
+Ìcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoTipoOperacao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoItemProdutoVeiculoTipoOperacao;§
+œ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFNotaInfoItemProdutoVeiculoTipoOperacao.java; (H"5*Ç
+2 (@•
+’
+ (@\
+tipoTcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoTipoOperacao"__id*"
+
+__unknown_file (
+""—
+”
+ (@\
+tipoTcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoTipoOperacao"
+__arrayGet*z
+
+__unknown_file (^
+\
+%0Vcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoTipoOperacao[]*"
+
+__unknown_file (
+""*
+4
+1*y
+3 ("j
+ (^
+\
+tipoTcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoTipoOperacao*“
+4 (¢Ÿ
+ ( 
+%1java.lang.String"rcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoTipoOperacao#getCodigo()Ljava/lang/String;*z
+
+__unknown_file (^
+\
+tipoTcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoTipoOperacao2getCodigo()ÖÓ
+ (/
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*­
+5C (k˜
+•
+C (t\
+%0Vcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoTipoOperacao[]"´com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoTipoOperacao#values()[Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoItemProdutoVeiculoTipoOperacao;*t
+
+__unknown_file (X"V
+Tcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoTipoOperacao*
+2*!
+1 ("
+ (
+"":&
+I (\
+codigojava.lang.StringBX"V
+Tcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoTipoOperacaoH

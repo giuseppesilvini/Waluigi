@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFNotaSituacaoOperacionalSimplesNacionalTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaSituacaoOperacionalSimplesNacional;
+com.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaSituacaoOperacionalSimplesNacional;

@@ -1,0 +1,59 @@
+
+ácom.fincatto.documentofiscal.mdfe3.webservices.WSFacade#encerramento(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;ã
+/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSFacade.javaê ê(#"1*Å
+
+1
+í í(«
+ƒ
+
+í í("C
+%0=com.fincatto.documentofiscal.mdfe3.webservices.WSEncerramento"__id*k
+
+__unknown_file (O*M9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacade"
+wsEncerramento «
+í í(ÇH
+%1Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno"åcom.fincatto.documentofiscal.mdfe3.webservices.WSEncerramento#encerraMdfe(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;*a
+
+__unknown_file (E
+C
+%0=com.fincatto.documentofiscal.mdfe3.webservices.WSEncerramento*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*A
+
+__unknown_file (%
+#
+numeroProtocolojava.lang.String*A
+
+__unknown_file (%
+#
+codigoMunicipiojava.lang.String*E
+
+__unknown_file ()
+'
+dataEncerramentojava.time.LocalDate*c
+
+__unknown_file (G
+E
+unidadeFederativa0com.fincatto.documentofiscal.DFUnidadeFederativa2äencerraMdfe(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)"Y
+í í(ÉJ
+H
+%1Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno:-
+
+ê$ ê(=
+chaveAcessojava.lang.String:1
+
+ê> ê([#
+numeroProtocolojava.lang.String:1
+
+ë ë()#
+codigoMunicipiojava.lang.String:5
+
+ë* ë(K'
+dataEncerramentojava.time.LocalDate:S
+
+ëL ë(wE
+unidadeFederativa0com.fincatto.documentofiscal.DFUnidadeFederativaB;9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacadeH

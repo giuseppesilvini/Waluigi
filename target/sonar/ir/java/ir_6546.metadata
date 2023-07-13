@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoDeclaracaoImportacao#setUfTerceiro(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)V
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigo()Ljava/lang/String;

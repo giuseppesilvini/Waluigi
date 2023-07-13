@@ -1,0 +1,36 @@
+
+Õcom.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoItemIndicadorIncentivoFiscalTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoItemIndicadorIncentivoFiscal;)Ljava/lang/String;µ
+ª/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFNotaInfoItemIndicadorIncentivoFiscalTransformer.java ("startingBlock*­
+startingBlock (UÞ
+Û
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*ˆ
+
+__unknown_file (l
+j
+incentivoFiscalWcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemIndicadorIncentivoFiscal«
+¨
+E (Tj
+incentivoFiscalWcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemIndicadorIncentivoFiscal"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ê
+1 (´±
+ (*
+%0java.lang.String"ucom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemIndicadorIncentivoFiscal#getCodigo()Ljava/lang/String;*ˆ
+
+__unknown_file (l
+j
+incentivoFiscalWcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemIndicadorIncentivoFiscal2getCodigo()"$
+ (+
+
+%0java.lang.String:v
+ (Tj
+incentivoFiscalWcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemIndicadorIncentivoFiscalBfd
+bcom.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoItemIndicadorIncentivoFiscalTransformerH

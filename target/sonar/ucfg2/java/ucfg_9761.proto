@@ -1,0 +1,35 @@
+
+³com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsg#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader;®
+¡/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/consultacadastro/CadConsultaCadastro4Stub.java­ ­(,"startingBlock*ž
+startingBlock
+­, ­(>–
+“
+
+¬ ¬(
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*?
+
+__unknown_file (#
+!
+arg0javax.xml.namespace.QNamec
+a
+
+­9 ­(=!
+arg0javax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%0*
+1*%
+1
+® ®("
+
+® ®(
+"":/
+
+­- ­(=!
+arg0javax.xml.namespace.QNameBjh
+fcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsgH

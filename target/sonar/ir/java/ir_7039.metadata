@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFSituacaoTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/NFSituacao;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.NFSituacao#getCodigo()Ljava/lang/String;

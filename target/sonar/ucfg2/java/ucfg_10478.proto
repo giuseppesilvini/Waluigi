@@ -1,0 +1,66 @@
+
+§com.fincatto.documentofiscal.nfe310.webservices.WSFacade#inutilizaNota(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/inutilizacao/NFRetornoEventoInutilizacao;
+€/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/WSFacade.javaÀ' À(4"1*š
+1
+Á Á(É
+Æ
+
+Á Á("D
+%0>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao"__id*l
+
+__unknown_file (P*N:
+8com.fincatto.documentofiscal.nfe310.webservices.WSFacade"
+wsInutilizacaoÈÅ
+Á Á(’a
+%1[com.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFRetornoEventoInutilizacao"­com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao#inutilizaNota(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/inutilizacao/NFRetornoEventoInutilizacao;*b
+
+__unknown_file (F
+D
+%0>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao*"
+
+__unknown_file (
+""*>
+
+__unknown_file ("
+ 
+cnpjEmitentejava.lang.String*7
+
+__unknown_file (
+
+seriejava.lang.String*?
+
+__unknown_file (#
+!
+numeroInicialjava.lang.String*=
+
+__unknown_file (!
+
+numeroFinaljava.lang.String*?
+
+__unknown_file (#
+!
+justificativajava.lang.String*M
+
+__unknown_file (1
+/
+modelo%com.fincatto.documentofiscal.DFModelo2‘inutilizaNota(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)"r
+Á Á(“c
+a
+%1[com.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFRetornoEventoInutilizacao: 
+
+__unknown_file (
+"":.
+
+ÀY À(s 
+cnpjEmitentejava.lang.String:(
+Àt À(‡
+seriejava.lang.String:1
+Àˆ À(£!
+numeroInicialjava.lang.String:/
+À¤ À(½
+numeroFinaljava.lang.String:1
+À¾ À(Ù!
+justificativajava.lang.String:?
+ÀÚ À(ï/
+modelo%com.fincatto.documentofiscal.DFModeloB<:
+8com.fincatto.documentofiscal.nfe310.webservices.WSFacadeH

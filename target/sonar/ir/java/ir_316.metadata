@@ -1,0 +1,13 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSCancelamento#efetuaCancelamento(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#instance-init#
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRecepcaoEvento4Stub$NfeDadosMsg#<init>()V
+java.lang.Enum#name()Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRecepcaoEvento4Stub$NfeDadosMsg#instance-init#
+com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#<init>(Ljava/lang/String;)V
+com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400#valueOfChaveAcesso(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFAutorizador400;
+java.lang.IllegalArgumentException#instance-init#
+com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRecepcaoEvento4Stub#instance-init#
+com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRecepcaoEvento4Stub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V

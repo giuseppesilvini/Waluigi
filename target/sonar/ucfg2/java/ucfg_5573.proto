@@ -1,0 +1,36 @@
+
+ªcom.fincatto.documentofiscal.cte200.transformers.CTResponsavelSeguroTransformer#write(Lcom/fincatto/documentofiscal/cte200/classes/CTResponsavelSeguro;)Ljava/lang/String;¢
+—/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/transformers/CTResponsavelSeguroTransformer.java ("startingBlock*æ
+startingBlock (7º
+·
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*e
+
+__unknown_file (I
+G
+tipo?com.fincatto.documentofiscal.cte200.classes.CTResponsavelSeguroˆ
+…
+2 (6G
+tipo?com.fincatto.documentofiscal.cte200.classes.CTResponsavelSeguro"__annotation*"
+
+__unknown_file (
+
+%1*
+1*®
+1 (øõ
+ (
+%0java.lang.String"]com.fincatto.documentofiscal.cte200.classes.CTResponsavelSeguro#getCodigo()Ljava/lang/String;*e
+
+__unknown_file (I
+G
+tipo?com.fincatto.documentofiscal.cte200.classes.CTResponsavelSeguro2getCodigo()"$
+ ( 
+
+%0java.lang.String:S
+ (6G
+tipo?com.fincatto.documentofiscal.cte200.classes.CTResponsavelSeguroBSQ
+Ocom.fincatto.documentofiscal.cte200.transformers.CTResponsavelSeguroTransformerH

@@ -1,0 +1,7 @@
+com.fincatto.documentofiscal.utils.DFPersister#<init>(Z)V
+com.fincatto.documentofiscal.transformers.DFRegistryMatcher#<init>()V
+org.simpleframework.xml.convert.AnnotationStrategy#<init>()V
+org.simpleframework.xml.convert.AnnotationStrategy#instance-init#
+com.fincatto.documentofiscal.transformers.DFRegistryMatcher#instance-init#
+org.simpleframework.xml.stream.Format#instance-init#
+org.simpleframework.xml.stream.Format#<init>(I)V

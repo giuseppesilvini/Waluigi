@@ -1,0 +1,13 @@
+com.fincatto.documentofiscal.cte.webservices.distribuicao.WSDistribuicaoCTe#consultar(Lcom/fincatto/documentofiscal/cte/classes/distribuicao/CTDistribuicaoInt;Lcom/fincatto/documentofiscal/nfe/NFeConfig;)Ljava/lang/String;
+org.apache.commons.httpclient.protocol.Protocol#instance-init#
+org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.utils.DFSocketFactory#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V
+com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDadosMsgType0#instance-init#
+com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse#instance-init#
+com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse#<init>()V
+com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+org.apache.commons.httpclient.protocol.Protocol#registerProtocol(Ljava/lang/String;Lorg/apache/commons/httpclient/protocol/Protocol;)V
+org.apache.commons.httpclient.protocol.Protocol#<init>(Ljava/lang/String;Lorg/apache/commons/httpclient/protocol/ProtocolSocketFactory;I)V
+com.fincatto.documentofiscal.utils.DFSocketFactory#instance-init#
+com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDadosMsgType0#<init>()V
+com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub#instance-init#

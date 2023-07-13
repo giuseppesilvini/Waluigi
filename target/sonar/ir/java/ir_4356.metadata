@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.validadores.DFStringValidador#tamanho256(Ljava/lang/String;Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#validaTamanhoMaximo(Ljava/lang/String;ILjava/lang/String;)V

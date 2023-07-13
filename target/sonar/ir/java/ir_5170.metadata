@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.nota.CTeNotaInfoIdentificacao#setIndicadorGlobalizado(Ljava/lang/Integer;)V
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#exatamente1(Ljava/lang/Integer;Ljava/lang/String;)V

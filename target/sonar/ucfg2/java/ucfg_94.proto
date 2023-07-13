@@ -1,0 +1,73 @@
+
+ècom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;Lcom/fincatto/documentofiscal/mdfe3/webservices/consulta/MDFeConsultaStub$MdfeDadosMsg;ZLjavax/xml/namespace/QName;)Lorg/apache/axiom/soap/SOAPEnvelope;ù
+ê/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/consulta/MDFeConsultaStub.javaÎ/ Î(9"1*Ö
+1
+ÌA Ì(H˜Ù
+
+ÌA Ì(](
+%0"org.apache.axiom.soap.SOAPEnvelope"Zorg.apache.axiom.soap.SOAPFactory#getDefaultEnvelope()Lorg/apache/axiom/soap/SOAPEnvelope;*J
+
+__unknown_file (.
+,
+factory!org.apache.axiom.soap.SOAPFactory2getDefaultEnvelope()í
+è
+
+Ì Ì(^3
+emptyEnvelope"org.apache.axiom.soap.SOAPEnvelope"__id*F
+
+__unknown_file (*
+(
+%0"org.apache.axiom.soap.SOAPEnvelope·ﬁ
+
+Ó Ó($
+%1org.apache.axiom.soap.SOAPBody"Lorg.apache.axiom.soap.SOAPEnvelope#getBody()Lorg/apache/axiom/soap/SOAPBody;*Q
+
+__unknown_file (5
+3
+emptyEnvelope"org.apache.axiom.soap.SOAPEnvelope2	getBody()Z
+X
+Ó< Ó(ö
+%2javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""»≈
+Ó) Ó(§#
+%3org.apache.axiom.om.OMElement"Ωcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeDadosMsg#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;*|
+
+__unknown_file (`
+^
+paramUcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeDadosMsg*=
+
+__unknown_file (!
+
+%2javax.xml.namespace.QName*J
+
+__unknown_file (.
+,
+factory!org.apache.axiom.soap.SOAPFactory2HgetOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)îë
+Ó Ó(•
+
+%4void"Gorg.apache.axiom.om.OMContainer#addChild(Lorg/apache/axiom/om/OMNode;)V*B
+
+__unknown_file (&
+$
+%1org.apache.axiom.soap.SOAPBody*A
+
+__unknown_file (%
+#
+%3org.apache.axiom.om.OMElement2&addChild(Lorg/apache/axiom/om/OMNode;)"C
+
+Ô Ô(5
+3
+emptyEnvelope"org.apache.axiom.soap.SOAPEnvelope::
+
+Î: Î(j,
+factory!org.apache.axiom.soap.SOAPFactory:m
+Îk Î(Õ^
+paramUcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeDadosMsg: 
+
+__unknown_file (
+"":8
+ÎÌ Î(ò(
+methodQNamejavax.xml.namespace.QNameBLJ
+Hcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub

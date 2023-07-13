@@ -1,0 +1,435 @@
+
+rcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeContingenciaOffline20#getQRCode()Ljava/lang/String;ß
+ú/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/utils/qrcode20/NFGeraQRCodeContingenciaOffline20.java ("1*Àg
+1 (!èå
+ (#
+%0java.lang.String"bcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20#getUrlQRCode()Ljava/lang/String;*t
+
+__unknown_file (XV
+Tcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeContingenciaOffline202getUrlQRCode()a
+_
+ ($
+urljava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.String“
+œ
+! (%=
+%17com.fincatto.documentofiscal.nfe400.classes.nota.NFNota"__id*~
+
+__unknown_file (b*`V
+Tcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeContingenciaOffline20"
+nota∏µ
+! (/A
+%2;com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo"~com.fincatto.documentofiscal.nfe400.classes.nota.NFNota#getInfo()Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfo;*[
+
+__unknown_file (?
+=
+%17com.fincatto.documentofiscal.nfe400.classes.nota.NFNota2	getInfo()ÌÍ
+! (BN
+%3Hcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoIdentificacao"òcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo#getIdentificacao()Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoIdentificacao;*_
+
+__unknown_file (C
+A
+%2;com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo2getIdentificacao()®•
+! (W
+%4java.time.ZonedDateTime"vcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoIdentificacao#getDataHoraEmissao()Ljava/time/ZonedDateTime;*l
+
+__unknown_file (P
+N
+%3Hcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoIdentificacao2getDataHoraEmissao()n
+l
+ (X
+dtjava.time.ZonedDateTime"__id*;
+
+__unknown_file (
+
+%4java.time.ZonedDateTimeÖ
+Ç
+# (D(
+%5"java.time.format.DateTimeFormatter"djava.time.format.DateTimeFormatter#ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;*B
+
+__unknown_file (&"$
+"java.time.format.DateTimeFormatter*"
+
+__unknown_file (
+ddΩ∫
+# (O
+%6java.lang.String"bjava.time.format.DateTimeFormatter#format(Ljava/time/temporal/TemporalAccessor;)Ljava/lang/String;*F
+
+__unknown_file (*
+(
+%5"java.time.format.DateTimeFormatter*;
+
+__unknown_file (
+
+dtjava.time.ZonedDateTime2-format(Ljava/time/temporal/TemporalAccessor;)h
+f
+ (P
+
+diaEmissaojava.lang.String"__id*4
+
+__unknown_file (
+
+%6java.lang.StringDB
+- (:
+%7java.lang.StringBuilder"java.lang.StringBuilderr
+p
+) (<
+%8"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%7java.lang.StringBuilderv
+t
+ (=%
+
+parametrosjava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%7java.lang.StringBuilder“
+œ
+ (=
+%97com.fincatto.documentofiscal.nfe400.classes.nota.NFNota"__id*~
+
+__unknown_file (b*`V
+Tcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeContingenciaOffline20"
+notaπ∂
+ ((B
+%10;com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo"~com.fincatto.documentofiscal.nfe400.classes.nota.NFNota#getInfo()Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfo;*[
+
+__unknown_file (?
+=
+%97com.fincatto.documentofiscal.nfe400.classes.nota.NFNota2	getInfo()˙˜
+ (9
+%11java.lang.String"^com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo#getChaveAcesso()Ljava/lang/String;*`
+
+__unknown_file (D
+B
+%10;com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo2getChaveAcesso()íè
+ (:
+%12java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder*5
+
+__unknown_file (
+
+%11java.lang.String2append(Ljava/lang/String;)˜Ù
+ (F
+%13java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*<
+
+__unknown_file ( 
+
+%12java.lang.StringBuilder*!
+
+__unknown_file (
+|2append(Ljava/lang/String;)N
+L
+ ('
+%14java.lang.String"__id*!
+
+__unknown_file (
+2íè
+ ((
+%15java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder*5
+
+__unknown_file (
+
+%14java.lang.String2append(Ljava/lang/String;)˜Ù
+ (4
+%16java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*<
+
+__unknown_file ( 
+
+%15java.lang.StringBuilder*!
+
+__unknown_file (
+|2append(Ljava/lang/String;)…
+∆
+ ( 1
+%17*com.fincatto.documentofiscal.nfe.NFeConfig"__id*Ä
+
+__unknown_file (d*bV
+Tcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeContingenciaOffline20"
+config˚¯
+ (..
+%18'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*O
+
+__unknown_file (3
+1
+%17*com.fincatto.documentofiscal.nfe.NFeConfig2getAmbiente()»≈
+ (:
+%19java.lang.String"Ecom.fincatto.documentofiscal.DFAmbiente#getCodigo()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+%18'com.fincatto.documentofiscal.DFAmbiente2getCodigo()íè
+ (;
+%20java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder*5
+
+__unknown_file (
+
+%19java.lang.String2append(Ljava/lang/String;)˜Ù
+ (G
+%21java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*<
+
+__unknown_file ( 
+
+%20java.lang.StringBuilder*!
+
+__unknown_file (
+|2append(Ljava/lang/String;)ôñ
+ (%
+%22java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder*<
+
+__unknown_file ( 
+
+
+diaEmissaojava.lang.String2append(Ljava/lang/String;)˜Ù
+ (1
+%23java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*<
+
+__unknown_file ( 
+
+%22java.lang.StringBuilder*!
+
+__unknown_file (
+|2append(Ljava/lang/String;)”
+–
+ (>
+%247com.fincatto.documentofiscal.nfe400.classes.nota.NFNota"__id*~
+
+__unknown_file (b*`V
+Tcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeContingenciaOffline20"
+nota∫∑
+ ((B
+%25;com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo"~com.fincatto.documentofiscal.nfe400.classes.nota.NFNota#getInfo()Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfo;*\
+
+__unknown_file (@
+>
+%247com.fincatto.documentofiscal.nfe400.classes.nota.NFNota2	getInfo()œÃ
+ (3G
+%26@com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoTotal"àcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo#getTotal()Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoTotal;*`
+
+__unknown_file (D
+B
+%25;com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo2
+getTotal()ÈÊ
+ (BK
+%27Dcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoICMSTotal"ïcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoTotal#getIcmsTotal()Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoICMSTotal;*e
+
+__unknown_file (I
+G
+%26@com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoTotal2getIcmsTotal()êç
+ (U
+%28java.lang.String"icom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoICMSTotal#getValorTotalNFe()Ljava/lang/String;*i
+
+__unknown_file (M
+K
+%27Dcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoICMSTotal2getValorTotalNFe()íè
+ (V
+%29java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder*5
+
+__unknown_file (
+
+%28java.lang.String2append(Ljava/lang/String;)˜Ù
+ (b
+%30java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*<
+
+__unknown_file ( 
+
+%29java.lang.StringBuilder*!
+
+__unknown_file (
+|2append(Ljava/lang/String;)”
+–
+    ($>
+%317com.fincatto.documentofiscal.nfe400.classes.nota.NFNota"__id*~
+
+__unknown_file (b*`V
+Tcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeContingenciaOffline20"
+notaﬂ‹
+    (4N
+%32Gcom.fincatto.documentofiscal.nfe400.classes.nota.assinatura.NFSignature"êcom.fincatto.documentofiscal.nfe400.classes.nota.NFNota#getAssinatura()Lcom/fincatto/documentofiscal/nfe400/classes/nota/assinatura/NFSignature;*\
+
+__unknown_file (@
+>
+%317com.fincatto.documentofiscal.nfe400.classes.nota.NFNota2getAssinatura()Å˛
+    (DO
+%33Hcom.fincatto.documentofiscal.nfe400.classes.nota.assinatura.NFSignedInfo"°com.fincatto.documentofiscal.nfe400.classes.nota.assinatura.NFSignature#getSignedInfo()Lcom/fincatto/documentofiscal/nfe400/classes/nota/assinatura/NFSignedInfo;*l
+
+__unknown_file (P
+N
+%32Gcom.fincatto.documentofiscal.nfe400.classes.nota.assinatura.NFSignature2getSignedInfo()ˇ¸
+    (SN
+%34Gcom.fincatto.documentofiscal.nfe400.classes.nota.assinatura.NFReference"†com.fincatto.documentofiscal.nfe400.classes.nota.assinatura.NFSignedInfo#getReference()Lcom/fincatto/documentofiscal/nfe400/classes/nota/assinatura/NFReference;*m
+
+__unknown_file (Q
+O
+%33Hcom.fincatto.documentofiscal.nfe400.classes.nota.assinatura.NFSignedInfo2getReference()íè
+    (d
+%35java.lang.String"jcom.fincatto.documentofiscal.nfe400.classes.nota.assinatura.NFReference#getDigestValue()Ljava/lang/String;*l
+
+__unknown_file (P
+N
+%34Gcom.fincatto.documentofiscal.nfe400.classes.nota.assinatura.NFReference2getDigestValue()Ø
+¨
+   (e
+%36java.lang.String"mcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20#toHex(Ljava/lang/String;)Ljava/lang/String;*a
+
+__unknown_file (E"C
+Acom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20*5
+
+__unknown_file (
+
+%35java.lang.Stringíè
+   (f
+%37java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder*5
+
+__unknown_file (
+
+%36java.lang.String2append(Ljava/lang/String;)˜Ù
+   (r
+%38java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*<
+
+__unknown_file ( 
+
+%37java.lang.StringBuilder*!
+
+__unknown_file (
+|2append(Ljava/lang/String;)…
+∆
+! !( 1
+%39*com.fincatto.documentofiscal.nfe.NFeConfig"__id*Ä
+
+__unknown_file (d*bV
+Tcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeContingenciaOffline20"
+config˛˚
+! !(C
+%40java.lang.Integer"`com.fincatto.documentofiscal.nfe.NFeConfig#getCodigoSegurancaContribuinteID()Ljava/lang/Integer;*O
+
+__unknown_file (3
+1
+%39*com.fincatto.documentofiscal.nfe.NFeConfig2"getCodigoSegurancaContribuinteID()ìê
+! !(D
+%41java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/Object;)Ljava/lang/StringBuilder;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder*6
+
+__unknown_file (
+
+%40java.lang.Integer2append(Ljava/lang/Object;)k
+i
+# #(
+%42java.lang.String"__concat*%
+# #(
+
+urljava.lang.String*
+# #(
+?p=≠™
+# #(2
+%43java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder2
+toString()}
+{
+# #(2
+%44java.lang.String"__concat*%
+# #(
+
+%42java.lang.String*%
+# #(2
+
+%43java.lang.Stringi
+g
+# #(8
+%45java.lang.String"__concat*%
+# #(2
+
+%44java.lang.String*
+#5 #(8
+|≠™
+#F #([
+%46java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder2
+toString()…
+∆
+#] #(c1
+%47*com.fincatto.documentofiscal.nfe.NFeConfig"__id*Ä
+
+__unknown_file (d*bV
+Tcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeContingenciaOffline20"
+config˘ˆ
+	#] #(Ñ
+%48java.lang.String"]com.fincatto.documentofiscal.nfe.NFeConfig#getCodigoSegurancaContribuinte()Ljava/lang/String;*O
+
+__unknown_file (3
+1
+%47*com.fincatto.documentofiscal.nfe.NFeConfig2 getCodigoSegurancaContribuinte()ˇ
+¸
+	#; #(Ö
+%49java.lang.String"Ñcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20#createHash(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*a
+
+__unknown_file (E"C
+Acom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20*5
+
+__unknown_file (
+
+%46java.lang.String*5
+
+__unknown_file (
+
+%48java.lang.String
+}
+	# #(Ö
+%50java.lang.String"__concat*%
+# #(8
+
+%45java.lang.String*&
+	#; #(Ö
+
+%49java.lang.String"&
+	# #(Ü
+
+%50java.lang.StringBXV
+Tcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeContingenciaOffline20H

@@ -1,0 +1,62 @@
+
+âcom.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus#valueOfCodigo(I)Lcom/fincatto/documentofiscal/nfe400/classes/NFRetornoStatus;ê
+É/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFRetornoStatus.javaÃ" Ã(/"5*î
+2
+Õ Õ(0á
+Ñ
+
+Õ Õ(0L
+statusRetorno;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus"__id*"
+
+__unknown_file (
+""
+Ì
+
+Õ Õ(0L
+statusRetorno;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus"
+__arrayGet*a
+
+__unknown_file (E
+C
+%0=com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus[]*"
+
+__unknown_file (
+""*
+4
+1*m
+3
+œ œ($"\
+
+œ œ(%N
+L
+statusRetorno;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus*˜
+4
+Œ Œ(›⁄
+
+Œ Œ()	
+%1int"Hcom.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus#getCodigo()I*j
+
+__unknown_file (N
+L
+statusRetorno;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus2getCodigo()*
+2
+3*Õ
+5
+Õ3 Õ(B∂
+≥
+
+Õ3 Õ(KC
+%0=com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus[]"Çcom.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus#values()[Lcom/fincatto/documentofiscal/nfe400/classes/NFRetornoStatus;*[
+
+__unknown_file (?"=
+;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus*
+2*%
+1
+“ “("
+
+“ “(
+"": 
+
+__unknown_file (
+""B?"=
+;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatusH

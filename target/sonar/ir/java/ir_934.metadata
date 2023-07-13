@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoRetencaoICMSTransporte#setCfop(Ljava/lang/Integer;)V
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#tamanho4(Ljava/lang/Integer;Ljava/lang/String;)V

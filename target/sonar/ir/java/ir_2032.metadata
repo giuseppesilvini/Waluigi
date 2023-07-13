@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.cte300.parsers.CTChaveParser#getDataEmissao()Ljava/time/LocalDate;
+com.fincatto.documentofiscal.cte300.parsers.CTChaveParser#getDataEmissaoMes()I
+java.time.LocalDate#of(III)Ljava/time/LocalDate;
+com.fincatto.documentofiscal.cte300.parsers.CTChaveParser#getDataEmissaoAno()I

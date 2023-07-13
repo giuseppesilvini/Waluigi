@@ -1,0 +1,49 @@
+
+com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31$16#getConsultaCadastro(Lcom/fincatto/documentofiscal/DFAmbiente;)Ljava/lang/String;
+ƒ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFAutorizador31.java½
+ ½
+()"startingBlock*Â
+startingBlock
+½
+) ½
+(D¨
+¥
+
+¼
+ ¼
+(
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Q
+
+__unknown_file (5
+3
+ambiente'com.fincatto.documentofiscal.DFAmbienteu
+s
+
+½
+; ½
+(C3
+ambiente'com.fincatto.documentofiscal.DFAmbiente"__annotation*"
+
+__unknown_file (
+
+%0*
+1*n
+1
+¾
+ ¾
+(`"]
+
+¾
+ ¾
+(aOM
+Khttps://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro2.asmx:A
+
+½
+* ½
+(C3
+ambiente'com.fincatto.documentofiscal.DFAmbienteBB@
+>com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31$16H

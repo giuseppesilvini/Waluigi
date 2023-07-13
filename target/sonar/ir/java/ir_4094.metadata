@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.classes.CTRetirada#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTRetirada;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.cte300.classes.CTRetirada#getCodigo()Ljava/lang/String;

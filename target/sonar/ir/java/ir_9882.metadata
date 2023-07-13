@@ -1,0 +1,6 @@
+com.fincatto.documentofiscal.validadores.DFBigIntegerValidador#tamanho11(Ljava/math/BigInteger;Ljava/lang/String;)V
+java.math.BigInteger#<init>(Ljava/lang/String;)V
+java.math.BigInteger#instance-init#
+java.lang.NumberFormatException#<init>(Ljava/lang/String;)V
+java.lang.NumberFormatException#instance-init#
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

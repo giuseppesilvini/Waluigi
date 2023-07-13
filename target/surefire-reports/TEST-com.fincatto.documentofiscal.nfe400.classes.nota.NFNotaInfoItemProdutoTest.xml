@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="91" failures="0" name="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" time="0" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\danie\OneDrive\Desktop\progetto modelli\nfe"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IT"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\danie\OneDrive\Desktop\progetto modelli\nfe"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\danie\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\Apache\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Apache\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-11.0.17\bin;C:\Users\danie\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Program Files (x86)\Apache\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files (x86)\Apache\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\danie"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sonar.projectKey" value="com.github.wmixvideo:nfe3"/>
+    <property name="user.name" value="Daniel"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Apache\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=com.github.wmixvideo:nfe3"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.17"/>
+    <property name="user.language" value="it"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="maven.home" value="C:\Program Files (x86)\Apache\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterVeiculoComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirCfopComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterNumeroPedidoClienteComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirCombustivelNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterCombustivelComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterValorUnitarioTributavelComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirValorOutrasDespesasAcessoriasComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirSetarRECOPICasoVeiculoMedicamentoCombustivelSetadoOuArmamento" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterDetalhesExportacaoComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirDeclaracoesImportacaoNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterNumeroControleFCIComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirNcmNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterCodigoEspecificadorSituacaoTributariaComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterValorDescontoComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterCodigoDeBarrasComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirQuantidadeComercialNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirValorTotalBrutoNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterArmamentosComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDeveCodigoDeBarrasComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirDescricaoComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterNomeclaturaValorAduaneiroEstatisticaComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirVeiculoNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirValorTotalBrutoComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirCodigoDeBarrasTributavelNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirSetarArmamentoCasoVeiculoMedicamentoCombustivelOuRECOPISetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterDeclaracoesImportacaoComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirNumeroPedidoItemClienteNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirValorUnitarioTributavelComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirArmamentosNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirValorUnitarioComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirCompoeValotNotaNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirUnidadeComercialNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirSetarMedicamentoCasoVeiculoArmamentoCombustivelOuRECOPISetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirValorFreteComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirUnidadeTributavelComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterValorUnitarioComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirCodigoDeBarrasNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterCfopComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirCodigoComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirNumeroPedidoClienteNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveGerarTagsCeansVaziasQuandoProdutoNaoPossuiCodigoDeBarras" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirNomeclaturaForaDoPadrao" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirNumeroPedidoItemClienteComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirQuantidadeTributavelComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterCodigoComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirValorFreteNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirCESTComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveGerarXMLComCeanECeanTribVaziosCasoSejaNuloAoSerParseado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirSetarVeiculoCasoArmamentoOuCombustivelOuRECOPISetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirNumeroPedidoClienteComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterValorSeguroComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirValorUnitarioNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirNcmComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveGerarXMLDeAcordoComOPadraoEstabelecido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirQuantidadeTributavelNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterQuantidadeTributavelComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirValorDescontoComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterNcmComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirDescricaoNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterCodigoDeBarrasTributavelComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterValorFreteComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirUnidadeTributavelNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirDetalhesImportacaoTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirNumeroControleComFormatoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterCompoeValorNotaComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDeveCodigoDeBarrasTributavelComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirValorUnitarioTributavelNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirValorOutrasDespesasAcessoriasNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterNumeroPedidoItemClienteComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterNnidadeComercialComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterNnidadeTributavelComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterNumeroRECOPIComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterValorTotalBrutoComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirExtipiComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterDescricaoComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirMedicamentosNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirCfopNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterValorOutrasDespesasAcessoriasComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirsetNomeclaturaValorAduaneiroEstatisticaNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirUnidadeComercialComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirValorSeguroNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirCodigoNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirValorDescontoNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterQuantidadeComercialComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirExtipiNulo" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirQuantidadeComercialComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="naoDevePermitirValorSeguroComTamanhoInvalido" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterMedicamentosComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveObterExtipiComoFoiSetado" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="deveRetornarSEMGTINCasoNaoPossuaCodigoDeBarras" time="0"/>
+  <testcase classname="com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoTest" name="devePermitirDetalhesExportacaoNulo" time="0"/>
+</testsuite>

@@ -1,0 +1,36 @@
+
+„com.fincatto.documentofiscal.nfe400.classes.evento.averbacaoexportacao.NFInfoAverbacaoExportacao#getItensAverbados()Ljava/util/List;³
+¨/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/evento/averbacaoexportacao/NFInfoAverbacaoExportacao.java?, ?(="1*ü
+1@ @(À
+½
+@ @(+
+%0java.util.List"__id*”
+
+__unknown_file (x*vb
+`com.fincatto.documentofiscal.nfe400.classes.evento.averbacaoexportacao.NFInfoAverbacaoExportacao"
+itensAverbadosÂ
+¿
+@ @(?
+
+%1void"hcom.fincatto.documentofiscal.validadores.DFListValidador#tamanho990(Ljava/util/List;Ljava/lang/String;)V*X
+
+__unknown_file (<":
+8com.fincatto.documentofiscal.validadores.DFListValidador*2
+
+__unknown_file (
+
+%0java.util.List*/
+
+__unknown_file (
+Itens AverbadosÀ
+½
+A	 A(
+%2java.util.List"__id*”
+
+__unknown_file (x*vb
+`com.fincatto.documentofiscal.nfe400.classes.evento.averbacaoexportacao.NFInfoAverbacaoExportacao"
+itensAverbados""
+A A(
+
+%2java.util.ListBdb
+`com.fincatto.documentofiscal.nfe400.classes.evento.averbacaoexportacao.NFInfoAverbacaoExportacaoH

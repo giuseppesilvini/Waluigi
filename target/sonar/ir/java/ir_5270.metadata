@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFFormaPagamentoMoeda#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFFormaPagamentoMoeda;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe310.classes.nota.NFFormaPagamentoMoeda#getCodigo()Ljava/lang/String;

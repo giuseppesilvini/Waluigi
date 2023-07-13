@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeInfoEvento#setNumeroSequencialEvento(I)V
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#tamanho1a2(ILjava/lang/String;)V

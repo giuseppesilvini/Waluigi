@@ -1,0 +1,36 @@
+
+ªcom.fincatto.documentofiscal.mdfe3.transformers.MDFProcessoEmissaoTransformer#write(Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFProcessoEmissao;)Ljava/lang/String; 
+•/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/transformers/MDFProcessoEmissaoTransformer.java ("startingBlock*ì
+startingBlock (1½
+º
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*h
+
+__unknown_file (L
+J
+valueAcom.fincatto.documentofiscal.mdfe3.classes.def.MDFProcessoEmissao‹
+ˆ
++ (0J
+valueAcom.fincatto.documentofiscal.mdfe3.classes.def.MDFProcessoEmissao"__annotation*"
+
+__unknown_file (
+
+%1*
+1*³
+1 (ýú
+ ( 
+%0java.lang.String"_com.fincatto.documentofiscal.mdfe3.classes.def.MDFProcessoEmissao#getCodigo()Ljava/lang/String;*h
+
+__unknown_file (L
+J
+valueAcom.fincatto.documentofiscal.mdfe3.classes.def.MDFProcessoEmissao2getCodigo()"$
+ (!
+
+%0java.lang.String:V
+ (0J
+valueAcom.fincatto.documentofiscal.mdfe3.classes.def.MDFProcessoEmissaoBQO
+Mcom.fincatto.documentofiscal.mdfe3.transformers.MDFProcessoEmissaoTransformerH

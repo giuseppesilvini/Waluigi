@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;Lcom/fincatto/documentofiscal/mdfe3/webservices/consultanaoencerrado/MDFeConsNaoEncStub$MdfeDadosMsg;ZLjavax/xml/namespace/QName;)Lorg/apache/axiom/soap/SOAPEnvelope;
+==
+getOMElement com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub$MdfeDadosMsg#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;

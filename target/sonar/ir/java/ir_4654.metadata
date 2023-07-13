@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus#valueOfCodigo(I)Lcom/fincatto/documentofiscal/nfe400/classes/NFRetornoStatus;
+com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus#getCodigo()I

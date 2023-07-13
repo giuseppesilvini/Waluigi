@@ -1,0 +1,36 @@
+
+¬com.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoImpostoTributacaoICMSTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoImpostoTributacaoICMS;)Ljava/lang/String;Æ
+£/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFNotaInfoImpostoTributacaoICMSTransformer.java ("startingBlock*˛
+startingBlock (C∆
+√
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*q
+
+__unknown_file (U
+S
+icmsKcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoImpostoTributacaoICMSî
+ë
+> (BS
+icmsKcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoImpostoTributacaoICMS"__annotation*"
+
+__unknown_file (
+
+%1*
+1*∆
+1 (êç
+ (
+%0java.lang.String"icom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoImpostoTributacaoICMS#getCodigo()Ljava/lang/String;*q
+
+__unknown_file (U
+S
+icmsKcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoImpostoTributacaoICMS2getCodigo()"$
+ ( 
+
+%0java.lang.String:_
+ (BS
+icmsKcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoImpostoTributacaoICMSB_]
+[com.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoImpostoTributacaoICMSTransformerH

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSManifestacaoDestinatario#manifestaDestinatarioNotaAssinada(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/NFEnviaEventoRetorno;
+com.fincatto.documentofiscal.nfe310.webservices.WSManifestacaoDestinatario#efetuaManifestacaoDestinatario(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;

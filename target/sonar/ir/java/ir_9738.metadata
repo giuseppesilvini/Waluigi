@@ -1,0 +1,12 @@
+com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub#startcteRecepcaoOS(Lcom/fincatto/documentofiscal/cte300/webservices/recepcaoOS/CteRecepcaoOSStub$CteDadosMsg;Lcom/fincatto/documentofiscal/cte300/webservices/recepcaoOS/CteRecepcaoOSStub$CteCabecMsgE;Lcom/fincatto/documentofiscal/cte300/webservices/recepcaoOS/CteRecepcaoOSCallbackHandler;)V
+org.apache.axis2.util.CallbackReceiver#instance-init#
+org.apache.axis2.util.CallbackReceiver#<init>()V
+org.apache.axis2.client.Stub#getFactory(Ljava/lang/String;)Lorg/apache/axiom/soap/SOAPFactory;
+com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub#optimizeContent(Ljavax/xml/namespace/QName;)Z
+org.apache.axis2.client.OperationClient#execute(Z)V
+com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;Lcom/fincatto/documentofiscal/cte300/webservices/recepcaoOS/CteRecepcaoOSStub$CteDadosMsg;ZLjavax/xml/namespace/QName;)Lorg/apache/axiom/soap/SOAPEnvelope;
+javax.xml.namespace.QName#instance-init#
+javax.xml.namespace.QName#<init>(Ljava/lang/String;Ljava/lang/String;)V
+com.fincatto.documentofiscal.utils.MessageContextFactory#create(Lcom/fincatto/documentofiscal/DFConfig;)Lorg/apache/axis2/context/MessageContext;
+org.apache.axis2.client.OperationClient#setCallback(Lorg/apache/axis2/client/async/AxisCallback;)V
+com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub#toOM(Lcom/fincatto/documentofiscal/cte300/webservices/recepcaoOS/CteRecepcaoOSStub$CteCabecMsgE;Z)Lorg/apache/axiom/om/OMElement;

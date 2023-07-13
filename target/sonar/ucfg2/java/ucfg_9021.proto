@@ -1,0 +1,15 @@
+
+pcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoDocumentoNFE#getDataPrevisaoEntrega()Ljava/time/LocalDate;•
+Š/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/classes/cte/CTInfoDocumentoNFE.java/ /(+"1*ä
+10 0(«
+¨
+0 0('
+%0java.time.LocalDate"__id*{
+
+__unknown_file (_*]D
+Bcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoDocumentoNFE"
+dataPrevisaoEntrega"'
+0 0((
+
+%0java.time.LocalDateBFD
+Bcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoDocumentoNFEH

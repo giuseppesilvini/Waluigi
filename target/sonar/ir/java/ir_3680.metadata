@@ -1,0 +1,9 @@
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#assinarString(Ljava/lang/String;)Ljava/lang/String;
+java.security.Signature#sign()[B
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#getPrivateKeyEntry()Ljava/security/KeyStore$PrivateKeyEntry;
+java.util.Base64#getEncoder()Ljava/util/Base64$Encoder;
+java.security.KeyStore$PrivateKeyEntry#getPrivateKey()Ljava/security/PrivateKey;
+java.security.Signature#update([BII)V
+java.security.Signature#getInstance(Ljava/lang/String;)Ljava/security/Signature;
+java.lang.String#getBytes()[B
+java.security.Signature#initSign(Ljava/security/PrivateKey;)V

@@ -1,0 +1,56 @@
+
+åcom.fincatto.documentofiscal.utils.DFSocketFactory#createTrustManagers(Lcom/fincatto/documentofiscal/DFConfig;)[Ljavax/net/ssl/TrustManager;Ñ
+z/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/utils/DFSocketFactory.javaP P(."1*™
+1Q8 Q(K¥
+±
+	QX Q(Å
+%0java.lang.String"Ijavax.net.ssl.TrustManagerFactory#getDefaultAlgorithm()Ljava/lang/String;*A
+
+__unknown_file (%"#
+!javax.net.ssl.TrustManagerFactoryñ
+ì
+	Q8 Q(Ç'
+%1!javax.net.ssl.TrustManagerFactory"djavax.net.ssl.TrustManagerFactory#getInstance(Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;*A
+
+__unknown_file (%"#
+!javax.net.ssl.TrustManagerFactory*4
+
+__unknown_file (
+
+%0java.lang.Stringï
+í
+	Q Q(É8
+trustManagerFactory!javax.net.ssl.TrustManagerFactory"__id*E
+
+__unknown_file ()
+'
+%1!javax.net.ssl.TrustManagerFactory˙˜
+R! R(G
+%2java.security.KeyStore"]com.fincatto.documentofiscal.DFConfig#getCadeiaCertificadosKeyStore()Ljava/security/KeyStore;*M
+
+__unknown_file (1
+/
+config%com.fincatto.documentofiscal.DFConfig2getCadeiaCertificadosKeyStore()êç
+R R(H
+
+%3void"Ajavax.net.ssl.TrustManagerFactory#init(Ljava/security/KeyStore;)V*V
+
+__unknown_file (:
+8
+trustManagerFactory!javax.net.ssl.TrustManagerFactory*:
+
+__unknown_file (
+
+%2java.security.KeyStore2init(Ljava/security/KeyStore;)Ì
+S S(5"
+%4javax.net.ssl.TrustManager[]"Qjavax.net.ssl.TrustManagerFactory#getTrustManagers()[Ljavax/net/ssl/TrustManager;*V
+
+__unknown_file (:
+8
+trustManagerFactory!javax.net.ssl.TrustManagerFactory2getTrustManagers()"0
+S S(6$
+"
+%4javax.net.ssl.TrustManager[]:;
+P/ P(D/
+config%com.fincatto.documentofiscal.DFConfigB64
+2com.fincatto.documentofiscal.utils.DFSocketFactory

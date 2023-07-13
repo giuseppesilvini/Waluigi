@@ -1,0 +1,555 @@
+
+ècom.fincatto.documentofiscal.nfe400.webservices.WSCancelamento#gerarDadosCancelamento(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/cancelamento/NFEnviaEventoCancelamento;‘
+†/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSCancelamento.javaC& C(<"6*„
+2R R(€ý
+R R(<
+%23java.lang.String"]com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#getCnpjEmitente()Ljava/lang/String;*f
+
+__unknown_file (J
+H
+chaveParser9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser2getCnpjEmitente()ìé
+R R(=
+%24void"ucom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento#setCnpj(Ljava/lang/String;)V*„
+
+__unknown_file (h
+f
+
+infoEventoXcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento*5
+
+__unknown_file (
+
+%23java.lang.String2setCnpj(Ljava/lang/String;)*
+1*€
+3P P(þû
+P P(:
+%21java.lang.String"\com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#getCpfEmitente()Ljava/lang/String;*f
+
+__unknown_file (J
+H
+chaveParser9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser2getCpfEmitente()êç
+P P(;
+%22void"tcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento#setCpf(Ljava/lang/String;)V*„
+
+__unknown_file (h
+f
+
+infoEventoXcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento*5
+
+__unknown_file (
+
+%21java.lang.String2setCpf(Ljava/lang/String;)*
+1*
+4Or O(}õò
+	Or O(–
+%20boolean"Scom.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#isEmitentePessoaFisica()Z*f
+
+__unknown_file (J
+H
+chaveParser9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser2isEmitentePessoaFisica()*
+2
+3*Á
+5O? O(Fòï
+OP O(f
+%18java.lang.String"Vcom.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#getSerie()Ljava/lang/String;*f
+
+__unknown_file (J
+H
+chaveParser9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser2
+getSerie()´
+±
+O? O(g
+
+%19int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
+
+__unknown_file ("
+java.lang.Integer*5
+
+__unknown_file (
+
+%18java.lang.String*
+2
+4*Û)
+6DL D(W‰†
+D6 D(K?
+%09com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser"9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParserˆ
+…
+D2 D(X
+%1"Ucom.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#<init>(Ljava/lang/String;)V*]
+
+__unknown_file (A
+?
+%09com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String¼
+¹
+D D(YH
+chaveParser9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser"__id*]
+
+__unknown_file (A
+?
+%09com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser»¸
+F4 F(FX
+%2Rcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoCancelamento"Rcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoCancelamentoé
+æ
+F0 F(H
+%3"\com.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoCancelamento#<init>()V*v
+
+__unknown_file (Z
+X
+%2Rcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoCancelamentoï
+ì
+F F(Ib
+cancelamentoRcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoCancelamento"__id*v
+
+__unknown_file (Z
+X
+%2Rcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoCancelamentoX
+V
+G( G(G
+%4java.lang.String"__id*,
+
+__unknown_file (
+Cancelamentoãà
+G G(H
+
+%5void"gcom.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento#setDescricaoEvento(Ljava/lang/String;)V*€
+
+__unknown_file (d
+b
+cancelamentoRcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoCancelamento*4
+
+__unknown_file (
+
+%4java.lang.String2&setDescricaoEvento(Ljava/lang/String;)R
+P
+H H(<
+%6java.math.BigDecimal"__id*"
+
+__unknown_file (
+""ÝÚ
+H H(=
+
+%7void"bcom.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento#setVersao(Ljava/math/BigDecimal;)V*€
+
+__unknown_file (d
+b
+cancelamentoRcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoCancelamento*8
+
+__unknown_file (
+
+%6java.math.BigDecimal2!setVersao(Ljava/math/BigDecimal;)öó
+I I(-
+
+%8void"xcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoCancelamento#setJustificativa(Ljava/lang/String;)V*€
+
+__unknown_file (d
+b
+cancelamentoRcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoCancelamento*8
+
+__unknown_file (
+
+motivojava.lang.String2$setJustificativa(Ljava/lang/String;)Š
+J J(=
+
+%9void"com.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoCancelamento#setProtocoloAutorizacao(Ljava/lang/String;)V*€
+
+__unknown_file (d
+b
+cancelamentoRcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoCancelamento*A
+
+__unknown_file (%
+#
+numeroProtocolojava.lang.String2+setProtocoloAutorizacao(Ljava/lang/String;)ÈÅ
+L8 L(P_
+%10Xcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento"Xcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento÷
+ô
+L4 L(R
+%11"bcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento#<init>()V*}
+
+__unknown_file (a
+_
+%10Xcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamentoú
+÷
+L L(Sf
+
+infoEventoXcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento"__id*}
+
+__unknown_file (a
+_
+%10Xcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento²
+¯
+M M(*1
+%12*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe400.webservices.WSCancelamento"
+configûø
+M M(8.
+%13'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*O
+
+__unknown_file (3
+1
+%12*com.fincatto.documentofiscal.nfe.NFeConfig2getAmbiente()º·
+M M(9
+%14void"com.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento#setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)V*„
+
+__unknown_file (h
+f
+
+infoEventoXcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento*L
+
+__unknown_file (0
+.
+%13'com.fincatto.documentofiscal.DFAmbiente26setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)öó
+N N((
+%15void"vcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento#setChave(Ljava/lang/String;)V*„
+
+__unknown_file (h
+f
+
+infoEventoXcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String2setChave(Ljava/lang/String;)òï
+O O(3
+%16java.lang.String"Vcom.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#getSerie()Ljava/lang/String;*f
+
+__unknown_file (J
+H
+chaveParser9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser2
+getSerie()´
+±
+O O(4
+
+%17int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
+
+__unknown_file ("
+java.lang.Integer*5
+
+__unknown_file (
+
+%16java.lang.String*
+2
+5*ÔN
+1T T(²
+¯
+T7 T(B1
+%25*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe400.webservices.WSCancelamento"
+configÑÎ
+T7 T(P
+%26java.util.TimeZone"Gcom.fincatto.documentofiscal.DFConfig#getTimeZone()Ljava/util/TimeZone;*O
+
+__unknown_file (3
+1
+%25*com.fincatto.documentofiscal.nfe.NFeConfig2getTimeZone()œ™
+T7 T([
+%27java.time.ZoneId"/java.util.TimeZone#toZoneId()Ljava/time/ZoneId;*7
+
+__unknown_file (
+
+%26java.util.TimeZone2
+toZoneId()ç
+ä
+T% T(\
+%28java.time.ZonedDateTime"Hjava.time.ZonedDateTime#now(Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;*7
+
+__unknown_file ("
+java.time.ZonedDateTime*5
+
+__unknown_file (
+
+%27java.time.ZoneId–“
+T T(]
+%29void"†com.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento#setDataHoraEvento(Ljava/time/ZonedDateTime;)V*„
+
+__unknown_file (h
+f
+
+infoEventoXcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento*<
+
+__unknown_file ( 
+
+%28java.time.ZonedDateTime2,setDataHoraEvento(Ljava/time/ZonedDateTime;)S
+Q
+U4 U(V
+%30java.lang.String"__id*&
+
+__unknown_file (
+
+110111î
+ë
+U U(i
+%31java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*)
+
+__unknown_file (
+	ID%s%s0%s*5
+
+__unknown_file (
+
+%30java.lang.String*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*!
+
+__unknown_file (
+1èå
+U U(j
+%32void"scom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento#setId(Ljava/lang/String;)V*„
+
+__unknown_file (h
+f
+
+infoEventoXcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento*5
+
+__unknown_file (
+
+%31java.lang.String2setId(Ljava/lang/String;)ÙÖ
+V V(/
+%33void"vcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento#setNumeroSequencialEvento(I)V*„
+
+__unknown_file (h
+f
+
+infoEventoXcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento* 
+
+__unknown_file (22setNumeroSequencialEvento(I)ÏÌ
+W W(@7
+%340com.fincatto.documentofiscal.DFUnidadeFederativa"„com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#getNFUnidadeFederativa()Lcom/fincatto/documentofiscal/DFUnidadeFederativa;*f
+
+__unknown_file (J
+H
+chaveParser9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser2getNFUnidadeFederativa()ÏÌ
+W W(A
+%35void"–com.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento#setOrgao(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)V*„
+
+__unknown_file (h
+f
+
+infoEventoXcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento*U
+
+__unknown_file (9
+7
+%340com.fincatto.documentofiscal.DFUnidadeFederativa2<setOrgao(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)S
+Q
+X# X(E
+%36java.lang.String"__id*&
+
+__unknown_file (
+
+110111üù
+X X(F
+%37void"}com.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento#setCodigoEvento(Ljava/lang/String;)V*„
+
+__unknown_file (h
+f
+
+infoEventoXcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento*5
+
+__unknown_file (
+
+%36java.lang.String2#setCodigoEvento(Ljava/lang/String;)S
+Q
+Y# Y(@
+%38java.math.BigDecimal"__id*"
+
+__unknown_file (
+""‰†
+Y Y(A
+%39void"com.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento#setVersaoEvento(Ljava/math/BigDecimal;)V*„
+
+__unknown_file (h
+f
+
+infoEventoXcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento*9
+
+__unknown_file (
+
+%38java.math.BigDecimal2'setVersaoEvento(Ljava/math/BigDecimal;)ÍÊ
+Z Z(0
+%40void"¿com.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento#setCancelamento(Lcom/fincatto/documentofiscal/nfe400/classes/evento/cancelamento/NFInfoCancelamento;)V*„
+
+__unknown_file (h
+f
+
+infoEventoXcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento*€
+
+__unknown_file (d
+b
+cancelamentoRcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoCancelamento2esetCancelamento(Lcom/fincatto/documentofiscal/nfe400/classes/evento/cancelamento/NFInfoCancelamento;)À½
+\0 \(D[
+%41Tcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEventoCancelamento"Tcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEventoCancelamentoï
+ì
+\, \(F
+%42"^com.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEventoCancelamento#<init>()V*y
+
+__unknown_file (]
+[
+%41Tcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEventoCancelamentoî
+ë
+\ \(G^
+eventoTcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEventoCancelamento"__id*y
+
+__unknown_file (]
+[
+%41Tcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEventoCancelamentoÌÉ
+] ]((
+%43void"¿com.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEventoCancelamento#setInfoEvento(Lcom/fincatto/documentofiscal/nfe400/classes/evento/cancelamento/NFInfoEventoCancelamento;)V*|
+
+__unknown_file (`
+^
+eventoTcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEventoCancelamento*„
+
+__unknown_file (h
+f
+
+infoEventoXcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFInfoEventoCancelamento2isetInfoEvento(Lcom/fincatto/documentofiscal/nfe400/classes/evento/cancelamento/NFInfoEventoCancelamento;)S
+Q
+^ ^(6
+%44java.math.BigDecimal"__id*"
+
+__unknown_file (
+""ïì
+^ ^(7
+%45void"wcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEventoCancelamento#setVersao(Ljava/math/BigDecimal;)V*|
+
+__unknown_file (`
+^
+eventoTcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEventoCancelamento*9
+
+__unknown_file (
+
+%44java.math.BigDecimal2!setVersao(Ljava/math/BigDecimal;)ÊÇ
+`: `(S`
+%46Ycom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEnviaEventoCancelamento"Ycom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEnviaEventoCancelamentoù
+ö
+`6 `(U
+%47"ccom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEnviaEventoCancelamento#<init>()V*~
+
+__unknown_file (b
+`
+%46Ycom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEnviaEventoCancelamentoý
+ú
+` `(Vh
+enviaEventoYcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEnviaEventoCancelamento"__id*~
+
+__unknown_file (b
+`
+%46Ycom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEnviaEventoCancelamento¢
+Ÿ
+a a(?
+%48java.util.List"Gjava.util.Collections#singletonList(Ljava/lang/Object;)Ljava/util/List;*5
+
+__unknown_file ("
+java.util.Collections*|
+
+__unknown_file (`
+^
+eventoTcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEventoCancelamentoíê
+a a(@
+%49void"vcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEnviaEventoCancelamento#setEvento(Ljava/util/List;)V*†
+
+__unknown_file (j
+h
+enviaEventoYcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEnviaEventoCancelamento*3
+
+__unknown_file (
+
+%48java.util.List2setEvento(Ljava/util/List;)²
+¯
+b> b(I1
+%50*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe400.webservices.WSCancelamento"
+configÑÎ
+b> b(W
+%51java.util.TimeZone"Gcom.fincatto.documentofiscal.DFConfig#getTimeZone()Ljava/util/TimeZone;*O
+
+__unknown_file (3
+1
+%50*com.fincatto.documentofiscal.nfe.NFeConfig2getTimeZone()œ™
+b> b(b
+%52java.time.ZoneId"/java.util.TimeZone#toZoneId()Ljava/time/ZoneId;*7
+
+__unknown_file (
+
+%51java.util.TimeZone2
+toZoneId()ç
+ä
+b, b(c
+%53java.time.ZonedDateTime"Hjava.time.ZonedDateTime#now(Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;*7
+
+__unknown_file ("
+java.time.ZonedDateTime*5
+
+__unknown_file (
+
+%52java.time.ZoneId·´
+b, b(o
+%54java.time.Instant"Cjava.time.chrono.ChronoZonedDateTime#toInstant()Ljava/time/Instant;*<
+
+__unknown_file ( 
+
+%53java.time.ZonedDateTime2toInstant()…‚
+b, b(~
+%55long"!java.time.Instant#toEpochMilli()J*6
+
+__unknown_file (
+
+%54java.time.Instant2toEpochMilli()¯
+¬
+b b(
+%56java.lang.String",java.lang.Long#toString(J)Ljava/lang/String;*.
+
+__unknown_file ("
+java.lang.Long*)
+
+__unknown_file (
+
+%55longôñ
+	b b(€
+%57void"xcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEnviaEventoCancelamento#setIdLote(Ljava/lang/String;)V*†
+
+__unknown_file (j
+h
+enviaEventoYcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEnviaEventoCancelamento*5
+
+__unknown_file (
+
+%56java.lang.String2setIdLote(Ljava/lang/String;)S
+Q
+c c(;
+%58java.math.BigDecimal"__id*"
+
+__unknown_file (
+""ÿü
+c c(<
+%59void"|com.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEnviaEventoCancelamento#setVersao(Ljava/math/BigDecimal;)V*†
+
+__unknown_file (j
+h
+enviaEventoYcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEnviaEventoCancelamento*9
+
+__unknown_file (
+
+%58java.math.BigDecimal2!setVersao(Ljava/math/BigDecimal;)"v
+d d(j
+h
+enviaEventoYcom.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEnviaEventoCancelamento:+
+C= C(V
+chaveAcessojava.lang.String:/
+CW C(t#
+numeroProtocolojava.lang.String:'
+	Cu C(ˆ
+motivojava.lang.StringBB@
+>com.fincatto.documentofiscal.nfe400.webservices.WSCancelamento

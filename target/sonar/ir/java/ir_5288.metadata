@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoItemProdutoVeiculoTipoOperacaoTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoItemProdutoVeiculoTipoOperacao;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoTipoOperacao#getCodigo()Ljava/lang/String;

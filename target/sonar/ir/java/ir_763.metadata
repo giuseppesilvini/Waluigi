@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.mdfe3.classes.parsers.MDFChaveParser#getFormaEmissao()Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoEmissao;
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoEmissao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoEmissao;
+java.lang.String#substring(II)Ljava/lang/String;

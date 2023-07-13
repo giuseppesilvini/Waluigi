@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20#createHash(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20#sha256(Ljava/lang/String;)Ljava/lang/String;

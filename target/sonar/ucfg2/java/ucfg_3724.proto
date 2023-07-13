@@ -1,0 +1,36 @@
+
+Ècom.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoItemProdutoArmamentoTipoTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoItemProdutoArmamentoTipo;)Ljava/lang/String;±
+¦/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFNotaInfoItemProdutoArmamentoTipoTransformer.java ("startingBlock*„
+startingBlock (FÉ
+Æ
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*t
+
+__unknown_file (X
+V
+tipoNcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoArmamentoTipo—
+”
+A (EV
+tipoNcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoArmamentoTipo"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ì
+1 (–“
+ (
+%0java.lang.String"lcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoArmamentoTipo#getCodigo()Ljava/lang/String;*t
+
+__unknown_file (X
+V
+tipoNcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoArmamentoTipo2getCodigo()"$
+ ( 
+
+%0java.lang.String:b
+ (EV
+tipoNcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoArmamentoTipoBb`
+^com.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoItemProdutoArmamentoTipoTransformerH

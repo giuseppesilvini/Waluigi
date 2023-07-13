@@ -1,0 +1,52 @@
+
+lcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProduto#getCodigoDeBarras()Ljava/lang/String;›
+Ž/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoItemProduto.java² ²(#"4*¤
+2
+³: ³(>©
+¦
+
+³: ³(M
+%3java.lang.String"__id*z
+
+__unknown_file (^*\H
+Fcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProduto"
+codigoDeBarrasb
+`
+
+³: ³(M
+%1java.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.String*
+1*x
+3
+³- ³(7b
+`
+
+³- ³(7
+%1java.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.String*
+1*Ã
+4
+³ ³(©
+¦
+
+³ ³("
+%0java.lang.String"__id*z
+
+__unknown_file (^*\H
+Fcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProduto"
+codigoDeBarras*
+2
+3*7
+1
+³ ³(N"&
+
+³ ³(N
+
+%1java.lang.StringBJH
+Fcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoH

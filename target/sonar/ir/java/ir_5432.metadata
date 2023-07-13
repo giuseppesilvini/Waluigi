@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.cte200.classes.cte.CTInfoTomadorServico3#<init>(Lcom/fincatto/documentofiscal/cte200/classes/CTTomadorServico;)V
+==
+setTomadorServico com.fincatto.documentofiscal.cte200.classes.cte.CTInfoTomadorServico3#setTomadorServico(Lcom/fincatto/documentofiscal/cte200/classes/CTTomadorServico;)V
+CTInfoTomadorServico3 com.fincatto.documentofiscal.cte200.classes.cte.CTInfoTomadorServico3#<init>()V

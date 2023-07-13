@@ -1,0 +1,40 @@
+
+§com.fincatto.documentofiscal.mdfe3.transformers.MDFTipoInfPagCompTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoInfPagComp;Ÿ
+”/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/transformers/MDFTipoInfPagCompTransformer.java (!"startingBlock*ˆ
+startingBlock! (/Œ
+‰
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+valuejava.lang.StringY
+W
+) (.
+valuejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ý
+1 ( —
+”
+ (5F
+%0@com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPagComp"¤com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPagComp#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoInfPagComp;*`
+
+__unknown_file (D"B
+@com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPagComp*7
+
+__unknown_file (
+
+valuejava.lang.String"T
+ (6H
+F
+%0@com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPagComp:%
+" (.
+valuejava.lang.StringBPN
+Lcom.fincatto.documentofiscal.mdfe3.transformers.MDFTipoInfPagCompTransformerH

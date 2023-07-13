@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;
+com.fincatto.documentofiscal.utils.DFPersister#<init>()V
+com.fincatto.documentofiscal.utils.DFPersister#instance-init#

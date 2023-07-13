@@ -1,0 +1,46 @@
+
+ècom.fincatto.documentofiscal.nfe.transformers.NFTipoEmissaoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe/NFTipoEmissao;ô
+é/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe/transformers/NFTipoEmissaoTransformer.java	 	("startingBlock*ä
+startingBlock	 	(2ç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	+ 	(1
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*§
+1
+ 
+(–
+Õ
+
+ 
+(24
+%0.com.fincatto.documentofiscal.nfe.NFTipoEmissao"Äcom.fincatto.documentofiscal.nfe.NFTipoEmissao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe/NFTipoEmissao;*N
+
+__unknown_file (2"0
+.com.fincatto.documentofiscal.nfe.NFTipoEmissao*8
+
+__unknown_file (
+
+codigojava.lang.String"B
+
+ 
+(36
+4
+%0.com.fincatto.documentofiscal.nfe.NFTipoEmissao:&
+	 	(1
+codigojava.lang.StringBJH
+Fcom.fincatto.documentofiscal.nfe.transformers.NFTipoEmissaoTransformerH

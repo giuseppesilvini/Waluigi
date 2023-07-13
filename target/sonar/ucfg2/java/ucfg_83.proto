@@ -1,0 +1,57 @@
+
+ìcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeConsultaMDFResult#generatePrefix(Ljava/lang/String;)Ljava/lang/String;ù
+ê/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/consulta/MDFeConsultaStub.javaË
+( Ë
+(6"3*&
+2
+Í
+ Í
+("
+
+Í
+ Í
+(
+ns1*ñ
+3
+È
+ È
+(¸˘
+
+È
+ È
+(Y
+%0boolean",java.lang.String#equals(Ljava/lang/Object;)Z*;
+
+__unknown_file (
+
+	namespacejava.lang.String*U
+
+__unknown_file (97
+5http://www.portalfiscal.inf.br/mdfe/wsdl/MDFeConsulta2equals(Ljava/lang/Object;)*
+2
+1*ˇ
+1
+Ï
+ Ï
+(≈
+¬
+
+Ï
+ Ï
+(P
+%1java.lang.String"Oorg.apache.axis2.databinding.utils.BeanUtil#getUniquePrefix()Ljava/lang/String;*K
+
+__unknown_file (/"-
++org.apache.axis2.databinding.utils.BeanUtil"&
+
+Ï
+ Ï
+(Q
+
+%1java.lang.String:+
+
+Ë
+7 Ë
+(W
+	namespacejava.lang.StringBb"`
+^com.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeConsultaMDFResult

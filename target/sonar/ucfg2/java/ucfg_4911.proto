@@ -1,0 +1,46 @@
+
+›com.fincatto.documentofiscal.nfe310.transformers.NFFinalidadeTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFFinalidade;›
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFFinalidadeTransformer.java	 	("startingBlock*Š
+startingBlock	 	(1
+Š
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	* 	(0
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ö
+1
+ 
+(ø
+õ
+
+ 
+(1>
+%08com.fincatto.documentofiscal.nfe310.classes.NFFinalidade"”com.fincatto.documentofiscal.nfe310.classes.NFFinalidade#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFFinalidade;*X
+
+__unknown_file (<":
+8com.fincatto.documentofiscal.nfe310.classes.NFFinalidade*8
+
+__unknown_file (
+
+codigojava.lang.String"L
+
+ 
+(2@
+>
+%08com.fincatto.documentofiscal.nfe310.classes.NFFinalidade:&
+	 	(0
+codigojava.lang.StringBLJ
+Hcom.fincatto.documentofiscal.nfe310.transformers.NFFinalidadeTransformerH

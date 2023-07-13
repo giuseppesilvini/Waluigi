@@ -1,0 +1,26 @@
+
+”com.fincatto.documentofiscal.nfe400.webservices.WSLoteEnvio#enviaLoteAssinado(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvioRetorno;é
+É/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSLoteEnvio.java) )(("1*ç
+1* *(û
+õ
+* *(9O
+%0Icom.fincatto.documentofiscal.nfe400.classes.lote.envio.NFLoteEnvioRetorno"Œcom.fincatto.documentofiscal.nfe400.webservices.WSLoteEnvio#comunicaLote(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvioRetorno;*[
+
+__unknown_file (?=
+;com.fincatto.documentofiscal.nfe400.webservices.WSLoteEnvio*A
+
+__unknown_file (%
+#
+loteAssinadoXmljava.lang.String*M
+
+__unknown_file (1
+/
+modelo%com.fincatto.documentofiscal.DFModelo"]
+* *(:Q
+O
+%0Icom.fincatto.documentofiscal.nfe400.classes.lote.envio.NFLoteEnvioRetorno:/
+)) )(F#
+loteAssinadoXmljava.lang.String:;
+)G )(\/
+modelo%com.fincatto.documentofiscal.DFModeloB?=
+;com.fincatto.documentofiscal.nfe400.webservices.WSLoteEnvio

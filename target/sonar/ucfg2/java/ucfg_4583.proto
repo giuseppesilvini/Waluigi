@@ -1,0 +1,81 @@
+
+ucom.fincatto.documentofiscal.utils.DFAssinaturaDigital$DFKeySelector#algEquals(Ljava/lang/String;Ljava/lang/String;)ZŠ
+~/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/utils/DFAssinaturaDigital.java² ²(!"6*ƒ
+2³’ ³(˜z
+x
+³ª ³(Â
+%4java.lang.String"__id*J
+
+__unknown_file (.,
+*http://www.w3.org/2000/09/xmldsig#rsa-sha1îë
+³’ ³(Ã
+%5boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*8
+
+__unknown_file (
+
+algURIjava.lang.String*4
+
+__unknown_file (
+
+%4java.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
+1*÷
+3
+³o ³(vÝÚ
+³o ³(Ž
+%3boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*9
+
+__unknown_file (
+
+algNamejava.lang.String*#
+
+__unknown_file (
+RSA2$equalsIgnoreCase(Ljava/lang/String;)*
+2
+1*€
+5
+³8 ³(>x
+v
+
+³P ³(h
+%1java.lang.String"__id*J
+
+__unknown_file (.,
+*http://www.w3.org/2000/09/xmldsig#dsa-sha1ìé
+
+³8 ³(i
+%2boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*8
+
+__unknown_file (
+
+algURIjava.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
+3
+1*ù
+6
+³ ³(ÜÙ
+
+³ ³(4
+%0boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*9
+
+__unknown_file (
+
+algNamejava.lang.String*#
+
+__unknown_file (
+DSA2$equalsIgnoreCase(Ljava/lang/String;)*	
+3
+5
+1*'
+1³ ³(Æ"
+³ ³(Æ
+"":(
+
+²" ²(6
+algURIjava.lang.String:)
+
+²7 ²(K
+algNamejava.lang.StringBHF
+Dcom.fincatto.documentofiscal.utils.DFAssinaturaDigital$DFKeySelectorP

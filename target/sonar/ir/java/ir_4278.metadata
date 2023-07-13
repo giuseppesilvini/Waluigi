@@ -1,0 +1,14 @@
+com.fincatto.documentofiscal.mdfe3.webservices.WSStatusConsulta#efetuaConsultaStatus(Lorg/apache/axiom/om/OMElement;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;
+com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.IllegalArgumentException#instance-init#
+com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub#instance-init#
+com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub$MdfeCabecMsgE#instance-init#
+com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub$MdfeDadosMsg#instance-init#
+com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub$MdfeCabecMsgE#<init>()V
+java.lang.Enum#name()Ljava/lang/String;
+com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub$MdfeDadosMsg#<init>()V
+com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3#valueOfCodigoUF(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/mdfe3/classes/MDFAutorizador3;
+com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub$MdfeCabecMsg#instance-init#
+com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub$MdfeCabecMsg#<init>()V

@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.mdfe3.classes.parsers.MDFChaveParser#getDataEmissao()Ljava/time/LocalDate;
+com.fincatto.documentofiscal.mdfe3.classes.parsers.MDFChaveParser#getDataEmissaoAno()I
+java.time.LocalDate#of(III)Ljava/time/LocalDate;
+com.fincatto.documentofiscal.mdfe3.classes.parsers.MDFChaveParser#getDataEmissaoMes()I

@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.DFPais#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/DFPais;
+java.util.Arrays#stream([Ljava/lang/Object;)Ljava/util/stream/Stream;
+java.util.Optional#orElse(Ljava/lang/Object;)Ljava/lang/Object;
+com.fincatto.documentofiscal.DFPais#values()[Lcom/fincatto/documentofiscal/DFPais;

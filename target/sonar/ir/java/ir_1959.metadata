@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#tamanho15Com2CasasDecimais(Ljava/math/BigDecimal;Ljava/lang/String;)Ljava/lang/String;
+com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#parse(Ljava/math/BigDecimal;Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;

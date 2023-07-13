@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRecepcaoEvento4Stub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+==
+NFeRecepcaoEvento4Stub com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRecepcaoEvento4Stub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;ZLcom/fincatto/documentofiscal/DFConfig;)V

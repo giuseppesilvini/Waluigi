@@ -1,0 +1,116 @@
+
+Ÿcom.fincatto.documentofiscal.nfe310.webservices.WSNotaConsulta#efetuaConsulta(Lorg/apache/axiom/om/OMElement;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;‘
+†/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/WSNotaConsulta.java) )($"5*Œ
+2. .(É
+Æ
+. .(J#
+%8org.apache.axiom.om.OMElement"¡com.fincatto.documentofiscal.nfe310.webservices.WSNotaConsulta#efetuaConsultaBA(Lorg/apache/axiom/om/OMElement;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.nfe310.webservices.WSNotaConsulta*P
+
+__unknown_file (4
+2
+omElementConsultaorg.apache.axiom.om.OMElement*?
+
+__unknown_file (#
+!
+chaveDeAcessojava.lang.String"1
+. .(K%
+#
+%8org.apache.axiom.om.OMElement*¶
+4	,z ,(‚d
+b
+	,z ,(†+
+%5%com.fincatto.documentofiscal.DFModelo"__id*"
+
+__unknown_file (
+""¹¶
+
+,Ž ,(¯+
+%6%com.fincatto.documentofiscal.DFModelo"tcom.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser#getModelo()Lcom/fincatto/documentofiscal/DFModelo;*x
+
+__unknown_file (\
+Z
+notaFiscalChaveParserAcom.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser2getModelo()ûø
+	,z ,(°
+%7boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*I
+
+__unknown_file (-
++
+%5%com.fincatto.documentofiscal.DFModelo*I
+
+__unknown_file (-
++
+%6%com.fincatto.documentofiscal.DFModelo2equals(Ljava/lang/Object;)*
+2
+1*˜
+5*V *(c™–
+*@ *(UG
+%0Acom.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser"Acom.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParserš
+—
+*< *(d
+%1"]com.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser#<init>(Ljava/lang/String;)V*e
+
+__unknown_file (I
+G
+%0Acom.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser*?
+
+__unknown_file (#
+!
+chaveDeAcessojava.lang.StringÖ
+Ó
+* *(eZ
+notaFiscalChaveParserAcom.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser"__id*e
+
+__unknown_file (I
+G
+%0Acom.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParsern
+l
+,) ,(?6
+%20com.fincatto.documentofiscal.DFUnidadeFederativa"__id*"
+
+__unknown_file (
+""èå
+,G ,(u6
+%30com.fincatto.documentofiscal.DFUnidadeFederativa"Œcom.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser#getNFUnidadeFederativa()Lcom/fincatto/documentofiscal/DFUnidadeFederativa;*x
+
+__unknown_file (\
+Z
+notaFiscalChaveParserAcom.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser2getNFUnidadeFederativa()
+,) ,(v
+%4boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*T
+
+__unknown_file (8
+6
+%20com.fincatto.documentofiscal.DFUnidadeFederativa*T
+
+__unknown_file (8
+6
+%30com.fincatto.documentofiscal.DFUnidadeFederativa2equals(Ljava/lang/Object;)*	
+2
+4
+1*Ž
+10 0(Ë
+È
+0 0(L#
+%9org.apache.axiom.om.OMElement"£com.fincatto.documentofiscal.nfe310.webservices.WSNotaConsulta#efetuaConsultaSVRS(Lorg/apache/axiom/om/OMElement;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.nfe310.webservices.WSNotaConsulta*P
+
+__unknown_file (4
+2
+omElementConsultaorg.apache.axiom.om.OMElement*?
+
+__unknown_file (#
+!
+chaveDeAcessojava.lang.String"1
+0 0(M%
+#
+%9org.apache.axiom.om.OMElement:>
+)% )(G2
+omElementConsultaorg.apache.axiom.om.OMElement:-
+)H )(b!
+chaveDeAcessojava.lang.StringBB@
+>com.fincatto.documentofiscal.nfe310.webservices.WSNotaConsulta

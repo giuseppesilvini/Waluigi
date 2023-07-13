@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFIdentificadorLocalDestinoOperacao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFIdentificadorLocalDestinoOperacao;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe400.classes.nota.NFIdentificadorLocalDestinoOperacao#getCodigo()Ljava/lang/String;

@@ -1,0 +1,35 @@
+
+µcom.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeDadosMsg#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader;±
+¤/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/statusservico/consulta/NfeStatusServico4Stub.javaá á(,"startingBlock*ž
+startingBlock
+á, á(>–
+“
+
+à à(
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*?
+
+__unknown_file (#
+!
+arg0javax.xml.namespace.QNamec
+a
+
+á9 á(=!
+arg0javax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%0*
+1*%
+1
+â â("
+
+â â(
+"":/
+
+á- á(=!
+arg0javax.xml.namespace.QNameBlj
+hcom.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeDadosMsgH

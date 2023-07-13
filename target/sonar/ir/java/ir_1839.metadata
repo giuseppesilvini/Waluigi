@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTRetiradaTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTRetirada;
+com.fincatto.documentofiscal.cte300.classes.CTRetirada#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTRetirada;

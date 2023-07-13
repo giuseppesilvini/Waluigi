@@ -1,0 +1,36 @@
+
+²com.fincatto.documentofiscal.cte200.transformers.CTTipoUnidadeTransporteTransformer#write(Lcom/fincatto/documentofiscal/cte200/classes/CTTipoUnidadeTransporte;)Ljava/lang/String;¦
+›/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/transformers/CTTipoUnidadeTransporteTransformer.java ("startingBlock*î
+startingBlock (;¾
+»
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*i
+
+__unknown_file (M
+K
+tipoCcom.fincatto.documentofiscal.cte200.classes.CTTipoUnidadeTransporteŒ
+‰
+6 (:K
+tipoCcom.fincatto.documentofiscal.cte200.classes.CTTipoUnidadeTransporte"__annotation*"
+
+__unknown_file (
+
+%1*
+1*¶
+1 (€ý
+ (
+%0java.lang.String"acom.fincatto.documentofiscal.cte200.classes.CTTipoUnidadeTransporte#getCodigo()Ljava/lang/String;*i
+
+__unknown_file (M
+K
+tipoCcom.fincatto.documentofiscal.cte200.classes.CTTipoUnidadeTransporte2getCodigo()"$
+ ( 
+
+%0java.lang.String:W
+ (:K
+tipoCcom.fincatto.documentofiscal.cte200.classes.CTTipoUnidadeTransporteBWU
+Scom.fincatto.documentofiscal.cte200.transformers.CTTipoUnidadeTransporteTransformerH

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemProdutoDeclaracaoImportacaoAdicao#setSequencial(Ljava/lang/Integer;)V
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#tamanho3(ILjava/lang/String;)V

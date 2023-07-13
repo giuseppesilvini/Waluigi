@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTCodigoSituacaoTributariaICMSTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTCodigoSituacaoTributariaICMS;
+com.fincatto.documentofiscal.cte300.classes.CTCodigoSituacaoTributariaICMS#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTCodigoSituacaoTributariaICMS;

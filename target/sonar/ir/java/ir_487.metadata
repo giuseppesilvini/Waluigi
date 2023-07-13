@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTModeloNFTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTModeloNF;
+com.fincatto.documentofiscal.cte300.classes.CTModeloNF#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTModeloNF;

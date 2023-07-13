@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.nfe400.classes.NFProtocoloInfo#getMotivo()Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFRetornoStatus;
+com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus#getMotivo()Ljava/lang/String;
+org.apache.commons.lang3.StringUtils#isBlank(Ljava/lang/CharSequence;)Z
+org.apache.commons.lang3.ObjectUtils#defaultIfNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

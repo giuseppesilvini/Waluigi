@@ -1,0 +1,6 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorIntermediador#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFIndicadorIntermediador;
+java.lang.IllegalStateException#instance-init#
+com.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorIntermediador#getCodigo()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

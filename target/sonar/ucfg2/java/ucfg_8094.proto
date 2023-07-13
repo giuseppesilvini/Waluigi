@@ -1,0 +1,127 @@
+
+‚com.fincatto.documentofiscal.nfe400.webservices.WSConsultaCadastro#getDadosConsulta(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe400/classes/cadastro/NFConsultaCadastro;ï
+ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSConsultaCadastro.java9 9(/"1*Ì#
+1:, :(D•¢
+:0 :(BM
+%0Gcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro"Gcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro”
+–
+:, :(D
+%1"Qcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro#<init>()V*k
+
+__unknown_file (O
+M
+%0Gcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro’
+“
+: :(ES
+consultaGcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro"__id*k
+
+__unknown_file (O
+M
+%0Gcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastroP
+N
+; ;(<
+%2java.lang.String"__id*$
+
+__unknown_file (
+2.00…∆
+; ;(=
+
+%3void"fcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro#setVersao(Ljava/lang/String;)V*q
+
+__unknown_file (U
+S
+consultaGcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro*4
+
+__unknown_file (
+
+%2java.lang.String2setVersao(Ljava/lang/String;)≠™
+<) <(?Q
+%4Kcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro"Kcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro€
+ÿ
+<% <(A
+%5"Ucom.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro#<init>()V*o
+
+__unknown_file (S
+Q
+%4Kcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastroèå
+< <(B
+
+%6void"´com.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro#setConsultaCadastro(Lcom/fincatto/documentofiscal/nfe400/classes/cadastro/NFInfoConsultaCadastro;)V*q
+
+__unknown_file (U
+S
+consultaGcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro*o
+
+__unknown_file (S
+Q
+%4Kcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro2bsetConsultaCadastro(Lcom/fincatto/documentofiscal/nfe400/classes/cadastro/NFInfoConsultaCadastro;)óî
+= =(&Q
+%7Kcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro"™com.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro#getConsultaCadastro()Lcom/fincatto/documentofiscal/nfe400/classes/cadastro/NFInfoConsultaCadastro;*q
+
+__unknown_file (U
+S
+consultaGcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro2getConsultaCadastro()…∆
+= =(4
+
+%8void"hcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro#setCnpj(Ljava/lang/String;)V*o
+
+__unknown_file (S
+Q
+%7Kcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro*6
+
+__unknown_file (
+
+cnpjjava.lang.String2setCnpj(Ljava/lang/String;)óî
+> >(&Q
+%9Kcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro"™com.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro#getConsultaCadastro()Lcom/fincatto/documentofiscal/nfe400/classes/cadastro/NFInfoConsultaCadastro;*q
+
+__unknown_file (U
+S
+consultaGcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro2getConsultaCadastro()U
+S
+>2 >(Q
+%10java.lang.String"__id*(
+
+__unknown_file (
+
+CONS-CADœÃ
+> >(R
+%11void"kcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro#setServico(Ljava/lang/String;)V*o
+
+__unknown_file (S
+Q
+%9Kcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro*5
+
+__unknown_file (
+
+%10java.lang.String2setServico(Ljava/lang/String;)òï
+? ?(&R
+%12Kcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro"™com.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro#getConsultaCadastro()Lcom/fincatto/documentofiscal/nfe400/classes/cadastro/NFInfoConsultaCadastro;*q
+
+__unknown_file (U
+S
+consultaGcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro2getConsultaCadastro()Ÿ÷
+?- ?(;
+%13java.lang.String"Ncom.fincatto.documentofiscal.DFUnidadeFederativa#getCodigo()Ljava/lang/String;*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa2getCodigo()∆√
+? ?(<
+%14void"fcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro#setUf(Ljava/lang/String;)V*p
+
+__unknown_file (T
+R
+%12Kcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro*5
+
+__unknown_file (
+
+%13java.lang.String2setUf(Ljava/lang/String;)"a
+@ @(U
+S
+consultaGcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro:$
+90 9(B
+cnpjjava.lang.String:B
+9C 9(_6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativaBFD
+Bcom.fincatto.documentofiscal.nfe400.webservices.WSConsultaCadastro

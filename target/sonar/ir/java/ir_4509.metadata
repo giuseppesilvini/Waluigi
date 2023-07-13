@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.transformers.MDFTipoResponsavelSeguroTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoResponsavelSeguro;
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoResponsavelSeguro;

@@ -1,0 +1,25 @@
+
+Vcom.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#getSerie()Ljava/lang/String;å
+Å/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/NotaFiscalChaveParser.java. .("1*™
+1/ /(ë
+é
+/ /(
+%0java.lang.String"__id*d
+
+__unknown_file (H*F;
+9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser"
+chave‡›
+/ /(+
+%1java.lang.String"0java.lang.String#substring(II)Ljava/lang/String;*4
+
+__unknown_file (
+
+%0java.lang.String* 
+
+__unknown_file (2* 
+
+__unknown_file (22substring(II)"$
+/ /(,
+
+%1java.lang.StringB=;
+9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParserH

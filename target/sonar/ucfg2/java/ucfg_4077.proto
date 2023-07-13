@@ -1,0 +1,15 @@
+
+kcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoEntregaNoInter#getHorarioFinal()Ljava/time/LocalTime;—
+Œ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/classes/cte/CTInfoEntregaNoInter.java ($"1*ß
+1 (¦
+£
+ ( 
+%0java.time.LocalTime"__id*v
+
+__unknown_file (Z*XF
+Dcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoEntregaNoInter"
+horarioFinal"'
+ (!
+
+%0java.time.LocalTimeBHF
+Dcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoEntregaNoInterH

@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeInutilizacao4Stub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;Lcom/fincatto/documentofiscal/nfe400/webservices/gerado/NFeInutilizacao4Stub$NfeDadosMsg;ZLjavax/xml/namespace/QName;)Lorg/apache/axiom/soap/SOAPEnvelope;
+==
+getOMElement com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeInutilizacao4Stub$NfeDadosMsg#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;

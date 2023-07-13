@@ -1,0 +1,99 @@
+
+Õcom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub$NFeDadosMsgType0#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;©
+ú/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe/webservices/distribuicao/NFeDistribuicaoDFeSoapStub.javaÜ- Ü(9"startingBlock*ª
+startingBlockÜ9 Ü(ìù
+ö
+
+Ö Ö(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*F
+
+__unknown_file (*
+(
+parentQNamejavax.xml.namespace.QNamej
+h
+
+ÜZ Ü(e(
+parentQNamejavax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%3ù
+ö
+
+Ö Ö(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*F
+
+__unknown_file (*
+(
+factoryorg.apache.axiom.om.OMFactoryl
+j
+Üã Ü(í(
+factoryorg.apache.axiom.om.OMFactory"__annotation*"
+
+__unknown_file (
+
+%4*
+1*˘
+1
+áo á(sÁ‰
+
+áD á(nm
+%0gcom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub$NFeDadosMsgType0$1"gcom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub$NFeDadosMsgType0$1Í
+Á
+
+á@ ç(
+%1"uorg.apache.axis2.databinding.ADBDataSource#<init>(Lorg/apache/axis2/databinding/ADBBean;Ljavax/xml/namespace/QName;)V*ã
+
+__unknown_file (o
+m
+%0gcom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub$NFeDadosMsgType0$1*Ö
+
+__unknown_file (ig
+ecom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub$NFeDadosMsgType0*F
+
+__unknown_file (*
+(
+parentQNamejavax.xml.namespace.QName”
+–
+
+á ç(.
+
+dataSource org.apache.axiom.om.OMDataSource"__id*ã
+
+__unknown_file (o
+m
+%0gcom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub$NFeDadosMsgType0$1˛˚
+
+è è(C*
+%2$org.apache.axiom.om.OMSourcedElement"íorg.apache.axiom.om.OMFactory#createOMElement(Lorg/apache/axiom/om/OMDataSource;Ljavax/xml/namespace/QName;)Lorg/apache/axiom/om/OMSourcedElement;*F
+
+__unknown_file (*
+(
+factoryorg.apache.axiom.om.OMFactory*L
+
+__unknown_file (0
+.
+
+dataSource org.apache.axiom.om.OMDataSource*F
+
+__unknown_file (*
+(
+parentQNamejavax.xml.namespace.QName2NcreateOMElement(Lorg/apache/axiom/om/OMDataSource;Ljavax/xml/namespace/QName;)":
+
+è è(D,
+*
+%2$org.apache.axiom.om.OMSourcedElement:6
+
+Ü: Ü(f(
+parentQNamejavax.xml.namespace.QName:7
+Üg Ü(í(
+factoryorg.apache.axiom.om.OMFactoryBig
+ecom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub$NFeDadosMsgType0H

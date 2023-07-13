@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFLoteIndicadorProcessamentoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteIndicadorProcessamento;
+com.fincatto.documentofiscal.nfe400.classes.lote.envio.NFLoteIndicadorProcessamento#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteIndicadorProcessamento;

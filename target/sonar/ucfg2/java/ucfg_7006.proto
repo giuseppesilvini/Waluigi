@@ -1,0 +1,57 @@
+
+bcom.fincatto.documentofiscal.nfe310.utils.NFGeraQRCode#toHex(Ljava/lang/String;)Ljava/lang/String;ˆ
+~/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/utils/NFGeraQRCode.javaC C("1*”
+1D D(Þ
+Û
+DE D(]
+%0java.nio.charset.Charset"Njava.nio.charset.Charset#forName(Ljava/lang/String;)Ljava/nio/charset/Charset;*8
+
+__unknown_file ("
+java.nio.charset.Charset*%
+
+__unknown_file (	
+UTF-8ïì
+D8 D(^
+%1byte[]"7java.lang.String#getBytes(Ljava/nio/charset/Charset;)[B*5
+
+__unknown_file (
+
+argjava.lang.String*<
+
+__unknown_file ( 
+
+%0java.nio.charset.Charset2$getBytes(Ljava/nio/charset/Charset;)><
+D* D(4
+%2java.math.BigInteger"java.math.BigInteger¾
+»
+D& D(_
+%3"!java.math.BigInteger#<init>(I[B)V*8
+
+__unknown_file (
+
+%2java.math.BigInteger* 
+
+__unknown_file (2**
+
+__unknown_file (
+
+%1byte[]Š
+‡
+D D(`
+%4java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*%
+
+__unknown_file (	
+%040x*8
+
+__unknown_file (
+
+%2java.math.BigInteger"$
+D D(a
+
+%4java.lang.String:#
+C C(/
+argjava.lang.StringB:"8
+6com.fincatto.documentofiscal.nfe310.utils.NFGeraQRCodeH

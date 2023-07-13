@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSFacade#consultaCadastro(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe310/classes/cadastro/NFRetornoConsultaCadastro;

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.evento.manifestacaodestinatario.NFInfoEventoManifestacaoDestinatario#setCodigoEvento(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#exatamente6N(Ljava/lang/String;Ljava/lang/String;)V

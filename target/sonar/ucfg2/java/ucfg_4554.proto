@@ -1,0 +1,62 @@
+
+¬com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub$CteCabecMsgE#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader;§
+š/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/statusservico/CteStatusServicoStub.java´0 ´(="startingBlock* 
+startingBlock
+´= ´(d—
+”
+
+³ ³(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*@
+
+__unknown_file ($
+"
+qNamejavax.xml.namespace.QNamed
+b
+
+´^ ´(c"
+qNamejavax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%3*
+1*
+1
+¶ ¶(“
+
+
+¶ ¶((d
+%0^com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub$CteCabecMsg"__id*•
+
+__unknown_file (y*wa
+_com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub$CteCabecMsgE"
+localCteCabecMsgY
+W
+
+¶7 ¶(L
+%1javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""ÕÒ
+
+¶ ¶(M&
+%2 javax.xml.stream.XMLStreamReader"«com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub$CteCabecMsg#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader;*‚
+
+__unknown_file (f
+d
+%0^com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub$CteCabecMsg*=
+
+__unknown_file (!
+
+%1javax.xml.namespace.QName2*getPullParser(Ljavax/xml/namespace/QName;)"6
+
+¶ ¶(N(
+&
+%2 javax.xml.stream.XMLStreamReader:0
+
+´> ´(c"
+qNamejavax.xml.namespace.QNameBca
+_com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub$CteCabecMsgEH

@@ -1,0 +1,53 @@
+
+\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;y
+m/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/DFConfig.java‡ ‡(!"3*Ô
+2
+‰ ‰(.tr
+
+‰! ‰(,4
+%1.com.fincatto.documentofiscal.utils.DFPersister".com.fincatto.documentofiscal.utils.DFPersister£
+ 
+
+‰ ‰(.
+%2"8com.fincatto.documentofiscal.utils.DFPersister#<init>()V*R
+
+__unknown_file (6
+4
+%1.com.fincatto.documentofiscal.utils.DFPersister¡
+ž
+
+‰ ‰(.6'
+%com.fincatto.documentofiscal.DFConfig"
+	persister"__id*R
+
+__unknown_file (6
+4
+%1.com.fincatto.documentofiscal.utils.DFPersister*
+1*³
+3
+ˆ ˆ(™
+–
+
+ˆ ˆ(,
+%0&org.simpleframework.xml.core.Persister"__id*T
+
+__unknown_file (8*6'
+%com.fincatto.documentofiscal.DFConfig"
+	persister*
+2
+1*é
+1
+‹ ‹(™
+–
+
+‹ ‹(,
+%3&org.simpleframework.xml.core.Persister"__id*T
+
+__unknown_file (8*6'
+%com.fincatto.documentofiscal.DFConfig"
+	persister"<
+
+‹ ‹(.
+,
+%3&org.simpleframework.xml.core.PersisterB)'
+%com.fincatto.documentofiscal.DFConfigH

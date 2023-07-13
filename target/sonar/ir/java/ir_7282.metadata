@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoItemIndicadorIncentivoFiscalTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoItemIndicadorIncentivoFiscal;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemIndicadorIncentivoFiscal#getCodigo()Ljava/lang/String;

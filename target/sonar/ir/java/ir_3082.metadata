@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFnotaInfoItemModalidadeBCICMSSTTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoItemModalidadeBCICMSST;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemModalidadeBCICMSST#getCodigo()Ljava/lang/String;

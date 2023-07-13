@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPagComp#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoInfPagComp;
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPagComp#getCodigo()Ljava/lang/String;
+java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z

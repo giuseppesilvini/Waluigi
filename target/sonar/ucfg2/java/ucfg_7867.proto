@@ -1,0 +1,43 @@
+
+zcom.fincatto.documentofiscal.transformers.DFPaisTransformer#write(Lcom/fincatto/documentofiscal/DFPais;)Ljava/lang/String;Ž
+ƒ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/transformers/DFPaisTransformer.java ("startingBlock*Æ
+startingBlock (7«
+¨
+ (
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*V
+
+__unknown_file (:
+8
+unidadeFederativa#com.fincatto.documentofiscal.DFPaisx
+v
+% (68
+unidadeFederativa#com.fincatto.documentofiscal.DFPais"__annotation*"
+
+__unknown_file (
+
+%2*
+1* 
+1 ( ÏÌ
+ (,
+%0java.lang.Integer"Bcom.fincatto.documentofiscal.DFPais#getCodigo()Ljava/lang/Integer;*V
+
+__unknown_file (:
+8
+unidadeFederativa#com.fincatto.documentofiscal.DFPais2getCodigo()˜•
+ (7
+%1java.lang.String".java.lang.Integer#toString()Ljava/lang/String;*5
+
+__unknown_file (
+
+%0java.lang.Integer2
+toString()"$
+ (8
+
+%1java.lang.String:D
+ (68
+unidadeFederativa#com.fincatto.documentofiscal.DFPaisB?=
+;com.fincatto.documentofiscal.transformers.DFPaisTransformerH

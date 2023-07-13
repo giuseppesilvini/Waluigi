@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.nota.CTeNotaInfoCTeNormalInfoModalMultiModalSeguro#setApolice(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#tamanho20(Ljava/lang/String;Ljava/lang/String;)V

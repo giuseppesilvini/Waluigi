@@ -1,0 +1,94 @@
+
+|com.fincatto.documentofiscal.utils.DFSocketFactory#createSocket(Ljava/lang/String;ILjava/net/InetAddress;I)Ljava/net/Socket;„
+z/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/utils/DFSocketFactory.java; ;("startingBlock*‚
+startingBlock; ;(u‹
+ˆ
+: :(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+hostjava.lang.StringX
+V
+;, ;(0
+hostjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3•
+’
+: :(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*@
+
+__unknown_file ($
+"
+
+clientHostjava.net.InetAddressb
+`
+;T ;(^"
+
+clientHostjava.net.InetAddress"__annotation*"
+
+__unknown_file (
+
+%4*
+1*ë
+1< <(—
+”
+< <(
+%0javax.net.ssl.SSLContext"__id*b
+
+__unknown_file (F*D4
+2com.fincatto.documentofiscal.utils.DFSocketFactory"
+
+sslContextÒÏ
+< <(1$
+%1javax.net.ssl.SSLSocketFactory"Kjavax.net.ssl.SSLContext#getSocketFactory()Ljavax/net/ssl/SSLSocketFactory;*<
+
+__unknown_file ( 
+
+%0javax.net.ssl.SSLContext2getSocketFactory()ÇÄ
+< <(b
+%2java.net.Socket"ajavax.net.SocketFactory#createSocket(Ljava/lang/String;ILjava/net/InetAddress;I)Ljava/net/Socket;*B
+
+__unknown_file (&
+$
+%1javax.net.ssl.SSLSocketFactory*6
+
+__unknown_file (
+
+hostjava.lang.String*"
+
+__unknown_file (
+""*@
+
+__unknown_file ($
+"
+
+clientHostjava.net.InetAddress*"
+
+__unknown_file (
+""28createSocket(Ljava/lang/String;ILjava/net/InetAddress;I)"#
+< <(c
+
+%2java.net.Socket:$
+; ;(1
+hostjava.lang.String: 
+
+__unknown_file (
+"":.
+;B ;(_"
+
+clientHostjava.net.InetAddress: 
+
+__unknown_file (
+""B64
+2com.fincatto.documentofiscal.utils.DFSocketFactoryH

@@ -1,0 +1,146 @@
+
+Åcom.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload#downloadNota(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/downloadnf/NFDownloadNFeRetorno;‘
+†/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/WSNotaDownload.java (%"1*å
+1, (5ú
+÷
+A (gQ
+%0Kcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe"Æcom.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload#gerarDadosDownloadNF(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/downloadnf/NFDownloadNFe;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload*6
+
+__unknown_file (
+
+cnpjjava.lang.String*7
+
+__unknown_file (
+
+chavejava.lang.Stringäá
+A (r
+%1java.lang.String"@com.fincatto.documentofiscal.DFBase#toString()Ljava/lang/String;*o
+
+__unknown_file (S
+Q
+%0Kcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe2
+toString()Ž
+‹
+, (s#
+%2org.apache.axiom.om.OMElement"`org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*B
+
+__unknown_file (&"$
+"org.apache.axiom.om.util.AXIOMUtil*4
+
+__unknown_file (
+
+%1java.lang.StringŠ
+‡
+ (t2
+omElementConsultaorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%2org.apache.axiom.om.OMElementÔÑ
+ (
+%3org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload2getLogger()¿¼
+ (;
+%4java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*P
+
+__unknown_file (4
+2
+omElementConsultaorg.apache.axiom.om.OMElement2
+toString()ÍÊ
+ (<
+
+%5void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%3org.slf4j.Logger*4
+
+__unknown_file (
+
+%4java.lang.String2debug(Ljava/lang/String;)ö
+ó
+!+ !(S#
+%6org.apache.axiom.om.OMElement"com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload#efetuaDownloadNF(Lorg/apache/axiom/om/OMElement;)Lorg/apache/axiom/om/OMElement;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload*P
+
+__unknown_file (4
+2
+omElementConsultaorg.apache.axiom.om.OMElement‰
+†
+! !(T1
+omElementRetornoorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%6org.apache.axiom.om.OMElementÔÑ
+" "(
+%7org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload2getLogger()¾»
+" "(:
+%8java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*O
+
+__unknown_file (3
+1
+omElementRetornoorg.apache.axiom.om.OMElement2
+toString()ÍÊ
+" "(;
+
+%9void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%7org.slf4j.Logger*4
+
+__unknown_file (
+
+%8java.lang.String2debug(Ljava/lang/String;)²
+¯
+$ $(1
+%10*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload"
+configûø
+$ $()-
+%11&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*O
+
+__unknown_file (3
+1
+%10*com.fincatto.documentofiscal.nfe.NFeConfig2getPersister()¿¼
+$K $(f
+%12java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*O
+
+__unknown_file (3
+1
+omElementRetornoorg.apache.axiom.om.OMElement2
+toString()Ÿœ
+$ $(gY
+%13Rcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFeRetorno"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*K
+
+__unknown_file (/
+-
+%11&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+%12java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)"g
+$ $(h[
+Y
+%13Rcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFeRetorno:$
+& (8
+cnpjjava.lang.String:%
+9 (K
+chavejava.lang.StringBB@
+>com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload

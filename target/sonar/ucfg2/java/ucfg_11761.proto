@@ -1,0 +1,36 @@
+
+Ècom.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoSituacaoTributariaCOFINSTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoSituacaoTributariaCOFINS;)Ljava/lang/String;±
+¦/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFNotaInfoSituacaoTributariaCOFINSTransformer.java ("startingBlock*­
+startingBlock (ZÞ
+Û
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*ˆ
+
+__unknown_file (l
+j
+situacaoTributariaCOFINSNcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoSituacaoTributariaCOFINS«
+¨
+A (Yj
+situacaoTributariaCOFINSNcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoSituacaoTributariaCOFINS"__annotation*"
+
+__unknown_file (
+
+%1*
+1*á
+1 ('«¨
+ (3
+%0java.lang.String"lcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoSituacaoTributariaCOFINS#getCodigo()Ljava/lang/String;*ˆ
+
+__unknown_file (l
+j
+situacaoTributariaCOFINSNcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoSituacaoTributariaCOFINS2getCodigo()"$
+ (4
+
+%0java.lang.String:v
+ (Yj
+situacaoTributariaCOFINSNcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoSituacaoTributariaCOFINSBb`
+^com.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoSituacaoTributariaCOFINSTransformerH

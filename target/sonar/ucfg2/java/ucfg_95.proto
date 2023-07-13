@@ -1,0 +1,194 @@
+
+¢com.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub#fromOM(Lorg/apache/axiom/om/OMElement;Ljava/lang/Class;Ljava/util/Map;)Ljava/lang/Object;
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/consulta/MDFeConsultaStub.javaþ þ(#"startingBlock*à
+13
+ƒ ƒ(tÄÁ
+ƒ ƒ(
+%3boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+8
+11*
+14 (¥"l
+ (¥]
+[
+%2Ucom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeDadosMsg*­
+15 (¤“
+
+ (¤[
+%2Ucom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeDadosMsg"Þcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeDadosMsg$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/mdfe3/webservices/consulta/MDFeConsultaStub$MdfeDadosMsg;*}
+
+__unknown_file (a"_
+]com.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeDadosMsg$Factory*D
+
+__unknown_file ((
+&
+%1 javax.xml.stream.XMLStreamReader*
+14*¡
+16
+ (ˆ…
+{ (£&
+%1 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+15*à
+18
+€ €(kÃÀ
+
+€ €(x
+%0boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+13
+16*%
+1
+Œ Œ("
+
+Œ Œ(
+""*¯
+startingBlockþ# þ(¤
+¡
+
+ý ý(!
+%10"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElementi
+g
+
+þH þ(M&
+paramorg.apache.axiom.om.OMElement"__annotation*#
+
+__unknown_file (
+
+%10•
+’
+
+ý ý(!
+%11"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*5
+
+__unknown_file (
+
+typejava.lang.ClassZ
+X
+
+þe þ(i
+typejava.lang.Class"__annotation*#
+
+__unknown_file (
+
+%11ž
+›
+
+ý ý(!
+%12"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*>
+
+__unknown_file ("
+ 
+extraNamespacesjava.util.Mapd
+b
+þ þ(Ž 
+extraNamespacesjava.util.Map"__annotation*#
+
+__unknown_file (
+
+%12*
+18*
+4‡ ‡(¦"m
+‡ ‡(¦^
+\
+%8Vcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeCabecMsgE*¯
+5‡ ‡(¥—
+”
+‡ ‡(¥\
+%8Vcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeCabecMsgE"àcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeCabecMsgE$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/mdfe3/webservices/consulta/MDFeConsultaStub$MdfeCabecMsgE;*~
+
+__unknown_file (b"`
+^com.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeCabecMsgE$Factory*D
+
+__unknown_file ((
+&
+%7 javax.xml.stream.XMLStreamReader*
+4*Ÿ
+6
+‡ ‡(ˆ…
+‡| ‡(¤&
+%7 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+5*Ý
+8
+† †(lÃÀ
+
+† †(y
+%6boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+6
+1*‡
+9„ „(®"u
+„ „(®f
+d
+%5^com.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeConsultaMDFResult*Ñ
+10„ „(­¸
+µ
+„ „(­d
+%5^com.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeConsultaMDFResult"ðcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeConsultaMDFResult$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/mdfe3/webservices/consulta/MDFeConsultaStub$MdfeConsultaMDFResult;*†
+
+__unknown_file (j"h
+fcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeConsultaMDFResult$Factory*D
+
+__unknown_file ((
+&
+%4 javax.xml.stream.XMLStreamReader*
+9*¢
+11
+„ „(‰†
+„„ „(¬&
+%4 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+10:4
+
+þ$ þ(N&
+paramorg.apache.axiom.om.OMElement:%
+
+þO þ(j
+typejava.lang.Class:/
+þk þ(Ž 
+extraNamespacesjava.util.MapBLJ
+Hcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub

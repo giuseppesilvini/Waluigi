@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.validadores.DFListValidador#validaListaObrigatoria(Ljava/util/List;ILjava/lang/String;)Ljava/util/List;
+com.fincatto.documentofiscal.validadores.DFListValidador#validaEstadoDaLista(Ljava/util/List;Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFListValidador#validaTamanho(Ljava/util/List;ILjava/lang/String;)V

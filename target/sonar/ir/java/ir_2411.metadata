@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub#getUniqueSuffix()Ljava/lang/String;
+java.lang.System#currentTimeMillis()J

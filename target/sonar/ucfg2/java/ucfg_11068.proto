@@ -1,0 +1,60 @@
+
+¾com.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorPresencaComprador#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFIndicadorPresencaComprador; 
+•/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFIndicadorPresencaComprador.java/ (<"5*¼
+2 (9“
+
+ (9Z
+	indicadorMcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorPresencaComprador"__id*"
+
+__unknown_file (
+""Ž
+‹
+ (9Z
+	indicadorMcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorPresencaComprador"
+__arrayGet*s
+
+__unknown_file (W
+U
+%0Ocom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorPresencaComprador[]*"
+
+__unknown_file (
+""*
+4
+1*w
+3   ( "h
+   (!\
+Z
+	indicadorMcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorPresencaComprador*Š
+4 (™–
+ (%
+%1java.lang.String"kcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorPresencaComprador#getCodigo()Ljava/lang/String;*x
+
+__unknown_file (\
+Z
+	indicadorMcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorPresencaComprador2getCodigo()ÖÓ
+ (4
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*‘
+5< (Xü
+ù
+< (aU
+%0Ocom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorPresencaComprador[]"¦com.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorPresencaComprador#values()[Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFIndicadorPresencaComprador;*m
+
+__unknown_file (Q"O
+Mcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorPresencaComprador*
+2*!
+1# #("
+# #(
+"":&
+= (P
+codigojava.lang.StringBQ"O
+Mcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorPresencaCompradorH

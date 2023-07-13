@@ -1,0 +1,40 @@
+
+ècom.fincatto.documentofiscal.nfe.webservices.distribuicao.WSDistribuicaoNFe#consultar(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoIntRetorno;û
+ì/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe/webservices/distribuicao/WSDistribuicaoNFe.java $  (-"1*ù
+1! !(©¶
+! !(?T
+%0Ncom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoIntRetorno"°com.fincatto.documentofiscal.nfe.webservices.distribuicao.WSDistribuicaoNFe#consultar(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoIntRetorno;*k
+
+__unknown_file (OM
+Kcom.fincatto.documentofiscal.nfe.webservices.distribuicao.WSDistribuicaoNFe*;
+
+__unknown_file (
+
+	cpfOuCnpjjava.lang.String*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*5
+
+__unknown_file (
+
+nsujava.lang.String*"
+
+__unknown_file (
+""2Öconsultar(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)"b
+! !(@V
+T
+%0Ncom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoIntRetorno:)
+ .  (E
+	cpfOuCnpjjava.lang.String:B
+ F  (c6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa:+
+ d  (}
+chaveAcessojava.lang.String:$
+	 ~  (é
+nsujava.lang.StringBOM
+Kcom.fincatto.documentofiscal.nfe.webservices.distribuicao.WSDistribuicaoNFeH

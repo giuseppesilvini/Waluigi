@@ -1,0 +1,52 @@
+
+°com.fincatto.documentofiscal.nfe400.webservices.WSNotaConsulta#consultaNota(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/consulta/NFNotaConsultaRetorno;‘
+†/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSNotaConsulta.java (&"1*Å
+1 (±
+®
+ (0
+%0*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe400.webservices.WSNotaConsulta"
+configùö
+ (),
+%1&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*N
+
+__unknown_file (2
+0
+%0*com.fincatto.documentofiscal.nfe.NFeConfig2getPersister()ëè
+L (o
+%2java.lang.String"ycom.fincatto.documentofiscal.nfe400.webservices.WSNotaConsulta#consultaNotaAsString(Ljava/lang/String;)Ljava/lang/String;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.nfe400.webservices.WSNotaConsulta*?
+
+__unknown_file (#
+!
+chaveDeAcessojava.lang.String2(consultaNotaAsString(Ljava/lang/String;)–“
+L (z
+%3java.lang.String"-java.lang.String#toString()Ljava/lang/String;*4
+
+__unknown_file (
+
+%2java.lang.String2
+toString()™–
+ ({U
+%4Ocom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsultaRetorno"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*J
+
+__unknown_file (.
+,
+%1&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%3java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)"c
+ (|W
+U
+%4Ocom.fincatto.documentofiscal.nfe400.classes.nota.consulta.NFNotaConsultaRetorno:-
+' (A!
+chaveDeAcessojava.lang.StringBB@
+>com.fincatto.documentofiscal.nfe400.webservices.WSNotaConsulta

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.webservices.WSIncluirDFe#incluirDFeAssinado(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;
+com.fincatto.documentofiscal.mdfe3.webservices.WSIncluirDFe#efetuaIncluirDFe(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;

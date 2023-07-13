@@ -1,0 +1,92 @@
+
+–com.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeDadosMsg#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;±
+§/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/statusservico/consulta/NfeStatusServico4Stub.java∫- ∫(9"startingBlock*ª
+startingBlock∫9 ∫(ìù
+ö
+
+π π(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*F
+
+__unknown_file (*
+(
+parentQNamejavax.xml.namespace.QNamej
+h
+
+∫Z ∫(e(
+parentQNamejavax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%4ù
+ö
+
+π π(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*F
+
+__unknown_file (*
+(
+factoryorg.apache.axiom.om.OMFactoryl
+j
+∫ã ∫(í(
+factoryorg.apache.axiom.om.OMFactory"__annotation*"
+
+__unknown_file (
+
+%5*
+1*¡
+1
+ª ª(Y
+W
+
+ª` ª(t
+%0javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""lj
+
+ª/ ª(Y0
+%1*org.apache.axis2.databinding.ADBDataSource"*org.apache.axis2.databinding.ADBDataSource¶
+£
+
+ª+ ª(u
+%2"uorg.apache.axis2.databinding.ADBDataSource#<init>(Lorg/apache/axis2/databinding/ADBBean;Ljavax/xml/namespace/QName;)V*N
+
+__unknown_file (2
+0
+%1*org.apache.axis2.databinding.ADBDataSource*à
+
+__unknown_file (lj
+hcom.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeDadosMsg*=
+
+__unknown_file (!
+
+%0javax.xml.namespace.QNameÅ˛
+
+ª ª(v*
+%3$org.apache.axiom.om.OMSourcedElement"worg.apache.axiom.om.OMFactory#createOMElement(Lorg/apache/axiom/om/OMDataSource;)Lorg/apache/axiom/om/OMSourcedElement;*F
+
+__unknown_file (*
+(
+factoryorg.apache.axiom.om.OMFactory*N
+
+__unknown_file (2
+0
+%1*org.apache.axis2.databinding.ADBDataSource23createOMElement(Lorg/apache/axiom/om/OMDataSource;)":
+
+ª ª(w,
+*
+%3$org.apache.axiom.om.OMSourcedElement:6
+
+∫: ∫(f(
+parentQNamejavax.xml.namespace.QName:7
+∫g ∫(í(
+factoryorg.apache.axiom.om.OMFactoryBlj
+hcom.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub$NfeDadosMsgH

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.nota.CTeNotaInfoCTeNormalInfoCTeSubstituicaoTomadorICMSRefernciaNF#setCpf(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#cpf(Ljava/lang/String;)V

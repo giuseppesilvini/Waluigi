@@ -1,0 +1,12 @@
+com.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLote#comunicaLote(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/enviolote/CTeEnvioLoteRetorno;
+com.fincatto.documentofiscal.cte300.classes.CTAutorizador31#valueOfTipoEmissao(Lcom/fincatto/documentofiscal/cte300/classes/CTTipoEmissao;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/cte300/classes/CTAutorizador31;
+com.fincatto.documentofiscal.validadores.DFXMLValidador#validaLoteCTe(Ljava/lang/String;)Z
+com.fincatto.documentofiscal.cte300.webservices.recepcao.CteRecepcaoStub$CteDadosMsg#instance-init#
+com.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLote#getCabecalhoSOAP()Lcom/fincatto/documentofiscal/cte300/webservices/recepcao/CteRecepcaoStub$CteCabecMsgE;
+com.fincatto.documentofiscal.cte300.webservices.recepcao.CteRecepcaoStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.Enum#name()Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLote#cteToOMElement(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.cte300.webservices.recepcao.CteRecepcaoStub$CteDadosMsg#<init>()V
+com.fincatto.documentofiscal.cte300.webservices.recepcao.CteRecepcaoStub#instance-init#
+java.lang.IllegalArgumentException#instance-init#

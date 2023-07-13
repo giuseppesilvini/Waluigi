@@ -1,0 +1,60 @@
+
+úcom.fincatto.documentofiscal.nfe310.classes.NFOrigemProcesso#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFOrigemProcesso;è
+Ñ/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFOrigemProcesso.java# (0"5*ì
+2 (2á
+Ñ
+ (2N
+origemProcesso<com.fincatto.documentofiscal.nfe310.classes.NFOrigemProcesso"__id*"
+
+__unknown_file (
+""Ò
+Ó
+ (2N
+origemProcesso<com.fincatto.documentofiscal.nfe310.classes.NFOrigemProcesso"
+__arrayGet*b
+
+__unknown_file (F
+D
+%0>com.fincatto.documentofiscal.nfe310.classes.NFOrigemProcesso[]*"
+
+__unknown_file (
+""*
+4
+1*k
+3 (%"\
+ (&P
+N
+origemProcesso<com.fincatto.documentofiscal.nfe310.classes.NFOrigemProcesso*Ì
+4 (¸˘
+ (*
+%1java.lang.String"Zcom.fincatto.documentofiscal.nfe310.classes.NFOrigemProcesso#getCodigo()Ljava/lang/String;*l
+
+__unknown_file (P
+N
+origemProcesso<com.fincatto.documentofiscal.nfe310.classes.NFOrigemProcesso2getCodigo()÷”
+ (9
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*Õ
+55 (E∏
+µ
+5 (ND
+%0>com.fincatto.documentofiscal.nfe310.classes.NFOrigemProcesso[]"Ñcom.fincatto.documentofiscal.nfe310.classes.NFOrigemProcesso#values()[Lcom/fincatto/documentofiscal/nfe310/classes/NFOrigemProcesso;*\
+
+__unknown_file (@">
+<com.fincatto.documentofiscal.nfe310.classes.NFOrigemProcesso*
+2*!
+1 ("
+ (
+"":&
+1 (D
+codigojava.lang.StringB@">
+<com.fincatto.documentofiscal.nfe310.classes.NFOrigemProcessoH

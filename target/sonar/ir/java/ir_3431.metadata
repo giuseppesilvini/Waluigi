@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSNotaConsulta#consultaNota(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/consulta/NFNotaConsultaRetorno;
+org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.nfe310.webservices.WSNotaConsulta#efetuaConsulta(Lorg/apache/axiom/om/OMElement;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.nfe310.webservices.WSNotaConsulta#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/consulta/NFNotaConsulta;

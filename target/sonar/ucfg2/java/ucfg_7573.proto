@@ -1,0 +1,66 @@
+
+€com.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario#manifestaDestinatarioNotaAssinada(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/NFEnviaEventoRetorno;ù
+í/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSManifestacaoDestinatario.java (:"1*€
+1* (.”
+–
+* (m#
+%0org.apache.axiom.om.OMElement"Æcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario#efetuaManifestacaoDestinatario(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*j
+
+__unknown_file (NL
+Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario*C
+
+__unknown_file ('
+%
+eventoAssinadoXmljava.lang.String*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.Stringà
+Ö
+ (n0
+omElementResultorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%0org.apache.axiom.om.OMElementΩ
+∫
+ (0
+%1*com.fincatto.documentofiscal.nfe.NFeConfig"__id*v
+
+__unknown_file (Z*XL
+Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario"
+config˘ˆ
+ (),
+%2&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*N
+
+__unknown_file (2
+0
+%1*com.fincatto.documentofiscal.nfe.NFeConfig2getPersister()Ω∫
+K (e
+%3java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+omElementResultorg.apache.axiom.om.OMElement2
+toString()ëé
+ (fM
+%4Gcom.fincatto.documentofiscal.nfe400.classes.evento.NFEnviaEventoRetorno"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*J
+
+__unknown_file (.
+,
+%2&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%3java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)"[
+ (gO
+M
+%4Gcom.fincatto.documentofiscal.nfe400.classes.evento.NFEnviaEventoRetorno:+
+; (T
+chaveAcessojava.lang.String:1
+U (s%
+eventoAssinadoXmljava.lang.StringBNL
+Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario

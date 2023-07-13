@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.parsers.CTChaveParser#isEmitidaContingenciaSCVRS()Z
+java.lang.String#matches(Ljava/lang/String;)Z

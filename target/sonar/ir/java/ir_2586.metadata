@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte200.transformers.CTTipoEntregaHorarioTransformer#write(Lcom/fincatto/documentofiscal/cte200/classes/CTTipoEntregaHorario;)Ljava/lang/String;
+com.fincatto.documentofiscal.cte200.classes.CTTipoEntregaHorario#getCodigo()Ljava/lang/String;

@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSStatusConsulta#gerarDadosConsulta(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe310/classes/statusservico/consulta/NFStatusServicoConsulta;
+com.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsulta#<init>()V
+com.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsulta#instance-init#

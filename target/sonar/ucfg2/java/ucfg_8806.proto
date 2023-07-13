@@ -1,0 +1,31 @@
+
+Âcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoFormaPagamento#setDescricaoMeioPagamento(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoFormaPagamento;œ
+‘/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoFormaPagamento.javaF$ F(="1*ž
+1G G(ê
+ç
+G G([
+
+%0void"ocom.fincatto.documentofiscal.validadores.DFStringValidador#tamanho2ate60(Ljava/lang/String;Ljava/lang/String;)V*Z
+
+__unknown_file (>"<
+:com.fincatto.documentofiscal.validadores.DFStringValidador*H
+
+__unknown_file (,
+*
+descricaoMeioPagamentojava.lang.String*8
+
+__unknown_file (
+Descricao Meio PagamentoÆ
+Ã
+H H(<gK
+Icom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoFormaPagamento"
+descricaoMeioPagamento"__id*H
+
+__unknown_file (,
+*
+descricaoMeioPagamentojava.lang.String"Y
+I I(MK
+Icom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoFormaPagamento:6
+F> F([*
+descricaoMeioPagamentojava.lang.StringBMK
+Icom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoFormaPagamentoH

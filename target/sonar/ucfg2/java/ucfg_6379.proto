@@ -1,0 +1,82 @@
+
+Ycom.fincatto.documentofiscal.nfe400.classes.NFProtocoloInfo#getMotivo()Ljava/lang/String;é
+É/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFProtocoloInfo.javar r("3*Ç
+2u u(î
+ë
+uK u(V
+%2java.lang.String"__id*g
+
+__unknown_file (K*I=
+;com.fincatto.documentofiscal.nfe400.classes.NFProtocoloInfo"
+statusÄ
+˝
+u- u(WA
+%3;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus"öcom.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFRetornoStatus;*[
+
+__unknown_file (?"=
+;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus*4
+
+__unknown_file (
+
+%2java.lang.Stringy
+w
+uY u(sA
+%4;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus"__id*"
+
+__unknown_file (
+""ƒ
+¡
+u u(uA
+%5;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus"jorg.apache.commons.lang3.ObjectUtils#defaultIfNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*D
+
+__unknown_file (("&
+$org.apache.commons.lang3.ObjectUtils*_
+
+__unknown_file (C
+A
+%3;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus*_
+
+__unknown_file (C
+A
+%4;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatusÔÏ
+	u u(Å
+%6java.lang.String"Ycom.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus#getMotivo()Ljava/lang/String;*_
+
+__unknown_file (C
+A
+%5;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus2getMotivo()"%
+	u u(Ç
+
+%6java.lang.String*ê
+3s	 s(î
+ë
+s s((
+%0java.lang.String"__id*g
+
+__unknown_file (K*I=
+;com.fincatto.documentofiscal.nfe400.classes.NFProtocoloInfo"
+motivo·
+ﬁ
+s	 s()
+%1boolean"Gorg.apache.commons.lang3.StringUtils#isBlank(Ljava/lang/CharSequence;)Z*D
+
+__unknown_file (("&
+$org.apache.commons.lang3.StringUtils*4
+
+__unknown_file (
+
+%0java.lang.String*
+2
+1* 
+1v v(î
+ë
+v v(
+%7java.lang.String"__id*g
+
+__unknown_file (K*I=
+;com.fincatto.documentofiscal.nfe400.classes.NFProtocoloInfo"
+motivo"$
+v v(
+
+%7java.lang.StringB?=
+;com.fincatto.documentofiscal.nfe400.classes.NFProtocoloInfoH

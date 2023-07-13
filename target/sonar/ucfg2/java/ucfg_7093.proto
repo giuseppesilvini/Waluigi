@@ -1,0 +1,46 @@
+
+®com.fincatto.documentofiscal.nfe310.transformers.NFFormaPagamentoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFFormaPagamentoPrazo;ü
+î/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFFormaPagamentoTransformer.java	! 	(%"startingBlock*ä
+startingBlock	% 	(:ç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	3 	(9
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*É
+1
+ 
+($ú
+ô
+
+ 
+(:G
+%0Acom.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo"¶com.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFFormaPagamentoPrazo;*a
+
+__unknown_file (E"C
+Acom.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo*8
+
+__unknown_file (
+
+codigojava.lang.String"U
+
+ 
+(;I
+G
+%0Acom.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo:&
+	& 	(9
+codigojava.lang.StringBPN
+Lcom.fincatto.documentofiscal.nfe310.transformers.NFFormaPagamentoTransformerH

@@ -1,0 +1,242 @@
+
+lcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeEmissaoNormal20#getQRCode()Ljava/lang/String;°
+ñ/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/utils/qrcode20/NFGeraQRCodeEmissaoNormal20.java ("1*µ0
+1 (!âÜ
+ (#
+%0java.lang.String"bcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20#getUrlQRCode()Ljava/lang/String;*n
+
+__unknown_file (RP
+Ncom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeEmissaoNormal202getUrlQRCode()a
+_
+ ($
+urljava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.StringDB
+- (:
+%1java.lang.StringBuilder"java.lang.StringBuilderr
+p
+) (<
+%2"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%1java.lang.StringBuilderv
+t
+ (=%
+
+parametrosjava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%1java.lang.StringBuilderÃ
+…
+ (=
+%37com.fincatto.documentofiscal.nfe400.classes.nota.NFNota"__id*x
+
+__unknown_file (\*ZP
+Ncom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeEmissaoNormal20"
+nota∏µ
+ ((A
+%4;com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo"~com.fincatto.documentofiscal.nfe400.classes.nota.NFNota#getInfo()Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfo;*[
+
+__unknown_file (?
+=
+%37com.fincatto.documentofiscal.nfe400.classes.nota.NFNota2	getInfo()¯ı
+ (9
+%5java.lang.String"^com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo#getChaveAcesso()Ljava/lang/String;*_
+
+__unknown_file (C
+A
+%4;com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo2getChaveAcesso()êç
+ (:
+%6java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder*4
+
+__unknown_file (
+
+%5java.lang.String2append(Ljava/lang/String;)ıÚ
+ (F
+%7java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+%6java.lang.StringBuilder*!
+
+__unknown_file (
+|2append(Ljava/lang/String;)M
+K
+ ('
+%8java.lang.String"__id*!
+
+__unknown_file (
+2êç
+ ((
+%9java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder*4
+
+__unknown_file (
+
+%8java.lang.String2append(Ljava/lang/String;)ˆÛ
+ (4
+%10java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+%9java.lang.StringBuilder*!
+
+__unknown_file (
+|2append(Ljava/lang/String;)¬
+ø
+ ( 1
+%11*com.fincatto.documentofiscal.nfe.NFeConfig"__id*z
+
+__unknown_file (^*\P
+Ncom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeEmissaoNormal20"
+config˚¯
+ (..
+%12'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*O
+
+__unknown_file (3
+1
+%11*com.fincatto.documentofiscal.nfe.NFeConfig2getAmbiente()»≈
+ (:
+%13java.lang.String"Ecom.fincatto.documentofiscal.DFAmbiente#getCodigo()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+%12'com.fincatto.documentofiscal.DFAmbiente2getCodigo()íè
+ (;
+%14java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder*5
+
+__unknown_file (
+
+%13java.lang.String2append(Ljava/lang/String;)˜Ù
+ (G
+%15java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*<
+
+__unknown_file ( 
+
+%14java.lang.StringBuilder*!
+
+__unknown_file (
+|2append(Ljava/lang/String;)¬
+ø
+ ( 1
+%16*com.fincatto.documentofiscal.nfe.NFeConfig"__id*z
+
+__unknown_file (^*\P
+Ncom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeEmissaoNormal20"
+config˛˚
+ (C
+%17java.lang.Integer"`com.fincatto.documentofiscal.nfe.NFeConfig#getCodigoSegurancaContribuinteID()Ljava/lang/Integer;*O
+
+__unknown_file (3
+1
+%16*com.fincatto.documentofiscal.nfe.NFeConfig2"getCodigoSegurancaContribuinteID()ìê
+ (D
+%18java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/Object;)Ljava/lang/StringBuilder;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder*6
+
+__unknown_file (
+
+%17java.lang.Integer2append(Ljava/lang/Object;)k
+i
+ (
+%19java.lang.String"__concat*%
+ (
+
+urljava.lang.String*
+ (
+?p=≠™
+ (2
+%20java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder2
+toString()}
+{
+ (2
+%21java.lang.String"__concat*%
+ (
+
+%19java.lang.String*%
+ (2
+
+%20java.lang.Stringi
+g
+ (8
+%22java.lang.String"__concat*%
+ (2
+
+%21java.lang.String*
+5 (8
+|≠™
+F ([
+%23java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*C
+
+__unknown_file ('
+%
+
+parametrosjava.lang.StringBuilder2
+toString()¬
+ø
+] (h1
+%24*com.fincatto.documentofiscal.nfe.NFeConfig"__id*z
+
+__unknown_file (^*\P
+Ncom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeEmissaoNormal20"
+config˘ˆ
+	] (â
+%25java.lang.String"]com.fincatto.documentofiscal.nfe.NFeConfig#getCodigoSegurancaContribuinte()Ljava/lang/String;*O
+
+__unknown_file (3
+1
+%24*com.fincatto.documentofiscal.nfe.NFeConfig2 getCodigoSegurancaContribuinte()ˇ
+¸
+	; (ä
+%26java.lang.String"Ñcom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20#createHash(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*a
+
+__unknown_file (E"C
+Acom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20*5
+
+__unknown_file (
+
+%23java.lang.String*5
+
+__unknown_file (
+
+%25java.lang.String
+}
+	 (ä
+%27java.lang.String"__concat*%
+ (8
+
+%22java.lang.String*&
+	; (ä
+
+%26java.lang.String"&
+	 (ã
+
+%27java.lang.StringBRP
+Ncom.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeEmissaoNormal20H

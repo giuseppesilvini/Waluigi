@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemProdutoMedicamento#setQuantidade(Ljava/math/BigDecimal;)V
+com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#tamanho11Com3CasasDecimais(Ljava/math/BigDecimal;Ljava/lang/String;)Ljava/lang/String;

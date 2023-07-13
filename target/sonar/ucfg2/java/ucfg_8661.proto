@@ -1,0 +1,46 @@
+
+}com.fincatto.documentofiscal.transformers.DFModeloTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/DFModelo;ê
+Ö/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/transformers/DFModeloTransformer.java	 	("startingBlock*ä
+startingBlock	 	(-ç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	& 	(,
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ˆ
+1
+ 
+(´
+®
+
+ 
+(-+
+%0%com.fincatto.documentofiscal.DFModelo"ncom.fincatto.documentofiscal.DFModelo#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/DFModelo;*E
+
+__unknown_file ()"'
+%com.fincatto.documentofiscal.DFModelo*8
+
+__unknown_file (
+
+codigojava.lang.String"9
+
+ 
+(.-
++
+%0%com.fincatto.documentofiscal.DFModelo:&
+	 	(,
+codigojava.lang.StringBA?
+=com.fincatto.documentofiscal.transformers.DFModeloTransformerH

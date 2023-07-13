@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.classes.CTTipoPrazoHoraEntrega#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoPrazoHoraEntrega;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.cte300.classes.CTTipoPrazoHoraEntrega#getCodigo()Ljava/lang/String;

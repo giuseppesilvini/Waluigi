@@ -1,0 +1,60 @@
+
+rcom.fincatto.documentofiscal.DFAmbiente#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/DFAmbiente;y
+o/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/DFAmbiente.java (*"5*Æ
+2 (&k
+i
+ (&3
+ambiente'com.fincatto.documentofiscal.DFAmbiente"__id*"
+
+__unknown_file (
+""Á
+¾
+ (&3
+ambiente'com.fincatto.documentofiscal.DFAmbiente"
+__arrayGet*M
+
+__unknown_file (1
+/
+%0)com.fincatto.documentofiscal.DFAmbiente[]*"
+
+__unknown_file (
+""*
+4
+1*P
+3 ("A
+ ( 5
+3
+ambiente'com.fincatto.documentofiscal.DFAmbiente*Ñ
+4 (ÌÉ
+ ($
+%1java.lang.String"Ecom.fincatto.documentofiscal.DFAmbiente#getCodigo()Ljava/lang/String;*Q
+
+__unknown_file (5
+3
+ambiente'com.fincatto.documentofiscal.DFAmbiente2getCodigo()êç
+ (=
+%2boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
+2
+3*ø
+5) (3ã
+à
+) (</
+%0)com.fincatto.documentofiscal.DFAmbiente[]"Zcom.fincatto.documentofiscal.DFAmbiente#values()[Lcom/fincatto/documentofiscal/DFAmbiente;*G
+
+__unknown_file (+")
+'com.fincatto.documentofiscal.DFAmbiente*
+2*!
+1 ("
+ (
+"":&
++ (>
+codigojava.lang.StringB+")
+'com.fincatto.documentofiscal.DFAmbienteH

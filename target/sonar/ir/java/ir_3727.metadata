@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe400.classes.NFTipoImpressao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFTipoImpressao;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe400.classes.NFTipoImpressao#getCodigo()Ljava/lang/String;

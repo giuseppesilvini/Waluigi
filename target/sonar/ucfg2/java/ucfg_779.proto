@@ -1,0 +1,36 @@
+
+Åcom.fincatto.documentofiscal.nfe310.transformers.NFFormaImportacaoIntermediacaoTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFFormaImportacaoIntermediacao;)Ljava/lang/String;­
+¢/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFFormaImportacaoIntermediacaoTransformer.java ("startingBlock*˜
+startingBlock (KÓ
+Ð
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*~
+
+__unknown_file (b
+`
+intermediacaoOcom.fincatto.documentofiscal.nfe310.classes.nota.NFFormaImportacaoIntermediacao¡
+ž
+= (J`
+intermediacaoOcom.fincatto.documentofiscal.nfe310.classes.nota.NFFormaImportacaoIntermediacao"__annotation*"
+
+__unknown_file (
+
+%1*
+1*×
+1 (¡ž
+ ((
+%0java.lang.String"mcom.fincatto.documentofiscal.nfe310.classes.nota.NFFormaImportacaoIntermediacao#getCodigo()Ljava/lang/String;*~
+
+__unknown_file (b
+`
+intermediacaoOcom.fincatto.documentofiscal.nfe310.classes.nota.NFFormaImportacaoIntermediacao2getCodigo()"$
+ ()
+
+%0java.lang.String:l
+ (J`
+intermediacaoOcom.fincatto.documentofiscal.nfe310.classes.nota.NFFormaImportacaoIntermediacaoB^\
+Zcom.fincatto.documentofiscal.nfe310.transformers.NFFormaImportacaoIntermediacaoTransformerH

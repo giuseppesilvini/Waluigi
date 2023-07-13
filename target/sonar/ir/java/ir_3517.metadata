@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoMedicamento#setCodigoProdutoAnvisa(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoItemProdutoMedicamento;
+com.fincatto.documentofiscal.validadores.DFStringValidador#exatamente13(Ljava/lang/String;Ljava/lang/String;)V

@@ -1,0 +1,50 @@
+
+vcom.fincatto.documentofiscal.transformers.DFZonedDateTimeTransformer#read(Ljava/lang/String;)Ljava/time/ZonedDateTime;—
+Œ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/transformers/DFZonedDateTimeTransformer.java ("startingBlock*†
+startingBlock (0‹
+ˆ
+ (
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+datajava.lang.StringX
+V
++ (/
+datajava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*
+1*ú
+1 (`
+^
+) (M(
+%0"java.time.format.DateTimeFormatter"__id*"
+
+__unknown_file (
+""Û
+Ø
+ (N
+%1java.time.ZonedDateTime"tjava.time.ZonedDateTime#parse(Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/ZonedDateTime;*7
+
+__unknown_file ("
+java.time.ZonedDateTime*6
+
+__unknown_file (
+
+datajava.lang.String*F
+
+__unknown_file (*
+(
+%0"java.time.format.DateTimeFormatter"+
+ (O
+
+%1java.time.ZonedDateTime:$
+ (/
+datajava.lang.StringBHF
+Dcom.fincatto.documentofiscal.transformers.DFZonedDateTimeTransformerH

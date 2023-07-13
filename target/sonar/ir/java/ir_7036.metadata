@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTUnidadeMedidaProdPerigososTransformer#write(Lcom/fincatto/documentofiscal/cte300/classes/CTUnidadeMedidaProdPerigosos;)Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.classes.CTUnidadeMedidaProdPerigosos#getCodigo()Ljava/lang/String;

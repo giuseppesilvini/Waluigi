@@ -1,0 +1,46 @@
+
+ùcom.fincatto.documentofiscal.cte200.transformers.CTTipoEmissaoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTTipoEmissao;ú
+ë/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/transformers/CTTipoEmissaoTransformer.java	 	("startingBlock*ä
+startingBlock	 	(2ç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	+ 	(1
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*€
+1
+ 
+(¸
+˘
+
+ 
+(2?
+%09com.fincatto.documentofiscal.cte200.classes.CTTipoEmissao"ñcom.fincatto.documentofiscal.cte200.classes.CTTipoEmissao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTTipoEmissao;*Y
+
+__unknown_file (=";
+9com.fincatto.documentofiscal.cte200.classes.CTTipoEmissao*8
+
+__unknown_file (
+
+codigojava.lang.String"M
+
+ 
+(3A
+?
+%09com.fincatto.documentofiscal.cte200.classes.CTTipoEmissao:&
+	 	(1
+codigojava.lang.StringBMK
+Icom.fincatto.documentofiscal.cte200.transformers.CTTipoEmissaoTransformerH

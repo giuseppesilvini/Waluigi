@@ -1,0 +1,116 @@
+
+®com.fincatto.documentofiscal.cte300.webservices.WSInutilizacao#inutilizaNota(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/cte300/classes/evento/inutilizacao/CTeRetornoEventoInutilizacao;‘
+†/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/WSInutilizacao.java(! ((."1*¡
+1)/ )(=®«
+	)/ )(Ÿ
+%0java.lang.String"ãcom.fincatto.documentofiscal.cte300.webservices.WSInutilizacao#getXmlAssinado(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Ljava/lang/String;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.cte300.webservices.WSInutilizacao*"
+
+__unknown_file (
+""*>
+
+__unknown_file ("
+ 
+cnpjEmitentejava.lang.String*7
+
+__unknown_file (
+
+seriejava.lang.String*?
+
+__unknown_file (#
+!
+numeroInicialjava.lang.String*=
+
+__unknown_file (!
+
+numeroFinaljava.lang.String*?
+
+__unknown_file (#
+!
+justificativajava.lang.String*M
+
+__unknown_file (1
+/
+modelo%com.fincatto.documentofiscal.DFModelo2’getXmlAssinado(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)v
+t
+	) )( +
+inutilizacaoXMLAssinadojava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.StringÚ
+×
+** *(b#
+%1org.apache.axiom.om.OMElement"«com.fincatto.documentofiscal.cte300.webservices.WSInutilizacao#efetuaInutilizacao(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lorg/apache/axiom/om/OMElement;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.cte300.webservices.WSInutilizacao*I
+
+__unknown_file (-
++
+inutilizacaoXMLAssinadojava.lang.String*M
+
+__unknown_file (1
+/
+modelo%com.fincatto.documentofiscal.DFModeloˆ
+…
+* *(c0
+omElementResultorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%1org.apache.axiom.om.OMElementrp
++ +(4
+%2.com.fincatto.documentofiscal.utils.DFPersister".com.fincatto.documentofiscal.utils.DFPersister¡
+ž
++ +( 
+%3"8com.fincatto.documentofiscal.utils.DFPersister#<init>()V*R
+
+__unknown_file (6
+4
+%2.com.fincatto.documentofiscal.utils.DFPersister½º
++J +(d
+%4java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+omElementResultorg.apache.axiom.om.OMElement2
+toString()¶³
++ +(eb
+%5\com.fincatto.documentofiscal.cte300.classes.evento.inutilizacao.CTeRetornoEventoInutilizacao"jcom.fincatto.documentofiscal.utils.DFPersister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*R
+
+__unknown_file (6
+4
+%2.com.fincatto.documentofiscal.utils.DFPersister*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%4java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)"p
++ +(fd
+b
+%5\com.fincatto.documentofiscal.cte300.classes.evento.inutilizacao.CTeRetornoEventoInutilizacao: 
+
+__unknown_file (
+"":,
+(S ((m 
+cnpjEmitentejava.lang.String:&
+	(n ((
+seriejava.lang.String:/
+
+(‚ ((!
+numeroInicialjava.lang.String:-
+
+(ž ((·
+numeroFinaljava.lang.String:/
+
+(¸ ((Ó!
+justificativajava.lang.String:=
+
+(Ô ((é/
+modelo%com.fincatto.documentofiscal.DFModeloBB@
+>com.fincatto.documentofiscal.cte300.webservices.WSInutilizacao

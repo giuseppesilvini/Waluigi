@@ -1,0 +1,15 @@
+
+gcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoDocumentoNF#getDataEmissao()Ljava/time/LocalDate;”
+‰/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/classes/cte/CTInfoDocumentoNF.javap p(#"1*Û
+1q q(¢
+Ÿ
+q q(
+%0java.time.LocalDate"__id*r
+
+__unknown_file (V*TC
+Acom.fincatto.documentofiscal.cte200.classes.cte.CTInfoDocumentoNF"
+dataEmissao"'
+q q( 
+
+%0java.time.LocalDateBEC
+Acom.fincatto.documentofiscal.cte200.classes.cte.CTInfoDocumentoNFH

@@ -1,0 +1,6 @@
+com.fincatto.documentofiscal.mdfe3.webservices.WSRecepcaoLote#getCabecalhoSOAP()Lcom/fincatto/documentofiscal/mdfe3/webservices/recepcao/MDFeRecepcaoStub$MdfeCabecMsgE;
+com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsg#<init>()V
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;
+com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsgE#instance-init#
+com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsg#instance-init#
+com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsgE#<init>()V

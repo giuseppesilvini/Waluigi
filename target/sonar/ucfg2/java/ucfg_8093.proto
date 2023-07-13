@@ -1,0 +1,275 @@
+
+√com.fincatto.documentofiscal.nfe400.webservices.WSConsultaCadastro#efetuaConsulta(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Lorg/apache/axiom/om/OMElement;)Lorg/apache/axiom/om/OMElement;ï
+ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSConsultaCadastro.java& &($"5* )
+2-K -(|Ì
+-O -(zs
+%10lcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro"lcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro†
+ù
+-K -(|
+%11"vcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro#<init>()V*ë
+
+__unknown_file (u
+s
+%10lcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro™
+ß
+- -(}Ä
+consultaCadastrolcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro"__id*ë
+
+__unknown_file (u
+s
+%10lcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastroÌ
+.G .(rs
+%12lcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeDadosMsgType0"lcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeDadosMsgType0†
+ù
+.C .(t
+%13"vcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeDadosMsgType0#<init>()V*ë
+
+__unknown_file (u
+s
+%12lcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeDadosMsgType0°
+û
+. .(ux
+dadosMsglcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeDadosMsgType0"__id*ë
+
+__unknown_file (u
+s
+%12lcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeDadosMsgType0ÿ’
+/ /(7
+%14void"ûcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeDadosMsgType0#setExtraElement(Lorg/apache/axiom/om/OMElement;)V*ñ
+
+__unknown_file (z
+x
+dadosMsglcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeDadosMsgType0*P
+
+__unknown_file (4
+2
+omElementConsultaorg.apache.axiom.om.OMElement20setExtraElement(Lorg/apache/axiom/om/OMElement;)≈¬
+0 0(5
+%15void"Ïcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro#setNfeDadosMsg(Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub$NfeDadosMsgType0;)V*†
+
+__unknown_file (É
+Ä
+consultaCadastrolcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro*ñ
+
+__unknown_file (z
+x
+dadosMsglcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeDadosMsgType02~setNfeDadosMsg(Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub$NfeDadosMsgType0;)ŒÀ
+1 1(1b
+%16[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub"[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stubœ
+Ã
+1 1(>
+%17"wcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub#<init>(Ljava/lang/String;)V*Ä
+
+__unknown_file (d
+b
+%16[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub*=
+
+__unknown_file (!
+
+urlConsultajava.lang.StringÌ
+1 1(ao
+%18hcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeResultMsg"∆com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub#consultaCadastro(Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub$ConsultaCadastro;)Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub$NfeResultMsg;*Ä
+
+__unknown_file (d
+b
+%16[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub*†
+
+__unknown_file (É
+Ä
+consultaCadastrolcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro2ÄconsultaCadastro(Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub$ConsultaCadastro;)∫∑
+1 1(}~
+%19wcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastroResultType0"˝com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeResultMsg#getConsultaCadastroResult()Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub$ConsultaCadastroResultType0;*ç
+
+__unknown_file (q
+o
+%18hcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$NfeResultMsg2getConsultaCadastroResult()íè
+	1 1(è$
+%20org.apache.axiom.om.OMElement"®com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastroResultType0#getExtraElement()Lorg/apache/axiom/om/OMElement;*ù
+
+__unknown_file (Ä
+~
+%19wcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastroResultType02getExtraElement()"3
+	1 1(ê&
+$
+%20org.apache.axiom.om.OMElement*ò
+3, ,(n
+l
+, ,("6
+%80com.fincatto.documentofiscal.DFUnidadeFederativa"__id*"
+
+__unknown_file (
+""êç
+, ,(-
+%9boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*T
+
+__unknown_file (8
+6
+%80com.fincatto.documentofiscal.DFUnidadeFederativa*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa2equals(Ljava/lang/Object;)*
+2
+1*…
+4*, *(2ﬁ€
+*l *(}
+%4java.lang.String"Qcom.fincatto.documentofiscal.DFUnidadeFederativa#getDescricao()Ljava/lang/String;*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa2getDescricao()Ø
+¨
+*, *(~
+%5java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*N
+
+__unknown_file (20
+.UF %s nao possui autorizador para este servico*4
+
+__unknown_file (
+
+%4java.lang.StringTR
+* *(+%
+%6java.lang.IllegalStateException"java.lang.IllegalStateExceptionÀ
+»
+* *(
+%7";java.lang.IllegalStateException#<init>(Ljava/lang/String;)V*C
+
+__unknown_file ('
+%
+%6java.lang.IllegalStateException*4
+
+__unknown_file (
+
+%5java.lang.String*
+0*Ú
+5'- '(=∆
+√
+'- '(QB
+%0<com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400"æcom.fincatto.documentofiscal.nfe400.classes.NFAutorizador400#valueOfCodigoUF(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe400/classes/NFAutorizador400;*\
+
+__unknown_file (@">
+<com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa¬
+ø
+' '(RK
+autorizador<com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400"__id*`
+
+__unknown_file (D
+B
+%0<com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400µ
+≤
+(C ((N0
+%1*com.fincatto.documentofiscal.nfe.NFeConfig"__id*n
+
+__unknown_file (R*PD
+Bcom.fincatto.documentofiscal.nfe400.webservices.WSConsultaCadastro"
+config˘ˆ
+(C ((\-
+%2'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*N
+
+__unknown_file (2
+0
+%1*com.fincatto.documentofiscal.nfe.NFeConfig2getAmbiente()≠™
+(# ((]
+%3java.lang.String"çcom.fincatto.documentofiscal.nfe400.classes.NFAutorizador400#getConsultaCadastro(Lcom/fincatto/documentofiscal/DFAmbiente;)Ljava/lang/String;*i
+
+__unknown_file (M
+K
+autorizador<com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400*K
+
+__unknown_file (/
+-
+%2'com.fincatto.documentofiscal.DFAmbiente2>getConsultaCadastro(Lcom/fincatto/documentofiscal/DFAmbiente;)i
+g
+( ((^
+urlConsultajava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.String*
+3
+4*&
+0 "
+7 7(
+implicit return*¿
+132 3(C‚ﬂ
+36 3(Al
+%21ecom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeDadosMsg"ecom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeDadosMsgí
+è
+32 3(C
+%22"ocom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeDadosMsg#<init>()V*ä
+
+__unknown_file (n
+l
+%21ecom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeDadosMsgú
+ô
+3 3(Dz
+nfeDadosMsg_type0ecom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeDadosMsg"__id*ä
+
+__unknown_file (n
+l
+%21ecom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeDadosMsg”–
+4 4(@
+%23void"ócom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeDadosMsg#setExtraElement(Lorg/apache/axiom/om/OMElement;)V*ò
+
+__unknown_file (|
+z
+nfeDadosMsg_type0ecom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeDadosMsg*P
+
+__unknown_file (4
+2
+omElementConsultaorg.apache.axiom.om.OMElement20setExtraElement(Lorg/apache/axiom/om/OMElement;)∂
+≥
+5= 5(C1
+%24*com.fincatto.documentofiscal.nfe.NFeConfig"__id*n
+
+__unknown_file (R*PD
+Bcom.fincatto.documentofiscal.nfe400.webservices.WSConsultaCadastro"
+config «
+5 5(/`
+%25Ycom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub"Ycom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub√
+¿
+5 5(D
+%26"úcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V*~
+
+__unknown_file (b
+`
+%25Ycom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub*=
+
+__unknown_file (!
+
+urlConsultajava.lang.String*O
+
+__unknown_file (3
+1
+%24*com.fincatto.documentofiscal.nfe.NFeConfig–Õ
+5 5(hm
+%27fcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsg"ªcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub#consultaCadastro(Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/CadConsultaCadastro4Stub$NfeDadosMsg;)Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/CadConsultaCadastro4Stub$NfeResultMsg;*~
+
+__unknown_file (b
+`
+%25Ycom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub*ò
+
+__unknown_file (|
+z
+nfeDadosMsg_type0ecom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeDadosMsg2yconsultaCadastro(Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/CadConsultaCadastro4Stub$NfeDadosMsg;)ÓÎ
+5 5(z$
+%28org.apache.axiom.om.OMElement"ócom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsg#getExtraElement()Lorg/apache/axiom/om/OMElement;*ã
+
+__unknown_file (o
+m
+%27fcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsg2getExtraElement()"2
+5 5({&
+$
+%28org.apache.axiom.om.OMElement:B
+&% &(B6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa:>
+&C &(d2
+omElementConsultaorg.apache.axiom.om.OMElementBFD
+Bcom.fincatto.documentofiscal.nfe400.webservices.WSConsultaCadastro

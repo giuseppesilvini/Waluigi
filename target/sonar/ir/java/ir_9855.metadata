@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoEmissao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoEmissao;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoEmissao#getCodigo()Ljava/lang/String;

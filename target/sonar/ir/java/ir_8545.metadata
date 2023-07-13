@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFIndicadorContribuinteCTTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/cadastro/NFIndicadorContribuinteCTe;)Ljava/lang/String;
+java.lang.String#valueOf(I)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.cadastro.NFIndicadorContribuinteCTe#getCodigo()I

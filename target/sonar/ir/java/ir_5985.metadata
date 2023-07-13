@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFModalidadeFreteTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFModalidadeFrete;
+com.fincatto.documentofiscal.nfe400.classes.NFModalidadeFrete#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFModalidadeFrete;

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.nota.CTeNotaInfoInformacoesRelativasImpostosICMSPartilha#setAliquotaInterestadual(Ljava/math/BigDecimal;)V
+com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#tamanho5Com2CasasDecimais(Ljava/math/BigDecimal;Ljava/lang/String;)Ljava/lang/String;

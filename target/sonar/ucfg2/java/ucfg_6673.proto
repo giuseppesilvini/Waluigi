@@ -1,0 +1,46 @@
+
+³com.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoEspecieVeiculoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoEspecieVeiculo;§
+œ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFNotaInfoEspecieVeiculoTransformer.java	$ 	(("startingBlock*¦
+startingBlock	( 	(K›
+˜
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*F
+
+__unknown_file (*
+(
+codigoEspecieVeiculojava.lang.Stringh
+f
+	6 	(J(
+codigoEspecieVeiculojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1* 
+1
+ 
+('¶
+³
+
+ 
+(KJ
+%0Dcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculo"¬com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculo#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoEspecieVeiculo;*d
+
+__unknown_file (H"F
+Dcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculo*F
+
+__unknown_file (*
+(
+codigoEspecieVeiculojava.lang.String"X
+
+ 
+(LL
+J
+%0Dcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculo:4
+	) 	(J(
+codigoEspecieVeiculojava.lang.StringBXV
+Tcom.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoEspecieVeiculoTransformerH

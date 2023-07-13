@@ -1,0 +1,83 @@
+
+vcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub#optimizeContent(Ljavax/xml/namespace/QName;)Zù
+ê/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/recepcao/MDFeRecepcaoStub.javaî î(#"7*¨
+2
+ò ò(&d
+b
+
+ò ò(&*
+anOpNameArrayjavax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""¨
+©
+
+ò ò(&*
+anOpNameArrayjavax.xml.namespace.QName"
+__arrayGet*?
+
+__unknown_file (#
+!
+%1javax.xml.namespace.QName[]*"
+
+__unknown_file (
+""*
+4
+1*%
+3
+ö ö("
+
+ö ö(
+""*ò
+4
+ô ô(˛˚
+
+ô ô(,
+%2boolean"5javax.xml.namespace.QName#equals(Ljava/lang/Object;)Z*A
+
+__unknown_file (%
+#
+opNamejavax.xml.namespace.QName*H
+
+__unknown_file (,
+*
+anOpNameArrayjavax.xml.namespace.QName2equals(Ljava/lang/Object;)*
+2
+3* 
+5
+ò) ò(-≥
+∞
+
+ò) ò(9!
+%1javax.xml.namespace.QName[]"__id*y
+
+__unknown_file (]*[J
+Hcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub"
+opNameArray*
+2*%
+6
+ñ ñ("
+
+ñ ñ(
+""*Õ
+7
+ï ï(≥
+∞
+
+ï ï(!
+%0javax.xml.namespace.QName[]"__id*y
+
+__unknown_file (]*[J
+Hcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub"
+opNameArray*
+5
+6*%
+1
+ù ù("
+
+ù ù(
+"":1
+
+î$ î(J#
+opNamejavax.xml.namespace.QNameBLJ
+Hcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStubP

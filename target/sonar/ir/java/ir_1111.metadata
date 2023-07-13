@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFEventoInutilizacaoDados#setCnpj(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#cnpj(Ljava/lang/String;)V

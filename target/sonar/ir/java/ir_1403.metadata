@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSLoteEnvio#enviaLoteAssinado(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe310/classes/lote/envio/NFLoteEnvioRetorno;
+com.fincatto.documentofiscal.nfe310.webservices.WSLoteEnvio#comunicaLote(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe310/classes/lote/envio/NFLoteEnvioRetorno;

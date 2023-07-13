@@ -1,0 +1,46 @@
+
+¿com.fincatto.documentofiscal.nfe310.transformers.NFIndicadorPresencaCompradorTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFIndicadorPresencaComprador;´
+†/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFIndicadorPresencaCompradorTransformer.java	( 	(,"startingBlock*ä
+startingBlock	, 	(Aç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	: 	(@
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ø
+1
+ 
+(+Ã
+…
+
+ 
+(AS
+%0Mcom.fincatto.documentofiscal.nfe310.classes.nota.NFIndicadorPresencaComprador"æcom.fincatto.documentofiscal.nfe310.classes.nota.NFIndicadorPresencaComprador#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFIndicadorPresencaComprador;*m
+
+__unknown_file (Q"O
+Mcom.fincatto.documentofiscal.nfe310.classes.nota.NFIndicadorPresencaComprador*8
+
+__unknown_file (
+
+codigojava.lang.String"a
+
+ 
+(BU
+S
+%0Mcom.fincatto.documentofiscal.nfe310.classes.nota.NFIndicadorPresencaComprador:&
+	- 	(@
+codigojava.lang.StringB\Z
+Xcom.fincatto.documentofiscal.nfe310.transformers.NFIndicadorPresencaCompradorTransformerH

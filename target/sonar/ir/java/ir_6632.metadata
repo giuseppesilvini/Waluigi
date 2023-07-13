@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaNaoEncerrados#consultaNaoEncerrados(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultanaoencerrados/MDFeConsultaNaoEncerradosRetorno;
+org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaNaoEncerrados#efetuaConsultaStatus(Lorg/apache/axiom/om/OMElement;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaNaoEncerrados#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultanaoencerrados/MDFeConsultaNaoEncerrados;

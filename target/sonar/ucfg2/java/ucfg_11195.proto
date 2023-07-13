@@ -1,0 +1,60 @@
+
+Êcom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamento#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/lote/envio/NFLoteIndicadorProcessamento;¦
+›/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/lote/envio/NFLoteIndicadorProcessamento.java/ (<"5*è
+2 (F¦
+£
+ (Fm
+indicadorProcessamentoScom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamento"__id*"
+
+__unknown_file (
+""§
+¤
+ (Fm
+indicadorProcessamentoScom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamento"
+__arrayGet*y
+
+__unknown_file (]
+[
+%0Ucom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamento[]*"
+
+__unknown_file (
+""*
+4
+1*Š
+3 (-"{
+ (.o
+m
+indicadorProcessamentoScom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamento*¤
+4 (&³°
+ (2
+%1java.lang.String"qcom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamento#getCodigo()Ljava/lang/String;*‹
+
+__unknown_file (o
+m
+indicadorProcessamentoScom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamento2getCodigo()ÖÓ
+ (A
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*©
+5I (e”
+‘
+I (n[
+%0Ucom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamento[]"²com.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamento#values()[Lcom/fincatto/documentofiscal/nfe310/classes/lote/envio/NFLoteIndicadorProcessamento;*s
+
+__unknown_file (W"U
+Scom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamento*
+2*!
+1 ("
+ (
+"":&
+= (P
+codigojava.lang.StringBW"U
+Scom.fincatto.documentofiscal.nfe310.classes.lote.envio.NFLoteIndicadorProcessamentoH

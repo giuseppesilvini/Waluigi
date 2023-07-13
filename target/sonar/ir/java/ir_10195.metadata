@@ -1,0 +1,14 @@
+com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaRecibo#efetuaConsultaRecibo(Lorg/apache/axiom/om/OMElement;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeDadosMsg#<init>()V
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeCabecMsgE#instance-init#
+java.lang.IllegalArgumentException#instance-init#
+com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeCabecMsgE#<init>()V
+com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeCabecMsg#<init>()V
+com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub#instance-init#
+com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeDadosMsg#instance-init#
+java.lang.Enum#name()Ljava/lang/String;
+com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub$MdfeCabecMsg#instance-init#
+com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3#valueOfCodigoUF(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/mdfe3/classes/MDFAutorizador3;

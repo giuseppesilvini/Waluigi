@@ -1,0 +1,40 @@
+
+ycom.fincatto.documentofiscal.transformers.DFPaisTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/DFPais;é
+É/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/transformers/DFPaisTransformer.java ("startingBlock*ä
+startingBlock (+ç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+$ (*
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ï
+1 (£
+†
+ (+)
+%0#com.fincatto.documentofiscal.DFPais"jcom.fincatto.documentofiscal.DFPais#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/DFPais;*C
+
+__unknown_file ('"%
+#com.fincatto.documentofiscal.DFPais*8
+
+__unknown_file (
+
+codigojava.lang.String"7
+ (,+
+)
+%0#com.fincatto.documentofiscal.DFPais:&
+ (*
+codigojava.lang.StringB?=
+;com.fincatto.documentofiscal.transformers.DFPaisTransformerH

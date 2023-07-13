@@ -1,0 +1,62 @@
+
+®com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader;£
+ñ/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/nota/consulta/NfeConsulta2Stub.javaù0 ù(="startingBlock*†
+startingBlock
+ù= ù(dó
+î
+
+ú ú(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*@
+
+__unknown_file ($
+"
+qNamejavax.xml.namespace.QNamed
+b
+
+ù^ ù(c"
+qNamejavax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%3*
+1*ˇ
+1
+ü ü(ã
+à
+
+ü ü((`
+%0Zcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsg"__id*ë
+
+__unknown_file (u*s]
+[com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE"
+localNfeCabecMsgY
+W
+
+ü7 ü(L
+%1javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""Ã…
+
+ü ü(M&
+%2 javax.xml.stream.XMLStreamReader"ßcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsg#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader;*~
+
+__unknown_file (b
+`
+%0Zcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsg*=
+
+__unknown_file (!
+
+%1javax.xml.namespace.QName2*getPullParser(Ljavax/xml/namespace/QName;)"6
+
+ü ü(N(
+&
+%2 javax.xml.stream.XMLStreamReader:0
+
+ù> ù(c"
+qNamejavax.xml.namespace.QNameB_]
+[com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgEH

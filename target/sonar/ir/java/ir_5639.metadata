@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.evento.cancelamento.NFEnviaEventoCancelamento#setEvento(Ljava/util/List;)V
+com.fincatto.documentofiscal.validadores.DFListValidador#tamanho20(Ljava/util/List;Ljava/lang/String;)V

@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser#isEmitidaContingenciaSCAN()Z
+java.lang.String#matches(Ljava/lang/String;)Z
+==
+getSerie com.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser#getSerie()Ljava/lang/String;

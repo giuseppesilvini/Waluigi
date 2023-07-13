@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemImpostoIPI#setClasseEnquadramento(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#exatamente5(Ljava/lang/String;Ljava/lang/String;)V

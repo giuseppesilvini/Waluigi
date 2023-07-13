@@ -1,0 +1,101 @@
+
+Écom.fincatto.documentofiscal.mdfe3.webservices.WSConsultaNaoEncerrados#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultanaoencerrados/MDFeConsultaNaoEncerrados;™
+Ž/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSConsultaNaoEncerrados.java%& %(8"1*ä
+1&5 &(TËÈ
+&9 &(R`
+%0Zcom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados"Zcom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerradosù
+ö
+&5 &(T
+%1"dcom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados#<init>()V*~
+
+__unknown_file (b
+`
+%0Zcom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerradosý
+ú
+& &(Uh
+
+encerradosZcom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados"__id*~
+
+__unknown_file (b
+`
+%0Zcom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados¼
+¹
+' '(*3
+%2-com.fincatto.documentofiscal.mdfe3.MDFeConfig"__id*r
+
+__unknown_file (V*TH
+Fcom.fincatto.documentofiscal.mdfe3.webservices.WSConsultaNaoEncerrados"
+configüù
+' '(8-
+%3'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*Q
+
+__unknown_file (5
+3
+%2-com.fincatto.documentofiscal.mdfe3.MDFeConfig2getAmbiente()¼¹
+' '(9
+
+%4void"’com.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados#setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)V*†
+
+__unknown_file (j
+h
+
+encerradosZcom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados*K
+
+__unknown_file (/
+-
+%3'com.fincatto.documentofiscal.DFAmbiente26setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)P
+N
+( ((.
+%5java.lang.String"__id*$
+
+__unknown_file (
+3.00òï
+( ((/
+
+%6void"ycom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados#setVersao(Ljava/lang/String;)V*†
+
+__unknown_file (j
+h
+
+encerradosZcom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados*4
+
+__unknown_file (
+
+%5java.lang.String2setVersao(Ljava/lang/String;)ðí
+) )( 
+
+%7void"wcom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados#setCnpj(Ljava/lang/String;)V*†
+
+__unknown_file (j
+h
+
+encerradosZcom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados*6
+
+__unknown_file (
+
+cnpjjava.lang.String2setCnpj(Ljava/lang/String;)e
+c
+* *(B
+%8java.lang.String"__id*9
+
+__unknown_file (
+CONSULTAR NÃƒO ENCERRADOSôñ
+* *(C
+
+%9void"zcom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados#setServico(Ljava/lang/String;)V*†
+
+__unknown_file (j
+h
+
+encerradosZcom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados*4
+
+__unknown_file (
+
+%8java.lang.String2setServico(Ljava/lang/String;)"v
++ +(j
+h
+
+encerradosZcom.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados:$
+%9 %(J
+cnpjjava.lang.StringBJH
+Fcom.fincatto.documentofiscal.mdfe3.webservices.WSConsultaNaoEncerrados

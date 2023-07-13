@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.validadores.DFStringValidador#exatamente8N(Ljava/lang/String;Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#apenasNumerico(Ljava/lang/String;Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#validaTamanhoExato(Ljava/lang/String;ILjava/lang/String;)V

@@ -1,0 +1,40 @@
+
+«com.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub#toOM(Lcom/fincatto/documentofiscal/mdfe3/webservices/consulta/MDFeConsultaStub$MdfeCabecMsgE;Z)Lorg/apache/axiom/om/OMElement;ù
+ê/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/consulta/MDFeConsultaStub.java„* „(."1*∫
+1
+Â Â(Z
+X
+Â" Â(Å
+%0javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""“
+œ
+ÂÉ Â(∑#
+%1org.apache.axiom.om.OMFactory"Sorg.apache.axiom.om.OMAbstractFactory#getOMFactory()Lorg/apache/axiom/om/OMFactory;*E
+
+__unknown_file ()"'
+%org.apache.axiom.om.OMAbstractFactory¡æ
+Â Â(∏#
+%2org.apache.axiom.om.OMElement"æcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeCabecMsgE#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;*}
+
+__unknown_file (a
+_
+paramVcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeCabecMsgE*=
+
+__unknown_file (!
+
+%0javax.xml.namespace.QName*A
+
+__unknown_file (%
+#
+%1org.apache.axiom.om.OMFactory2HgetOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)"4
+Â Â(π%
+#
+%2org.apache.axiom.om.OMElement:n
+„/ „(í_
+paramVcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub$MdfeCabecMsgE: 
+
+__unknown_file (
+""BLJ
+Hcom.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaStub

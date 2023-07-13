@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+==
+NFeDistribuicaoDFeSoapStub com.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoSituacaoTributariaCOFINSTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoSituacaoTributariaCOFINS;
+com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaCOFINS#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoSituacaoTributariaCOFINS;

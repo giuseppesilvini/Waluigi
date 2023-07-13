@@ -1,0 +1,51 @@
+
+–com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub$NfeCabecMsgE#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;∞
+£/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/statusservico/consulta/NfeStatusServicoStub.java«- «(9"1*¡
+1
+» »(Y
+W
+
+»` »(h
+%0javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""lj
+
+»/ »(Y0
+%1*org.apache.axis2.databinding.ADBDataSource"*org.apache.axis2.databinding.ADBDataSource¶
+£
+
+»+ »(i
+%2"uorg.apache.axis2.databinding.ADBDataSource#<init>(Lorg/apache/axis2/databinding/ADBBean;Ljavax/xml/namespace/QName;)V*N
+
+__unknown_file (2
+0
+%1*org.apache.axis2.databinding.ADBDataSource*à
+
+__unknown_file (lj
+hcom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub$NfeCabecMsgE*=
+
+__unknown_file (!
+
+%0javax.xml.namespace.QNameÅ˛
+
+» »(j*
+%3$org.apache.axiom.om.OMSourcedElement"worg.apache.axiom.om.OMFactory#createOMElement(Lorg/apache/axiom/om/OMDataSource;)Lorg/apache/axiom/om/OMSourcedElement;*F
+
+__unknown_file (*
+(
+factoryorg.apache.axiom.om.OMFactory*N
+
+__unknown_file (2
+0
+%1*org.apache.axis2.databinding.ADBDataSource23createOMElement(Lorg/apache/axiom/om/OMDataSource;)":
+
+» »(k,
+*
+%3$org.apache.axiom.om.OMSourcedElement:6
+
+«: «(f(
+parentQNamejavax.xml.namespace.QName:7
+«g «(í(
+factoryorg.apache.axiom.om.OMFactoryBlj
+hcom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub$NfeCabecMsgEH

@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaRecibo#consultaRecibo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultaRecibo/MDFeConsultaReciboRetorno;
+org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaRecibo#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultaRecibo/MDFeConsultaRecibo;
+com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaRecibo#efetuaConsultaRecibo(Lorg/apache/axiom/om/OMElement;)Lorg/apache/axiom/om/OMElement;

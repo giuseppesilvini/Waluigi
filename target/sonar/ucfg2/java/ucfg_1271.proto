@@ -1,0 +1,66 @@
+
+Âcom.fincatto.documentofiscal.mdfe3.webservices.WSIncluirCondutor#incluirCondutorAssinado(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;“
+ˆ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSIncluirCondutor.java   ('"1*°
+1!* !(.¶
+³
+!* !(d#
+%0org.apache.axiom.om.OMElement"›com.fincatto.documentofiscal.mdfe3.webservices.WSIncluirCondutor#efetuaIncluirCondutor(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*`
+
+__unknown_file (DB
+@com.fincatto.documentofiscal.mdfe3.webservices.WSIncluirCondutor*C
+
+__unknown_file ('
+%
+eventoAssinadoXmljava.lang.String*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.Stringˆ
+…
+! !(e0
+omElementResultorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%0org.apache.axiom.om.OMElement¶
+³
+" "(3
+%1-com.fincatto.documentofiscal.mdfe3.MDFeConfig"__id*l
+
+__unknown_file (P*NB
+@com.fincatto.documentofiscal.mdfe3.webservices.WSIncluirCondutor"
+configüù
+" "(),
+%2&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*Q
+
+__unknown_file (5
+3
+%1-com.fincatto.documentofiscal.mdfe3.MDFeConfig2getPersister()½º
+"B "(\
+%3java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+omElementResultorg.apache.axiom.om.OMElement2
+toString()Œ‰
+" "(]H
+%4Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*J
+
+__unknown_file (.
+,
+%2&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%3java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)"V
+" "(^J
+H
+%4Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno:+
+ (  (A
+chaveAcessojava.lang.String:1
+ B  (`%
+eventoAssinadoXmljava.lang.StringBDB
+@com.fincatto.documentofiscal.mdfe3.webservices.WSIncluirCondutor

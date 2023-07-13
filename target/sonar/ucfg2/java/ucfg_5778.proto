@@ -1,0 +1,36 @@
+
+¶com.fincatto.documentofiscal.mdfe3.transformers.MDFTipoResponsavelSeguroTransformer#write(Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoResponsavelSeguro;)Ljava/lang/String;¦
+›/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/transformers/MDFTipoResponsavelSeguroTransformer.java ("startingBlock*ø
+startingBlock (7Ã
+À
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*n
+
+__unknown_file (R
+P
+valueGcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro‘
+Ž
+1 (6P
+valueGcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro"__annotation*"
+
+__unknown_file (
+
+%1*
+1*¿
+1 (‰†
+ ( 
+%0java.lang.String"ecom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro#getCodigo()Ljava/lang/String;*n
+
+__unknown_file (R
+P
+valueGcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro2getCodigo()"$
+ (!
+
+%0java.lang.String:\
+ (6P
+valueGcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguroBWU
+Scom.fincatto.documentofiscal.mdfe3.transformers.MDFTipoResponsavelSeguroTransformerH

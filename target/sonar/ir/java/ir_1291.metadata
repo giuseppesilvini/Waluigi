@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTProcessoEmissaoTransformer#write(Lcom/fincatto/documentofiscal/cte300/classes/CTProcessoEmissao;)Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.classes.CTProcessoEmissao#getCodigo()Ljava/lang/String;

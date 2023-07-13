@@ -1,0 +1,32 @@
+
+€com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub#getUniqueSuffix()Ljava/lang/String;¯
+¤/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/statusservico/consulta/NfeStatusServico2Stub.java1 (@"1*í
+1 (q
+o
+ ()
+
+%0long"%java.lang.System#currentTimeMillis()J*0
+
+__unknown_file ("
+java.lang.System[
+Y
+ (/
+%1java.lang.String"__concat*
+ ()
+
+
+%0long*
+, (/
+_h
+f
+ (O
+%2java.lang.String"__concat*$
+ (/
+
+%1java.lang.String*
+2 (O
+"""$
+ (P
+
+%2java.lang.StringB`"^
+\com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub

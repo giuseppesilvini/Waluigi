@@ -1,0 +1,60 @@
+
+¾com.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoDocumentoTransporteAnterior; 
+•/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/classes/CTTipoDocumentoTransporteAnterior.java4 (A"5*²
+2 (9Ž
+‹
+ (9U
+tipoMcom.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior"__id*"
+
+__unknown_file (
+""‰
+†
+ (9U
+tipoMcom.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior"
+__arrayGet*s
+
+__unknown_file (W
+U
+%0Ocom.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior[]*"
+
+__unknown_file (
+""*
+4
+1*r
+3   ("c
+   (W
+U
+tipoMcom.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior*…
+4 (”‘
+ ( 
+%1java.lang.String"kcom.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior#getCodigo()Ljava/lang/String;*s
+
+__unknown_file (W
+U
+tipoMcom.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior2getCodigo()ÖÓ
+ (/
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*‘
+5< (]ü
+ù
+< (fU
+%0Ocom.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior[]"¦com.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior#values()[Lcom/fincatto/documentofiscal/cte300/classes/CTTipoDocumentoTransporteAnterior;*m
+
+__unknown_file (Q"O
+Mcom.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior*
+2*!
+1# #("
+# #(
+"":&
+B (U
+codigojava.lang.StringBQ"O
+Mcom.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnteriorH

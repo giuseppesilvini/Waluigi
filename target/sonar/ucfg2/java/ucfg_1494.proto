@@ -1,0 +1,74 @@
+
+ècom.fincatto.documentofiscal.nfe310.classes.NFAutorizador31$3#getNfeRetAutorizacao(Lcom/fincatto/documentofiscal/DFAmbiente;)Ljava/lang/String;ê
+É/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFAutorizador31.java   (*"startingBlock*|
+2Àì À(Âd
+b
+Àì À(Â
+%2java.lang.String"__id*4
+
+__unknown_file (
+
+%4java.lang.String*
+1*z
+3À= À(êc
+a
+À= À(ê
+%2java.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.String*
+1*¬
+startingBlock
+ *  (E®
+•
+
+… …(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Q
+
+__unknown_file (5
+3
+ambiente'com.fincatto.documentofiscal.DFAmbienteu
+s
+
+ <  (D3
+ambiente'com.fincatto.documentofiscal.DFAmbiente"__annotation*"
+
+__unknown_file (
+
+%5*
+4*â
+4
+À À(g
+e
+
+À À()-
+%0'com.fincatto.documentofiscal.DFAmbiente"__id*"
+
+__unknown_file (
+""ÜÉ
+
+À À(:
+%1boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*K
+
+__unknown_file (/
+-
+%0'com.fincatto.documentofiscal.DFAmbiente*Q
+
+__unknown_file (5
+3
+ambiente'com.fincatto.documentofiscal.DFAmbiente2equals(Ljava/lang/Object;)*
+2
+3*9
+1À À(Ê"'
+À À(Ê
+
+%2java.lang.String:A
+
+ +  (D3
+ambiente'com.fincatto.documentofiscal.DFAmbienteBA?
+=com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31$3H

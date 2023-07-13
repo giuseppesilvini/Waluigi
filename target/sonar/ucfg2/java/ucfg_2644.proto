@@ -1,0 +1,34 @@
+
+˜com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#tamanho15comAte4CasasDecimais(Ljava/math/BigDecimal;Ljava/lang/String;)Ljava/lang/String;‘
+†/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/validadores/DFBigDecimalValidador.java' '(6"1*³
+1( (($ý
+ú
+( ((H
+%0java.lang.String"”com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#parse(Ljava/math/BigDecimal;Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;*^
+
+__unknown_file (B"@
+>com.fincatto.documentofiscal.validadores.DFBigDecimalValidador*;
+
+__unknown_file (
+
+valorjava.math.BigDecimal*&
+
+__unknown_file (
+
+0.####* 
+
+__unknown_file (2* 
+
+__unknown_file (2*6
+
+__unknown_file (
+
+infojava.lang.String"$
+( ((I
+
+%0java.lang.String:)
+'7 '(N
+valorjava.math.BigDecimal:$
+'O '(`
+infojava.lang.StringBB"@
+>com.fincatto.documentofiscal.validadores.DFBigDecimalValidadorH

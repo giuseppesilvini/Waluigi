@@ -1,0 +1,836 @@
+
+}com.fincatto.documentofiscal.utils.DFAssinaturaDigital#assinarDocumento(Ljava/io/Reader;Ljava/io/Writer;[Ljava/lang/String;)Và
+~/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/utils/DFAssinaturaDigital.javaS S( "8*§
+2n n(+]
+[
+n n(+%
+elementoAssinaveljava.lang.String"__id*"
+
+__unknown_file (
+""≠
+™
+n n(+%
+elementoAssinaveljava.lang.String"
+__arrayGet*G
+
+__unknown_file (+
+)
+elementosAssinaveisjava.lang.String[]*"
+
+__unknown_file (
+""*
+6
+1*€4
+4q2 q(:√¿
+q2 q(B
+%46org.w3c.dom.Node".org.w3c.dom.NodeList#item(I)Lorg/w3c/dom/Node;*>
+
+__unknown_file ("
+ 
+elementsorg.w3c.dom.NodeList*"
+
+__unknown_file (
+""2item(I)i
+g
+q q(C
+elementorg.w3c.dom.Element"__id*5
+
+__unknown_file (
+
+%46org.w3c.dom.NodeÚÔ
+r" r(<
+%47java.lang.String"Forg.w3c.dom.Element#getAttribute(Ljava/lang/String;)Ljava/lang/String;*<
+
+__unknown_file ( 
+
+elementorg.w3c.dom.Element*"
+
+__unknown_file (
+Id2 getAttribute(Ljava/lang/String;)a
+_
+r r(=
+idjava.lang.String"__id*5
+
+__unknown_file (
+
+%47java.lang.String˝˙
+s s(2
+%48void"8org.w3c.dom.Element#setIdAttribute(Ljava/lang/String;Z)V*<
+
+__unknown_file ( 
+
+elementorg.w3c.dom.Element*"
+
+__unknown_file (
+Id* 
+
+__unknown_file (22#setIdAttribute(Ljava/lang/String;Z)h
+f
+uJ u(R
+%49java.lang.String"__concat*
+uJ u(M
+#*$
+uP u(R
+
+idjava.lang.Stringt
+r
+	uu u(Ü
+%50java.lang.String"__id*F
+
+__unknown_file (*(
+&http://www.w3.org/2000/09/xmldsig#sha1ˆÛ
+	uT u(ç)
+%51"javax.xml.crypto.dsig.DigestMethod"ßjavax.xml.crypto.dsig.XMLSignatureFactory#newDigestMethod(Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/DigestMethodParameterSpec;)Ljavax/xml/crypto/dsig/DigestMethod;*[
+
+__unknown_file (?
+=
+signatureFactory)javax.xml.crypto.dsig.XMLSignatureFactory*5
+
+__unknown_file (
+
+%50java.lang.String*"
+
+__unknown_file (
+""2YnewDigestMethod(Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/DigestMethodParameterSpec;)◊‘
+	u, u(¶&
+%52javax.xml.crypto.dsig.Reference"√javax.xml.crypto.dsig.XMLSignatureFactory#newReference(Ljava/lang/String;Ljavax/xml/crypto/dsig/DigestMethod;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)Ljavax/xml/crypto/dsig/Reference;*[
+
+__unknown_file (?
+=
+signatureFactory)javax.xml.crypto.dsig.XMLSignatureFactory*5
+
+__unknown_file (
+
+%49java.lang.String*G
+
+__unknown_file (+
+)
+%51"javax.xml.crypto.dsig.DigestMethod*:
+
+__unknown_file (
+
+
+transformsjava.util.List*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2xnewReference(Ljava/lang/String;Ljavax/xml/crypto/dsig/DigestMethod;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)à
+Ö
+	u u(ß,
+	referencejavax.xml.crypto.dsig.Reference"__id*D
+
+__unknown_file ((
+&
+%52javax.xml.crypto.dsig.Reference}
+{
+	vx v(ò
+%53java.lang.String"__id*O
+
+__unknown_file (31
+/http://www.w3.org/TR/2001/REC-xml-c14n-20010315öó
+	vM v(π3
+%54,javax.xml.crypto.dsig.CanonicalizationMethod"πjavax.xml.crypto.dsig.XMLSignatureFactory#newCanonicalizationMethod(Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/C14NMethodParameterSpec;)Ljavax/xml/crypto/dsig/CanonicalizationMethod;*[
+
+__unknown_file (?
+=
+signatureFactory)javax.xml.crypto.dsig.XMLSignatureFactory*5
+
+__unknown_file (
+
+%53java.lang.String*"
+
+__unknown_file (
+""2anewCanonicalizationMethod(Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/C14NMethodParameterSpec;)y
+w
+
+vﬂ v(˜
+%55java.lang.String"__id*J
+
+__unknown_file (.,
+*http://www.w3.org/2000/09/xmldsig#rsa-sha1âÜ
+
+vª v(˛,
+%56%javax.xml.crypto.dsig.SignatureMethod"∞javax.xml.crypto.dsig.XMLSignatureFactory#newSignatureMethod(Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/SignatureMethodParameterSpec;)Ljavax/xml/crypto/dsig/SignatureMethod;*[
+
+__unknown_file (?
+=
+signatureFactory)javax.xml.crypto.dsig.XMLSignatureFactory*5
+
+__unknown_file (
+
+%55java.lang.String*"
+
+__unknown_file (
+""2_newSignatureMethod(Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/SignatureMethodParameterSpec;)Ú
+Ô
+
+vÄ v(§
+%57java.util.List"Gjava.util.Collections#singletonList(Ljava/lang/Object;)Ljava/util/List;*5
+
+__unknown_file ("
+java.util.Collections*J
+
+__unknown_file (.
+,
+	referencejavax.xml.crypto.dsig.Reference°û
+	v. v(•'
+%58 javax.xml.crypto.dsig.SignedInfo"¿javax.xml.crypto.dsig.XMLSignatureFactory#newSignedInfo(Ljavax/xml/crypto/dsig/CanonicalizationMethod;Ljavax/xml/crypto/dsig/SignatureMethod;Ljava/util/List;)Ljavax/xml/crypto/dsig/SignedInfo;*[
+
+__unknown_file (?
+=
+signatureFactory)javax.xml.crypto.dsig.XMLSignatureFactory*Q
+
+__unknown_file (5
+3
+%54,javax.xml.crypto.dsig.CanonicalizationMethod*J
+
+__unknown_file (.
+,
+%56%javax.xml.crypto.dsig.SignatureMethod*3
+
+__unknown_file (
+
+%57java.util.List2tnewSignedInfo(Ljavax/xml/crypto/dsig/CanonicalizationMethod;Ljavax/xml/crypto/dsig/SignatureMethod;Ljava/util/List;)ã
+à
+	v v(¶.
+
+signedInfo javax.xml.crypto.dsig.SignedInfo"__id*E
+
+__unknown_file ()
+'
+%58 javax.xml.crypto.dsig.SignedInfo∫∑
+w/ w(d)
+%59"javax.xml.crypto.dsig.XMLSignature"®javax.xml.crypto.dsig.XMLSignatureFactory#newXMLSignature(Ljavax/xml/crypto/dsig/SignedInfo;Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;)Ljavax/xml/crypto/dsig/XMLSignature;*[
+
+__unknown_file (?
+=
+signatureFactory)javax.xml.crypto.dsig.XMLSignatureFactory*L
+
+__unknown_file (0
+.
+
+signedInfo javax.xml.crypto.dsig.SignedInfo*N
+
+__unknown_file (2
+0
+keyInfo%javax.xml.crypto.dsig.keyinfo.KeyInfo2ZnewXMLSignature(Ljavax/xml/crypto/dsig/SignedInfo;Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;)ç
+ä
+w w(e/
+	signature"javax.xml.crypto.dsig.XMLSignature"__id*G
+
+__unknown_file (+
+)
+%59"javax.xml.crypto.dsig.XMLSignature„‡
+x2 x(J
+%60java.security.PrivateKey"Pjava.security.KeyStore$PrivateKeyEntry#getPrivateKey()Ljava/security/PrivateKey;*P
+
+__unknown_file (4
+2
+keyEntry&java.security.KeyStore$PrivateKeyEntry2getPrivateKey()©¶
+xL x(c
+%61org.w3c.dom.Node"2org.w3c.dom.Node#getParentNode()Lorg/w3c/dom/Node;*<
+
+__unknown_file ( 
+
+elementorg.w3c.dom.Element2getParentNode()ge
+x# x(1/
+%62(javax.xml.crypto.dsig.dom.DOMSignContext"(javax.xml.crypto.dsig.dom.DOMSignContext≤
+Ø
+x x(d
+%63"Wjavax.xml.crypto.dsig.dom.DOMSignContext#<init>(Ljava/security/Key;Lorg/w3c/dom/Node;)V*M
+
+__unknown_file (1
+/
+%62(javax.xml.crypto.dsig.dom.DOMSignContext*=
+
+__unknown_file (!
+
+%60java.security.PrivateKey*5
+
+__unknown_file (
+
+%61org.w3c.dom.Node∏µ
+x x(e
+%64void"Pjavax.xml.crypto.dsig.XMLSignature#sign(Ljavax/xml/crypto/dsig/XMLSignContext;)V*M
+
+__unknown_file (1
+/
+	signature"javax.xml.crypto.dsig.XMLSignature*M
+
+__unknown_file (1
+/
+%62(javax.xml.crypto.dsig.dom.DOMSignContext2,sign(Ljavax/xml/crypto/dsig/XMLSignContext;)*
+5*°
+5p p(âÜ
+p  p(4
+
+%45int"!org.w3c.dom.NodeList#getLength()I*>
+
+__unknown_file ("
+ 
+elementsorg.w3c.dom.NodeList2getLength()*
+2
+4*¥
+6o& o(.Æ´
+o& o(V
+%44org.w3c.dom.NodeList"Sorg.w3c.dom.Document#getElementsByTagName(Ljava/lang/String;)Lorg/w3c/dom/NodeList;*>
+
+__unknown_file ("
+ 
+documentorg.w3c.dom.Document*C
+
+__unknown_file ('
+%
+elementoAssinaveljava.lang.String2(getElementsByTagName(Ljava/lang/String;)o
+m
+o o(W 
+elementsorg.w3c.dom.NodeList"__id*9
+
+__unknown_file (
+
+%44org.w3c.dom.NodeList*
+5*ÔT
+8T2 T(Dà
+Ö
+T2 T(F,
+%0&java.security.KeyStore$PrivateKeyEntry"scom.fincatto.documentofiscal.utils.DFAssinaturaDigital#getPrivateKeyEntry()Ljava/security/KeyStore$PrivateKeyEntry;*V
+
+__unknown_file (:8
+6com.fincatto.documentofiscal.utils.DFAssinaturaDigitalì
+ê
+T T(G2
+keyEntry&java.security.KeyStore$PrivateKeyEntry"__id*J
+
+__unknown_file (.
+,
+%0&java.security.KeyStore$PrivateKeyEntryÌ
+V- V(F$
+%1java.security.cert.Certificate"Wjava.security.KeyStore$PrivateKeyEntry#getCertificate()Ljava/security/cert/Certificate;*P
+
+__unknown_file (4
+2
+keyEntry&java.security.KeyStore$PrivateKeyEntry2getCertificate()Ä˝
+V V(a,
+%2&javax.security.auth.x500.X500Principal"djava.security.cert.X509Certificate#getSubjectX500Principal()Ljavax/security/auth/x500/X500Principal;*B
+
+__unknown_file (&
+$
+%1java.security.cert.Certificate2getSubjectX500Principal()¿Ω
+V V(k
+%3java.lang.String"Bjavax.security.auth.x500.X500Principal#getName()Ljava/lang/String;*J
+
+__unknown_file (.
+,
+%2&javax.security.auth.x500.X500Principal2	getName()`
+^
+V V(l
+dnjava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.StringÃ…
+W W(
+%4org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*V
+
+__unknown_file (:8
+6com.fincatto.documentofiscal.utils.DFAssinaturaDigital2getLogger()ôñ
+W W(,
+
+%5void"=org.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;)V*4
+
+__unknown_file (
+
+%4org.slf4j.Logger*&
+
+__unknown_file (
+
+DN: {}*4
+
+__unknown_file (
+
+dnjava.lang.String2+debug(Ljava/lang/String;Ljava/lang/Object;)JH
+Y Y(& 
+%6javax.naming.ldap.LdapName"javax.naming.ldap.LdapName¡
+æ
+Y Y(*
+%7"6javax.naming.ldap.LdapName#<init>(Ljava/lang/String;)V*>
+
+__unknown_file ("
+ 
+%6javax.naming.ldap.LdapName*4
+
+__unknown_file (
+
+dnjava.lang.String§°
+Y Y(4
+%8java.util.List"4javax.naming.ldap.LdapName#getRdns()Ljava/util/List;*>
+
+__unknown_file ("
+ 
+%6javax.naming.ldap.LdapName2	getRdns()¢ü
+Y Y(=
+%9java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*2
+
+__unknown_file (
+
+%8java.util.List2stream()Æ
+´
+Z Z(P#
+%10java.util.function.Predicate"__declareFunction*g
+
+__unknown_file (KI
+G__sonar_lambda_3$com.fincatto.documentofiscal.utils.DFAssinaturaDigitalÆ´
+Y Z(Q
+%13java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%9java.util.stream.Stream*A
+
+__unknown_file (%
+#
+%10java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)≠
+™
+[ [(:"
+%14java.util.function.Function"__declareFunction*g
+
+__unknown_file (KI
+G__sonar_lambda_4$com.fincatto.documentofiscal.utils.DFAssinaturaDigital¶£
+Y [(;
+%17java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*<
+
+__unknown_file ( 
+
+%13java.util.stream.Stream*@
+
+__unknown_file ($
+"
+%14java.util.function.Function2"map(Ljava/util/function/Function;)¨©
+Y \(
+%18java.util.Optional"7java.util.stream.Stream#findFirst()Ljava/util/Optional;*<
+
+__unknown_file ( 
+
+%17java.util.stream.Stream2findFirst()‹Ÿ
+Y ](
+%19java.lang.String"?java.util.Optional#orElse(Ljava/lang/Object;)Ljava/lang/Object;*7
+
+__unknown_file (
+
+%18java.util.Optional*
+
+__unknown_file ( 2orElse(Ljava/lang/Object;)a
+_
+Y ](
+cnjava.lang.String"__id*5
+
+__unknown_file (
+
+%19java.lang.StringÕ 
+^ ^(
+%20org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*V
+
+__unknown_file (:8
+6com.fincatto.documentofiscal.utils.DFAssinaturaDigital2getLogger()õò
+^ ^(,
+%21void"=org.slf4j.Logger#debug(Ljava/lang/String;Ljava/lang/Object;)V*5
+
+__unknown_file (
+
+%20org.slf4j.Logger*&
+
+__unknown_file (
+
+CN: {}*4
+
+__unknown_file (
+
+cnjava.lang.String2+debug(Ljava/lang/String;Ljava/lang/Object;)•
+¢
+a5 a([0
+%22)javax.xml.crypto.dsig.XMLSignatureFactory"tjavax.xml.crypto.dsig.XMLSignatureFactory#getInstance(Ljava/lang/String;)Ljavax/xml/crypto/dsig/XMLSignatureFactory;*I
+
+__unknown_file (-"+
+)javax.xml.crypto.dsig.XMLSignatureFactory*#
+
+__unknown_file (
+DOM¢
+ü
+a a(\=
+signatureFactory)javax.xml.crypto.dsig.XMLSignatureFactory"__id*N
+
+__unknown_file (2
+0
+%22)javax.xml.crypto.dsig.XMLSignatureFactory=;
+b/ b(:
+%23java.util.ArrayList"java.util.ArrayListê
+ç
+b+ b(=
+%24"java.util.ArrayList#<init>(I)V*8
+
+__unknown_file (
+
+%23java.util.ArrayList* 
+
+__unknown_file (2j
+h
+b b(>
+
+transformsjava.util.List"__id*8
+
+__unknown_file (
+
+%23java.util.ArrayListÉ
+Ä
+c5 c(H
+%25java.lang.String"__id*U
+
+__unknown_file (97
+5http://www.w3.org/2000/09/xmldsig#enveloped-signature„‡
+c c(h&
+%26javax.xml.crypto.dsig.Transform"ûjavax.xml.crypto.dsig.XMLSignatureFactory#newTransform(Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/TransformParameterSpec;)Ljavax/xml/crypto/dsig/Transform;*[
+
+__unknown_file (?
+=
+signatureFactory)javax.xml.crypto.dsig.XMLSignatureFactory*5
+
+__unknown_file (
+
+%25java.lang.String*"
+
+__unknown_file (
+""2SnewTransform(Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/TransformParameterSpec;)À
+»
+c c(i
+%27boolean"
+__arrayAdd*:
+
+__unknown_file (
+
+
+transformsjava.util.List*
+
+__unknown_file (: *D
+
+__unknown_file ((
+&
+%26javax.xml.crypto.dsig.Transform|
+z
+d5 d(^
+%28java.lang.String"__id*O
+
+__unknown_file (31
+/http://www.w3.org/TR/2001/REC-xml-c14n-20010315„‡
+d d(~&
+%29javax.xml.crypto.dsig.Transform"ûjavax.xml.crypto.dsig.XMLSignatureFactory#newTransform(Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/TransformParameterSpec;)Ljavax/xml/crypto/dsig/Transform;*[
+
+__unknown_file (?
+=
+signatureFactory)javax.xml.crypto.dsig.XMLSignatureFactory*5
+
+__unknown_file (
+
+%28java.lang.String*"
+
+__unknown_file (
+""2SnewTransform(Ljava/lang/String;Ljavax/xml/crypto/dsig/spec/TransformParameterSpec;)À
+»
+d d(
+%30boolean"
+__arrayAdd*:
+
+__unknown_file (
+
+
+transformsjava.util.List*
+
+__unknown_file (: *D
+
+__unknown_file ((
+&
+%29javax.xml.crypto.dsig.Transform°û
+f. f(R3
+%31,javax.xml.crypto.dsig.keyinfo.KeyInfoFactory"kjavax.xml.crypto.dsig.XMLSignatureFactory#getKeyInfoFactory()Ljavax/xml/crypto/dsig/keyinfo/KeyInfoFactory;*[
+
+__unknown_file (?
+=
+signatureFactory)javax.xml.crypto.dsig.XMLSignatureFactory2getKeyInfoFactory()¶
+£
+f f(S>
+keyInfoFactory,javax.xml.crypto.dsig.keyinfo.KeyInfoFactory"__id*Q
+
+__unknown_file (5
+3
+%31,javax.xml.crypto.dsig.keyinfo.KeyInfoFactoryÚÔ
+	gi g(Ç%
+%32java.security.cert.Certificate"Wjava.security.KeyStore$PrivateKeyEntry#getCertificate()Ljava/security/cert/Certificate;*P
+
+__unknown_file (4
+2
+keyEntry&java.security.KeyStore$PrivateKeyEntry2getCertificate()Í
+Á
+	g= g(É
+%33java.util.List"Gjava.util.Collections#singletonList(Ljava/lang/Object;)Ljava/util/List;*5
+
+__unknown_file ("
+java.util.Collections*C
+
+__unknown_file ('
+%
+%32java.security.cert.Certificate„‡
+	g" g(Ñ-
+%34&javax.xml.crypto.dsig.keyinfo.X509Data"rjavax.xml.crypto.dsig.keyinfo.KeyInfoFactory#newX509Data(Ljava/util/List;)Ljavax/xml/crypto/dsig/keyinfo/X509Data;*\
+
+__unknown_file (@
+>
+keyInfoFactory,javax.xml.crypto.dsig.keyinfo.KeyInfoFactory*3
+
+__unknown_file (
+
+%33java.util.List2newX509Data(Ljava/util/List;)ï
+í
+	g g(Ö2
+x509Data&javax.xml.crypto.dsig.keyinfo.X509Data"__id*K
+
+__unknown_file (/
+-
+%34&javax.xml.crypto.dsig.keyinfo.X509Dataˆ
+Û
+h: h(]
+%35java.util.List"Gjava.util.Collections#singletonList(Ljava/lang/Object;)Ljava/util/List;*5
+
+__unknown_file ("
+java.util.Collections*P
+
+__unknown_file (4
+2
+x509Data&javax.xml.crypto.dsig.keyinfo.X509Dataﬁ€
+h  h(^,
+%36%javax.xml.crypto.dsig.keyinfo.KeyInfo"pjavax.xml.crypto.dsig.keyinfo.KeyInfoFactory#newKeyInfo(Ljava/util/List;)Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;*\
+
+__unknown_file (@
+>
+keyInfoFactory,javax.xml.crypto.dsig.keyinfo.KeyInfoFactory*3
+
+__unknown_file (
+
+%35java.util.List2newKeyInfo(Ljava/util/List;)ë
+é
+h h(_0
+keyInfo%javax.xml.crypto.dsig.keyinfo.KeyInfo"__id*J
+
+__unknown_file (.
+,
+%36%javax.xml.crypto.dsig.keyinfo.KeyInfoÍ
+Á
+i> i(b/
+%37(javax.xml.parsers.DocumentBuilderFactory"`javax.xml.parsers.DocumentBuilderFactory#newInstance()Ljavax/xml/parsers/DocumentBuilderFactory;*H
+
+__unknown_file (,"*
+(javax.xml.parsers.DocumentBuilderFactory¶
+£
+i i(cB
+documentBuilderFactory(javax.xml.parsers.DocumentBuilderFactory"__id*M
+
+__unknown_file (1
+/
+%37(javax.xml.parsers.DocumentBuilderFactory‡›
+j j(g
+%38void"Ijavax.xml.parsers.DocumentBuilderFactory#setFeature(Ljava/lang/String;Z)V*`
+
+__unknown_file (D
+B
+documentBuilderFactory(javax.xml.parsers.DocumentBuilderFactory*T
+
+__unknown_file (86
+4http://apache.org/xml/features/disallow-doctype-decl* 
+
+__unknown_file (22setFeature(Ljava/lang/String;Z)ÙÒ
+k k(6
+%39void">javax.xml.parsers.DocumentBuilderFactory#setNamespaceAware(Z)V*`
+
+__unknown_file (D
+B
+documentBuilderFactory(javax.xml.parsers.DocumentBuilderFactory* 
+
+__unknown_file (22setNamespaceAware(Z)ëé
+m" m(M(
+%40!javax.xml.parsers.DocumentBuilder"`javax.xml.parsers.DocumentBuilderFactory#newDocumentBuilder()Ljavax/xml/parsers/DocumentBuilder;*`
+
+__unknown_file (D
+B
+documentBuilderFactory(javax.xml.parsers.DocumentBuilderFactory2newDocumentBuilder()EC
+mX m(c
+%41org.xml.sax.InputSource"org.xml.sax.InputSource¿
+Ω
+mT m(n
+%42"1org.xml.sax.InputSource#<init>(Ljava/io/Reader;)V*<
+
+__unknown_file ( 
+
+%41org.xml.sax.InputSource*9
+
+__unknown_file (
+
+	xmlReaderjava.io.Reader¨©
+m" m(o
+%43org.w3c.dom.Document"Xjavax.xml.parsers.DocumentBuilder#parse(Lorg/xml/sax/InputSource;)Lorg/w3c/dom/Document;*F
+
+__unknown_file (*
+(
+%40!javax.xml.parsers.DocumentBuilder*<
+
+__unknown_file ( 
+
+%41org.xml.sax.InputSource2 parse(Lorg/xml/sax/InputSource;)o
+m
+m m(p 
+documentorg.w3c.dom.Document"__id*9
+
+__unknown_file (
+
+%43org.w3c.dom.Document*
+2*(
+0 "!
+
+Ç Ç(
+implicit return*˘
+1|6 |(H‚
+ﬂ
+|6 |(V-
+%65&javax.xml.transform.TransformerFactory"\javax.xml.transform.TransformerFactory#newInstance()Ljavax/xml/transform/TransformerFactory;*F
+
+__unknown_file (*"(
+&javax.xml.transform.TransformerFactoryû
+õ
+| |(W<
+transformerFactory&javax.xml.transform.TransformerFactory"__id*K
+
+__unknown_file (/
+-
+%65&javax.xml.transform.TransformerFactoryÜ
+É
+}( }(H
+%66java.lang.String"__id*X
+
+__unknown_file (<:
+8http://javax.xml.XMLConstants/property/accessExternalDTD›⁄
+} }(M
+%67void"Zjavax.xml.transform.TransformerFactory#setAttribute(Ljava/lang/String;Ljava/lang/Object;)V*Z
+
+__unknown_file (>
+<
+transformerFactory&javax.xml.transform.TransformerFactory*5
+
+__unknown_file (
+
+%66java.lang.String*
+
+__unknown_file ( 22setAttribute(Ljava/lang/String;Ljava/lang/Object;)ç
+ä
+~( ~(O
+%68java.lang.String"__id*_
+
+__unknown_file (CA
+?http://javax.xml.XMLConstants/property/accessExternalStylesheet›⁄
+~ ~(T
+%69void"Zjavax.xml.transform.TransformerFactory#setAttribute(Ljava/lang/String;Ljava/lang/Object;)V*Z
+
+__unknown_file (>
+<
+transformerFactory&javax.xml.transform.TransformerFactory*5
+
+__unknown_file (
+
+%68java.lang.String*
+
+__unknown_file ( 22setAttribute(Ljava/lang/String;Ljava/lang/Object;)˝˙
+( (K&
+%70javax.xml.transform.Transformer"Xjavax.xml.transform.TransformerFactory#newTransformer()Ljavax/xml/transform/Transformer;*Z
+
+__unknown_file (>
+<
+transformerFactory&javax.xml.transform.TransformerFactory2newTransformer()â
+Ü
+ (L.
+transformerjavax.xml.transform.Transformer"__id*D
+
+__unknown_file ((
+&
+%70javax.xml.transform.Transformerc
+a
+
+Ä& Ä(E
+%71java.lang.String"__id*4
+
+__unknown_file (
+omit-xml-declarationŸ÷
+
+Ä Ä(M
+%72void"Xjavax.xml.transform.Transformer#setOutputProperty(Ljava/lang/String;Ljava/lang/String;)V*L
+
+__unknown_file (0
+.
+transformerjavax.xml.transform.Transformer*5
+
+__unknown_file (
+
+%71java.lang.String*#
+
+__unknown_file (
+yes27setOutputProperty(Ljava/lang/String;Ljava/lang/String;)[Y
+
+Å" Å(+(
+%73!javax.xml.transform.dom.DOMSource"!javax.xml.transform.dom.DOMSource›
+⁄
+
+Å Å(5
+%74"=javax.xml.transform.dom.DOMSource#<init>(Lorg/w3c/dom/Node;)V*F
+
+__unknown_file (*
+(
+%73!javax.xml.transform.dom.DOMSource*>
+
+__unknown_file ("
+ 
+documentorg.w3c.dom.Documentge
+
+Å; Å(G.
+%75'javax.xml.transform.stream.StreamResult"'javax.xml.transform.stream.StreamResult‰
+·
+
+Å7 Å(T
+%76"Ajavax.xml.transform.stream.StreamResult#<init>(Ljava/io/Writer;)V*L
+
+__unknown_file (0
+.
+%75'javax.xml.transform.stream.StreamResult*;
+
+__unknown_file (
+
+xmlAssinadojava.io.Writer´®
+
+Å Å(U
+%77void"djavax.xml.transform.Transformer#transform(Ljavax/xml/transform/Source;Ljavax/xml/transform/Result;)V*L
+
+__unknown_file (0
+.
+transformerjavax.xml.transform.Transformer*F
+
+__unknown_file (*
+(
+%73!javax.xml.transform.dom.DOMSource*L
+
+__unknown_file (0
+.
+%75'javax.xml.transform.stream.StreamResult2Ctransform(Ljavax/xml/transform/Source;Ljavax/xml/transform/Result;)*
+0:'
+S! S(8
+	xmlReaderjava.io.Reader:)
+S9 S(R
+xmlAssinadojava.io.Writer:5
+SS S(v)
+elementosAssinaveisjava.lang.String[]B:8
+6com.fincatto.documentofiscal.utils.DFAssinaturaDigitalH

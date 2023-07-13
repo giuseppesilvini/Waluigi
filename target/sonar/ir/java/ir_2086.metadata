@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTTipoDirecaoTransformer#write(Lcom/fincatto/documentofiscal/cte300/classes/CTTipoDirecao;)Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.classes.CTTipoDirecao#getCodigo()Ljava/lang/String;

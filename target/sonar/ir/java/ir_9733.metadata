@@ -1,0 +1,8 @@
+com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub#populateAxisService()V
+org.apache.axis2.description.AxisService#<init>(Ljava/lang/String;)V
+org.apache.axis2.description.OutInAxisOperation#instance-init#
+javax.xml.namespace.QName#instance-init#
+javax.xml.namespace.QName#<init>(Ljava/lang/String;Ljava/lang/String;)V
+org.apache.axis2.description.OutInAxisOperation#<init>()V
+org.apache.axis2.description.AxisService#instance-init#
+com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub#getUniqueSuffix()Ljava/lang/String;

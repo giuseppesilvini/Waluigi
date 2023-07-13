@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFInfoProdutorRuralReferenciada#setCnpjEmitente(Ljava/lang/String;)V
+java.lang.IllegalStateException#instance-init#
+com.fincatto.documentofiscal.validadores.DFStringValidador#cnpj(Ljava/lang/String;)V
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V

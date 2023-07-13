@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.classes.nota.MDFInfoIdentificacaoUfPercurso#<init>(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)V
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigo()Ljava/lang/String;

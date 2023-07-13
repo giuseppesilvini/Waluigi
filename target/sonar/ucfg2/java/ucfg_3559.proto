@@ -1,0 +1,36 @@
+
+‘com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoItemProdutoVeiculoTipoOperacaoTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoItemProdutoVeiculoTipoOperacao;)Ljava/lang/String;∑
+¨/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFNotaInfoItemProdutoVeiculoTipoOperacaoTransformer.java ("startingBlock*ê
+startingBlock (Lœ
+Ã
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*z
+
+__unknown_file (^
+\
+tipoTcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoVeiculoTipoOperacaoù
+ö
+G (K\
+tipoTcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoVeiculoTipoOperacao"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ÿ
+1 (¢ü
+ (
+%0java.lang.String"rcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoVeiculoTipoOperacao#getCodigo()Ljava/lang/String;*z
+
+__unknown_file (^
+\
+tipoTcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoVeiculoTipoOperacao2getCodigo()"$
+ ( 
+
+%0java.lang.String:h
+ (K\
+tipoTcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoVeiculoTipoOperacaoBhf
+dcom.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoItemProdutoVeiculoTipoOperacaoTransformerH

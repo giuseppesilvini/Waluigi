@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.mdfe3.webservices.WSFacade#pagamentoTransporte(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;

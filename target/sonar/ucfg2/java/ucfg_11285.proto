@@ -1,0 +1,52 @@
+
+]com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#getCnpjEmitente()Ljava/lang/String;å
+Å/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/NotaFiscalChaveParser.javah h(!"4*n
+2iJ i(NZ
+X
+iJ i(N
+%1java.lang.String"__id*.
+
+__unknown_file (
+
+%3
+<nulltype>*
+1*Î
+3i, i(0ë
+é
+i, i(6
+%4java.lang.String"__id*d
+
+__unknown_file (H*F;
+9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser"
+chave‡›
+i, i(G
+%2java.lang.String"0java.lang.String#substring(II)Ljava/lang/String;*4
+
+__unknown_file (
+
+%4java.lang.String* 
+
+__unknown_file (2* 
+
+__unknown_file (22substring(II)`
+^
+i, i(G
+%1java.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.String*
+1*Ç
+4i i('ÍÁ
+i i()
+%0boolean"Ucom.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#isEmitentePessoaJuridica()Z*Y
+
+__unknown_file (=;
+9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser2isEmitentePessoaJuridica()*
+2
+3*3
+1i i(O"$
+i i(O
+
+%1java.lang.StringB=;
+9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParserH

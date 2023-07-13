@@ -1,0 +1,36 @@
+
+¹com.fincatto.documentofiscal.nfe400.transformers.NFIndicadorIntermediadorTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFIndicadorIntermediador;)Ljava/lang/String;§
+œ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFIndicadorIntermediadorTransformer.java ("startingBlock*§
+startingBlock (RÛ
+Ø
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*…
+
+__unknown_file (i
+g
+indicadorPresencaCompradorIcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorIntermediador¨
+¥
+7 (Qg
+indicadorPresencaCompradorIcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorIntermediador"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ù
+1 ()£ 
+ (5
+%0java.lang.String"gcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorIntermediador#getCodigo()Ljava/lang/String;*…
+
+__unknown_file (i
+g
+indicadorPresencaCompradorIcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorIntermediador2getCodigo()"$
+ (6
+
+%0java.lang.String:s
+ (Qg
+indicadorPresencaCompradorIcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorIntermediadorBXV
+Tcom.fincatto.documentofiscal.nfe400.transformers.NFIndicadorIntermediadorTransformerH

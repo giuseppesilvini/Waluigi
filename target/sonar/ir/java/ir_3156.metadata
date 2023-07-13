@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload#gerarDadosDownloadNF(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/downloadnf/NFDownloadNFe;
+com.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe#instance-init#
+com.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe#<init>()V

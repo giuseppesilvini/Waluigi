@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.DFConfig#getTimeZone()Ljava/util/TimeZone;
+java.util.TimeZone#getDefault()Ljava/util/TimeZone;

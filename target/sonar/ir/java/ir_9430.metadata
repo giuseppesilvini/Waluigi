@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoRegimeEspecialTributacaoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoRegimeEspecialTributacao;
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoRegimeEspecialTributacao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoRegimeEspecialTributacao;

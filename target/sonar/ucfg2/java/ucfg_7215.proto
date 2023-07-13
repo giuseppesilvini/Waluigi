@@ -1,0 +1,164 @@
+
+±com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRetAutorizacao4Stub$NfeResultMsg#registerPrefix(Ljavax/xml/stream/XMLStreamWriter;Ljava/lang/String;)Ljava/lang/String;¢
+•/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/gerado/NFeRetAutorizacao4Stub.java÷! ÷(/"9*ê
+2
+ƒ ƒ(íê
+
+ƒ ƒ(;
+
+%6void"Vjavax.xml.stream.XMLStreamWriter#writeNamespace(Ljava/lang/String;Ljava/lang/String;)V*K
+
+__unknown_file (/
+-
+	xmlWriter javax.xml.stream.XMLStreamWriter*8
+
+__unknown_file (
+
+prefixjava.lang.String*;
+
+__unknown_file (
+
+	namespacejava.lang.String24writeNamespace(Ljava/lang/String;Ljava/lang/String;)ãà
+
+„ „(6
+
+%7void"Qjavax.xml.stream.XMLStreamWriter#setPrefix(Ljava/lang/String;Ljava/lang/String;)V*K
+
+__unknown_file (/
+-
+	xmlWriter javax.xml.stream.XMLStreamWriter*8
+
+__unknown_file (
+
+prefixjava.lang.String*;
+
+__unknown_file (
+
+	namespacejava.lang.String2/setPrefix(Ljava/lang/String;Ljava/lang/String;)*
+1*Ç
+3
+ ( Å
+Â
+
+ (Z
+%5java.lang.String"Oorg.apache.axis2.databinding.utils.BeanUtil#getUniquePrefix()Ljava/lang/String;*K
+
+__unknown_file (/"-
++org.apache.axis2.databinding.utils.BeanUtilf
+d
+
+ (Z
+prefixjava.lang.String"__id*4
+
+__unknown_file (
+
+%5java.lang.String*
+2
+6*
+5
+ş* ş(-vt
+
+ş* ş(6	
+%4int"java.lang.String#length()I*5
+
+__unknown_file (
+
+urijava.lang.String2length()*
+2
+3*²
+6
+ı1 ı(:³°
+
+ı1 ı(R
+%3java.lang.String"Zjavax.xml.namespace.NamespaceContext#getNamespaceURI(Ljava/lang/String;)Ljava/lang/String;*O
+
+__unknown_file (3
+1
+	nsContext$javax.xml.namespace.NamespaceContext*8
+
+__unknown_file (
+
+prefixjava.lang.String2#getNamespaceURI(Ljava/lang/String;)c
+a
+
+ı ı(S
+urijava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.String*
+2
+5*‰
+8
+ú ú(%ò
+ï
+
+ú ú(?
+%1java.lang.String"com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRetAutorizacao4Stub$NfeResultMsg#generatePrefix(Ljava/lang/String;)Ljava/lang/String;*z
+
+__unknown_file (^"\
+Zcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRetAutorizacao4Stub$NfeResultMsg*;
+
+__unknown_file (
+
+	namespacejava.lang.Stringf
+d
+
+ú ú(?
+prefixjava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.Stringıú
+
+ûG û(f*
+%2$javax.xml.namespace.NamespaceContext"\javax.xml.stream.XMLStreamWriter#getNamespaceContext()Ljavax/xml/namespace/NamespaceContext;*K
+
+__unknown_file (/
+-
+	xmlWriter javax.xml.stream.XMLStreamWriter2getNamespaceContext()’
+
+
+û û(g1
+	nsContext$javax.xml.namespace.NamespaceContext"__id*H
+
+__unknown_file (,
+*
+%2$javax.xml.namespace.NamespaceContext*
+2
+6*¤
+9
+ø& ø(/¢Ÿ
+
+ø& ø(D
+%0java.lang.String"Pjavax.xml.stream.XMLStreamWriter#getPrefix(Ljava/lang/String;)Ljava/lang/String;*K
+
+__unknown_file (/
+-
+	xmlWriter javax.xml.stream.XMLStreamWriter*;
+
+__unknown_file (
+
+	namespacejava.lang.String2getPrefix(Ljava/lang/String;)f
+d
+
+ø ø(E
+prefixjava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.String*
+8
+1*;
+1
+† †("*
+
+† †(
+
+prefixjava.lang.String:;
+
+÷0 ÷(a-
+	xmlWriter javax.xml.stream.XMLStreamWriter:,
+÷b ÷(‚
+	namespacejava.lang.StringB^\
+Zcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRetAutorizacao4Stub$NfeResultMsg

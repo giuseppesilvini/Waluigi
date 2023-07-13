@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.validadores.DFListValidador#validaEstadoDaLista(Ljava/util/List;Ljava/lang/String;)V
+java.lang.IllegalStateException#instance-init#
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

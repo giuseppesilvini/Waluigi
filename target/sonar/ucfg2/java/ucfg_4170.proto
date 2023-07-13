@@ -1,0 +1,39 @@
+
+kcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoArmamentoTipo#toString()Ljava/lang/String;¡
+–/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFNotaInfoItemProdutoArmamentoTipo.java ("1*ñ
+1 (§
+¤
+ (
+%0java.lang.String"__id*z
+
+__unknown_file (^*\P
+Ncom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoArmamentoTipo"
+codigoi
+g
+ (
+%1java.lang.String"__concat*$
+ (
+
+%0java.lang.String*
+ (
+ - ª
+§
+  ()
+%2java.lang.String"__id*}
+
+__unknown_file (a*_P
+Ncom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoArmamentoTipo"
+	descricaoz
+x
+ ()
+%3java.lang.String"__concat*$
+ (
+
+%1java.lang.String*$
+  ()
+
+%2java.lang.String"$
+ (*
+
+%3java.lang.StringBRP
+Ncom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoArmamentoTipoH

@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.nfe400.utils.NFGeraHashCSRT#getStringSha256(Ljava/lang/String;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.utils.NFGeraHashCSRT#getSha256(Ljava/lang/String;)[B
+java.math.BigInteger#instance-init#
+java.math.BigInteger#<init>(I[B)V
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

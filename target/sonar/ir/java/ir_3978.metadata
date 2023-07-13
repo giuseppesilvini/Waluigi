@@ -1,0 +1,6 @@
+com.fincatto.documentofiscal.nfe310.utils.NFVerificaChave#isChaveValida()Z
+org.apache.commons.lang3.StringUtils#length(Ljava/lang/CharSequence;)I
+com.fincatto.documentofiscal.nfe310.utils.NFVerificaChave#getChaveAcessoDV()Ljava/lang/Integer;
+java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+==
+calculaDV com.fincatto.documentofiscal.nfe310.utils.NFVerificaChave#calculaDV()Ljava/lang/Integer;

@@ -1,0 +1,36 @@
+
+Ôcom.fincatto.documentofiscal.nfe400.transformers.NFNotaSituacaoOperacionalSimplesNacionalTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaSituacaoOperacionalSimplesNacional;)Ljava/lang/String;·
+¬/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFNotaSituacaoOperacionalSimplesNacionalTransformer.java ("startingBlock*¯
+startingBlock ([ß
+Ü
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*‰
+
+__unknown_file (m
+k
+situacaoOperacionalTcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional¬
+©
+G (Zk
+situacaoOperacionalTcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional"__annotation*"
+
+__unknown_file (
+
+%1*
+1*è
+1 ("²¯
+ (.
+%0java.lang.String"rcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional#getCodigo()Ljava/lang/String;*‰
+
+__unknown_file (m
+k
+situacaoOperacionalTcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacional2getCodigo()"$
+ (/
+
+%0java.lang.String:w
+ (Zk
+situacaoOperacionalTcom.fincatto.documentofiscal.nfe400.classes.NFNotaSituacaoOperacionalSimplesNacionalBhf
+dcom.fincatto.documentofiscal.nfe400.transformers.NFNotaSituacaoOperacionalSimplesNacionalTransformerH

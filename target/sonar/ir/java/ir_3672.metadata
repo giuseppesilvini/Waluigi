@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.DFUnidadeFederativa#toString()Ljava/lang/String;
+com.fincatto.documentofiscal.DFUnidadeFederativa#getDescricao()Ljava/lang/String;

@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+==
+CadConsultaCadastro2Stub com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V

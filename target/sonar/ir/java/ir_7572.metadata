@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.converters.NFStringNullToEmptyConverter#read(Lorg/simpleframework/xml/stream/InputNode;)Ljava/lang/String;
+org.apache.commons.lang3.StringUtils#defaultIfBlank(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;

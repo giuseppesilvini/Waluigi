@@ -1,0 +1,60 @@
+
+ûcom.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFProcessoEmissor;ê
+Ö/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFProcessoEmissor.java$ (1"5*Ä
+2 ()}
+{
+ ()E
+tipo=com.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor"__id*"
+
+__unknown_file (
+""È
+Ê
+ ()E
+tipo=com.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor"
+__arrayGet*c
+
+__unknown_file (G
+E
+%0?com.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor[]*"
+
+__unknown_file (
+""*
+4
+1*b
+3 ("S
+ (G
+E
+tipo=com.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor*Â
+4 (ÙÒ
+ ( 
+%1java.lang.String"[com.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor#getCodigo()Ljava/lang/String;*c
+
+__unknown_file (G
+E
+tipo=com.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor2getCodigo()÷”
+ (/
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*—
+5, (=º
+π
+, (FE
+%0?com.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor[]"Ücom.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor#values()[Lcom/fincatto/documentofiscal/nfe400/classes/NFProcessoEmissor;*]
+
+__unknown_file (A"?
+=com.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor*
+2*!
+1   ("
+   (
+"":&
+2 (E
+codigojava.lang.StringBA"?
+=com.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissorH

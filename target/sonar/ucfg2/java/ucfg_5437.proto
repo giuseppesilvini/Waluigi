@@ -1,0 +1,55 @@
+
+¯com.fincatto.documentofiscal.nfe400.webservices.WSFacade#cancelaNotaPorSubstituicao(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/NFEnviaEventoRetorno;ç
+Ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSFacade.javaÉ  É(:"1*¬	
+1
+Ñ Ñ(…
+∆
+
+Ñ Ñ("D
+%0>com.fincatto.documentofiscal.nfe400.webservices.WSCancelamento"__id*l
+
+__unknown_file (P*N:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacade"
+wsCancelamentoÑÅ
+Ñ Ñ(ãM
+%1Gcom.fincatto.documentofiscal.nfe400.classes.evento.NFEnviaEventoRetorno"˛com.fincatto.documentofiscal.nfe400.webservices.WSCancelamento#cancelaNotaPorSubstituicao(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/NFEnviaEventoRetorno;*b
+
+__unknown_file (F
+D
+%0>com.fincatto.documentofiscal.nfe400.webservices.WSCancelamento*7
+
+__unknown_file (
+
+chavejava.lang.String*A
+
+__unknown_file (%
+#
+numeroProtocolojava.lang.String*8
+
+__unknown_file (
+
+motivojava.lang.String*M
+
+__unknown_file (1
+/
+versaoAplicativoAutorizadorjava.lang.String*A
+
+__unknown_file (%
+#
+chaveSubstitutajava.lang.String2vcancelaNotaPorSubstituicao(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)"^
+Ñ Ñ(åO
+M
+%1Gcom.fincatto.documentofiscal.nfe400.classes.evento.NFEnviaEventoRetorno:'
+
+É; É(N
+chavejava.lang.String:1
+
+ÉO É(l#
+numeroProtocolojava.lang.String:)
+Ém É(Å
+motivojava.lang.String:?
+ÉÇ É(´/
+versaoAplicativoAutorizadorjava.lang.String:3
+É¨ É(»#
+chaveSubstitutajava.lang.StringB<:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacadeH

@@ -1,0 +1,20 @@
+
+¯com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;)Lorg/apache/axiom/soap/SOAPEnvelope;°
+£/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/statusservico/consulta/NfeStatusServicoStub.javaÈ/ È(9"1*Ã
+1
+É É(÷ô
+
+É É(+(
+%0"org.apache.axiom.soap.SOAPEnvelope"Zorg.apache.axiom.soap.SOAPFactory#getDefaultEnvelope()Lorg/apache/axiom/soap/SOAPEnvelope;*J
+
+__unknown_file (.
+,
+factory!org.apache.axiom.soap.SOAPFactory2getDefaultEnvelope()"8
+
+É É(,*
+(
+%0"org.apache.axiom.soap.SOAPEnvelope::
+
+È: È(c,
+factory!org.apache.axiom.soap.SOAPFactoryB_]
+[com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub

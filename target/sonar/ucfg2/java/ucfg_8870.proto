@@ -1,0 +1,60 @@
+
+com.fincatto.documentofiscal.nfe400.classes.NFSituacao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFSituacao;ˆ
+~/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFSituacao.java (*"5*ó
+2 (&z
+x
+ (&B
+situacao6com.fincatto.documentofiscal.nfe400.classes.NFSituacao"__id*"
+
+__unknown_file (
+""ß
+Ü
+ (&B
+situacao6com.fincatto.documentofiscal.nfe400.classes.NFSituacao"
+__arrayGet*\
+
+__unknown_file (@
+>
+%08com.fincatto.documentofiscal.nfe400.classes.NFSituacao[]*"
+
+__unknown_file (
+""*
+4
+1*_
+3 ("P
+ ( D
+B
+situacao6com.fincatto.documentofiscal.nfe400.classes.NFSituacao*Û
+4 (êç
+ ($
+%1java.lang.String"Tcom.fincatto.documentofiscal.nfe400.classes.NFSituacao#getCodigo()Ljava/lang/String;*`
+
+__unknown_file (D
+B
+situacao6com.fincatto.documentofiscal.nfe400.classes.NFSituacao2getCodigo()ÖÓ
+ (3
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*´
+5) (3Ÿ
+œ
+) (<>
+%08com.fincatto.documentofiscal.nfe400.classes.NFSituacao[]"xcom.fincatto.documentofiscal.nfe400.classes.NFSituacao#values()[Lcom/fincatto/documentofiscal/nfe400/classes/NFSituacao;*V
+
+__unknown_file (:"8
+6com.fincatto.documentofiscal.nfe400.classes.NFSituacao*
+2*!
+1 ("
+ (
+"":&
++ (>
+codigojava.lang.StringB:"8
+6com.fincatto.documentofiscal.nfe400.classes.NFSituacaoH

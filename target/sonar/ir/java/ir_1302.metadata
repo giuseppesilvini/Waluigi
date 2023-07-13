@@ -1,0 +1,12 @@
+com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#startnfeDownloadNF(Lcom/fincatto/documentofiscal/nfe310/webservices/downloadnf/NfeDownloadNFStub$NfeDadosMsg;Lcom/fincatto/documentofiscal/nfe310/webservices/downloadnf/NfeDownloadNFStub$NfeCabecMsgE;Lcom/fincatto/documentofiscal/nfe310/webservices/downloadnf/NfeDownloadNFCallbackHandler;)V
+org.apache.axis2.util.CallbackReceiver#instance-init#
+org.apache.axis2.util.CallbackReceiver#<init>()V
+org.apache.axis2.client.Stub#getFactory(Ljava/lang/String;)Lorg/apache/axiom/soap/SOAPFactory;
+com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;Lcom/fincatto/documentofiscal/nfe310/webservices/downloadnf/NfeDownloadNFStub$NfeDadosMsg;ZLjavax/xml/namespace/QName;)Lorg/apache/axiom/soap/SOAPEnvelope;
+org.apache.axis2.client.OperationClient#execute(Z)V
+com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#toOM(Lcom/fincatto/documentofiscal/nfe310/webservices/downloadnf/NfeDownloadNFStub$NfeCabecMsgE;Z)Lorg/apache/axiom/om/OMElement;
+javax.xml.namespace.QName#instance-init#
+javax.xml.namespace.QName#<init>(Ljava/lang/String;Ljava/lang/String;)V
+com.fincatto.documentofiscal.utils.MessageContextFactory#create(Lcom/fincatto/documentofiscal/DFConfig;)Lorg/apache/axis2/context/MessageContext;
+org.apache.axis2.client.OperationClient#setCallback(Lorg/apache/axis2/client/async/AxisCallback;)V
+com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#optimizeContent(Ljavax/xml/namespace/QName;)Z

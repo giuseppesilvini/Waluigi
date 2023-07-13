@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.mdfe3.webservices.WSNotaConsulta#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/consulta/MDFeNotaConsulta;
+com.fincatto.documentofiscal.mdfe3.classes.nota.consulta.MDFeNotaConsulta#instance-init#
+java.math.BigDecimal#instance-init#
+com.fincatto.documentofiscal.mdfe3.classes.nota.consulta.MDFeNotaConsulta#<init>()V
+java.math.BigDecimal#<init>(Ljava/lang/String;)V

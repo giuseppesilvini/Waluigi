@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFInformacaoIntermediador#setIdCadIntTran(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#tamanho2ate60(Ljava/lang/String;Ljava/lang/String;)V

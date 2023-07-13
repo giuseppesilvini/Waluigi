@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTInformacoesManuseioTransformer#write(Lcom/fincatto/documentofiscal/cte300/classes/CTInformacoesManuseio;)Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.classes.CTInformacoesManuseio#getCodigo()Ljava/lang/String;

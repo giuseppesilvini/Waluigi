@@ -1,0 +1,555 @@
+
+€com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao#gerarDadosCartaCorrecao(Ljava/lang/String;Ljava/lang/String;I)Lcom/fincatto/documentofiscal/nfe400/classes/evento/cartacorrecao/NFEnviaEventoCartaCorrecao;í
+á/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSCartaCorrecao.java_& _(="5*—
+2o o(Ä˝
+o o(<
+%24java.lang.String"]com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#getCnpjEmitente()Ljava/lang/String;*f
+
+__unknown_file (J
+H
+chaveParser9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser2getCnpjEmitente()π∂
+o o(=
+%25void"\com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento#setCnpj(Ljava/lang/String;)V*k
+
+__unknown_file (O
+M
+
+infoEvento?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento*5
+
+__unknown_file (
+
+%24java.lang.String2setCnpj(Ljava/lang/String;)*
+1*Õ
+3m m(˛˚
+m m(:
+%22java.lang.String"\com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#getCpfEmitente()Ljava/lang/String;*f
+
+__unknown_file (J
+H
+chaveParser9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser2getCpfEmitente()∑¥
+m m(;
+%23void"[com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento#setCpf(Ljava/lang/String;)V*k
+
+__unknown_file (O
+M
+
+infoEvento?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento*5
+
+__unknown_file (
+
+%22java.lang.String2setCpf(Ljava/lang/String;)*
+1*¡
+4l? l(FÚÔ
+lP l(f
+%20java.lang.String"Vcom.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#getSerie()Ljava/lang/String;*f
+
+__unknown_file (J
+H
+chaveParser9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser2
+getSerie()¥
+±
+l? l(g
+
+%21int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
+
+__unknown_file ("
+java.lang.Integer*5
+
+__unknown_file (
+
+%20java.lang.String*
+2
+3*≠.
+5`L `(WâÜ
+`6 `(K?
+%09com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser"9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParserà
+Ö
+`2 `(X
+%1"Ucom.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#<init>(Ljava/lang/String;)V*]
+
+__unknown_file (A
+?
+%09com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.Stringº
+π
+` `(YH
+chaveParser9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser"__id*]
+
+__unknown_file (A
+?
+%09com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParserïí
+b/ b(;E
+%2?com.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento"?com.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento√
+¿
+b+ b(=
+%3"Icom.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento#<init>()V*c
+
+__unknown_file (G
+E
+%2?com.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento 
+«
+b b(>P
+cartaCorrecao?com.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento"__id*c
+
+__unknown_file (G
+E
+%2?com.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEventoR
+P
+c  c(>
+%4java.math.BigDecimal"__id*"
+
+__unknown_file (
+"" «
+c c(?
+
+%5void"bcom.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento#setVersao(Ljava/math/BigDecimal;)V*n
+
+__unknown_file (R
+P
+cartaCorrecao?com.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento*8
+
+__unknown_file (
+
+%4java.math.BigDecimal2!setVersao(Ljava/math/BigDecimal;)]
+[
+d) d(I
+%6java.lang.String"__id*1
+
+__unknown_file (
+Carta de Correcao–Õ
+d d(J
+
+%7void"gcom.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento#setDescricaoEvento(Ljava/lang/String;)V*n
+
+__unknown_file (R
+P
+cartaCorrecao?com.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento*4
+
+__unknown_file (
+
+%6java.lang.String2&setDescricaoEvento(Ljava/lang/String;)ﬁ
+€
+e% e(H
+%8java.lang.String"__id*∞
+
+__unknown_file (ìê
+çA Carta de Correcao e disciplinada pelo paragrafo 1o-A do art. 7o do Convenio S/N, de 15 de dezembro de 1970 e pode ser utilizada para regularizacao de erro ocorrido na emissao de documento fiscal, desde que o erro nao esteja relacionado com: I - as variaveis que determinam o valor do imposto tais como: base de calculo, aliquota, diferenca de preco, quantidade, valor da operacao ou da prestacao; II - a correcao de dados cadastrais que implique mudanca do remetente ou do destinatario; III - a data de emissao ou de saida.»≈
+e e(I
+
+%9void"ccom.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento#setCondicaoUso(Ljava/lang/String;)V*n
+
+__unknown_file (R
+P
+cartaCorrecao?com.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento*4
+
+__unknown_file (
+
+%8java.lang.String2"setCondicaoUso(Ljava/lang/String;)ÿ’
+f f(5
+%10void"ecom.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento#setTextoCorrecao(Ljava/lang/String;)V*n
+
+__unknown_file (R
+P
+cartaCorrecao?com.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento*?
+
+__unknown_file (#
+!
+textoCorrecaojava.lang.String2$setTextoCorrecao(Ljava/lang/String;)ñì
+h, h(8F
+%11?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento"?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento≈
+¬
+h( h(:
+%12"Icom.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento#<init>()V*d
+
+__unknown_file (H
+F
+%11?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento»
+≈
+h h(;M
+
+infoEvento?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento"__id*d
+
+__unknown_file (H
+F
+%11?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento≥
+∞
+i i(*1
+%13*com.fincatto.documentofiscal.nfe.NFeConfig"__id*k
+
+__unknown_file (O*MA
+?com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao"
+config˚¯
+i i(8.
+%14'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*O
+
+__unknown_file (3
+1
+%13*com.fincatto.documentofiscal.nfe.NFeConfig2getAmbiente()ÜÉ
+i i(9
+%15void"wcom.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento#setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)V*k
+
+__unknown_file (O
+M
+
+infoEvento?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento*L
+
+__unknown_file (0
+.
+%14'com.fincatto.documentofiscal.DFAmbiente26setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)ﬂ‹
+j j(0
+%16void"ícom.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento#setDadosEvento(Lcom/fincatto/documentofiscal/nfe400/classes/evento/NFTipoEvento;)V*k
+
+__unknown_file (O
+M
+
+infoEvento?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento*n
+
+__unknown_file (R
+P
+cartaCorrecao?com.fincatto.documentofiscal.nfe400.classes.evento.NFTipoEvento2QsetDadosEvento(Lcom/fincatto/documentofiscal/nfe400/classes/evento/NFTipoEvento;)√¿
+k k((
+%17void"]com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento#setChave(Ljava/lang/String;)V*k
+
+__unknown_file (O
+M
+
+infoEvento?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String2setChave(Ljava/lang/String;)ÚÔ
+l l(3
+%18java.lang.String"Vcom.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#getSerie()Ljava/lang/String;*f
+
+__unknown_file (J
+H
+chaveParser9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser2
+getSerie()¥
+±
+l l(4
+
+%19int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
+
+__unknown_file ("
+java.lang.Integer*5
+
+__unknown_file (
+
+%18java.lang.String*
+2
+4*êE
+1q q(≥
+∞
+q7 q(B1
+%26*com.fincatto.documentofiscal.nfe.NFeConfig"__id*k
+
+__unknown_file (O*MA
+?com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao"
+config—Œ
+q7 q(P
+%27java.util.TimeZone"Gcom.fincatto.documentofiscal.DFConfig#getTimeZone()Ljava/util/TimeZone;*O
+
+__unknown_file (3
+1
+%26*com.fincatto.documentofiscal.nfe.NFeConfig2getTimeZone()úô
+q7 q([
+%28java.time.ZoneId"/java.util.TimeZone#toZoneId()Ljava/time/ZoneId;*7
+
+__unknown_file (
+
+%27java.util.TimeZone2
+toZoneId()Á
+‰
+q% q(\
+%29java.time.ZonedDateTime"Hjava.time.ZonedDateTime#now(Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;*7
+
+__unknown_file ("
+java.time.ZonedDateTime*5
+
+__unknown_file (
+
+%28java.time.ZoneId‚ﬂ
+q q(]
+%30void"mcom.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento#setDataHoraEvento(Ljava/time/ZonedDateTime;)V*k
+
+__unknown_file (O
+M
+
+infoEvento?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento*<
+
+__unknown_file ( 
+
+%29java.time.ZonedDateTime2,setDataHoraEvento(Ljava/time/ZonedDateTime;)S
+Q
+r5 r(R
+%31java.lang.String"__id*&
+
+__unknown_file (
+
+110110
+Ì
+r r(x
+%32java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String**
+
+__unknown_file (
+
+ID%s%s%02d*5
+
+__unknown_file (
+
+%31java.lang.String*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*"
+
+__unknown_file (
+""µ≤
+r r(y
+%33void"Zcom.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento#setId(Ljava/lang/String;)V*k
+
+__unknown_file (O
+M
+
+infoEvento?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento*5
+
+__unknown_file (
+
+%32java.lang.String2setId(Ljava/lang/String;)®•
+s s(D
+%34void"]com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento#setNumeroSequencialEvento(I)V*k
+
+__unknown_file (O
+M
+
+infoEvento?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento*"
+
+__unknown_file (
+""2setNumeroSequencialEvento(I)œÃ
+t t(@7
+%350com.fincatto.documentofiscal.DFUnidadeFederativa"Ñcom.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#getNFUnidadeFederativa()Lcom/fincatto/documentofiscal/DFUnidadeFederativa;*f
+
+__unknown_file (J
+H
+chaveParser9com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser2getNFUnidadeFederativa()õò
+t t(A
+%36void"}com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento#setOrgao(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)V*k
+
+__unknown_file (O
+M
+
+infoEvento?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento*U
+
+__unknown_file (9
+7
+%350com.fincatto.documentofiscal.DFUnidadeFederativa2<setOrgao(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)S
+Q
+u! u(>
+%37java.lang.String"__id*&
+
+__unknown_file (
+
+110110≈¬
+u u(?
+%38void"bcom.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento#setTipoEvento(Ljava/lang/String;)V*k
+
+__unknown_file (O
+M
+
+infoEvento?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento*5
+
+__unknown_file (
+
+%37java.lang.String2!setTipoEvento(Ljava/lang/String;)S
+Q
+v# v(A
+%39java.math.BigDecimal"__id*"
+
+__unknown_file (
+""’“
+v v(B
+%40void"hcom.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento#setVersaoEvento(Ljava/math/BigDecimal;)V*k
+
+__unknown_file (O
+M
+
+infoEvento?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento*9
+
+__unknown_file (
+
+%39java.math.BigDecimal2'setVersaoEvento(Ljava/math/BigDecimal;)éã
+x$ x(,B
+%41;com.fincatto.documentofiscal.nfe400.classes.evento.NFEvento";com.fincatto.documentofiscal.nfe400.classes.evento.NFEventoΩ
+∫
+x  x(.
+%42"Ecom.fincatto.documentofiscal.nfe400.classes.evento.NFEvento#<init>()V*`
+
+__unknown_file (D
+B
+%41;com.fincatto.documentofiscal.nfe400.classes.evento.NFEventoº
+π
+x x(/E
+evento;com.fincatto.documentofiscal.nfe400.classes.evento.NFEvento"__id*`
+
+__unknown_file (D
+B
+%41;com.fincatto.documentofiscal.nfe400.classes.evento.NFEventoŒÀ
+y y((
+%43void"çcom.fincatto.documentofiscal.nfe400.classes.evento.NFEvento#setInfoEvento(Lcom/fincatto/documentofiscal/nfe400/classes/evento/NFInfoEvento;)V*c
+
+__unknown_file (G
+E
+evento;com.fincatto.documentofiscal.nfe400.classes.evento.NFEvento*k
+
+__unknown_file (O
+M
+
+infoEvento?com.fincatto.documentofiscal.nfe400.classes.evento.NFInfoEvento2PsetInfoEvento(Lcom/fincatto/documentofiscal/nfe400/classes/evento/NFInfoEvento;)S
+Q
+z z(7
+%44java.math.BigDecimal"__id*"
+
+__unknown_file (
+""Ω∫
+z z(8
+%45void"^com.fincatto.documentofiscal.nfe400.classes.evento.NFEvento#setVersao(Ljava/math/BigDecimal;)V*c
+
+__unknown_file (G
+E
+evento;com.fincatto.documentofiscal.nfe400.classes.evento.NFEvento*9
+
+__unknown_file (
+
+%44java.math.BigDecimal2!setVersao(Ljava/math/BigDecimal;)ŒÀ
+|; |(Ub
+%46[com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao"[com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao˛
+˚
+|7 |(W
+%47"ecom.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao#<init>()V*Ä
+
+__unknown_file (d
+b
+%46[com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecaoÇ
+ˇ
+| |(Xj
+enviaEvento[com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao"__id*Ä
+
+__unknown_file (d
+b
+%46[com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecaoâ
+Ü
+} }(?
+%48java.util.List"Gjava.util.Collections#singletonList(Ljava/lang/Object;)Ljava/util/List;*5
+
+__unknown_file ("
+java.util.Collections*c
+
+__unknown_file (G
+E
+evento;com.fincatto.documentofiscal.nfe400.classes.evento.NFEventoÒÓ
+} }(@
+%49void"xcom.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao#setEvento(Ljava/util/List;)V*à
+
+__unknown_file (l
+j
+enviaEvento[com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao*3
+
+__unknown_file (
+
+%48java.util.List2setEvento(Ljava/util/List;)≥
+∞
+~> ~(I1
+%50*com.fincatto.documentofiscal.nfe.NFeConfig"__id*k
+
+__unknown_file (O*MA
+?com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao"
+config—Œ
+~> ~(W
+%51java.util.TimeZone"Gcom.fincatto.documentofiscal.DFConfig#getTimeZone()Ljava/util/TimeZone;*O
+
+__unknown_file (3
+1
+%50*com.fincatto.documentofiscal.nfe.NFeConfig2getTimeZone()úô
+~> ~(b
+%52java.time.ZoneId"/java.util.TimeZone#toZoneId()Ljava/time/ZoneId;*7
+
+__unknown_file (
+
+%51java.util.TimeZone2
+toZoneId()Á
+‰
+~, ~(c
+%53java.time.ZonedDateTime"Hjava.time.ZonedDateTime#now(Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;*7
+
+__unknown_file ("
+java.time.ZonedDateTime*5
+
+__unknown_file (
+
+%52java.time.ZoneId∑¥
+~, ~(o
+%54java.time.Instant"Cjava.time.chrono.ChronoZonedDateTime#toInstant()Ljava/time/Instant;*<
+
+__unknown_file ( 
+
+%53java.time.ZonedDateTime2toInstant()ÖÇ
+~, ~(~
+%55long"!java.time.Instant#toEpochMilli()J*6
+
+__unknown_file (
+
+%54java.time.Instant2toEpochMilli()Ø
+¨
+~ ~(
+%56java.lang.String",java.lang.Long#toString(J)Ljava/lang/String;*.
+
+__unknown_file ("
+java.lang.Long*)
+
+__unknown_file (
+
+%55long¯ı
+	~ ~(Ä
+%57void"zcom.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao#setIdLote(Ljava/lang/String;)V*à
+
+__unknown_file (l
+j
+enviaEvento[com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao*5
+
+__unknown_file (
+
+%56java.lang.String2setIdLote(Ljava/lang/String;)S
+Q
+ (<
+%58java.math.BigDecimal"__id*"
+
+__unknown_file (
+""ÉÄ
+ (=
+%59void"~com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao#setVersao(Ljava/math/BigDecimal;)V*à
+
+__unknown_file (l
+j
+enviaEvento[com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao*9
+
+__unknown_file (
+
+%58java.math.BigDecimal2!setVersao(Ljava/math/BigDecimal;)"z
+
+Ä Ä(l
+j
+enviaEvento[com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFEnviaEventoCartaCorrecao:+
+_> _(W
+chaveAcessojava.lang.String:-
+_X _(s!
+textoCorrecaojava.lang.String: 
+
+__unknown_file (
+""BCA
+?com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecaoH

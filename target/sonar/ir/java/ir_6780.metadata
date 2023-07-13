@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.validadores.DFXMLValidador#validaNota(Ljava/lang/String;)Z
+com.fincatto.documentofiscal.validadores.DFXMLValidador#valida(Ljava/lang/String;Ljava/lang/String;)Z

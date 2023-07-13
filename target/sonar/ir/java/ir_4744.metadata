@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.cte300.webservices.WSFacade#consultaNota(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/nota/consulta/CTeNotaConsultaRetorno;

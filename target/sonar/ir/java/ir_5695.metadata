@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.classes.CTTipoDirecao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoDirecao;
+com.fincatto.documentofiscal.cte300.classes.CTTipoDirecao#getCodigo()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z

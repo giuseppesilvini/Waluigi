@@ -1,0 +1,35 @@
+
+¥com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeInutilizacao4Stub$NfeResultMsg#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader; 
+“/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/gerado/NFeInutilizacao4Stub.javaÝ Ý(,"startingBlock*ž
+startingBlock
+Ý, Ý(>–
+“
+
+Ü Ü(
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*?
+
+__unknown_file (#
+!
+arg0javax.xml.namespace.QNamec
+a
+
+Ý9 Ý(=!
+arg0javax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%0*
+1*%
+1
+Þ Þ("
+
+Þ Þ(
+"":/
+
+Ý- Ý(=!
+arg0javax.xml.namespace.QNameB\Z
+Xcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeInutilizacao4Stub$NfeResultMsgH

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTTipoImpressaoTransformes#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoImpressao;
+com.fincatto.documentofiscal.cte300.classes.CTTipoImpressao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoImpressao;

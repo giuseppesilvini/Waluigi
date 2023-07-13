@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.transformers.MDFTipoEmitenteTransformer#write(Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoEmitente;)Ljava/lang/String;
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoEmitente#getCodigo()Ljava/lang/String;

@@ -1,0 +1,58 @@
+
+ùcom.fincatto.documentofiscal.nfe310.webservices.WSFacade#consultarDistribuicaoDFe(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoIntRetorno;ç
+Ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/WSFacade.javaˇ$ ˇ(<"1*ô
+
+1
+Ä Ä(Ÿ
+÷
+
+Ä Ä(%Q
+%0Kcom.fincatto.documentofiscal.nfe.webservices.distribuicao.WSDistribuicaoNFe"__id*o
+
+__unknown_file (S*Q:
+8com.fincatto.documentofiscal.nfe310.webservices.WSFacade"
+wSDistribuicaoNFe≈¬
+
+Ä Ä(XT
+%1Ncom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoIntRetorno"°com.fincatto.documentofiscal.nfe.webservices.distribuicao.WSDistribuicaoNFe#consultar(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoIntRetorno;*o
+
+__unknown_file (S
+Q
+%0Kcom.fincatto.documentofiscal.nfe.webservices.distribuicao.WSDistribuicaoNFe*;
+
+__unknown_file (
+
+	cpfOuCnpjjava.lang.String*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*5
+
+__unknown_file (
+
+nsujava.lang.String*8
+
+__unknown_file (
+
+ultNsujava.lang.String2Öconsultar(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)"d
+
+Ä Ä(YV
+T
+%1Ncom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoIntRetorno:+
+
+ˇ= ˇ(T
+	cpfOuCnpjjava.lang.String:D
+
+ˇU ˇ(r6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa:.
+ˇs ˇ(å
+chaveAcessojava.lang.String:'
+ˇç ˇ(û
+nsujava.lang.String:*
+ˇü ˇ(≤
+ultNsujava.lang.StringB<:
+8com.fincatto.documentofiscal.nfe310.webservices.WSFacadeH

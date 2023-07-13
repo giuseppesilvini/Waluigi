@@ -1,0 +1,127 @@
+
+acom.fincatto.documentofiscal.nfe400.utils.NFGeraQRCode#urlConsultaChaveAcesso()Ljava/lang/String;à
+~/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/utils/NFGeraQRCode.javan n(("4*ª
+2
+oô o(ù∑
+¥
+
+oô o(¢>
+%117com.fincatto.documentofiscal.nfe400.classes.nota.NFNota"__id*`
+
+__unknown_file (D*B8
+6com.fincatto.documentofiscal.nfe400.utils.NFGeraQRCode"
+notaºπ
+
+oô o(¨B
+%12;com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo"~com.fincatto.documentofiscal.nfe400.classes.nota.NFNota#getInfo()Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfo;*\
+
+__unknown_file (@
+>
+%117com.fincatto.documentofiscal.nfe400.classes.nota.NFNota2	getInfo()ÒÓ
+
+oô o(øO
+%13Hcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoIdentificacao"òcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo#getIdentificacao()Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoIdentificacao;*`
+
+__unknown_file (D
+B
+%12;com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo2getIdentificacao()≈¬
+
+oô o(«7
+%140com.fincatto.documentofiscal.DFUnidadeFederativa"Çcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoIdentificacao#getUf()Lcom/fincatto/documentofiscal/DFUnidadeFederativa;*m
+
+__unknown_file (Q
+O
+%13Hcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoIdentificacao2getUf()ãà
+
+oô o(Î
+%6java.lang.String"fcom.fincatto.documentofiscal.DFUnidadeFederativa#getConsultaChaveAcessoHomologacao()Ljava/lang/String;*U
+
+__unknown_file (9
+7
+%140com.fincatto.documentofiscal.DFUnidadeFederativa2#getConsultaChaveAcessoHomologacao()b
+`
+
+oô o(Î
+%4java.lang.String"__id*4
+
+__unknown_file (
+
+%6java.lang.String*
+1*£
+3oG o(K¥
+±
+oG o(P=
+%77com.fincatto.documentofiscal.nfe400.classes.nota.NFNota"__id*`
+
+__unknown_file (D*B8
+6com.fincatto.documentofiscal.nfe400.utils.NFGeraQRCode"
+nota∏µ
+oG o(ZA
+%8;com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo"~com.fincatto.documentofiscal.nfe400.classes.nota.NFNota#getInfo()Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfo;*[
+
+__unknown_file (?
+=
+%77com.fincatto.documentofiscal.nfe400.classes.nota.NFNota2	getInfo()ÌÍ
+oG o(mN
+%9Hcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoIdentificacao"òcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo#getIdentificacao()Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoIdentificacao;*_
+
+__unknown_file (C
+A
+%8;com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfo2getIdentificacao()¬ø
+oG o(u7
+%100com.fincatto.documentofiscal.DFUnidadeFederativa"Çcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoIdentificacao#getUf()Lcom/fincatto/documentofiscal/DFUnidadeFederativa;*l
+
+__unknown_file (P
+N
+%9Hcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoIdentificacao2getUf()ÑÅ
+	oG o(ñ
+%5java.lang.String"ccom.fincatto.documentofiscal.DFUnidadeFederativa#getConsultaChaveAcessoProducao()Ljava/lang/String;*U
+
+__unknown_file (9
+7
+%100com.fincatto.documentofiscal.DFUnidadeFederativa2 getConsultaChaveAcessoProducao()a
+_
+	oG o(ñ
+%4java.lang.String"__id*4
+
+__unknown_file (
+
+%5java.lang.String*
+1*•
+4o o(©
+¶
+o o(0
+%0*com.fincatto.documentofiscal.nfe.NFeConfig"__id*b
+
+__unknown_file (F*D8
+6com.fincatto.documentofiscal.nfe400.utils.NFGeraQRCode"
+config˘ˆ
+o o((-
+%1'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*N
+
+__unknown_file (2
+0
+%0*com.fincatto.documentofiscal.nfe.NFeConfig2getAmbiente()e
+c
+o0 o(C-
+%2'com.fincatto.documentofiscal.DFAmbiente"__id*"
+
+__unknown_file (
+""˛˚
+o o(D
+%3boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*K
+
+__unknown_file (/
+-
+%1'com.fincatto.documentofiscal.DFAmbiente*K
+
+__unknown_file (/
+-
+%2'com.fincatto.documentofiscal.DFAmbiente2equals(Ljava/lang/Object;)*
+2
+3*5
+1	o o(Ï"%
+	o o(Ï
+
+%4java.lang.StringB:8
+6com.fincatto.documentofiscal.nfe400.utils.NFGeraQRCodeH

@@ -1,0 +1,27 @@
+
+G__sonar_lambda_4$com.fincatto.documentofiscal.utils.DFAssinaturaDigitalˆ
+~/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/utils/DFAssinaturaDigital.java[ [(:"1*«
+1[ [("¢Ÿ
+[+ [(9
+%15java.lang.Object"2javax.naming.ldap.Rdn#getValue()Ljava/lang/Object;*:
+
+__unknown_file (
+
+valjavax.naming.ldap.Rdn2
+getValue()Ï
+Ì
+[ [(:
+%16java.lang.String">java.lang.String#valueOf(Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*5
+
+__unknown_file (
+
+%15java.lang.Object"%
+[ [(:
+
+%16java.lang.String:(
+[ [(
+valjavax.naming.ldap.RdnB
+java.util.function.Function

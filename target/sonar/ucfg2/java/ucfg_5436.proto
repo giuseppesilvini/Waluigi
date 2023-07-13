@@ -1,0 +1,39 @@
+
+»com.fincatto.documentofiscal.nfe400.webservices.WSFacade#cancelaNotaAssinada(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/NFEnviaEventoRetorno;
+€/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSFacade.javaô  ô(3"1*ü
+1
+õ õ(É
+Æ
+
+õ õ("D
+%0>com.fincatto.documentofiscal.nfe400.webservices.WSCancelamento"__id*l
+
+__unknown_file (P*N:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacade"
+wsCancelamento¿¼
+
+õ õ(PM
+%1Gcom.fincatto.documentofiscal.nfe400.classes.evento.NFEnviaEventoRetorno"Ácom.fincatto.documentofiscal.nfe400.webservices.WSCancelamento#cancelaNotaAssinada(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/NFEnviaEventoRetorno;*b
+
+__unknown_file (F
+D
+%0>com.fincatto.documentofiscal.nfe400.webservices.WSCancelamento*7
+
+__unknown_file (
+
+chavejava.lang.String*C
+
+__unknown_file ('
+%
+eventoAssinadoXmljava.lang.String29cancelaNotaAssinada(Ljava/lang/String;Ljava/lang/String;)"]
+
+õ õ(QO
+M
+%1Gcom.fincatto.documentofiscal.nfe400.classes.evento.NFEnviaEventoRetorno:'
+
+ô4 ô(G
+chavejava.lang.String:3
+
+ôH ô(f%
+eventoAssinadoXmljava.lang.StringB<:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacadeH

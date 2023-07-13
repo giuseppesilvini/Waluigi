@@ -1,0 +1,52 @@
+
+¸com.fincatto.documentofiscal.nfe400.webservices.WSFacade#manifestaDestinatarioNotaProtocolo(Ljava/lang/String;Lcom/fincatto/documentofiscal/nfe400/classes/evento/manifestacaodestinatario/NFTipoEventoManifestacaoDestinatario;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/manifestacaodestinatario/NFProtocoloEventoManifestacaoDestinatario;ç
+Ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSFacade.javaƒ5 ƒ(W"1*´
+1
+≈ ≈(·
+ﬁ
+
+≈ ≈(.P
+%0Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario"__id*x
+
+__unknown_file (\*Z:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacade"
+wSManifestacaoDestinatarioß	§	
+
+≈ ≈(r{
+%1ucom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFProtocoloEventoManifestacaoDestinatario"écom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario#manifestaDestinatarioNotaProtocolo(Ljava/lang/String;Lcom/fincatto/documentofiscal/nfe400/classes/evento/manifestacaodestinatario/NFTipoEventoManifestacaoDestinatario;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/manifestacaodestinatario/NFProtocoloEventoManifestacaoDestinatario;*n
+
+__unknown_file (R
+P
+%0Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario*7
+
+__unknown_file (
+
+chavejava.lang.String*ù
+
+__unknown_file (Ä
+~
+
+tipoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFTipoEventoManifestacaoDestinatario*8
+
+__unknown_file (
+
+motivojava.lang.String*6
+
+__unknown_file (
+
+cnpjjava.lang.String2ÃmanifestaDestinatarioNotaProtocolo(Ljava/lang/String;Lcom/fincatto/documentofiscal/nfe400/classes/evento/manifestacaodestinatario/NFTipoEventoManifestacaoDestinatario;Ljava/lang/String;Ljava/lang/String;)"ã
+
+≈ ≈(s}
+{
+%1ucom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFProtocoloEventoManifestacaoDestinatario:'
+
+ƒX ƒ(k
+chavejava.lang.String:ç
+ƒl ƒ(¢~
+
+tipoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFTipoEventoManifestacaoDestinatario:*
+ƒ£ ƒ(∑
+motivojava.lang.String:(
+ƒ∏ ƒ(…
+cnpjjava.lang.StringB<:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacadeH

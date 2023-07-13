@@ -1,0 +1,164 @@
+
+¨com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub$CteCabecMsgE#registerPrefix(Ljavax/xml/stream/XMLStreamWriter;Ljava/lang/String;)Ljava/lang/String;ù
+ê/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/consulta/CteConsultaStub.javaã! ã(/"9*Í
+2
+ó ó(ÌÍ
+
+ó ó(;
+
+%6void"Vjavax.xml.stream.XMLStreamWriter#writeNamespace(Ljava/lang/String;Ljava/lang/String;)V*K
+
+__unknown_file (/
+-
+	xmlWriter javax.xml.stream.XMLStreamWriter*8
+
+__unknown_file (
+
+prefixjava.lang.String*;
+
+__unknown_file (
+
+	namespacejava.lang.String24writeNamespace(Ljava/lang/String;Ljava/lang/String;)„‡
+
+ò ò(6
+
+%7void"Qjavax.xml.stream.XMLStreamWriter#setPrefix(Ljava/lang/String;Ljava/lang/String;)V*K
+
+__unknown_file (/
+-
+	xmlWriter javax.xml.stream.XMLStreamWriter*8
+
+__unknown_file (
+
+prefixjava.lang.String*;
+
+__unknown_file (
+
+	namespacejava.lang.String2/setPrefix(Ljava/lang/String;Ljava/lang/String;)*
+1*«
+3
+ï ï( ≈
+¬
+
+ï ï(Z
+%5java.lang.String"Oorg.apache.axis2.databinding.utils.BeanUtil#getUniquePrefix()Ljava/lang/String;*K
+
+__unknown_file (/"-
++org.apache.axis2.databinding.utils.BeanUtilf
+d
+
+ï ï(Z
+prefixjava.lang.String"__id*4
+
+__unknown_file (
+
+%5java.lang.String*
+2
+6*è
+5
+í' í(*vt
+
+í' í(3	
+%4int"java.lang.String#length()I*5
+
+__unknown_file (
+
+urijava.lang.String2length()*
+2
+3*≤
+6
+ë1 ë(:≥∞
+
+ë1 ë(R
+%3java.lang.String"Zjavax.xml.namespace.NamespaceContext#getNamespaceURI(Ljava/lang/String;)Ljava/lang/String;*O
+
+__unknown_file (3
+1
+	nsContext$javax.xml.namespace.NamespaceContext*8
+
+__unknown_file (
+
+prefixjava.lang.String2#getNamespaceURI(Ljava/lang/String;)c
+a
+
+ë ë(S
+urijava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.String*
+2
+5*ˇ
+8
+é é(%Ë
+Â
+
+é é(?
+%1java.lang.String"äcom.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub$CteCabecMsgE#generatePrefix(Ljava/lang/String;)Ljava/lang/String;*u
+
+__unknown_file (Y"W
+Ucom.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub$CteCabecMsgE*;
+
+__unknown_file (
+
+	namespacejava.lang.Stringf
+d
+
+é é(?
+prefixjava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.String˝˙
+
+èG è(f*
+%2$javax.xml.namespace.NamespaceContext"\javax.xml.stream.XMLStreamWriter#getNamespaceContext()Ljavax/xml/namespace/NamespaceContext;*K
+
+__unknown_file (/
+-
+	xmlWriter javax.xml.stream.XMLStreamWriter2getNamespaceContext()í
+è
+
+è è(g1
+	nsContext$javax.xml.namespace.NamespaceContext"__id*H
+
+__unknown_file (,
+*
+%2$javax.xml.namespace.NamespaceContext*
+2
+6*§
+9
+å& å(/¢ü
+
+å& å(D
+%0java.lang.String"Pjavax.xml.stream.XMLStreamWriter#getPrefix(Ljava/lang/String;)Ljava/lang/String;*K
+
+__unknown_file (/
+-
+	xmlWriter javax.xml.stream.XMLStreamWriter*;
+
+__unknown_file (
+
+	namespacejava.lang.String2getPrefix(Ljava/lang/String;)f
+d
+
+å å(E
+prefixjava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.String*
+8
+1*;
+1
+ö ö("*
+
+ö ö(
+
+prefixjava.lang.String:;
+
+ã0 ã(a-
+	xmlWriter javax.xml.stream.XMLStreamWriter:,
+ãb ã(Ç
+	namespacejava.lang.StringBYW
+Ucom.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub$CteCabecMsgE

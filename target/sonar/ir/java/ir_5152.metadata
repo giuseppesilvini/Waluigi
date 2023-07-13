@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.nota.CTeNotaInfoIdentificacao#setNumero(Ljava/lang/Integer;)V
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#tamanho9(Ljava/lang/Integer;Ljava/lang/String;)V

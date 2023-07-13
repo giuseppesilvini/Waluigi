@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemImpostoICMS#setIcmssn900(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoItemImpostoICMSSN900;)V
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemImpostoICMS#validaApenasUmSelecionado()V

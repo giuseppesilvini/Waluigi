@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.DFPais#toString()Ljava/lang/String;
+com.fincatto.documentofiscal.DFPais#getDescricao()Ljava/lang/String;

@@ -1,0 +1,53 @@
+
+Õcom.fincatto.documentofiscal.mdfe3.webservices.WSFacade#pagamentoTransporte(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;‹
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSFacade.javaõ õ(*"1*Ÿ
+1
+ö ö(Õ
+Ò
+
+ö ö()J
+%0Dcom.fincatto.documentofiscal.mdfe3.webservices.WSPagamentoTransporte"__id*r
+
+__unknown_file (V*T9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacade"
+wsPagamentoTransporteÛØ
+
+ö ö([H
+%1Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno"Øcom.fincatto.documentofiscal.mdfe3.webservices.WSPagamentoTransporte#pagamento(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;*h
+
+__unknown_file (L
+J
+%0Dcom.fincatto.documentofiscal.mdfe3.webservices.WSPagamentoTransporte*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*7
+
+__unknown_file (
+
+nProtjava.lang.String*6
+
+__unknown_file (
+
+infPagjava.util.List*:
+
+__unknown_file (
+
+
+infViagensjava.util.List2Opagamento(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)"X
+
+ö ö(\J
+H
+%1Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno:-
+
+õ+ õ(D
+chaveAcessojava.lang.String:'
+
+õE õ(X
+nProtjava.lang.String:'
+õY õ(‰
+infPagjava.util.List:,
+õŠ õ(Á
+
+infViagensjava.util.ListB;9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacadeH

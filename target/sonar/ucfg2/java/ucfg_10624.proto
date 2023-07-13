@@ -1,0 +1,36 @@
+
+êcom.fincatto.documentofiscal.nfe310.transformers.NFTipoTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFTipo;)Ljava/lang/String;ï
+ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFTipoTransformer.java ("startingBlock* 
+startingBlock (*≠
+™
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*X
+
+__unknown_file (<
+:
+tipo2com.fincatto.documentofiscal.nfe310.classes.NFTipoz
+x
+% ():
+tipo2com.fincatto.documentofiscal.nfe310.classes.NFTipo"__annotation*"
+
+__unknown_file (
+
+%1*
+1*î
+1 (ﬁ€
+ (
+%0java.lang.String"Pcom.fincatto.documentofiscal.nfe310.classes.NFTipo#getCodigo()Ljava/lang/String;*X
+
+__unknown_file (<
+:
+tipo2com.fincatto.documentofiscal.nfe310.classes.NFTipo2getCodigo()"$
+ ( 
+
+%0java.lang.String:F
+ ():
+tipo2com.fincatto.documentofiscal.nfe310.classes.NFTipoBFD
+Bcom.fincatto.documentofiscal.nfe310.transformers.NFTipoTransformerH

@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.cte300.webservices.WSFacade#getXmlAssinadoInutilizacao(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Ljava/lang/String;

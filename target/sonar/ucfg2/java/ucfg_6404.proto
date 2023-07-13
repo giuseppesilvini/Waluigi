@@ -1,0 +1,58 @@
+
+Àcom.fincatto.documentofiscal.nfe310.transformers.NFIndicadorContribuinteNFeTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/cadastro/NFIndicadorContribuinteNFe;©
+ž/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFIndicadorContribuinteNFeTransformer.java	& 	(*"startingBlock*œ
+startingBlock	* 	(H–
+“
+ (
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*A
+
+__unknown_file (%
+#
+codigoIndicadorjava.lang.Stringc
+a
+	8 	(G#
+codigoIndicadorjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*
+1*é
+1
+ 
+()¿
+¼
+
+8 
+(Y	
+%0int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
+
+__unknown_file ("
+java.lang.Integer*A
+
+__unknown_file (%
+#
+codigoIndicadorjava.lang.String²
+¯
+
+ 
+(ZU
+%1Ocom.fincatto.documentofiscal.nfe310.classes.cadastro.NFIndicadorContribuinteNFe"±com.fincatto.documentofiscal.nfe310.classes.cadastro.NFIndicadorContribuinteNFe#valueOfCodigo(I)Lcom/fincatto/documentofiscal/nfe310/classes/cadastro/NFIndicadorContribuinteNFe;*o
+
+__unknown_file (S"Q
+Ocom.fincatto.documentofiscal.nfe310.classes.cadastro.NFIndicadorContribuinteNFe*'
+
+__unknown_file (
+	
+%0int"c
+
+ 
+([W
+U
+%1Ocom.fincatto.documentofiscal.nfe310.classes.cadastro.NFIndicadorContribuinteNFe:/
+	+ 	(G#
+codigoIndicadorjava.lang.StringBZX
+Vcom.fincatto.documentofiscal.nfe310.transformers.NFIndicadorContribuinteNFeTransformerH

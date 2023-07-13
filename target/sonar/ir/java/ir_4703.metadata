@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoLocal#setCodigoPais(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#tamanho2a4(Ljava/lang/String;Ljava/lang/String;)V
+com.fincatto.documentofiscal.DFPais#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/DFPais;

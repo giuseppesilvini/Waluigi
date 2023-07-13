@@ -1,0 +1,31 @@
+
+¼com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoResponsavelTecnico#setTelefone(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoResponsavelTecnico; 
+•/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoResponsavelTecnico.javaE( E(3"1*
+1F F(ï
+ì
+F F(C
+%0java.lang.String"{com.fincatto.documentofiscal.validadores.DFStringValidador#telefone(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*Z
+
+__unknown_file (>"<
+:com.fincatto.documentofiscal.validadores.DFStringValidador*:
+
+__unknown_file (
+
+telefonejava.lang.String*3
+
+__unknown_file (
+Responsavel tecnico®
+«
+G G( ]O
+Mcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoResponsavelTecnico"
+
+telefone"__id*:
+
+__unknown_file (
+
+telefonejava.lang.String"]
+H H(QO
+Mcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoResponsavelTecnico:(
+E4 E(C
+telefonejava.lang.StringBQO
+Mcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoResponsavelTecnicoH

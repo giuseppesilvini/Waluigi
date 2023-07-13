@@ -1,0 +1,35 @@
+
+öcom.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFRetornoStatus;ê
+É/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFRetornoStatus.java»" »(/"1*Ñ
+1
+… …(∏
+µ
+
+…- …(E	
+%0int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
+
+__unknown_file ("
+java.lang.Integer*8
+
+__unknown_file (
+
+codigojava.lang.String‰
+·
+
+… …(FA
+%1;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus"âcom.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus#valueOfCodigo(I)Lcom/fincatto/documentofiscal/nfe400/classes/NFRetornoStatus;*[
+
+__unknown_file (?"=
+;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus*'
+
+__unknown_file (
+	
+%0int"Q
+
+… …(GC
+A
+%1;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatus:(
+
+»0 »(C
+codigojava.lang.StringB?"=
+;com.fincatto.documentofiscal.nfe400.classes.NFRetornoStatusH

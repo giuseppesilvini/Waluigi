@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.nfe400.utils.NFVerificaChave#calculaDV()Ljava/lang/Integer;
+com.fincatto.documentofiscal.nfe400.utils.NFVerificaChave#chaveAcessoSemDV()Ljava/lang/String;
+java.lang.String#valueOf(C)Ljava/lang/String;
+java.lang.Integer#parseInt(Ljava/lang/String;)I
+java.lang.String#toCharArray()[C

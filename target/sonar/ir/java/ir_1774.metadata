@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemImpostoIPITributado#setSituacaoTributaria(Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoSituacaoTributariaIPI;)V
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+java.lang.IllegalStateException#instance-init#
+com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoSituacaoTributariaIPI#getCodigo()Ljava/lang/String;
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V

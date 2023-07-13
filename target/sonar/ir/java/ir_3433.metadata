@@ -1,0 +1,17 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSNotaConsulta#efetuaConsultaSVRS(Lorg/apache/axiom/om/OMElement;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeConsulta2Stub$NfeDadosMsg#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeConsulta2Stub$NfeCabecMsg#<init>()V
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeConsulta2Stub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+com.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser#instance-init#
+java.lang.IllegalArgumentException#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeConsulta2Stub$NfeCabecMsg#instance-init#
+com.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser#<init>(Ljava/lang/String;)V
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeConsulta2Stub$NfeCabecMsgE#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeConsulta2Stub#instance-init#
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31#valueOfChaveAcesso(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFAutorizador31;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeConsulta2Stub$NfeDadosMsg#<init>()V
+java.lang.Enum#name()Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeConsulta2Stub$NfeCabecMsgE#<init>()V

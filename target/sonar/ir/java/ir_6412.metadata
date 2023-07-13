@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.transformers.DFPaisTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/DFPais;
+com.fincatto.documentofiscal.DFPais#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/DFPais;

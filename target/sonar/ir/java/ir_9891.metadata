@@ -1,0 +1,6 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSStatusConsulta#consultaStatus(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe310/classes/statusservico/consulta/NFStatusServicoConsultaRetorno;
+com.fincatto.documentofiscal.nfe310.webservices.WSStatusConsulta#efetuaConsultaStatusBahia(Lorg/apache/axiom/om/OMElement;)Lorg/apache/axiom/om/OMElement;
+org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe310.webservices.WSStatusConsulta#efetuaConsultaStatus(Lorg/apache/axiom/om/OMElement;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Lcom/fincatto/documentofiscal/DFModelo;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.nfe310.webservices.WSStatusConsulta#gerarDadosConsulta(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe310/classes/statusservico/consulta/NFStatusServicoConsulta;

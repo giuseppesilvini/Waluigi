@@ -1,0 +1,178 @@
+
+hcom.fincatto.documentofiscal.validadores.DFXMLValidador#validaMDF(Ljava/lang/String;Ljava/lang/String;)Zâ
+/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/validadores/DFXMLValidador.javaF F($"1*π 
+1G G(ã
+à
+G G(<
+%0java.lang.String"Tjava.lang.System#setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.System*5
+
+__unknown_file (
+jdk.xml.maxOccurLimit*%
+
+__unknown_file (	
+10000ôñ
+H H(A
+%1java.lang.ClassLoader"7java.lang.Class#getClassLoader()Ljava/lang/ClassLoader;*"
+
+__unknown_file (
+""2getClassLoader()¶
+£
+	HN H(á
+%2java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*C
+
+__unknown_file ('%
+#schemas/PL_MDFe_300a_NT02020_NFF/%s*5
+
+__unknown_file (
+
+xsdjava.lang.String˘ˆ
+	H H(à
+%3java.net.URL"Cjava.lang.ClassLoader#getResource(Ljava/lang/String;)Ljava/net/URL;*9
+
+__unknown_file (
+
+%1java.lang.ClassLoader*4
+
+__unknown_file (
+
+%2java.lang.String2getResource(Ljava/lang/String;)^
+\
+	H H(â
+xsdPathjava.net.URL"__id*0
+
+__unknown_file (
+
+%3java.net.URLl
+j
+IF I(T
+%4java.lang.String"__id*@
+
+__unknown_file ($"
+ http://www.w3.org/2001/XMLSchemaô
+ñ
+I, I(U(
+%5"javax.xml.validation.SchemaFactory"fjavax.xml.validation.SchemaFactory#newInstance(Ljava/lang/String;)Ljavax/xml/validation/SchemaFactory;*B
+
+__unknown_file (&"$
+"javax.xml.validation.SchemaFactory*4
+
+__unknown_file (
+
+%4java.lang.Stringê
+ç
+I I(V3
+schemaFactory"javax.xml.validation.SchemaFactory"__id*F
+
+__unknown_file (*
+(
+%5"javax.xml.validation.SchemaFactory «
+J J(^
+
+%6void"Cjavax.xml.validation.SchemaFactory#setFeature(Ljava/lang/String;Z)V*Q
+
+__unknown_file (5
+3
+schemaFactory"javax.xml.validation.SchemaFactory*T
+
+__unknown_file (86
+4http://apache.org/xml/features/disallow-doctype-decl* 
+
+__unknown_file (22setFeature(Ljava/lang/String;Z)ÖÇ
+KG K(V
+%7java.net.URI""java.net.URL#toURI()Ljava/net/URI;*5
+
+__unknown_file (
+
+xsdPathjava.net.URL2toURI()éã
+KG K(a
+%8java.lang.String")java.net.URI#toString()Ljava/lang/String;*0
+
+__unknown_file (
+
+%7java.net.URI2
+toString()db
+K: K(F-
+%9'javax.xml.transform.stream.StreamSource"'javax.xml.transform.stream.StreamSource‹
+Ÿ
+K6 K(b
+%10"Cjavax.xml.transform.stream.StreamSource#<init>(Ljava/lang/String;)V*K
+
+__unknown_file (/
+-
+%9'javax.xml.transform.stream.StreamSource*4
+
+__unknown_file (
+
+%8java.lang.String„‡
+K K(c"
+%11javax.xml.validation.Schema"gjavax.xml.validation.SchemaFactory#newSchema(Ljavax/xml/transform/Source;)Ljavax/xml/validation/Schema;*Q
+
+__unknown_file (5
+3
+schemaFactory"javax.xml.validation.SchemaFactory*K
+
+__unknown_file (/
+-
+%9'javax.xml.transform.stream.StreamSource2'newSchema(Ljavax/xml/transform/Source;){
+y
+K K(d%
+schemajavax.xml.validation.Schema"__id*@
+
+__unknown_file ($
+"
+%11javax.xml.validation.Schema’“
+L L(%
+%12javax.xml.validation.Validator"Jjavax.xml.validation.Schema#newValidator()Ljavax/xml/validation/Validator;*C
+
+__unknown_file ('
+%
+schemajavax.xml.validation.Schema2newValidator()?=
+L< L(H
+%13java.io.StringReader"java.io.StringReader∏
+µ
+L8 L(M
+%14"0java.io.StringReader#<init>(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%13java.io.StringReader*5
+
+__unknown_file (
+
+xmljava.lang.Stringec
+L+ L(7.
+%15'javax.xml.transform.stream.StreamSource"'javax.xml.transform.stream.StreamSource‡
+›
+L' L(N
+%16"Ajavax.xml.transform.stream.StreamSource#<init>(Ljava/io/Reader;)V*L
+
+__unknown_file (0
+.
+%15'javax.xml.transform.stream.StreamSource*9
+
+__unknown_file (
+
+%13java.io.StringReaderùö
+L L(O
+%17void"Fjavax.xml.validation.Validator#validate(Ljavax/xml/transform/Source;)V*C
+
+__unknown_file ('
+%
+%12javax.xml.validation.Validator*L
+
+__unknown_file (0
+.
+%15'javax.xml.transform.stream.StreamSource2&validate(Ljavax/xml/transform/Source;)"
+N N(
+"":#
+F% F(6
+xmljava.lang.String:#
+F7 F(G
+xsdjava.lang.StringB;"9
+7com.fincatto.documentofiscal.validadores.DFXMLValidadorP

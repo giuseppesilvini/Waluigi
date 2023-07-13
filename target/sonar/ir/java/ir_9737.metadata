@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+==
+CteRecepcaoOSStub com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V

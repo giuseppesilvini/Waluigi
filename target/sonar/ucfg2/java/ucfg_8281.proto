@@ -1,0 +1,36 @@
+
+«com.fincatto.documentofiscal.nfe400.transformers.NFOperadoraCartaoTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFOperadoraCartao;)Ljava/lang/String; 
+•/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFOperadoraCartaoTransformer.java ("startingBlock*‚
+startingBlock (@È
+Å
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*s
+
+__unknown_file (W
+U
+operadoraCartaoBcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperadoraCartao–
+“
+0 (?U
+operadoraCartaoBcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperadoraCartao"__annotation*"
+
+__unknown_file (
+
+%1*
+1*¿
+1 (‰†
+ (*
+%0java.lang.String"`com.fincatto.documentofiscal.nfe400.classes.nota.NFOperadoraCartao#getCodigo()Ljava/lang/String;*s
+
+__unknown_file (W
+U
+operadoraCartaoBcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperadoraCartao2getCodigo()"$
+ (+
+
+%0java.lang.String:a
+ (?U
+operadoraCartaoBcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperadoraCartaoBQO
+Mcom.fincatto.documentofiscal.nfe400.transformers.NFOperadoraCartaoTransformerH

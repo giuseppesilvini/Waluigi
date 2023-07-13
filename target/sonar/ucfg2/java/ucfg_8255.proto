@@ -1,0 +1,32 @@
+
+¯com.fincatto.documentofiscal.mdfe3.webservices.WSFacade#consultaRecibo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultaRecibo/MDFeConsultaReciboRetorno;‹
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSFacade.java©% ©(3"1*¸
+1
+ª ª(Ë
+È
+
+ª ª($E
+%0?com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaRecibo"__id*m
+
+__unknown_file (Q*O9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacade"
+wsConsultaReciboíê
+
+ª ª(AY
+%1Scom.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaReciboRetorno"·com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaRecibo#consultaRecibo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultaRecibo/MDFeConsultaReciboRetorno;*c
+
+__unknown_file (G
+E
+%0?com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaRecibo*>
+
+__unknown_file ("
+ 
+numeroRecibojava.lang.String2"consultaRecibo(Ljava/lang/String;)"i
+
+ª ª(B[
+Y
+%1Scom.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaReciboRetorno:.
+
+©4 ©(M 
+numeroRecibojava.lang.StringB;9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacadeH

@@ -1,0 +1,71 @@
+
+icom.fincatto.documentofiscal.utils.DFPersister#read(Ljava/lang/Object;Ljava/io/Reader;)Ljava/lang/Object;€
+v/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/utils/DFPersister.javaG G("startingBlock*Ð
+startingBlockG G(-|
+z
+F F(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*(
+
+__unknown_file (
+
+
+valueTJ
+H
+G G(
+
+valueT"__annotation*"
+
+__unknown_file (
+
+%1‹
+ˆ
+F F(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+sourcejava.io.ReaderX
+V
+G& G(,
+sourcejava.io.Reader"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Ë
+1H H(¤
+¡
+H H(5
+%0T"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Object;Ljava/io/Reader;Z)Ljava/lang/Object;*"
+
+__unknown_file (
+""*(
+
+__unknown_file (
+
+
+valueT*6
+
+__unknown_file (
+
+sourcejava.io.Reader*"
+
+__unknown_file (
+"""
+H H(6	
+
+%0T:
+G G(
+
+valueT:$
+G G(,
+sourcejava.io.ReaderB20
+.com.fincatto.documentofiscal.utils.DFPersisterH

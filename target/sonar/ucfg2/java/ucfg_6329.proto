@@ -1,0 +1,36 @@
+
+×com.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoItemIndicadorExigibilidadeISSTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFNotaInfoItemIndicadorExigibilidadeISS;)Ljava/lang/String;¶
+«/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFNotaInfoItemIndicadorExigibilidadeISSTransformer.java ("startingBlock*±
+startingBlock (Wà
+Ý
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Š
+
+__unknown_file (n
+l
+exigibilidadeISSXcom.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemIndicadorExigibilidadeISS­
+ª
+F (Vl
+exigibilidadeISSXcom.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemIndicadorExigibilidadeISS"__annotation*"
+
+__unknown_file (
+
+%1*
+1*í
+1 (·´
+ (+
+%0java.lang.String"vcom.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemIndicadorExigibilidadeISS#getCodigo()Ljava/lang/String;*Š
+
+__unknown_file (n
+l
+exigibilidadeISSXcom.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemIndicadorExigibilidadeISS2getCodigo()"$
+ (,
+
+%0java.lang.String:x
+ (Vl
+exigibilidadeISSXcom.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemIndicadorExigibilidadeISSBge
+ccom.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoItemIndicadorExigibilidadeISSTransformerH

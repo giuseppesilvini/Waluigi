@@ -1,0 +1,76 @@
+
+îcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/NfeInutilizacao2Stub$NfeDadosMsg;ZLjavax/xml/namespace/QName;)Lorg/apache/axiom/soap/SOAPEnvelope;†
+ì/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/gerado/NfeInutilizacao2Stub.javaÚ/ Ú(9"1*Ü
+1
+ÙA Ù(H˜Ù
+
+ÙA Ù(](
+%0"org.apache.axiom.soap.SOAPEnvelope"Zorg.apache.axiom.soap.SOAPFactory#getDefaultEnvelope()Lorg/apache/axiom/soap/SOAPEnvelope;*J
+
+__unknown_file (.
+,
+factory!org.apache.axiom.soap.SOAPFactory2getDefaultEnvelope()í
+è
+
+Ù Ù(^3
+emptyEnvelope"org.apache.axiom.soap.SOAPEnvelope"__id*F
+
+__unknown_file (*
+(
+%0"org.apache.axiom.soap.SOAPEnvelope·ﬁ
+
+ı ı($
+%1org.apache.axiom.soap.SOAPBody"Lorg.apache.axiom.soap.SOAPEnvelope#getBody()Lorg/apache/axiom/soap/SOAPBody;*Q
+
+__unknown_file (5
+3
+emptyEnvelope"org.apache.axiom.soap.SOAPEnvelope2	getBody()Y
+W
+
+ı< ı(e
+%2javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""À»
+
+ı) ı(o#
+%3org.apache.axiom.om.OMElement"øcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeDadosMsg#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;*~
+
+__unknown_file (b
+`
+paramWcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeDadosMsg*=
+
+__unknown_file (!
+
+%2javax.xml.namespace.QName*J
+
+__unknown_file (.
+,
+factory!org.apache.axiom.soap.SOAPFactory2HgetOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)ìê
+
+ı ı(p
+
+%4void"Gorg.apache.axiom.om.OMContainer#addChild(Lorg/apache/axiom/om/OMNode;)V*B
+
+__unknown_file (&
+$
+%1org.apache.axiom.soap.SOAPBody*A
+
+__unknown_file (%
+#
+%3org.apache.axiom.om.OMElement2&addChild(Lorg/apache/axiom/om/OMNode;)"C
+
+ˆ ˆ(5
+3
+emptyEnvelope"org.apache.axiom.soap.SOAPEnvelope::
+
+Ú: Ú(j,
+factory!org.apache.axiom.soap.SOAPFactory:o
+Úk Ú(ò`
+paramWcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub$NfeDadosMsg: 
+
+__unknown_file (
+"":8
+Ú∏ Ú(„(
+methodQNamejavax.xml.namespace.QNameBOM
+Kcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeInutilizacao2Stub

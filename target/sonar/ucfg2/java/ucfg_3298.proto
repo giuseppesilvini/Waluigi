@@ -1,0 +1,39 @@
+
+Ocom.fincatto.documentofiscal.nfe310.classes.NFTipo#toString()Ljava/lang/String;„
+z/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFTipo.java ("1*¹
+1 (‹
+ˆ
+ (
+%0java.lang.String"__id*^
+
+__unknown_file (B*@4
+2com.fincatto.documentofiscal.nfe310.classes.NFTipo"
+codigoi
+g
+ (
+%1java.lang.String"__concat*$
+ (
+
+%0java.lang.String*
+ (
+ - Ž
+‹
+  ()
+%2java.lang.String"__id*a
+
+__unknown_file (E*C4
+2com.fincatto.documentofiscal.nfe310.classes.NFTipo"
+	descricaoz
+x
+ ()
+%3java.lang.String"__concat*$
+ (
+
+%1java.lang.String*$
+  ()
+
+%2java.lang.String"$
+ (*
+
+%3java.lang.StringB64
+2com.fincatto.documentofiscal.nfe310.classes.NFTipoH

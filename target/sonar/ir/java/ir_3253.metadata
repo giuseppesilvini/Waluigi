@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/enviolote/consulta/CTeConsultaRecLote;
+com.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote#<init>()V
+com.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote#instance-init#

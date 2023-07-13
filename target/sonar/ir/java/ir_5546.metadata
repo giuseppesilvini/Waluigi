@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe310.classes.NFFinalidade#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFFinalidade;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe310.classes.NFFinalidade#getCodigo()Ljava/lang/String;

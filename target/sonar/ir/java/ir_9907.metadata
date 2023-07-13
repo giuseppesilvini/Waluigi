@@ -1,0 +1,7 @@
+com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;ZLcom/fincatto/documentofiscal/DFConfig;)V
+org.apache.axis2.client.ServiceClient#<init>(Lorg/apache/axis2/context/ConfigurationContext;Lorg/apache/axis2/description/AxisService;)V
+com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub#populateFaults()V
+org.apache.axis2.addressing.EndpointReference#instance-init#
+org.apache.axis2.addressing.EndpointReference#<init>(Ljava/lang/String;)V
+org.apache.axis2.client.ServiceClient#instance-init#
+com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub#populateAxisService()V

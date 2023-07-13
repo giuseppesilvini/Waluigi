@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.mdfe3.webservices.WSIncluirCondutor#incluirCondutor(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;
+com.fincatto.documentofiscal.mdfe3.webservices.WSIncluirCondutor#gerarDadosEncerramento(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeEvento;
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#instance-init#
+com.fincatto.documentofiscal.mdfe3.webservices.WSIncluirCondutor#efetuaIncluirCondutor(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V

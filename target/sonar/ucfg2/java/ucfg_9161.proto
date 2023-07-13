@@ -1,0 +1,66 @@
+
+Âcom.fincatto.documentofiscal.nfe310.webservices.WSCartaCorrecao#corrigeNotaAssinada(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/NFEnviaEventoRetorno;’
+‡/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/WSCartaCorrecao.java/ /(,"1*ª
+10* 0(.­
+ª
+0* 0(]#
+%0org.apache.axiom.om.OMElement"“com.fincatto.documentofiscal.nfe310.webservices.WSCartaCorrecao#efetuaCorrecao(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*_
+
+__unknown_file (CA
+?com.fincatto.documentofiscal.nfe310.webservices.WSCartaCorrecao*C
+
+__unknown_file ('
+%
+eventoAssinadoXmljava.lang.String*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.Stringˆ
+…
+0 0(^0
+omElementResultorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%0org.apache.axiom.om.OMElement²
+¯
+1 1(0
+%1*com.fincatto.documentofiscal.nfe.NFeConfig"__id*k
+
+__unknown_file (O*MA
+?com.fincatto.documentofiscal.nfe310.webservices.WSCartaCorrecao"
+configùö
+1 1(),
+%2&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*N
+
+__unknown_file (2
+0
+%1*com.fincatto.documentofiscal.nfe.NFeConfig2getPersister()½º
+1K 1(e
+%3java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+omElementResultorg.apache.axiom.om.OMElement2
+toString()‘Ž
+1 1(fM
+%4Gcom.fincatto.documentofiscal.nfe310.classes.evento.NFEnviaEventoRetorno"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*J
+
+__unknown_file (.
+,
+%2&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%3java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)"[
+1 1(gO
+M
+%4Gcom.fincatto.documentofiscal.nfe310.classes.evento.NFEnviaEventoRetorno:+
+/- /(F
+chaveAcessojava.lang.String:1
+/G /(e%
+eventoAssinadoXmljava.lang.StringBCA
+?com.fincatto.documentofiscal.nfe310.webservices.WSCartaCorrecao

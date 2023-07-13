@@ -1,0 +1,46 @@
+
+πcom.fincatto.documentofiscal.nfe310.transformers.NFNotaMotivoDesoneracaoICMSTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaMotivoDesoneracaoICMS;™
+ü/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFNotaMotivoDesoneracaoICMSTransformer.java	' 	(+"startingBlock*ä
+startingBlock	+ 	(@ç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	9 	(?
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*°
+1
+ 
+(*¥
+±
+
+ 
+(@M
+%0Gcom.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS"≤com.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaMotivoDesoneracaoICMS;*g
+
+__unknown_file (K"I
+Gcom.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS*8
+
+__unknown_file (
+
+codigojava.lang.String"[
+
+ 
+(AO
+M
+%0Gcom.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS:&
+	, 	(?
+codigojava.lang.StringB[Y
+Wcom.fincatto.documentofiscal.nfe310.transformers.NFNotaMotivoDesoneracaoICMSTransformerH

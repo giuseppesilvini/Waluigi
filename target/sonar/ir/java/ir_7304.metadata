@@ -1,0 +1,8 @@
+com.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20#sha256(Ljava/lang/String;)Ljava/lang/String;
+java.lang.Integer#toString(II)Ljava/lang/String;
+java.lang.String#toUpperCase()Ljava/lang/String;
+java.lang.StringBuilder#instance-init#
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+java.lang.StringBuilder#<init>()V
+java.lang.StringBuilder#toString()Ljava/lang/String;

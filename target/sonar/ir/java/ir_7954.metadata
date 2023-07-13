@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoPagamento#setDetalhamentoFormasPagamento(Ljava/util/List;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoPagamento;
+com.fincatto.documentofiscal.validadores.DFListValidador#tamanho100(Ljava/util/List;Ljava/lang/String;)V

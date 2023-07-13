@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTClasseTarifaTransformer#write(Lcom/fincatto/documentofiscal/cte300/classes/CTClasseTarifa;)Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.classes.CTClasseTarifa#getCodigo()Ljava/lang/String;

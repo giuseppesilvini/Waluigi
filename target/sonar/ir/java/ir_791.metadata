@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoRegimeEspecialTributacao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFNotaInfoRegimeEspecialTributacao;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoRegimeEspecialTributacao#getCodigo()Ljava/lang/String;

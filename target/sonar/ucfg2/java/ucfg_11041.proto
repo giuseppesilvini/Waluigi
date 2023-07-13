@@ -1,0 +1,40 @@
+
+Ícom.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoRegimeEspecialTributacaoTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoRegimeEspecialTributacao;)Ljava/lang/String;±
+¦/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFNotaInfoRegimeEspecialTributacaoTransformer.java ("startingBlock*š
+startingBlock (LÔ
+Ñ
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*
+
+__unknown_file (c
+a
+
+tributacaoScom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoRegimeEspecialTributacao¢
+Ÿ
+A (Ka
+
+tributacaoScom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoRegimeEspecialTributacao"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ü
+1 (¦£
+ (%
+%0java.lang.String"qcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoRegimeEspecialTributacao#getCodigo()Ljava/lang/String;*
+
+__unknown_file (c
+a
+
+tributacaoScom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoRegimeEspecialTributacao2getCodigo()"$
+ (&
+
+%0java.lang.String:m
+ (Ka
+
+tributacaoScom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoRegimeEspecialTributacaoBb`
+^com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoRegimeEspecialTributacaoTransformerH

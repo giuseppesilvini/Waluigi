@@ -1,0 +1,46 @@
+
+£com.fincatto.documentofiscal.nfe400.transformers.NFOrigemProcessoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFOrigemProcesso;ü
+î/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFOrigemProcessoTransformer.java	 	( "startingBlock*ä
+startingBlock	  	(5ç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	. 	(4
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Í
+1
+ 
+(à
+Ö
+
+ 
+(5B
+%0<com.fincatto.documentofiscal.nfe400.classes.NFOrigemProcesso"úcom.fincatto.documentofiscal.nfe400.classes.NFOrigemProcesso#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFOrigemProcesso;*\
+
+__unknown_file (@">
+<com.fincatto.documentofiscal.nfe400.classes.NFOrigemProcesso*8
+
+__unknown_file (
+
+codigojava.lang.String"P
+
+ 
+(6D
+B
+%0<com.fincatto.documentofiscal.nfe400.classes.NFOrigemProcesso:&
+	! 	(4
+codigojava.lang.StringBPN
+Lcom.fincatto.documentofiscal.nfe400.transformers.NFOrigemProcessoTransformerH

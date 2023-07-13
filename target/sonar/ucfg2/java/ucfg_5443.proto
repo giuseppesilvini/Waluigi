@@ -1,0 +1,39 @@
+
+…com.fincatto.documentofiscal.nfe400.webservices.WSFacade#manifestaDestinatarioNotaAssinada(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/NFEnviaEventoRetorno;ç
+Ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSFacade.java”  ”(A"1*»
+1
+‘ ‘(·
+ﬁ
+
+‘ ‘(.P
+%0Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario"__id*x
+
+__unknown_file (\*Z:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacade"
+wSManifestacaoDestinatarioÛ
+
+‘ ‘(jM
+%1Gcom.fincatto.documentofiscal.nfe400.classes.evento.NFEnviaEventoRetorno"€com.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario#manifestaDestinatarioNotaAssinada(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/NFEnviaEventoRetorno;*n
+
+__unknown_file (R
+P
+%0Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario*7
+
+__unknown_file (
+
+chavejava.lang.String*C
+
+__unknown_file ('
+%
+eventoAssinadoXmljava.lang.String2GmanifestaDestinatarioNotaAssinada(Ljava/lang/String;Ljava/lang/String;)"]
+
+‘ ‘(kO
+M
+%1Gcom.fincatto.documentofiscal.nfe400.classes.evento.NFEnviaEventoRetorno:'
+
+”B ”(U
+chavejava.lang.String:3
+
+”V ”(t%
+eventoAssinadoXmljava.lang.StringB<:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacadeH

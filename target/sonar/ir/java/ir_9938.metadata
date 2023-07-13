@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFIndicadorFormaPagamentoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFIndicadorFormaPagamento;
+com.fincatto.documentofiscal.nfe400.classes.NFIndicadorFormaPagamento#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFIndicadorFormaPagamento;

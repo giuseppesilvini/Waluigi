@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFTipoIntegracaoPagamentoTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFTipoIntegracaoPagamento;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.nota.NFTipoIntegracaoPagamento#getCodigo()Ljava/lang/String;

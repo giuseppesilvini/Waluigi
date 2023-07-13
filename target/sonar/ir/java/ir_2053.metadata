@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.cte300.classes.CTAutorizador31#valueOfTipoEmissao(Lcom/fincatto/documentofiscal/cte300/classes/CTTipoEmissao;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/cte300/classes/CTAutorizador31;
+com.fincatto.documentofiscal.cte300.classes.CTAutorizador31#valueOfCodigoUF(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/cte300/classes/CTAutorizador31;
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.IllegalArgumentException#instance-init#
+com.fincatto.documentofiscal.cte300.classes.CTTipoEmissao#getDescricao()Ljava/lang/String;

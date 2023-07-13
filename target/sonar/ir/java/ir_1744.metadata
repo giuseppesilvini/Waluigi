@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao#getXmlAssinado(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#instance-init#
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V
+==
+gerarDadosCartaCorrecao com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao#gerarDadosCartaCorrecao(Ljava/lang/String;Ljava/lang/String;I)Lcom/fincatto/documentofiscal/nfe400/classes/evento/cartacorrecao/NFEnviaEventoCartaCorrecao;

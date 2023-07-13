@@ -1,0 +1,150 @@
+
+çcom.fincatto.documentofiscal.nfe400.webservices.WSStatusConsulta#consultaStatus(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe400/classes/statusservico/consulta/NFStatusServicoConsultaRetorno;ì
+à/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSStatusConsulta.java# (1"1*Æ"
+1, (5ç
+ä
+A (\`
+%0Zcom.fincatto.documentofiscal.nfe400.classes.statusservico.consulta.NFStatusServicoConsulta"„com.fincatto.documentofiscal.nfe400.webservices.WSStatusConsulta#gerarDadosConsulta(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe400/classes/statusservico/consulta/NFStatusServicoConsulta;*`
+
+__unknown_file (DB
+@com.fincatto.documentofiscal.nfe400.webservices.WSStatusConsulta*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativaÛ
+A (g
+%1java.lang.String"@com.fincatto.documentofiscal.DFBase#toString()Ljava/lang/String;*~
+
+__unknown_file (b
+`
+%0Zcom.fincatto.documentofiscal.nfe400.classes.statusservico.consulta.NFStatusServicoConsulta2
+toString()é
+ã
+, (h#
+%2org.apache.axiom.om.OMElement"`org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*B
+
+__unknown_file (&"$
+"org.apache.axiom.om.util.AXIOMUtil*4
+
+__unknown_file (
+
+%1java.lang.Stringä
+á
+ (i2
+omElementConsultaorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%2org.apache.axiom.om.OMElement÷”
+ (
+%3org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*`
+
+__unknown_file (DB
+@com.fincatto.documentofiscal.nfe400.webservices.WSStatusConsulta2getLogger()øº
+ (;
+%4java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*P
+
+__unknown_file (4
+2
+omElementConsultaorg.apache.axiom.om.OMElement2
+toString()Õ 
+ (<
+
+%5void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%3org.slf4j.Logger*4
+
+__unknown_file (
+
+%4java.lang.String2debug(Ljava/lang/String;)¸
+˘
+* (b#
+%6org.apache.axiom.om.OMElement"Ócom.fincatto.documentofiscal.nfe400.webservices.WSStatusConsulta#efetuaConsultaStatus(Lorg/apache/axiom/om/OMElement;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Lcom/fincatto/documentofiscal/DFModelo;)Lorg/apache/axiom/om/OMElement;*`
+
+__unknown_file (DB
+@com.fincatto.documentofiscal.nfe400.webservices.WSStatusConsulta*P
+
+__unknown_file (4
+2
+omElementConsultaorg.apache.axiom.om.OMElement*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa*M
+
+__unknown_file (1
+/
+modelo%com.fincatto.documentofiscal.DFModeloà
+Ö
+ (c0
+omElementResultorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%6org.apache.axiom.om.OMElement÷”
+ (
+%7org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*`
+
+__unknown_file (DB
+@com.fincatto.documentofiscal.nfe400.webservices.WSStatusConsulta2getLogger()Ω∫
+ (9
+%8java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+omElementResultorg.apache.axiom.om.OMElement2
+toString()Õ 
+ (:
+
+%9void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%7org.slf4j.Logger*4
+
+__unknown_file (
+
+%8java.lang.String2debug(Ljava/lang/String;)¥
+±
+   (1
+%10*com.fincatto.documentofiscal.nfe.NFeConfig"__id*l
+
+__unknown_file (P*NB
+@com.fincatto.documentofiscal.nfe400.webservices.WSStatusConsulta"
+config˚¯
+   ()-
+%11&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*O
+
+__unknown_file (3
+1
+%10*com.fincatto.documentofiscal.nfe.NFeConfig2getPersister()æª
+ U  (o
+%12java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+omElementResultorg.apache.axiom.om.OMElement2
+toString()Æ´
+   (ph
+%13acom.fincatto.documentofiscal.nfe400.classes.statusservico.consulta.NFStatusServicoConsultaRetorno"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*K
+
+__unknown_file (/
+-
+%11&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+%12java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)"v
+   (qj
+h
+%13acom.fincatto.documentofiscal.nfe400.classes.statusservico.consulta.NFStatusServicoConsultaRetorno:B
+2 (O6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa:;
+P (e/
+modelo%com.fincatto.documentofiscal.DFModeloBDB
+@com.fincatto.documentofiscal.nfe400.webservices.WSStatusConsulta

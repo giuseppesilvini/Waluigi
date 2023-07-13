@@ -1,0 +1,26 @@
+
+Kcom.fincatto.documentofiscal.nfe310.classes.NFRetornoStatus#isAutorizado()Zê
+É/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFRetornoStatus.javaÖ Ö("1*Û
+1
+Ü Ü(N
+L
+
+Ü Ü(*
+%0java.util.List"__id*"
+
+__unknown_file (
+""˚¯
+
+Ü Ü(9
+%1boolean",java.util.List#contains(Ljava/lang/Object;)Z*2
+
+__unknown_file (
+
+%0java.util.List*[
+
+__unknown_file (?=
+;com.fincatto.documentofiscal.nfe310.classes.NFRetornoStatus2contains(Ljava/lang/Object;)"
+
+Ü Ü(:
+""B?=
+;com.fincatto.documentofiscal.nfe310.classes.NFRetornoStatusHP

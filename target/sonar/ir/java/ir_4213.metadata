@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.transformers.MDFTipoUnidadeCargaTransformer#write(Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoUnidadeCarga;)Ljava/lang/String;
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoUnidadeCarga#getCodigo()Ljava/lang/String;

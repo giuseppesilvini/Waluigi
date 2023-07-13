@@ -1,0 +1,75 @@
+
+¦com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoTipoVeiculo;”
+‰/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFNotaInfoTipoVeiculo.java"( "(5"5*œ
+2# #(4‰
+†
+# #(4P
+tipoVeiculoAcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo"__id*"
+
+__unknown_file (
+""ø
+õ
+# #(4P
+tipoVeiculoAcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo"
+__arrayGet*g
+
+__unknown_file (K
+I
+%0Ccom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo[]*"
+
+__unknown_file (
+""*
+4
+1*m
+3% %(""^
+% %(#R
+P
+tipoVeiculoAcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo*Ä
+4$ $(ƒ€
+$ $('
+%1java.lang.String"_com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo#getCodigo()Ljava/lang/String;*n
+
+__unknown_file (R
+P
+tipoVeiculoAcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo2getCodigo()Ñ
+Î
+$/ $(P
+%2java.lang.String"eorg.apache.commons.lang3.StringUtils#leftPad(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;*D
+
+__unknown_file (("&
+$org.apache.commons.lang3.StringUtils*8
+
+__unknown_file (
+
+codigojava.lang.String* 
+
+__unknown_file (2*!
+
+__unknown_file (
+0ÒÏ
+$ $(Q
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String2equals(Ljava/lang/Object;)*
+2
+3*á
+5#7 #(LÌ
+É
+#7 #(UI
+%0Ccom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo[]"Žcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo#values()[Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoTipoVeiculo;*a
+
+__unknown_file (E"C
+Acom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo*
+2*!
+1( (("
+( ((
+"":&
+"6 "(I
+codigojava.lang.StringBE"C
+Acom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculoH

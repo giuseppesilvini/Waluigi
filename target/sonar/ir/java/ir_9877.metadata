@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.mdfe3.webservices.WSEncerramento#encerraMdfe(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;
+com.fincatto.documentofiscal.mdfe3.webservices.WSEncerramento#gerarDadosEncerramento(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeEvento;
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#instance-init#
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V
+com.fincatto.documentofiscal.mdfe3.webservices.WSEncerramento#efetuaEncerramento(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFIndicadorEscalaRelevanteTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFIndicadorEscalaRelevante;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorEscalaRelevante#getCodigo()Ljava/lang/String;

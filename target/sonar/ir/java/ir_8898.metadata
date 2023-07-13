@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSFacade#enviaLote(Lcom/fincatto/documentofiscal/nfe310/classes/lote/envio/NFLoteEnvio;)Lcom/fincatto/documentofiscal/nfe310/classes/lote/envio/NFLoteEnvioRetornoDados;
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.IllegalArgumentException#instance-init#

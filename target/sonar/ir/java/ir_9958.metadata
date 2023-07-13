@@ -1,0 +1,7 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSEpec#nfeToOMElement(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+javax.xml.stream.XMLInputFactory#newInstance()Ljavax/xml/stream/XMLInputFactory;
+java.io.StringReader#instance-init#
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.io.StringReader#<init>(Ljava/lang/String;)V
+org.apache.axiom.om.impl.builder.StAXOMBuilder#<init>(Ljavax/xml/stream/XMLStreamReader;)V
+org.apache.axiom.om.impl.builder.StAXOMBuilder#instance-init#

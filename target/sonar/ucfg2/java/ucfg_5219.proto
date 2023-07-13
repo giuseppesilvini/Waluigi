@@ -1,0 +1,49 @@
+
+com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400$16#getConsultaCadastro(Lcom/fincatto/documentofiscal/DFAmbiente;)Ljava/lang/String;‘
+„/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFAutorizador400.javaÒ
+ Ò
+()"startingBlock*Â
+startingBlock
+Ò
+) Ò
+(>¨
+¥
+
+Ñ
+ Ñ
+(
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Q
+
+__unknown_file (5
+3
+ambiente'com.fincatto.documentofiscal.DFAmbienteu
+s
+
+Ò
+5 Ò
+(=3
+ambiente'com.fincatto.documentofiscal.DFAmbiente"__annotation*"
+
+__unknown_file (
+
+%0*
+1*%
+1
+Ó
+ Ó
+("
+
+Ó
+ Ó
+(
+"":A
+
+Ò
+* Ò
+(=3
+ambiente'com.fincatto.documentofiscal.DFAmbienteBCA
+?com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400$16H

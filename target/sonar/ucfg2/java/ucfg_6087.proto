@@ -1,0 +1,46 @@
+
+ºcom.fincatto.documentofiscal.nfe310.transformers.NFTipoIntegracaoPagamentoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFTipoIntegracaoPagamento;¨
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFTipoIntegracaoPagamentoTransformer.java	% 	()"startingBlock*Š
+startingBlock	) 	(>
+Š
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	7 	(=
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*°
+1
+ 
+((À
+½
+
+ 
+(>P
+%0Jcom.fincatto.documentofiscal.nfe310.classes.nota.NFTipoIntegracaoPagamento"¸com.fincatto.documentofiscal.nfe310.classes.nota.NFTipoIntegracaoPagamento#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFTipoIntegracaoPagamento;*j
+
+__unknown_file (N"L
+Jcom.fincatto.documentofiscal.nfe310.classes.nota.NFTipoIntegracaoPagamento*8
+
+__unknown_file (
+
+codigojava.lang.String"^
+
+ 
+(?R
+P
+%0Jcom.fincatto.documentofiscal.nfe310.classes.nota.NFTipoIntegracaoPagamento:&
+	* 	(=
+codigojava.lang.StringBYW
+Ucom.fincatto.documentofiscal.nfe310.transformers.NFTipoIntegracaoPagamentoTransformerH

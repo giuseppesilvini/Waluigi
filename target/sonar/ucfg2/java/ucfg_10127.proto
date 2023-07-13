@@ -1,0 +1,43 @@
+
+¶com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;)Lorg/apache/axiom/soap/SOAPEnvelope;ß
+ö/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/statusservico/MDFeStatusServicoStub.javaë/ ë(9"startingBlock*º
+startingBlock
+ë9 ë(j©
+¶
+
+ê ê(
+%1"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*J
+
+__unknown_file (.
+,
+factory!org.apache.axiom.soap.SOAPFactoryn
+l
+
+ëb ë(i,
+factory!org.apache.axiom.soap.SOAPFactory"__annotation*"
+
+__unknown_file (
+
+%1*
+1*√
+1
+í í(˜Ù
+
+í í(+(
+%0"org.apache.axiom.soap.SOAPEnvelope"Zorg.apache.axiom.soap.SOAPFactory#getDefaultEnvelope()Lorg/apache/axiom/soap/SOAPEnvelope;*J
+
+__unknown_file (.
+,
+factory!org.apache.axiom.soap.SOAPFactory2getDefaultEnvelope()"8
+
+í í(,*
+(
+%0"org.apache.axiom.soap.SOAPEnvelope::
+
+ë: ë(i,
+factory!org.apache.axiom.soap.SOAPFactoryBVT
+Rcom.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub

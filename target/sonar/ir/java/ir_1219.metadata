@@ -1,0 +1,8 @@
+com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31#valueOfCodigoUF(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe310/classes/NFAutorizador31;
+java.lang.IllegalStateException#instance-init#
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigo()Ljava/lang/String;
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+==
+getUFs com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31#getUFs()[Lcom/fincatto/documentofiscal/DFUnidadeFederativa;

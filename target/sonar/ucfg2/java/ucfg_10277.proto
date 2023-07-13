@@ -1,0 +1,48 @@
+
+„com.fincatto.documentofiscal.validadores.DFListValidador#validaListaObrigatoria(Ljava/util/List;ILjava/lang/String;)Ljava/util/List;‹
+€/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/validadores/DFListValidador.java> >(4"1*ƒ
+1? ?(Õ
+Ò
+? ?((
+
+%0void"qcom.fincatto.documentofiscal.validadores.DFListValidador#validaEstadoDaLista(Ljava/util/List;Ljava/lang/String;)V*X
+
+__unknown_file (<":
+8com.fincatto.documentofiscal.validadores.DFListValidador*5
+
+__unknown_file (
+
+listajava.util.List*6
+
+__unknown_file (
+
+infojava.lang.Stringô
+ñ
+@ @(+
+
+%1void"lcom.fincatto.documentofiscal.validadores.DFListValidador#validaTamanho(Ljava/util/List;ILjava/lang/String;)V*X
+
+__unknown_file (<":
+8com.fincatto.documentofiscal.validadores.DFListValidador*5
+
+__unknown_file (
+
+listajava.util.List*"
+
+__unknown_file (
+""*6
+
+__unknown_file (
+
+infojava.lang.String"%
+A A(
+
+listajava.util.List:#
+>5 >(I
+listajava.util.List: 
+
+__unknown_file (
+"":$
+>] >(n
+infojava.lang.StringB<":
+8com.fincatto.documentofiscal.validadores.DFListValidadorH

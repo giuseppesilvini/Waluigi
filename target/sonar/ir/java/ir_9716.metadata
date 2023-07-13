@@ -1,0 +1,12 @@
+com.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub#startmdfeRecepcaoEvento(Lcom/fincatto/documentofiscal/mdfe3/webservices/recepcaoevento/MDFeRecepcaoEventoStub$MdfeDadosMsg;Lcom/fincatto/documentofiscal/mdfe3/webservices/recepcaoevento/MDFeRecepcaoEventoStub$MdfeCabecMsgE;Lcom/fincatto/documentofiscal/mdfe3/webservices/recepcaoevento/MDFeRecepcaoEventoCallbackHandler;)V
+org.apache.axis2.util.CallbackReceiver#instance-init#
+org.apache.axis2.util.CallbackReceiver#<init>()V
+org.apache.axis2.client.Stub#getFactory(Ljava/lang/String;)Lorg/apache/axiom/soap/SOAPFactory;
+com.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub#toOM(Lcom/fincatto/documentofiscal/mdfe3/webservices/recepcaoevento/MDFeRecepcaoEventoStub$MdfeCabecMsgE;Z)Lorg/apache/axiom/om/OMElement;
+org.apache.axis2.client.OperationClient#execute(Z)V
+javax.xml.namespace.QName#instance-init#
+com.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;Lcom/fincatto/documentofiscal/mdfe3/webservices/recepcaoevento/MDFeRecepcaoEventoStub$MdfeDadosMsg;ZLjavax/xml/namespace/QName;)Lorg/apache/axiom/soap/SOAPEnvelope;
+javax.xml.namespace.QName#<init>(Ljava/lang/String;Ljava/lang/String;)V
+com.fincatto.documentofiscal.utils.MessageContextFactory#create(Lcom/fincatto/documentofiscal/DFConfig;)Lorg/apache/axis2/context/MessageContext;
+org.apache.axis2.client.OperationClient#setCallback(Lorg/apache/axis2/client/async/AxisCallback;)V
+com.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub#optimizeContent(Ljavax/xml/namespace/QName;)Z

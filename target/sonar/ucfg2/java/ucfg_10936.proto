@@ -1,0 +1,42 @@
+
+com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub#getUniqueSuffix()Ljava/lang/String;®
+£/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub.java-' -(6"1*©
+13 3(q
+o
+5 5(7
+
+%0long"%java.lang.System#currentTimeMillis()J*0
+
+__unknown_file ("
+java.lang.System­
+ª
+5 5(8
+%1java.lang.String",java.lang.Long#toString(J)Ljava/lang/String;*.
+
+__unknown_file ("
+java.lang.Long*(
+
+__unknown_file (
+
+
+%0longg
+e
+5 6(
+%2java.lang.String"__concat*$
+5 5(8
+
+%1java.lang.String*
+6 6(
+_h
+f
+5 6(
+%3java.lang.String"__concat*$
+5 6(
+
+%2java.lang.String*
+6 6(
+"""$
+5 6(
+
+%3java.lang.StringB_"]
+[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub

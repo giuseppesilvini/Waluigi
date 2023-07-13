@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFViaTransporteInternacionalTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFViaTransporteInternacional;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.nota.NFViaTransporteInternacional#getCodigo()Ljava/lang/String;

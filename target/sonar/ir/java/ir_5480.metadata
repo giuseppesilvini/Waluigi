@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.webservices.recepcaoevento.RecepcaoEventoStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+==
+RecepcaoEventoStub com.fincatto.documentofiscal.cte300.webservices.recepcaoevento.RecepcaoEventoStub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V

@@ -1,0 +1,40 @@
+
+³com.fincatto.documentofiscal.mdfe3.transformers.MDFModalidadeTransporteTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFModalidadeTransporte;¥
+š/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/transformers/MDFModalidadeTransporteTransformer.java# ('"startingBlock*ˆ
+startingBlock' (5Œ
+‰
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+valuejava.lang.StringY
+W
+/ (4
+valuejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*›
+1 (&¯
+¬
+ (;L
+%0Fcom.fincatto.documentofiscal.mdfe3.classes.def.MDFModalidadeTransporte"°com.fincatto.documentofiscal.mdfe3.classes.def.MDFModalidadeTransporte#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFModalidadeTransporte;*f
+
+__unknown_file (J"H
+Fcom.fincatto.documentofiscal.mdfe3.classes.def.MDFModalidadeTransporte*7
+
+__unknown_file (
+
+valuejava.lang.String"Z
+ (<N
+L
+%0Fcom.fincatto.documentofiscal.mdfe3.classes.def.MDFModalidadeTransporte:%
+( (4
+valuejava.lang.StringBVT
+Rcom.fincatto.documentofiscal.mdfe3.transformers.MDFModalidadeTransporteTransformerH

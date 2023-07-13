@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTTipoFerroviaTransformer#write(Lcom/fincatto/documentofiscal/cte300/classes/CTTipoFerrovia;)Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.classes.CTTipoFerrovia#getCodigo()Ljava/lang/String;

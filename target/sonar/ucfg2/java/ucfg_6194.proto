@@ -1,0 +1,67 @@
+
+écom.fincatto.documentofiscal.cte300.webservices.WSFacade#getXmlAssinadoInutilizacao(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Ljava/lang/String;
+€/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/WSFacade.java› ›(,"1*»	
+1
+œ œ(É
+Æ
+
+œ œ("D
+%0>com.fincatto.documentofiscal.cte300.webservices.WSInutilizacao"__id*l
+
+__unknown_file (P*N:
+8com.fincatto.documentofiscal.cte300.webservices.WSFacade"
+wsInutilizacao´±
+œ œ(“
+%1java.lang.String"ãcom.fincatto.documentofiscal.cte300.webservices.WSInutilizacao#getXmlAssinado(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Ljava/lang/String;*b
+
+__unknown_file (F
+D
+%0>com.fincatto.documentofiscal.cte300.webservices.WSInutilizacao*"
+
+__unknown_file (
+""*>
+
+__unknown_file ("
+ 
+cnpjEmitentejava.lang.String*7
+
+__unknown_file (
+
+seriejava.lang.String*?
+
+__unknown_file (#
+!
+numeroInicialjava.lang.String*=
+
+__unknown_file (!
+
+numeroFinaljava.lang.String*?
+
+__unknown_file (#
+!
+justificativajava.lang.String*M
+
+__unknown_file (1
+/
+modelo%com.fincatto.documentofiscal.DFModelo2’getXmlAssinado(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)"'
+œ œ(”
+
+%1java.lang.String: 
+
+__unknown_file (
+"":.
+
+›Q ›(k 
+cnpjEmitentejava.lang.String:'
+
+›l ›(
+seriejava.lang.String:1
+›€ ›(›!
+numeroInicialjava.lang.String:/
+›œ ›(µ
+numeroFinaljava.lang.String:1
+›¶ ›(Ñ!
+justificativajava.lang.String:?
+›Ò ›(ç/
+modelo%com.fincatto.documentofiscal.DFModeloB<:
+8com.fincatto.documentofiscal.cte300.webservices.WSFacadeH

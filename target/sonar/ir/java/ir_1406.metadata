@@ -1,0 +1,13 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSLoteEnvio#comunicaLote(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe310/classes/lote/envio/NFLoteEnvioRetorno;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31#valueOfTipoEmissao(Lcom/fincatto/documentofiscal/nfe/NFTipoEmissao;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe310/classes/NFAutorizador31;
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeDadosMsg#<init>()V
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.Enum#name()Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeDadosMsg#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.WSLoteEnvio#getCabecalhoSOAP()Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/NfeAutorizacaoStub$NfeCabecMsgE;
+java.lang.IllegalArgumentException#instance-init#
+com.fincatto.documentofiscal.validadores.DFXMLValidador#validaLote(Ljava/lang/String;)Z
+com.fincatto.documentofiscal.nfe310.webservices.WSLoteEnvio#nfeToOMElement(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;

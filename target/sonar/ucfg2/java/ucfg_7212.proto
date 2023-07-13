@@ -1,0 +1,39 @@
+
+com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRetAutorizacao4Stub$NfeResultMsg#generatePrefix(Ljava/lang/String;)Ljava/lang/String;¢
+•/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/gerado/NFeRetAutorizacao4Stub.javaÌ( Ì(6"3*&
+2
+Î Î("
+
+Î Î(
+ns1*›
+3
+Í Í(þ
+
+Í Í(^
+%0boolean",java.lang.String#equals(Ljava/lang/Object;)Z*;
+
+__unknown_file (
+
+	namespacejava.lang.String*Z
+
+__unknown_file (><
+:http://www.portalfiscal.inf.br/nfe/wsdl/NFeRetAutorizacao42equals(Ljava/lang/Object;)*
+2
+1*ÿ
+1
+Ð Ð(Å
+Â
+
+Ð Ð(P
+%1java.lang.String"Oorg.apache.axis2.databinding.utils.BeanUtil#getUniquePrefix()Ljava/lang/String;*K
+
+__unknown_file (/"-
++org.apache.axis2.databinding.utils.BeanUtil"&
+
+Ð Ð(Q
+
+%1java.lang.String:+
+
+Ì7 Ì(W
+	namespacejava.lang.StringB^"\
+Zcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRetAutorizacao4Stub$NfeResultMsg

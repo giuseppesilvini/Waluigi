@@ -1,0 +1,48 @@
+
+†com.fincatto.documentofiscal.cte300.transformes.CTTipoImpressaoTransformes#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoImpressao;ù
+í/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/transformes/CTTipoImpressaoTransformes.java
+ 
+("startingBlock*Ü
+startingBlock
+ 
+(,ã
+à
+	 	(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+arg0java.lang.StringX
+V
+
+' 
+(+
+arg0java.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*„
+1 (Ç
+ˇ
+ (2A
+%0;com.fincatto.documentofiscal.cte300.classes.CTTipoImpressao"öcom.fincatto.documentofiscal.cte300.classes.CTTipoImpressao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoImpressao;*[
+
+__unknown_file (?"=
+;com.fincatto.documentofiscal.cte300.classes.CTTipoImpressao*6
+
+__unknown_file (
+
+arg0java.lang.String"O
+ (3C
+A
+%0;com.fincatto.documentofiscal.cte300.classes.CTTipoImpressao:$
+
+  
+(+
+arg0java.lang.StringBNL
+Jcom.fincatto.documentofiscal.cte300.transformes.CTTipoImpressaoTransformesH

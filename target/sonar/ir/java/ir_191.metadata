@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.utils.DFSocketFactory#createKeyManagers(Lcom/fincatto/documentofiscal/DFConfig;)[Ljavax/net/ssl/KeyManager;
+com.fincatto.documentofiscal.utils.DFKeyManager#instance-init#
+com.fincatto.documentofiscal.utils.DFKeyManager#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V

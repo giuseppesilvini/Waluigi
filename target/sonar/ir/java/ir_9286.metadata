@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.mdfe3.classes.MDFRetornoStatus#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/MDFRetornoStatus;
+java.lang.Integer#parseInt(Ljava/lang/String;)I
+com.fincatto.documentofiscal.mdfe3.classes.MDFRetornoStatus#valueOfCodigo(I)Lcom/fincatto/documentofiscal/mdfe3/classes/MDFRetornoStatus;

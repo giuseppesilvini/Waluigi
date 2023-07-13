@@ -1,0 +1,110 @@
+
+Õcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeAutorizacaoLoteZipResult#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;û
+ë/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/gerado/NfeAutorizacaoStub.javaÙ- Ù(9"startingBlock*ª
+startingBlockÙ9 Ù(ìù
+ö
+
+Û Û(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*F
+
+__unknown_file (*
+(
+parentQNamejavax.xml.namespace.QNamej
+h
+
+ÙZ Ù(e(
+parentQNamejavax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%5ù
+ö
+
+Û Û(
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*F
+
+__unknown_file (*
+(
+factoryorg.apache.axiom.om.OMFactoryl
+j
+Ùã Ù(í(
+factoryorg.apache.axiom.om.OMFactory"__annotation*"
+
+__unknown_file (
+
+%6*
+1*®
+1
+ıo ı(sZ
+X
+ıu ı(ô
+%0javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""lj
+
+ıD ı(n0
+%1*org.apache.axis2.databinding.ADBDataSource"*org.apache.axis2.databinding.ADBDataSource§
+°
+ı@ ı(ö
+%2"uorg.apache.axis2.databinding.ADBDataSource#<init>(Lorg/apache/axis2/databinding/ADBBean;Ljavax/xml/namespace/QName;)V*N
+
+__unknown_file (2
+0
+%1*org.apache.axis2.databinding.ADBDataSource*Ö
+
+__unknown_file (ig
+ecom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeAutorizacaoLoteZipResult*=
+
+__unknown_file (!
+
+%0javax.xml.namespace.QNameñ
+ì
+ı ı(õ.
+
+dataSource org.apache.axiom.om.OMDataSource"__id*N
+
+__unknown_file (2
+0
+%1*org.apache.axis2.databinding.ADBDataSourceY
+W
+
+ˆ7 ˆ([
+%3javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""ıÚ
+
+ˆ ˆ(\*
+%4$org.apache.axiom.om.OMSourcedElement"íorg.apache.axiom.om.OMFactory#createOMElement(Lorg/apache/axiom/om/OMDataSource;Ljavax/xml/namespace/QName;)Lorg/apache/axiom/om/OMSourcedElement;*F
+
+__unknown_file (*
+(
+factoryorg.apache.axiom.om.OMFactory*L
+
+__unknown_file (0
+.
+
+dataSource org.apache.axiom.om.OMDataSource*=
+
+__unknown_file (!
+
+%3javax.xml.namespace.QName2NcreateOMElement(Lorg/apache/axiom/om/OMDataSource;Ljavax/xml/namespace/QName;)":
+
+ˆ ˆ(],
+*
+%4$org.apache.axiom.om.OMSourcedElement:6
+
+Ù: Ù(f(
+parentQNamejavax.xml.namespace.QName:7
+Ùg Ù(í(
+factoryorg.apache.axiom.om.OMFactoryBig
+ecom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeAutorizacaoLoteZipResultH

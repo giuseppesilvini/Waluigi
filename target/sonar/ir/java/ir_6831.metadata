@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.mdfe3.webservices.WSFacade#encerramento(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;

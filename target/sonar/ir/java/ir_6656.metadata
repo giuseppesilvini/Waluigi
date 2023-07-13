@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSConsultaCadastro#consultaCadastro(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe400/classes/cadastro/NFRetornoConsultaCadastro;
+org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.nfe400.webservices.WSConsultaCadastro#getDadosConsulta(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe400/classes/cadastro/NFConsultaCadastro;
+com.fincatto.documentofiscal.nfe400.webservices.WSConsultaCadastro#efetuaConsulta(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Lorg/apache/axiom/om/OMElement;)Lorg/apache/axiom/om/OMElement;

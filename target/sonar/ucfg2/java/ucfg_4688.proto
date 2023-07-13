@@ -1,0 +1,60 @@
+
+¦com.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFFormaPagamentoPrazo;”
+‰/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFFormaPagamentoPrazo.java( (5"5*¢
+2 (1Œ
+‰
+ (1S
+formaPagamentoAcom.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo"__id*"
+
+__unknown_file (
+""û
+ø
+ (1S
+formaPagamentoAcom.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo"
+__arrayGet*g
+
+__unknown_file (K
+I
+%0Ccom.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo[]*"
+
+__unknown_file (
+""*
+4
+1*p
+3 (%"a
+ (&U
+S
+formaPagamentoAcom.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo*÷
+4 (†ƒ
+ (*
+%1java.lang.String"_com.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo#getCodigo()Ljava/lang/String;*q
+
+__unknown_file (U
+S
+formaPagamentoAcom.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo2getCodigo()ÖÓ
+ (9
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*á
+54 (IÌ
+É
+4 (RI
+%0Ccom.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo[]"Žcom.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo#values()[Lcom/fincatto/documentofiscal/nfe310/classes/NFFormaPagamentoPrazo;*a
+
+__unknown_file (E"C
+Acom.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo*
+2*!
+1 ("
+ (
+"":&
+6 (I
+codigojava.lang.StringBE"C
+Acom.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazoH

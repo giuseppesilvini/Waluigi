@@ -1,0 +1,15 @@
+
+kcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaResumo#getDataHoraEmissao()Ljava/time/ZonedDateTime;ê
+Ö/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFNotaResumo.javap p(+"1*„
+1q q(¶
+£
+q q(
+%0java.time.ZonedDateTime"__id*r
+
+__unknown_file (V*T?
+=com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaResumo"
+dataHoraEmissao"+
+q q(
+
+%0java.time.ZonedDateTimeBA?
+=com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaResumoH

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.transformers.MDFTipoProprietarioTransformer#write(Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoProprietario;)Ljava/lang/String;
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoProprietario#getCodigo()Ljava/lang/String;

@@ -1,0 +1,7 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSEpec#enviaEpec(Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvio;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/epec/NFEnviaEventoEpecRetorno;
+com.fincatto.documentofiscal.nfe400.webservices.WSEpec#comunicaEpec(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/epec/NFEnviaEventoEpecRetorno;
+com.fincatto.documentofiscal.nfe400.utils.NFGeraChave#instance-init#
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#instance-init#
+com.fincatto.documentofiscal.nfe400.webservices.WSEpec#criaEnvioEpec(Lcom/fincatto/documentofiscal/nfe400/classes/lote/envio/NFLoteEnvio;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/epec/NFEnviaEventoEpec;
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V
+com.fincatto.documentofiscal.nfe400.utils.NFGeraChave#<init>(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNota;)V

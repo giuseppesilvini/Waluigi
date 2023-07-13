@@ -1,0 +1,146 @@
+
+›com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeConsultaProtocolo4Stub#fromOM(Lorg/apache/axiom/om/OMElement;Ljava/lang/Class;)Ljava/lang/Object;¥
+˜/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/gerado/NFeConsultaProtocolo4Stub.javaª ª(#"startingBlock*ß
+13
+¬ ¬()ÃÀ
+
+¬ ¬(6
+%0boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+8
+11*£
+startingBlock
+ª# ª(j£
+ 
+
+© ©(!
+%7"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElementh
+f
+
+ªH ª(M&
+paramorg.apache.axiom.om.OMElement"__annotation*"
+
+__unknown_file (
+
+%7”
+‘
+
+© ©(!
+%8"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*5
+
+__unknown_file (
+
+typejava.lang.ClassY
+W
+
+ªe ª(i
+typejava.lang.Class"__annotation*"
+
+__unknown_file (
+
+%8*
+13*ƒ
+4
+° °(["r
+
+° °([d
+b
+%5\com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeConsultaProtocolo4Stub$NfeDadosMsg*Æ
+5
+° °(Z¯
+¬
+
+° °(Zb
+%5\com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeConsultaProtocolo4Stub$NfeDadosMsg"ìcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeConsultaProtocolo4Stub$NfeDadosMsg$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe400/webservices/gerado/NFeConsultaProtocolo4Stub$NfeDadosMsg;*„
+
+__unknown_file (h"f
+dcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeConsultaProtocolo4Stub$NfeDadosMsg$Factory*D
+
+__unknown_file ((
+&
+%4 javax.xml.stream.XMLStreamReader*
+4*ž
+6
+° °("‡„
+
+°1 °(Y&
+%4 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+5*Ý
+8
+¯ ¯(!ÃÀ
+
+¯ ¯(.
+%3boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+6
+1*‹
+9
+­ ­(c"z
+
+­ ­(cl
+j
+%2dcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeConsultaProtocolo4Stub$NfeConsultaNFResult*ç
+10
+­ ­(bÏ
+Ì
+
+­ ­(bj
+%2dcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeConsultaProtocolo4Stub$NfeConsultaNFResult"ücom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeConsultaProtocolo4Stub$NfeConsultaNFResult$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe400/webservices/gerado/NFeConsultaProtocolo4Stub$NfeConsultaNFResult;*Œ
+
+__unknown_file (p"n
+lcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeConsultaProtocolo4Stub$NfeConsultaNFResult$Factory*D
+
+__unknown_file ((
+&
+%1 javax.xml.stream.XMLStreamReader*
+9* 
+11
+­ ­(*‡„
+
+­9 ­(a&
+%1 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+10*%
+1
+µ µ("
+
+µ µ(
+"":4
+
+ª$ ª(N&
+paramorg.apache.axiom.om.OMElement:%
+
+ªO ª(i
+typejava.lang.ClassBTR
+Pcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeConsultaProtocolo4Stub

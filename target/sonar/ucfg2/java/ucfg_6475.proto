@@ -1,0 +1,48 @@
+
+®com.fincatto.documentofiscal.cte300.transformes.CTTipoPrazoHoraEntregaTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoPrazoHoraEntrega;¤
+™/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/transformes/CTTipoPrazoHoraEntregaTransformer.java
+" 
+(&"startingBlock*†
+startingBlock
+& 
+(9‹
+ˆ
+	 	(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+arg0java.lang.StringX
+V
+
+4 
+(8
+arg0java.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*†
+1 (%ž
+›
+ (9H
+%0Bcom.fincatto.documentofiscal.cte300.classes.CTTipoPrazoHoraEntrega"¨com.fincatto.documentofiscal.cte300.classes.CTTipoPrazoHoraEntrega#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoPrazoHoraEntrega;*b
+
+__unknown_file (F"D
+Bcom.fincatto.documentofiscal.cte300.classes.CTTipoPrazoHoraEntrega*6
+
+__unknown_file (
+
+arg0java.lang.String"V
+ (:J
+H
+%0Bcom.fincatto.documentofiscal.cte300.classes.CTTipoPrazoHoraEntrega:$
+
+' 
+(8
+arg0java.lang.StringBUS
+Qcom.fincatto.documentofiscal.cte300.transformes.CTTipoPrazoHoraEntregaTransformerH

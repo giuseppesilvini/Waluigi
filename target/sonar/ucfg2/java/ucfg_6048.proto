@@ -1,0 +1,62 @@
+
+±com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub$MdfeCabecMsgE#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader;«
+ž/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/consultanaoencerrado/MDFeConsNaoEncStub.javaö	0 ö	(="startingBlock* 
+startingBlock
+ö	= ö	(d—
+”
+
+õ	 õ	(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*@
+
+__unknown_file ($
+"
+qNamejavax.xml.namespace.QNamed
+b
+
+ö	^ ö	(c"
+qNamejavax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%3*
+1*¥
+1
+ø	 ø	(ž
+›
+
+ø	 ø	()i
+%0ccom.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub$MdfeCabecMsg"__id*›
+
+__unknown_file (*}f
+dcom.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub$MdfeCabecMsgE"
+localMdfeCabecMsgY
+W
+
+ø	8 ø	(N
+%1javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""ßÜ
+
+ø	 ø	(O&
+%2 javax.xml.stream.XMLStreamReader"°com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub$MdfeCabecMsg#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader;*‡
+
+__unknown_file (k
+i
+%0ccom.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub$MdfeCabecMsg*=
+
+__unknown_file (!
+
+%1javax.xml.namespace.QName2*getPullParser(Ljavax/xml/namespace/QName;)"6
+
+ø	 ø	(P(
+&
+%2 javax.xml.stream.XMLStreamReader:0
+
+ö	> ö	(c"
+qNamejavax.xml.namespace.QNameBhf
+dcom.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub$MdfeCabecMsgEH

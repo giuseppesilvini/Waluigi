@@ -1,0 +1,46 @@
+
+Øcom.fincatto.documentofiscal.cte200.transformers.CTIdentificadorEmissorTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTIdentificadorEmissor;•
+ö/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/transformers/CTIdentificadorEmissorTransformer.java	" 	(&"startingBlock*ä
+startingBlock	& 	(;ç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	4 	(:
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*à
+1
+ 
+(%†
+ù
+
+ 
+(;H
+%0Bcom.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor"®com.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTIdentificadorEmissor;*b
+
+__unknown_file (F"D
+Bcom.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor*8
+
+__unknown_file (
+
+codigojava.lang.String"V
+
+ 
+(<J
+H
+%0Bcom.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor:&
+	' 	(:
+codigojava.lang.StringBVT
+Rcom.fincatto.documentofiscal.cte200.transformers.CTIdentificadorEmissorTransformerH

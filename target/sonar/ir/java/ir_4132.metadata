@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSFacade#getNfeResultMsg(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe400/webservices/gerado/NFeAutorizacao4Stub$NfeResultMsg;

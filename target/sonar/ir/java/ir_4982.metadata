@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe310.classes.NFOrigem#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFOrigem;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe310.classes.NFOrigem#getCodigo()Ljava/lang/String;

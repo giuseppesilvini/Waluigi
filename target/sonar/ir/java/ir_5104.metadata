@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#exatamente4(ILjava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#intervalo(Ljava/lang/Integer;IILjava/lang/String;)V

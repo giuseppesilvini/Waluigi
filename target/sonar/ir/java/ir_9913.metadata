@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub#toOM(Lcom/fincatto/documentofiscal/cte300/webservices/consulta/CteConsultaStub$CteConsultaCTResult;Z)Lorg/apache/axiom/om/OMElement;
+org.apache.axiom.om.OMAbstractFactory#getOMFactory()Lorg/apache/axiom/om/OMFactory;
+==
+getOMElement com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub$CteConsultaCTResult#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;

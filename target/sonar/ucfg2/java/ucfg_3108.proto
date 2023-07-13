@@ -1,0 +1,14 @@
+
+Gcom.fincatto.documentofiscal.DFConfig#getTimeZone()Ljava/util/TimeZone;w
+m/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/DFConfig.java} }("1*»
+1~ ~(ê
+ç
+~ ~($
+%0java.util.TimeZone"3java.util.TimeZone#getDefault()Ljava/util/TimeZone;*2
+
+__unknown_file ("
+java.util.TimeZone"&
+~ ~(%
+
+%0java.util.TimeZoneB)'
+%com.fincatto.documentofiscal.DFConfigH

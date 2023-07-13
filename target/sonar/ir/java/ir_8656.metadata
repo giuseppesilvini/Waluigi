@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFTipoImpressaoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFTipoImpressao;
+com.fincatto.documentofiscal.nfe400.classes.NFTipoImpressao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFTipoImpressao;

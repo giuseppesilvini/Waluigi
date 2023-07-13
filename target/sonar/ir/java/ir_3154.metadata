@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload#downloadNota(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/downloadnf/NFDownloadNFeRetorno;
+org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload#gerarDadosDownloadNF(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/downloadnf/NFDownloadNFe;
+com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload#efetuaDownloadNF(Lorg/apache/axiom/om/OMElement;)Lorg/apache/axiom/om/OMElement;

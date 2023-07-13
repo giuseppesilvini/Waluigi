@@ -1,0 +1,49 @@
+
+žcom.fincatto.documentofiscal.cte300.transformes.CTClasseTarifaTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTClasseTarifa;œ
+‘/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/transformes/CTClasseTarifaTransformer.java
+ 
+("startingBlock*†
+startingBlock
+ 
+(+‹
+ˆ
+	 	(
+
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+arg0java.lang.StringX
+V
+
+& 
+(*
+arg0java.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Þ
+1	 (þ
+û
+	 (+@
+%0:com.fincatto.documentofiscal.cte300.classes.CTClasseTarifa"˜com.fincatto.documentofiscal.cte300.classes.CTClasseTarifa#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTClasseTarifa;*Z
+
+__unknown_file (>"<
+:com.fincatto.documentofiscal.cte300.classes.CTClasseTarifa*6
+
+__unknown_file (
+
+arg0java.lang.String"N
+ (,B
+@
+%0:com.fincatto.documentofiscal.cte300.classes.CTClasseTarifa:$
+
+ 
+(*
+arg0java.lang.StringBMK
+Icom.fincatto.documentofiscal.cte300.transformes.CTClasseTarifaTransformerH

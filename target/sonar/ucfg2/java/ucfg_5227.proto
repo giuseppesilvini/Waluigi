@@ -1,0 +1,49 @@
+
+com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400$16#getNfceInutilizacao(Lcom/fincatto/documentofiscal/DFAmbiente;)Ljava/lang/String;‘
+„/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFAutorizador400.javaú
+ ú
+()"startingBlock*Â
+startingBlock
+ú
+) ú
+(>¨
+¥
+
+ù
+ ù
+(
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Q
+
+__unknown_file (5
+3
+ambiente'com.fincatto.documentofiscal.DFAmbienteu
+s
+
+ú
+5 ú
+(=3
+ambiente'com.fincatto.documentofiscal.DFAmbiente"__annotation*"
+
+__unknown_file (
+
+%0*
+1*%
+1
+û
+ û
+("
+
+û
+ û
+(
+"":A
+
+ú
+* ú
+(=3
+ambiente'com.fincatto.documentofiscal.DFAmbienteBCA
+?com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400$16H

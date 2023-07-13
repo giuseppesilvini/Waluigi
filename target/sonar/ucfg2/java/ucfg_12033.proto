@@ -1,0 +1,36 @@
+
+Äcom.fincatto.documentofiscal.mdfe3.transformers.MDFTipoCargaProdutoPredominanteTransformer#write(Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoCargaProdutoPredominante;)Ljava/lang/String;­
+¢/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/transformers/MDFTipoCargaProdutoPredominanteTransformer.java ("startingBlock*†
+startingBlock (>Ê
+Ç
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*u
+
+__unknown_file (Y
+W
+valueNcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante˜
+•
+8 (=W
+valueNcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Í
+1 (—”
+ ( 
+%0java.lang.String"lcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante#getCodigo()Ljava/lang/String;*u
+
+__unknown_file (Y
+W
+valueNcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante2getCodigo()"$
+ (!
+
+%0java.lang.String:c
+ (=W
+valueNcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominanteB^\
+Zcom.fincatto.documentofiscal.mdfe3.transformers.MDFTipoCargaProdutoPredominanteTransformerH

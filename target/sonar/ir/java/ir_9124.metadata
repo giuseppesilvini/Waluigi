@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.evento.inutilizacao.CTEventoInutilizacaoDados#setAno(Ljava/lang/Integer;)V
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#exatamente2(Ljava/lang/Integer;Ljava/lang/String;)V

@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSLoteConsulta#consultaLote(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe310/classes/lote/consulta/NFLoteConsultaRetorno;
+com.fincatto.documentofiscal.nfe310.webservices.WSLoteConsulta#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/lote/consulta/NFLoteConsulta;
+org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.nfe310.webservices.WSLoteConsulta#efetuaConsulta(Lorg/apache/axiom/om/OMElement;Lcom/fincatto/documentofiscal/DFModelo;)Lorg/apache/axiom/om/OMElement;

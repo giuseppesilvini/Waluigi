@@ -1,0 +1,46 @@
+
+Îcom.fincatto.documentofiscal.nfe400.transformers.NFIdentificadorLocalDestinoOperacaoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFIdentificadorLocalDestinoOperacao;²
+§/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFIdentificadorLocalDestinoOperacaoTransformer.java	/ 	(3"startingBlock*š
+startingBlock	3 	(P•
+’
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*@
+
+__unknown_file ($
+"
+codigoOperacaojava.lang.Stringb
+`
+	A 	(O"
+codigoOperacaojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ê
+1
+ 
+(2ð
+í
+
+ 
+(PZ
+%0Tcom.fincatto.documentofiscal.nfe400.classes.nota.NFIdentificadorLocalDestinoOperacao"Ìcom.fincatto.documentofiscal.nfe400.classes.nota.NFIdentificadorLocalDestinoOperacao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFIdentificadorLocalDestinoOperacao;*t
+
+__unknown_file (X"V
+Tcom.fincatto.documentofiscal.nfe400.classes.nota.NFIdentificadorLocalDestinoOperacao*@
+
+__unknown_file ($
+"
+codigoOperacaojava.lang.String"h
+
+ 
+(Q\
+Z
+%0Tcom.fincatto.documentofiscal.nfe400.classes.nota.NFIdentificadorLocalDestinoOperacao:.
+	4 	(O"
+codigoOperacaojava.lang.StringBca
+_com.fincatto.documentofiscal.nfe400.transformers.NFIdentificadorLocalDestinoOperacaoTransformerH

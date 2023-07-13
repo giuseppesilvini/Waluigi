@@ -1,0 +1,46 @@
+
+ócom.fincatto.documentofiscal.nfe400.transformers.NFSituacaoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFSituacao;ô
+é/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFSituacaoTransformer.java	 	("startingBlock*ä
+startingBlock	 	(/ç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	( 	(.
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ã
+1
+ 
+(
+Ì
+
+ 
+(/<
+%06com.fincatto.documentofiscal.nfe400.classes.NFSituacao"êcom.fincatto.documentofiscal.nfe400.classes.NFSituacao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFSituacao;*V
+
+__unknown_file (:"8
+6com.fincatto.documentofiscal.nfe400.classes.NFSituacao*8
+
+__unknown_file (
+
+codigojava.lang.String"J
+
+ 
+(0>
+<
+%06com.fincatto.documentofiscal.nfe400.classes.NFSituacao:&
+	 	(.
+codigojava.lang.StringBJH
+Fcom.fincatto.documentofiscal.nfe400.transformers.NFSituacaoTransformerH

@@ -1,0 +1,60 @@
+
+¾com.fincatto.documentofiscal.nfe310.classes.nota.NFViaTransporteInternacional#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFViaTransporteInternacional; 
+•/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/nota/NFViaTransporteInternacional.java/ (<"5*°
+2 (3
+Š
+ (3T
+viaMcom.fincatto.documentofiscal.nfe310.classes.nota.NFViaTransporteInternacional"__id*"
+
+__unknown_file (
+""ˆ
+…
+ (3T
+viaMcom.fincatto.documentofiscal.nfe310.classes.nota.NFViaTransporteInternacional"
+__arrayGet*s
+
+__unknown_file (W
+U
+%0Ocom.fincatto.documentofiscal.nfe310.classes.nota.NFViaTransporteInternacional[]*"
+
+__unknown_file (
+""*
+4
+1*q
+3! !("b
+! !(V
+T
+viaMcom.fincatto.documentofiscal.nfe310.classes.nota.NFViaTransporteInternacional*„
+4   (“
+   (
+%1java.lang.String"kcom.fincatto.documentofiscal.nfe310.classes.nota.NFViaTransporteInternacional#getCodigo()Ljava/lang/String;*r
+
+__unknown_file (V
+T
+viaMcom.fincatto.documentofiscal.nfe310.classes.nota.NFViaTransporteInternacional2getCodigo()ÖÓ
+   (.
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*‘
+56 (Rü
+ù
+6 ([U
+%0Ocom.fincatto.documentofiscal.nfe310.classes.nota.NFViaTransporteInternacional[]"¦com.fincatto.documentofiscal.nfe310.classes.nota.NFViaTransporteInternacional#values()[Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFViaTransporteInternacional;*m
+
+__unknown_file (Q"O
+Mcom.fincatto.documentofiscal.nfe310.classes.nota.NFViaTransporteInternacional*
+2*!
+1$ $("
+$ $(
+"":&
+= (P
+codigojava.lang.StringBQ"O
+Mcom.fincatto.documentofiscal.nfe310.classes.nota.NFViaTransporteInternacionalH

@@ -1,0 +1,57 @@
+
+Jcom.fincatto.documentofiscal.cte300.classes.CTRetornoStatus#isRejeitado()Zê
+É/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/classes/CTRetornoStatus.javaÿ ÿ("2"4"6"1*Ò
+2ŸÉ Ÿ(áÿ’
+ŸÉ Ÿ(ï
+%4boolean"Jcom.fincatto.documentofiscal.cte300.classes.CTRetornoStatus#isDuplicado()Z*[
+
+__unknown_file (?=
+;com.fincatto.documentofiscal.cte300.classes.CTRetornoStatus2isDuplicado()*
+1*Â
+4
+ŸV Ÿ(eN
+L
+
+ŸV Ÿ(o
+%2java.util.List"__id*"
+
+__unknown_file (
+""˚¯
+
+ŸV Ÿ(~
+%3boolean",java.util.List#contains(Ljava/lang/Object;)Z*2
+
+__unknown_file (
+
+%2java.util.List*[
+
+__unknown_file (?=
+;com.fincatto.documentofiscal.cte300.classes.CTRetornoStatus2contains(Ljava/lang/Object;)*
+2
+1*Ë
+6
+Ÿ' Ÿ(6N
+L
+
+Ÿ' Ÿ(B
+%0java.util.List"__id*"
+
+__unknown_file (
+""˚¯
+
+Ÿ' Ÿ(Q
+%1boolean",java.util.List#contains(Ljava/lang/Object;)Z*2
+
+__unknown_file (
+
+%0java.util.List*[
+
+__unknown_file (?=
+;com.fincatto.documentofiscal.cte300.classes.CTRetornoStatus2contains(Ljava/lang/Object;)*	
+2
+4
+1*'
+1Ÿ Ÿ(ñ"
+Ÿ Ÿ(ñ
+""B?=
+;com.fincatto.documentofiscal.cte300.classes.CTRetornoStatusHP

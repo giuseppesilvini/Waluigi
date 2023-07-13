@@ -1,0 +1,666 @@
+
+Äcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsg$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/CadConsultaCadastro4Stub$NfeResultMsg;Æ
+°/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/consultacadastro/CadConsultaCadastro4Stub.java⁄' ⁄(,"startingBlock*Ã
+24
+ã ã(Ø¨
+
+ã ã(/
+%25boolean"2javax.xml.stream.XMLStreamReader#isStartElement()Z*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2isStartElement()*
+16
+22*‘
+47
+Ó8 Ó(<V
+T
+
+Ó Ó(=
+nsPrefixjava.lang.String"__id*"
+
+__unknown_file (
+""€ÿ
+
+  (:
+%8boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*>
+
+__unknown_file ("
+ 
+fullTypeNamejava.lang.String*!
+
+__unknown_file (
+:2"contains(Ljava/lang/CharSequence;)*
+40
+41
+45*∞
+25
+à à(óî
+
+à à(%
+
+%24int"(javax.xml.stream.XMLStreamReader#next()I*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2next()*
+29*ä
+48Î Î(åm
+k
+Î Î(å 
+fullTypeNamejava.lang.String"__id*4
+
+__unknown_file (
+
+%7java.lang.String*
+47
+31*°
+49
+Î> Î(DàÖ
+Î> Î(ã
+%7java.lang.String"jjavax.xml.stream.XMLStreamReader#getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader*I
+
+__unknown_file (-+
+)http://www.w3.org/2001/XMLSchema-instance*$
+
+__unknown_file (
+type27getAttributeValue(Ljava/lang/String;Ljava/lang/String;)*
+48*»
+27
+á8 á(>´®
+
+á8 á(M
+%23boolean"0javax.xml.stream.XMLStreamReader#isEndElement()Z*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2isEndElement()*
+24
+25*Ã
+29
+á á("Ø¨
+
+á á(3
+%22boolean"2javax.xml.stream.XMLStreamReader#isStartElement()Z*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2isStartElement()*
+24
+27*§
+51
+Ë Ë(3áÑ
+
+Í Í(e
+%6java.lang.String"jjavax.xml.stream.XMLStreamReader#getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader*I
+
+__unknown_file (-+
+)http://www.w3.org/2001/XMLSchema-instance*$
+
+__unknown_file (
+type27getAttributeValue(Ljava/lang/String;Ljava/lang/String;)*
+49
+31*Â
+52
+Ë# Ë()Ã…
+
+Ë# Ë(3
+%5javax.xml.namespace.QName"Ejavax.xml.stream.XMLStreamReader#getName()Ljavax/xml/namespace/QName;*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2	getName()*
+51*∞
+30
+É É(Vóî
+
+Ö Ö(!
+
+%21int"(javax.xml.stream.XMLStreamReader#next()I*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2next()*
+29*Ø
+53
+Â Â(ñì
+
+Â Â(%	
+%4int"(javax.xml.stream.XMLStreamReader#next()I*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2next()*
+57*ª
+31
+É? É(U97
+
+ÉC É(S
+%19java.util.Vector"java.util.Vectorh
+f
+
+É? É(U
+%20"java.util.Vector#<init>()V*5
+
+__unknown_file (
+
+%19java.util.Vector*
+30*9
+32
+¸' ¸(h"'
+
+¸  ¸(i
+
+%18java.lang.Object*«
+55
+‰8 ‰(>™ß
+
+‰8 ‰(M
+%3boolean"0javax.xml.stream.XMLStreamReader#isEndElement()Z*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2isEndElement()*
+52
+53*∆
+11
+ú8 ú(>´®
+
+ú8 ú(M
+%39boolean"0javax.xml.stream.XMLStreamReader#isEndElement()Z*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2isEndElement()*
+8
+9*ƒ
+33
+˙  ˙(vf
+d
+
+˙  ˙(v
+nsUrijava.lang.String"__id*5
+
+__unknown_file (
+
+%17java.lang.String√
+¿
+
+¸6 ¸(h
+%18java.lang.Object"—com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$ExtensionMapper#getTypeObject(Ljava/lang/String;Ljava/lang/String;Ljavax/xml/stream/XMLStreamReader;)Ljava/lang/Object;*â
+
+__unknown_file (m"k
+icom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$ExtensionMapper*7
+
+__unknown_file (
+
+nsUrijava.lang.String*6
+
+__unknown_file (
+
+typejava.lang.String*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader*
+32*¥
+34
+˙l ˙(ti
+g
+
+˙l ˙(t
+%11java.lang.String"__id*:
+
+__unknown_file (
+
+nsPrefixjava.lang.String∞≠
+
+˙? ˙(u
+%17java.lang.String"Zjavax.xml.namespace.NamespaceContext#getNamespaceURI(Ljava/lang/String;)Ljava/lang/String;*I
+
+__unknown_file (-
++
+%16$javax.xml.namespace.NamespaceContext*:
+
+__unknown_file (
+
+nsPrefixjava.lang.String2#getNamespaceURI(Ljava/lang/String;)*
+33*î
+35
+˙? ˙(E˚¯
+
+˙? ˙([+
+%16$javax.xml.namespace.NamespaceContext"\javax.xml.stream.XMLStreamReader#getNamespaceContext()Ljavax/xml/namespace/NamespaceContext;*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2getNamespaceContext()*
+34*À
+57
+‰ ‰("Æ´
+
+‰ ‰(3
+%2boolean"2javax.xml.stream.XMLStreamReader#isStartElement()Z*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2isStartElement()*
+52
+55*À
+13
+ú ú("Ø¨
+
+ú ú(3
+%38boolean"2javax.xml.stream.XMLStreamReader#isStartElement()Z*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2isStartElement()*
+8
+11*¨
+58
+€, €(>Â‚
+
+€0 €(<l
+%0fcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsg"fcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsgî
+ë
+
+€, €(>
+%1"pcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsg#<init>()V*ä
+
+__unknown_file (n
+l
+%0fcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsgî
+ë
+
+€ €(?p
+objectfcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsg"__id*ä
+
+__unknown_file (n
+l
+%0fcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsg*
+57*”
+37
+ˆ ˆ(pe
+c
+
+ˆ ˆ(p
+typejava.lang.String"__id*5
+
+__unknown_file (
+
+%14java.lang.StringœÃ
+
+¯! ¯(<
+%15boolean",java.lang.String#equals(Ljava/lang/Object;)Z*,
+
+__unknown_file (
+nfeResultMsg*6
+
+__unknown_file (
+
+typejava.lang.String2equals(Ljava/lang/Object;)*
+35
+31*˙
+15
+ôL ô(wé
+ã
+
+ôL ô(w
+%35java.lang.String"__concat*(
+
+ôL ô(d
+Unexpected subelement *0
+
+ôg ô(w"
+ 
+%34javax.xml.namespace.QNameki
+
+ô" ô(K0
+%36)org.apache.axis2.databinding.ADBException")org.apache.axis2.databinding.ADBException‰
+·
+
+ô ô(x
+%37"Eorg.apache.axis2.databinding.ADBException#<init>(Ljava/lang/String;)V*N
+
+__unknown_file (2
+0
+%36)org.apache.axis2.databinding.ADBException*5
+
+__unknown_file (
+
+%35java.lang.String*
+3*‰
+38
+ˆm ˆ(nÀ»
+
+ˆ: ˆ(o
+%14java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*>
+
+__unknown_file ("
+ 
+fullTypeNamejava.lang.String*"
+
+__unknown_file (
+""2substring(I)*
+37*Ê
+16
+ôL ô(dÕ 
+
+ôg ô(w 
+%34javax.xml.namespace.QName"Ejavax.xml.stream.XMLStreamReader#getName()Ljavax/xml/namespace/QName;*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2	getName()*
+15*Œ
+39
+Ù Ù(Ii
+g
+
+Ù Ù(I
+nsPrefixjava.lang.String"__id*5
+
+__unknown_file (
+
+%11java.lang.String «
+
+ˆQ ˆ(j
+
+%13int"-java.lang.String#indexOf(Ljava/lang/String;)I*>
+
+__unknown_file ("
+ 
+fullTypeNamejava.lang.String*!
+
+__unknown_file (
+:2indexOf(Ljava/lang/String;)*
+38*∞
+17
+î î(óî
+
+î î(%
+
+%33int"(javax.xml.stream.XMLStreamReader#next()I*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2next()*
+13*◊
+18
+í í(Gæª
+
+í í(G
+%32void"òcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsg#setExtraElement(Lorg/apache/axiom/om/OMElement;)V*é
+
+__unknown_file (r
+p
+objectfcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsg*B
+
+__unknown_file (&
+$
+%31org.apache.axiom.om.OMElement20setExtraElement(Lorg/apache/axiom/om/OMElement;)*
+17*›
+19ë ë(◊µ
+≤
+ë ë(◊A
+builder15org.apache.axis2.databinding.utils.NamedStaxOMBuilder"__id*Z
+
+__unknown_file (>
+<
+%295org.apache.axis2.databinding.utils.NamedStaxOMBuilderãà
+
+í/ í(F$
+%31org.apache.axiom.om.OMElement"corg.apache.axis2.databinding.utils.NamedStaxOMBuilder#getOMElement()Lorg/apache/axiom/om/OMElement;*_
+
+__unknown_file (C
+A
+builder15org.apache.axis2.databinding.utils.NamedStaxOMBuilder2getOMElement()*
+18*(
+0 "!
+
+© ©(
+implicit return*í
+1
+® ®("Ä
+
+® ®(r
+p
+objectfcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsg*à
+3
+§ §(Db
+`
+
+§ §(D(
+e#javax.xml.stream.XMLStreamException"__id*"
+
+__unknown_file (
+""?=
+
+• •(1
+%46java.lang.Exception"java.lang.ExceptionÃ
+…
+
+• •(4
+%47"2java.lang.Exception#<init>(Ljava/lang/Throwable;)V*8
+
+__unknown_file (
+
+%46java.lang.Exception*F
+
+__unknown_file (*
+(
+e#javax.xml.stream.XMLStreamException*
+0*ª
+startingBlock
+⁄, ⁄([®
+•
+
+Ÿ Ÿ(7
+%48"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReaderm
+k
+
+⁄T ⁄(Z*
+reader javax.xml.stream.XMLStreamReader"__annotation*#
+
+__unknown_file (
+
+%48*
+58*˘
+5
+¢L ¢(wé
+ã
+
+¢L ¢(w
+%43java.lang.String"__concat*(
+
+¢L ¢(d
+Unexpected subelement *0
+
+¢g ¢(w"
+ 
+%42javax.xml.namespace.QNameki
+
+¢" ¢(K0
+%44)org.apache.axis2.databinding.ADBException")org.apache.axis2.databinding.ADBException‰
+·
+
+¢ ¢(x
+%45"Eorg.apache.axis2.databinding.ADBException#<init>(Ljava/lang/String;)V*N
+
+__unknown_file (2
+0
+%44)org.apache.axis2.databinding.ADBException*5
+
+__unknown_file (
+
+%43java.lang.String*
+3*‰
+6
+¢L ¢(dÕ 
+
+¢g ¢(w 
+%42javax.xml.namespace.QName"Ejavax.xml.stream.XMLStreamReader#getName()Ljavax/xml/namespace/QName;*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2	getName()*
+5*…
+8
+† †(Ø¨
+
+† †(/
+%41boolean"2javax.xml.stream.XMLStreamReader#isStartElement()Z*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2isStartElement()*
+6
+1*Ø
+9
+ù ù(óî
+
+ù ù(%
+
+%40int"(javax.xml.stream.XMLStreamReader#next()I*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2next()*
+13*Å
+40
+ÙA Ù(Ii
+g
+
+ÙA Ù(I
+%11java.lang.String"__id*:
+
+__unknown_file (
+
+nsPrefixjava.lang.String*
+39*|
+41
+Ù< Ù(>d
+b
+
+Ù< Ù(>
+%11java.lang.String"__id*5
+
+__unknown_file (
+
+%12java.lang.String*
+39*¶
+20ë  ë(’ÖÇ
+ëc ë(ò<
+%295org.apache.axis2.databinding.utils.NamedStaxOMBuilder"5org.apache.axis2.databinding.utils.NamedStaxOMBuilderÉ
+Ä
+ë_ ë(÷
+%30"|org.apache.axis2.databinding.utils.NamedStaxOMBuilder#<init>(Ljavax/xml/stream/XMLStreamReader;Ljavax/xml/namespace/QName;)V*Z
+
+__unknown_file (>
+<
+%295org.apache.axis2.databinding.utils.NamedStaxOMBuilder*H
+
+__unknown_file (,
+*
+%27#org.apache.axis2.util.StreamWrapper*F
+
+__unknown_file (*
+(
+startQname1javax.xml.namespace.QName*
+19*Ö
+43
+Ò  Ò(_i
+g
+
+Ò  Ò(_
+nsPrefixjava.lang.String"__id*5
+
+__unknown_file (
+
+%10java.lang.String*
+40
+41*˘
+21
+ç ç(W~
+|
+
+ç ç(W(
+startQname1javax.xml.namespace.QName"__id*>
+
+__unknown_file ("
+ 
+%26javax.xml.namespace.QNamea_
+ëù ë(¿*
+%27#org.apache.axis2.util.StreamWrapper"#org.apache.axis2.util.StreamWrapper˝
+˙
+ëô ë(»
+%28"Oorg.apache.axis2.util.StreamWrapper#<init>(Ljavax/xml/stream/XMLStreamReader;)V*H
+
+__unknown_file (,
+*
+%27#org.apache.axis2.util.StreamWrapper*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader*
+20*ã
+44
+Ò+ Ò(_ÚÔ
+
+Ò+ Ò(_
+%10java.lang.String"0java.lang.String#substring(II)Ljava/lang/String;*>
+
+__unknown_file ("
+ 
+fullTypeNamejava.lang.String*
+
+__unknown_file (2 *'
+
+__unknown_file (
+	
+%9int2substring(II)*
+43*Ê
+22
+çF ç(LÕ 
+
+çF ç(V 
+%26javax.xml.namespace.QName"Ejavax.xml.stream.XMLStreamReader#getName()Ljavax/xml/namespace/QName;*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2	getName()*
+21*‚
+45
+Ò+ Ò(7…∆
+
+ÒE Ò(^	
+%9int"-java.lang.String#indexOf(Ljava/lang/String;)I*>
+
+__unknown_file ("
+ 
+fullTypeNamejava.lang.String*!
+
+__unknown_file (
+:2indexOf(Ljava/lang/String;)*
+44:8
+
+⁄- ⁄(Z*
+reader javax.xml.stream.XMLStreamReaderBr"p
+ncom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4Stub$NfeResultMsg$FactoryH

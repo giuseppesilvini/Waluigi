@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.nfe310.converters.NFStringNullToEmptyConverter#write(Lorg/simpleframework/xml/stream/OutputNode;Ljava/lang/String;)V

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSCancelamento#cancelaNotaAssinada(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/NFEnviaEventoRetorno;
+com.fincatto.documentofiscal.nfe400.webservices.WSCancelamento#efetuaCancelamento(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;

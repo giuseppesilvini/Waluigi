@@ -1,0 +1,46 @@
+
+¿com.fincatto.documentofiscal.nfe310.transformers.NFIndicadorContribuinteCTTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/cadastro/NFIndicadorContribuinteCTe;)Ljava/lang/String;®
+ù/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFIndicadorContribuinteCTTransformer.java ("startingBlock*ê
+startingBlock (Cœ
+Ã
+ (
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*z
+
+__unknown_file (^
+\
+	indicadorOcom.fincatto.documentofiscal.nfe310.classes.cadastro.NFIndicadorContribuinteCTeù
+ö
+9 (B\
+	indicadorOcom.fincatto.documentofiscal.nfe310.classes.cadastro.NFIndicadorContribuinteCTe"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Á
+1 (ˇ¸
+ (3	
+%0int"\com.fincatto.documentofiscal.nfe310.classes.cadastro.NFIndicadorContribuinteCTe#getCodigo()I*z
+
+__unknown_file (^
+\
+	indicadorOcom.fincatto.documentofiscal.nfe310.classes.cadastro.NFIndicadorContribuinteCTe2getCodigo()Ø
+¨
+ (4
+%1java.lang.String"-java.lang.String#valueOf(I)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*'
+
+__unknown_file (
+	
+%0int"$
+ (5
+
+%1java.lang.String:h
+ (B\
+	indicadorOcom.fincatto.documentofiscal.nfe310.classes.cadastro.NFIndicadorContribuinteCTeBYW
+Ucom.fincatto.documentofiscal.nfe310.transformers.NFIndicadorContribuinteCTTransformerH

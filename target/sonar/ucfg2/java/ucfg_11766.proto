@@ -1,0 +1,78 @@
+
+×com.fincatto.documentofiscal.cte300.webservices.WSStatusConsulta#gerarDadosConsulta(Lcom/fincatto/documentofiscal/cte300/CTeConfig;)Lcom/fincatto/documentofiscal/cte300/classes/consultastatusservico/CTeConsStatServ;“
+ˆ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/WSStatusConsulta.java## #(5"1*µ
+1$- $(B¹¶
+$1 $(@W
+%0Qcom.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServ"Qcom.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServç
+ä
+$- $(B
+%1"[com.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServ#<init>()V*u
+
+__unknown_file (Y
+W
+%0Qcom.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServí
+ê
+$ $(Ca
+consStatServQcom.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServ"__id*u
+
+__unknown_file (Y
+W
+%0Qcom.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServ€ý
+%! %(5-
+%2'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*U
+
+__unknown_file (9
+7
+config-com.fincatto.documentofiscal.cte300.CTeConfig2getAmbiente()«¨
+% %(6
+
+%3void"‰com.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServ#setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)V*
+
+__unknown_file (c
+a
+consStatServQcom.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServ*K
+
+__unknown_file (/
+-
+%2'com.fincatto.documentofiscal.DFAmbiente26setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)P
+N
+& &(/
+%4java.lang.String"__id*$
+
+__unknown_file (
+3.00áÞ
+& &(0
+
+%5void"pcom.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServ#setVersao(Ljava/lang/String;)V*
+
+__unknown_file (c
+a
+consStatServQcom.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServ*4
+
+__unknown_file (
+
+%4java.lang.String2setVersao(Ljava/lang/String;)R
+P
+'  '(=
+%6java.lang.String"__id*&
+
+__unknown_file (
+
+STATUSãà
+' '(>
+
+%7void"qcom.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServ#setServico(Ljava/lang/String;)V*
+
+__unknown_file (c
+a
+consStatServQcom.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServ*4
+
+__unknown_file (
+
+%6java.lang.String2setServico(Ljava/lang/String;)"o
+( ((c
+a
+consStatServQcom.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServ:C
+#6 #(L7
+config-com.fincatto.documentofiscal.cte300.CTeConfigBD"B
+@com.fincatto.documentofiscal.cte300.webservices.WSStatusConsulta

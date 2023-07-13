@@ -1,0 +1,40 @@
+
+œcom.fincatto.documentofiscal.cte300.webservices.recepcao.CteRecepcaoStub#toOM(Lcom/fincatto/documentofiscal/cte300/webservices/recepcao/CteRecepcaoStub$CteRecepcaoLoteResult;Z)Lorg/apache/axiom/om/OMElement;ù
+ê/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/recepcao/CteRecepcaoStub.javaﬂ* ﬂ(."1*À
+1
+· ·(Z
+X
+·" ·(â
+%0javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""“
+œ
+·ã ·(ø#
+%1org.apache.axiom.om.OMFactory"Sorg.apache.axiom.om.OMAbstractFactory#getOMFactory()Lorg/apache/axiom/om/OMFactory;*E
+
+__unknown_file ()"'
+%org.apache.axiom.om.OMAbstractFactory“œ
+· ·(¿#
+%2org.apache.axiom.om.OMElement"∆com.fincatto.documentofiscal.cte300.webservices.recepcao.CteRecepcaoStub$CteRecepcaoLoteResult#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;*Ö
+
+__unknown_file (i
+g
+param^com.fincatto.documentofiscal.cte300.webservices.recepcao.CteRecepcaoStub$CteRecepcaoLoteResult*=
+
+__unknown_file (!
+
+%0javax.xml.namespace.QName*A
+
+__unknown_file (%
+#
+%1org.apache.axiom.om.OMFactory2HgetOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)"4
+· ·(¡%
+#
+%2org.apache.axiom.om.OMElement:v
+ﬂ/ ﬂ(ög
+param^com.fincatto.documentofiscal.cte300.webservices.recepcao.CteRecepcaoStub$CteRecepcaoLoteResult: 
+
+__unknown_file (
+""BLJ
+Hcom.fincatto.documentofiscal.cte300.webservices.recepcao.CteRecepcaoStub

@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.classes.CTUnidadeMedidaProdPerigosos#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTUnidadeMedidaProdPerigosos;
+com.fincatto.documentofiscal.cte300.classes.CTUnidadeMedidaProdPerigosos#getCodigo()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z

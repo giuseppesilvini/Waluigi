@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.classes.nota.MDFInfoModalRodoviarioVeiculoTracao#setCapacidadeM3(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#capacidadeNDigitos(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;

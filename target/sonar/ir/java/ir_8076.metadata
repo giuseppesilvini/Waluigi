@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeInutilizacao4Stub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+==
+NFeInutilizacao4Stub com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeInutilizacao4Stub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V

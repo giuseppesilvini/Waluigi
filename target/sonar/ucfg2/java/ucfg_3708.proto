@@ -1,0 +1,60 @@
+
+∏com.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFOperacaoConsumidorFinal;ù
+í/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFOperacaoConsumidorFinal.java, (9"5*±
+2 (5è
+å
+ (5V
+operacaoJcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal"__id*"
+
+__unknown_file (
+""á
+Ñ
+ (5V
+operacaoJcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal"
+__arrayGet*p
+
+__unknown_file (T
+R
+%0Lcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal[]*"
+
+__unknown_file (
+""*
+4
+1*s
+3 ("d
+ ( X
+V
+operacaoJcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal*É
+4 (íè
+ ($
+%1java.lang.String"hcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal#getCodigo()Ljava/lang/String;*t
+
+__unknown_file (X
+V
+operacaoJcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal2getCodigo()÷”
+ (3
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*Ö
+58 (Q
+Ì
+8 (ZR
+%0Lcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal[]"†com.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal#values()[Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFOperacaoConsumidorFinal;*j
+
+__unknown_file (N"L
+Jcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal*
+2*!
+1 ("
+ (
+"":&
+: (M
+codigojava.lang.StringBN"L
+Jcom.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinalH

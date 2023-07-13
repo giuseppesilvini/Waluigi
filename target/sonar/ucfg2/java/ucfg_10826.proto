@@ -1,0 +1,35 @@
+
+©com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeConsultaProtocolo4Stub$NfeDadosMsg#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader;•
+ò/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/gerado/NFeConsultaProtocolo4Stub.javaÄ Ä(,"startingBlock*û
+startingBlock
+Ä, Ä(>ñ
+ì
+
+ˇ ˇ(
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*?
+
+__unknown_file (#
+!
+arg0javax.xml.namespace.QNamec
+a
+
+Ä9 Ä(=!
+arg0javax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%0*
+1*%
+1
+Å Å("
+
+Å Å(
+"":/
+
+Ä- Ä(=!
+arg0javax.xml.namespace.QNameB`^
+\com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeConsultaProtocolo4Stub$NfeDadosMsgH

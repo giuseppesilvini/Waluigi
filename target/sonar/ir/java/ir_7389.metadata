@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoInformacoesAdicionais#setProcessosRefenciado(Ljava/util/List;)V
+com.fincatto.documentofiscal.validadores.DFListValidador#tamanho100(Ljava/util/List;Ljava/lang/String;)V

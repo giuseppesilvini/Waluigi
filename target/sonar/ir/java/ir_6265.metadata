@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProduto#setValorUnitarioTributavel(Ljava/math/BigDecimal;)V
+com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#tamanho21ComAte10CasasDecimais(Ljava/math/BigDecimal;Ljava/lang/String;)Ljava/lang/String;

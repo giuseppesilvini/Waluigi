@@ -1,0 +1,263 @@
+
+Ícom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe310/webservices/nota/consulta/NfeConsulta2Stub$NfeCabecMsgE;£
+ñ/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/nota/consulta/NfeConsulta2Stub.java§' §(,"26* 
+14
+≥  ≥(&Æ´
+
+≥  ≥(7
+%9boolean"2javax.xml.stream.XMLStreamReader#isStartElement()Z*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2isStartElement()*
+6
+12*À
+25
+´ ´("Æ´
+
+´ ´(3
+%2boolean"2javax.xml.stream.XMLStreamReader#isStartElement()Z*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2isStartElement()*
+20
+23*Ë
+26
+•& •(8œÃ
+
+•* •(6a
+%0[com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE"[com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE˝
+˙
+
+•& •(8
+%1"ecom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE#<init>()V*
+
+__unknown_file (c
+a
+%0[com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE˝
+˙
+
+• •(9e
+object[com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE"__id*
+
+__unknown_file (c
+a
+%0[com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE*
+25* 
+16
+≤ ≤("Æ´
+
+≤ ≤(3
+%8boolean"2javax.xml.stream.XMLStreamReader#isStartElement()Z*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2isStartElement()*
+3
+14*∆
+18
+± ±("™ß
+
+± ±(1
+%7boolean"0javax.xml.stream.XMLStreamReader#isEndElement()Z*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2isEndElement()*
+16
+1*Ü
+1
+ø ø("u
+
+ø ø(g
+e
+object[com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE*ö
+2
+æ æ(>b
+`
+
+æ æ(>(
+e#javax.xml.stream.XMLStreamException"__id*"
+
+__unknown_file (
+""üú
+
+æA æ(T
+%23void"&java.lang.Throwable#printStackTrace()V*F
+
+__unknown_file (*
+(
+e#javax.xml.stream.XMLStreamException2printStackTrace()*
+1*Ø
+3
+ª ª("óî
+
+ª ª()
+
+%22int"(javax.xml.stream.XMLStreamReader#next()I*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2next()*
+18*¯
+5
+∏T ∏(|ç
+ä
+
+∏T ∏(|
+%19java.lang.String"__concat*'
+
+∏T ∏(i
+
+%17java.lang.String*0
+
+∏l ∏(|"
+ 
+%18javax.xml.namespace.QNameki
+
+∏* ∏(S0
+%20)org.apache.axis2.databinding.ADBException")org.apache.axis2.databinding.ADBException‰
+·
+
+∏& ∏(}
+%21"Eorg.apache.axis2.databinding.ADBException#<init>(Ljava/lang/String;)V*N
+
+__unknown_file (2
+0
+%20)org.apache.axis2.databinding.ADBException*5
+
+__unknown_file (
+
+%19java.lang.String*
+2*À
+6
+∏T ∏(ie
+c
+
+∏T ∏(i
+%17java.lang.String"__id*6
+
+__unknown_file (
+Unexpected subelement Õ 
+
+∏l ∏(| 
+%18javax.xml.namespace.QName"Ejavax.xml.stream.XMLStreamReader#getName()Ljavax/xml/namespace/QName;*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2	getName()*
+5*ı
+7
+¥  ¥(X›⁄
+
+¥  ¥(X
+%16void"…com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE#setNfeCabecMsg(Lcom/fincatto/documentofiscal/nfe310/webservices/nota/consulta/NfeConsulta2Stub$NfeCabecMsg;)V*É
+
+__unknown_file (g
+e
+object[com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE*
+
+__unknown_file (c
+a
+%15Zcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsg2lsetNfeCabecMsg(Lcom/fincatto/documentofiscal/nfe310/webservices/nota/consulta/NfeConsulta2Stub$NfeCabecMsg;)*
+18*√
+8
+¥  ¥(&¨
+©
+
+¥6 ¥(Wa
+%15Zcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsg"Ëcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsg$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe310/webservices/nota/consulta/NfeConsulta2Stub$NfeCabecMsg;*Ç
+
+__unknown_file (f"d
+bcom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsg$Factory*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader*
+7*ƒ
+20
+∞< ∞(U><
+
+∞@ ∞(S
+%5java.util.ArrayList"java.util.ArrayListl
+j
+
+∞< ∞(U
+%6"java.util.ArrayList#<init>()V*7
+
+__unknown_file (
+
+%5java.util.ArrayList*
+18*Ø
+21
+¨ ¨(ñì
+
+¨ ¨(%	
+%4int"(javax.xml.stream.XMLStreamReader#next()I*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2next()*
+25*è
+10≥; ≥(∏Û
+≥; ≥(∏
+%14boolean"5javax.xml.namespace.QName#equals(Ljava/lang/Object;)Z*>
+
+__unknown_file ("
+ 
+%11javax.xml.namespace.QName*>
+
+__unknown_file ("
+ 
+%13javax.xml.namespace.QName2equals(Ljava/lang/Object;)*
+6
+8*Í
+11≥ß ≥(≠œÃ
+≥ß ≥(∑ 
+%13javax.xml.namespace.QName"Ejavax.xml.stream.XMLStreamReader#getName()Ljavax/xml/namespace/QName;*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2	getName()*
+10*Ú
+12≥Y ≥(è\
+Z
+≥ë ≥(û
+%10java.lang.String"__id*+
+
+__unknown_file (
+nfeCabecMsgKI
+
+≥? ≥(X 
+%11javax.xml.namespace.QName"javax.xml.namespace.QName≠
+™
+≥; ≥(ü
+%12"Gjavax.xml.namespace.QName#<init>(Ljava/lang/String;Ljava/lang/String;)V*>
+
+__unknown_file ("
+ 
+%11javax.xml.namespace.QName*T
+
+__unknown_file (86
+4http://www.portalfiscal.inf.br/nfe/wsdl/NfeConsulta2*5
+
+__unknown_file (
+
+%10java.lang.String*
+11*«
+23
+´8 ´(>™ß
+
+´8 ´(M
+%3boolean"0javax.xml.stream.XMLStreamReader#isEndElement()Z*H
+
+__unknown_file (,
+*
+reader javax.xml.stream.XMLStreamReader2isEndElement()*
+20
+21:8
+
+§- §(Z*
+reader javax.xml.stream.XMLStreamReaderBg"e
+ccom.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsulta2Stub$NfeCabecMsgE$FactoryH

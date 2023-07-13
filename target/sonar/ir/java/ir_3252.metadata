@@ -1,0 +1,14 @@
+com.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno#efetuaConsulta(Lorg/apache/axiom/om/OMElement;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub$CteDadosMsg#<init>()V
+com.fincatto.documentofiscal.cte300.classes.CTAutorizador31#valueOfCodigoUF(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/cte300/classes/CTAutorizador31;
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+com.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub$CteCabecMsgE#<init>()V
+java.lang.IllegalArgumentException#instance-init#
+com.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub#instance-init#
+com.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub$CteCabecMsg#<init>()V
+com.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub$CteCabecMsg#instance-init#
+com.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub$CteDadosMsg#instance-init#
+java.lang.Enum#name()Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub$CteCabecMsgE#instance-init#
+com.fincatto.documentofiscal.cte300.webservices.retrecepcao.CteRetRecepcaoStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V

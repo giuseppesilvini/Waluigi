@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.classes.CTIndicadoNegociavel#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTIndicadoNegociavel;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.cte300.classes.CTIndicadoNegociavel#getCodigo()Ljava/lang/String;

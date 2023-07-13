@@ -1,0 +1,45 @@
+
+¥com.fincatto.documentofiscal.nfe310.webservices.WSFacade#corrigeNota(Ljava/lang/String;Ljava/lang/String;I)Lcom/fincatto/documentofiscal/nfe310/classes/evento/NFEnviaEventoRetorno;ç
+Ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/WSFacade.javaÉ  É(+"1*ö
+1
+Ñ Ñ(À
+»
+
+Ñ Ñ(#E
+%0?com.fincatto.documentofiscal.nfe310.webservices.WSCartaCorrecao"__id*m
+
+__unknown_file (Q*O:
+8com.fincatto.documentofiscal.nfe310.webservices.WSFacade"
+wsCartaCorrecao€ÿ
+
+Ñ Ñ(eM
+%1Gcom.fincatto.documentofiscal.nfe310.classes.evento.NFEnviaEventoRetorno"ªcom.fincatto.documentofiscal.nfe310.webservices.WSCartaCorrecao#corrigeNota(Ljava/lang/String;Ljava/lang/String;I)Lcom/fincatto/documentofiscal/nfe310/classes/evento/NFEnviaEventoRetorno;*c
+
+__unknown_file (G
+E
+%0?com.fincatto.documentofiscal.nfe310.webservices.WSCartaCorrecao*?
+
+__unknown_file (#
+!
+chaveDeAcessojava.lang.String*?
+
+__unknown_file (#
+!
+textoCorrecaojava.lang.String*"
+
+__unknown_file (
+""22corrigeNota(Ljava/lang/String;Ljava/lang/String;I)"]
+
+Ñ Ñ(fO
+M
+%1Gcom.fincatto.documentofiscal.nfe310.classes.evento.NFEnviaEventoRetorno:/
+
+É, É(G!
+chaveDeAcessojava.lang.String:/
+
+ÉH É(c!
+textoCorrecaojava.lang.String: 
+
+__unknown_file (
+""B<:
+8com.fincatto.documentofiscal.nfe310.webservices.WSFacadeH

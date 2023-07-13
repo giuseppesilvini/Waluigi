@@ -1,0 +1,35 @@
+
+¦com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRecepcaoEvento4Stub$NfeDadosMsg#getPullParser(Ljavax/xml/namespace/QName;)Ljavax/xml/stream/XMLStreamReader;¢
+•/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/gerado/NFeRecepcaoEvento4Stub.javaÜ Ü(,"startingBlock*ž
+startingBlock
+Ü, Ü(>–
+“
+
+Û Û(
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*?
+
+__unknown_file (#
+!
+arg0javax.xml.namespace.QNamec
+a
+
+Ü9 Ü(=!
+arg0javax.xml.namespace.QName"__annotation*"
+
+__unknown_file (
+
+%0*
+1*%
+1
+Ý Ý("
+
+Ý Ý(
+"":/
+
+Ü- Ü(=!
+arg0javax.xml.namespace.QNameB][
+Ycom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRecepcaoEvento4Stub$NfeDadosMsgH

@@ -1,0 +1,51 @@
+
+ãcom.fincatto.documentofiscal.cte300.webservices.WSFacade#consultarDistribuicaoCTe(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoIntRetorno;ç
+Ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/WSFacade.java≤$ ≤(<"1*µ	
+1
+≥ ≥(Ÿ
+÷
+
+≥ ≥(%Q
+%0Kcom.fincatto.documentofiscal.cte.webservices.distribuicao.WSDistribuicaoCTe"__id*o
+
+__unknown_file (S*Q:
+8com.fincatto.documentofiscal.cte300.webservices.WSFacade"
+wSDistribuicaoCTe·ﬁ
+
+≥ ≥(KT
+%1Ncom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoIntRetorno"ècom.fincatto.documentofiscal.cte.webservices.distribuicao.WSDistribuicaoCTe#consultar(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoIntRetorno;*o
+
+__unknown_file (S
+Q
+%0Kcom.fincatto.documentofiscal.cte.webservices.distribuicao.WSDistribuicaoCTe*;
+
+__unknown_file (
+
+	cpfOuCnpjjava.lang.String*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa*5
+
+__unknown_file (
+
+nsujava.lang.String*8
+
+__unknown_file (
+
+ultNsujava.lang.String2sconsultar(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Ljava/lang/String;Ljava/lang/String;)"d
+
+≥ ≥(LV
+T
+%1Ncom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoIntRetorno:+
+
+≤= ≤(T
+	cpfOuCnpjjava.lang.String:D
+
+≤U ≤(r6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa:&
+≤s ≤(Ñ
+nsujava.lang.String:*
+≤Ö ≤(ò
+ultNsujava.lang.StringB<:
+8com.fincatto.documentofiscal.cte300.webservices.WSFacadeH

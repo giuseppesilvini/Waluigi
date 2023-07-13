@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemImpostoCOFINSQuantidade#setValorTributo(Ljava/math/BigDecimal;)V
+com.fincatto.documentofiscal.validadores.DFBigDecimalValidador#tamanho15Com2CasasDecimais(Ljava/math/BigDecimal;Ljava/lang/String;)Ljava/lang/String;

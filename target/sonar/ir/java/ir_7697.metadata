@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.nota.CTeNotaInfoDadosComplementares#setCaracteristicasTransporte(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#tamanho15(Ljava/lang/String;Ljava/lang/String;)V

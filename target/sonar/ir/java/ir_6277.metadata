@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProduto#setArmamentos(Ljava/util/List;)V
+java.lang.IllegalStateException#instance-init#
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFListValidador#tamanho500(Ljava/util/List;Ljava/lang/String;)V

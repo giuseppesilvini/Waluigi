@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.classes.consultanaoencerrados.MDFeConsultaNaoEncerrados#setCnpj(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#cnpj(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

@@ -1,0 +1,36 @@
+
+­com.fincatto.documentofiscal.cte300.transformes.CTInformacoesManuseioTransformer#write(Lcom/fincatto/documentofiscal/cte300/classes/CTInformacoesManuseio;)Ljava/lang/String;£
+˜/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/transformes/CTInformacoesManuseioTransformer.java ("startingBlock*ê
+startingBlock (3¼
+¹
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*g
+
+__unknown_file (K
+I
+arg0Acom.fincatto.documentofiscal.cte300.classes.CTInformacoesManuseioŠ
+‡
+. (2I
+arg0Acom.fincatto.documentofiscal.cte300.classes.CTInformacoesManuseio"__annotation*"
+
+__unknown_file (
+
+%1*
+1*²
+1 (üù
+ (
+%0java.lang.String"_com.fincatto.documentofiscal.cte300.classes.CTInformacoesManuseio#getCodigo()Ljava/lang/String;*g
+
+__unknown_file (K
+I
+arg0Acom.fincatto.documentofiscal.cte300.classes.CTInformacoesManuseio2getCodigo()"$
+ ( 
+
+%0java.lang.String:U
+ (2I
+arg0Acom.fincatto.documentofiscal.cte300.classes.CTInformacoesManuseioBTR
+Pcom.fincatto.documentofiscal.cte300.transformes.CTInformacoesManuseioTransformerH

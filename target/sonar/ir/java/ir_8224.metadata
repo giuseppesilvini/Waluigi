@@ -1,0 +1,11 @@
+com.fincatto.documentofiscal.nfe.webservices.distribuicao.WSDistribuicaoNFe#gerarNFDistribuicaoInt(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoInt;
+com.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoNSU#instance-init#
+com.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaNSU#<init>()V
+com.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaNSU#instance-init#
+java.lang.String#length()I
+com.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaChaveAcesso#<init>()V
+com.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt#<init>()V
+com.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoInt#instance-init#
+com.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoNSU#<init>()V
+org.apache.commons.lang3.StringUtils#isNotBlank(Ljava/lang/CharSequence;)Z
+com.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoConsultaChaveAcesso#instance-init#

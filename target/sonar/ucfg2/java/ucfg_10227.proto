@@ -1,0 +1,46 @@
+
+πcom.fincatto.documentofiscal.nfe400.transformers.NFSituacaoContribuinteTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/cadastro/NFSituacaoContribuinte;)Ljava/lang/String;•
+ö/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFSituacaoContribuinteTransformer.java ("startingBlock*ü
+startingBlock (J◊
+‘
+ (
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Å
+
+__unknown_file (e
+c
+situacaoContribuinteKcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFSituacaoContribuinte§
+°
+5 (Ic
+situacaoContribuinteKcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFSituacaoContribuinte"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Î
+1 (ÉÄ
+ (>	
+%0int"Xcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFSituacaoContribuinte#getCodigo()I*Å
+
+__unknown_file (e
+c
+situacaoContribuinteKcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFSituacaoContribuinte2getCodigo()Ø
+¨
+ (?
+%1java.lang.String"-java.lang.String#valueOf(I)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*'
+
+__unknown_file (
+	
+%0int"$
+ (@
+
+%1java.lang.String:o
+ (Ic
+situacaoContribuinteKcom.fincatto.documentofiscal.nfe400.classes.cadastro.NFSituacaoContribuinteBVT
+Rcom.fincatto.documentofiscal.nfe400.transformers.NFSituacaoContribuinteTransformerH

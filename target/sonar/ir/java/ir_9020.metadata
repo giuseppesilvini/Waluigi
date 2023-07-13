@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.utils.DFKeyManager#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V
+com.fincatto.documentofiscal.utils.DFKeyManager#getAlias(Ljava/security/KeyStore;)Ljava/lang/String;

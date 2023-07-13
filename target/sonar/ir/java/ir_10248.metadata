@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.transformers.MDFTipoCargaProdutoPredominanteTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoCargaProdutoPredominante;
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoCargaProdutoPredominante;

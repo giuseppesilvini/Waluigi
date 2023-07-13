@@ -1,0 +1,66 @@
+
+Àcom.fincatto.documentofiscal.mdfe3.webservices.WSPagamentoTransporte#pagamentoAssinado(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;—
+Œ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSPagamentoTransporte.java" "(!"1*¶
+1#* #(.¸
+µ
+#* #(^#
+%0org.apache.axiom.om.OMElement"™com.fincatto.documentofiscal.mdfe3.webservices.WSPagamentoTransporte#efetuaPagamento(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*d
+
+__unknown_file (HF
+Dcom.fincatto.documentofiscal.mdfe3.webservices.WSPagamentoTransporte*C
+
+__unknown_file ('
+%
+eventoAssinadoXmljava.lang.String*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.Stringˆ
+…
+# #(_0
+omElementResultorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%0org.apache.axiom.om.OMElementº
+·
+$ $(3
+%1-com.fincatto.documentofiscal.mdfe3.MDFeConfig"__id*p
+
+__unknown_file (T*RF
+Dcom.fincatto.documentofiscal.mdfe3.webservices.WSPagamentoTransporte"
+configüù
+$ $(),
+%2&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*Q
+
+__unknown_file (5
+3
+%1-com.fincatto.documentofiscal.mdfe3.MDFeConfig2getPersister()½º
+$B $(\
+%3java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+omElementResultorg.apache.axiom.om.OMElement2
+toString()Œ‰
+$ $(]H
+%4Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*J
+
+__unknown_file (.
+,
+%2&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%3java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)"V
+$ $(^J
+H
+%4Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno:+
+"" "(;
+chaveAcessojava.lang.String:1
+"< "(Z%
+eventoAssinadoXmljava.lang.StringBHF
+Dcom.fincatto.documentofiscal.mdfe3.webservices.WSPagamentoTransporte

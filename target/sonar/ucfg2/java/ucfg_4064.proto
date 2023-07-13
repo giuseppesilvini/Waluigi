@@ -1,0 +1,60 @@
+
+≤com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoResponsavelSeguro;ö
+è/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoResponsavelSeguro.java"+ "(8"5*∏
+2# #(6î
+ë
+# #(6[
+tipoUnidadeCargaGcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro"__id*"
+
+__unknown_file (
+""â
+Ü
+# #(6[
+tipoUnidadeCargaGcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro"
+__arrayGet*m
+
+__unknown_file (Q
+O
+%0Icom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro[]*"
+
+__unknown_file (
+""*
+4
+1*x
+3% %('"i
+% %((]
+[
+tipoUnidadeCargaGcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro*ô
+4$ $( îë
+$ $(,
+%1java.lang.String"ecom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro#getCodigo()Ljava/lang/String;*y
+
+__unknown_file (]
+[
+tipoUnidadeCargaGcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro2getCodigo()ÍÁ
+$ $(E
+%2boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
+2
+3*˘
+5#9 #(Q‰
+·
+#9 #(ZO
+%0Icom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro[]"öcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro#values()[Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoResponsavelSeguro;*g
+
+__unknown_file (K"I
+Gcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguro*
+2*!
+1( (("
+( ((
+"":&
+"9 "(L
+codigojava.lang.StringBK"I
+Gcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoResponsavelSeguroH

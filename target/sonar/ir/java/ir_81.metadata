@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTFinalidadeTransformes#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTFinalidade;
+com.fincatto.documentofiscal.cte300.classes.CTFinalidade#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTFinalidade;

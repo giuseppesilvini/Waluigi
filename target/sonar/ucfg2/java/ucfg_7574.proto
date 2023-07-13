@@ -1,0 +1,147 @@
+
+◊com.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario#manifestaDestinatarioNota(Ljava/lang/String;Lcom/fincatto/documentofiscal/nfe400/classes/evento/manifestacaodestinatario/NFTipoEventoManifestacaoDestinatario;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/NFEnviaEventoRetorno;ù
+í/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSManifestacaoDestinatario.java" "(2"1*Ç!
+1#7 #(;—
+Œ
+	#7 #(Öw
+%0qcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatario"äcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario#gerarDadosManifestacaoDestinatario(Ljava/lang/String;Lcom/fincatto/documentofiscal/nfe400/classes/evento/manifestacaodestinatario/NFTipoEventoManifestacaoDestinatario;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/manifestacaodestinatario/NFEnviaEventoManifestacaoDestinatario;*j
+
+__unknown_file (NL
+Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*ù
+
+__unknown_file (Ä
+~
+
+tipoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFTipoEventoManifestacaoDestinatario*8
+
+__unknown_file (
+
+motivojava.lang.String*6
+
+__unknown_file (
+
+cnpjjava.lang.Stringåâ
+	#7 #(ê
+%1java.lang.String"@com.fincatto.documentofiscal.DFBase#toString()Ljava/lang/String;*ï
+
+__unknown_file (y
+w
+%0qcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFEnviaEventoManifestacaoDestinatario2
+toString()~
+|
+	# #(ë3
+manifestacaoDestinatarioNotaXMLjava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.StringΩ
+∫
+$; $(F0
+%2*com.fincatto.documentofiscal.nfe.NFeConfig"__id*v
+
+__unknown_file (Z*XL
+Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario"
+configÉÄ
+$' $(:<
+%36com.fincatto.documentofiscal.utils.DFAssinaturaDigital"6com.fincatto.documentofiscal.utils.DFAssinaturaDigital®
+•
+$# $(G
+%4"gcom.fincatto.documentofiscal.utils.DFAssinaturaDigital#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V*Z
+
+__unknown_file (>
+<
+%36com.fincatto.documentofiscal.utils.DFAssinaturaDigital*N
+
+__unknown_file (2
+0
+%2*com.fincatto.documentofiscal.nfe.NFeConfigÈÊ
+$# $(y
+%5java.lang.String"mcom.fincatto.documentofiscal.utils.DFAssinaturaDigital#assinarDocumento(Ljava/lang/String;)Ljava/lang/String;*Z
+
+__unknown_file (>
+<
+%36com.fincatto.documentofiscal.utils.DFAssinaturaDigital*Q
+
+__unknown_file (5
+3
+manifestacaoDestinatarioNotaXMLjava.lang.String2$assinarDocumento(Ljava/lang/String;)i
+g
+$ $(z
+xmlAssinadojava.lang.String"__id*4
+
+__unknown_file (
+
+%5java.lang.StringÕ
+ 
+%* %(g#
+%6org.apache.axiom.om.OMElement"Æcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario#efetuaManifestacaoDestinatario(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*j
+
+__unknown_file (NL
+Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario*=
+
+__unknown_file (!
+
+xmlAssinadojava.lang.String*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.Stringà
+Ö
+% %(h0
+omElementResultorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%6org.apache.axiom.om.OMElementΩ
+∫
+& &(0
+%7*com.fincatto.documentofiscal.nfe.NFeConfig"__id*v
+
+__unknown_file (Z*XL
+Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario"
+config˘ˆ
+& &(),
+%8&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*N
+
+__unknown_file (2
+0
+%7*com.fincatto.documentofiscal.nfe.NFeConfig2getPersister()Ω∫
+&K &(e
+%9java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+omElementResultorg.apache.axiom.om.OMElement2
+toString()íè
+& &(fN
+%10Gcom.fincatto.documentofiscal.nfe400.classes.evento.NFEnviaEventoRetorno"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*J
+
+__unknown_file (.
+,
+%8&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%9java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)"\
+& &(gP
+N
+%10Gcom.fincatto.documentofiscal.nfe400.classes.evento.NFEnviaEventoRetorno:+
+"3 "(L
+chaveAcessojava.lang.String:ã
+	"M "(É~
+
+tipoEventopcom.fincatto.documentofiscal.nfe400.classes.evento.manifestacaodestinatario.NFTipoEventoManifestacaoDestinatario:(
+
+"Ñ "(ò
+motivojava.lang.String:&
+
+"ô "(™
+cnpjjava.lang.StringBNL
+Jcom.fincatto.documentofiscal.nfe400.webservices.WSManifestacaoDestinatario

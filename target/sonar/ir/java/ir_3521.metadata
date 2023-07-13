@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProdutoMedicamento#setMotivoIsencao(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoItemProdutoMedicamento;
+com.fincatto.documentofiscal.validadores.DFStringValidador#validaTamanhoMaximo(Ljava/lang/String;ILjava/lang/String;)V

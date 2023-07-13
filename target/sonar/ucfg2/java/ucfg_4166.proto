@@ -1,0 +1,36 @@
+
+úcom.fincatto.documentofiscal.nfe400.transformers.NFFinalidadeTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/NFFinalidade;)Ljava/lang/String;õ
+ê/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFFinalidadeTransformer.java ("startingBlock*◊
+startingBlock (0≥
+∞
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*^
+
+__unknown_file (B
+@
+tipo8com.fincatto.documentofiscal.nfe400.classes.NFFinalidadeÄ
+~
++ (/@
+tipo8com.fincatto.documentofiscal.nfe400.classes.NFFinalidade"__annotation*"
+
+__unknown_file (
+
+%1*
+1*†
+1 (ÍÁ
+ (
+%0java.lang.String"Vcom.fincatto.documentofiscal.nfe400.classes.NFFinalidade#getCodigo()Ljava/lang/String;*^
+
+__unknown_file (B
+@
+tipo8com.fincatto.documentofiscal.nfe400.classes.NFFinalidade2getCodigo()"$
+ ( 
+
+%0java.lang.String:L
+ (/@
+tipo8com.fincatto.documentofiscal.nfe400.classes.NFFinalidadeBLJ
+Hcom.fincatto.documentofiscal.nfe400.transformers.NFFinalidadeTransformerH

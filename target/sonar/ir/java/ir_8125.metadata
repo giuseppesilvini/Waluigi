@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte200.transformers.CTUnidadeMedidaTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTUnidadeMedida;
+com.fincatto.documentofiscal.cte200.classes.CTUnidadeMedida#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTUnidadeMedida;

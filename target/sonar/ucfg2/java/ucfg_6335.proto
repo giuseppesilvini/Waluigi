@@ -1,0 +1,69 @@
+
+@com.fincatto.documentofiscal.DFBase#toString()Ljava/lang/String;u
+k/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/DFBase.java ("8*3
+4 (%"$
+ (%
+
+%5java.lang.String*·
+5 (¢Ÿ
+ ($
+%5java.lang.String"1java.io.StringWriter#toString()Ljava/lang/String;*<
+
+__unknown_file ( 
+
+writerjava.io.StringWriter2
+toString()*
+4*ð
+6 (5l
+j
+ (5
+writerjava.io.StringWriter"__id*8
+
+__unknown_file (
+
+%2java.io.StringWriteríê
+ ()
+
+%4void"Qorg.simpleframework.xml.core.Persister#write(Ljava/lang/Object;Ljava/io/Writer;)V*Q
+
+__unknown_file (5
+3
+	persister&org.simpleframework.xml.core.Persister*C
+
+__unknown_file ('%
+#com.fincatto.documentofiscal.DFBase*<
+
+__unknown_file ( 
+
+writerjava.io.StringWriter2)write(Ljava/lang/Object;Ljava/io/Writer;)*
+5*À
+7# (5><
+' (3
+%2java.io.StringWriter"java.io.StringWriterl
+j
+# (5
+%3"java.io.StringWriter#<init>()V*8
+
+__unknown_file (
+
+%2java.io.StringWriter*
+6*É
+8$ (5rp
+( (34
+%0.com.fincatto.documentofiscal.utils.DFPersister".com.fincatto.documentofiscal.utils.DFPersister¡
+ž
+$ (5
+%1"8com.fincatto.documentofiscal.utils.DFPersister#<init>()V*R
+
+__unknown_file (6
+4
+%0.com.fincatto.documentofiscal.utils.DFPersisterœ
+™
+ (63
+	persister&org.simpleframework.xml.core.Persister"__id*R
+
+__unknown_file (6
+4
+%0.com.fincatto.documentofiscal.utils.DFPersister*
+7B'%
+#com.fincatto.documentofiscal.DFBaseH

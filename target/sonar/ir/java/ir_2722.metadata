@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte200.transformers.CTIdentificadorEmissorTransformer#write(Lcom/fincatto/documentofiscal/cte200/classes/CTIdentificadorEmissor;)Ljava/lang/String;
+com.fincatto.documentofiscal.cte200.classes.CTIdentificadorEmissor#getCodigo()Ljava/lang/String;

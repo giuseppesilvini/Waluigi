@@ -1,0 +1,39 @@
+
+Ôcom.fincatto.documentofiscal.cte300.webservices.WSFacade#cancelaNota(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/evento/cancelamento/CTeRetornoCancelamento;‹
+€/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/WSFacade.javac" c(-"1*í
+1d d(Ç
+Ä
+d d("D
+%0>com.fincatto.documentofiscal.cte300.webservices.WSCancelamento"__id*l
+
+__unknown_file (P*N:
+8com.fincatto.documentofiscal.cte300.webservices.WSFacade"
+wsCancelamento§¤
+d d(N\
+%1Vcom.fincatto.documentofiscal.cte300.classes.evento.cancelamento.CTeRetornoCancelamento"Úcom.fincatto.documentofiscal.cte300.webservices.WSCancelamento#cancelaNota(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/evento/cancelamento/CTeRetornoCancelamento;*b
+
+__unknown_file (F
+D
+%0>com.fincatto.documentofiscal.cte300.webservices.WSCancelamento*7
+
+__unknown_file (
+
+chavejava.lang.String*A
+
+__unknown_file (%
+#
+numeroProtocolojava.lang.String*8
+
+__unknown_file (
+
+motivojava.lang.String2CcancelaNota(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)"j
+d d(O^
+\
+%1Vcom.fincatto.documentofiscal.cte300.classes.evento.cancelamento.CTeRetornoCancelamento:%
+c. c(A
+chavejava.lang.String:/
+cB c(_#
+numeroProtocolojava.lang.String:&
+c` c(s
+motivojava.lang.StringB<:
+8com.fincatto.documentofiscal.cte300.webservices.WSFacadeH

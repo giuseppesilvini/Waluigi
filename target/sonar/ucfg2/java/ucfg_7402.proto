@@ -1,0 +1,81 @@
+
+ëcom.fincatto.documentofiscal.utils.MessageContextFactory#create(Lcom/fincatto/documentofiscal/DFConfig;)Lorg/apache/axis2/context/MessageContext;ã
+Ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/utils/MessageContextFactory.java ( "1*Ç
+1. (Bdb
+2 (@-
+%0'org.apache.axis2.context.MessageContext"'org.apache.axis2.context.MessageContextì
+ê
+. (B
+%1"1org.apache.axis2.context.MessageContext#<init>()V*K
+
+__unknown_file (/
+-
+%0'org.apache.axis2.context.MessageContextõ
+ò
+ (C9
+messageContext'org.apache.axis2.context.MessageContext"__id*K
+
+__unknown_file (/
+-
+%0'org.apache.axis2.context.MessageContextV
+T
+# (;
+%2java.lang.String"__id**
+
+__unknown_file (
+
+SO_TIMEOUTŒÀ
+= (b	
+%3int"Ecom.fincatto.documentofiscal.DFConfig#getTimeoutRequisicaoEmMillis()I*M
+
+__unknown_file (1
+/
+config%com.fincatto.documentofiscal.DFConfig2getTimeoutRequisicaoEmMillis()·ﬁ
+ (c
+
+%4void"[org.apache.axis2.context.AbstractContext#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*W
+
+__unknown_file (;
+9
+messageContext'org.apache.axis2.context.MessageContext*4
+
+__unknown_file (
+
+%2java.lang.String*'
+
+__unknown_file (
+	
+%3int21setProperty(Ljava/lang/String;Ljava/lang/Object;)^
+\
+# (C
+%5java.lang.String"__id*2
+
+__unknown_file (
+CONNECTION_TIMEOUTæª
+E (b	
+%6int"=com.fincatto.documentofiscal.DFConfig#getSoTimeoutEmMillis()I*M
+
+__unknown_file (1
+/
+config%com.fincatto.documentofiscal.DFConfig2getSoTimeoutEmMillis()·ﬁ
+ (c
+
+%7void"[org.apache.axis2.context.AbstractContext#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*W
+
+__unknown_file (;
+9
+messageContext'org.apache.axis2.context.MessageContext*4
+
+__unknown_file (
+
+%5java.lang.String*'
+
+__unknown_file (
+	
+%6int21setProperty(Ljava/lang/String;Ljava/lang/Object;)"G
+ (;
+9
+messageContext'org.apache.axis2.context.MessageContext:;
+! (0/
+config%com.fincatto.documentofiscal.DFConfigB<:
+8com.fincatto.documentofiscal.utils.MessageContextFactoryH

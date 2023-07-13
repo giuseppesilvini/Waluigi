@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.utils.DFPersister#read(Ljava/lang/Class;Lorg/simpleframework/xml/stream/InputNode;)Ljava/lang/Object;

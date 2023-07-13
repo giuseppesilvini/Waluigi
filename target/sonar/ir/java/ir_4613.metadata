@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao#inutilizaNotaAssinada(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/inutilizacao/NFRetornoEventoInutilizacao;
+com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao#efetuaInutilizacao(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lorg/apache/axiom/om/OMElement;

@@ -1,0 +1,28 @@
+
+__sonar_lambda_7$ê
+Ç/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/validadores/DFStringValidador.javaªT ª(•"1*›
+1
+ª_ ª(f¨©
+
+ª_ ª(p
+%24java.lang.String"4java.lang.reflect.Method#getName()Ljava/lang/String;*A
+
+__unknown_file (%
+#
+method1java.lang.reflect.Method2	getName()˚¯
+ª_ ª(•
+%25boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*5
+
+__unknown_file (
+
+%24java.lang.String*H
+
+__unknown_file (,*
+(getPercentualMargemValorAdicionadoICMSST2"contains(Ljava/lang/CharSequence;)"
+ª_ ª(•
+
+%25boolean:1
+
+ªT ª([#
+method1java.lang.reflect.MethodB 
+java.util.function.Predicate

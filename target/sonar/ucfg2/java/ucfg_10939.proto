@@ -1,0 +1,395 @@
+
+∆com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub#consultaCadastro(Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub$ConsultaCadastro;)Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub$NfeResultMsg;Æ
+£/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub.javaO O(("64*ã
+46i i(ÙÒ
+i i(?
+%25void"eorg.apache.axis2.client.OperationClient#addMessageContext(Lorg/apache/axis2/context/MessageContext;)V*Y
+
+__unknown_file (=
+;
+_operationClient'org.apache.axis2.client.OperationClient*X
+
+__unknown_file (<
+:
+_messageContext'org.apache.axis2.context.MessageContext2<addMessageContext(Lorg/apache/axis2/context/MessageContext;)*
+45*„
+47f f(Ã…
+f f(,
+%24void"Zorg.apache.axis2.context.MessageContext#setEnvelope(Lorg/apache/axiom/soap/SOAPEnvelope;)V*X
+
+__unknown_file (<
+:
+_messageContext'org.apache.axis2.context.MessageContext*G
+
+__unknown_file (+
+)
+env"org.apache.axiom.soap.SOAPEnvelope21setEnvelope(Lorg/apache/axiom/soap/SOAPEnvelope;)*
+46*«
+48	_ a(Öà
+Ö
+	_ a(Ö)
+env"org.apache.axiom.soap.SOAPEnvelope"__id*G
+
+__unknown_file (+
+)
+%21"org.apache.axiom.soap.SOAPEnvelope”
+–
+d d(,
+%22%org.apache.axis2.client.ServiceClient"__id*è
+
+__unknown_file (s*q]
+[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub"
+_serviceClientŒÀ
+d d(9
+%23void"aorg.apache.axis2.client.ServiceClient#addHeadersToEnvelope(Lorg/apache/axiom/soap/SOAPEnvelope;)V*J
+
+__unknown_file (.
+,
+%22%org.apache.axis2.client.ServiceClient*G
+
+__unknown_file (+
+)
+env"org.apache.axiom.soap.SOAPEnvelope2:addHeadersToEnvelope(Lorg/apache/axiom/soap/SOAPEnvelope;)*
+47*‰
+49	_ a(ÖÃ
+…
+	_ a(Ö)
+%21"org.apache.axiom.soap.SOAPEnvelope"πcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub#toEnvelope(Lorg/apache/axiom/soap/SOAPFactory;Lcom/fincatto/documentofiscal/nfe400/webservices/consultacadastro/MTCadConsultaCadastro4Stub$ConsultaCadastro;ZLjavax/xml/namespace/QName;)Lorg/apache/axiom/soap/SOAPEnvelope;*{
+
+__unknown_file (_]
+[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub*F
+
+__unknown_file (*
+(
+%15!org.apache.axiom.soap.SOAPFactory*°
+
+__unknown_file (Ñ
+Å
+consultaCadastro0lcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastro*,
+
+__unknown_file (
+
+%18boolean*>
+
+__unknown_file ("
+ 
+%19javax.xml.namespace.QName*
+48*ê
+50a2 a(pIG
+a a(1 
+%19javax.xml.namespace.QName"javax.xml.namespace.QNameÆ
+´
+	a a(Ñ
+%20"Gjavax.xml.namespace.QName#<init>(Ljava/lang/String;Ljava/lang/String;)V*>
+
+__unknown_file ("
+ 
+%19javax.xml.namespace.QName*\
+
+__unknown_file (@>
+<http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4*0
+
+__unknown_file (
+consultaCadastro*
+49*ˇ
+51	` `(ïÁ
+‰
+	` `(ï
+%18boolean"âcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub#optimizeContent(Ljavax/xml/namespace/QName;)Z*{
+
+__unknown_file (_]
+[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub*>
+
+__unknown_file ("
+ 
+%16javax.xml.namespace.QName*
+50*ê
+52_` _(qIG
+`( `(A 
+%16javax.xml.namespace.QName"javax.xml.namespace.QNameÆ
+´
+	`$ `(î
+%17"Gjavax.xml.namespace.QName#<init>(Ljava/lang/String;Ljava/lang/String;)V*>
+
+__unknown_file ("
+ 
+%16javax.xml.namespace.QName*\
+
+__unknown_file (@>
+<http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4*0
+
+__unknown_file (
+consultaCadastro*
+51*£
+53_" _(_å
+â
+_" _(_(
+%15!org.apache.axiom.soap.SOAPFactory"^org.apache.axis2.client.Stub#getFactory(Ljava/lang/String;)Lorg/apache/axiom/soap/SOAPFactory;*<
+
+__unknown_file ( "
+org.apache.axis2.client.Stub*5
+
+__unknown_file (
+
+%14java.lang.String*
+52*ﬂ
+54_- _(^»≈
+_- _(^
+%14java.lang.String"Eorg.apache.axis2.client.Options#getSoapVersionURI()Ljava/lang/String;*D
+
+__unknown_file ((
+&
+%13org.apache.axis2.client.Options2getSoapVersionURI()*
+53*è
+55Z Z(Kù
+ö
+Z Z(K:
+_messageContext'org.apache.axis2.context.MessageContext"__id*L
+
+__unknown_file (0
+.
+%11'org.apache.axis2.context.MessageContexta
+_
+] ](:)
+env"org.apache.axiom.soap.SOAPEnvelope"__id*"
+
+__unknown_file (
+""ıÚ
+_- _(J&
+%13org.apache.axis2.client.Options"Uorg.apache.axis2.client.OperationClient#getOptions()Lorg/apache/axis2/client/Options;*Y
+
+__unknown_file (=
+;
+_operationClient'org.apache.axis2.client.OperationClient2getOptions()*
+54*ì
+56Z Z(Kec
+Z" Z(I.
+%11'org.apache.axis2.context.MessageContext"'org.apache.axis2.context.MessageContextï
+í
+Z Z(K
+%12"1org.apache.axis2.context.MessageContext#<init>()V*L
+
+__unknown_file (0
+.
+%11'org.apache.axis2.context.MessageContext*
+55*»
+57W W((j
+h
+	W: W(ä
+%9java.lang.String"__id*=
+
+__unknown_file (!
+whttp:queryParameterSeparator≈¬
+	W W(è
+%10void"âorg.apache.axis2.client.Stub#addPropertyToOperationClient(Lorg/apache/axis2/client/OperationClient;Ljava/lang/String;Ljava/lang/Object;)V*{
+
+__unknown_file (_]
+[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub*Y
+
+__unknown_file (=
+;
+_operationClient'org.apache.axis2.client.OperationClient*4
+
+__unknown_file (
+
+%9java.lang.String*!
+
+__unknown_file (
+&2kaddPropertyToOperationClient(Lorg/apache/axis2/client/OperationClient;Ljava/lang/String;Ljava/lang/Object;)*
+56*Ñ
+58UL U(PÌÍ
+U U(Q
+
+%8void"Eorg.apache.axis2.client.Options#setExceptionToBeThrownOnSOAPFault(Z)V*C
+
+__unknown_file ('
+%
+%7org.apache.axis2.client.Options* 
+
+__unknown_file (22$setExceptionToBeThrownOnSOAPFault(Z)*
+57*ã
+59U U(ÙÒ
+U U()%
+%7org.apache.axis2.client.Options"Uorg.apache.axis2.client.OperationClient#getOptions()Lorg/apache/axis2/client/Options;*Y
+
+__unknown_file (=
+;
+_operationClient'org.apache.axis2.client.OperationClient2getOptions()*
+58*ü
+39q s((e
+c
+q s((
+objectjava.lang.Object"__id*5
+
+__unknown_file (
+
+%32java.lang.Object"(
+u u()
+
+objectjava.lang.Object*≈
+60	T4 T(É≠™
+	T T(Ñ
+
+%6void">org.apache.axis2.client.Options#setAction(Ljava/lang/String;)V*C
+
+__unknown_file ('
+%
+%5org.apache.axis2.client.Options*m
+
+__unknown_file (QO
+Mhttp://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4/consultaCadastro2setAction(Ljava/lang/String;)*
+59*´
+61S S(}ù
+ö
+S S(};
+_operationClient'org.apache.axis2.client.OperationClient"__id*K
+
+__unknown_file (/
+-
+%4'org.apache.axis2.client.OperationClientÙÒ
+T T()%
+%5org.apache.axis2.client.Options"Uorg.apache.axis2.client.OperationClient#getOptions()Lorg/apache/axis2/client/Options;*Y
+
+__unknown_file (=
+;
+_operationClient'org.apache.axis2.client.OperationClient2getOptions()*
+60*Ç
+62SG S(|ÎË
+SG S(|-
+%4'org.apache.axis2.client.OperationClient"xorg.apache.axis2.client.ServiceClient#createClient(Ljavax/xml/namespace/QName;)Lorg/apache/axis2/client/OperationClient;*I
+
+__unknown_file (-
++
+%0%org.apache.axis2.client.ServiceClient*=
+
+__unknown_file (!
+
+%3javax.xml.namespace.QName2)createClient(Ljavax/xml/namespace/QName;)*
+61*À
+40s s(&¥
+±
+q s('
+%32java.lang.Object"¶com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub#fromOM(Lorg/apache/axiom/om/OMElement;Ljava/lang/Class;)Ljava/lang/Object;*{
+
+__unknown_file (_]
+[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub*B
+
+__unknown_file (&
+$
+%31org.apache.axiom.om.OMElement*"
+
+__unknown_file (
+""*
+39*ﬂ
+63SG S(U“
+œ
+SG S(U+
+%0%org.apache.axis2.client.ServiceClient"__id*è
+
+__unknown_file (s*q]
+[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub"
+_serviceClient÷
+”
+Sc S(n2
+%1,org.apache.axis2.description.AxisOperation[]"__id*å
+
+__unknown_file (p*n]
+[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub"
+_operationsΩ
+∫
+Sc S(q0
+%2*org.apache.axis2.description.AxisOperation"
+__arrayGet*P
+
+__unknown_file (4
+2
+%1,org.apache.axis2.description.AxisOperation[]*
+
+__unknown_file (2 ⁄◊
+Sc S({
+%3javax.xml.namespace.QName"Oorg.apache.axis2.description.AxisOperation#getName()Ljavax/xml/namespace/QName;*N
+
+__unknown_file (2
+0
+%2*org.apache.axis2.description.AxisOperation2	getName()*
+62*Ú
+41q# r(.€ÿ
+q# r(.$
+%31org.apache.axiom.om.OMElement"Norg.apache.axiom.om.OMElement#getFirstElement()Lorg/apache/axiom/om/OMElement;*C
+
+__unknown_file ('
+%
+%30org.apache.axiom.soap.SOAPBody2getFirstElement()*
+40*à
+64PB P(Fr
+p
+P P(G:
+_messageContext'org.apache.axis2.context.MessageContext"__id*"
+
+__unknown_file (
+""*
+63*Ö
+42o o(`é
+ã
+o o(`0
+
+_returnEnv"org.apache.axiom.soap.SOAPEnvelope"__id*G
+
+__unknown_file (+
+)
+%29"org.apache.axiom.soap.SOAPEnvelope›⁄
+q# q(7%
+%30org.apache.axiom.soap.SOAPBody"Lorg.apache.axiom.soap.SOAPEnvelope#getBody()Lorg/apache/axiom/soap/SOAPBody;*N
+
+__unknown_file (2
+0
+
+_returnEnv"org.apache.axiom.soap.SOAPEnvelope2	getBody()*
+41*¡
+43	n n(´§
+°
+	n n(´@
+_returnMessageContext'org.apache.axis2.context.MessageContext"__id*L
+
+__unknown_file (0
+.
+%28'org.apache.axis2.context.MessageContextÇˇ
+o< o(_)
+%29"org.apache.axiom.soap.SOAPEnvelope"Yorg.apache.axis2.context.MessageContext#getEnvelope()Lorg/apache/axiom/soap/SOAPEnvelope;*^
+
+__unknown_file (B
+@
+_returnMessageContext'org.apache.axis2.context.MessageContext2getEnvelope()*
+42*ÿ
+44nL n(\P
+N
+	no n(©
+%27java.lang.String"__id*"
+
+__unknown_file (
+InÔÏ
+	nL n(™.
+%28'org.apache.axis2.context.MessageContext"vorg.apache.axis2.client.OperationClient#getMessageContext(Ljava/lang/String;)Lorg/apache/axis2/context/MessageContext;*Y
+
+__unknown_file (=
+;
+_operationClient'org.apache.axis2.client.OperationClient*5
+
+__unknown_file (
+
+%27java.lang.String2%getMessageContext(Ljava/lang/String;)*
+43*Ô
+45l l(ÿ’
+l l(*
+%26void"3org.apache.axis2.client.OperationClient#execute(Z)V*Y
+
+__unknown_file (=
+;
+_operationClient'org.apache.axis2.client.OperationClient* 
+
+__unknown_file (22
+execute(Z)*
+44:é
+O) O(KÅ
+consultaCadastro0lcom.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4Stub$ConsultaCadastroB_]
+[com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadConsultaCadastro4StubH

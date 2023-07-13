@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFIndicadorIntermediadorTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFIndicadorIntermediador;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorIntermediador#getCodigo()Ljava/lang/String;

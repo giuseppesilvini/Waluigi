@@ -1,0 +1,60 @@
+
+∏com.fincatto.documentofiscal.nfe400.classes.nota.NFTipoIntegracaoPagamento#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFTipoIntegracaoPagamento;ù
+í/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFTipoIntegracaoPagamento.java, (9"5*≥
+2 (6ê
+ç
+ (6W
+	operadoraJcom.fincatto.documentofiscal.nfe400.classes.nota.NFTipoIntegracaoPagamento"__id*"
+
+__unknown_file (
+""à
+Ö
+ (6W
+	operadoraJcom.fincatto.documentofiscal.nfe400.classes.nota.NFTipoIntegracaoPagamento"
+__arrayGet*p
+
+__unknown_file (T
+R
+%0Lcom.fincatto.documentofiscal.nfe400.classes.nota.NFTipoIntegracaoPagamento[]*"
+
+__unknown_file (
+""*
+4
+1*t
+3 ( "e
+ (!Y
+W
+	operadoraJcom.fincatto.documentofiscal.nfe400.classes.nota.NFTipoIntegracaoPagamento*Ñ
+4 (ìê
+ (%
+%1java.lang.String"hcom.fincatto.documentofiscal.nfe400.classes.nota.NFTipoIntegracaoPagamento#getCodigo()Ljava/lang/String;*u
+
+__unknown_file (Y
+W
+	operadoraJcom.fincatto.documentofiscal.nfe400.classes.nota.NFTipoIntegracaoPagamento2getCodigo()÷”
+ (4
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*Ö
+59 (R
+Ì
+9 ([R
+%0Lcom.fincatto.documentofiscal.nfe400.classes.nota.NFTipoIntegracaoPagamento[]"†com.fincatto.documentofiscal.nfe400.classes.nota.NFTipoIntegracaoPagamento#values()[Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFTipoIntegracaoPagamento;*j
+
+__unknown_file (N"L
+Jcom.fincatto.documentofiscal.nfe400.classes.nota.NFTipoIntegracaoPagamento*
+2*!
+1 ("
+ (
+"":&
+: (M
+codigojava.lang.StringBN"L
+Jcom.fincatto.documentofiscal.nfe400.classes.nota.NFTipoIntegracaoPagamentoH

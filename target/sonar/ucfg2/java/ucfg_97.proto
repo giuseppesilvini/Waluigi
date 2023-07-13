@@ -1,0 +1,36 @@
+
+’com.fincatto.documentofiscal.cte200.transformers.CTModalTransformer#write(Lcom/fincatto/documentofiscal/cte200/classes/CTModal;)Ljava/lang/String;–
+‹/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/transformers/CTModalTransformer.java ("startingBlock*Ì
+startingBlock (+®
+«
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Y
+
+__unknown_file (=
+;
+tipo3com.fincatto.documentofiscal.cte200.classes.CTModal{
+y
+& (*;
+tipo3com.fincatto.documentofiscal.cte200.classes.CTModal"__annotation*"
+
+__unknown_file (
+
+%1*
+1*–
+1 (àÝ
+ (
+%0java.lang.String"Qcom.fincatto.documentofiscal.cte200.classes.CTModal#getCodigo()Ljava/lang/String;*Y
+
+__unknown_file (=
+;
+tipo3com.fincatto.documentofiscal.cte200.classes.CTModal2getCodigo()"$
+ ( 
+
+%0java.lang.String:G
+ (*;
+tipo3com.fincatto.documentofiscal.cte200.classes.CTModalBGE
+Ccom.fincatto.documentofiscal.cte200.transformers.CTModalTransformerH

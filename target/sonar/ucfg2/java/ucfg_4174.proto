@@ -1,0 +1,60 @@
+
+com.fincatto.documentofiscal.cte300.classes.CTModeloNF#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTModeloNF;ˆ
+~/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/classes/CTModeloNF.java (*"5*ë
+2 ("v
+t
+ (">
+tipo6com.fincatto.documentofiscal.cte300.classes.CTModeloNF"__id*"
+
+__unknown_file (
+""Û
+Ø
+ (">
+tipo6com.fincatto.documentofiscal.cte300.classes.CTModeloNF"
+__arrayGet*\
+
+__unknown_file (@
+>
+%08com.fincatto.documentofiscal.cte300.classes.CTModeloNF[]*"
+
+__unknown_file (
+""*
+4
+1*[
+3 ("L
+ (@
+>
+tipo6com.fincatto.documentofiscal.cte300.classes.CTModeloNF*×
+4 (æã
+ ( 
+%1java.lang.String"Tcom.fincatto.documentofiscal.cte300.classes.CTModeloNF#getCodigo()Ljava/lang/String;*\
+
+__unknown_file (@
+>
+tipo6com.fincatto.documentofiscal.cte300.classes.CTModeloNF2getCodigo()ÖÓ
+ (/
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*´
+5% (/Ÿ
+œ
+% (8>
+%08com.fincatto.documentofiscal.cte300.classes.CTModeloNF[]"xcom.fincatto.documentofiscal.cte300.classes.CTModeloNF#values()[Lcom/fincatto/documentofiscal/cte300/classes/CTModeloNF;*V
+
+__unknown_file (:"8
+6com.fincatto.documentofiscal.cte300.classes.CTModeloNF*
+2*!
+1 ("
+ (
+"":&
++ (>
+codigojava.lang.StringB:"8
+6com.fincatto.documentofiscal.cte300.classes.CTModeloNFH

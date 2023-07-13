@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.cte300.webservices.WSInutilizacao#getXmlAssinado(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.webservices.WSInutilizacao#geraDadosInutilizacao(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/cte300/classes/evento/inutilizacao/CTEnviaEventoInutilizacao;
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#instance-init#
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V

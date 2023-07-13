@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.validadores.DFXMLValidador#validaMDFeProcessado(Ljava/lang/String;)Z
+com.fincatto.documentofiscal.validadores.DFXMLValidador#validaMDF(Ljava/lang/String;Ljava/lang/String;)Z

@@ -1,0 +1,15 @@
+
+ncom.fincatto.documentofiscal.cte200.classes.cte.CTInfoAnulacao#getDataEmissaoDeclaracao()Ljava/time/LocalDate;‘
+†/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/classes/cte/CTInfoAnulacao.java (-"1*â
+1 (©
+¦
+ ()
+%0java.time.LocalDate"__id*y
+
+__unknown_file (]*[@
+>com.fincatto.documentofiscal.cte200.classes.cte.CTInfoAnulacao"
+dataEmissaoDeclaracao"'
+ (*
+
+%0java.time.LocalDateBB@
+>com.fincatto.documentofiscal.cte200.classes.cte.CTInfoAnulacaoH

@@ -1,0 +1,60 @@
+
+òcom.fincatto.documentofiscal.cte300.classes.CTTipoFerrovia#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoFerrovia;ç
+Ç/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/classes/CTTipoFerrovia.java! (."5*˜
+2 (&z
+x
+ (&B
+tipo:com.fincatto.documentofiscal.cte300.classes.CTTipoFerrovia"__id*"
+
+__unknown_file (
+""„
+‡
+ (&B
+tipo:com.fincatto.documentofiscal.cte300.classes.CTTipoFerrovia"
+__arrayGet*`
+
+__unknown_file (D
+B
+%0<com.fincatto.documentofiscal.cte300.classes.CTTipoFerrovia[]*"
+
+__unknown_file (
+""*
+4
+1*_
+3 ("P
+ (D
+B
+tipo:com.fincatto.documentofiscal.cte300.classes.CTTipoFerrovia*ﬂ
+4 (ÓÎ
+ ( 
+%1java.lang.String"Xcom.fincatto.documentofiscal.cte300.classes.CTTipoFerrovia#getCodigo()Ljava/lang/String;*`
+
+__unknown_file (D
+B
+tipo:com.fincatto.documentofiscal.cte300.classes.CTTipoFerrovia2getCodigo()÷”
+ (/
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*≈
+5) (7∞
+≠
+) (@B
+%0<com.fincatto.documentofiscal.cte300.classes.CTTipoFerrovia[]"Äcom.fincatto.documentofiscal.cte300.classes.CTTipoFerrovia#values()[Lcom/fincatto/documentofiscal/cte300/classes/CTTipoFerrovia;*Z
+
+__unknown_file (>"<
+:com.fincatto.documentofiscal.cte300.classes.CTTipoFerrovia*
+2*!
+1 ("
+ (
+"":&
+/ (B
+codigojava.lang.StringB>"<
+:com.fincatto.documentofiscal.cte300.classes.CTTipoFerroviaH

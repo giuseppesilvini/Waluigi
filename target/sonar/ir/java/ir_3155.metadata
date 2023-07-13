@@ -1,0 +1,14 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload#efetuaDownloadNF(Lorg/apache/axiom/om/OMElement;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31#valueOfCodigoUF(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe310/classes/NFAutorizador31;
+com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub$NfeDadosMsg#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub$NfeDadosMsg#<init>()V
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub$NfeCabecMsg#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub$NfeCabecMsg#<init>()V
+java.lang.IllegalArgumentException#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub$NfeCabecMsgE#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub$NfeCabecMsgE#<init>()V
+com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#instance-init#
+java.lang.Enum#name()Ljava/lang/String;

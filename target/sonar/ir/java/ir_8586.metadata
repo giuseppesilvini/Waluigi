@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeAutorizacao4Stub#getUniqueSuffix()Ljava/lang/String;
+java.lang.System#currentTimeMillis()J

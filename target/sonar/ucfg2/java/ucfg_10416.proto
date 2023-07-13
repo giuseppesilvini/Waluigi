@@ -1,0 +1,60 @@
+
+šcom.fincatto.documentofiscal.nfe310.classes.NFTipoImpressao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFTipoImpressao;Ž
+ƒ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFTipoImpressao.java" (/"5*ú
+2 ('{
+y
+ ('C
+tipo;com.fincatto.documentofiscal.nfe310.classes.NFTipoImpressao"__id*"
+
+__unknown_file (
+""å
+â
+ ('C
+tipo;com.fincatto.documentofiscal.nfe310.classes.NFTipoImpressao"
+__arrayGet*a
+
+__unknown_file (E
+C
+%0=com.fincatto.documentofiscal.nfe310.classes.NFTipoImpressao[]*"
+
+__unknown_file (
+""*
+4
+1*`
+3 ("Q
+ (E
+C
+tipo;com.fincatto.documentofiscal.nfe310.classes.NFTipoImpressao*á
+4 (ðí
+ ( 
+%1java.lang.String"Ycom.fincatto.documentofiscal.nfe310.classes.NFTipoImpressao#getCodigo()Ljava/lang/String;*a
+
+__unknown_file (E
+C
+tipo;com.fincatto.documentofiscal.nfe310.classes.NFTipoImpressao2getCodigo()ÖÓ
+ (/
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*É
+5* (9´
+±
+* (BC
+%0=com.fincatto.documentofiscal.nfe310.classes.NFTipoImpressao[]"‚com.fincatto.documentofiscal.nfe310.classes.NFTipoImpressao#values()[Lcom/fincatto/documentofiscal/nfe310/classes/NFTipoImpressao;*[
+
+__unknown_file (?"=
+;com.fincatto.documentofiscal.nfe310.classes.NFTipoImpressao*
+2*!
+1 ("
+ (
+"":&
+0 (C
+codigojava.lang.StringB?"=
+;com.fincatto.documentofiscal.nfe310.classes.NFTipoImpressaoH

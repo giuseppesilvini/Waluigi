@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.consulta.NFNotaConsulta#setChave(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#exatamente44N(Ljava/lang/String;Ljava/lang/String;)V

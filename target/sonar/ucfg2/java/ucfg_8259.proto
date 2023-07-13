@@ -1,0 +1,58 @@
+
+àcom.fincatto.documentofiscal.mdfe3.webservices.WSFacade#incluirDFe(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;‹
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSFacade.javaÛ Û(!"1*ç
+1
+Ü Ü(Ã
+À
+
+Ü Ü( A
+%0;com.fincatto.documentofiscal.mdfe3.webservices.WSIncluirDFe"__id*i
+
+__unknown_file (M*K9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacade"
+wsIncluirDFeµ²
+
+Ü Ü(aH
+%1Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno"äcom.fincatto.documentofiscal.mdfe3.webservices.WSIncluirDFe#incluirDFe(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;*_
+
+__unknown_file (C
+A
+%0;com.fincatto.documentofiscal.mdfe3.webservices.WSIncluirDFe*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*7
+
+__unknown_file (
+
+nProtjava.lang.String*=
+
+__unknown_file (!
+
+cMunCarregajava.lang.String*=
+
+__unknown_file (!
+
+xMunCarregajava.lang.String*6
+
+__unknown_file (
+
+infDocjava.util.List2dincluirDFe(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)"X
+
+Ü Ü(bJ
+H
+%1Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno:-
+
+Û" Û(;
+chaveAcessojava.lang.String:'
+
+Û< Û(O
+nProtjava.lang.String:-
+
+ÛP Û(i
+cMunCarregajava.lang.String:.
+Ûj Û(ƒ
+xMunCarregajava.lang.String:(
+Û„ Û(¶
+infDocjava.util.ListB;9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacadeH

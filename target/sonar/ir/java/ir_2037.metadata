@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.parsers.CTChaveParser#getSerie()Ljava/lang/String;
+java.lang.String#substring(II)Ljava/lang/String;

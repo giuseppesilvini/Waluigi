@@ -1,0 +1,112 @@
+
+∆com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload#gerarDadosDownloadNF(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/downloadnf/NFDownloadNFe;ë
+Ü/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/WSNotaDownload.java< <(."1*ˇ
+1=, =(?≠™
+=0 =(=Q
+%0Kcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe"Kcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe€
+ÿ
+=, =(?
+%1"Ucom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe#<init>()V*o
+
+__unknown_file (S
+Q
+%0Kcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe‚
+ﬂ
+= =(@\
+nfDownloadNFeKcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe"__id*o
+
+__unknown_file (S
+Q
+%0Kcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFeR
+P
+>  >(=
+%2java.math.BigDecimal"__id*"
+
+__unknown_file (
+""®•
+>  >(M
+%3java.lang.String"6java.math.BigDecimal#toPlainString()Ljava/lang/String;*8
+
+__unknown_file (
+
+%2java.math.BigDecimal2toPlainString()÷”
+> >(N
+
+%4void"jcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe#setVersao(Ljava/lang/String;)V*z
+
+__unknown_file (^
+\
+nfDownloadNFeKcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe*4
+
+__unknown_file (
+
+%3java.lang.String2setVersao(Ljava/lang/String;)±
+Æ
+?" ?(-0
+%5*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload"
+config˘ˆ
+?" ?(;-
+%6'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*N
+
+__unknown_file (2
+0
+%5*com.fincatto.documentofiscal.nfe.NFeConfig2getAmbiente()†ù
+? ?(<
+
+%7void"Écom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe#setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)V*z
+
+__unknown_file (^
+\
+nfDownloadNFeKcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe*K
+
+__unknown_file (/
+-
+%6'com.fincatto.documentofiscal.DFAmbiente26setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)X
+V
+@! @(<
+%8java.lang.String"__id*,
+
+__unknown_file (
+DOWNLOAD NFEÿ’
+@ @(=
+
+%9void"kcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe#setServico(Ljava/lang/String;)V*z
+
+__unknown_file (^
+\
+nfDownloadNFeKcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe*4
+
+__unknown_file (
+
+%8java.lang.String2setServico(Ljava/lang/String;)’“
+A A(#
+%10void"hcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe#setCnpj(Ljava/lang/String;)V*z
+
+__unknown_file (^
+\
+nfDownloadNFeKcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe*6
+
+__unknown_file (
+
+cnpjjava.lang.String2setCnpj(Ljava/lang/String;)ÿ’
+B B(%
+%11void"icom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe#setChave(Ljava/lang/String;)V*z
+
+__unknown_file (^
+\
+nfDownloadNFeKcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe*7
+
+__unknown_file (
+
+chavejava.lang.String2setChave(Ljava/lang/String;)"j
+C C(^
+\
+nfDownloadNFeKcom.fincatto.documentofiscal.nfe310.classes.evento.downloadnf.NFDownloadNFe:$
+</ <(A
+cnpjjava.lang.String:%
+<B <(T
+chavejava.lang.StringBB@
+>com.fincatto.documentofiscal.nfe310.webservices.WSNotaDownload

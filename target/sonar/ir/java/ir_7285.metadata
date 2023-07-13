@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.transformers.DFModeloTransformer#write(Lcom/fincatto/documentofiscal/DFModelo;)Ljava/lang/String;
+com.fincatto.documentofiscal.DFModelo#getCodigo()Ljava/lang/String;

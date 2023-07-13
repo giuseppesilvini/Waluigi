@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+==
+CteStatusServicoStub com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;ZLcom/fincatto/documentofiscal/DFConfig;)V

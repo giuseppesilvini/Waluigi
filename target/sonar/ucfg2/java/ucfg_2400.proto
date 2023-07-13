@@ -1,0 +1,48 @@
+
+ñcom.fincatto.documentofiscal.cte300.transformes.CTRetiradaTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTRetirada;ò
+ç/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/transformes/CTRetiradaTransformer.java
+ 
+("startingBlock*Ü
+startingBlock
+ 
+('ã
+à
+	 	(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+arg0java.lang.StringX
+V
+
+" 
+(&
+arg0java.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1* 
+1 (Ó
+Î
+ (-<
+%06com.fincatto.documentofiscal.cte300.classes.CTRetirada"êcom.fincatto.documentofiscal.cte300.classes.CTRetirada#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTRetirada;*V
+
+__unknown_file (:"8
+6com.fincatto.documentofiscal.cte300.classes.CTRetirada*6
+
+__unknown_file (
+
+arg0java.lang.String"J
+ (.>
+<
+%06com.fincatto.documentofiscal.cte300.classes.CTRetirada:$
+
+ 
+(&
+arg0java.lang.StringBIG
+Ecom.fincatto.documentofiscal.cte300.transformes.CTRetiradaTransformerH

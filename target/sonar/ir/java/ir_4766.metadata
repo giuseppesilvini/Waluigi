@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoProprietario#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoProprietario;
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoProprietario#getCodigo()Ljava/lang/String;
+java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z

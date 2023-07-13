@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.mdfe3.webservices.WSStatusConsulta#gerarDadosConsulta(Lcom/fincatto/documentofiscal/mdfe3/MDFeConfig;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultastatusservico/MDFeConsStatServ;
+com.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServ#<init>()V
+com.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServ#instance-init#

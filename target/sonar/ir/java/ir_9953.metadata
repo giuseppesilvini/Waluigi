@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSEpec#enviaEpecAssinado(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/epec/NFEnviaEventoEpecRetorno;
+com.fincatto.documentofiscal.nfe400.webservices.WSEpec#comunicaEpec(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/epec/NFEnviaEventoEpecRetorno;

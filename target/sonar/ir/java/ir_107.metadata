@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.transformers.MDFModalidadeTransporteTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFModalidadeTransporte;
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFModalidadeTransporte#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFModalidadeTransporte;

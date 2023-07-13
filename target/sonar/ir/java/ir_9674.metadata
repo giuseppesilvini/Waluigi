@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte200.transformers.CTRetiraMercadoriaTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTRetiraMercadoria;
+com.fincatto.documentofiscal.cte200.classes.CTRetiraMercadoria#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTRetiraMercadoria;

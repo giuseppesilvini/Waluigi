@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.transformers.DFLocalTimeTransformer#read(Ljava/lang/String;)Ljava/time/LocalTime;
+java.time.format.DateTimeFormatter#parse(Ljava/lang/CharSequence;)Ljava/time/temporal/TemporalAccessor;
+java.time.LocalTime#from(Ljava/time/temporal/TemporalAccessor;)Ljava/time/LocalTime;
+java.time.format.DateTimeFormatter#ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;

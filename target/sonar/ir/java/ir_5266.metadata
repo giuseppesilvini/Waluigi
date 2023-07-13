@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe.transformers.NFTipoEmissaoTransformer#write(Lcom/fincatto/documentofiscal/nfe/NFTipoEmissao;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe.NFTipoEmissao#getCodigo()Ljava/lang/String;

@@ -1,0 +1,36 @@
+
+†com.fincatto.documentofiscal.mdfe3.transformers.MDFTipoRodadoTransformer#write(Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoRodado;)Ljava/lang/String;õ
+ê/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/transformers/MDFTipoRodadoTransformer.java ("startingBlock*‚
+startingBlock (,∏
+µ
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*c
+
+__unknown_file (G
+E
+value<com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoRodadoÜ
+É
+& (+E
+value<com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoRodado"__annotation*"
+
+__unknown_file (
+
+%1*
+1*©
+1 (Û
+ ( 
+%0java.lang.String"Zcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoRodado#getCodigo()Ljava/lang/String;*c
+
+__unknown_file (G
+E
+value<com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoRodado2getCodigo()"$
+ (!
+
+%0java.lang.String:Q
+ (+E
+value<com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoRodadoBLJ
+Hcom.fincatto.documentofiscal.mdfe3.transformers.MDFTipoRodadoTransformerH

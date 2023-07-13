@@ -1,0 +1,32 @@
+
+ com.fincatto.documentofiscal.nfe400.webservices.WSFacade#corrigeNotaAssinadaProtocolo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/cartacorrecao/NFProtocoloEventoCartaCorrecao;ç
+Ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSFacade.java–* –(F"1*˝
+1
+— —(À
+»
+
+— —(#E
+%0?com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao"__id*m
+
+__unknown_file (Q*O:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacade"
+wsCartaCorrecao¶£
+
+— —(Se
+%1_com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFProtocoloEventoCartaCorrecao"—com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao#corrigeNotaAssinadaProtocolo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/cartacorrecao/NFProtocoloEventoCartaCorrecao;*c
+
+__unknown_file (G
+E
+%0?com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao*C
+
+__unknown_file ('
+%
+eventoAssinadoXmljava.lang.String20corrigeNotaAssinadaProtocolo(Ljava/lang/String;)"u
+
+— —(Tg
+e
+%1_com.fincatto.documentofiscal.nfe400.classes.evento.cartacorrecao.NFProtocoloEventoCartaCorrecao:3
+
+–G –(e%
+eventoAssinadoXmljava.lang.StringB<:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacadeH

@@ -1,0 +1,27 @@
+
+ƒcom.fincatto.documentofiscal.validadores.DFListValidador#validaListaObrigatoria(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;‹
+€/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/validadores/DFListValidador.java9 9(4"1*Œ
+1: :(Õ
+Ò
+: :((
+
+%0void"qcom.fincatto.documentofiscal.validadores.DFListValidador#validaEstadoDaLista(Ljava/util/List;Ljava/lang/String;)V*X
+
+__unknown_file (<":
+8com.fincatto.documentofiscal.validadores.DFListValidador*5
+
+__unknown_file (
+
+listajava.util.List*6
+
+__unknown_file (
+
+infojava.lang.String"%
+; ;(
+
+listajava.util.List:#
+95 9(I
+listajava.util.List:$
+9J 9([
+infojava.lang.StringB<":
+8com.fincatto.documentofiscal.validadores.DFListValidadorH

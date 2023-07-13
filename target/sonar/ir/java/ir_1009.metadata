@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub#toOM(Lcom/fincatto/documentofiscal/nfe310/webservices/statusservico/consulta/NfeStatusServico2Stub$NfeStatusServicoNF2Result;Z)Lorg/apache/axiom/om/OMElement;
+org.apache.axiom.om.OMAbstractFactory#getOMFactory()Lorg/apache/axiom/om/OMFactory;
+==
+getOMElement com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeStatusServicoNF2Result#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;

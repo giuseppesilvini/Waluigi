@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.transformers.NFNotaMotivoDesoneracaoICMSTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaMotivoDesoneracaoICMS;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.classes.NFNotaMotivoDesoneracaoICMS#getCodigo()Ljava/lang/String;

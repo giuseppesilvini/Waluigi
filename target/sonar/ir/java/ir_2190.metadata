@@ -1,0 +1,9 @@
+com.fincatto.documentofiscal.mdfe3.classes.nota.MDFInfoSeguroResponsavel#toString()Ljava/lang/String;
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+java.lang.IllegalStateException#instance-init#
+org.apache.commons.lang3.StringUtils#isBlank(Ljava/lang/CharSequence;)Z
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V
+==
+getCnpj com.fincatto.documentofiscal.mdfe3.classes.nota.MDFInfoSeguroResponsavel#getCnpj()Ljava/lang/String;
+getResponsavelSeguro com.fincatto.documentofiscal.mdfe3.classes.nota.MDFInfoSeguroResponsavel#getResponsavelSeguro()Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoResponsavelSeguro;
+getCpf com.fincatto.documentofiscal.mdfe3.classes.nota.MDFInfoSeguroResponsavel#getCpf()Ljava/lang/String;

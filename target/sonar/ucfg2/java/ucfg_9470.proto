@@ -1,0 +1,39 @@
+
+åcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeInutilizacao4Stub$NfeDadosMsg#generatePrefix(Ljava/lang/String;)Ljava/lang/String;†
+ì/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/gerado/NFeInutilizacao4Stub.javaÅ( Å(6"3*&
+2
+É É("
+
+É É(
+ns1*ô
+3
+Ç Ç(ˇ¸
+
+Ç Ç(\
+%0boolean",java.lang.String#equals(Ljava/lang/Object;)Z*;
+
+__unknown_file (
+
+	namespacejava.lang.String*X
+
+__unknown_file (<:
+8http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao42equals(Ljava/lang/Object;)*
+2
+1*ˇ
+1
+Ö Ö(≈
+¬
+
+Ö Ö(P
+%1java.lang.String"Oorg.apache.axis2.databinding.utils.BeanUtil#getUniquePrefix()Ljava/lang/String;*K
+
+__unknown_file (/"-
++org.apache.axis2.databinding.utils.BeanUtil"&
+
+Ö Ö(Q
+
+%1java.lang.String:+
+
+Å7 Å(W
+	namespacejava.lang.StringB["Y
+Wcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeInutilizacao4Stub$NfeDadosMsg

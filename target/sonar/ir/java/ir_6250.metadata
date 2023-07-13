@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFOperacaoConsumidorFinalTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFOperacaoConsumidorFinal;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.nota.NFOperacaoConsumidorFinal#getCodigo()Ljava/lang/String;

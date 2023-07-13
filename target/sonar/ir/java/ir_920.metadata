@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.classes.nota.MDFInfoPerigosos#setNomeEmbarque(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#validaIntervalo(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFProgramaEmissorTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFProcessoEmissor;
+com.fincatto.documentofiscal.nfe400.classes.NFProcessoEmissor#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFProcessoEmissor;

@@ -1,0 +1,36 @@
+
+ƒcom.fincatto.documentofiscal.nfe310.transformers.NFnotaInfoItemModalidadeBCICMSSTTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoItemModalidadeBCICMSST;)Ljava/lang/String;Ø
+§/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFnotaInfoItemModalidadeBCICMSSTTransformer.java ("startingBlock*ù
+startingBlock (R÷
+”
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Ä
+
+__unknown_file (d
+b
+modalidadeBCICMSSTLcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemModalidadeBCICMSST£
+†
+? (Qb
+modalidadeBCICMSSTLcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemModalidadeBCICMSST"__annotation*"
+
+__unknown_file (
+
+%1*
+1*◊
+1 (!°û
+ (-
+%0java.lang.String"jcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemModalidadeBCICMSST#getCodigo()Ljava/lang/String;*Ä
+
+__unknown_file (d
+b
+modalidadeBCICMSSTLcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemModalidadeBCICMSST2getCodigo()"$
+ (.
+
+%0java.lang.String:n
+ (Qb
+modalidadeBCICMSSTLcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemModalidadeBCICMSSTB`^
+\com.fincatto.documentofiscal.nfe310.transformers.NFnotaInfoItemModalidadeBCICMSSTTransformerH

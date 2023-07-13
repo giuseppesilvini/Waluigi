@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoDocumentoTransporteAnterior;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior#getCodigo()Ljava/lang/String;

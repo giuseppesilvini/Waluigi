@@ -1,0 +1,35 @@
+
+Ücom.fincatto.documentofiscal.nfe400.webservices.WSFacade#getNfeResultMsg(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe400/webservices/gerado/NFeAutorizacao4Stub$NfeResultMsg;‹
+€/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSFacade.javaq, q(;"1*ò
+1r r(Á
+¾
+r r(A
+%0;com.fincatto.documentofiscal.nfe400.webservices.WSLoteEnvio"__id*i
+
+__unknown_file (M*K:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacade"
+wsLoteEnvio±®
+r r(N]
+%1Wcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeAutorizacao4Stub$NfeResultMsg"àcom.fincatto.documentofiscal.nfe400.webservices.WSLoteEnvio#comunicaLoteRaw(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;Z)Lcom/fincatto/documentofiscal/nfe400/webservices/gerado/NFeAutorizacao4Stub$NfeResultMsg;*_
+
+__unknown_file (C
+A
+%0;com.fincatto.documentofiscal.nfe400.webservices.WSLoteEnvio*A
+
+__unknown_file (%
+#
+loteAssinadoXmljava.lang.String*M
+
+__unknown_file (1
+/
+modelo%com.fincatto.documentofiscal.DFModelo* 
+
+__unknown_file (22KcomunicaLoteRaw(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;Z)"k
+r r(O_
+]
+%1Wcom.fincatto.documentofiscal.nfe400.webservices.gerado.NFeAutorizacao4Stub$NfeResultMsg:/
+q< q(Y#
+loteAssinadoXmljava.lang.String:;
+qZ q(o/
+modelo%com.fincatto.documentofiscal.DFModeloB<:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacadeH

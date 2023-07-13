@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemImpostoICMS#setIcmsPartilhado(Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFNotaInfoItemImpostoICMSPartilhado;)V
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemImpostoICMS#validaApenasUmSelecionado()V

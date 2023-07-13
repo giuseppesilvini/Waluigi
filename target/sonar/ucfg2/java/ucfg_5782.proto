@@ -1,0 +1,77 @@
+
+ccom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoDestinatario#getCpfj()Ljava/lang/String;ö
+è/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoDestinatario.java> >("5*‘
+2B B(û
+õ
+B B(
+%5java.lang.String"__id*q
+
+__unknown_file (U*SI
+Gcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoDestinatario"
+cnpj"$
+B B(
+
+%5java.lang.String*ù
+3A A(û
+õ
+A* A(3
+%3java.lang.String"__id*q
+
+__unknown_file (U*SI
+Gcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoDestinatario"
+cnpj‰
+·
+A A(4
+%4boolean"Jorg.apache.commons.lang3.StringUtils#isNotBlank(Ljava/lang/CharSequence;)Z*D
+
+__unknown_file (("&
+$org.apache.commons.lang3.StringUtils*4
+
+__unknown_file (
+
+%3java.lang.String*
+2
+1*”
+4@ @(ù
+ö
+@ @(
+%2java.lang.String"__id*p
+
+__unknown_file (T*RI
+Gcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoDestinatario"
+cpf"$
+@ @(
+
+%2java.lang.String*ú
+5? ?(ù
+ö
+?# ?(+
+%0java.lang.String"__id*p
+
+__unknown_file (T*RI
+Gcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoDestinatario"
+cpf‰
+·
+? ?(,
+%1boolean"Jorg.apache.commons.lang3.StringUtils#isNotBlank(Ljava/lang/CharSequence;)Z*D
+
+__unknown_file (("&
+$org.apache.commons.lang3.StringUtils*4
+
+__unknown_file (
+
+%0java.lang.String*
+3
+4*›
+1D D(ß
+§
+D D(!
+%6java.lang.String"__id*z
+
+__unknown_file (^*\I
+Gcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoDestinatario"
+idEstrangeiro"$
+D D("
+
+%6java.lang.StringBKI
+Gcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoDestinatarioH

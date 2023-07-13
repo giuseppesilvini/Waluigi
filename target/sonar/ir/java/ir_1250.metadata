@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe310.classes.cadastro.NFInfoConsultaCadastro#setCpf(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#cpf(Ljava/lang/String;)V
+java.lang.IllegalStateException#instance-init#
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V

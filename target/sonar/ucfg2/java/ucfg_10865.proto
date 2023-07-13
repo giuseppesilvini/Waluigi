@@ -1,0 +1,15 @@
+
+zcom.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemProdutoMedicamento#getDataFabricacao()Ljava/time/LocalDate;¤
+™/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/nota/NFNotaInfoItemProdutoMedicamento.javaB B(&"1*ï
+1C C(¶
+³
+C C("
+%0java.time.LocalDate"__id*…
+
+__unknown_file (i*gS
+Qcom.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemProdutoMedicamento"
+dataFabricacao"'
+C C(#
+
+%0java.time.LocalDateBUS
+Qcom.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemProdutoMedicamentoH

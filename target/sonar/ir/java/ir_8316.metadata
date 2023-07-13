@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.transformers.MDFTipoInfPagCompTransformer#write(Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoInfPagComp;)Ljava/lang/String;
+com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoInfPagComp#getCodigo()Ljava/lang/String;

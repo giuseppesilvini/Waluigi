@@ -1,0 +1,102 @@
+
+ãcom.fincatto.documentofiscal.nfe310.webservices.WSStatusConsulta#gerarDadosConsulta(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe310/classes/statusservico/consulta/NFStatusServicoConsulta;“
+ˆ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/WSStatusConsulta.java%$ %(6"1*ï
+1&5 &(RËÈ
+&9 &(P`
+%0Zcom.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsulta"Zcom.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsultaù
+ö
+&5 &(R
+%1"dcom.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsulta#<init>()V*~
+
+__unknown_file (b
+`
+%0Zcom.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsultaÿ
+ü
+& &(Sj
+consStatServZcom.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsulta"__id*~
+
+__unknown_file (b
+`
+%0Zcom.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsultaÜÙ
+' '(-
+
+%2void"•com.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsulta#setUf(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)V*ˆ
+
+__unknown_file (l
+j
+consStatServZcom.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsulta*c
+
+__unknown_file (G
+E
+unidadeFederativa0com.fincatto.documentofiscal.DFUnidadeFederativa29setUf(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)³
+°
+(! ((,0
+%3*com.fincatto.documentofiscal.nfe.NFeConfig"__id*l
+
+__unknown_file (P*NB
+@com.fincatto.documentofiscal.nfe310.webservices.WSStatusConsulta"
+configùö
+(! ((:-
+%4'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*N
+
+__unknown_file (2
+0
+%3*com.fincatto.documentofiscal.nfe.NFeConfig2getAmbiente()¾»
+( ((;
+
+%5void"’com.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsulta#setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)V*ˆ
+
+__unknown_file (l
+j
+consStatServZcom.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsulta*K
+
+__unknown_file (/
+-
+%4'com.fincatto.documentofiscal.DFAmbiente26setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)³
+°
+) )(*0
+%6*com.fincatto.documentofiscal.nfe.NFeConfig"__id*l
+
+__unknown_file (P*NB
+@com.fincatto.documentofiscal.nfe310.webservices.WSStatusConsulta"
+configÌÉ
+) )(6
+%7java.lang.String"Hcom.fincatto.documentofiscal.nfe.NFeConfig#getVersao()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+%6*com.fincatto.documentofiscal.nfe.NFeConfig2getVersao()ôñ
+) )(7
+
+%8void"ycom.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsulta#setVersao(Ljava/lang/String;)V*ˆ
+
+__unknown_file (l
+j
+consStatServZcom.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsulta*4
+
+__unknown_file (
+
+%7java.lang.String2setVersao(Ljava/lang/String;)R
+P
+*  *(=
+%9java.lang.String"__id*&
+
+__unknown_file (
+
+STATUS÷ô
+* *(>
+%10void"zcom.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsulta#setServico(Ljava/lang/String;)V*ˆ
+
+__unknown_file (l
+j
+consStatServZcom.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsulta*4
+
+__unknown_file (
+
+%9java.lang.String2setServico(Ljava/lang/String;)"x
++ +(l
+j
+consStatServZcom.fincatto.documentofiscal.nfe310.classes.statusservico.consulta.NFStatusServicoConsulta:Q
+%7 %(bE
+unidadeFederativa0com.fincatto.documentofiscal.DFUnidadeFederativaBDB
+@com.fincatto.documentofiscal.nfe310.webservices.WSStatusConsulta

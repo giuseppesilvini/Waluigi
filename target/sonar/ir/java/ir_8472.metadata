@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemProdutoVeiculo#setTipoPintura(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#exatamente1(Ljava/lang/String;Ljava/lang/String;)V

@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe310.classes.evento.manifestacaodestinatario.NFTipoEventoManifestacaoDestinatario#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/manifestacaodestinatario/NFTipoEventoManifestacaoDestinatario;
+com.fincatto.documentofiscal.nfe310.classes.evento.manifestacaodestinatario.NFTipoEventoManifestacaoDestinatario#getCodigo()Ljava/lang/String;
+java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z

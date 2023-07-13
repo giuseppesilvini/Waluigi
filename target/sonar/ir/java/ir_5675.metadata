@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.transformers.NFFormaPagamentoTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFFormaPagamentoPrazo;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.classes.NFFormaPagamentoPrazo#getCodigo()Ljava/lang/String;

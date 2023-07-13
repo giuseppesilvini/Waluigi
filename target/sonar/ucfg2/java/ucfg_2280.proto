@@ -1,0 +1,46 @@
+
+¿com.fincatto.documentofiscal.nfe400.transformers.NFViaTransporteInternacionalTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFViaTransporteInternacional;´
+†/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFViaTransporteInternacionalTransformer.java	( 	(,"startingBlock*ä
+startingBlock	, 	(Aç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	: 	(@
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ø
+1
+ 
+(+Ã
+…
+
+ 
+(AS
+%0Mcom.fincatto.documentofiscal.nfe400.classes.nota.NFViaTransporteInternacional"æcom.fincatto.documentofiscal.nfe400.classes.nota.NFViaTransporteInternacional#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFViaTransporteInternacional;*m
+
+__unknown_file (Q"O
+Mcom.fincatto.documentofiscal.nfe400.classes.nota.NFViaTransporteInternacional*8
+
+__unknown_file (
+
+codigojava.lang.String"a
+
+ 
+(BU
+S
+%0Mcom.fincatto.documentofiscal.nfe400.classes.nota.NFViaTransporteInternacional:&
+	- 	(@
+codigojava.lang.StringB\Z
+Xcom.fincatto.documentofiscal.nfe400.transformers.NFViaTransporteInternacionalTransformerH

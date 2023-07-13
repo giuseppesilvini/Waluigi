@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.NotaFiscalChaveParser#getFormatado()Ljava/lang/String;
+java.lang.String#replaceFirst(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

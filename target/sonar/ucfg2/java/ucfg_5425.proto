@@ -1,0 +1,33 @@
+
+Ñcom.fincatto.documentofiscal.nfe400.webservices.WSFacade#consultaLote(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe400/classes/lote/consulta/NFLoteConsultaRetorno;‹
+€/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSFacade.java~! ~(-"1*¹
+1 (Ç
+Ä
+ ("D
+%0>com.fincatto.documentofiscal.nfe400.webservices.WSLoteConsulta"__id*l
+
+__unknown_file (P*N:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacade"
+wsLoteConsultaú÷
+ (EU
+%1Ocom.fincatto.documentofiscal.nfe400.classes.lote.consulta.NFLoteConsultaRetorno"×com.fincatto.documentofiscal.nfe400.webservices.WSLoteConsulta#consultaLote(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe400/classes/lote/consulta/NFLoteConsultaRetorno;*b
+
+__unknown_file (F
+D
+%0>com.fincatto.documentofiscal.nfe400.webservices.WSLoteConsulta*>
+
+__unknown_file ("
+ 
+numeroRecibojava.lang.String*M
+
+__unknown_file (1
+/
+modelo%com.fincatto.documentofiscal.DFModelo2GconsultaLote(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)"c
+ (FW
+U
+%1Ocom.fincatto.documentofiscal.nfe400.classes.lote.consulta.NFLoteConsultaRetorno:,
+~. ~(H 
+numeroRecibojava.lang.String:;
+~I ~(^/
+modelo%com.fincatto.documentofiscal.DFModeloB<:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacadeH

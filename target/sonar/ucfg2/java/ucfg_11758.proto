@@ -1,0 +1,40 @@
+
+µcom.fincatto.documentofiscal.nfe400.transformers.NFIndicadorFormaPagamentoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFIndicadorFormaPagamento;¨
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFIndicadorFormaPagamentoTransformer.java% ()"startingBlock*Š
+startingBlock) (>
+Š
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+7 (=
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*—
+1 ((¬
+©
+ (>K
+%0Ecom.fincatto.documentofiscal.nfe400.classes.NFIndicadorFormaPagamento"®com.fincatto.documentofiscal.nfe400.classes.NFIndicadorFormaPagamento#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFIndicadorFormaPagamento;*e
+
+__unknown_file (I"G
+Ecom.fincatto.documentofiscal.nfe400.classes.NFIndicadorFormaPagamento*8
+
+__unknown_file (
+
+codigojava.lang.String"Y
+ (?M
+K
+%0Ecom.fincatto.documentofiscal.nfe400.classes.NFIndicadorFormaPagamento:&
+* (=
+codigojava.lang.StringBYW
+Ucom.fincatto.documentofiscal.nfe400.transformers.NFIndicadorFormaPagamentoTransformerH

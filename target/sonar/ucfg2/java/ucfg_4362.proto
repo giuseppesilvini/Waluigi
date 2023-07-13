@@ -1,0 +1,36 @@
+
+ªcom.fincatto.documentofiscal.nfe400.transformers.NFIndicadorIEDestinatarioTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFIndicadorIEDestinatario;)Ljava/lang/String;®
+ù/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFIndicadorIEDestinatarioTransformer.java ("startingBlock*å
+startingBlock (EÕ
+ 
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*x
+
+__unknown_file (\
+Z
+destinatarioJcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorIEDestinatarioõ
+ò
+8 (DZ
+destinatarioJcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorIEDestinatario"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ã
+1 (ñì
+ ('
+%0java.lang.String"hcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorIEDestinatario#getCodigo()Ljava/lang/String;*x
+
+__unknown_file (\
+Z
+destinatarioJcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorIEDestinatario2getCodigo()"$
+ ((
+
+%0java.lang.String:f
+ (DZ
+destinatarioJcom.fincatto.documentofiscal.nfe400.classes.nota.NFIndicadorIEDestinatarioBYW
+Ucom.fincatto.documentofiscal.nfe400.transformers.NFIndicadorIEDestinatarioTransformerH

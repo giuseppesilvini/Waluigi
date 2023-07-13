@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.NFEndereco#setCodigoPais(Lcom/fincatto/documentofiscal/DFPais;)V
+com.fincatto.documentofiscal.nfe400.classes.NFEndereco#verificaDestinoOperacao(Lcom/fincatto/documentofiscal/DFPais;)V

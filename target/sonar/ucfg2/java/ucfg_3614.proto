@@ -1,0 +1,77 @@
+
+∫com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3#valueOfCodigoUF(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/mdfe3/classes/MDFAutorizador3;ç
+Ç/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/classes/MDFAutorizador3.java\" \(1"5*Ü
+2] ](.Å
+
+] ](.I
+autorizador:com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3"__id*"
+
+__unknown_file (
+""Í
+Á
+] ](.I
+autorizador:com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3"
+__arrayGet*`
+
+__unknown_file (D
+B
+%0<com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3[]*"
+
+__unknown_file (
+""*
+4
+1*f
+3_ _(""W
+_ _(#K
+I
+autorizador:com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3*≠
+4^ ^(≤Ø
+^ ^(28
+%12com.fincatto.documentofiscal.DFUnidadeFederativa[]"vcom.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3#getUFs()[Lcom/fincatto/documentofiscal/DFUnidadeFederativa;*g
+
+__unknown_file (K
+I
+autorizador:com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador32getUFs()Î
+Ë
+^ ^(3
+%2java.util.List"<java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;*0
+
+__unknown_file ("
+java.util.Arrays*V
+
+__unknown_file (:
+8
+%12com.fincatto.documentofiscal.DFUnidadeFederativa[]ÚÔ
+^ ^(@
+%3boolean",java.util.List#contains(Ljava/lang/Object;)Z*2
+
+__unknown_file (
+
+%2java.util.List*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa2contains(Ljava/lang/Object;)*
+2
+3*≈
+5]1 ](@∞
+≠
+]1 ](IB
+%0<com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3[]"Äcom.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3#values()[Lcom/fincatto/documentofiscal/mdfe3/classes/MDFAutorizador3;*Z
+
+__unknown_file (>"<
+:com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3*
+2*◊
+1b b(x
+v
+b b(@
+%4:com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3"__id*"
+
+__unknown_file (
+"""N
+b b(B
+@
+%4:com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3:B
+\2 \(N6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativaB>"<
+:com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3H

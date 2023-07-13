@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSEpec#comunicaEpec(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/epec/NFEnviaEventoEpecRetorno;
+==
+comunicaLoteRaw com.fincatto.documentofiscal.nfe400.webservices.WSEpec#comunicaLoteRaw(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe400/webservices/gerado/NFeRecepcaoEvento4Stub$NfeResultMsg;

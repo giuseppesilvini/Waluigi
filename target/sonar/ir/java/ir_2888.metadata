@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3#valueOfCodigoUF(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/mdfe3/classes/MDFAutorizador3;
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+getUFs com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3#getUFs()[Lcom/fincatto/documentofiscal/DFUnidadeFederativa;

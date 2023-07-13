@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe400.classes.NFOrigemProcesso#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFOrigemProcesso;
+com.fincatto.documentofiscal.nfe400.classes.NFOrigemProcesso#getCodigo()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z

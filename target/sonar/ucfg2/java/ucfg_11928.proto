@@ -1,0 +1,60 @@
+
+¿com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoCargaProdutoPredominante;°
+ñ/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoCargaProdutoPredominante.java)2 )(?"5*µ
+2* *(7è
+å
+* *(7V
+tipoNcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante"__id*"
+
+__unknown_file (
+""ã
+à
+* *(7V
+tipoNcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante"
+__arrayGet*t
+
+__unknown_file (X
+V
+%0Pcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante[]*"
+
+__unknown_file (
+""*
+4
+1*s
+3, ,("d
+, ,(X
+V
+tipoNcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante*á
+4+ +(ñì
++ +( 
+%1java.lang.String"lcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante#getCodigo()Ljava/lang/String;*t
+
+__unknown_file (X
+V
+tipoNcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante2getCodigo()÷”
++ +(/
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*ï
+5*: *(YÄ
+˝
+*: *(bV
+%0Pcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante[]"®com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante#values()[Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoCargaProdutoPredominante;*n
+
+__unknown_file (R"P
+Ncom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominante*
+2*!
+1/ /("
+/ /(
+"":&
+)@ )(S
+codigojava.lang.StringBR"P
+Ncom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCargaProdutoPredominanteH

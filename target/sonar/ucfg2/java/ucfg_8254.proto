@@ -1,0 +1,39 @@
+
+∂com.fincatto.documentofiscal.mdfe3.webservices.WSFacade#encerramentoAssinado(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;ã
+/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSFacade.javaù ù(+"1*˘
+1
+û û(«
+ƒ
+
+û û("C
+%0=com.fincatto.documentofiscal.mdfe3.webservices.WSEncerramento"__id*k
+
+__unknown_file (O*M9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacade"
+wsEncerramento√¿
+
+û û([H
+%1Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno"¿com.fincatto.documentofiscal.mdfe3.webservices.WSEncerramento#encerramentoMdfeAssinado(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;*a
+
+__unknown_file (E
+C
+%0=com.fincatto.documentofiscal.mdfe3.webservices.WSEncerramento*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*C
+
+__unknown_file ('
+%
+eventoAssinadoXmljava.lang.String2>encerramentoMdfeAssinado(Ljava/lang/String;Ljava/lang/String;)"X
+
+û û(\J
+H
+%1Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno:-
+
+ù, ù(E
+chaveAcessojava.lang.String:3
+
+ùF ù(d%
+eventoAssinadoXmljava.lang.StringB;9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacadeH

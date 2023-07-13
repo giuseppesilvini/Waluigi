@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoSuplementar#setUrlConsultaChaveAcesso(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#validaIntervalo(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;

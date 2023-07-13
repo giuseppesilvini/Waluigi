@@ -1,0 +1,6 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSConsultaCadastro#getDadosConsulta(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe400/classes/cadastro/NFConsultaCadastro;
+com.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro#instance-init#
+com.fincatto.documentofiscal.nfe400.classes.cadastro.NFConsultaCadastro#<init>()V
+com.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro#instance-init#
+com.fincatto.documentofiscal.nfe400.classes.cadastro.NFInfoConsultaCadastro#<init>()V
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigo()Ljava/lang/String;

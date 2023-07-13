@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe400.utils.NFGeraQRCode#urlConsultaChaveAcesso()Ljava/lang/String;
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.DFUnidadeFederativa#getConsultaChaveAcessoProducao()Ljava/lang/String;
+com.fincatto.documentofiscal.DFUnidadeFederativa#getConsultaChaveAcessoHomologacao()Ljava/lang/String;

@@ -1,0 +1,25 @@
+
+Ñcom.fincatto.documentofiscal.utils.DFCadeiaCertificados$SavingTrustManager#getAcceptedIssuers()[Ljava/security/cert/X509Certificate;ã
+/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/utils/DFCadeiaCertificados.javaé! é(3"1*˘
+1
+è è(π
+∂
+
+è è($$
+%0javax.net.ssl.X509TrustManager"__id*|
+
+__unknown_file (`*^L
+Jcom.fincatto.documentofiscal.utils.DFCadeiaCertificados$SavingTrustManager"
+trustManagerÔÏ
+
+è è(9*
+%1$java.security.cert.X509Certificate[]"Xjavax.net.ssl.X509TrustManager#getAcceptedIssuers()[Ljava/security/cert/X509Certificate;*B
+
+__unknown_file (&
+$
+%0javax.net.ssl.X509TrustManager2getAcceptedIssuers()":
+
+è è(:,
+*
+%1$java.security.cert.X509Certificate[]BNL
+Jcom.fincatto.documentofiscal.utils.DFCadeiaCertificados$SavingTrustManagerH

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo#<init>(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+org.apache.commons.lang3.StringUtils#leftPad(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;

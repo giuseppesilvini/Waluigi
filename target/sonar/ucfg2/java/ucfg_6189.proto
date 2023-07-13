@@ -1,0 +1,27 @@
+
+«com.fincatto.documentofiscal.cte300.webservices.WSFacade#consultaNota(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/nota/consulta/CTeNotaConsultaRetorno;‹
+€/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/WSFacade.javaV" V(."1* 
+1W W(Ç
+Ä
+W W("D
+%0>com.fincatto.documentofiscal.cte300.webservices.WSNotaConsulta"__id*l
+
+__unknown_file (P*N:
+8com.fincatto.documentofiscal.cte300.webservices.WSFacade"
+wsNotaConsultaàÝ
+W W(>V
+%1Pcom.fincatto.documentofiscal.cte300.classes.nota.consulta.CTeNotaConsultaRetorno"±com.fincatto.documentofiscal.cte300.webservices.WSNotaConsulta#consultaNota(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/nota/consulta/CTeNotaConsultaRetorno;*b
+
+__unknown_file (F
+D
+%0>com.fincatto.documentofiscal.cte300.webservices.WSNotaConsulta*?
+
+__unknown_file (#
+!
+chaveDeAcessojava.lang.String2 consultaNota(Ljava/lang/String;)"d
+W W(?X
+V
+%1Pcom.fincatto.documentofiscal.cte300.classes.nota.consulta.CTeNotaConsultaRetorno:-
+V/ V(I!
+chaveDeAcessojava.lang.StringB<:
+8com.fincatto.documentofiscal.cte300.webservices.WSFacadeH

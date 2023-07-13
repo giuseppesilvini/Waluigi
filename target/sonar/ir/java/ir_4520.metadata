@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoDestinatario#setInscricaoSuframa(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#tamanho8a9N(Ljava/lang/String;Ljava/lang/String;)V

@@ -1,0 +1,36 @@
+
+®com.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoTipoVeiculoTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoTipoVeiculo;)Ljava/lang/String;¤
+™/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFNotaInfoTipoVeiculoTransformer.java ("startingBlock*ø
+startingBlock (@Ã
+À
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*n
+
+__unknown_file (R
+P
+tipoVeiculoAcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo‘
+Ž
+4 (?P
+tipoVeiculoAcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo"__annotation*"
+
+__unknown_file (
+
+%1*
+1*¹
+1 (ƒ€
+ (&
+%0java.lang.String"_com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo#getCodigo()Ljava/lang/String;*n
+
+__unknown_file (R
+P
+tipoVeiculoAcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculo2getCodigo()"$
+ ('
+
+%0java.lang.String:\
+ (?P
+tipoVeiculoAcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoTipoVeiculoBUS
+Qcom.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoTipoVeiculoTransformerH

@@ -1,0 +1,78 @@
+
+Öcom.fincatto.documentofiscal.mdfe3.webservices.WSStatusConsulta#gerarDadosConsulta(Lcom/fincatto/documentofiscal/mdfe3/MDFeConfig;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultastatusservico/MDFeConsStatServ;’
+‡/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSStatusConsulta.java&$ &(6"1*µ
+1'. '(D¹¶
+'2 '(BW
+%0Qcom.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServ"Qcom.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServç
+ä
+'. '(D
+%1"[com.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServ#<init>()V*u
+
+__unknown_file (Y
+W
+%0Qcom.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServí
+ê
+' '(Ea
+consStatServQcom.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServ"__id*u
+
+__unknown_file (Y
+W
+%0Qcom.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServ€ý
+(! ((5-
+%2'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*U
+
+__unknown_file (9
+7
+config-com.fincatto.documentofiscal.mdfe3.MDFeConfig2getAmbiente()«¨
+( ((6
+
+%3void"‰com.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServ#setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)V*
+
+__unknown_file (c
+a
+consStatServQcom.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServ*K
+
+__unknown_file (/
+-
+%2'com.fincatto.documentofiscal.DFAmbiente26setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)P
+N
+) )(0
+%4java.lang.String"__id*$
+
+__unknown_file (
+3.00áÞ
+) )(1
+
+%5void"pcom.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServ#setVersao(Ljava/lang/String;)V*
+
+__unknown_file (c
+a
+consStatServQcom.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServ*4
+
+__unknown_file (
+
+%4java.lang.String2setVersao(Ljava/lang/String;)R
+P
+*  *(=
+%6java.lang.String"__id*&
+
+__unknown_file (
+
+STATUSãà
+* *(>
+
+%7void"qcom.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServ#setServico(Ljava/lang/String;)V*
+
+__unknown_file (c
+a
+consStatServQcom.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServ*4
+
+__unknown_file (
+
+%6java.lang.String2setServico(Ljava/lang/String;)"o
++ +(c
+a
+consStatServQcom.fincatto.documentofiscal.mdfe3.classes.consultastatusservico.MDFeConsStatServ:C
+&7 &(N7
+config-com.fincatto.documentofiscal.mdfe3.MDFeConfigBC"A
+?com.fincatto.documentofiscal.mdfe3.webservices.WSStatusConsulta

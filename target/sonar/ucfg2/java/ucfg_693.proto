@@ -1,0 +1,65 @@
+
+zcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeRetAutorizacaoStub#optimizeContent(Ljavax/xml/namespace/QName;)Z¡
+”/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/gerado/NfeRetAutorizacaoStub.java™ ™(#"5*¬
+2
+š š( d
+b
+
+š š( *
+anOpNameArrayjavax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""¬
+©
+
+š š( *
+anOpNameArrayjavax.xml.namespace.QName"
+__arrayGet*?
+
+__unknown_file (#
+!
+%0javax.xml.namespace.QName[]*"
+
+__unknown_file (
+""*
+4
+1*%
+3
+œ œ("
+
+œ œ(
+""*˜
+4
+› ›(þû
+
+› ›(,
+%1boolean"5javax.xml.namespace.QName#equals(Ljava/lang/Object;)Z*A
+
+__unknown_file (%
+#
+opNamejavax.xml.namespace.QName*H
+
+__unknown_file (,
+*
+anOpNameArrayjavax.xml.namespace.QName2equals(Ljava/lang/Object;)*
+2
+3*q
+5
+š# š(8[
+Y
+
+š# š(D!
+%0javax.xml.namespace.QName[]"__id*"
+
+__unknown_file (
+""*
+2*%
+1
+Ÿ Ÿ("
+
+Ÿ Ÿ(
+"":1
+
+™$ ™(J#
+opNamejavax.xml.namespace.QNameBPN
+Lcom.fincatto.documentofiscal.nfe310.webservices.gerado.NfeRetAutorizacaoStubP

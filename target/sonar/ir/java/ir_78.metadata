@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.transformers.NFOrigemTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFOrigem;
+com.fincatto.documentofiscal.nfe310.classes.NFOrigem#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFOrigem;

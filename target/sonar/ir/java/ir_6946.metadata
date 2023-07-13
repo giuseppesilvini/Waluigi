@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.cte300.webservices.WSNotaConsulta#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/nota/consulta/CTeNotaConsulta;
+java.math.BigDecimal#instance-init#
+com.fincatto.documentofiscal.cte300.classes.nota.consulta.CTeNotaConsulta#<init>()V
+java.math.BigDecimal#<init>(Ljava/lang/String;)V
+com.fincatto.documentofiscal.cte300.classes.nota.consulta.CTeNotaConsulta#instance-init#

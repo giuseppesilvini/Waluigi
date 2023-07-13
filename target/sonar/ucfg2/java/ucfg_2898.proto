@@ -1,0 +1,60 @@
+
+®com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoTranportador#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoTranportador;ï
+ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoTranportador.java& (3"5*©
+2 (1è
+å
+ (1V
+tipoTranportadorBcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoTranportador"__id*"
+
+__unknown_file (
+""ˇ
+¸
+ (1V
+tipoTranportadorBcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoTranportador"
+__arrayGet*h
+
+__unknown_file (L
+J
+%0Dcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoTranportador[]*"
+
+__unknown_file (
+""*
+4
+1*s
+3   ('"d
+   ((X
+V
+tipoTranportadorBcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoTranportador*è
+4 ( äá
+ (,
+%1java.lang.String"`com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoTranportador#getCodigo()Ljava/lang/String;*t
+
+__unknown_file (X
+V
+tipoTranportadorBcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoTranportador2getCodigo()ÍÁ
+ (E
+%2boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
+2
+3*Â
+54 (G–
+Õ
+4 (PJ
+%0Dcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoTranportador[]"êcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoTranportador#values()[Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoTranportador;*b
+
+__unknown_file (F"D
+Bcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoTranportador*
+2*!
+1# #("
+# #(
+"":&
+4 (G
+codigojava.lang.StringBF"D
+Bcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoTranportadorH

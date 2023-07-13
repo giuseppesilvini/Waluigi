@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoSituacaoTributariaCOFINSTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoSituacaoTributariaCOFINS;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoSituacaoTributariaCOFINS#getCodigo()Ljava/lang/String;

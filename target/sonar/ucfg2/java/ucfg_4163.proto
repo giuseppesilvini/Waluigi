@@ -1,0 +1,46 @@
+
+≤com.fincatto.documentofiscal.nfe310.transformers.NFFormaPagamentoMoedaTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFFormaPagamentoMoeda;§
+ô/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFFormaPagamentoMoedaTransformer.java	! 	(%"startingBlock*ä
+startingBlock	% 	(:ç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	3 	(9
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ú
+1
+ 
+($∞
+≠
+
+ 
+(:L
+%0Fcom.fincatto.documentofiscal.nfe310.classes.nota.NFFormaPagamentoMoeda"∞com.fincatto.documentofiscal.nfe310.classes.nota.NFFormaPagamentoMoeda#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/nota/NFFormaPagamentoMoeda;*f
+
+__unknown_file (J"H
+Fcom.fincatto.documentofiscal.nfe310.classes.nota.NFFormaPagamentoMoeda*8
+
+__unknown_file (
+
+codigojava.lang.String"Z
+
+ 
+(;N
+L
+%0Fcom.fincatto.documentofiscal.nfe310.classes.nota.NFFormaPagamentoMoeda:&
+	& 	(9
+codigojava.lang.StringBUS
+Qcom.fincatto.documentofiscal.nfe310.transformers.NFFormaPagamentoMoedaTransformerH

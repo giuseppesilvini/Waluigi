@@ -1,0 +1,21 @@
+
+’com.fincatto.documentofiscal.utils.DFKeyManager#chooseServerAlias(Ljava/lang/String;[Ljava/security/Principal;Ljava/net/Socket;)Ljava/lang/String;
+w/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/utils/DFKeyManager.java# #(#"1*½
+1$ $(‡
+„
+$ $(
+%0java.lang.String"__id*Z
+
+__unknown_file (>*<1
+/com.fincatto.documentofiscal.utils.DFKeyManager"
+alias"$
+$ $(
+
+%0java.lang.String:#
+#$ #(/
+strjava.lang.String:2
+#0 #(F&
+	principaljava.security.Principal[]:%
+#G #(T
+socketjava.net.SocketB31
+/com.fincatto.documentofiscal.utils.DFKeyManagerH

@@ -1,0 +1,15 @@
+
+kcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoParcela#getDataVencimento()Ljava/time/LocalDate;•
+Š/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoParcela.java. .(&"1*ß
+1/ /(¦
+£
+/ /("
+%0java.time.LocalDate"__id*v
+
+__unknown_file (Z*XD
+Bcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoParcela"
+dataVencimento"'
+/ /(#
+
+%0java.time.LocalDateBFD
+Bcom.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoParcelaH

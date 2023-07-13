@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemImpostoIPI#setQuantidadeSelo(Ljava/math/BigInteger;)V
+com.fincatto.documentofiscal.validadores.DFBigIntegerValidador#tamanho12(Ljava/math/BigInteger;Ljava/lang/String;)V

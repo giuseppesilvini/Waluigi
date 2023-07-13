@@ -1,0 +1,13 @@
+com.fincatto.documentofiscal.mdfe3.webservices.WSRecepcaoLote#comunicaLote(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/lote/envio/MDFEnvioLoteRetorno;
+com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeDadosMsg#<init>()V
+java.lang.System#setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+com.fincatto.documentofiscal.mdfe3.webservices.WSRecepcaoLote#getCabecalhoSOAP()Lcom/fincatto/documentofiscal/mdfe3/webservices/recepcao/MDFeRecepcaoStub$MdfeCabecMsgE;
+com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub#instance-init#
+com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+com.fincatto.documentofiscal.mdfe3.webservices.WSRecepcaoLote#mdfeToOMElement(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeDadosMsg#instance-init#
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.Enum#name()Ljava/lang/String;
+com.fincatto.documentofiscal.validadores.DFXMLValidador#validaLoteMDFe(Ljava/lang/String;)Z
+com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3#valueOfCodigoUF(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/mdfe3/classes/MDFAutorizador3;
+java.lang.IllegalArgumentException#instance-init#

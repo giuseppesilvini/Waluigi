@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFFormaImportacaoIntermediacaoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFFormaImportacaoIntermediacao;
+com.fincatto.documentofiscal.nfe400.classes.nota.NFFormaImportacaoIntermediacao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFFormaImportacaoIntermediacao;

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.evento.averbacaoexportacao.NFInfoAverbacaoExportacao#getItensAverbados()Ljava/util/List;
+com.fincatto.documentofiscal.validadores.DFListValidador#tamanho990(Ljava/util/List;Ljava/lang/String;)V

@@ -1,0 +1,15 @@
+
+lcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoEntregaNoPeriodo#getDataInicial()Ljava/time/LocalDate;™
+Ž/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/classes/cte/CTInfoEntregaNoPeriodo.java (#"1*à
+1 (§
+¤
+ (
+%0java.time.LocalDate"__id*w
+
+__unknown_file ([*YH
+Fcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoEntregaNoPeriodo"
+dataInicial"'
+ ( 
+
+%0java.time.LocalDateBJH
+Fcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoEntregaNoPeriodoH

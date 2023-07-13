@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.transformers.NFRegimeTributarioTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFRegimeTributario;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.classes.NFRegimeTributario#getCodigo()Ljava/lang/String;

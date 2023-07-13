@@ -1,0 +1,83 @@
+
+vcom.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub#optimizeContent(Ljavax/xml/namespace/QName;)Zù
+ê/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/consulta/CteConsultaStub.javaë ë(#"7*†
+2
+ï ï( ^
+\
+
+ï ï( $
+elementjavax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""¶
+£
+
+ï ï( $
+elementjavax.xml.namespace.QName"
+__arrayGet*?
+
+__unknown_file (#
+!
+%1javax.xml.namespace.QName[]*"
+
+__unknown_file (
+""*
+4
+1*%
+3
+ó ó("
+
+ó ó(
+""*í
+4
+ñ ñ(¯ı
+
+ñ ñ(&
+%2boolean"5javax.xml.namespace.QName#equals(Ljava/lang/Object;)Z*A
+
+__unknown_file (%
+#
+opNamejavax.xml.namespace.QName*B
+
+__unknown_file (&
+$
+elementjavax.xml.namespace.QName2equals(Ljava/lang/Object;)*
+2
+3* 
+5
+ï# ï('≥
+∞
+
+ï# ï(3!
+%1javax.xml.namespace.QName[]"__id*y
+
+__unknown_file (]*[J
+Hcom.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub"
+opNameArray*
+2*%
+6
+ì ì("
+
+ì ì(
+""*Õ
+7
+í í(≥
+∞
+
+í í(!
+%0javax.xml.namespace.QName[]"__id*y
+
+__unknown_file (]*[J
+Hcom.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub"
+opNameArray*
+5
+6*%
+1
+ö ö("
+
+ö ö(
+"":1
+
+ë$ ë(J#
+opNamejavax.xml.namespace.QNameBLJ
+Hcom.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStubP

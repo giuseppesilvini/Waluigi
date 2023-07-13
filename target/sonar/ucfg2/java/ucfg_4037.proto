@@ -1,0 +1,140 @@
+
+¼com.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno#consultaLote(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/enviolote/consulta/CTeConsultaRecLoteRet;˜
+/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/WSRecepcaoLoteRetorno.java (&"1*è
+1, (5Ï
+Ì
+A (fW
+%0Qcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote"¿com.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/enviolote/consulta/CTeConsultaRecLote;*e
+
+__unknown_file (IG
+Ecom.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno*>
+
+__unknown_file ("
+ 
+numeroRecibojava.lang.Stringêç
+A (q
+%1java.lang.String"@com.fincatto.documentofiscal.DFBase#toString()Ljava/lang/String;*u
+
+__unknown_file (Y
+W
+%0Qcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote2
+toString()Ž
+‹
+, (r#
+%2org.apache.axiom.om.OMElement"`org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*B
+
+__unknown_file (&"$
+"org.apache.axiom.om.util.AXIOMUtil*4
+
+__unknown_file (
+
+%1java.lang.StringŠ
+‡
+ (s2
+omElementConsultaorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%2org.apache.axiom.om.OMElementÛØ
+ (
+%3org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*e
+
+__unknown_file (IG
+Ecom.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno2getLogger()¿¼
+ (;
+%4java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*P
+
+__unknown_file (4
+2
+omElementConsultaorg.apache.axiom.om.OMElement2
+toString()ÍÊ
+ (<
+
+%5void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%3org.slf4j.Logger*4
+
+__unknown_file (
+
+%4java.lang.String2debug(Ljava/lang/String;)‚
+ÿ
+* (P#
+%6org.apache.axiom.om.OMElement"”com.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno#efetuaConsulta(Lorg/apache/axiom/om/OMElement;)Lorg/apache/axiom/om/OMElement;*e
+
+__unknown_file (IG
+Ecom.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno*P
+
+__unknown_file (4
+2
+omElementConsultaorg.apache.axiom.om.OMElementˆ
+…
+ (Q0
+omElementResultorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%6org.apache.axiom.om.OMElementÛØ
+ (
+%7org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*e
+
+__unknown_file (IG
+Ecom.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno2getLogger()½º
+ (9
+%8java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+omElementResultorg.apache.axiom.om.OMElement2
+toString()ÍÊ
+ (:
+
+%9void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%7org.slf4j.Logger*4
+
+__unknown_file (
+
+%8java.lang.String2debug(Ljava/lang/String;)¼
+¹
+ (4
+%10-com.fincatto.documentofiscal.cte300.CTeConfig"__id*q
+
+__unknown_file (U*SG
+Ecom.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno"
+configþû
+ ()-
+%11&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*R
+
+__unknown_file (6
+4
+%10-com.fincatto.documentofiscal.cte300.CTeConfig2getPersister()¾»
+L (f
+%12java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+omElementResultorg.apache.axiom.om.OMElement2
+toString()¡ž
+ (g[
+%13Tcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLoteRet"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*K
+
+__unknown_file (/
+-
+%11&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+%12java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)"i
+ (h]
+[
+%13Tcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLoteRet:,
+' (@ 
+numeroRecibojava.lang.StringBIG
+Ecom.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno

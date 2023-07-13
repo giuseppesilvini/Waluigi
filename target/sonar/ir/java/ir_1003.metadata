@@ -1,0 +1,7 @@
+com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;ZLcom/fincatto/documentofiscal/DFConfig;)V
+org.apache.axis2.client.ServiceClient#<init>(Lorg/apache/axis2/context/ConfigurationContext;Lorg/apache/axis2/description/AxisService;)V
+com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub#populateAxisService()V
+com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub#populateFaults()V
+org.apache.axis2.addressing.EndpointReference#instance-init#
+org.apache.axis2.addressing.EndpointReference#<init>(Ljava/lang/String;)V
+org.apache.axis2.client.ServiceClient#instance-init#

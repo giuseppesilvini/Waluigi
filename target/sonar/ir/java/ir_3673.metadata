@@ -1,0 +1,8 @@
+com.fincatto.documentofiscal.DFUnidadeFederativa#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/DFUnidadeFederativa;
+org.apache.commons.lang3.StringUtils#trim(Ljava/lang/String;)Ljava/lang/String;
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigo()Ljava/lang/String;
+java.lang.IllegalArgumentException#instance-init#
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z

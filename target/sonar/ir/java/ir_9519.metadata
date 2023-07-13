@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoCombustivelTipoTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoCombustivelTipo;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoCombustivelTipo#getCodigo()Ljava/lang/String;

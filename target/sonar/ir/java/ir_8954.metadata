@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.classes.evento.cancelamento.CTeEnviaEventoCancelamento#setProtocoloAutorizacao(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#exatamente15N(Ljava/lang/String;Ljava/lang/String;)V

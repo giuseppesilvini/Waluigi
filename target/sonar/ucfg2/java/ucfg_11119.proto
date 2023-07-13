@@ -1,0 +1,36 @@
+
+∂com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoCombustivelTipoTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoCombustivelTipo;)Ljava/lang/String;®
+ù/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFNotaInfoCombustivelTipoTransformer.java ("startingBlock*à
+startingBlock (HÀ
+»
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*v
+
+__unknown_file (Z
+X
+combustivelTipoEcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoCombustivelTipoô
+ñ
+8 (GX
+combustivelTipoEcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoCombustivelTipo"__annotation*"
+
+__unknown_file (
+
+%1*
+1*≈
+1 (èå
+ (*
+%0java.lang.String"ccom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoCombustivelTipo#getCodigo()Ljava/lang/String;*v
+
+__unknown_file (Z
+X
+combustivelTipoEcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoCombustivelTipo2getCodigo()"$
+ (+
+
+%0java.lang.String:d
+ (GX
+combustivelTipoEcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoCombustivelTipoBYW
+Ucom.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoCombustivelTipoTransformerH

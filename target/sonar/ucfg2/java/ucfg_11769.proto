@@ -1,0 +1,20 @@
+
+®com.fincatto.documentofiscal.nfe400.webservices.WSEpec#enviaEpecAssinado(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/epec/NFEnviaEventoEpecRetorno;ˆ
+~/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSEpec.java1 1(."1*¢
+12 2(¬
+©
+2 2(1V
+%0Pcom.fincatto.documentofiscal.nfe400.classes.evento.epec.NFEnviaEventoEpecRetorno"©com.fincatto.documentofiscal.nfe400.webservices.WSEpec#comunicaEpec(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/evento/epec/NFEnviaEventoEpecRetorno;*V
+
+__unknown_file (:8
+6com.fincatto.documentofiscal.nfe400.webservices.WSEpec*A
+
+__unknown_file (%
+#
+epecAssinadoXmljava.lang.String"d
+2 2(2X
+V
+%0Pcom.fincatto.documentofiscal.nfe400.classes.evento.epec.NFEnviaEventoEpecRetorno:/
+1/ 1(K#
+epecAssinadoXmljava.lang.StringB:8
+6com.fincatto.documentofiscal.nfe400.webservices.WSEpec

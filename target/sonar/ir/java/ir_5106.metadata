@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#tamanho3maximo990(ILjava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#limite(Ljava/lang/Integer;ILjava/lang/String;)V

@@ -1,0 +1,48 @@
+
+Äcom.fincatto.documentofiscal.cte300.transformes.CTTipoDocumentoTransporteAnteriorTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoDocumentoTransporteAnterior;¯
+¤/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/transformes/CTTipoDocumentoTransporteAnteriorTransformer.java
+- 
+(1"startingBlock*†
+startingBlock
+1 
+(>‹
+ˆ
+	 	(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+arg0java.lang.StringX
+V
+
+9 
+(=
+arg0java.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*½
+1 (0Ê
+Ç
+ (DS
+%0Mcom.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior"¾com.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/CTTipoDocumentoTransporteAnterior;*m
+
+__unknown_file (Q"O
+Mcom.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior*6
+
+__unknown_file (
+
+arg0java.lang.String"a
+ (EU
+S
+%0Mcom.fincatto.documentofiscal.cte300.classes.CTTipoDocumentoTransporteAnterior:$
+
+2 
+(=
+arg0java.lang.StringB`^
+\com.fincatto.documentofiscal.cte300.transformes.CTTipoDocumentoTransporteAnteriorTransformerH

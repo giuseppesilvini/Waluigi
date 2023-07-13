@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub#getUniqueSuffix()Ljava/lang/String;
+java.lang.System#currentTimeMillis()J

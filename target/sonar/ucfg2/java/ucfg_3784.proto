@@ -1,0 +1,42 @@
+
+Ôcom.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub#toOM(Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/CadConsultaCadastro2Stub$NfeCabecMsgE;Z)Lorg/apache/axiom/om/OMElement;¤
+—/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/gerado/CadConsultaCadastro2Stub.javaï* ï(."1*Å
+1
+ð ð(Y
+W
+
+ð" ð(P
+%0javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""Ñ
+Î
+ðR ð(†#
+%1org.apache.axiom.om.OMFactory"Sorg.apache.axiom.om.OMAbstractFactory#getOMFactory()Lorg/apache/axiom/om/OMFactory;*E
+
+__unknown_file ()"'
+%org.apache.axiom.om.OMAbstractFactoryÎË
+ð ð(‡#
+%2org.apache.axiom.om.OMElement"Äcom.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeCabecMsgE#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;*ƒ
+
+__unknown_file (g
+e
+param\com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeCabecMsgE*=
+
+__unknown_file (!
+
+%0javax.xml.namespace.QName*A
+
+__unknown_file (%
+#
+%1org.apache.axiom.om.OMFactory2HgetOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)"4
+ð ð(ˆ%
+#
+%2org.apache.axiom.om.OMElement:s
+
+ï/ ï(ae
+param\com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeCabecMsgE: 
+
+__unknown_file (
+""BSQ
+Ocom.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub

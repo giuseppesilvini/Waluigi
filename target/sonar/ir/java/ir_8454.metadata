@@ -1,0 +1,9 @@
+com.fincatto.documentofiscal.mdfe3.utils.MDFGeraQRCode#getQRCode()Ljava/lang/String;
+java.lang.StringBuilder#instance-init#
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.DFAmbiente#getCodigo()Ljava/lang/String;
+java.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+java.lang.StringBuilder#<init>()V
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#instance-init#
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V
+java.lang.StringBuilder#toString()Ljava/lang/String;

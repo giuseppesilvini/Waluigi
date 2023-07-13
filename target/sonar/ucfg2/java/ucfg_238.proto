@@ -1,0 +1,216 @@
+
+∑com.fincatto.documentofiscal.utils.DFSocketFactory#createSocket(Ljava/lang/String;ILjava/net/InetAddress;ILorg/apache/commons/httpclient/params/HttpConnectionParams;)Ljava/net/Socket;Ñ
+z/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/utils/DFSocketFactory.java# #("startingBlock*g
+13$ $(Q
+O
+$ $(
+socketjava.net.Socket"__id*"
+
+__unknown_file (
+""*
+12*6
+3- -("'
+- -(
+
+socketjava.net.Socket*–
+startingBlock	# #(ôå
+â
+" "(
+%14"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+hostjava.lang.StringY
+W
+#, #(0
+hostjava.lang.String"__annotation*#
+
+__unknown_file (
+
+%14ò
+ï
+" "(
+%15"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*B
+
+__unknown_file (&
+$
+localAddressjava.net.InetAddresse
+c
+#T #(`$
+localAddressjava.net.InetAddress"__annotation*#
+
+__unknown_file (
+
+%15∑
+¥
+" "(
+%16"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*a
+
+__unknown_file (E
+C
+params9org.apache.commons.httpclient.params.HttpConnectionParamsá
+Ñ
+
+#í #(òC
+params9org.apache.commons.httpclient.params.HttpConnectionParams"__annotation*#
+
+__unknown_file (
+
+%16*
+13*¶
+4,> ,(Lëé
+, ,(M
+%12void"3java.net.Socket#connect(Ljava/net/SocketAddress;I)V*7
+
+__unknown_file (
+
+socketjava.net.Socket*?
+
+__unknown_file (#
+!
+%10java.net.InetSocketAddress*"
+
+__unknown_file (
+""2"connect(Ljava/net/SocketAddress;I)*
+3*Ã
+5* *(EKI
+, ,(0!
+%10java.net.InetSocketAddress"java.net.InetSocketAddressÍ
+Á
+, ,(<
+%11"7java.net.InetSocketAddress#<init>(Ljava/lang/String;I)V*?
+
+__unknown_file (#
+!
+%10java.net.InetSocketAddress*6
+
+__unknown_file (
+
+hostjava.lang.String*"
+
+__unknown_file (
+""*
+4*˚
+6*' *(-Ê„
+*' *(D	
+%9int"Qorg.apache.commons.httpclient.params.HttpConnectionParams#getConnectionTimeout()I*a
+
+__unknown_file (E
+C
+params9org.apache.commons.httpclient.params.HttpConnectionParams2getConnectionTimeout()*
+5*¯
+7( ((G„‡
+( ((G
+
+%8void"/java.net.Socket#bind(Ljava/net/SocketAddress;)V*7
+
+__unknown_file (
+
+socketjava.net.Socket*>
+
+__unknown_file ("
+ 
+%6java.net.InetSocketAddress2bind(Ljava/net/SocketAddress;)*
+6*Ÿ
+8( ((JH
+( ((- 
+%6java.net.InetSocketAddress"java.net.InetSocketAddress¯
+ı
+( ((F
+%7";java.net.InetSocketAddress#<init>(Ljava/net/InetAddress;I)V*>
+
+__unknown_file ("
+ 
+%6java.net.InetSocketAddress*B
+
+__unknown_file (&
+$
+localAddressjava.net.InetAddress*"
+
+__unknown_file (
+""*
+7*å
+9'	 '(Q˜Ù
+'	 '(Q
+
+%5void"Ajavax.net.ssl.SSLSocket#setEnabledProtocols([Ljava/lang/String;)V*7
+
+__unknown_file (
+
+socketjava.net.Socket*6
+
+__unknown_file (
+
+%4java.lang.String[]2(setEnabledProtocols([Ljava/lang/String;)*
+8*
+10& &(@b
+`
+& &(@
+socketjava.net.Socket"__id*3
+
+__unknown_file (
+
+%2java.net.Socket†
+ù
+'2 '(=+
+%3%com.fincatto.documentofiscal.DFConfig"__id*^
+
+__unknown_file (B*@4
+2com.fincatto.documentofiscal.utils.DFSocketFactory"
+config”–
+'2 '(P
+%4java.lang.String[]"Kcom.fincatto.documentofiscal.DFConfig#getSSLProtocolos()[Ljava/lang/String;*I
+
+__unknown_file (-
++
+%3%com.fincatto.documentofiscal.DFConfig2getSSLProtocolos()*
+9*»
+11& &(@±Æ
+& &(@
+%2java.net.Socket"7javax.net.SocketFactory#createSocket()Ljava/net/Socket;*B
+
+__unknown_file (&
+$
+%1javax.net.ssl.SSLSocketFactory2createSocket()*
+10*É
+12& &(ó
+î
+& &(
+%0javax.net.ssl.SSLContext"__id*b
+
+__unknown_file (F*D4
+2com.fincatto.documentofiscal.utils.DFSocketFactory"
+
+sslContext“œ
+& &(1$
+%1javax.net.ssl.SSLSocketFactory"Kjavax.net.ssl.SSLContext#getSocketFactory()Ljavax/net/ssl/SSLSocketFactory;*<
+
+__unknown_file ( 
+
+%0javax.net.ssl.SSLContext2getSocketFactory()*
+11:$
+# #(1
+hostjava.lang.String: 
+
+__unknown_file (
+"":0
+#B #(a$
+localAddressjava.net.InetAddress: 
+
+__unknown_file (
+"":P
+	#w #(òC
+params9org.apache.commons.httpclient.params.HttpConnectionParamsB64
+2com.fincatto.documentofiscal.utils.DFSocketFactoryH

@@ -1,0 +1,36 @@
+
+Îcom.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoItemProdutoVeiculoRestricaoTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoItemProdutoVeiculoRestricao;)Ljava/lang/String;´
+©/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFNotaInfoItemProdutoVeiculoRestricaoTransformer.java ("startingBlock*Š
+startingBlock (IÌ
+É
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*w
+
+__unknown_file ([
+Y
+tipoQcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoRestricaoš
+—
+D (HY
+tipoQcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoRestricao"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ò
+1 (œ™
+ (
+%0java.lang.String"ocom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoRestricao#getCodigo()Ljava/lang/String;*w
+
+__unknown_file ([
+Y
+tipoQcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoRestricao2getCodigo()"$
+ ( 
+
+%0java.lang.String:e
+ (HY
+tipoQcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoItemProdutoVeiculoRestricaoBec
+acom.fincatto.documentofiscal.nfe310.transformers.NFNotaInfoItemProdutoVeiculoRestricaoTransformerH

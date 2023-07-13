@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.mdfe3.classes.nota.MDFInfoTotal#setQtdeCTe(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#validador(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;)Ljava/lang/String;

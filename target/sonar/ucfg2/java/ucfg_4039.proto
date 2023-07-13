@@ -1,0 +1,78 @@
+
+øcom.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/enviolote/consulta/CTeConsultaRecLote;ò
+ç/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/WSRecepcaoLoteRetorno.java6 6(1"1*•
+17, 7(Dπ∂
+70 7(BW
+%0Qcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote"Qcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLoteÁ
+‰
+7, 7(D
+%1"[com.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote#<init>()V*u
+
+__unknown_file (Y
+W
+%0Qcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLoteÈ
+Ê
+7 7(E]
+consultaQcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote"__id*u
+
+__unknown_file (Y
+W
+%0Qcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote˝˙
+8 8(3
+
+%2void"{com.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote#setNumeroRecebimento(Ljava/lang/String;)V*{
+
+__unknown_file (_
+]
+consultaQcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote*>
+
+__unknown_file ("
+ 
+numeroRecibojava.lang.String2(setNumeroRecebimento(Ljava/lang/String;)ª
+∏
+9 9((3
+%3-com.fincatto.documentofiscal.cte300.CTeConfig"__id*q
+
+__unknown_file (U*SG
+Ecom.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno"
+config¸˘
+9 9(6-
+%4'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*Q
+
+__unknown_file (5
+3
+%3-com.fincatto.documentofiscal.cte300.CTeConfig2getAmbiente()ß§
+9 9(7
+
+%5void"âcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote#setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)V*{
+
+__unknown_file (_
+]
+consultaQcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote*K
+
+__unknown_file (/
+-
+%4'com.fincatto.documentofiscal.DFAmbiente26setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)P
+N
+: :(+
+%6java.lang.String"__id*$
+
+__unknown_file (
+3.00›⁄
+: :(,
+
+%7void"pcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote#setVersao(Ljava/lang/String;)V*{
+
+__unknown_file (_
+]
+consultaQcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote*4
+
+__unknown_file (
+
+%6java.lang.String2setVersao(Ljava/lang/String;)"k
+; ;(_
+]
+consultaQcom.fincatto.documentofiscal.cte300.classes.enviolote.consulta.CTeConsultaRecLote:,
+62 6(K 
+numeroRecibojava.lang.StringBIG
+Ecom.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno

@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.transformers.DFUnidadeFederativaTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/DFUnidadeFederativa;
+com.fincatto.documentofiscal.DFUnidadeFederativa#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/DFUnidadeFederativa;

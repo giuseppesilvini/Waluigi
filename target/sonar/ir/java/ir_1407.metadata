@@ -1,0 +1,6 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSLoteEnvio#getCabecalhoSOAP()Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/NfeAutorizacaoStub$NfeCabecMsgE;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgE#<init>()V
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsgE#instance-init#
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsg#<init>()V
+com.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;
+com.fincatto.documentofiscal.nfe310.webservices.gerado.NfeAutorizacaoStub$NfeCabecMsg#instance-init#

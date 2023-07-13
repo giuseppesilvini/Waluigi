@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte200.transformers.CTResponsavelSeguroTransformer#write(Lcom/fincatto/documentofiscal/cte200/classes/CTResponsavelSeguro;)Ljava/lang/String;
+com.fincatto.documentofiscal.cte200.classes.CTResponsavelSeguro#getCodigo()Ljava/lang/String;

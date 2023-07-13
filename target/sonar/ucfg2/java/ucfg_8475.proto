@@ -1,0 +1,60 @@
+
+∫com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoSituacaoTributariaIPI;û
+ì/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFNotaInfoSituacaoTributariaIPI.java 2  (?"5*Œ
+2! !(Hù
+ö
+! !(Hd
+situacaoTributariaIPIKcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI"__id*"
+
+__unknown_file (
+""ñ
+ì
+! !(Hd
+situacaoTributariaIPIKcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI"
+__arrayGet*q
+
+__unknown_file (U
+S
+%0Mcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI[]*"
+
+__unknown_file (
+""*
+4
+1*Å
+3# #(,"r
+# #(-f
+d
+situacaoTributariaIPIKcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI*ì
+4" "(%¢ü
+" "(1
+%1java.lang.String"icom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI#getCodigo()Ljava/lang/String;*Ç
+
+__unknown_file (f
+d
+situacaoTributariaIPIKcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI2getCodigo()÷”
+" "(@
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*â
+5!K !(jÙ
+Ò
+!K !(sS
+%0Mcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI[]"¢com.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI#values()[Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoSituacaoTributariaIPI;*k
+
+__unknown_file (O"M
+Kcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPI*
+2*!
+1& &("
+& &(
+"":&
+ @  (S
+codigojava.lang.StringBO"M
+Kcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoSituacaoTributariaIPIH

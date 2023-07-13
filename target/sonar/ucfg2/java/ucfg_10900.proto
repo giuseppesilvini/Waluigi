@@ -1,0 +1,60 @@
+
+§com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCarroceria#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoCarroceria;ì
+à/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoCarroceria.java&$ &(1"5*≠
+2' '(4í
+è
+' '(4Y
+tipoUnidadeTransporte@com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCarroceria"__id*"
+
+__unknown_file (
+""Ä
+˝
+' '(4Y
+tipoUnidadeTransporte@com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCarroceria"
+__arrayGet*f
+
+__unknown_file (J
+H
+%0Bcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCarroceria[]*"
+
+__unknown_file (
+""*
+4
+1*v
+3) )(,"g
+) )(-[
+Y
+tipoUnidadeTransporte@com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCarroceria*ê
+4( ((%ãà
+( ((1
+%1java.lang.String"^com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCarroceria#getCodigo()Ljava/lang/String;*w
+
+__unknown_file ([
+Y
+tipoUnidadeTransporte@com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCarroceria2getCodigo()ÍÁ
+( ((J
+%2boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
+2
+3*›
+5'7 '(H»
+≈
+'7 '(QH
+%0Bcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCarroceria[]"åcom.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCarroceria#values()[Lcom/fincatto/documentofiscal/mdfe3/classes/def/MDFTipoCarroceria;*`
+
+__unknown_file (D"B
+@com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCarroceria*
+2*!
+1, ,("
+, ,(
+"":&
+&2 &(E
+codigojava.lang.StringBD"B
+@com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoCarroceriaH

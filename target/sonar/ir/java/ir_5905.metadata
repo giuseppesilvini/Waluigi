@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.evento.cancelamento.NFInfoEventoCancelamento#setNumeroSequencialEvento(I)V
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#tamanho1a2(ILjava/lang/String;)V

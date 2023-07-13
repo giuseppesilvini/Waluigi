@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFMeioPagamentoTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFMeioPagamento;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.nota.NFMeioPagamento#getCodigo()Ljava/lang/String;

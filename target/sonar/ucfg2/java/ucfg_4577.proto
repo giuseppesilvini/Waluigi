@@ -1,0 +1,29 @@
+
+G__sonar_lambda_3$com.fincatto.documentofiscal.utils.DFAssinaturaDigitalˆ
+~/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/utils/DFAssinaturaDigital.javaZ Z(P"1*ù
+1Z Z(* 
+Z< Z(I
+%11java.lang.String"1javax.naming.ldap.Rdn#getType()Ljava/lang/String;*:
+
+__unknown_file (
+
+rdnjavax.naming.ldap.Rdn2	getType()¨
+¥
+Z Z(P
+%12boolean"horg.apache.commons.lang3.StringUtils#equalsIgnoreCase(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z*D
+
+__unknown_file (("&
+$org.apache.commons.lang3.StringUtils*5
+
+__unknown_file (
+
+%11java.lang.String*"
+
+__unknown_file (
+CN"
+Z Z(P
+
+%12boolean:(
+Z Z(
+rdnjavax.naming.ldap.RdnB 
+java.util.function.Predicate

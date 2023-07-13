@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSFacade#consultaNota(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/consulta/NFNotaConsultaRetorno;

@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoCombustivelTipo#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoCombustivelTipo;
+com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoCombustivelTipo#getCodigo()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+org.apache.commons.lang3.StringUtils#leftPad(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;

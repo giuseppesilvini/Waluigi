@@ -1,0 +1,45 @@
+
+Äcom.fincatto.documentofiscal.nfe400.webservices.WSFacade#getXmlAssinado(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;ç
+Ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/webservices/WSFacade.javaÿ ÿ( "1*˚
+1
+Ÿ Ÿ(À
+»
+
+Ÿ Ÿ(#E
+%0?com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao"__id*m
+
+__unknown_file (Q*O:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacade"
+wsCartaCorrecaoÛ
+
+Ÿ Ÿ(h
+%1java.lang.String"ácom.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao#getXmlAssinado(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;*c
+
+__unknown_file (G
+E
+%0?com.fincatto.documentofiscal.nfe400.webservices.WSCartaCorrecao*?
+
+__unknown_file (#
+!
+chaveDeAcessojava.lang.String*?
+
+__unknown_file (#
+!
+textoCorrecaojava.lang.String*"
+
+__unknown_file (
+""25getXmlAssinado(Ljava/lang/String;Ljava/lang/String;I)"&
+
+Ÿ Ÿ(i
+
+%1java.lang.String:/
+
+ÿ! ÿ(<!
+chaveDeAcessojava.lang.String:/
+
+ÿ= ÿ(X!
+textoCorrecaojava.lang.String: 
+
+__unknown_file (
+""B<:
+8com.fincatto.documentofiscal.nfe400.webservices.WSFacadeH

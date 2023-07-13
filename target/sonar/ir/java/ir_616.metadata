@@ -1,0 +1,8 @@
+com.fincatto.documentofiscal.utils.DFUtils#isCpfValido(Ljava/lang/String;)Z
+java.lang.String#valueOf(I)Ljava/lang/String;
+java.lang.String#matches(Ljava/lang/String;)Z
+java.lang.String#length()I
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.Integer#parseInt(Ljava/lang/String;)I
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#substring(II)Ljava/lang/String;

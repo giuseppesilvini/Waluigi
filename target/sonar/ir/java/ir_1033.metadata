@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.transformers.DFAmbienteTransformer#write(Lcom/fincatto/documentofiscal/DFAmbiente;)Ljava/lang/String;
+com.fincatto.documentofiscal.DFAmbiente#getCodigo()Ljava/lang/String;

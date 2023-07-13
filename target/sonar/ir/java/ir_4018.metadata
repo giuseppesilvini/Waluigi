@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400#getUfsPossuemServicoConsultaCadastro()Ljava/util/List;
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;

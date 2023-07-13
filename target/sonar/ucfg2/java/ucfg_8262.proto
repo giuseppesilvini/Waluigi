@@ -1,0 +1,39 @@
+
+Ωcom.fincatto.documentofiscal.mdfe3.webservices.WSFacade#pagamentoTransporteAssinado(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;ã
+/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSFacade.javaÅ Å(2"1*á
+1
+Ç Ç(’
+“
+
+Ç Ç()J
+%0Dcom.fincatto.documentofiscal.mdfe3.webservices.WSPagamentoTransporte"__id*r
+
+__unknown_file (V*T9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacade"
+wsPagamentoTransporte√¿
+
+Ç Ç([H
+%1Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno"¿com.fincatto.documentofiscal.mdfe3.webservices.WSPagamentoTransporte#pagamentoAssinado(Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/nota/evento/MDFeRetorno;*h
+
+__unknown_file (L
+J
+%0Dcom.fincatto.documentofiscal.mdfe3.webservices.WSPagamentoTransporte*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*C
+
+__unknown_file ('
+%
+eventoAssinadoXmljava.lang.String27pagamentoAssinado(Ljava/lang/String;Ljava/lang/String;)"X
+
+Ç Ç(\J
+H
+%1Bcom.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno:-
+
+Å3 Å(L
+chaveAcessojava.lang.String:3
+
+ÅM Å(k%
+eventoAssinadoXmljava.lang.StringB;9
+7com.fincatto.documentofiscal.mdfe3.webservices.WSFacadeH

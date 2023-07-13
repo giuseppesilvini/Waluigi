@@ -1,0 +1,291 @@
+
+ècom.fincatto.documentofiscal.cte.webservices.distribuicao.WSDistribuicaoCTe#consultar(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe/classes/distribuicao/NFDistribuicaoIntRetorno;û
+ì/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte/webservices/distribuicao/WSDistribuicaoCTe.java>$ >(-"21*’
+13LS L(`x
+v
+LS L(c@
+%109com.fincatto.documentofiscal.cte200.classes.CTAutorizador"__id*"
+
+__unknown_file (
+""¬
+ø
+Lw L(}4
+%11-com.fincatto.documentofiscal.cte300.CTeConfig"__id*w
+
+__unknown_file ([*YM
+Kcom.fincatto.documentofiscal.cte.webservices.distribuicao.WSDistribuicaoCTe"
+configˇ¸
+	Lw L(ã.
+%12'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*R
+
+__unknown_file (6
+4
+%11-com.fincatto.documentofiscal.cte300.CTeConfig2getAmbiente()*
+12*Ê
+14	I I(â°
+û
+	I I(â|
+distDFeInteressehcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse"__id*å
+
+__unknown_file (p
+n
+%7hcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse™ß
+J J(:
+
+%9void"·com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse#setCteDadosMsg(Lcom/fincatto/documentofiscal/cte/webservices/distribuicao/CTeDistribuicaoDFeSoapStub$CteDadosMsgType0;)V*ö
+
+__unknown_file (~
+|
+distDFeInteressehcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse*î
+
+__unknown_file (x
+v
+dadosMsgType0ecom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDadosMsgType02wsetCteDadosMsg(Lcom/fincatto/documentofiscal/cte/webservices/distribuicao/CTeDistribuicaoDFeSoapStub$CteDadosMsgType0;)*
+13*ö
+15	IT I(àËÂ
+	IX I(Ün
+%7hcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse"hcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseó
+î
+	IT I(à
+%8"rcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse#<init>()V*å
+
+__unknown_file (p
+n
+%7hcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse*
+14*Û
+16	F F(Äò
+ï
+	F F(Äv
+dadosMsgType0ecom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDadosMsgType0"__id*â
+
+__unknown_file (m
+k
+%4ecom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDadosMsgType0¿Ω
+G G(.
+
+%6void"ócom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDadosMsgType0#setExtraElement(Lorg/apache/axiom/om/OMElement;)V*î
+
+__unknown_file (x
+v
+dadosMsgType0ecom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDadosMsgType0*B
+
+__unknown_file (&
+$
+omeorg.apache.axiom.om.OMElement20setExtraElement(Lorg/apache/axiom/om/OMElement;)*
+15*à
+17D D(A{
+y
+D D(A$
+omeorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%3org.apache.axiom.om.OMElement·ﬁ
+FR F(}k
+%4ecom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDadosMsgType0"ecom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDadosMsgType0ê
+ç
+FN F(
+%5"ocom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDadosMsgType0#<init>()V*â
+
+__unknown_file (m
+k
+%4ecom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDadosMsgType0*
+16*´
+18D" D(+î
+ë
+D" D(@#
+%3org.apache.axiom.om.OMElement"`org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*B
+
+__unknown_file (&"$
+"org.apache.axiom.om.util.AXIOMUtil*:
+
+__unknown_file (
+
+xmlEnviojava.lang.String*
+17*î
+19@ @(bf
+d
+@ @(b
+xmlEnviojava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.Stringï
+í
+B B(:
+%2boolean"bcom.fincatto.documentofiscal.validadores.DFXMLValidador#validaDistribuicaoCTe(Ljava/lang/String;)Z*W
+
+__unknown_file (;"9
+7com.fincatto.documentofiscal.validadores.DFXMLValidador*:
+
+__unknown_file (
+
+xmlEnviojava.lang.String*
+18*t
+4	N N(ó"d
+	N N(óW
+U
+%23Ncom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoIntRetorno*≤
+5	N N(ñúô
+	N N(ñU
+%23Ncom.fincatto.documentofiscal.nfe.classes.distribuicao.NFDistribuicaoIntRetorno"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*K
+
+__unknown_file (/
+-
+%19&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+%22java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)*
+4*…
+6	NS N(ï≥∞
+	NS N(ï
+%22java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*B
+
+__unknown_file (&
+$
+%21org.apache.axiom.om.OMElement2
+toString()*
+5*ü
+7	NS N(äâÜ
+	NS N(ä$
+%21org.apache.axiom.om.OMElement"§com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResultType0#getExtraElement()Lorg/apache/axiom/om/OMElement;*ò
+
+__unknown_file (|
+z
+%20scom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResultType02getExtraElement()*
+6*‡
+8N3 N(QÀ»
+NS N(xz
+%20scom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResultType0"Ñcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResponse#getCteDistDFeInteresseResult()Lcom/fincatto/documentofiscal/cte/webservices/distribuicao/CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResultType0;*ò
+
+__unknown_file (|
+z
+resultpcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResponse2getCteDistDFeInteresseResult()*
+7*Ç
+9M M(}ß
+§
+M M(}z
+resultpcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResponse"__id*ï
+
+__unknown_file (y
+w
+%17pcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResponse¬
+ø
+N N(4
+%18-com.fincatto.documentofiscal.cte300.CTeConfig"__id*w
+
+__unknown_file ([*YM
+Kcom.fincatto.documentofiscal.cte.webservices.distribuicao.WSDistribuicaoCTe"
+config˛˚
+N N(--
+%19&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*R
+
+__unknown_file (6
+4
+%18-com.fincatto.documentofiscal.cte300.CTeConfig2getPersister()*
+8*˜
+20@ @(a‡›
+@ @(a
+%1java.lang.String"@com.fincatto.documentofiscal.DFBase#toString()Ljava/lang/String;*k
+
+__unknown_file (O
+M
+%0Gcom.fincatto.documentofiscal.cte.classes.distribuicao.CTDistribuicaoInt2
+toString()*
+19*˝
+21@ @("Ê
+„
+@ @(VM
+%0Gcom.fincatto.documentofiscal.cte.classes.distribuicao.CTDistribuicaoInt"ñcom.fincatto.documentofiscal.cte.webservices.distribuicao.WSDistribuicaoCTe#gerarCTeDistribuicaoInt(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte/classes/distribuicao/CTDistribuicaoInt;*k
+
+__unknown_file (OM
+Kcom.fincatto.documentofiscal.cte.webservices.distribuicao.WSDistribuicaoCTe*;
+
+__unknown_file (
+
+	cpfOuCnpjjava.lang.String*T
+
+__unknown_file (8
+6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa*5
+
+__unknown_file (
+
+nsujava.lang.String*8
+
+__unknown_file (
+
+ultNsujava.lang.String*
+20*
+10	L L(ñÌ
+Í
+	L L(ñ\
+stubTcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub"__id*y
+
+__unknown_file (]
+[
+%15Tcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStubÈÊ
+MR M(|w
+%17pcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResponse"∆com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub#cteDistDFeInteresse(Lcom/fincatto/documentofiscal/cte/webservices/distribuicao/CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse;)Lcom/fincatto/documentofiscal/cte/webservices/distribuicao/CTeDistribuicaoDFeSoapStub$CteDistDFeInteresseResponse;*z
+
+__unknown_file (^
+\
+stubTcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub*ö
+
+__unknown_file (~
+|
+distDFeInteressehcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse2cteDistDFeInteresse(Lcom/fincatto/documentofiscal/cte/webservices/distribuicao/CTeDistribuicaoDFeSoapStub$CteDistDFeInteresse;)*
+9*ÿ
+11
+Lé L(îƒ
+¡
+
+Lé L(î4
+%14-com.fincatto.documentofiscal.cte300.CTeConfig"__id*w
+
+__unknown_file ([*YM
+Kcom.fincatto.documentofiscal.cte.webservices.distribuicao.WSDistribuicaoCTe"
+config¿Ω
+L8 L(R[
+%15Tcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub"Tcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStubµ
+≤
+	L4 L(ï
+%16"ócom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V*y
+
+__unknown_file (]
+[
+%15Tcom.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub*5
+
+__unknown_file (
+
+%13java.lang.String*R
+
+__unknown_file (6
+4
+%14-com.fincatto.documentofiscal.cte300.CTeConfig*
+10*∏
+12	LS L(å†ù
+	LS L(å
+%13java.lang.String"âcom.fincatto.documentofiscal.cte200.classes.CTAutorizador#getDistribuicaoDFe(Lcom/fincatto/documentofiscal/DFAmbiente;)Ljava/lang/String;*^
+
+__unknown_file (B
+@
+%109com.fincatto.documentofiscal.cte200.classes.CTAutorizador*L
+
+__unknown_file (0
+.
+%12'com.fincatto.documentofiscal.DFAmbiente2=getDistribuicaoDFe(Lcom/fincatto/documentofiscal/DFAmbiente;)*
+11:)
+>. >(E
+	cpfOuCnpjjava.lang.String:B
+>F >(c6
+uf0com.fincatto.documentofiscal.DFUnidadeFederativa:#
+>d >(u
+nsujava.lang.String:'
+	>v >(â
+ultNsujava.lang.StringBOM
+Kcom.fincatto.documentofiscal.cte.webservices.distribuicao.WSDistribuicaoCTeH

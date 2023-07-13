@@ -1,0 +1,36 @@
+
+”com.fincatto.documentofiscal.nfe310.transformers.NFOrigemTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFOrigem;)Ljava/lang/String;—
+Œ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFOrigemTransformer.java ("startingBlock*Ò
+startingBlock (.±
+®
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*\
+
+__unknown_file (@
+>
+origem4com.fincatto.documentofiscal.nfe310.classes.NFOrigem~
+|
+' (->
+origem4com.fincatto.documentofiscal.nfe310.classes.NFOrigem"__annotation*"
+
+__unknown_file (
+
+%1*
+1*š
+1 (äá
+ (!
+%0java.lang.String"Rcom.fincatto.documentofiscal.nfe310.classes.NFOrigem#getCodigo()Ljava/lang/String;*\
+
+__unknown_file (@
+>
+origem4com.fincatto.documentofiscal.nfe310.classes.NFOrigem2getCodigo()"$
+ ("
+
+%0java.lang.String:J
+ (->
+origem4com.fincatto.documentofiscal.nfe310.classes.NFOrigemBHF
+Dcom.fincatto.documentofiscal.nfe310.transformers.NFOrigemTransformerH

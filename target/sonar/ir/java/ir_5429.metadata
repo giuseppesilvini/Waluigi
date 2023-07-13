@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte300.transformes.CTTipoDocumentoTransformer#write(Lcom/fincatto/documentofiscal/cte300/classes/CTTipoDocumento;)Ljava/lang/String;
+com.fincatto.documentofiscal.cte300.classes.CTTipoDocumento#getCodigo()Ljava/lang/String;

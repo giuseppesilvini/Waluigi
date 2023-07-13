@@ -1,0 +1,46 @@
+
+Àcom.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoItemProdutoVeiculoCondicaoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoItemProdutoVeiculoCondicao;≥
+®/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFNotaInfoItemProdutoVeiculoCondicaoTransformer.java	0 	(4"startingBlock*ä
+startingBlock	4 	(Iç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	B 	(H
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Œ
+1
+ 
+(3ÿ
+’
+
+ 
+(IV
+%0Pcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoVeiculoCondicao"ƒcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoVeiculoCondicao#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFNotaInfoItemProdutoVeiculoCondicao;*p
+
+__unknown_file (T"R
+Pcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoVeiculoCondicao*8
+
+__unknown_file (
+
+codigojava.lang.String"d
+
+ 
+(JX
+V
+%0Pcom.fincatto.documentofiscal.nfe400.classes.NFNotaInfoItemProdutoVeiculoCondicao:&
+	5 	(H
+codigojava.lang.StringBdb
+`com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoItemProdutoVeiculoCondicaoTransformerH

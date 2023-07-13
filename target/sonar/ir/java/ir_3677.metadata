@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#assinarDocumento(Ljava/lang/String;)Ljava/lang/String;
+==
+assinarDocumento com.fincatto.documentofiscal.utils.DFAssinaturaDigital#assinarDocumento(Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;

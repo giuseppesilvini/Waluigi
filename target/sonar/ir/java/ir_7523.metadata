@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.cte200.transformers.CTFormaPagamentoTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTFormaPagamento;
+com.fincatto.documentofiscal.cte200.classes.CTFormaPagamento#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte200/classes/CTFormaPagamento;

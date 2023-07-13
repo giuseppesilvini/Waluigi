@@ -1,0 +1,78 @@
+
+´com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaRecibo#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/mdfe3/classes/consultaRecibo/MDFeConsultaRecibo;’
+‡/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSConsultaRecibo.java$ $(1"1*ò
+1%2 %(J¯¬
+%6 %(HR
+%0Lcom.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaRecibo"Lcom.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaReciboÝ
+Ú
+%2 %(J
+%1"Vcom.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaRecibo#<init>()V*p
+
+__unknown_file (T
+R
+%0Lcom.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaReciboå
+â
+% %(K^
+consultaReciboLcom.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaRecibo"__id*p
+
+__unknown_file (T
+R
+%0Lcom.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaReciboïì
+& &(4
+
+%2void"qcom.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaRecibo#setNumeroRecibo(Ljava/lang/String;)V*|
+
+__unknown_file (`
+^
+consultaReciboLcom.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaRecibo*>
+
+__unknown_file ("
+ 
+numeroRecibojava.lang.String2#setNumeroRecibo(Ljava/lang/String;)µ
+²
+'# '(.3
+%3-com.fincatto.documentofiscal.mdfe3.MDFeConfig"__id*k
+
+__unknown_file (O*MA
+?com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaRecibo"
+configüù
+'# '(<-
+%4'com.fincatto.documentofiscal.DFAmbiente"\com.fincatto.documentofiscal.DFConfig#getAmbiente()Lcom/fincatto/documentofiscal/DFAmbiente;*Q
+
+__unknown_file (5
+3
+%3-com.fincatto.documentofiscal.mdfe3.MDFeConfig2getAmbiente()£ 
+' '(=
+
+%5void"„com.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaRecibo#setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)V*|
+
+__unknown_file (`
+^
+consultaReciboLcom.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaRecibo*K
+
+__unknown_file (/
+-
+%4'com.fincatto.documentofiscal.DFAmbiente26setAmbiente(Lcom/fincatto/documentofiscal/DFAmbiente;)P
+N
+(! ((2
+%6java.lang.String"__id*$
+
+__unknown_file (
+3.00ÙÖ
+( ((3
+
+%7void"kcom.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaRecibo#setVersao(Ljava/lang/String;)V*|
+
+__unknown_file (`
+^
+consultaReciboLcom.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaRecibo*4
+
+__unknown_file (
+
+%6java.lang.String2setVersao(Ljava/lang/String;)"l
+) )(`
+^
+consultaReciboLcom.fincatto.documentofiscal.mdfe3.classes.consultaRecibo.MDFeConsultaRecibo:,
+$2 $(K 
+numeroRecibojava.lang.StringBCA
+?com.fincatto.documentofiscal.mdfe3.webservices.WSConsultaRecibo

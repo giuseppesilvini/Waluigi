@@ -1,0 +1,20 @@
+
+Qcom.fincatto.documentofiscal.DFLog#getLogger(Ljava/lang/Class;)Lorg/slf4j/Logger;t
+j/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/DFLog.java ("1*”
+1 (Þ
+Û
+ (-
+%0org.slf4j.Logger"Forg.slf4j.LoggerFactory#getLogger(Ljava/lang/Class;)Lorg/slf4j/Logger;*7
+
+__unknown_file ("
+org.slf4j.LoggerFactory*6
+
+__unknown_file (
+
+clazzjava.lang.Class"$
+ (.
+
+%0org.slf4j.Logger:$
+ (*
+clazzjava.lang.ClassB&"$
+"com.fincatto.documentofiscal.DFLogH

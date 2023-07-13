@@ -1,0 +1,15 @@
+
+mcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoEntregaComData#getDataProgramada()Ljava/time/LocalDate;—
+Œ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/classes/cte/CTInfoEntregaComData.java (&"1*á
+1 (¨
+¥
+ ("
+%0java.time.LocalDate"__id*x
+
+__unknown_file (\*ZF
+Dcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoEntregaComData"
+dataProgramada"'
+ (#
+
+%0java.time.LocalDateBHF
+Dcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoEntregaComDataH

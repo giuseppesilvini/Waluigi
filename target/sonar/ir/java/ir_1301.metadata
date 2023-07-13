@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+==
+NfeDownloadNFStub com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V

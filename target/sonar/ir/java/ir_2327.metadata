@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.evento.epec.NFInfoEventoEpec#setNumeroSequencialEvento(Ljava/lang/Integer;)V
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#tamanho1a2(ILjava/lang/String;)V

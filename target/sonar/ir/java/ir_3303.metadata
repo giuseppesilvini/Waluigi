@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.cte200.classes.cte.CTInfoEntregaNoInter#setTipoHorario(Lcom/fincatto/documentofiscal/cte200/classes/CTTipoEntregaHorario;)V
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.IllegalArgumentException#instance-init#

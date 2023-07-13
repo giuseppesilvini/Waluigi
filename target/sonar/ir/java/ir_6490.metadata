@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemImpostoISSQN#setCodigoMunicipioIncidenciaImposto(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#exatamente7N(Ljava/lang/String;Ljava/lang/String;)V

@@ -1,0 +1,37 @@
+
+Ÿcom.fincatto.documentofiscal.cte300.transformes.CTTipoFerroviaTransformer#write(Lcom/fincatto/documentofiscal/cte300/classes/CTTipoFerrovia;)Ljava/lang/String;œ
+‘/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/transformes/CTTipoFerroviaTransformer.java ("startingBlock*Ü
+startingBlock (,µ
+²
+ (
+
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*`
+
+__unknown_file (D
+B
+arg0:com.fincatto.documentofiscal.cte300.classes.CTTipoFerroviaƒ
+€
+' (+B
+arg0:com.fincatto.documentofiscal.cte300.classes.CTTipoFerrovia"__annotation*"
+
+__unknown_file (
+
+%1*
+1*¤
+1	 (îë
+	 (
+%0java.lang.String"Xcom.fincatto.documentofiscal.cte300.classes.CTTipoFerrovia#getCodigo()Ljava/lang/String;*`
+
+__unknown_file (D
+B
+arg0:com.fincatto.documentofiscal.cte300.classes.CTTipoFerrovia2getCodigo()"$
+ (
+
+%0java.lang.String:N
+ (+B
+arg0:com.fincatto.documentofiscal.cte300.classes.CTTipoFerroviaBMK
+Icom.fincatto.documentofiscal.cte300.transformes.CTTipoFerroviaTransformerH

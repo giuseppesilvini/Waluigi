@@ -1,0 +1,56 @@
+
+˚com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub#toOM(Lcom/fincatto/documentofiscal/nfe310/webservices/statusservico/consulta/NfeStatusServico2Stub$NfeStatusServicoNF2Result;Z)Lorg/apache/axiom/om/OMElement;±
+§/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/statusservico/consulta/NfeStatusServico2Stub.java¿
+* ¿
+(."1*˙
+1
+¬
+ ¬
+(Y
+W
+
+¬
+" ¬
+(Z
+%0javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""—
+Œ
+¬
+\ ¬
+(ê#
+%1org.apache.axiom.om.OMFactory"Sorg.apache.axiom.om.OMAbstractFactory#getOMFactory()Lorg/apache/axiom/om/OMFactory;*E
+
+__unknown_file ()"'
+%org.apache.axiom.om.OMAbstractFactoryÉÄ
+¬
+ ¬
+(ë#
+%2org.apache.axiom.om.OMElement"ﬁcom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeStatusServicoNF2Result#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;*û
+
+__unknown_file (Å
+
+paramvcom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeStatusServicoNF2Result*=
+
+__unknown_file (!
+
+%0javax.xml.namespace.QName*A
+
+__unknown_file (%
+#
+%1org.apache.axiom.om.OMFactory2HgetOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)"4
+¬
+ ¬
+(í%
+#
+%2org.apache.axiom.om.OMElement:ç
+
+¿
+/ ¿
+(k
+paramvcom.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub$NfeStatusServicoNF2Result: 
+
+__unknown_file (
+""B`^
+\com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub

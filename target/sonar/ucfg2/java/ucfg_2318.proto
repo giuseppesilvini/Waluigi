@@ -1,0 +1,46 @@
+
+”com.fincatto.documentofiscal.nfe310.transformers.NFNotaSituacaoOperacionalSimplesNacionalTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaSituacaoOperacionalSimplesNacional;∑
+¨/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFNotaSituacaoOperacionalSimplesNacionalTransformer.java	4 	(8"startingBlock*ä
+startingBlock	8 	(Mç
+ä
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+codigojava.lang.StringZ
+X
+	F 	(L
+codigojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*‚
+1
+ 
+(7Ë
+Â
+
+ 
+(MZ
+%0Tcom.fincatto.documentofiscal.nfe310.classes.NFNotaSituacaoOperacionalSimplesNacional"Ãcom.fincatto.documentofiscal.nfe310.classes.NFNotaSituacaoOperacionalSimplesNacional#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaSituacaoOperacionalSimplesNacional;*t
+
+__unknown_file (X"V
+Tcom.fincatto.documentofiscal.nfe310.classes.NFNotaSituacaoOperacionalSimplesNacional*8
+
+__unknown_file (
+
+codigojava.lang.String"h
+
+ 
+(N\
+Z
+%0Tcom.fincatto.documentofiscal.nfe310.classes.NFNotaSituacaoOperacionalSimplesNacional:&
+	9 	(L
+codigojava.lang.StringBhf
+dcom.fincatto.documentofiscal.nfe310.transformers.NFNotaSituacaoOperacionalSimplesNacionalTransformerH

@@ -1,0 +1,83 @@
+
+Çcom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub#optimizeContent(Ljavax/xml/namespace/QName;)Z©
+ú/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe/webservices/distribuicao/NFeDistribuicaoDFeSoapStub.javaã ã(#"7*†
+2
+è è( ^
+\
+
+è è( $
+elementjavax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""¶
+£
+
+è è( $
+elementjavax.xml.namespace.QName"
+__arrayGet*?
+
+__unknown_file (#
+!
+%1javax.xml.namespace.QName[]*"
+
+__unknown_file (
+""*
+4
+1*%
+3
+ë ë("
+
+ë ë(
+""*í
+4
+ê ê(¯ı
+
+ê ê(&
+%2boolean"5javax.xml.namespace.QName#equals(Ljava/lang/Object;)Z*A
+
+__unknown_file (%
+#
+opNamejavax.xml.namespace.QName*B
+
+__unknown_file (&
+$
+elementjavax.xml.namespace.QName2equals(Ljava/lang/Object;)*
+2
+3*◊
+5
+è# è('¿
+Ω
+
+è# è(3!
+%1javax.xml.namespace.QName[]"__id*Ö
+
+__unknown_file (i*gV
+Tcom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub"
+opNameArray*
+2*%
+6
+ç ç("
+
+ç ç(
+""*⁄
+7
+å å(¿
+Ω
+
+å å(!
+%0javax.xml.namespace.QName[]"__id*Ö
+
+__unknown_file (i*gV
+Tcom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub"
+opNameArray*
+5
+6*%
+1
+î î("
+
+î î(
+"":1
+
+ã$ ã(J#
+opNamejavax.xml.namespace.QNameBXV
+Tcom.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStubP

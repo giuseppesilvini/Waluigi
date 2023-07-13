@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.cte300.webservices.WSStatusConsulta#consultaStatus(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/cte300/classes/consultastatusservico/CTeConsStatServRet;
+com.fincatto.documentofiscal.cte300.webservices.WSStatusConsulta#efetuaConsultaStatus(Lorg/apache/axiom/om/OMElement;Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lorg/apache/axiom/om/OMElement;
+org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.cte300.webservices.WSStatusConsulta#gerarDadosConsulta(Lcom/fincatto/documentofiscal/cte300/CTeConfig;)Lcom/fincatto/documentofiscal/cte300/classes/consultastatusservico/CTeConsStatServ;

@@ -1,0 +1,18 @@
+
+qcom.fincatto.documentofiscal.cte200.classes.cte.CTInfoIdentificador#getDataHoraEmissao()Ljava/time/LocalDateTime;˜
+‹/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/classes/cte/CTInfoIdentificador.javaÀ À(+"1*ï
+1
+Á Á(®
+«
+
+Á Á(#
+%0java.time.LocalDateTime"__id*x
+
+__unknown_file (\*ZE
+Ccom.fincatto.documentofiscal.cte200.classes.cte.CTInfoIdentificador"
+dataHoraEmissao"-
+
+Á Á($
+
+%0java.time.LocalDateTimeBGE
+Ccom.fincatto.documentofiscal.cte200.classes.cte.CTInfoIdentificadorH

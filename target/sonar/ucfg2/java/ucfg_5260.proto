@@ -1,0 +1,67 @@
+
+fcom.fincatto.documentofiscal.utils.DFPersister#read(Ljava/lang/Class;Ljava/io/File;)Ljava/lang/Object;€
+v/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/utils/DFPersister.java$ $("startingBlock*è
+startingBlock$ $(;Š
+‡
+# #(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+typejava.lang.ClassW
+U
+$) $(-
+typejava.lang.Class"__annotation*"
+
+__unknown_file (
+
+%1‰
+†
+# #(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*4
+
+__unknown_file (
+
+sourcejava.io.FileV
+T
+$4 $(:
+sourcejava.io.File"__annotation*"
+
+__unknown_file (
+
+%2*
+1*ã
+1% %(´
+±
+% %(4
+%0	!capture!"_org.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/io/File;Z)Ljava/lang/Object;*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class*4
+
+__unknown_file (
+
+sourcejava.io.File*"
+
+__unknown_file (
+"""
+% %(5
+
+%0	!capture!:#
+$ $(.
+typejava.lang.Class:"
+$/ $(:
+sourcejava.io.FileB20
+.com.fincatto.documentofiscal.utils.DFPersisterH

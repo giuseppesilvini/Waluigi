@@ -1,0 +1,83 @@
+
+€com.fincatto.documentofiscal.utils.DFAssinaturaDigital#assinarDocumento(Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;ˆ
+~/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/utils/DFAssinaturaDigital.javaJ J(""6*·
+2N N(¢Ÿ
+N N((
+%5java.lang.String"1java.io.StringWriter#toString()Ljava/lang/String;*<
+
+__unknown_file ( 
+
+writerjava.io.StringWriter2
+toString()*
+1*ÿ
+3L L(9l
+j
+L L(9
+writerjava.io.StringWriter"__id*8
+
+__unknown_file (
+
+%2java.io.StringWriterüù
+M M(J
+
+%4void"}com.fincatto.documentofiscal.utils.DFAssinaturaDigital#assinarDocumento(Ljava/io/Reader;Ljava/io/Writer;[Ljava/lang/String;)V*V
+
+__unknown_file (:8
+6com.fincatto.documentofiscal.utils.DFAssinaturaDigital*<
+
+__unknown_file ( 
+
+readerjava.io.StringReader*<
+
+__unknown_file ( 
+
+writerjava.io.StringWriter*G
+
+__unknown_file (+
+)
+elementosAssinaveisjava.lang.String[]2EassinarDocumento(Ljava/io/Reader;Ljava/io/Writer;[Ljava/lang/String;)*
+2*À
+4L' L(9><
+L+ L(7
+%2java.io.StringWriter"java.io.StringWriterl
+j
+L' L(9
+%3"java.io.StringWriter#<init>()V*8
+
+__unknown_file (
+
+%2java.io.StringWriter*
+3*€
+5K K(@l
+j
+K K(@
+readerjava.io.StringReader"__id*8
+
+__unknown_file (
+
+%0java.io.StringReader*
+4*“
+6K4 K(?><
+K' K(3
+%0java.io.StringReader"java.io.StringReader¾
+»
+K# K(@
+%1"0java.io.StringReader#<init>(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%0java.io.StringReader*=
+
+__unknown_file (!
+
+conteudoXmljava.lang.String*
+5*3
+1N N()"$
+N N()
+
+%5java.lang.String:+
+J# J(<
+conteudoXmljava.lang.String:5
+J= J(`)
+elementosAssinaveisjava.lang.String[]B:8
+6com.fincatto.documentofiscal.utils.DFAssinaturaDigitalH

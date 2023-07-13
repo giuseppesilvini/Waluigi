@@ -1,0 +1,1 @@
+com.fincatto.documentofiscal.cte300.webservices.WSFacade#consultaEnvioRecepcaoLote(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/enviolote/consulta/CTeConsultaRecLoteRet;

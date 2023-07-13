@@ -1,0 +1,22 @@
+
+^com.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser#isEmitidaContingenciaSCAN()Z”
+‰/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/parsers/NotaFiscalChaveParser.javaE E(,"1*ä
+1F F(ôñ
+F F(
+%0java.lang.String"^com.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser#getSerie()Ljava/lang/String;*a
+
+__unknown_file (EC
+Acom.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParser2
+getSerie()ÉÆ
+F F(3
+%1boolean"-java.lang.String#matches(Ljava/lang/String;)Z*4
+
+__unknown_file (
+
+%0java.lang.String*)
+
+__unknown_file (
+	9[0-9]{2}2matches(Ljava/lang/String;)"
+F F(4
+""BEC
+Acom.fincatto.documentofiscal.nfe310.parsers.NotaFiscalChaveParserHP

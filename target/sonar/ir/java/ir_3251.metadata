@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno#consultaLote(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/enviolote/consulta/CTeConsultaRecLoteRet;
+org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/enviolote/consulta/CTeConsultaRecLote;
+com.fincatto.documentofiscal.cte300.webservices.WSRecepcaoLoteRetorno#efetuaConsulta(Lorg/apache/axiom/om/OMElement;)Lorg/apache/axiom/om/OMElement;

@@ -1,0 +1,36 @@
+
+§com.fincatto.documentofiscal.nfe400.transformers.NFMeioPagamentoTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFMeioPagamento;)Ljava/lang/String;ž
+“/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFMeioPagamentoTransformer.java ("startingBlock*ú
+startingBlock (<Ä
+Á
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*o
+
+__unknown_file (S
+Q
+meioPagamento@com.fincatto.documentofiscal.nfe400.classes.nota.NFMeioPagamento’
+
+. (;Q
+meioPagamento@com.fincatto.documentofiscal.nfe400.classes.nota.NFMeioPagamento"__annotation*"
+
+__unknown_file (
+
+%1*
+1*¹
+1 (ƒ€
+ ((
+%0java.lang.String"^com.fincatto.documentofiscal.nfe400.classes.nota.NFMeioPagamento#getCodigo()Ljava/lang/String;*o
+
+__unknown_file (S
+Q
+meioPagamento@com.fincatto.documentofiscal.nfe400.classes.nota.NFMeioPagamento2getCodigo()"$
+ ()
+
+%0java.lang.String:]
+ (;Q
+meioPagamento@com.fincatto.documentofiscal.nfe400.classes.nota.NFMeioPagamentoBOM
+Kcom.fincatto.documentofiscal.nfe400.transformers.NFMeioPagamentoTransformerH

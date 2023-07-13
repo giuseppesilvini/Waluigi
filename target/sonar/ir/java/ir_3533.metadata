@@ -1,0 +1,5 @@
+com.fincatto.documentofiscal.nfe310.webservices.WSManifestacaoDestinatario#manifestaDestinatarioNota(Ljava/lang/String;Lcom/fincatto/documentofiscal/nfe310/classes/evento/manifestacaodestinatario/NFTipoEventoManifestacaoDestinatario;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/NFEnviaEventoRetorno;
+com.fincatto.documentofiscal.nfe310.webservices.WSManifestacaoDestinatario#gerarDadosManifestacaoDestinatario(Ljava/lang/String;Lcom/fincatto/documentofiscal/nfe310/classes/evento/manifestacaodestinatario/NFTipoEventoManifestacaoDestinatario;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/manifestacaodestinatario/NFEnviaEventoManifestacaoDestinatario;
+com.fincatto.documentofiscal.nfe310.webservices.WSManifestacaoDestinatario#efetuaManifestacaoDestinatario(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#instance-init#
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V

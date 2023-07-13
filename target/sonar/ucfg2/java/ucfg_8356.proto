@@ -1,0 +1,173 @@
+
+±com.fincatto.documentofiscal.cte300.webservices.WSNotaConsulta#consultaNota(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/nota/consulta/CTeNotaConsultaRetorno;‘
+†/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/WSNotaConsulta.java" (."1*ü&
+1, (5²
+¯
+A (gO
+%0Icom.fincatto.documentofiscal.cte300.classes.nota.consulta.CTeNotaConsulta"°com.fincatto.documentofiscal.cte300.webservices.WSNotaConsulta#gerarDadosConsulta(Ljava/lang/String;)Lcom/fincatto/documentofiscal/cte300/classes/nota/consulta/CTeNotaConsulta;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.cte300.webservices.WSNotaConsulta*?
+
+__unknown_file (#
+!
+chaveDeAcessojava.lang.Stringâß
+A (r
+%1java.lang.String"@com.fincatto.documentofiscal.DFBase#toString()Ljava/lang/String;*m
+
+__unknown_file (Q
+O
+%0Icom.fincatto.documentofiscal.cte300.classes.nota.consulta.CTeNotaConsulta2
+toString()Ž
+‹
+, (s#
+%2org.apache.axiom.om.OMElement"`org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*B
+
+__unknown_file (&"$
+"org.apache.axiom.om.util.AXIOMUtil*4
+
+__unknown_file (
+
+%1java.lang.StringŠ
+‡
+ (t2
+omElementConsultaorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%2org.apache.axiom.om.OMElementÔÑ
+ (
+%3org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.cte300.webservices.WSNotaConsulta2getLogger()¿¼
+ (;
+%4java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*P
+
+__unknown_file (4
+2
+omElementConsultaorg.apache.axiom.om.OMElement2
+toString()ÍÊ
+ (<
+
+%5void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%3org.slf4j.Logger*4
+
+__unknown_file (
+
+%4java.lang.String2debug(Ljava/lang/String;)Ç
+Ä
++ (`#
+%6org.apache.axiom.om.OMElement"Ÿcom.fincatto.documentofiscal.cte300.webservices.WSNotaConsulta#efetuaConsulta(Lorg/apache/axiom/om/OMElement;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.cte300.webservices.WSNotaConsulta*P
+
+__unknown_file (4
+2
+omElementConsultaorg.apache.axiom.om.OMElement*?
+
+__unknown_file (#
+!
+chaveDeAcessojava.lang.String‰
+†
+ (a1
+omElementRetornoorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%6org.apache.axiom.om.OMElementÔÑ
+ (
+%7org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.cte300.webservices.WSNotaConsulta2getLogger()¾»
+ (:
+%8java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*O
+
+__unknown_file (3
+1
+omElementRetornoorg.apache.axiom.om.OMElement2
+toString()ÍÊ
+ (;
+
+%9void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%7org.slf4j.Logger*4
+
+__unknown_file (
+
+%8java.lang.String2debug(Ljava/lang/String;)µ
+²
+ /  (:4
+%10-com.fincatto.documentofiscal.cte300.CTeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.cte300.webservices.WSNotaConsulta"
+configþû
+ /  (I-
+%11&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*R
+
+__unknown_file (6
+4
+%10-com.fincatto.documentofiscal.cte300.CTeConfig2getPersister()À½
+	 m  (ˆ
+%12java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*O
+
+__unknown_file (3
+1
+omElementRetornoorg.apache.axiom.om.OMElement2
+toString()ž›
+	 /  (‰W
+%13Pcom.fincatto.documentofiscal.cte300.classes.nota.consulta.CTeNotaConsultaRetorno"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*K
+
+__unknown_file (/
+-
+%11&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+%12java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)è
+å
+	   (Š[
+retornoPcom.fincatto.documentofiscal.cte300.classes.nota.consulta.CTeNotaConsultaRetorno"__id*u
+
+__unknown_file (Y
+W
+%13Pcom.fincatto.documentofiscal.cte300.classes.nota.consulta.CTeNotaConsultaRetornoÕÒ
+! !(
+%14org.slf4j.Logger"@com.fincatto.documentofiscal.DFLog#getLogger()Lorg/slf4j/Logger;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.cte300.webservices.WSNotaConsulta2getLogger()ïì
+! !(1
+%15java.lang.String"@com.fincatto.documentofiscal.DFBase#toString()Ljava/lang/String;*y
+
+__unknown_file (]
+[
+retornoPcom.fincatto.documentofiscal.cte300.classes.nota.consulta.CTeNotaConsultaRetorno2
+toString()ÐÍ
+! !(2
+%16void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*5
+
+__unknown_file (
+
+%14org.slf4j.Logger*5
+
+__unknown_file (
+
+%15java.lang.String2debug(Ljava/lang/String;)"i
+" "(]
+[
+retornoPcom.fincatto.documentofiscal.cte300.classes.nota.consulta.CTeNotaConsultaRetorno:-
+/ (I!
+chaveDeAcessojava.lang.StringBB@
+>com.fincatto.documentofiscal.cte300.webservices.WSNotaConsultaH

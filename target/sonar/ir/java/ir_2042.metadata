@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.cte300.parsers.CTChaveParser#isEmitidaContingenciaSCAN()Z
+java.lang.String#matches(Ljava/lang/String;)Z
+==
+getSerie com.fincatto.documentofiscal.cte300.parsers.CTChaveParser#getSerie()Ljava/lang/String;

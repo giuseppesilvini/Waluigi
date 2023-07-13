@@ -1,0 +1,137 @@
+
+Ëcom.fincatto.documentofiscal.nfe310.webservices.WSCancelamento#cancelaNota(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/NFEnviaEventoRetorno;‘
+†/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/WSCancelamento.java* *($"1*·
+1++ +(/õ
+ò
+++ +(l_
+%0Ycom.fincatto.documentofiscal.nfe310.classes.evento.cancelamento.NFEnviaEventoCancelamento"ècom.fincatto.documentofiscal.nfe310.webservices.WSCancelamento#gerarDadosCancelamento(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/cancelamento/NFEnviaEventoCancelamento;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.nfe310.webservices.WSCancelamento*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.String*A
+
+__unknown_file (%
+#
+numeroProtocolojava.lang.String*8
+
+__unknown_file (
+
+motivojava.lang.Stringòï
+++ +(w
+%1java.lang.String"@com.fincatto.documentofiscal.DFBase#toString()Ljava/lang/String;*}
+
+__unknown_file (a
+_
+%0Ycom.fincatto.documentofiscal.nfe310.classes.evento.cancelamento.NFEnviaEventoCancelamento2
+toString()q
+o
++ +(x'
+cancelamentoNotaXMLjava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.String±
+®
+,; ,(F0
+%2*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe310.webservices.WSCancelamento"
+configƒ€
+,' ,(:<
+%36com.fincatto.documentofiscal.utils.DFAssinaturaDigital"6com.fincatto.documentofiscal.utils.DFAssinaturaDigital¨
+¥
+,# ,(G
+%4"gcom.fincatto.documentofiscal.utils.DFAssinaturaDigital#<init>(Lcom/fincatto/documentofiscal/DFConfig;)V*Z
+
+__unknown_file (>
+<
+%36com.fincatto.documentofiscal.utils.DFAssinaturaDigital*N
+
+__unknown_file (2
+0
+%2*com.fincatto.documentofiscal.nfe.NFeConfigÝÚ
+,# ,(m
+%5java.lang.String"mcom.fincatto.documentofiscal.utils.DFAssinaturaDigital#assinarDocumento(Ljava/lang/String;)Ljava/lang/String;*Z
+
+__unknown_file (>
+<
+%36com.fincatto.documentofiscal.utils.DFAssinaturaDigital*E
+
+__unknown_file ()
+'
+cancelamentoNotaXMLjava.lang.String2$assinarDocumento(Ljava/lang/String;)i
+g
+, ,(n
+xmlAssinadojava.lang.String"__id*4
+
+__unknown_file (
+
+%5java.lang.String©
+¦
+-* -([#
+%6org.apache.axiom.om.OMElement"–com.fincatto.documentofiscal.nfe310.webservices.WSCancelamento#efetuaCancelamento(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;*^
+
+__unknown_file (B@
+>com.fincatto.documentofiscal.nfe310.webservices.WSCancelamento*=
+
+__unknown_file (!
+
+xmlAssinadojava.lang.String*=
+
+__unknown_file (!
+
+chaveAcessojava.lang.Stringˆ
+…
+- -(\0
+omElementResultorg.apache.axiom.om.OMElement"__id*A
+
+__unknown_file (%
+#
+%6org.apache.axiom.om.OMElement±
+®
+. .(0
+%7*com.fincatto.documentofiscal.nfe.NFeConfig"__id*j
+
+__unknown_file (N*L@
+>com.fincatto.documentofiscal.nfe310.webservices.WSCancelamento"
+configùö
+. .(),
+%8&org.simpleframework.xml.core.Persister"\com.fincatto.documentofiscal.DFConfig#getPersister()Lorg/simpleframework/xml/core/Persister;*N
+
+__unknown_file (2
+0
+%7*com.fincatto.documentofiscal.nfe.NFeConfig2getPersister()½º
+.K .(e
+%9java.lang.String":org.apache.axiom.om.OMElement#toString()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+omElementResultorg.apache.axiom.om.OMElement2
+toString()’
+. .(fN
+%10Gcom.fincatto.documentofiscal.nfe310.classes.evento.NFEnviaEventoRetorno"borg.simpleframework.xml.core.Persister#read(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*J
+
+__unknown_file (.
+,
+%8&org.simpleframework.xml.core.Persister*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%9java.lang.String2)read(Ljava/lang/Class;Ljava/lang/String;)"\
+. .(gP
+N
+%10Gcom.fincatto.documentofiscal.nfe310.classes.evento.NFEnviaEventoRetorno:+
+*% *(>
+chaveAcessojava.lang.String:/
+*? *(\#
+numeroProtocolojava.lang.String:&
+*] *(p
+motivojava.lang.StringBB@
+>com.fincatto.documentofiscal.nfe310.webservices.WSCancelamento

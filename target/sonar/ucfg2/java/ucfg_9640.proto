@@ -1,0 +1,36 @@
+
+¦com.fincatto.documentofiscal.nfe310.transformers.NFModalidadeFreteTransformer#write(Lcom/fincatto/documentofiscal/nfe310/classes/NFModalidadeFrete;)Ljava/lang/String; 
+•/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/transformers/NFModalidadeFreteTransformer.java ("startingBlock*ø
+startingBlock (@Ã
+À
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*n
+
+__unknown_file (R
+P
+modalidadeFrete=com.fincatto.documentofiscal.nfe310.classes.NFModalidadeFrete‘
+Ž
+0 (?P
+modalidadeFrete=com.fincatto.documentofiscal.nfe310.classes.NFModalidadeFrete"__annotation*"
+
+__unknown_file (
+
+%1*
+1*µ
+1 (ÿü
+ (*
+%0java.lang.String"[com.fincatto.documentofiscal.nfe310.classes.NFModalidadeFrete#getCodigo()Ljava/lang/String;*n
+
+__unknown_file (R
+P
+modalidadeFrete=com.fincatto.documentofiscal.nfe310.classes.NFModalidadeFrete2getCodigo()"$
+ (+
+
+%0java.lang.String:\
+ (?P
+modalidadeFrete=com.fincatto.documentofiscal.nfe310.classes.NFModalidadeFreteBQO
+Mcom.fincatto.documentofiscal.nfe310.transformers.NFModalidadeFreteTransformerH

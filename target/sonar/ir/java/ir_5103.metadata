@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#exatamente7(Ljava/lang/Integer;Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFIntegerValidador#intervalo(Ljava/lang/Integer;IILjava/lang/String;)V

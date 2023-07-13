@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFFinalidadeTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFFinalidade;
+com.fincatto.documentofiscal.nfe400.classes.NFFinalidade#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/NFFinalidade;

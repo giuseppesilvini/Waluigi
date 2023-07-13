@@ -1,0 +1,60 @@
+
+¨com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculo#valueOfCodigo(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoEspecieVeiculo;ó
+å/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/classes/NFNotaInfoEspecieVeiculo.java+ (8"5*´
+2 (:è
+å
+ (:V
+especieVeiculoDcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculo"__id*"
+
+__unknown_file (
+""Å
+˛
+ (:V
+especieVeiculoDcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculo"
+__arrayGet*j
+
+__unknown_file (N
+L
+%0Fcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculo[]*"
+
+__unknown_file (
+""*
+4
+1*s
+3 (%"d
+ (&X
+V
+especieVeiculoDcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculo*˝
+4 (åâ
+ (*
+%1java.lang.String"bcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculo#getCodigo()Ljava/lang/String;*t
+
+__unknown_file (X
+V
+especieVeiculoDcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculo2getCodigo()÷”
+ (9
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+codigojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*Ì
+5= (Uÿ
+’
+= (^L
+%0Fcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculo[]"îcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculo#values()[Lcom/fincatto/documentofiscal/nfe310/classes/NFNotaInfoEspecieVeiculo;*d
+
+__unknown_file (H"F
+Dcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculo*
+2*!
+1 ("
+ (
+"":&
+9 (L
+codigojava.lang.StringBH"F
+Dcom.fincatto.documentofiscal.nfe310.classes.NFNotaInfoEspecieVeiculoH

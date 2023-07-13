@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemProduto#setNcm(Ljava/lang/String;)V
+com.fincatto.documentofiscal.validadores.DFStringValidador#ncm(Ljava/lang/String;)V

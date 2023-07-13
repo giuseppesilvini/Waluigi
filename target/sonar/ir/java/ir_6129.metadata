@@ -1,0 +1,8 @@
+com.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCodeEmissaoNormal20#getQRCode()Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.utils.qrcode20.NFGeraQRCode20#createHash(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.StringBuilder#instance-init#
+com.fincatto.documentofiscal.DFAmbiente#getCodigo()Ljava/lang/String;
+java.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+java.lang.StringBuilder#<init>()V
+java.lang.StringBuilder#append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+java.lang.StringBuilder#toString()Ljava/lang/String;

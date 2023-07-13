@@ -1,0 +1,36 @@
+
+¦com.fincatto.documentofiscal.cte200.transformers.CTTipoEntregaDataTransformer#write(Lcom/fincatto/documentofiscal/cte200/classes/CTTipoEntregaData;)Ljava/lang/String; 
+•/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte200/transformers/CTTipoEntregaDataTransformer.java ("startingBlock*â
+startingBlock (5¸
+µ
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*c
+
+__unknown_file (G
+E
+tipo=com.fincatto.documentofiscal.cte200.classes.CTTipoEntregaData†
+ƒ
+0 (4E
+tipo=com.fincatto.documentofiscal.cte200.classes.CTTipoEntregaData"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ª
+1 (ôñ
+ (
+%0java.lang.String"[com.fincatto.documentofiscal.cte200.classes.CTTipoEntregaData#getCodigo()Ljava/lang/String;*c
+
+__unknown_file (G
+E
+tipo=com.fincatto.documentofiscal.cte200.classes.CTTipoEntregaData2getCodigo()"$
+ ( 
+
+%0java.lang.String:Q
+ (4E
+tipo=com.fincatto.documentofiscal.cte200.classes.CTTipoEntregaDataBQO
+Mcom.fincatto.documentofiscal.cte200.transformers.CTTipoEntregaDataTransformerH

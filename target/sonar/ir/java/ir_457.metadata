@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+==
+MDFeRecepcaoStub com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub#<init>(Lorg/apache/axis2/context/ConfigurationContext;Ljava/lang/String;ZLcom/fincatto/documentofiscal/DFConfig;)V

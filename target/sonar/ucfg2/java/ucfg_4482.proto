@@ -1,0 +1,65 @@
+
+Äcom.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub#optimizeContent(Ljavax/xml/namespace/QName;)Zß
+ö/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/cte300/webservices/statusservico/CteStatusServicoStub.javaó ó(#"5*†
+2
+ò ò( ^
+\
+
+ò ò( $
+elementjavax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""¶
+£
+
+ò ò( $
+elementjavax.xml.namespace.QName"
+__arrayGet*?
+
+__unknown_file (#
+!
+%0javax.xml.namespace.QName[]*"
+
+__unknown_file (
+""*
+4
+1*%
+3
+ö ö("
+
+ö ö(
+""*í
+4
+ô ô(¯ı
+
+ô ô(&
+%1boolean"5javax.xml.namespace.QName#equals(Ljava/lang/Object;)Z*A
+
+__unknown_file (%
+#
+opNamejavax.xml.namespace.QName*B
+
+__unknown_file (&
+$
+elementjavax.xml.namespace.QName2equals(Ljava/lang/Object;)*
+2
+3*q
+5
+ò# ò(.[
+Y
+
+ò# ò(.!
+%0javax.xml.namespace.QName[]"__id*"
+
+__unknown_file (
+""*
+2*%
+1
+ù ù("
+
+ù ù(
+"":1
+
+ó$ ó(J#
+opNamejavax.xml.namespace.QNameBVT
+Rcom.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStubP

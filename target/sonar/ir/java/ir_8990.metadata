@@ -1,0 +1,4 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSNotaConsulta#consultaNota(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/nota/consulta/NFNotaConsultaRetorno;
+java.lang.String#toString()Ljava/lang/String;
+==
+consultaNotaAsString com.fincatto.documentofiscal.nfe400.webservices.WSNotaConsulta#consultaNotaAsString(Ljava/lang/String;)Ljava/lang/String;

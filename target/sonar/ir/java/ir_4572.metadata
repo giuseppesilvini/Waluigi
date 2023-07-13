@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe.webservices.distribuicao.NFeDistribuicaoDFeSoapStub#getUniqueSuffix()Ljava/lang/String;
+java.lang.System#currentTimeMillis()J

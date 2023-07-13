@@ -1,0 +1,8 @@
+com.fincatto.documentofiscal.nfe400.webservices.WSInutilizacao#efetuaInutilizacao(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lorg/apache/axiom/om/OMElement;
+org.apache.axiom.om.util.AXIOMUtil#stringToOM(Ljava/lang/String;)Lorg/apache/axiom/om/OMElement;
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400#valueOfCodigoUF(Lcom/fincatto/documentofiscal/DFUnidadeFederativa;)Lcom/fincatto/documentofiscal/nfe400/classes/NFAutorizador400;
+com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeInutilizacao4Stub#instance-init#
+com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeInutilizacao4Stub#<init>(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFConfig;)V
+com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeInutilizacao4Stub$NfeDadosMsg#instance-init#
+com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeInutilizacao4Stub$NfeDadosMsg#<init>()V

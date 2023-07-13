@@ -1,0 +1,42 @@
+
+icom.fincatto.documentofiscal.nfe400.classes.NFProtocoloInfo#getDataRecebimento()Ljava/time/LocalDateTime;é
+É/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe400/classes/NFProtocoloInfo.java] ](+"7*:
+5_ _(s"+
+_ _(s
+
+%2java.time.LocalDateTime*Ó
+6_ _(rŸ
+÷
+_ _(r
+%2java.time.LocalDateTime"tjava.time.LocalDateTime#parse(Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/LocalDateTime;*7
+
+__unknown_file ("
+java.time.LocalDateTime*4
+
+__unknown_file (
+
+%0java.lang.String*F
+
+__unknown_file (*
+(
+%1"java.time.format.DateTimeFormatter*
+5*Õ
+7_ _( ù
+ö
+_' _(;
+%0java.lang.String"__id*p
+
+__unknown_file (T*R=
+;com.fincatto.documentofiscal.nfe400.classes.NFProtocoloInfo"
+dataRecebimentoò
+ï
+_= _(q(
+%1"java.time.format.DateTimeFormatter"djava.time.format.DateTimeFormatter#ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;*B
+
+__unknown_file (&"$
+"java.time.format.DateTimeFormatter*5
+
+__unknown_file (
+yyyy-MM-dd'T'HH:mm:ss*
+6B?=
+;com.fincatto.documentofiscal.nfe400.classes.NFProtocoloInfoH

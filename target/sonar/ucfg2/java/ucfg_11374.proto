@@ -1,0 +1,61 @@
+
+ﬁcom.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub#toOM(Lcom/fincatto/documentofiscal/mdfe3/webservices/recepcaoevento/MDFeRecepcaoEventoStub$MdfeDadosMsg;Z)Lorg/apache/axiom/om/OMElement;©
+ú/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/recepcaoevento/MDFeRecepcaoEventoStub.java÷* ÷(."startingBlock*æ
+startingBlock÷. ÷(ºË
+Â
+
+’ ’(
+%3"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*à
+
+__unknown_file (l
+j
+paramacom.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub$MdfeDadosMsgØ
+¨
+÷ó ÷(új
+paramacom.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub$MdfeDadosMsg"__annotation*"
+
+__unknown_file (
+
+%3*
+1*—
+1
+ÿ ÿ(Z
+X
+ÿ" ÿ(å
+%0javax.xml.namespace.QName"__id*"
+
+__unknown_file (
+""“
+œ
+ÿé ÿ(¬#
+%1org.apache.axiom.om.OMFactory"Sorg.apache.axiom.om.OMAbstractFactory#getOMFactory()Lorg/apache/axiom/om/OMFactory;*E
+
+__unknown_file ()"'
+%org.apache.axiom.om.OMAbstractFactoryÿ’
+ÿ ÿ(√#
+%2org.apache.axiom.om.OMElement"…com.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub$MdfeDadosMsg#getOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)Lorg/apache/axiom/om/OMElement;*à
+
+__unknown_file (l
+j
+paramacom.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub$MdfeDadosMsg*=
+
+__unknown_file (!
+
+%0javax.xml.namespace.QName*A
+
+__unknown_file (%
+#
+%1org.apache.axiom.om.OMFactory2HgetOMElement(Ljavax/xml/namespace/QName;Lorg/apache/axiom/om/OMFactory;)"4
+ÿ ÿ(ƒ%
+#
+%2org.apache.axiom.om.OMElement:y
+÷/ ÷(ùj
+paramacom.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub$MdfeDadosMsg: 
+
+__unknown_file (
+""BXV
+Tcom.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub

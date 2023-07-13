@@ -1,0 +1,97 @@
+
+®com.fincatto.documentofiscal.mdfe3.webservices.WSRecepcaoLote#getCabecalhoSOAP()Lcom/fincatto/documentofiscal/mdfe3/webservices/recepcao/MDFeRecepcaoStub$MdfeCabecMsgE;ê
+Ö/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/WSRecepcaoLote.javaD+ D(;"1*É
+1E8 E([¡æ
+E< E(Y[
+%0Ucom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsg"Ucom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsgÔ
+Ï
+E8 E([
+%1"_com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsg#<init>()V*y
+
+__unknown_file (]
+[
+%0Ucom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsgÚ
+Ô
+E E(\b
+	cabecalhoUcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsg"__id*y
+
+__unknown_file (]
+[
+%0Ucom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsg≥
+∞
+F F($3
+%2-com.fincatto.documentofiscal.mdfe3.MDFeConfig"__id*i
+
+__unknown_file (M*K?
+=com.fincatto.documentofiscal.mdfe3.webservices.WSRecepcaoLote"
+configÑÅ
+F F(-6
+%30com.fincatto.documentofiscal.DFUnidadeFederativa"`com.fincatto.documentofiscal.DFConfig#getCUF()Lcom/fincatto/documentofiscal/DFUnidadeFederativa;*Q
+
+__unknown_file (5
+3
+%2-com.fincatto.documentofiscal.mdfe3.MDFeConfig2getCUF()‡›
+F F(=
+%4java.lang.String"Rcom.fincatto.documentofiscal.DFUnidadeFederativa#getCodigoIbge()Ljava/lang/String;*T
+
+__unknown_file (8
+6
+%30com.fincatto.documentofiscal.DFUnidadeFederativa2getCodigoIbge()·ﬁ
+F F(>
+
+%5void"qcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsg#setCUF(Ljava/lang/String;)V*Ä
+
+__unknown_file (d
+b
+	cabecalhoUcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsg*4
+
+__unknown_file (
+
+%4java.lang.String2setCUF(Ljava/lang/String;)P
+N
+G! G(2
+%6java.lang.String"__id*$
+
+__unknown_file (
+3.00ÒÓ
+G G(3
+
+%7void"ycom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsg#setVersaoDados(Ljava/lang/String;)V*Ä
+
+__unknown_file (d
+b
+	cabecalhoUcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsg*4
+
+__unknown_file (
+
+%6java.lang.String2"setVersaoDados(Ljava/lang/String;)√¿
+HA H(_\
+%8Vcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsgE"Vcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsgEÒ
+Ó
+H= H(a
+%9"`com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsgE#<init>()V*z
+
+__unknown_file (^
+\
+%8Vcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsgE¯
+ı
+H H(bg
+cabecalhoSOAPVcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsgE"__id*z
+
+__unknown_file (^
+\
+%8Vcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsgE“œ
+I I(0
+%10void"¿com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsgE#setMdfeCabecMsg(Lcom/fincatto/documentofiscal/mdfe3/webservices/recepcao/MDFeRecepcaoStub$MdfeCabecMsg;)V*Ö
+
+__unknown_file (i
+g
+cabecalhoSOAPVcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsgE*Ä
+
+__unknown_file (d
+b
+	cabecalhoUcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsg2hsetMdfeCabecMsg(Lcom/fincatto/documentofiscal/mdfe3/webservices/recepcao/MDFeRecepcaoStub$MdfeCabecMsg;)"u
+J J(i
+g
+cabecalhoSOAPVcom.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub$MdfeCabecMsgEBA?
+=com.fincatto.documentofiscal.mdfe3.webservices.WSRecepcaoLote

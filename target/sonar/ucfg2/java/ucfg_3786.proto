@@ -1,0 +1,147 @@
+
+©com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub#fromOM(Lorg/apache/axiom/om/OMElement;Ljava/lang/Class;Ljava/util/Map;)Ljava/lang/Object;¤
+—/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/gerado/CadConsultaCadastro2Stub.javaù ù(#"18*ß
+13
+ş ş(FÃÀ
+
+ş ş(S
+%3boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+8
+11*ƒ
+14
+ü ü(t"q
+
+ü ü(tc
+a
+%2[com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeDadosMsg*Ä
+15
+ü ü(s«
+¨
+
+ü ü(sa
+%2[com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeDadosMsg"êcom.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeDadosMsg$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/CadConsultaCadastro2Stub$NfeDadosMsg;*ƒ
+
+__unknown_file (g"e
+ccom.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeDadosMsg$Factory*D
+
+__unknown_file ((
+&
+%1 javax.xml.stream.XMLStreamReader*
+14* 
+16
+ü ü(/‡„
+
+üJ ü(r&
+%1 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+15*à
+18
+û û(:ÃÀ
+
+û û(G
+%0boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+13
+16*%
+1
+‡ ‡("
+
+‡ ‡(
+""*ƒ
+4
+‚ ‚(u"r
+
+‚ ‚(ud
+b
+%8\com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeCabecMsgE*Æ
+5
+‚ ‚(t¯
+¬
+
+‚ ‚(tb
+%8\com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeCabecMsgE"ìcom.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeCabecMsgE$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/CadConsultaCadastro2Stub$NfeCabecMsgE;*„
+
+__unknown_file (h"f
+dcom.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$NfeCabecMsgE$Factory*D
+
+__unknown_file ((
+&
+%7 javax.xml.stream.XMLStreamReader*
+4*
+6
+‚ ‚(/‡„
+
+‚K ‚(s&
+%7 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+5*İ
+8
+ (;ÃÀ
+
+ (H
+%6boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+typejava.lang.Class2equals(Ljava/lang/Object;)*
+6
+1*
+9ÿ ÿ(€"~
+ÿ ÿ(€o
+m
+%5gcom.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$ConsultaCadastro2Result*ó
+10
+ÿ ÿ(Û
+Ø
+
+ÿ ÿ(m
+%5gcom.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$ConsultaCadastro2Result"‚com.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$ConsultaCadastro2Result$Factory#parse(Ljavax/xml/stream/XMLStreamReader;)Lcom/fincatto/documentofiscal/nfe310/webservices/gerado/CadConsultaCadastro2Stub$ConsultaCadastro2Result;*
+
+__unknown_file (s"q
+ocom.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub$ConsultaCadastro2Result$Factory*D
+
+__unknown_file ((
+&
+%4 javax.xml.stream.XMLStreamReader*
+9* 
+11
+ÿ ÿ(/‡„
+
+ÿV ÿ(~&
+%4 javax.xml.stream.XMLStreamReader"dorg.apache.axiom.om.OMContainer#getXMLStreamReaderWithoutCaching()Ljavax/xml/stream/XMLStreamReader;*D
+
+__unknown_file ((
+&
+paramorg.apache.axiom.om.OMElement2"getXMLStreamReaderWithoutCaching()*
+10:4
+
+ù$ ù(N&
+paramorg.apache.axiom.om.OMElement:%
+
+ùO ù(m
+typejava.lang.Class:/
+ùn ù(¡ 
+extraNamespacesjava.util.MapBSQ
+Ocom.fincatto.documentofiscal.nfe310.webservices.gerado.CadConsultaCadastro2Stub

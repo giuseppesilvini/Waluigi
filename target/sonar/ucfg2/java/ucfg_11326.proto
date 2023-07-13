@@ -1,0 +1,39 @@
+
+–com.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub$MdfeDadosMsg#generatePrefix(Ljava/lang/String;)Ljava/lang/String;©
+œ/Users/giuseppesilvini/universitaÌ€/modelli/progetto/src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/recepcaoevento/MDFeRecepcaoEventoStub.javað( ð(6"3*&
+2
+ò ò("
+
+ò ò(
+ns3*œ
+3
+ñ ñ(‚ÿ
+
+ñ ñ(_
+%0boolean",java.lang.String#equals(Ljava/lang/Object;)Z*;
+
+__unknown_file (
+
+	namespacejava.lang.String*[
+
+__unknown_file (?=
+;http://www.portalfiscal.inf.br/mdfe/wsdl/MDFeRecepcaoEvento2equals(Ljava/lang/Object;)*
+2
+1*ÿ
+1
+ô ô(Å
+Â
+
+ô ô(P
+%1java.lang.String"Oorg.apache.axis2.databinding.utils.BeanUtil#getUniquePrefix()Ljava/lang/String;*K
+
+__unknown_file (/"-
++org.apache.axis2.databinding.utils.BeanUtil"&
+
+ô ô(Q
+
+%1java.lang.String:+
+
+ð7 ð(W
+	namespacejava.lang.StringBe"c
+acom.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoStub$MdfeDadosMsg

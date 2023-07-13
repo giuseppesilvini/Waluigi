@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.cte300.webservices.WSStatusConsulta#gerarDadosConsulta(Lcom/fincatto/documentofiscal/cte300/CTeConfig;)Lcom/fincatto/documentofiscal/cte300/classes/consultastatusservico/CTeConsStatServ;
+com.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServ#<init>()V
+com.fincatto.documentofiscal.cte300.classes.consultastatusservico.CTeConsStatServ#instance-init#

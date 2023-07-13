@@ -1,0 +1,2 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFNotaInfoItemIndicadorExigibilidadeISSTransformer#write(Lcom/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoItemIndicadorExigibilidadeISS;)Ljava/lang/String;
+com.fincatto.documentofiscal.nfe400.classes.nota.NFNotaInfoItemIndicadorExigibilidadeISS#getCodigo()Ljava/lang/String;

@@ -1,0 +1,13 @@
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital#isValida(Ljava/io/InputStream;)Z
+javax.xml.crypto.dsig.dom.DOMValidateContext#<init>(Ljavax/xml/crypto/KeySelector;Lorg/w3c/dom/Node;)V
+javax.xml.parsers.DocumentBuilderFactory#newInstance()Ljavax/xml/parsers/DocumentBuilderFactory;
+java.lang.IllegalStateException#instance-init#
+javax.xml.crypto.dsig.XMLSignatureFactory#getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljavax/xml/crypto/dsig/XMLSignatureFactory;
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital$DFKeySelector#<init>()V
+java.lang.Class#getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V
+java.lang.System#getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.reflect.Constructor#newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+com.fincatto.documentofiscal.utils.DFAssinaturaDigital$DFKeySelector#instance-init#
+java.lang.Class#forName(Ljava/lang/String;)Ljava/lang/Class;
+javax.xml.crypto.dsig.dom.DOMValidateContext#instance-init#

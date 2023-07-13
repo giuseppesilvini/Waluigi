@@ -1,0 +1,39 @@
+
+Êcom.fincatto.documentofiscal.nfe310.webservices.WSFacade#inutilizaNotaAssinada(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/inutilizacao/NFRetornoEventoInutilizacao;ç
+Ä/Users/giuseppesilvini/universitaÃÄ/modelli/progetto/src/main/java/com/fincatto/documentofiscal/nfe310/webservices/WSFacade.java∞' ∞(<"1*¸
+1
+± ±(…
+∆
+
+± ±("D
+%0>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao"__id*l
+
+__unknown_file (P*N:
+8com.fincatto.documentofiscal.nfe310.webservices.WSFacade"
+wsInutilizacao´®
+
+± ±(Sa
+%1[com.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFRetornoEventoInutilizacao"Ïcom.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao#inutilizaNotaAssinada(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)Lcom/fincatto/documentofiscal/nfe310/classes/evento/inutilizacao/NFRetornoEventoInutilizacao;*b
+
+__unknown_file (F
+D
+%0>com.fincatto.documentofiscal.nfe310.webservices.WSInutilizacao*C
+
+__unknown_file ('
+%
+eventoAssinadoXmljava.lang.String*M
+
+__unknown_file (1
+/
+modelo%com.fincatto.documentofiscal.DFModelo2PinutilizaNotaAssinada(Ljava/lang/String;Lcom/fincatto/documentofiscal/DFModelo;)"q
+
+± ±(Tc
+a
+%1[com.fincatto.documentofiscal.nfe310.classes.evento.inutilizacao.NFRetornoEventoInutilizacao:3
+
+∞= ∞(\%
+eventoAssinadoXmljava.lang.String:=
+
+∞] ∞(r/
+modelo%com.fincatto.documentofiscal.DFModeloB<:
+8com.fincatto.documentofiscal.nfe310.webservices.WSFacadeH

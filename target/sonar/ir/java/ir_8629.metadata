@@ -1,0 +1,3 @@
+com.fincatto.documentofiscal.nfe400.transformers.NFSituacaoContribuinteTransformer#read(Ljava/lang/String;)Lcom/fincatto/documentofiscal/nfe400/classes/cadastro/NFSituacaoContribuinte;
+java.lang.Integer#parseInt(Ljava/lang/String;)I
+com.fincatto.documentofiscal.nfe400.classes.cadastro.NFSituacaoContribuinte#valueOfCodigo(I)Lcom/fincatto/documentofiscal/nfe400/classes/cadastro/NFSituacaoContribuinte;
