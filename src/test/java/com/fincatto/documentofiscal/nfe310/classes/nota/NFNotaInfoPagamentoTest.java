@@ -19,6 +19,7 @@ public class NFNotaInfoPagamentoTest {
     @Test
     public void devePermitirCartaoNulo() {
         final NFNotaInfoPagamento pagamento = new NFNotaInfoPagamento();
+	Assert.assertNotNull(pagamento);
         pagamento.setFormaPagamentoMoeda(NFFormaPagamentoMoeda.CARTAO_CREDITO);
         pagamento.setValorPagamento(new BigDecimal("999999999999.99"));
         pagamento.toString();

@@ -81,6 +81,7 @@ public class NFInfoEventoCartaCorrecaoTest {
     @Test
     public void devePermitirCnpjNulo() {
         final NFInfoEvento infoEvento = new NFInfoEvento();
+	Assert.assertNotNull(infoEvento);
         infoEvento.setAmbiente(DFAmbiente.HOMOLOGACAO);
         infoEvento.setDadosEvento(FabricaDeObjetosFake.getNFInfoCartaCorrecao());
         infoEvento.setChave("81568004734874930428983724940883089298523837");

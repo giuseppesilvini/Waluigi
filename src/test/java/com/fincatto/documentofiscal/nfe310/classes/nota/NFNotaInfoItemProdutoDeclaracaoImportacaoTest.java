@@ -67,6 +67,7 @@ public class NFNotaInfoItemProdutoDeclaracaoImportacaoTest {
     @Test
     public void devePermitirValorAFRMMNulo() {
         final NFNotaInfoItemProdutoDeclaracaoImportacao declaraoImportacao = new NFNotaInfoItemProdutoDeclaracaoImportacao();
+	Assert.assertNotNull(declaraoImportacao);
         declaraoImportacao.setAdicoes(Collections.singletonList(FabricaDeObjetosFake.getNFNotaInfoItemProdutoDeclaracaoImportacaoAdicao()));
         declaraoImportacao.setCodigoExportador("E9jBqM65b0MiCiRnYil203iNGJOSZs8iU1KGmQsj2N0kw6QMuvhbsQosFGcU");
         declaraoImportacao.setDataDesembaraco(LocalDate.of(2014, 1, 1));
@@ -101,7 +102,8 @@ public class NFNotaInfoItemProdutoDeclaracaoImportacaoTest {
     @Test
     public void devePermitirCnpjNulo() {
         final NFNotaInfoItemProdutoDeclaracaoImportacao declaraoImportacao = new NFNotaInfoItemProdutoDeclaracaoImportacao();
-        declaraoImportacao.setAdicoes(Collections.singletonList(FabricaDeObjetosFake.getNFNotaInfoItemProdutoDeclaracaoImportacaoAdicao()));
+        Assert.assertNotNull(declaraoImportacao);
+	declaraoImportacao.setAdicoes(Collections.singletonList(FabricaDeObjetosFake.getNFNotaInfoItemProdutoDeclaracaoImportacaoAdicao()));
         declaraoImportacao.setCodigoExportador("E9jBqM65b0MiCiRnYil203iNGJOSZs8iU1KGmQsj2N0kw6QMuvhbsQosFGcU");
         declaraoImportacao.setDataDesembaraco(LocalDate.of(2014, 1, 1));
         declaraoImportacao.setDataRegistro(LocalDate.of(2014, 2, 2));
@@ -118,6 +120,7 @@ public class NFNotaInfoItemProdutoDeclaracaoImportacaoTest {
     @Test
     public void devePermitirUfTerceiroNulo() {
         final NFNotaInfoItemProdutoDeclaracaoImportacao declaraoImportacao = new NFNotaInfoItemProdutoDeclaracaoImportacao();
+	Assert.assertNotNull(declaraoImportacao);
         declaraoImportacao.setAdicoes(Collections.singletonList(FabricaDeObjetosFake.getNFNotaInfoItemProdutoDeclaracaoImportacaoAdicao()));
         declaraoImportacao.setCodigoExportador("E9jBqM65b0MiCiRnYil203iNGJOSZs8iU1KGmQsj2N0kw6QMuvhbsQosFGcU");
         declaraoImportacao.setDataDesembaraco(LocalDate.of(2014, 1, 1));

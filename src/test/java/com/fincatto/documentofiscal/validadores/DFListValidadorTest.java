@@ -54,6 +54,7 @@ public class DFListValidadorTest {
     @Test
     public void deveValidarListaCom10Itens() {
         final List<Object> lista = new ArrayList<>();
+	Assert.assertNotNull(lista);
         for (int i = 0; i < 10; i++) {
             lista.add(new Object());
         }

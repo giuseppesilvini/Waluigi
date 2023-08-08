@@ -229,6 +229,7 @@ public class NFNotaInfoItemProdutoTest {
     @Test
     public void devePermitirsetNomeclaturaValorAduaneiroEstatisticaNulo() {
         final NFNotaInfoItemProduto produto = new NFNotaInfoItemProduto();
+	Assert.assertNotNull(produto);
         produto.setCfop("1302");
         produto.setCodigo("ohVRInAS7jw8LNDP4WWjssSjBHK8nJRERnAeRMcsUokF3YItT93fBto3zZcq");
         produto.setCodigoDeBarras("36811963532505");

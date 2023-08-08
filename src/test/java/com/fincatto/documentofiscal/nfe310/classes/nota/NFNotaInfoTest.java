@@ -173,6 +173,7 @@ public class NFNotaInfoTest {
     @Test
     public void devePermitirPessoasAutorizadasDownloadNFeNulo() {
         final NFNotaInfo info = new NFNotaInfo();
+	Assert.assertNotNull(info);
         info.setAvulsa(FabricaDeObjetosFake.getNFNotaInfoAvulsa());
         info.setCana(FabricaDeObjetosFake.getNFNotaInfoCana());
         info.setCobranca(FabricaDeObjetosFake.getNFNotaInfoCobranca());
@@ -297,6 +298,7 @@ public class NFNotaInfoTest {
     @Test
     public void devePermitirDestinatarioNulo() {
         final NFNotaInfo info = new NFNotaInfo();
+	Assert.assertNotNull(info);
         info.setAvulsa(FabricaDeObjetosFake.getNFNotaInfoAvulsa());
         info.setCana(FabricaDeObjetosFake.getNFNotaInfoCana());
         info.setCobranca(FabricaDeObjetosFake.getNFNotaInfoCobranca());

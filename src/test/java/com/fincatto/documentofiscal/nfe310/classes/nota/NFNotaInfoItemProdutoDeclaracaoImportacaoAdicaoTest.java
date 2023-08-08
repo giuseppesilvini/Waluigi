@@ -56,6 +56,7 @@ public class NFNotaInfoItemProdutoDeclaracaoImportacaoAdicaoTest {
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirCodigoFabricanteNulo() {
         final NFNotaInfoItemProdutoDeclaracaoImportacaoAdicao importacaoAdicao = new NFNotaInfoItemProdutoDeclaracaoImportacaoAdicao();
+	Assert.assertNotNull(importacaoAdicao);
         importacaoAdicao.setDesconto(new BigDecimal("999999999999.99"));
         importacaoAdicao.setNumero(999);
         importacaoAdicao.setSequencial(999);

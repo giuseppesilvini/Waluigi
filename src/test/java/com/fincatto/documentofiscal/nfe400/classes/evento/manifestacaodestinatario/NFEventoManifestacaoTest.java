@@ -38,6 +38,7 @@ public class NFEventoManifestacaoTest {
     @Test
     public void devePermitirAssinaturaNula() {
         final NFEventoManifestacaoDestinatario eventoManifestacaoDestinatario = new NFEventoManifestacaoDestinatario();
+	Assert.assertNotNull(eventoManifestacaoDestinatario);
         eventoManifestacaoDestinatario.setInfoEvento(FabricaDeObjetosFake.getNFInfoEventoManifestacaoDestinatario());
         eventoManifestacaoDestinatario.setVersao(new BigDecimal("3.10"));
         eventoManifestacaoDestinatario.toString();
