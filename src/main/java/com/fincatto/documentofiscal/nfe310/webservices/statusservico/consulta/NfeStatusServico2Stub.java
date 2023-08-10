@@ -1,9 +1,12 @@
 package com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta;
 
+import com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub;
 import org.apache.axiom.om.OMAttribute;
 import org.apache.axis2.client.Stub;
 
 import javax.xml.namespace.QName;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.XMLStreamWriter;
 
 import com.fincatto.documentofiscal.DFConfig;
 import com.fincatto.documentofiscal.utils.MessageContextFactory;
@@ -358,31 +361,37 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 // we have to store this data until last moment since it is not possible to write any
                 // namespace data after writing the charactor data
                 final StringBuilder stringToWrite = new StringBuilder();
-                java.lang.String namespaceURI;
-                java.lang.String prefix;
                 for (int i = 0; i < qnames.length; i++) {
                     if (i > 0) {
                         stringToWrite.append(" ");
                     }
-                    namespaceURI = qnames[i].getNamespaceURI();
-                    if (namespaceURI != null) {
-                        prefix = xmlWriter.getPrefix(namespaceURI);
-                        if (prefix == null || prefix.length() == 0) {
-                            prefix = NfeCabecMsgE.generatePrefix(namespaceURI);
-                            xmlWriter.writeNamespace(prefix, namespaceURI);
-                            xmlWriter.setPrefix(prefix, namespaceURI);
-                        }
-                        if (prefix.trim().length() > 0) {
-                            stringToWrite.append(prefix).append(":").append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                        } else {
-                            stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                        }
-                    } else {
-                        stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                    }
+                    String strToWrite = getStringToWrite(qnames[i], xmlWriter);
+                    stringToWrite.append(strToWrite);
                 }
                 xmlWriter.writeCharacters(stringToWrite.toString());
             }
+        }
+
+        private String getStringToWrite(QName qname, XMLStreamWriter xmlWriter) throws XMLStreamException {
+            String namespaceURI = qname.getNamespaceURI();
+            String prefix;
+            StringBuilder stringToWrite = new StringBuilder();
+            if (namespaceURI != null) {
+                prefix = xmlWriter.getPrefix(namespaceURI);
+                if ((prefix == null) || (prefix.length() == 0)) {
+                    prefix = NfeConsultaStub.NfeCabecMsgE.generatePrefix(namespaceURI);
+                    xmlWriter.writeNamespace(prefix, namespaceURI);
+                    xmlWriter.setPrefix(prefix, namespaceURI);
+                }
+                if (prefix.trim().length() > 0) {
+                    stringToWrite.append(prefix).append(":").append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+                } else {
+                    stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+                }
+            } else {
+                stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+            }
+            return stringToWrite.toString();
         }
 
         private java.lang.String registerPrefix(final javax.xml.stream.XMLStreamWriter xmlWriter, final java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
@@ -578,31 +587,37 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 // we have to store this data until last moment since it is not possible to write any
                 // namespace data after writing the charactor data
                 final StringBuilder stringToWrite = new StringBuilder();
-                java.lang.String namespaceURI;
-                java.lang.String prefix;
                 for (int i = 0; i < qnames.length; i++) {
                     if (i > 0) {
                         stringToWrite.append(" ");
                     }
-                    namespaceURI = qnames[i].getNamespaceURI();
-                    if (namespaceURI != null) {
-                        prefix = xmlWriter.getPrefix(namespaceURI);
-                        if (prefix == null || prefix.length() == 0) {
-                            prefix = NfeStatusServicoNF2Result.generatePrefix(namespaceURI);
-                            xmlWriter.writeNamespace(prefix, namespaceURI);
-                            xmlWriter.setPrefix(prefix, namespaceURI);
-                        }
-                        if (prefix.trim().length() > 0) {
-                            stringToWrite.append(prefix).append(":").append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                        } else {
-                            stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                        }
-                    } else {
-                        stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                    }
+                    String strToWrite = getStringToWrite(qnames[i], xmlWriter);
+                    stringToWrite.append(strToWrite);
                 }
                 xmlWriter.writeCharacters(stringToWrite.toString());
             }
+        }
+
+        private String getStringToWrite(QName qname, XMLStreamWriter xmlWriter) throws XMLStreamException {
+            String namespaceURI = qname.getNamespaceURI();
+            String prefix;
+            StringBuilder stringToWrite = new StringBuilder();
+            if (namespaceURI != null) {
+                prefix = xmlWriter.getPrefix(namespaceURI);
+                if ((prefix == null) || (prefix.length() == 0)) {
+                    prefix = NfeConsultaStub.NfeCabecMsgE.generatePrefix(namespaceURI);
+                    xmlWriter.writeNamespace(prefix, namespaceURI);
+                    xmlWriter.setPrefix(prefix, namespaceURI);
+                }
+                if (prefix.trim().length() > 0) {
+                    stringToWrite.append(prefix).append(":").append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+                } else {
+                    stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+                }
+            } else {
+                stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+            }
+            return stringToWrite.toString();
         }
 
         private java.lang.String registerPrefix(final javax.xml.stream.XMLStreamWriter xmlWriter, final java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
@@ -924,31 +939,37 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 // we have to store this data until last moment since it is not possible to write any
                 // namespace data after writing the charactor data
                 final StringBuilder stringToWrite = new StringBuilder();
-                java.lang.String namespaceURI;
-                java.lang.String prefix;
                 for (int i = 0; i < qnames.length; i++) {
                     if (i > 0) {
                         stringToWrite.append(" ");
                     }
-                    namespaceURI = qnames[i].getNamespaceURI();
-                    if (namespaceURI != null) {
-                        prefix = xmlWriter.getPrefix(namespaceURI);
-                        if (prefix == null || prefix.length() == 0) {
-                            prefix = NfeCabecMsg.generatePrefix(namespaceURI);
-                            xmlWriter.writeNamespace(prefix, namespaceURI);
-                            xmlWriter.setPrefix(prefix, namespaceURI);
-                        }
-                        if (prefix.trim().length() > 0) {
-                            stringToWrite.append(prefix).append(":").append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                        } else {
-                            stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                        }
-                    } else {
-                        stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                    }
+                    String strToWrite = getStringToWrite(qnames[i], xmlWriter);
+                    stringToWrite.append(strToWrite);
                 }
                 xmlWriter.writeCharacters(stringToWrite.toString());
             }
+        }
+
+        private String getStringToWrite(QName qname, XMLStreamWriter xmlWriter) throws XMLStreamException {
+            String namespaceURI = qname.getNamespaceURI();
+            String prefix;
+            StringBuilder stringToWrite = new StringBuilder();
+            if (namespaceURI != null) {
+                prefix = xmlWriter.getPrefix(namespaceURI);
+                if ((prefix == null) || (prefix.length() == 0)) {
+                    prefix = NfeConsultaStub.NfeCabecMsgE.generatePrefix(namespaceURI);
+                    xmlWriter.writeNamespace(prefix, namespaceURI);
+                    xmlWriter.setPrefix(prefix, namespaceURI);
+                }
+                if (prefix.trim().length() > 0) {
+                    stringToWrite.append(prefix).append(":").append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+                } else {
+                    stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+                }
+            } else {
+                stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+            }
+            return stringToWrite.toString();
         }
 
         private java.lang.String registerPrefix(final javax.xml.stream.XMLStreamWriter xmlWriter, final java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
@@ -1212,31 +1233,37 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 // we have to store this data until last moment since it is not possible to write any
                 // namespace data after writing the charactor data
                 final StringBuilder stringToWrite = new StringBuilder();
-                java.lang.String namespaceURI;
-                java.lang.String prefix;
                 for (int i = 0; i < qnames.length; i++) {
                     if (i > 0) {
                         stringToWrite.append(" ");
                     }
-                    namespaceURI = qnames[i].getNamespaceURI();
-                    if (namespaceURI != null) {
-                        prefix = xmlWriter.getPrefix(namespaceURI);
-                        if (prefix == null || prefix.length() == 0) {
-                            prefix = NfeDadosMsg.generatePrefix(namespaceURI);
-                            xmlWriter.writeNamespace(prefix, namespaceURI);
-                            xmlWriter.setPrefix(prefix, namespaceURI);
-                        }
-                        if (prefix.trim().length() > 0) {
-                            stringToWrite.append(prefix).append(":").append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                        } else {
-                            stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                        }
-                    } else {
-                        stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                    }
+                    String strToWrite = getStringToWrite(qnames[i], xmlWriter);
+                    stringToWrite.append(strToWrite);
                 }
                 xmlWriter.writeCharacters(stringToWrite.toString());
             }
+        }
+
+        private String getStringToWrite(QName qname, XMLStreamWriter xmlWriter) throws XMLStreamException {
+            String namespaceURI = qname.getNamespaceURI();
+            String prefix;
+            StringBuilder stringToWrite = new StringBuilder();
+            if (namespaceURI != null) {
+                prefix = xmlWriter.getPrefix(namespaceURI);
+                if ((prefix == null) || (prefix.length() == 0)) {
+                    prefix = NfeConsultaStub.NfeCabecMsgE.generatePrefix(namespaceURI);
+                    xmlWriter.writeNamespace(prefix, namespaceURI);
+                    xmlWriter.setPrefix(prefix, namespaceURI);
+                }
+                if (prefix.trim().length() > 0) {
+                    stringToWrite.append(prefix).append(":").append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+                } else {
+                    stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+                }
+            } else {
+                stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+            }
+            return stringToWrite.toString();
         }
 
         private java.lang.String registerPrefix(final javax.xml.stream.XMLStreamWriter xmlWriter, final java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
