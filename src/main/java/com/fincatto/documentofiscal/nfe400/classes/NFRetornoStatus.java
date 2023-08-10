@@ -539,9 +539,9 @@ public enum NFRetornoStatus {
     CODIGO_904(904, "Rejei\u00E7\u00E3o: Informado indevidamente campo valor de pagamento"),
     CODIGO_906(906, "Rejei\u00E7\u00E3o: N\u00E3o informados os campos para informa\u00E7\u00F5es do ICMS Efetivo. [nItem: nnn]"),
     CODIGO_905(905, "Rejei\u00E7\u00E3o: Campos do grupo Fatura n\u00E3o informados"),
-    CODIGO_907(907, "Rejei\u00E7\u00E3o: N\u00E3o informado campo obrigat\u00F3rio quando CST = 60 ou CSOSN=500 e opera\u00E7\u00E3o com consumidor final"),
-    CODIGO_908(908, "Rejei\u00E7\u00E3o: N\u00E3o informado campo obrigat\u00F3rio quando CST = 60 ou CSOSN=500 e opera\u00E7\u00E3o com consumidor final"),
-    CODIGO_909(909, "Rejei\u00E7\u00E3o: N\u00E3o informado campo obrigat\u00F3rio quando CST = 60 ou CSOSN=500 e opera\u00E7\u00E3o com consumidor final"),
+    CODIGO_907(907, Constants.CONSUMIDOR_FINAL),
+    CODIGO_908(908, Constants.CONSUMIDOR_FINAL),
+    CODIGO_909(909, Constants.CONSUMIDOR_FINAL),
     CODIGO_922(922, "Rejei\u00E7\u00E3o: Contranota de Produtor s\u00F3 pode referenciar NF-e ou NF de Produtor Modelo 4"),
     CODIGO_923(923, "Rejei\u00E7\u00E3o: Referenciado documento de opera\u00E7\u00E3o interna em opera\u00E7\u00E3o interestadual ou com o exterior"),
     CODIGO_924(924, "Rejei\u00E7\u00E3o: Informado Cupom Fiscal referenciado."),
@@ -622,5 +622,9 @@ public enum NFRetornoStatus {
 
     public String getMotivo() {
         return this.motivo;
+    }
+
+    private static class Constants {
+        public static final String CONSUMIDOR_FINAL = "Rejei\u00E7\u00E3o: N\u00E3o informado campo obrigat\u00F3rio quando CST = 60 ou CSOSN=500 e opera\u00E7\u00E3o com consumidor final";
     }
 }

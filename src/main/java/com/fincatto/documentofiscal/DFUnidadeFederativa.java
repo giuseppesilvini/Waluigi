@@ -26,7 +26,7 @@ public enum DFUnidadeFederativa {
     PE("PE", "Pernambuco", "26", "http://nfcehomolog.sefaz.pe.gov.br/nfce-web/consultarNFCe", "http://nfce.sefaz.pe.gov.br/nfce-web/consultarNFCe", "nfce.sefaz.pe.gov.br/nfce/consulta", "nfce.sefaz.pe.gov.br/nfce/consulta"),
     PI("PI", "Piau\u00ED", "22", "http://www.sefaz.pi.gov.br/nfce/qrcode", "http://www.sefaz.pi.gov.br/nfce/qrcode" , "http://www.sefaz.pi.gov.br/nfce/consulta", "http://www.sefaz.pi.gov.br/nfce/consulta"),
     RJ("RJ", "Rio de Janeiro", "33", "http://www4.fazenda.rj.gov.br/consultaNFCe/QRCode", "http://www4.fazenda.rj.gov.br/consultaNFCe/QRCode", "www.fazenda.rj.gov.br/nfce/consulta", "www.fazenda.rj.gov.br/nfce/consulta"),
-    RN("RN", "Rio Grande do Norte", "24", "http://hom.nfce.set.rn.gov.br/consultarNFCe.aspx", "http://nfce.set.rn.gov.br/consultarNFCe.aspx", "http://nfce.set.rn.gov.br/consultarNFCe.aspx", "http://nfce.set.rn.gov.br/consultarNFCe.aspx"),
+    RN("RN", "Rio Grande do Norte", "24", "http://hom.nfce.set.rn.gov.br/consultarNFCe.aspx", Constants.HTTP_NFCE_SET_RN_GOV_BR_CONSULTAR_NFCE_ASPX, Constants.HTTP_NFCE_SET_RN_GOV_BR_CONSULTAR_NFCE_ASPX, Constants.HTTP_NFCE_SET_RN_GOV_BR_CONSULTAR_NFCE_ASPX),
     RS("RS", "Rio Grande do Sul", "43", "https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx", "https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx", "https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx", "https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx"),
     RO("RO", "Rond\u00F4nia", "11", "http://www.nfce.sefin.ro.gov.br/consultanfce/consulta.jsp", "http://www.nfce.sefin.ro.gov.br/consultanfce/consulta.jsp", "http://www.nfce.sefin.ro.gov.br", "http://www.nfce.sefin.ro.gov.br"),
     RR("RR", "Roraima", "14", "http://200.174.88.103:8080/nfce/servlet/qrcode", "https://www.sefaz.rr.gov.br/nfce/servlet/qrcode", "http://200.174.88.103:8080/nfce/servlet/wp_consulta_nfce", "https://www.sefaz.rr.gov.br/nfce/servlet/wp_consulta_nfce"),
@@ -37,7 +37,7 @@ public enum DFUnidadeFederativa {
     NACIONAL("NC", "Nacional", "90"),
     RFB("RFB", "RFB", "91"),
     EX("EX", "Exterior", "99");
-    
+
     private final String codigo;
     private final String descricao;
     private final String codigoIbge;
@@ -108,5 +108,9 @@ public enum DFUnidadeFederativa {
             }
         }
         throw new IllegalArgumentException(String.format("N\u00e3o existe o c\u00f3digo %s no mapeamento.", codigo));
+    }
+
+    private static class Constants {
+        public static final String HTTP_NFCE_SET_RN_GOV_BR_CONSULTAR_NFCE_ASPX = "http://nfce.set.rn.gov.br/consultarNFCe.aspx";
     }
 }

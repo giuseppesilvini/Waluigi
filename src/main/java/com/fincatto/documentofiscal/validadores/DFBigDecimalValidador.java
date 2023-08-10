@@ -12,6 +12,8 @@ import java.util.Locale;
 
 public abstract class DFBigDecimalValidador {
 
+    public static final String FORMATO = "0.0000";
+
     public static String tamanho11Com3CasasDecimais(final BigDecimal valor, final String info) {
         return DFBigDecimalValidador.parse(valor, "0.000", 12, 3, info);
     }
@@ -29,7 +31,7 @@ public abstract class DFBigDecimalValidador {
     }
 
     public static String tamanho15Com4CasasDecimais(final BigDecimal valor, final String info) {
-        return DFBigDecimalValidador.parse(valor, "0.0000", 16, 4, info);
+        return DFBigDecimalValidador.parse(valor, FORMATO, 16, 4, info);
     }
 
     public static String tamanho21ComAte10CasasDecimais(final BigDecimal valor, final String info) {
@@ -57,11 +59,11 @@ public abstract class DFBigDecimalValidador {
     }
 
     public static String tamanho16Com4CasasDecimais(final BigDecimal valor, final String info) {
-        return DFBigDecimalValidador.parse(valor, "0.0000", 17, 4, info);
+        return DFBigDecimalValidador.parse(valor, FORMATO, 17, 4, info);
     }
 
     public static String tamanho9Com4CasasDecimais(final BigDecimal valor, final String info) {
-        return DFBigDecimalValidador.parse(valor, "0.0000", 10, 4, info);
+        return DFBigDecimalValidador.parse(valor, FORMATO, 10, 4, info);
     }
 
     public static String tamanho4Com2CasasDecimais(final BigDecimal valor, final String info) {
