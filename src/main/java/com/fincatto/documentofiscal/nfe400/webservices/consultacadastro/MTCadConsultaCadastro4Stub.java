@@ -64,7 +64,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 "_" + counter;
     }
 
-    private void populateAxisService() throws org.apache.axis2.AxisFault {
+    private void populateAxisService() {
         //creating the Service with a unique name
         this._service = new org.apache.axis2.description.AxisService("CadConsultaCadastro4" + getUniqueSuffix());
         this.addAnonymousOperations();
@@ -84,6 +84,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
     //populates the faults
     private void populateFaults() {
+        //empty method
     }
 
     public NfeResultMsg consultaCadastro(ConsultaCadastro consultaCadastro0) throws java.rmi.RemoteException {
@@ -152,22 +153,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                         m.invoke(ex, new Object[]{messageObject});
 
                         throw new java.rmi.RemoteException(ex.getMessage(), ex);
-                    } catch (ClassCastException e) {
-                        // we cannot intantiate the class - throw the original Axis fault
-                        throw f;
-                    } catch (ClassNotFoundException e) {
-                        // we cannot intantiate the class - throw the original Axis fault
-                        throw f;
-                    } catch (NoSuchMethodException e) {
-                        // we cannot intantiate the class - throw the original Axis fault
-                        throw f;
-                    } catch (java.lang.reflect.InvocationTargetException e) {
-                        // we cannot intantiate the class - throw the original Axis fault
-                        throw f;
-                    } catch (IllegalAccessException e) {
-                        // we cannot intantiate the class - throw the original Axis fault
-                        throw f;
-                    } catch (InstantiationException e) {
+                    } catch (ClassCastException | ClassNotFoundException| NoSuchMethodException | java.lang.reflect.InvocationTargetException | IllegalAccessException | InstantiationException e  ) {
                         // we cannot intantiate the class - throw the original Axis fault
                         throw f;
                     }
