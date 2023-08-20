@@ -1,6 +1,8 @@
 package com.fincatto.documentofiscal.nfe400.webservices.consultacadastro;
 
 
+import org.apache.axis2.client.FaultMapKey;
+
 import javax.xml.namespace.QName;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
@@ -15,9 +17,11 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
     //hashmaps to keep the fault mapping
-    private java.util.HashMap faultExceptionNameMap = new java.util.HashMap();
-    private java.util.HashMap faultExceptionClassNameMap = new java.util.HashMap();
-    private java.util.HashMap faultMessageMap = new java.util.HashMap();
+    private java.util.HashMap<FaultMapKey, String> faultExceptionNameMap = new java.util.HashMap<>();
+
+    private java.util.HashMap<FaultMapKey, String> faultExceptionClassNameMap = new java.util.HashMap<>();
+
+    private java.util.HashMap<FaultMapKey, String> faultMessageMap = new java.util.HashMap<>();
     private javax.xml.namespace.QName[] opNameArray = null;
 
     /**
@@ -130,16 +134,17 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                                 faultElt.getQName(), "consultaCadastro"))) {
                     //make the fault by reflection
                     try {
-                        String exceptionClassName = (String) faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(
+                        String exceptionClassName = faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(
                                 faultElt.getQName(), "consultaCadastro"));
-                        Class exceptionClass = Class.forName(exceptionClassName);
-                        java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
-                        Exception ex = (Exception) constructor.newInstance(f.getMessage());
+                        Class<? extends Throwable> exceptionClass = Class.forName(exceptionClassName).asSubclass(Throwable.class);
+                        java.lang.reflect.Constructor<? extends Throwable> constructor = exceptionClass.getConstructor(String.class);
+                        Throwable ex = constructor.newInstance(f.getMessage());
+
 
                         //message class
-                        String messageClassName = (String) faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(
+                        String messageClassName = faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(
                                 faultElt.getQName(), "consultaCadastro"));
-                        Class messageClass = Class.forName(messageClassName);
+                        Class<?> messageClass = Class.forName(messageClassName);
                         Object messageObject = fromOM(faultElt,
                                 messageClass);
                         java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage",
