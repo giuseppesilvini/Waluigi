@@ -22,7 +22,6 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     private java.util.HashMap<FaultMapKey, String> faultExceptionClassNameMap = new java.util.HashMap<>();
 
     private java.util.HashMap<FaultMapKey, String> faultMessageMap = new java.util.HashMap<>();
-    private javax.xml.namespace.QName[] opNameArray = null;
 
     /**
      * Constructor that takes in a configContext
@@ -103,9 +102,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env = null;
 
-            env = this.toEnvelope(getFactory(_operationClient.getOptions().getSoapVersionURI()),consultaCadastro0,
-                    optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4","consultaCadastro")),
-                    new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4","consultaCadastro"));
+            env = this.toEnvelope(getFactory(_operationClient.getOptions().getSoapVersionURI()),consultaCadastro0);
 
             //adding SOAP soap_headers
             this._serviceClient.addHeadersToEnvelope(env);
@@ -170,190 +167,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         }
     }
 
-
-//    public void startconsultaCadastro(
-//            ConsultaCadastro consultaCadastro0,
-//            final CadConsultaCadastro4CallbackHandler callback)
-//            throws java.rmi.RemoteException {
-//        org.apache.axis2.client.OperationClient _operationClient = _serviceClient.createClient(_operations[0].getName());
-//        _operationClient.getOptions()
-//                .setAction("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4/consultaCadastro");
-//        _operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
-//
-//        addPropertyToOperationClient(_operationClient,
-//                org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR,
-//                "&");
-//
-//        // create SOAP envelope with that payload
-//        org.apache.axiom.soap.SOAPEnvelope env = null;
-//        final org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
-//
-//        //Style is Doc.
-//        env = toEnvelope(getFactory(_operationClient.getOptions()
-//                        .getSoapVersionURI()),
-//                consultaCadastro0,
-//                optimizeContent(
-//                        new javax.xml.namespace.QName(
-//                                "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4",
-//                                "consultaCadastro")),
-//                new javax.xml.namespace.QName(
-//                        "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4",
-//                        "consultaCadastro"));
-//
-//        // adding SOAP soap_headers
-//        _serviceClient.addHeadersToEnvelope(env);
-//        // create message context with that soap envelope
-//        _messageContext.setEnvelope(env);
-//
-//        // add the message context to the operation client
-//        _operationClient.addMessageContext(_messageContext);
-//
-//        _operationClient.setCallback(new org.apache.axis2.client.async.AxisCallback() {
-//            public void onMessage(
-//                    org.apache.axis2.context.MessageContext resultContext) {
-//                try {
-//                    org.apache.axiom.soap.SOAPEnvelope resultEnv = resultContext.getEnvelope();
-//
-//                    Object object = fromOM(resultEnv.getBody()
-//                                    .getFirstElement(),
-//                            NfeResultMsg.class);
-//                    callback.receiveResultconsultaCadastro((NfeResultMsg) object);
-//                } catch (org.apache.axis2.AxisFault e) {
-//                    callback.receiveErrorconsultaCadastro(e);
-//                }
-//            }
-//
-//            public void onError(Exception error) {
-//                if (error instanceof org.apache.axis2.AxisFault) {
-//                    org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
-//                    org.apache.axiom.om.OMElement faultElt = f.getDetail();
-//
-//                    if (faultElt != null) {
-//                        if (faultExceptionNameMap.containsKey(
-//                                new org.apache.axis2.client.FaultMapKey(
-//                                        faultElt.getQName(),
-//                                        "consultaCadastro"))) {
-//                            //make the fault by reflection
-//                            try {
-//                                String exceptionClassName = (String) faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(
-//                                        faultElt.getQName(),
-//                                        "consultaCadastro"));
-//                                Class exceptionClass = Class.forName(exceptionClassName);
-//                                java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
-//                                Exception ex = (Exception) constructor.newInstance(f.getMessage());
-//
-//                                //message class
-//                                String messageClassName = (String) faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(
-//                                        faultElt.getQName(),
-//                                        "consultaCadastro"));
-//                                Class messageClass = Class.forName(messageClassName);
-//                                Object messageObject = fromOM(faultElt,
-//                                        messageClass);
-//                                java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage",
-//                                        new Class[]{messageClass});
-//                                m.invoke(ex,
-//                                        new Object[]{messageObject});
-//
-//                                callback.receiveErrorconsultaCadastro(new java.rmi.RemoteException(
-//                                        ex.getMessage(), ex));
-//                            } catch (ClassCastException e) {
-//                                // we cannot intantiate the class - throw the original Axis fault
-//                                callback.receiveErrorconsultaCadastro(f);
-//                            } catch (ClassNotFoundException e) {
-//                                // we cannot intantiate the class - throw the original Axis fault
-//                                callback.receiveErrorconsultaCadastro(f);
-//                            } catch (NoSuchMethodException e) {
-//                                // we cannot intantiate the class - throw the original Axis fault
-//                                callback.receiveErrorconsultaCadastro(f);
-//                            } catch (java.lang.reflect.InvocationTargetException e) {
-//                                // we cannot intantiate the class - throw the original Axis fault
-//                                callback.receiveErrorconsultaCadastro(f);
-//                            } catch (IllegalAccessException e) {
-//                                // we cannot intantiate the class - throw the original Axis fault
-//                                callback.receiveErrorconsultaCadastro(f);
-//                            } catch (InstantiationException e) {
-//                                // we cannot intantiate the class - throw the original Axis fault
-//                                callback.receiveErrorconsultaCadastro(f);
-//                            } catch (org.apache.axis2.AxisFault e) {
-//                                // we cannot intantiate the class - throw the original Axis fault
-//                                callback.receiveErrorconsultaCadastro(f);
-//                            }
-//                        } else {
-//                            callback.receiveErrorconsultaCadastro(f);
-//                        }
-//                    } else {
-//                        callback.receiveErrorconsultaCadastro(f);
-//                    }
-//                } else {
-//                    callback.receiveErrorconsultaCadastro(error);
-//                }
-//            }
-//
-//            public void onFault(
-//                    org.apache.axis2.context.MessageContext faultContext) {
-//                org.apache.axis2.AxisFault fault = org.apache.axis2.util.Utils.getInboundFaultFromMessageContext(faultContext);
-//                onError(fault);
-//            }
-//
-//            public void onComplete() {
-//                try {
-//                    _messageContext.getTransportOut().getSender()
-//                            .cleanup(_messageContext);
-//                } catch (org.apache.axis2.AxisFault axisFault) {
-//                    callback.receiveErrorconsultaCadastro(axisFault);
-//                }
-//            }
-//        });
-//
-//        org.apache.axis2.util.CallbackReceiver _callbackReceiver = null;
-//
-//        if ((_operations[0].getMessageReceiver() == null) &&
-//                _operationClient.getOptions().isUseSeparateListener()) {
-//            _callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
-//            _operations[0].setMessageReceiver(_callbackReceiver);
-//        }
-//
-//        //execute the operation client
-//        _operationClient.execute(false);
-//    }
-
-    private boolean optimizeContent(javax.xml.namespace.QName opName) {
-        if (opNameArray == null) {
-            return false;
-        }
-
-        for (int i = 0; i < opNameArray.length; i++) {
-            if (opName.equals(opNameArray[i])) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-            ConsultaCadastro param,
-            boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(ConsultaCadastro.MY_QNAME,
-                    org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.om.OMElement toOM(
-            NfeResultMsg param,
-            boolean optimizeContent) throws org.apache.axis2.AxisFault {
-        try {
-            return param.getOMElement(NfeResultMsg.MY_QNAME,
-                    org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        } catch (org.apache.axis2.databinding.ADBException e) {
-            throw org.apache.axis2.AxisFault.makeFault(e);
-        }
-    }
-
-    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(org.apache.axiom.soap.SOAPFactory factory,ConsultaCadastro param,boolean optimizeContent, javax.xml.namespace.QName elementQName)throws org.apache.axis2.AxisFault {
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(org.apache.axiom.soap.SOAPFactory factory,ConsultaCadastro param)throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody().addChild(param.getOMElement(ConsultaCadastro.MY_QNAME,factory));
@@ -369,10 +183,6 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     /**
      * get the default envelope
      */
-    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
-            org.apache.axiom.soap.SOAPFactory factory) {
-        return factory.getDefaultEnvelope();
-    }
 
     private Object fromOM(org.apache.axiom.om.OMElement param,
                           Class type) throws org.apache.axis2.AxisFault {
