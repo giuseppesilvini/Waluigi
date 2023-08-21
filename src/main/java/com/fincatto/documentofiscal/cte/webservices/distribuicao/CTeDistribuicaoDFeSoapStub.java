@@ -816,12 +816,16 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     throw new java.lang.Exception(e);
                 }
                 return object;
-        }// end of factory class
+        }
+
+        private static boolean checkReaderInParse(final javax.xml.stream.XMLStreamReader reader) {
+            return !reader.isStartElement() && !reader.isEndElement();
+        }
+        
+        // end of factory class
     }
 
-    private static boolean checkReaderInParse(final javax.xml.stream.XMLStreamReader reader) {
-        return !reader.isStartElement() && !reader.isEndElement();
-    }
+    
 
     public static class CteDistDFeInteresseResponse implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = -7734346985786228491L;
@@ -1417,7 +1421,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (checkReaderInParse(reader)) {
                         reader.next();
                     }
                     if (reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type") != null) {
@@ -1440,7 +1444,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     // from anyAttributes.
                     final java.util.Vector handledAttributes = new java.util.Vector();
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (checkReaderInParse(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -1456,7 +1460,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                         // A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT_ERROR_MESSAGE + reader.getLocalName());
                     }
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (checkReaderInParse(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -1468,7 +1472,13 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 }
                 return object;
             }
-        }// end of factory class
+        }
+        
+        private static boolean checkReaderInParse(final javax.xml.stream.XMLStreamReader reader) {
+            !reader.isStartElement() && !reader.isEndElement();
+        }
+        
+        // end of factory class
     }
 
     private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresse param, final boolean optimizeContent) {
