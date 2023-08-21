@@ -1,0 +1,31 @@
+Tracker,Status,Priority,Subject,Category,Estimated time,Description,Caratteristica di riferimento
+To-Do,New,Normal,"Make sure the regex used here, which is vulnerable to polynomial runtime due to backtracking, cannot lead to denial of service.
+Using slow regular expressions is security-sensitive java:S5852",Medium,5min,src/main/java/com/fincatto/documentofiscal/validadores/DFStringValidador.java Line: 70,Security (Security Hotspots)
+To-Do,New,Normal,"Make sure the regex used here, which is vulnerable to polynomial runtime due to backtracking, cannot lead to denial of service.
+Using slow regular expressions is security-sensitive java:S5852",Medium,5min,src/main/java/com/fincatto/documentofiscal/validadores/DFStringValidador.java Line: 80,Security (Security Hotspots)
+To-Do,New,Normal,"Make sure that using this pseudorandom number generator is safe here.
+Using pseudorandom number generators (PRNGs) is security-sensitive java:S2245",Medium,5min,src/main/java/com/fincatto/documentofiscal/cte300/utils/CTeGeraChave.java Line: 20,Security (Security Hotspots)
+To-Do,New,Normal,"Make sure that using this pseudorandom number generator is safe here.
+Using pseudorandom number generators (PRNGs) is security-sensitive java:S2245",Medium,5min,src/main/java/com/fincatto/documentofiscal/mdfe3/utils/MDFGeraChave.java Line: 19,Security (Security Hotspots)
+To-Do,New,Normal,"Make sure that using this pseudorandom number generator is safe here.
+Using pseudorandom number generators (PRNGs) is security-sensitive java:S2245",Medium,5min,src/main/java/com/fincatto/documentofiscal/nfe310/utils/NFGeraChave.java Line: 18,Security (Security Hotspots)
+To-Do,New,Normal,"Make sure that using this pseudorandom number generator is safe here.
+Using pseudorandom number generators (PRNGs) is security-sensitive java:S2245",Medium,5min,src/main/java/com/fincatto/documentofiscal/nfe400/utils/NFGeraChave.java Line: 18,Security (Security Hotspots)
+To-Do,New,Normal,"Make sure this weak hash algorithm is not used in a sensitive context here.
+Using weak hashing algorithms is security-sensitive java:S4790",Low,5min,src/main/java/com/fincatto/documentofiscal/nfe310/utils/NFGeraQRCode.java Line: 73,Security (Security Hotspots)
+To-Do,New,Normal,"Make sure this weak hash algorithm is not used in a sensitive context here.
+Using weak hashing algorithms is security-sensitive java:S4790",Low,5min,src/main/java/com/fincatto/documentofiscal/nfe400/utils/NFGeraHashCSRT.java Line: 43,Security (Security Hotspots)
+To-Do,New,Normal,"Make sure this weak hash algorithm is not used in a sensitive context here.
+Using weak hashing algorithms is security-sensitive java:S4790",Low,5min,src/main/java/com/fincatto/documentofiscal/nfe400/utils/NFGeraQRCode.java Line: 104,Security (Security Hotspots)
+To-Do,New,Normal,"Make sure this weak hash algorithm is not used in a sensitive context here.
+Using weak hashing algorithms is security-sensitive java:S4790",Low,5min,src/main/java/com/fincatto/documentofiscal/nfe400/utils/qrcode20/NFGeraQRCode20.java Line: 66,Security (Security Hotspots)
+To-Do,New,Normal,"Make sure this weak hash algorithm is not used in a sensitive context here.
+Using weak hashing algorithms is security-sensitive java:S4790",Low,5min,src/main/java/com/fincatto/documentofiscal/utils/DFAssinaturaDigital.java Line: 149,Security (Security Hotspots)
+To-Do,New,Normal,"Make sure this weak hash algorithm is not used in a sensitive context here.
+Using weak hashing algorithms is security-sensitive java:S4790",Low,5min,src/main/java/com/fincatto/documentofiscal/utils/DFCadeiaCertificados.java Line: 119,Security (Security Hotspots)
+To-Do,New,Normal,"Make sure this weak hash algorithm is not used in a sensitive context here.
+Using weak hashing algorithms is security-sensitive java:S4790",Low,5min,src/main/java/com/fincatto/documentofiscal/utils/DFCadeiaCertificados.javasrc/main/java/com/fincatto/documentofiscal/utils/DFCadeiaCertificados.java Line: 120,Security (Security Hotspots)
+To-Do,New,Normal,"Make sure using this hardcoded IP address is safe here.
+Using hardcoded IP addresses is security-sensitive java:S1313",Low,5min,src/main/java/com/fincatto/documentofiscal/DFUnidadeFederativa.java Line: 32,Security (Security Hotspots)
+To-Do,New,Normal,"Make sure using this hardcoded IP address is safe here.
+Using hardcoded IP addresses is security-sensitive java:S1313",Low,5min,src/main/java/com/fincatto/documentofiscal/DFUnidadeFederativa.java Line: 32,Security (Security Hotspots)
