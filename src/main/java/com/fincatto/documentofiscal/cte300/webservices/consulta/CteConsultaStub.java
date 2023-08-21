@@ -29,6 +29,9 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
 
     private static int counter = 0;
 
+    private static String cteConsultaCTString = "cteConsultaCT";
+    private static String cteConsultaLinkString = "http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta";
+
     private static synchronized java.lang.String getUniqueSuffix() {
         // reset the counter if it is greater than 99999
         if (CteConsultaStub.counter > 99999) {
@@ -46,7 +49,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation operation;
         this.operations = new org.apache.axis2.description.AxisOperation[1];
         operation = new org.apache.axis2.description.OutInAxisOperation();
-        operation.setName(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cteConsultaCT"));
+        operation.setName(new javax.xml.namespace.QName(cteConsultaLinkString, cteConsultaCTString));
         this._service.addOperation(operation);
         this.operations[0] = operation;
     }
@@ -104,11 +107,11 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
             messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cteConsultaCT")), new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cteConsultaCT"));
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName(cteConsultaLinkString, cteConsultaCTString)), new javax.xml.namespace.QName(cteConsultaLinkString, cteConsultaCTString));
             env.build();
             // add the children only if the parameter is not null
             if (cteCabecMsg1 != null) {
-                final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cteConsultaCT")));
+                final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName(cteConsultaLinkString, cteConsultaCTString)));
                 this.addHeader(omElementcteCabecMsg1, env);
             }
             // adding SOAP soap_headers
@@ -126,15 +129,15 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
             if (faultElt != null) {
-                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteConsultaCT"))) {
+                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString))) {
                     // make the fault by reflection
                     try {
-                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteConsultaCT"));
+                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString));
                         final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                         final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
                         final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
                         // message class
-                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteConsultaCT"));
+                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString));
                         final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                         final java.lang.Object messageObject = this.fromOM(faultElt, messageClass, null);
                         final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
@@ -174,10 +177,10 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
         org.apache.axiom.soap.SOAPEnvelope env;
         final org.apache.axis2.context.MessageContext _messageContext = MessageContextFactory.INSTANCE.create(config);
         // Style is Doc.
-        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cteConsultaCT")), new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cteConsultaCT"));
+        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName(cteConsultaLinkString, cteConsultaCTString)), new javax.xml.namespace.QName(cteConsultaLinkString, cteConsultaCTString));
         // add the soap_headers only if they are not null
         if (cteCabecMsg1 != null) {
-            final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cteConsultaCT")));
+            final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName(cteConsultaLinkString, cteConsultaCTString)));
             this.addHeader(omElementcteCabecMsg1, env);
         }
         // adding SOAP soap_headers
@@ -204,15 +207,15 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
                     final org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
                     final org.apache.axiom.om.OMElement faultElt = f.getDetail();
                     if (faultElt != null) {
-                        if (CteConsultaStub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteConsultaCT"))) {
+                        if (CteConsultaStub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString))) {
                             // make the fault by reflection
                             try {
-                                final java.lang.String exceptionClassName = (java.lang.String) CteConsultaStub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteConsultaCT"));
+                                final java.lang.String exceptionClassName = (java.lang.String) CteConsultaStub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString));
                                 final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                                 final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
                                 final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
                                 // message class
-                                final java.lang.String messageClassName = (java.lang.String) CteConsultaStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteConsultaCT"));
+                                final java.lang.String messageClassName = (java.lang.String) CteConsultaStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString));
                                 final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                                 final java.lang.Object messageObject = CteConsultaStub.this.fromOM(faultElt, messageClass, null);
                                 final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
@@ -289,7 +292,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
     public static class CteConsultaCTResult implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 7753700205816141845L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cteConsultaCTResult", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(cteConsultaLinkString, "cteConsultaCTResult", "");
 
         /**
          * field for ExtraElement
@@ -339,7 +342,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, cteConsultaLinkString);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":cteConsultaCTResult", xmlWriter);
                 } else {
@@ -355,7 +358,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta")) {
+            if (namespace.equals(cteConsultaLinkString)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -599,7 +602,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
     public static class CteDadosMsg implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = -7410845733156846495L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cteDadosMsg", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(cteConsultaLinkString, "cteDadosMsg", "");
 
         /**
          * field for ExtraElement
@@ -649,7 +652,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, cteConsultaLinkString);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":cteDadosMsg", xmlWriter);
                 } else {
@@ -665,7 +668,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta")) {
+            if (namespace.equals(cteConsultaLinkString)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -911,7 +914,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
             throw new IllegalStateException(UTILITY_CLASS_EXCEPTION_MESSAGE);
         }
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-            if ("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta".equals(namespaceURI) && "cteCabecMsg".equals(typeName)) {
+            if (cteConsultaLinkString.equals(namespaceURI) && "cteCabecMsg".equals(typeName)) {
                 return CteCabecMsg.Factory.parse(reader);
             }
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
@@ -1067,7 +1070,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, cteConsultaLinkString);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":cteCabecMsg", xmlWriter);
                 } else {
@@ -1080,7 +1083,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
                 }
             }
             if (this.localCUFTracker) {
-                namespace = "http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta";
+                namespace = cteConsultaLinkString;
                 this.writeStartElement(null, namespace, "cUF", xmlWriter);
                 if (this.localCUF == null) {
                     // write the nil attribute
@@ -1091,7 +1094,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
             if (this.localVersaoDadosTracker) {
-                namespace = "http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta";
+                namespace = cteConsultaLinkString;
                 this.writeStartElement(null, namespace, "versaoDados", xmlWriter);
                 if (this.localVersaoDados == null) {
                     // write the nil attribute
@@ -1105,7 +1108,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta")) {
+            if (namespace.equals(cteConsultaLinkString)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -1266,7 +1269,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
             final java.util.ArrayList elementList = new java.util.ArrayList();
             final java.util.ArrayList attribList = new java.util.ArrayList();
             if (this.localCUFTracker) {
-                elementList.add(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cUF"));
+                elementList.add(new javax.xml.namespace.QName(cteConsultaLinkString, "cUF"));
                 if (this.localCUF != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localCUF));
                 } else {
@@ -1274,7 +1277,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
                 }
             }
             if (this.localVersaoDadosTracker) {
-                elementList.add(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "versaoDados"));
+                elementList.add(new javax.xml.namespace.QName(cteConsultaLinkString, "versaoDados"));
                 if (this.localVersaoDados != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localVersaoDados));
                 } else {
@@ -1343,7 +1346,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cUF").equals(reader.getName())) {
+                    if (reader.isStartElement() && new javax.xml.namespace.QName(cteConsultaLinkString, "cUF").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "nil");
                         if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException("The element: " + "cUF" + "  cannot be null");
@@ -1355,7 +1358,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "versaoDados").equals(reader.getName())) {
+                    if (reader.isStartElement() && new javax.xml.namespace.QName(cteConsultaLinkString, "versaoDados").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "nil");
                         if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException("The element: " + "versaoDados" + "  cannot be null");
@@ -1382,7 +1385,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
     public static class CteCabecMsgE implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 8265138381420832426L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cteCabecMsg", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(cteConsultaLinkString, "cteCabecMsg", "");
 
         /**
          * field for CteCabecMsg
@@ -1434,7 +1437,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta")) {
+            if (namespace.equals(cteConsultaLinkString)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -1623,7 +1626,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
                     final java.util.Vector handledAttributes = new java.util.Vector();
                     while (!reader.isEndElement()) {
                         if (reader.isStartElement()) {
-                            if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cteCabecMsg").equals(reader.getName())) {
+                            if (reader.isStartElement() && new javax.xml.namespace.QName(cteConsultaLinkString, "cteCabecMsg").equals(reader.getName())) {
                                 object.setCteCabecMsg(CteCabecMsg.Factory.parse(reader));
                             } // End of if for expected property start element
                             else {
