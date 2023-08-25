@@ -9,6 +9,7 @@ import com.fincatto.documentofiscal.DFConfig;
 import com.fincatto.documentofiscal.utils.MessageContextFactory;
 
 public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
+    public static final String NFE_RESULT_MSG = "nfeResultMsg";
     private static int counter = 0;
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
@@ -396,7 +397,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
 
     @SuppressWarnings("serial")
     public static class NfeResultMsg implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao4", "nfeResultMsg", "ns1");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao4", NFE_RESULT_MSG, "ns1");
 
         /**
          * field for ExtraElement
@@ -448,7 +449,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeResultMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeResultMsg", xmlWriter);
+                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_RESULT_MSG, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -560,7 +561,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"nfeResultMsg".equals(type)) {
+                            if (!NFE_RESULT_MSG.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (NfeResultMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
