@@ -36,7 +36,7 @@ public class MDFInfoModalRodoviarioANTT extends DFBase {
     private MDFInfoModalRodoviarioPedagio valePedagio;
 
     @ElementList(entry = "infContratante", inline = true, required = false)
-    protected List<MDFInfoModalRodoviarioInfContratante> infContratante;
+    protected transient List<MDFInfoModalRodoviarioInfContratante> infContratante;
     
     @ElementList(entry = "infPag", inline = true, required = false)
     protected List<MDFInfoModalRodoviarioInfPag> infPag;
