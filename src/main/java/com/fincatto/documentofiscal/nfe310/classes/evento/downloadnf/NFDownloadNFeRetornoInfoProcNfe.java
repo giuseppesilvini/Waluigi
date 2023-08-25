@@ -18,7 +18,7 @@ public class NFDownloadNFeRetornoInfoProcNfe extends DFBase {
     private Any any;
 
     @Element(name = "procNFeGrupoZip", required = false)
-    private NFDownloadNFeRetornoInfoProcNfeGrupoZip grupoZip;
+    private transient NFDownloadNFeRetornoInfoProcNfeGrupoZip grupoZip;
 
     public NFDownloadNFeRetornoInfoProcNfe() {
         this.schema = null;

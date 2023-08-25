@@ -257,7 +257,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
          * This was an Attribute!
          * This was an Array!
          */
-        protected org.apache.axiom.om.OMAttribute[] localExtraAttributes;
+        protected transient org.apache.axiom.om.OMAttribute[] localExtraAttributes;
 
         public boolean isVersaoDadosSpecified() {
             return localVersaoDadosTracker;
@@ -949,7 +949,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
         /**
          * field for ExtraElement
          */
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -1249,7 +1249,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
         /**
          * field for ExtraElement
          */
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method

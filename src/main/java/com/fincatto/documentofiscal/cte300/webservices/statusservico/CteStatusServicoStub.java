@@ -305,7 +305,7 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
          * field for ExtraElement
          */
 
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -613,7 +613,7 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
          * field for ExtraElement
          */
 
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -990,7 +990,7 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
          * field for ExtraAttributes This was an Attribute! This was an Array!
          */
 
-        protected org.apache.axiom.om.OMAttribute[] localExtraAttributes;
+        protected transient org.apache.axiom.om.OMAttribute[] localExtraAttributes;
 
         /**
          * Auto generated getter method
