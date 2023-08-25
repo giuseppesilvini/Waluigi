@@ -201,7 +201,7 @@ public class NfeStatusServico4Stub extends org.apache.axis2.client.Stub {
         /**
          * field for ExtraElement
          */
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -414,7 +414,7 @@ public class NfeStatusServico4Stub extends org.apache.axis2.client.Stub {
         /**
          * field for ExtraElement
          */
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
