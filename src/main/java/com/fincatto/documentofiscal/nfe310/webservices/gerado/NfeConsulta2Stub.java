@@ -203,7 +203,7 @@ public class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
             this.localVersaoDados = param;
         }
 
-        protected org.apache.axiom.om.OMAttribute[] localExtraAttributes;
+        protected transient org.apache.axiom.om.OMAttribute[] localExtraAttributes;
 
         public org.apache.axiom.om.OMAttribute[] getExtraAttributes() {
             return this.localExtraAttributes;
@@ -458,7 +458,7 @@ public class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
 
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeConsulta2", NFE_CONSULTA_NF_2_RESULT, "");
 
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         public org.apache.axiom.om.OMElement getExtraElement() {
             return this.localExtraElement;
@@ -708,7 +708,7 @@ public class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
 
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeConsulta2", NFE_DADOS_MSG, "");
 
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient   org.apache.axiom.om.OMElement localExtraElement;
 
         public org.apache.axiom.om.OMElement getExtraElement() {
             return this.localExtraElement;

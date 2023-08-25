@@ -727,7 +727,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
 
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeRetAutorizacao", NFE_RET_AUTORIZACAO_LOTE_RESULT, "");
 
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         public org.apache.axiom.om.OMElement getExtraElement() {
             return this.localExtraElement;
