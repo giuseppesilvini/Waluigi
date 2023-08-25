@@ -826,44 +826,53 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
              * static method to create the object Precondition: If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable If this object is not an element, it is a complex type and the reader is at the event just after the outer start element Postcondition: If this object is an element, the reader is positioned at its end element If this object is a complex type, the reader is positioned at the end element of its outer element
              */
             @SuppressWarnings({"unused", "rawtypes"})
-            public static NfeDadosMsgZip parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            public static NfeDadosMsgZip parse(final javax.xml.stream.XMLStreamReader reader) throws javax.xml.stream.XMLStreamException {
                 final NfeDadosMsgZip object = new NfeDadosMsgZip();
                 final int event;
                 javax.xml.namespace.QName currentQName = null;
                 java.lang.String nillableValue;
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
+
                 try {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
+
+                    moveToStartElement(reader);
+
                     currentQName = reader.getName();
-                    // Note all attributes that were handled. Used to differ normal attributes
-                    // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
-                    while (!reader.isEndElement()) {
-                        if (reader.isStartElement()) {
-                            if ((reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4", "nfeDadosMsgZip").equals(reader.getName())) || new javax.xml.namespace.QName("", "nfeDadosMsgZip").equals(reader.getName())) {
-                                nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "nil");
-                                if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
-                                    throw new org.apache.axis2.databinding.ADBException("The element: " + "nfeDadosMsgZip" + "  cannot be null");
-                                }
-                                final java.lang.String content = reader.getElementText();
-                                object.setNfeDadosMsgZip(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
-                            } // End of if for expected property start element
-                            else {
-                                // 3 - A start element we are not expecting indicates an invalid parameter was passed
-                                throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
-                            }
-                        } else {
-                            reader.next();
-                        }
-                    } // end of while loop
-                } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+
+                    if (isNfeDadosMsgZipElement(reader)) {
+                        String content = readElementText(reader);
+                        object.setNfeDadosMsgZip(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                    } else {
+                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                    }
+                } catch (javax.xml.stream.XMLStreamException e) {
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
+
+
+            private static void moveToStartElement(XMLStreamReader reader) throws javax.xml.stream.XMLStreamException {
+                while (!reader.isStartElement() && !reader.isEndElement()) {
+                    reader.next();
+                }
+            }
+
+
+            private static boolean isNfeDadosMsgZipElement(XMLStreamReader reader) {
+                javax.xml.namespace.QName expectedQName = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4", "nfeDadosMsgZip");
+                return (reader.isStartElement() && expectedQName.equals(reader.getName())) ||
+                        new javax.xml.namespace.QName("", "nfeDadosMsgZip").equals(reader.getName());
+            }
+
+            private static String readElementText(XMLStreamReader reader) throws javax.xml.stream.XMLStreamException {
+                return reader.getElementText();
+            }
+
         } // end of factory class
 
         @Override

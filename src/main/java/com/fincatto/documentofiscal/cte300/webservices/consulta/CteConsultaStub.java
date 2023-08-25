@@ -18,6 +18,8 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 public class CteConsultaStub extends org.apache.axis2.client.Stub {
     public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
     public static final String EXTRA_ELEMENT_CANNOT_BE_NULL = "extraElement cannot be null!!";
+    public static final String CTE_CONSULTA_CT_RESULT = "cteConsultaCTResult";
+    public static final String CTE_DADOS_MSG = "cteDadosMsg";
     protected org.apache.axis2.description.AxisOperation[] operations;
 
     // hashmaps to keep the fault mapping
@@ -289,7 +291,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
     public static class CteConsultaCTResult implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 7753700205816141845L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cteConsultaCTResult", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", CTE_CONSULTA_CT_RESULT, "");
 
         /**
          * field for ExtraElement
@@ -343,7 +345,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":cteConsultaCTResult", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "cteConsultaCTResult", xmlWriter);
+                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", CTE_CONSULTA_CT_RESULT, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -554,7 +556,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"cteConsultaCTResult".equals(type)) {
+                            if (!CTE_CONSULTA_CT_RESULT.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (CteConsultaCTResult) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -599,7 +601,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
     public static class CteDadosMsg implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = -7410845733156846495L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", "cteDadosMsg", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta", CTE_DADOS_MSG, "");
 
         /**
          * field for ExtraElement
@@ -653,7 +655,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":cteDadosMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "cteDadosMsg", xmlWriter);
+                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", CTE_DADOS_MSG, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -864,7 +866,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"cteDadosMsg".equals(type)) {
+                            if (!CTE_DADOS_MSG.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (CteDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
