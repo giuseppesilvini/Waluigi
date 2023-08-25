@@ -20,6 +20,8 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
  */
 
 public class MDFeRetRecepcaoStub extends org.apache.axis2.client.Stub {
+    public static final String MDFE_RET_RECEPCAO_RESULT = "mdfeRetRecepcaoResult";
+    public static final String MDFE_DADOS_MSG = "mdfeDadosMsg";
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
     // hashmaps to keep the fault mapping
@@ -761,7 +763,7 @@ public class MDFeRetRecepcaoStub extends org.apache.axis2.client.Stub {
     @SuppressWarnings("serial")
     public static class MdfeRetRecepcaoResult implements org.apache.axis2.databinding.ADBBean {
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/mdfe/wsdl/MDFeRetRecepcao", "mdfeRetRecepcaoResult", "ns4");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/mdfe/wsdl/MDFeRetRecepcao", MDFE_RET_RECEPCAO_RESULT, "ns4");
 
         /**
          * field for ExtraElement
@@ -813,7 +815,7 @@ public class MDFeRetRecepcaoStub extends org.apache.axis2.client.Stub {
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":mdfeRetRecepcaoResult", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "mdfeRetRecepcaoResult", xmlWriter);
+                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", MDFE_RET_RECEPCAO_RESULT, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -1028,7 +1030,7 @@ public class MDFeRetRecepcaoStub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"mdfeRetRecepcaoResult".equals(type)) {
+                            if (!MDFE_RET_RECEPCAO_RESULT.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (MdfeRetRecepcaoResult) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -1073,7 +1075,7 @@ public class MDFeRetRecepcaoStub extends org.apache.axis2.client.Stub {
     @SuppressWarnings("serial")
     public static class MdfeDadosMsg implements org.apache.axis2.databinding.ADBBean {
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/mdfe/wsdl/MDFeRetRecepcao", "mdfeDadosMsg", "ns4");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/mdfe/wsdl/MDFeRetRecepcao", MDFE_DADOS_MSG, "ns4");
 
         /**
          * field for ExtraElement
@@ -1125,7 +1127,7 @@ public class MDFeRetRecepcaoStub extends org.apache.axis2.client.Stub {
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":mdfeDadosMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "mdfeDadosMsg", xmlWriter);
+                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", MDFE_DADOS_MSG, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -1339,7 +1341,7 @@ public class MDFeRetRecepcaoStub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"mdfeDadosMsg".equals(type)) {
+                            if (!MDFE_DADOS_MSG.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (MdfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
