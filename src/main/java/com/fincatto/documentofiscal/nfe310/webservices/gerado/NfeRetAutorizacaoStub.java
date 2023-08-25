@@ -16,6 +16,8 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
  */
 
 public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
+    public static final String NFE_DADOS_MSG = "nfeDadosMsg";
+    public static final String NFE_RET_AUTORIZACAO_LOTE_RESULT = "nfeRetAutorizacaoLoteResult";
     protected org.apache.axis2.description.AxisOperation[] operations;
 
     // hashmaps to keep the fault mapping
@@ -551,7 +553,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
     public static class NfeDadosMsg implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 2307494558545070932L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeRetAutorizacao", "nfeDadosMsg", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeRetAutorizacao", NFE_DADOS_MSG, "");
 
         transient org.apache.axiom.om.OMElement localExtraElement;
 
@@ -586,7 +588,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", URL_XML_SCHEMA, "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", URL_XML_SCHEMA, "type", "nfeDadosMsg", xmlWriter);
+                    this.writeAttribute("xsi", URL_XML_SCHEMA, "type", NFE_DADOS_MSG, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -679,7 +681,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"nfeDadosMsg".equals(type)) {
+                            if (!NFE_DADOS_MSG.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (NfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -723,7 +725,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
     public static class NfeRetAutorizacaoLoteResult implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 4017383733776642816L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeRetAutorizacao", "nfeRetAutorizacaoLoteResult", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeRetAutorizacao", NFE_RET_AUTORIZACAO_LOTE_RESULT, "");
 
         protected org.apache.axiom.om.OMElement localExtraElement;
 
@@ -758,7 +760,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", URL_XML_SCHEMA, "type", namespacePrefix + ":nfeRetAutorizacaoLoteResult", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", URL_XML_SCHEMA, "type", "nfeRetAutorizacaoLoteResult", xmlWriter);
+                    this.writeAttribute("xsi", URL_XML_SCHEMA, "type", NFE_RET_AUTORIZACAO_LOTE_RESULT, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -848,7 +850,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"nfeRetAutorizacaoLoteResult".equals(type)) {
+                            if (!NFE_RET_AUTORIZACAO_LOTE_RESULT.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (NfeRetAutorizacaoLoteResult) ExtensionMapper.getTypeObject(nsUri, type, reader);

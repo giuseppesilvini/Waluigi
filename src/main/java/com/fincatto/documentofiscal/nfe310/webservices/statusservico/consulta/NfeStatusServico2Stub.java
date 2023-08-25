@@ -13,6 +13,8 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 
 @SuppressWarnings({"rawtypes", "unchecked", "serial", "unused", "deprecation"})
 public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
+    public static final String NFE_STATUS_SERVICO_NF_2_RESULT = "nfeStatusServicoNF2Result";
+    public static final String NFE_DADOS_MSG = "nfeDadosMsg";
     protected org.apache.axis2.description.AxisOperation[] _operations;
     private final java.util.HashMap faultExceptionNameMap = new java.util.HashMap();
     private final java.util.HashMap faultExceptionClassNameMap = new java.util.HashMap();
@@ -456,7 +458,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
 
     public static class NfeStatusServicoNF2Result implements org.apache.axis2.databinding.ADBBean {
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico2", "nfeStatusServicoNF2Result", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico2", NFE_STATUS_SERVICO_NF_2_RESULT, "");
 
         protected org.apache.axiom.om.OMElement localExtraElement;
 
@@ -491,7 +493,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 if (namespacePrefix != null && namespacePrefix.trim().length() > 0) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeStatusServicoNF2Result", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeStatusServicoNF2Result", xmlWriter);
+                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_STATUS_SERVICO_NF_2_RESULT, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -672,7 +674,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"nfeStatusServicoNF2Result".equals(type)) {
+                            if (!NFE_STATUS_SERVICO_NF_2_RESULT.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (NfeStatusServicoNF2Result) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -1102,7 +1104,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
 
     public static class NfeDadosMsg implements org.apache.axis2.databinding.ADBBean {
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico2", "nfeDadosMsg", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico2", NFE_DADOS_MSG, "");
 
         protected org.apache.axiom.om.OMElement localExtraElement;
 
@@ -1137,7 +1139,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 if (namespacePrefix != null && namespacePrefix.trim().length() > 0) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeDadosMsg", xmlWriter);
+                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_DADOS_MSG, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -1318,7 +1320,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"nfeDadosMsg".equals(type)) {
+                            if (!NFE_DADOS_MSG.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (NfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
