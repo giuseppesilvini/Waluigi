@@ -52,7 +52,7 @@ public class DFKeyManager implements X509KeyManager, DFLog {
             return x509Certificates;
         } catch (KeyStoreException e) {
             this.getLogger().error("N\u00e3o foi poss\u00edvel carregar o keystore para o alias:" + alias, e);
-            return null;
+            return new X509Certificate[0];
         }
     }
     

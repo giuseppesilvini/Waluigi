@@ -26,7 +26,7 @@ public class NFInfoEpec extends NFTipoEvento {
     protected String inscricaoEstadualEmitente;
 
     @Element(name = "dest", required = true)
-    protected NFDestinatarioEpec destinatario;
+    protected transient NFDestinatarioEpec destinatario;
 
     public String getOrgaoAutor() {
         return orgaoAutor;

@@ -29,10 +29,10 @@ public class MDFeEnviaEventoPagamento extends DFBase {
     private String nProt;
 
     @ElementList(entry = "infViagens", inline = true, required = true)
-    protected List<MDFInfoModalRodoviarioInfViagens> infViagens;
+    protected transient List<MDFInfoModalRodoviarioInfViagens> infViagens;
 
     @ElementList(entry = "infPag", inline = true, required = true)
-    protected List<MDFInfoModalRodoviarioInfPag> infPag;
+    protected transient List<MDFInfoModalRodoviarioInfPag> infPag;
 
     public void setDescricaoEvento(final String descricaoEvento) {
         final String defaultValue = "Pagamento Operação MDF-e";

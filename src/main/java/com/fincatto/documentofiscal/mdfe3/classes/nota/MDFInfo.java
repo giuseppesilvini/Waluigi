@@ -61,13 +61,13 @@ public class MDFInfo extends DFBase {
     private MDFInfoInformacoesAdicionais informacoesAdicionais;
 
     @Element(name = "infRespTec", required = false)
-    private MDFRespTec infRespTec;
+    private transient MDFRespTec infRespTec;
     
     /**
      * Grupo de informações do pedido de emissão da NFF
      */
     @Element(name = "infSolicNFF", required = false)
-    private MDFInfSolicNFF infSolicNFF;
+    private transient MDFInfSolicNFF infSolicNFF;
 
     public String getIdentificador() {
         return this.identificador;

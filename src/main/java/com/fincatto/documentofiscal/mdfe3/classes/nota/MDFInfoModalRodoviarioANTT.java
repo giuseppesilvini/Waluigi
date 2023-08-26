@@ -39,7 +39,7 @@ public class MDFInfoModalRodoviarioANTT extends DFBase {
     protected transient List<MDFInfoModalRodoviarioInfContratante> infContratante;
     
     @ElementList(entry = "infPag", inline = true, required = false)
-    protected List<MDFInfoModalRodoviarioInfPag> infPag;
+    protected transient List<MDFInfoModalRodoviarioInfPag> infPag;
 
     public String getRntrc() {
         return this.rntrc;
