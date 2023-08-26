@@ -13,6 +13,7 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 @SuppressWarnings({"rawtypes", "unchecked", "serial", "unused", "deprecation"})
 public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
     public static final String NFE_STATUS_SERVICO_NF_RESULT = "nfeStatusServicoNFResult";
+    public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
     private static int counter = 0;
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
@@ -372,9 +373,9 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
             if (serializeType) {
                 java.lang.String namespacePrefix = registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico");
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
+                    writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
                 } else {
-                    writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeCabecMsg", xmlWriter);
+                    writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", "nfeCabecMsg", xmlWriter);
                 }
             }
             if (localExtraAttributes != null) {
@@ -586,8 +587,8 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
                 try {
                     while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
                     currentQName = reader.getName();
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
@@ -620,7 +621,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
                     reader.next();
                     while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
                     if ((reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico", "versaoDados").equals(reader.getName())) || new javax.xml.namespace.QName("", "versaoDados").equals(reader.getName())) {
-                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "nil");
+                        nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                         if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException("The element: " + "versaoDados" + "  cannot be null");
                         }
@@ -630,7 +631,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
                     } // End of if for expected property start element
                     while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
                     if ((reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico", "cUF").equals(reader.getName())) || new javax.xml.namespace.QName("", "cUF").equals(reader.getName())) {
-                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "nil");
+                        nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                         if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException("The element: " + "cUF" + "  cannot be null");
                         }
@@ -991,9 +992,9 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
             if (serializeType) {
                 java.lang.String namespacePrefix = registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico");
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
+                    writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
                 } else {
-                    writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeDadosMsg", xmlWriter);
+                    writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", "nfeDadosMsg", xmlWriter);
                 }
             }
             if (localExtraElement != null) {
@@ -1183,8 +1184,8 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
                 try {
                     while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
                     currentQName = reader.getName();
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
@@ -1291,9 +1292,9 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
             if (serializeType) {
                 java.lang.String namespacePrefix = registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico");
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeStatusServicoNFResult", xmlWriter);
+                    writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeStatusServicoNFResult", xmlWriter);
                 } else {
-                    writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_STATUS_SERVICO_NF_RESULT, xmlWriter);
+                    writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", NFE_STATUS_SERVICO_NF_RESULT, xmlWriter);
                 }
             }
             if (localExtraElement != null) {
@@ -1483,8 +1484,8 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
                 try {
                     while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
                     currentQName = reader.getName();
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
