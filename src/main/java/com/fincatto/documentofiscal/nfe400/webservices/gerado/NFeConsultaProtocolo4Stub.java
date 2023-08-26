@@ -97,7 +97,7 @@ public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
             _messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeConsultaProtocolo4", "nfeConsultaNF")), new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeConsultaProtocolo4", "nfeDadosMsg"));
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0);
             // adding SOAP soap_headers
             this._serviceClient.addHeadersToEnvelope(env);
             // set the message context with that soap envelope
@@ -156,14 +156,10 @@ public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
         return false;
     }
 
-    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final NfeDadosMsg param, final boolean optimizeContent, final javax.xml.namespace.QName elementQName) {
-        //try {
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final NfeDadosMsg param) {
         final org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
         emptyEnvelope.getBody().addChild(param.getOMElement(NfeDadosMsg.MY_QNAME, factory));
         return emptyEnvelope;
-        //        } catch (final org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
     @SuppressWarnings("rawtypes")
