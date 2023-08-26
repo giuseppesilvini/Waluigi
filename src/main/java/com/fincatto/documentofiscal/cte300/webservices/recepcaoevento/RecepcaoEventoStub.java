@@ -22,6 +22,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
     public static final String VERSAO_DADOS = "versaoDados";
     public static final String RECEPCAO_EVENTO_RESULT = "cteRecepcaoEventoResult";
     public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
+    public static final String HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO = "http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento";
     protected org.apache.axis2.description.AxisOperation[] operations;
 
     // hashmaps to keep the fault mapping
@@ -51,7 +52,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation operation;
         this.operations = new org.apache.axis2.description.AxisOperation[1];
         operation = new org.apache.axis2.description.OutInAxisOperation();
-        operation.setName(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", "cteRecepcaoEvento"));
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, "cteRecepcaoEvento"));
         this._service.addOperation(operation);
         this.operations[0] = operation;
     }
@@ -109,11 +110,11 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
             messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", "cteRecepcaoEvento")), new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", "cteRecepcaoEvento"));
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, "cteRecepcaoEvento")), new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, "cteRecepcaoEvento"));
             env.build();
             // add the children only if the parameter is not null
             if (cteCabecMsg1 != null) {
-                final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", "cteRecepcaoEvento")));
+                final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, "cteRecepcaoEvento")));
                 this.addHeader(omElementcteCabecMsg1, env);
             }
             // adding SOAP soap_headers
@@ -179,10 +180,10 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         org.apache.axiom.soap.SOAPEnvelope env;
         final org.apache.axis2.context.MessageContext _messageContext = MessageContextFactory.INSTANCE.create(config);
         // Style is Doc.
-        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", "cteRecepcaoEvento")), new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", "cteRecepcaoEvento"));
+        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, "cteRecepcaoEvento")), new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, "cteRecepcaoEvento"));
         // add the soap_headers only if they are not null
         if (cteCabecMsg1 != null) {
-            final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", "cteRecepcaoEvento")));
+            final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, "cteRecepcaoEvento")));
             this.addHeader(omElementcteCabecMsg1, env);
         }
         // adding SOAP soap_headers
@@ -294,7 +295,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
     public static class CteCabecMsgE implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 1603501446428599534L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", "cteCabecMsg", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, "cteCabecMsg", "");
 
         /**
          * field for CteCabecMsg
@@ -346,7 +347,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -529,7 +530,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                     final java.util.Vector handledAttributes = new java.util.Vector();
                     while (!reader.isEndElement()) {
                         if (reader.isStartElement()) {
-                            if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", "cteCabecMsg").equals(reader.getName())) {
+                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, "cteCabecMsg").equals(reader.getName())) {
                                 object.setCteCabecMsg(CteCabecMsg.Factory.parse(reader));
                             } // End of if for expected property start element
                             else {
@@ -551,7 +552,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
     public static class CteRecepcaoEventoResult implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 1210535401443448781L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", RECEPCAO_EVENTO_RESULT, "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, RECEPCAO_EVENTO_RESULT, "");
 
         /**
          * field for ExtraElement
@@ -601,7 +602,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":cteRecepcaoEventoResult", xmlWriter);
                 } else {
@@ -617,7 +618,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -1002,7 +1003,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":cteCabecMsg", xmlWriter);
                 } else {
@@ -1015,7 +1016,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 }
             }
             if (this.localCUFTracker) {
-                namespace = "http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento";
+                namespace = HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO;
                 this.writeStartElement(null, namespace, "cUF", xmlWriter);
                 if (this.localCUF == null) {
                     // write the nil attribute
@@ -1026,7 +1027,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
             if (this.localVersaoDadosTracker) {
-                namespace = "http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento";
+                namespace = HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO;
                 this.writeStartElement(null, namespace, VERSAO_DADOS, xmlWriter);
                 if (this.localVersaoDados == null) {
                     // write the nil attribute
@@ -1040,7 +1041,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         }
         
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -1202,7 +1203,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
             final java.util.ArrayList elementList = new java.util.ArrayList();
             final java.util.ArrayList attribList = new java.util.ArrayList();
             if (this.localCUFTracker) {
-                elementList.add(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", "cUF"));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, "cUF"));
                 if (this.localCUF != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localCUF));
                 } else {
@@ -1210,7 +1211,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 }
             }
             if (this.localVersaoDadosTracker) {
-                elementList.add(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", VERSAO_DADOS));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, VERSAO_DADOS));
                 if (this.localVersaoDados != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localVersaoDados));
                 } else {
@@ -1280,7 +1281,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", "cUF").equals(reader.getName())) {
+                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, "cUF").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                         if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException("The element: " + "cUF" + "  cannot be null");
@@ -1292,7 +1293,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", VERSAO_DADOS).equals(reader.getName())) {
+                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, VERSAO_DADOS).equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                         if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException("The element: " + VERSAO_DADOS + "  cannot be null");
@@ -1321,7 +1322,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
             throw new IllegalStateException(UTILITY_CLASS_EXCEPTION_MESSAGE);
         }
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-            if ("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento".equals(namespaceURI) && "cteCabecMsg".equals(typeName)) {
+            if (HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO.equals(namespaceURI) && "cteCabecMsg".equals(typeName)) {
                 return CteCabecMsg.Factory.parse(reader);
             }
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
@@ -1331,7 +1332,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
     public static class CteDadosMsg implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = -6923829000494308017L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento", CTE_DADOS_MSG, "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, CTE_DADOS_MSG, "");
 
         /**
          * field for ExtraElement
@@ -1381,7 +1382,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":cteDadosMsg", xmlWriter);
                 } else {
@@ -1397,7 +1398,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoEvento")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
