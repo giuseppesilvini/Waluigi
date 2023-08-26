@@ -96,11 +96,11 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
             _messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = toEnvelope(getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg, optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico", "nfeStatusServicoNF")), new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico", "nfeDadosMsg"));
+            env = toEnvelope(getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg);
             env.build();
             // add the children only if the parameter is not null
             if (nfeCabecMsg != null) {
-                org.apache.axiom.om.OMElement omElementnfeCabecMsg = toOM(nfeCabecMsg, optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico", "nfeStatusServicoNF")));
+                org.apache.axiom.om.OMElement omElementnfeCabecMsg = toOM(nfeCabecMsg);
                 addHeader(omElementnfeCabecMsg, env);
             }
             //adding SOAP soap_headers
@@ -161,38 +161,22 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
         return false;
     }
 
-    private org.apache.axiom.om.OMElement toOM(com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeDadosMsg param, boolean optimizeContent) {
-        //        try {
+    private org.apache.axiom.om.OMElement toOM(com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeDadosMsg param) {
         return param.getOMElement(com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeDadosMsg.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        //        } catch (org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
-    private org.apache.axiom.om.OMElement toOM(com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeStatusServicoNFResult param, boolean optimizeContent) {
-        //        try {
+    private org.apache.axiom.om.OMElement toOM(com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeStatusServicoNFResult param) {
         return param.getOMElement(com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeStatusServicoNFResult.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        //        } catch (org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
-    private org.apache.axiom.om.OMElement toOM(com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeCabecMsgE param, boolean optimizeContent) {
-        //        try {
+    private org.apache.axiom.om.OMElement toOM(com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeCabecMsgE param) {
         return param.getOMElement(com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeCabecMsgE.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        //        } catch (org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
-    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(org.apache.axiom.soap.SOAPFactory factory, com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeDadosMsg param, boolean optimizeContent, javax.xml.namespace.QName elementQName) {
-        //        try {
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(org.apache.axiom.soap.SOAPFactory factory, com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeDadosMsg param) {
         org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
         emptyEnvelope.getBody().addChild(param.getOMElement(com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeDadosMsg.MY_QNAME, factory));
         return emptyEnvelope;
-        //        } catch (org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
     /* methods to provide back word compatibility */
