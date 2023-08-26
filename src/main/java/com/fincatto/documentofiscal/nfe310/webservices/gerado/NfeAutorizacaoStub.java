@@ -20,6 +20,7 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
     public static final String NFE_AUTORIZACAO_LOTE_RESULT = "nfeAutorizacaoLoteResult";
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
     public static final String NFE_AUTORIZACAO_LOTE_ZIP_RESULT = "nfeAutorizacaoLoteZipResult";
+    public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
     // hashmaps to keep the fault mapping
@@ -264,9 +265,9 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
             if (serializeType) {
                 final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NfeAutorizacao");
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeAutorizacaoLoteZipResult", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeAutorizacaoLoteZipResult", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_AUTORIZACAO_LOTE_ZIP_RESULT, xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", NFE_AUTORIZACAO_LOTE_ZIP_RESULT, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -349,8 +350,8 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
@@ -510,9 +511,9 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
             if (serializeType) {
                 final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NfeAutorizacao");
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeAutorizacaoLoteResult", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeAutorizacaoLoteResult", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_AUTORIZACAO_LOTE_RESULT, xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", NFE_AUTORIZACAO_LOTE_RESULT, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -594,8 +595,8 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
@@ -741,9 +742,9 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
             if (serializeType) {
                 final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NfeAutorizacao");
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeCabecMsg", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", "nfeCabecMsg", xmlWriter);
                 }
             }
             if (this.localExtraAttributes != null) {
@@ -873,8 +874,8 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
@@ -909,7 +910,7 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
                         reader.next();
                     }
                     if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeAutorizacao", "cUF").equals(reader.getName())) {
-                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "nil");
+                        nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                         if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException(THE_ELEMENT + "cUF" + CANNOT_BE_NULL);
                         }
@@ -921,7 +922,7 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
                         reader.next();
                     }
                     if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeAutorizacao", VERSAO_DADOS).equals(reader.getName())) {
-                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "nil");
+                        nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                         if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException(THE_ELEMENT + VERSAO_DADOS + CANNOT_BE_NULL);
                         }
@@ -994,9 +995,9 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
             if (serializeType) {
                 final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NfeAutorizacao");
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDadosMsgZip", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeDadosMsgZip", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeDadosMsgZip", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", "nfeDadosMsgZip", xmlWriter);
                 }
             }
             if (this.localNfeDadosMsgZip == null) {
@@ -1074,7 +1075,7 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
                     while (!reader.isEndElement()) {
                         if (reader.isStartElement()) {
                             if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeAutorizacao", "nfeDadosMsgZip").equals(reader.getName())) {
-                                nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "nil");
+                                nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                                 if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                                     throw new org.apache.axis2.databinding.ADBException(THE_ELEMENT + "nfeDadosMsgZip" + CANNOT_BE_NULL);
                                 }
@@ -1133,9 +1134,9 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
             if (serializeType) {
                 final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NfeAutorizacao");
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_DADOS_MSG, xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", NFE_DADOS_MSG, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -1218,8 +1219,8 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {

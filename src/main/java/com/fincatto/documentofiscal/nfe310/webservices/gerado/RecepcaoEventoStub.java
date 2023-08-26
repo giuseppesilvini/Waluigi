@@ -22,6 +22,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
     public static final String NFE_RECEPCAO_EVENTO_RESULT = "nfeRecepcaoEventoResult";
     public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
+    public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO = "http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento";
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
     // hashmaps to keep the fault mapping
@@ -51,7 +52,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation __operation;
         this._operations = new org.apache.axis2.description.AxisOperation[1];
         __operation = new org.apache.axis2.description.OutInAxisOperation();
-        __operation.setName(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento", "nfeRecepcaoEvento"));
+        __operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, "nfeRecepcaoEvento"));
         this._service.addOperation(__operation);
         this._operations[0] = __operation;
     }
@@ -91,11 +92,11 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
             _messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento", "nfeRecepcaoEvento")), new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento", "nfeRecepcaoEvento"));
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, "nfeRecepcaoEvento")), new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, "nfeRecepcaoEvento"));
             env.build();
             // add the children only if the parameter is not null
             if (nfeCabecMsg != null) {
-                final org.apache.axiom.om.OMElement omElementnfeCabecMsg = this.toOM(nfeCabecMsg, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento", "nfeRecepcaoEvento")));
+                final org.apache.axiom.om.OMElement omElementnfeCabecMsg = this.toOM(nfeCabecMsg, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, "nfeRecepcaoEvento")));
                 this.addHeader(omElementnfeCabecMsg, env);
             }
             // adding SOAP soap_headers
@@ -173,7 +174,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
     public static class NfeDadosMsg implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 7332017688778139531L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento", NFE_DADOS_MSG, "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, NFE_DADOS_MSG, "");
 
         protected transient org.apache.axiom.om.OMElement localExtraElement;
 
@@ -204,7 +205,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
                 } else {
@@ -220,7 +221,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -342,7 +343,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
     public static class ExtensionMapper {
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-            if ("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento".equals(namespaceURI) && "nfeCabecMsg".equals(typeName)) {
+            if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO.equals(namespaceURI) && "nfeCabecMsg".equals(typeName)) {
                 return NfeCabecMsg.Factory.parse(reader);
             }
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
@@ -352,7 +353,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
     public static class NfeRecepcaoEventoResult implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = -7520254300393624342L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento", NFE_RECEPCAO_EVENTO_RESULT, "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, NFE_RECEPCAO_EVENTO_RESULT, "");
 
         protected transient org.apache.axiom.om.OMElement localExtraElement;
 
@@ -383,7 +384,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeRecepcaoEventoResult", xmlWriter);
                 } else {
@@ -399,7 +400,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -521,7 +522,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
     public static class NfeCabecMsgE implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = -1051881154292027306L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento", "nfeCabecMsg", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, "nfeCabecMsg", "");
 
         protected NfeCabecMsg localNfeCabecMsg;
 
@@ -571,7 +572,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                     // from anyAttributes.
                     while (!reader.isEndElement()) {
                         if (reader.isStartElement()) {
-                            if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento", "nfeCabecMsg").equals(reader.getName())) {
+                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, "nfeCabecMsg").equals(reader.getName())) {
                                 object.setNfeCabecMsg(NfeCabecMsg.Factory.parse(reader));
                             } // End of if for expected property start element
                             else {
@@ -684,7 +685,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
                 } else {
@@ -697,7 +698,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 }
             }
             if (this.localCUFTracker) {
-                namespace = "http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento";
+                namespace = HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO;
                 this.writeStartElement(null, namespace, "cUF", xmlWriter);
                 if (this.localCUF == null) {
                     // write the nil attribute
@@ -708,7 +709,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
             if (this.localVersaoDadosTracker) {
-                namespace = "http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento";
+                namespace = HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO;
                 this.writeStartElement(null, namespace, "versaoDados", xmlWriter);
                 if (this.localVersaoDados == null) {
                     // write the nil attribute
@@ -722,7 +723,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -784,7 +785,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
             final java.util.ArrayList<Serializable> elementList = new java.util.ArrayList<>();
             final java.util.ArrayList<Object> attribList = new java.util.ArrayList<>();
             if (this.localCUFTracker) {
-                elementList.add(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento", "cUF"));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, "cUF"));
                 if (this.localCUF != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localCUF));
                 } else {
@@ -792,7 +793,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 }
             }
             if (this.localVersaoDadosTracker) {
-                elementList.add(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento", "versaoDados"));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, "versaoDados"));
                 if (this.localVersaoDados != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localVersaoDados));
                 } else {
@@ -850,7 +851,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento", "cUF").equals(reader.getName())) {
+                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, "cUF").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                         if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException("The element: " + "cUF" + "  cannot be null");
@@ -862,7 +863,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/RecepcaoEvento", "versaoDados").equals(reader.getName())) {
+                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, "versaoDados").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                         if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException("The element: " + "versaoDados" + "  cannot be null");

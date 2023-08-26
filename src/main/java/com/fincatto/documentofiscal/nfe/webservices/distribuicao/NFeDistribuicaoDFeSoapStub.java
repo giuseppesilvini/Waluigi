@@ -17,6 +17,8 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
     public static final String NFE_DIST_D_FE_INTERESSE_RESPONSE = "nfeDistDFeInteresseResponse";
     public static final String NFE_DIST_D_FE_INTERESSE_RESULT = "nfeDistDFeInteresseResult";
     public static final String NFE_DIST_DFE_INTERESSE_RESULT_TYPE_0 = "nfeDistDFeInteresseResult_type0";
+    public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE = "http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe";
+    public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
     // hashmaps to keep the fault mapping
@@ -45,7 +47,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation __operation;
         this._operations = new org.apache.axis2.description.AxisOperation[1];
         __operation = new org.apache.axis2.description.OutInAxisOperation();
-        __operation.setName(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe", "nfeDistDFeInteresse"));
+        __operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, "nfeDistDFeInteresse"));
         this._service.addOperation(__operation);
         this._operations[0] = __operation;
     }
@@ -83,7 +85,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
             _messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDistDFeInteresse, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe", "nfeDistDFeInteresse")));
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDistDFeInteresse, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, "nfeDistDFeInteresse")));
             // adding SOAP soap_headers
             this._serviceClient.addHeadersToEnvelope(env);
             // set the message context with that soap envelope
@@ -160,10 +162,10 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
     public static class NFeDistDFeInteresse implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 2957376822838111021L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe", "nfeDistDFeInteresse", "ns1");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, "nfeDistDFeInteresse", "ns1");
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE)) {
                 return "ns1";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -268,18 +270,18 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeStartElement(parentQName.getLocalPart());
             }
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDistDFeInteresse", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeDistDFeInteresse", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeDistDFeInteresse", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", "nfeDistDFeInteresse", xmlWriter);
                 }
             }
             if (this.localNFeDadosMsgTracker) {
                 if (this.localNFeDadosMsg == null) {
                     throw new org.apache.axis2.databinding.ADBException("nfeDadosMsg cannot be null!!");
                 }
-                this.localNFeDadosMsg.serialize(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe", NFE_RESULT_MSG), factory, xmlWriter);
+                this.localNFeDadosMsg.serialize(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_RESULT_MSG), factory, xmlWriter);
             }
             xmlWriter.writeEndElement();
         }
@@ -408,7 +410,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
             final java.util.ArrayList elementList = new java.util.ArrayList();
             final java.util.ArrayList attribList = new java.util.ArrayList();
             if (this.localNFeDadosMsgTracker) {
-                elementList.add(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe", NFE_RESULT_MSG));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_RESULT_MSG));
                 if (this.localNFeDadosMsg == null) {
                     throw new org.apache.axis2.databinding.ADBException("nfeDadosMsg cannot be null!!");
                 }
@@ -429,8 +431,8 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
@@ -452,7 +454,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe", NFE_RESULT_MSG).equals(reader.getName())) {
+                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_RESULT_MSG).equals(reader.getName())) {
                         object.setNFeDadosMsg(NFeDadosMsgType0.Factory.parse(reader));
                         reader.next();
                     } // End of if for expected property start element
@@ -478,7 +480,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
          */
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE)) {
                 return "ns1";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -576,11 +578,11 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeStartElement(parentQName.getLocalPart());
             }
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDadosMsg_type0", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeDadosMsg_type0", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_DADOS_MSG_TYPE_0, xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", NFE_DADOS_MSG_TYPE_0, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -749,8 +751,8 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
@@ -803,10 +805,10 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
     public static class NFeDistDFeInteresseResponse implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = -7734346985786228491L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe", NFE_DIST_D_FE_INTERESSE_RESPONSE, "ns1");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_DIST_D_FE_INTERESSE_RESPONSE, "ns1");
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE)) {
                 return "ns1";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -911,18 +913,18 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeStartElement(parentQName.getLocalPart());
             }
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDistDFeInteresseResponse", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeDistDFeInteresseResponse", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_DIST_D_FE_INTERESSE_RESPONSE, xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", NFE_DIST_D_FE_INTERESSE_RESPONSE, xmlWriter);
                 }
             }
             if (this.localNFeDistDFeInteresseResultTracker) {
                 if (this.localNFeDistDFeInteresseResult == null) {
                     throw new org.apache.axis2.databinding.ADBException("nfeDistDFeInteresseResult cannot be null!!");
                 }
-                this.localNFeDistDFeInteresseResult.serialize(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe", NFE_DIST_D_FE_INTERESSE_RESULT), factory, xmlWriter);
+                this.localNFeDistDFeInteresseResult.serialize(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_DIST_D_FE_INTERESSE_RESULT), factory, xmlWriter);
             }
             xmlWriter.writeEndElement();
         }
@@ -1059,7 +1061,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
             final java.util.ArrayList elementList = new java.util.ArrayList();
             final java.util.ArrayList attribList = new java.util.ArrayList();
             if (this.localNFeDistDFeInteresseResultTracker) {
-                elementList.add(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe", NFE_DIST_D_FE_INTERESSE_RESULT));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_DIST_D_FE_INTERESSE_RESULT));
                 if (this.localNFeDistDFeInteresseResult == null) {
                     throw new org.apache.axis2.databinding.ADBException("nfeDistDFeInteresseResult cannot be null!!");
                 }
@@ -1086,8 +1088,8 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
@@ -1109,7 +1111,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe", NFE_DIST_D_FE_INTERESSE_RESULT).equals(reader.getName())) {
+                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_DIST_D_FE_INTERESSE_RESULT).equals(reader.getName())) {
                         object.setNFeDistDFeInteresseResult(NFeDistDFeInteresseResultType0.Factory.parse(reader));
                         reader.next();
                     } // End of if for expected property start element
@@ -1131,10 +1133,10 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
     public static class ExtensionMapper {
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-            if ("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe".equals(namespaceURI) && NFE_DIST_DFE_INTERESSE_RESULT_TYPE_0.equals(typeName)) {
+            if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE.equals(namespaceURI) && NFE_DIST_DFE_INTERESSE_RESULT_TYPE_0.equals(typeName)) {
                 return NFeDistDFeInteresseResultType0.Factory.parse(reader);
             }
-            if ("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe".equals(namespaceURI) && NFE_DADOS_MSG_TYPE_0.equals(typeName)) {
+            if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE.equals(namespaceURI) && NFE_DADOS_MSG_TYPE_0.equals(typeName)) {
                 return NFeDadosMsgType0.Factory.parse(reader);
             }
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
@@ -1148,7 +1150,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
          * This type was generated from the piece of schema that had name = NFeDistDFeInteresseResult_type0 Namespace URI = http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe Namespace Prefix = ns1
          */
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE)) {
                 return "ns1";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -1246,11 +1248,11 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeStartElement(parentQName.getLocalPart());
             }
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NFeDistribuicaoDFe");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDistDFeInteresseResult_type0", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeDistDFeInteresseResult_type0", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_DIST_DFE_INTERESSE_RESULT_TYPE_0, xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", NFE_DIST_DFE_INTERESSE_RESULT_TYPE_0, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -1419,8 +1421,8 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
