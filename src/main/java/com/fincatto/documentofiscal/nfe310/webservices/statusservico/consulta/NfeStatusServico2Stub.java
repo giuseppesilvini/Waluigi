@@ -71,11 +71,11 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
             _messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico2", "nfeStatusServicoNF2")), new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico2", "nfeStatusServicoNF2"));
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0);
             env.build();
             // add the children only if the parameter is not null
             if (nfeCabecMsg1 != null) {
-                final org.apache.axiom.om.OMElement omElementnfeCabecMsg1 = this.toOM(nfeCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico2", "nfeStatusServicoNF2")));
+                final org.apache.axiom.om.OMElement omElementnfeCabecMsg1 = this.toOM(nfeCabecMsg1);
                 this.addHeader(omElementnfeCabecMsg1, env);
             }
             // adding SOAP soap_headers
@@ -133,10 +133,10 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
         org.apache.axiom.soap.SOAPEnvelope env;
         final org.apache.axis2.context.MessageContext _messageContext = MessageContextFactory.INSTANCE.create(config);
         // Style is Doc.
-        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico2", "nfeStatusServicoNF2")), new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico2", "nfeStatusServicoNF2"));
+        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0);
         // add the soap_headers only if they are not null
         if (nfeCabecMsg1 != null) {
-            final org.apache.axiom.om.OMElement omElementnfeCabecMsg1 = this.toOM(nfeCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico2", "nfeStatusServicoNF2")));
+            final org.apache.axiom.om.OMElement omElementnfeCabecMsg1 = this.toOM(nfeCabecMsg1);
             this.addHeader(omElementnfeCabecMsg1, env);
         }
         // adding SOAP soap_headers
@@ -1360,38 +1360,22 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
         }// end of factory class
     }
 
-    private org.apache.axiom.om.OMElement toOM(final NfeStatusServico2Stub.NfeDadosMsg param, final boolean optimizeContent) {
-        //try {
+    private org.apache.axiom.om.OMElement toOM(final NfeStatusServico2Stub.NfeDadosMsg param) {
         return param.getOMElement(NfeStatusServico2Stub.NfeDadosMsg.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        //        } catch (final org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
-    private org.apache.axiom.om.OMElement toOM(final NfeStatusServico2Stub.NfeStatusServicoNF2Result param, final boolean optimizeContent) {
-        //try {
+    private org.apache.axiom.om.OMElement toOM(final NfeStatusServico2Stub.NfeStatusServicoNF2Result param) {
         return param.getOMElement(NfeStatusServico2Stub.NfeStatusServicoNF2Result.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        //        } catch (final org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
-    private org.apache.axiom.om.OMElement toOM(final NfeStatusServico2Stub.NfeCabecMsgE param, final boolean optimizeContent) {
-        //try {
+    private org.apache.axiom.om.OMElement toOM(final NfeStatusServico2Stub.NfeCabecMsgE param) {
         return param.getOMElement(NfeStatusServico2Stub.NfeCabecMsgE.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        //        } catch (final org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
-    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final NfeStatusServico2Stub.NfeDadosMsg param, final boolean optimizeContent, final javax.xml.namespace.QName methodQName) {
-        //try {
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final NfeStatusServico2Stub.NfeDadosMsg param) {
         final org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
         emptyEnvelope.getBody().addChild(param.getOMElement(NfeStatusServico2Stub.NfeDadosMsg.MY_QNAME, factory));
         return emptyEnvelope;
-        //        } catch (final org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory) {
