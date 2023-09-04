@@ -513,7 +513,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
 
                     reader.next();
 
@@ -749,7 +749,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
 
                     reader.next();
 
