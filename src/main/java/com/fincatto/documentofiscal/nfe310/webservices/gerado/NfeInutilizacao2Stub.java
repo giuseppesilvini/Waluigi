@@ -822,7 +822,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector<String> handledAttributes = new java.util.Vector<>();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     // now run through all any or extra attributes
                     // which were not reflected until now
                     for (int i = 0; i < reader.getAttributeCount(); i++) {
