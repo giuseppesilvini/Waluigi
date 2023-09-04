@@ -9,7 +9,6 @@ import java.io.Serializable;
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Vector;
 
 import com.fincatto.documentofiscal.DFConfig;
 import com.fincatto.documentofiscal.utils.MessageContextFactory;
@@ -834,7 +833,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final Vector<String> handledAttributes = new Vector<>();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     // now run through all any or extra attributes
                     // which were not reflected until now
                     for (int i = 0; i < reader.getAttributeCount(); i++) {
