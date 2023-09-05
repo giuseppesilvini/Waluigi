@@ -13,7 +13,9 @@ import com.fincatto.documentofiscal.validadores.DFBigDecimalValidador;
 import org.apache.axiom.om.OMElement;
 import org.apache.axiom.om.util.AXIOMUtil;
 
+import javax.xml.stream.XMLStreamException;
 import java.math.BigDecimal;
+import java.rmi.RemoteException;
 import java.time.ZonedDateTime;
 import java.util.List;
 
@@ -43,7 +45,7 @@ class WSPagamentoTransporte implements DFLog {
         return this.config.getPersister().read(MDFeRetorno.class, omElementResult.toString());
     }
 
-    private OMElement efetuaPagamento(final String xmlAssinado, final String chaveAcesso) throws Exception {
+    private OMElement efetuaPagamento(final String xmlAssinado, final String chaveAcesso) throws XMLStreamException, RemoteException {
         final MDFChaveParser mdfChaveParser = new MDFChaveParser(chaveAcesso);
         final MDFeRecepcaoEventoStub.MdfeCabecMsg cabec = new MDFeRecepcaoEventoStub.MdfeCabecMsg();
         cabec.setCUF(mdfChaveParser.getNFUnidadeFederativa().getCodigoIbge());

@@ -9,6 +9,7 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
+import javax.naming.InvalidNameException;
 import javax.naming.ldap.LdapName;
 import javax.xml.XMLConstants;
 import javax.xml.crypto.*;
@@ -22,9 +23,7 @@ import javax.xml.crypto.dsig.spec.C14NMethodParameterSpec;
 import javax.xml.crypto.dsig.spec.TransformParameterSpec;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
@@ -80,7 +79,7 @@ public class DFAssinaturaDigital implements DFLog {
         }
     }
 
-    public void assinarDocumento(final Reader xmlReader, final Writer xmlAssinado, final String... elementosAssinaveis) throws Exception {
+    public void assinarDocumento(final Reader xmlReader, final Writer xmlAssinado, final String... elementosAssinaveis) throws KeyStoreException, NoSuchAlgorithmException, UnrecoverableEntryException, InvalidNameException, InvalidAlgorithmParameterException, ParserConfigurationException, IOException, XMLSignatureException, SAXException, MarshalException, TransformerException {
         final KeyStore.PrivateKeyEntry keyEntry = getPrivateKeyEntry();
 
         final String dn = ((X509Certificate) keyEntry.getCertificate()).getSubjectX500Principal().getName();
@@ -147,7 +146,7 @@ public class DFAssinaturaDigital implements DFLog {
         }
     }
 
-    public String assinarString(final String string) throws Exception {
+    public String assinarString(final String string) throws NoSuchAlgorithmException, UnrecoverableEntryException, KeyStoreException, InvalidKeyException, SignatureException {
         final byte[] buffer = string.getBytes();
         final Signature signatureProvider = Signature.getInstance("SHA256withRSA");
         signatureProvider.initSign(getPrivateKeyEntry().getPrivateKey());

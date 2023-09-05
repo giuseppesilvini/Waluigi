@@ -11,8 +11,8 @@ import org.apache.commons.lang3.StringUtils;
 import javax.net.ssl.*;
 import java.io.ByteArrayOutputStream;
 import java.net.URI;
-import java.security.KeyStore;
-import java.security.MessageDigest;
+import java.security.*;
+import java.security.cert.CertificateEncodingException;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 
@@ -95,7 +95,7 @@ public abstract class DFCadeiaCertificados implements DFLog {
         }
     }
     
-    private static void get(final KeyStore keyStore, final String host) throws Exception {
+    private static void get(final KeyStore keyStore, final String host) throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException, CertificateEncodingException {
         final TrustManagerFactory trustManagerFactory = TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm());
         trustManagerFactory.init(keyStore);
         

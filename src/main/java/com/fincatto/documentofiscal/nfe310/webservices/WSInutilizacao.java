@@ -17,7 +17,9 @@ import org.apache.axiom.om.OMElement;
 import org.apache.axiom.om.util.AXIOMUtil;
 import org.apache.commons.lang3.StringUtils;
 
+import javax.xml.stream.XMLStreamException;
 import java.math.BigDecimal;
+import java.rmi.RemoteException;
 
 class WSInutilizacao implements DFLog {
     
@@ -41,7 +43,7 @@ class WSInutilizacao implements DFLog {
         return this.config.getPersister().read(NFRetornoEventoInutilizacao.class, omElementResult.toString());
     }
     
-    private OMElement efetuaInutilizacao(final String inutilizacaoXMLAssinado, final DFModelo modelo) throws Exception {
+    private OMElement efetuaInutilizacao(final String inutilizacaoXMLAssinado, final DFModelo modelo) throws XMLStreamException, RemoteException {
         final NfeInutilizacao2Stub.NfeCabecMsg cabecalho = new NfeCabecMsg();
         cabecalho.setCUF(this.config.getCUF().getCodigoIbge());
         cabecalho.setVersaoDados(WSInutilizacao.VERSAO_SERVICO);

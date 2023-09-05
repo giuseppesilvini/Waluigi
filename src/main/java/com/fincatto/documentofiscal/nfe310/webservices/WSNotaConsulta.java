@@ -38,7 +38,7 @@ class WSNotaConsulta implements DFLog {
         return this.config.getPersister().read(NFNotaConsultaRetorno.class, omElementRetorno.toString());
     }
     
-    private OMElement efetuaConsulta(final OMElement omElementConsulta, final String chaveDeAcesso) throws Exception {
+    private OMElement efetuaConsulta(final OMElement omElementConsulta, final String chaveDeAcesso) throws RemoteException {
         final NotaFiscalChaveParser notaFiscalChaveParser = new NotaFiscalChaveParser(chaveDeAcesso);
         
         final boolean consultaNFeBahia = DFUnidadeFederativa.BA.equals(notaFiscalChaveParser.getNFUnidadeFederativa()) && DFModelo.NFE.equals(notaFiscalChaveParser.getModelo());

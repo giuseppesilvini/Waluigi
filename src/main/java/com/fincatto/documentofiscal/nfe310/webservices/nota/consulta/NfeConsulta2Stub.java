@@ -315,10 +315,10 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
 
         protected void validateExtraAttributes(final org.apache.axiom.om.OMAttribute[] param) {
             if (param != null && param.length > 1) {
-                throw new java.lang.RuntimeException();
+                throw new IllegalArgumentException();
             }
             if (param != null && param.length < 1) {
-                throw new java.lang.RuntimeException();
+                throw new IllegalArgumentException();
             }
         }
 

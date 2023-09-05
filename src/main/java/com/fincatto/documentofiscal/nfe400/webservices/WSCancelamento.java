@@ -16,7 +16,9 @@ import com.fincatto.documentofiscal.utils.DFAssinaturaDigital;
 import org.apache.axiom.om.OMElement;
 import org.apache.axiom.om.util.AXIOMUtil;
 
+import javax.xml.stream.XMLStreamException;
 import java.math.BigDecimal;
+import java.rmi.RemoteException;
 import java.time.ZonedDateTime;
 import java.util.Collections;
 
@@ -45,7 +47,7 @@ class WSCancelamento implements DFLog {
         return this.config.getPersister().read(NFEnviaEventoRetorno.class, omElementResult.toString());
     }
     
-    private OMElement efetuaCancelamento(final String xmlAssinado, final String chaveAcesso) throws Exception {
+    private OMElement efetuaCancelamento(final String xmlAssinado, final String chaveAcesso) throws XMLStreamException, RemoteException {
         final NFeRecepcaoEvento4Stub.NfeDadosMsg dados = new NFeRecepcaoEvento4Stub.NfeDadosMsg();
         final OMElement omElementXML = AXIOMUtil.stringToOM(xmlAssinado);
         this.getLogger().debug(omElementXML.toString());

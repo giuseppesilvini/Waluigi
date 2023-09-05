@@ -13,7 +13,9 @@ import com.fincatto.documentofiscal.utils.DFAssinaturaDigital;
 import org.apache.axiom.om.OMElement;
 import org.apache.axiom.om.util.AXIOMUtil;
 
+import javax.xml.stream.XMLStreamException;
 import java.math.BigDecimal;
+import java.rmi.RemoteException;
 import java.time.ZonedDateTime;
 import java.util.Collections;
 
@@ -49,7 +51,7 @@ public class WSManifestacaoDestinatario implements DFLog {
         
         // Excessao se o codigo status do retorno diferente de 128 - Lote de Evento Processado
         if (retorno.getCodigoStatusReposta() != 128) {
-            throw new RuntimeException("Status: " + retorno.getCodigoStatusReposta() + " - Motivo: " + retorno.getMotivo());
+            throw new IllegalStateException("Status: " + retorno.getCodigoStatusReposta() + " - Motivo: " + retorno.getMotivo());
         }
         
         NFProtocoloEventoManifestacaoDestinatario nfProtocoloEventoManifestacaoDestinatario = new NFProtocoloEventoManifestacaoDestinatario();
@@ -59,7 +61,7 @@ public class WSManifestacaoDestinatario implements DFLog {
         return nfProtocoloEventoManifestacaoDestinatario;
     }
     
-    private OMElement efetuaManifestacaoDestinatario(final String xmlAssinado, final String chaveAcesso) throws Exception {
+    private OMElement efetuaManifestacaoDestinatario(final String xmlAssinado, final String chaveAcesso) throws XMLStreamException, RemoteException {
         final NFeRecepcaoEvento4Stub.NfeDadosMsg dados = new NFeRecepcaoEvento4Stub.NfeDadosMsg();
         final OMElement omElementXML = AXIOMUtil.stringToOM(xmlAssinado);
         this.getLogger().debug(omElementXML.toString());

@@ -13,6 +13,7 @@ import org.apache.axiom.om.OMElement;
 import org.apache.axiom.om.util.AXIOMUtil;
 
 import java.math.BigDecimal;
+import java.rmi.RemoteException;
 
 class WSNotaConsulta implements DFLog {
     private static final String NOME_SERVICO = "CONSULTAR";
@@ -36,7 +37,7 @@ class WSNotaConsulta implements DFLog {
         return omElementRetorno.toString();
     }
 
-    private OMElement efetuaConsulta(final OMElement omElementConsulta, final String chaveDeAcesso) throws Exception {
+    private OMElement efetuaConsulta(final OMElement omElementConsulta, final String chaveDeAcesso) throws RemoteException {
         final NotaFiscalChaveParser notaFiscalChaveParser = new NotaFiscalChaveParser(chaveDeAcesso);
         
         final NFeConsultaProtocolo4Stub.NfeDadosMsg dados = new NFeConsultaProtocolo4Stub.NfeDadosMsg();

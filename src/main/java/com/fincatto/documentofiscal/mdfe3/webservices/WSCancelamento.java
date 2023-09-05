@@ -16,6 +16,7 @@ import org.apache.axiom.om.OMElement;
 import org.apache.axiom.om.util.AXIOMUtil;
 
 import java.math.BigDecimal;
+import java.rmi.RemoteException;
 import java.time.ZonedDateTime;
 
 /**
@@ -44,7 +45,7 @@ class WSCancelamento implements DFLog {
         return this.config.getPersister().read(MDFeRetorno.class, omElementResult.toString());
     }
     
-    private OMElement efetuaCancelamento(final String xmlAssinado, final String chaveAcesso) throws Exception {
+    private OMElement efetuaCancelamento(final String xmlAssinado, final String chaveAcesso) throws javax.xml.stream.XMLStreamException, RemoteException {
         final MDFChaveParser mdfChaveParser = new MDFChaveParser(chaveAcesso);
         final MDFeRecepcaoEventoStub.MdfeCabecMsg cabec = new MDFeRecepcaoEventoStub.MdfeCabecMsg();
         cabec.setCUF(mdfChaveParser.getNFUnidadeFederativa().getCodigoIbge());

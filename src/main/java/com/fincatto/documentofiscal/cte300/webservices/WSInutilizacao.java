@@ -1,6 +1,7 @@
 package com.fincatto.documentofiscal.cte300.webservices;
 
 import java.math.BigDecimal;
+import java.rmi.RemoteException;
 
 import org.apache.axiom.om.OMElement;
 import org.apache.axiom.om.util.AXIOMUtil;
@@ -20,6 +21,8 @@ import com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutiliza
 import com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutilizacaoStub.CteInutilizacaoCTResult;
 import com.fincatto.documentofiscal.utils.DFAssinaturaDigital;
 import com.fincatto.documentofiscal.utils.DFPersister;
+
+import javax.xml.stream.XMLStreamException;
 
 class WSInutilizacao {
 
@@ -48,7 +51,7 @@ class WSInutilizacao {
         return new DFAssinaturaDigital(this.config).assinarDocumento(inutilizacaoXML);
     }
 
-    private OMElement efetuaInutilizacao(final String inutilizacaoXMLAssinado, final DFModelo modelo) throws Exception {
+    private OMElement efetuaInutilizacao(final String inutilizacaoXMLAssinado, final DFModelo modelo) throws XMLStreamException, RemoteException {
         final CteInutilizacaoStub.CteDadosMsg dados = new CteInutilizacaoStub.CteDadosMsg();
         final CteCabecMsgE cabec = new CteInutilizacaoStub.CteCabecMsgE();
         CteCabecMsg param = new CteCabecMsg();
