@@ -68,12 +68,12 @@ public class DFSocketFactory implements ProtocolSocketFactory {
     private SSLContext createSSLContext(final DFConfig config) throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException, UnrecoverableKeyException {
         final KeyManager[] keyManagers = this.createKeyManagers(config);
         final TrustManager[] trustManagers = this.createTrustManagers(config);
-        final SSLContext sslContext = SSLContext.getInstance(config.getSSLProtocolos()[0]);
-        sslContext.init(keyManagers, trustManagers, null);
-        return sslContext;
+        final SSLContext sslContext2 = SSLContext.getInstance(config.getSSLProtocolos()[0]);
+        sslContext2.init(keyManagers, trustManagers, null);
+        return sslContext2;
     }
 
-    private KeyManager[] createKeyManagers(final DFConfig config) throws UnrecoverableKeyException, KeyStoreException, NoSuchAlgorithmException{
+    private KeyManager[] createKeyManagers(final DFConfig config) throws KeyStoreException {
         return new KeyManager[]{new com.fincatto.documentofiscal.utils.DFKeyManager(config)};
     }
 

@@ -124,7 +124,7 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
             _operationClient.execute(true);
             final org.apache.axis2.context.MessageContext _returnMessageContext = _operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
             final org.apache.axiom.soap.SOAPEnvelope _returnEnv = _returnMessageContext.getEnvelope();
-            final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub.MdfeStatusServicoMDFResult.class, this.getEnvelopeNamespaces(_returnEnv));
+            final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub.MdfeStatusServicoMDFResult.class);
             return (com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub.MdfeStatusServicoMDFResult) object;
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
@@ -139,7 +139,7 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
                         // message class
                         final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeStatusServicoMDF"));
                         final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                        final java.lang.Object messageObject = this.fromOM(faultElt, messageClass, null);
+                        final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                         final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
                         m.invoke(ex, messageObject);
                         throw new java.rmi.RemoteException(ex.getMessage(), ex);
@@ -194,7 +194,7 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
                     final org.apache.axiom.soap.SOAPEnvelope resultEnv = resultContext.getEnvelope();
-                    final java.lang.Object object = MDFeStatusServicoStub.this.fromOM(resultEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub.MdfeStatusServicoMDFResult.class, MDFeStatusServicoStub.this.getEnvelopeNamespaces(resultEnv));
+                    final java.lang.Object object = MDFeStatusServicoStub.this.fromOM(resultEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub.MdfeStatusServicoMDFResult.class);
                     callback.receiveResultmdfeStatusServicoMDF((com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub.MdfeStatusServicoMDFResult) object);
                 } catch (final org.apache.axis2.AxisFault e) {
                     callback.receiveErrormdfeStatusServicoMDF(e);
@@ -218,7 +218,7 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
                                 // message class
                                 final java.lang.String messageClassName = (java.lang.String) MDFeStatusServicoStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeStatusServicoMDF"));
                                 final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                                final java.lang.Object messageObject = MDFeStatusServicoStub.this.fromOM(faultElt, messageClass, null);
+                                final java.lang.Object messageObject = MDFeStatusServicoStub.this.fromOM(faultElt, messageClass);
                                 final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
                                 m.invoke(ex, messageObject);
                                 callback.receiveErrormdfeStatusServicoMDF(new java.rmi.RemoteException(ex.getMessage(), ex));
@@ -1710,7 +1710,7 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
     }
 
     @SuppressWarnings("rawtypes")
-    private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class type, final java.util.Map extraNamespaces) throws org.apache.axis2.AxisFault {
+    private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class type) throws org.apache.axis2.AxisFault {
         try {
             if (com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub.MdfeDadosMsg.class.equals(type)) {
                 return com.fincatto.documentofiscal.mdfe3.webservices.statusservico.MDFeStatusServicoStub.MdfeDadosMsg.Factory.parse(param.getXMLStreamReaderWithoutCaching());
