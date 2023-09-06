@@ -83,6 +83,7 @@ public class NfeStatusServico4Stub extends org.apache.axis2.client.Stub {
 
     // populates the faults
     private void populateFaults() {
+        //Empty Method
     }
 
     /**
@@ -184,6 +185,9 @@ public class NfeStatusServico4Stub extends org.apache.axis2.client.Stub {
 
     // https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx
     public static class ExtensionMapper {
+        private ExtensionMapper() {
+            throw new IllegalStateException("Utility class");
+        }
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
         }
@@ -319,6 +323,9 @@ public class NfeStatusServico4Stub extends org.apache.axis2.client.Stub {
          * Factory class that keeps the parse method
          */
         public static class Factory {
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
             @SuppressWarnings("unused")
             private static org.apache.commons.logging.Log log = org.apache.commons.logging.LogFactory.getLog(Factory.class);
 
@@ -532,6 +539,9 @@ public class NfeStatusServico4Stub extends org.apache.axis2.client.Stub {
          * Factory class that keeps the parse method
          */
         public static class Factory {
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
             @SuppressWarnings("unused")
             private static org.apache.commons.logging.Log log = org.apache.commons.logging.LogFactory.getLog(Factory.class);
 
