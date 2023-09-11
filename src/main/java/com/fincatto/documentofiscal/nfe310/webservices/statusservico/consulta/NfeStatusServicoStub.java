@@ -354,11 +354,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
             writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
                 java.lang.String namespacePrefix = registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico");
-                if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
-                } else {
-                    writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeCabecMsg", xmlWriter);
-                }
+                serializeCheckPrefix(namespacePrefix, xmlWriter);
             }
             if (localExtraAttributes != null) {
                 for (OMAttribute localExtraAttribute : localExtraAttributes) {
@@ -388,6 +384,14 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
             xmlWriter.writeEndElement();
+        }
+
+        private void serializeCheckPrefix(java.lang.String namespacePrefix, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
+            if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
+                writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
+            } else {
+                writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeCabecMsg", xmlWriter);
+            }
         }
 
         private static java.lang.String generatePrefix(java.lang.String namespace) {

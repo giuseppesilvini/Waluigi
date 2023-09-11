@@ -766,11 +766,7 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
                 final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA);
-                if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", ORG_2001_XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
-                } else {
-                    this.writeAttribute("xsi", ORG_2001_XMLSCHEMA_INSTANCE, "type", NFE_CABEC_MSG, xmlWriter);
-                }
+                serializeCheckPrefix(namespacePrefix, xmlWriter);
             }
             if (this.localExtraAttributes != null) {
                 for (final OMAttribute localExtraAttribute : this.localExtraAttributes) {
@@ -800,6 +796,14 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
             xmlWriter.writeEndElement();
+        }
+
+        private void serializeCheckPrefix(final java.lang.String namespacePrefix, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
+            if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
+                this.writeAttribute("xsi", ORG_2001_XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
+            } else {
+                this.writeAttribute("xsi", ORG_2001_XMLSCHEMA_INSTANCE, "type", NFE_CABEC_MSG, xmlWriter);
+            }
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {

@@ -26,7 +26,6 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     private final java.util.HashMap faultExceptionClassNameMap = new java.util.HashMap();
     @SuppressWarnings("rawtypes")
     private final java.util.HashMap faultMessageMap = new java.util.HashMap();
-    private final javax.xml.namespace.QName[] opNameArray = null;
     private final DFConfig config;
 
     /**
@@ -277,16 +276,6 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     }
 
     private boolean optimizeContent(final javax.xml.namespace.QName opName) {
-        if (this.opNameArray == null) {
-            return false;
-        }
-
-        for (final QName element : this.opNameArray) {
-            if (opName.equals(element)) {
-                return true;
-            }
-        }
-
         return false;
     }
 
