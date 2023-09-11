@@ -107,29 +107,27 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
             return (NfeConsulta2Stub.NfeConsultaNF2Result) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
-            if (faultElt != null) {
-                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF2"))) {
-                    // make the fault by reflection
-                    try {
-                        java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF2"));
-                        java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
-                        java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
-                        java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
-                        // message class
-                        java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF2"));
-                        java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                        java.lang.Object messageObject = this.fromOM(faultElt, messageClass, null);
-                        java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
-                        m.invoke(ex, messageObject);
-                        throw new java.rmi.RemoteException(ex.getMessage(), ex);
-                    } catch (ClassCastException | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
-                        // we cannot intantiate the class - throw the original Axis fault
-                        throw f;
-                    }
-                } else {
-                    throw f;
-                }
-            } else {
+            if (faultElt == null) {
+                throw f;
+            }
+            if (!this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF2"))) {
+                throw f;
+            }
+            // make the fault by reflection
+            try {
+                java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF2"));
+                java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
+                java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
+                java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
+                // message class
+                java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF2"));
+                java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
+                java.lang.Object messageObject = this.fromOM(faultElt, messageClass, null);
+                java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
+                m.invoke(ex, messageObject);
+                throw new java.rmi.RemoteException(ex.getMessage(), ex);
+            } catch (ClassCastException | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
+                // we cannot intantiate the class - throw the original Axis fault
                 throw f;
             }
         } finally {

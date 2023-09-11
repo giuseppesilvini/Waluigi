@@ -128,29 +128,27 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
             return (com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteConsultaCTResult) object;
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
-            if (faultElt != null) {
-                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString))) {
-                    // make the fault by reflection
-                    try {
-                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString));
-                        final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
-                        final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
-                        final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
-                        // message class
-                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString));
-                        final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                        final java.lang.Object messageObject = this.fromOM(faultElt, messageClass, null);
-                        final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
-                        m.invoke(ex, messageObject);
-                        throw new java.rmi.RemoteException(ex.getMessage(), ex);
-                    } catch (final ClassCastException | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
-                        // we cannot intantiate the class - throw the original Axis fault
-                        throw f;
-                    }
-                } else {
-                    throw f;
-                }
-            } else {
+            if (faultElt == null) {
+                throw f;
+            }
+            if (!this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString))) {
+                throw f;
+            }      
+            // make the fault by reflection
+            try {
+                final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString));
+                final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
+                final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
+                final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
+                // message class
+                final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString));
+                final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
+                final java.lang.Object messageObject = this.fromOM(faultElt, messageClass, null);
+                final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
+                m.invoke(ex, messageObject);
+                throw new java.rmi.RemoteException(ex.getMessage(), ex);
+            } catch (final ClassCastException | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
+                // we cannot intantiate the class - throw the original Axis fault
                 throw f;
             }
         } finally {
