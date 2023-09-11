@@ -102,29 +102,35 @@ public class WSEpec implements DFLog {
             nfInfoEpec.setVersao(WSEpec.VERSAO_LEIAUTE);
             nfInfoEpec.setVersaoAplicativo("1.0");
             infEpec.setEpec(nfInfoEpec);
-            if (nfNota.getInfo().getDestinatario() != null) {
-                NFDestinatarioEpec nfDestinatarioEpec = new NFDestinatarioEpec();
-                if (StringUtils.isNotBlank(nfNota.getInfo().getDestinatario().getCnpj())) {
-                    nfDestinatarioEpec.setCnpj(nfNota.getInfo().getDestinatario().getCnpj());
-                } else {
-                    nfDestinatarioEpec.setCpf(nfNota.getInfo().getDestinatario().getCpfj());
-                }
-                nfDestinatarioEpec.setIdEstrangeiro(nfNota.getInfo().getDestinatario().getIdEstrangeiro());
-                nfDestinatarioEpec.setInscricaoEstadualDestinatario(nfNota.getInfo().getDestinatario().getInscricaoEstadual());
-                if (nfNota.getInfo().getDestinatario().getEndereco() != null) {
-                    nfDestinatarioEpec.setUfDestinatario(nfNota.getInfo().getDestinatario().getEndereco().getUf());
-                }
-                if (nfNota.getInfo().getTotal() != null) {
-                    nfDestinatarioEpec.setValorTotalIcms(nfNota.getInfo().getTotal().getIcmsTotal().getValorTotalICMS());
-                    nfDestinatarioEpec.setValorTotalIcmsSubstituicaoTributaria(nfNota.getInfo().getTotal().getIcmsTotal().getValorTotalICMSST());
-                    nfDestinatarioEpec.setValorTotalNFe(nfNota.getInfo().getTotal().getIcmsTotal().getValorTotalNFe());
-                }
-                nfInfoEpec.setDestinatario(nfDestinatarioEpec);
-            }
-            nfEventoEpec.setInfoEvento(infEpec);
+            
+            nfEventoEpec = criaEnvioEpecCalculateNFEventoEpec(nfNota, nfInfoEpec, nfEventoEpec, infEpec);
             nfEnviaEventoEpec.getEvento().add(nfEventoEpec);
         }
         return nfEnviaEventoEpec;
+    }
+
+    private NFEventoEpec criaEnvioEpecCalculateNFEventoEpec(NFNota nfNota, NFInfoEpec nfInfoEpec, NFEventoEpec nfEventoEpec, NFInfoEventoEpec infEpec) {
+        if (nfNota.getInfo().getDestinatario() != null) {
+            NFDestinatarioEpec nfDestinatarioEpec = new NFDestinatarioEpec();
+            if (StringUtils.isNotBlank(nfNota.getInfo().getDestinatario().getCnpj())) {
+                nfDestinatarioEpec.setCnpj(nfNota.getInfo().getDestinatario().getCnpj());
+            } else {
+                nfDestinatarioEpec.setCpf(nfNota.getInfo().getDestinatario().getCpfj());
+            }
+            nfDestinatarioEpec.setIdEstrangeiro(nfNota.getInfo().getDestinatario().getIdEstrangeiro());
+            nfDestinatarioEpec.setInscricaoEstadualDestinatario(nfNota.getInfo().getDestinatario().getInscricaoEstadual());
+            if (nfNota.getInfo().getDestinatario().getEndereco() != null) {
+                nfDestinatarioEpec.setUfDestinatario(nfNota.getInfo().getDestinatario().getEndereco().getUf());
+            }
+            if (nfNota.getInfo().getTotal() != null) {
+                nfDestinatarioEpec.setValorTotalIcms(nfNota.getInfo().getTotal().getIcmsTotal().getValorTotalICMS());
+                nfDestinatarioEpec.setValorTotalIcmsSubstituicaoTributaria(nfNota.getInfo().getTotal().getIcmsTotal().getValorTotalICMSST());
+                nfDestinatarioEpec.setValorTotalNFe(nfNota.getInfo().getTotal().getIcmsTotal().getValorTotalNFe());
+            }
+            nfInfoEpec.setDestinatario(nfDestinatarioEpec);
+        }
+        nfEventoEpec.setInfoEvento(infEpec);
+        return nfEventoEpec;
     }
 
     private NFEnviaEventoEpecRetorno comunicaEpec(String epecAssinadoXml) throws Exception {
