@@ -766,19 +766,19 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
                 try {
-                    while (checkReaderInParse(reader)) { // +3 +1
+                    while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type") != null) { //+1
+                    if (reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type") != null) {
                         final java.lang.String fullTypeName = reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type");
-                        if (fullTypeName != null) { //+1
+                        if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) { //+1
+                            if (fullTypeName.contains(":")) {
                                 nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
                             }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix; // +2?
+                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!CTE_DADOS_MSG_TYPE_0.equals(type)) { //+1 +1(!)
+                            if (!CTE_DADOS_MSG_TYPE_0.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (CteDadosMsgType0) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -789,10 +789,10 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     // from anyAttributes.
                     final java.util.Vector handledAttributes = new java.util.Vector();
                     reader.next();
-                    while (checkReaderInParse(reader)) { // +1 while +3 binary
+                    while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.isStartElement()) { //+1
+                    if (reader.isStartElement()) {
                         // use the QName from the parser as the name for the builder
                         final javax.xml.namespace.QName startQname1 = reader.getName();
                         // We need to wrap the reader so that it produces a fake START_DOCUMENT event
@@ -801,14 +801,14 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                         object.setExtraElement(builder1.getOMElement());
                         reader.next();
                     } // End of if for expected property start element
-                    else { //+1
+                    else {
                         // A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT_ERROR_MESSAGE + reader.getLocalName());
                     }
-                    while (checkReaderInParse(reader)) { //+1 while +3
+                    while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.isStartElement()) { //+1
+                    if (reader.isStartElement()) {
                         // A start element we are not expecting indicates a trailing invalid property
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT_ERROR_MESSAGE + reader.getLocalName());
                     }
@@ -816,16 +816,9 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     throw new java.lang.Exception(e);
                 }
                 return object;
-        }
-
-        private static boolean checkReaderInParse(final javax.xml.stream.XMLStreamReader reader) {
-            return !reader.isStartElement() && !reader.isEndElement();
-        }
-        
-        // end of factory class
+            }
+        }// end of factory class
     }
-
-    
 
     public static class CteDistDFeInteresseResponse implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = -7734346985786228491L;
@@ -1421,7 +1414,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
                 try {
-                    while (checkReaderInParse(reader)) {
+                    while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
                     if (reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type") != null) {
@@ -1444,7 +1437,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     // from anyAttributes.
                     final java.util.Vector handledAttributes = new java.util.Vector();
                     reader.next();
-                    while (checkReaderInParse(reader)) {
+                    while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -1460,7 +1453,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                         // A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT_ERROR_MESSAGE + reader.getLocalName());
                     }
-                    while (checkReaderInParse(reader)) {
+                    while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -1472,13 +1465,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 }
                 return object;
             }
-        }
-        
-        private static boolean checkReaderInParse(final javax.xml.stream.XMLStreamReader reader) {
-            !reader.isStartElement() && !reader.isEndElement();
-        }
-        
-        // end of factory class
+        }// end of factory class
     }
 
     private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresse param, final boolean optimizeContent) {
