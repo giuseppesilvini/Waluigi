@@ -889,7 +889,7 @@ public class CteRetRecepcaoStub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
@@ -1163,7 +1163,7 @@ public class CteRetRecepcaoStub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     while (!reader.isEndElement()) {
                         if (reader.isStartElement()) {
                             if (reader.isStartElement() && new javax.xml.namespace.QName(WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RET_RECEPCAO, CTE_CABEC_MSG).equals(reader.getName())) {
@@ -1279,10 +1279,10 @@ public class CteRetRecepcaoStub extends org.apache.axis2.client.Stub {
          */
         protected void validateExtraAttributes(final org.apache.axiom.om.OMAttribute[] param) {
             if ((param != null) && (param.length > 1)) {
-                throw new java.lang.RuntimeException();
+                throw new IllegalArgumentException();
             }
             if ((param != null) && (param.length < 1)) {
-                throw new java.lang.RuntimeException();
+                throw new IllegalArgumentException();
             }
         }
 
@@ -1642,7 +1642,7 @@ public class CteRetRecepcaoStub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }

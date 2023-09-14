@@ -3,12 +3,15 @@ package com.fincatto.documentofiscal.nfe400.webservices.gerado;
 import org.apache.axis2.client.Stub;
 
 import javax.xml.namespace.QName;
+import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
 import com.fincatto.documentofiscal.DFConfig;
 import com.fincatto.documentofiscal.utils.MessageContextFactory;
+import org.apache.axis2.databinding.ADBException;
 
 public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
+    public static final String NFE_RESULT_MSG = "nfeResultMsg";
     private static int counter = 0;
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
@@ -184,7 +187,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
         private ExtensionMapper() {
             throw new IllegalStateException("Utility class");
         }
-        public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+        public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws ADBException {
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
         }
     }
@@ -196,7 +199,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
         /**
          * field for ExtraElement
          */
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -360,7 +363,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
@@ -386,7 +389,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
@@ -400,12 +403,12 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
 
     @SuppressWarnings("serial")
     public static class NfeResultMsg implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao4", "nfeResultMsg", "ns1");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao4", NFE_RESULT_MSG, "ns1");
 
         /**
          * field for ExtraElement
          */
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -452,7 +455,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeResultMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeResultMsg", xmlWriter);
+                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_RESULT_MSG, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -568,7 +571,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"nfeResultMsg".equals(type)) {
+                            if (!NFE_RESULT_MSG.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (NfeResultMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -577,7 +580,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
@@ -603,7 +606,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new XMLStreamException(e);
                 }
                 return object;
             }

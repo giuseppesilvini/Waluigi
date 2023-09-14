@@ -12,6 +12,7 @@ import com.fincatto.documentofiscal.utils.DFSocketFactory;
 import com.fincatto.documentofiscal.validadores.DFXMLValidador;
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.rmi.RemoteException;
@@ -103,7 +104,7 @@ public class WSDistribuicaoCTe {
         return distDFeInt;
     }
 
-    public static String decodeGZipToXml(final String conteudoEncode) throws Exception {
+    public static String decodeGZipToXml(final String conteudoEncode) throws IOException {
         if (conteudoEncode == null || conteudoEncode.length() == 0) {
             return "";
         }

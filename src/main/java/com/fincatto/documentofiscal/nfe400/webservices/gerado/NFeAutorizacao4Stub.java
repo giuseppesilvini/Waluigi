@@ -10,6 +10,8 @@ import com.fincatto.documentofiscal.DFConfig;
 import com.fincatto.documentofiscal.utils.MessageContextFactory;
 
 public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
+    public static final String NFE_RESULT_MSG = "nfeResultMsg";
+    public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4 = "http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4";
     private static int counter = 0;
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
@@ -71,11 +73,11 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation __operation;
         this._operations = new org.apache.axis2.description.AxisOperation[2];
         __operation = new org.apache.axis2.description.OutInAxisOperation();
-        __operation.setName(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4", "nfeAutorizacaoLote"));
+        __operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, "nfeAutorizacaoLote"));
         this._service.addOperation(__operation);
         this._operations[0] = __operation;
         __operation = new org.apache.axis2.description.OutInAxisOperation();
-        __operation.setName(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4", "nfeAutorizacaoLoteZip"));
+        __operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, "nfeAutorizacaoLoteZip"));
         this._service.addOperation(__operation);
         this._operations[1] = __operation;
     }
@@ -259,12 +261,12 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
 
     @SuppressWarnings("serial")
     public static class NfeResultMsg implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4", "nfeResultMsg", "ns1");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, NFE_RESULT_MSG, "ns1");
 
         /**
          * field for ExtraElement
          */
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -307,11 +309,11 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeResultMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeResultMsg", xmlWriter);
+                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_RESULT_MSG, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -323,7 +325,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4)) {
                 return "ns1";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -426,7 +428,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"nfeResultMsg".equals(type)) {
+                            if (!NFE_RESULT_MSG.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (NfeResultMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -435,7 +437,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
@@ -475,12 +477,12 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
 
     @SuppressWarnings("serial")
     public static class NfeDadosMsg implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4", "nfeDadosMsg", "ns1");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, "nfeDadosMsg", "ns1");
 
         /**
          * field for ExtraElement
          */
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -523,7 +525,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
                 } else {
@@ -539,7 +541,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4)) {
                 return "ns1";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -643,7 +645,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
@@ -692,7 +694,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
 
     @SuppressWarnings("serial")
     public static class NfeDadosMsgZip implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4", "nfeDadosMsgZip", "ns1");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, "nfeDadosMsgZip", "ns1");
 
         /**
          * field for NfeDadosMsgZip
@@ -735,12 +737,12 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
         @Override
         public void serialize(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter, final boolean serializeType) throws javax.xml.stream.XMLStreamException {
             // We can safely assume an element has only one type associated with it
-            final java.lang.String namespace = "http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4";
+            final java.lang.String namespace = HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4;
             final java.lang.String _localName = "nfeDadosMsgZip";
             this.writeStartElement(null, namespace, _localName, xmlWriter);
             // add the type details if this is used in a simple type
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDadosMsgZip", xmlWriter);
                 } else {
@@ -756,7 +758,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4)) {
                 return "ns1";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -830,44 +832,53 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
              * static method to create the object Precondition: If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable If this object is not an element, it is a complex type and the reader is at the event just after the outer start element Postcondition: If this object is an element, the reader is positioned at its end element If this object is a complex type, the reader is positioned at the end element of its outer element
              */
             @SuppressWarnings({"unused", "rawtypes"})
-            public static NfeDadosMsgZip parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            public static NfeDadosMsgZip parse(final javax.xml.stream.XMLStreamReader reader) throws javax.xml.stream.XMLStreamException {
                 final NfeDadosMsgZip object = new NfeDadosMsgZip();
                 final int event;
                 javax.xml.namespace.QName currentQName = null;
                 java.lang.String nillableValue;
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
+
                 try {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
+
+                    moveToStartElement(reader);
+
                     currentQName = reader.getName();
-                    // Note all attributes that were handled. Used to differ normal attributes
-                    // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
-                    while (!reader.isEndElement()) {
-                        if (reader.isStartElement()) {
-                            if ((reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4", "nfeDadosMsgZip").equals(reader.getName())) || new javax.xml.namespace.QName("", "nfeDadosMsgZip").equals(reader.getName())) {
-                                nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "nil");
-                                if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
-                                    throw new org.apache.axis2.databinding.ADBException("The element: " + "nfeDadosMsgZip" + "  cannot be null");
-                                }
-                                final java.lang.String content = reader.getElementText();
-                                object.setNfeDadosMsgZip(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
-                            } // End of if for expected property start element
-                            else {
-                                // 3 - A start element we are not expecting indicates an invalid parameter was passed
-                                throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
-                            }
-                        } else {
-                            reader.next();
-                        }
-                    } // end of while loop
-                } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+
+                    if (isNfeDadosMsgZipElement(reader)) {
+                        String content = readElementText(reader);
+                        object.setNfeDadosMsgZip(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                    } else {
+                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                    }
+                } catch (javax.xml.stream.XMLStreamException e) {
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
+
+
+            private static void moveToStartElement(XMLStreamReader reader) throws javax.xml.stream.XMLStreamException {
+                while (!reader.isStartElement() && !reader.isEndElement()) {
+                    reader.next();
+                }
+            }
+
+
+            private static boolean isNfeDadosMsgZipElement(XMLStreamReader reader) {
+                javax.xml.namespace.QName expectedQName = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, "nfeDadosMsgZip");
+                return (reader.isStartElement() && expectedQName.equals(reader.getName())) ||
+                        new javax.xml.namespace.QName("", "nfeDadosMsgZip").equals(reader.getName());
+            }
+
+            private static String readElementText(XMLStreamReader reader) throws javax.xml.stream.XMLStreamException {
+                return reader.getElementText();
+            }
+
         } // end of factory class
 
         @Override

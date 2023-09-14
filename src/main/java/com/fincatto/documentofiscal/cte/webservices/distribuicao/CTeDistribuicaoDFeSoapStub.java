@@ -479,7 +479,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
@@ -496,7 +496,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT_ERROR_MESSAGE + reader.getLocalName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
@@ -521,7 +521,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
          * field for ExtraElement
          */
 
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -783,7 +783,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
                     while (checkReaderInParse(reader)) {
                         reader.next();
@@ -807,7 +807,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT_ERROR_MESSAGE + reader.getLocalName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
@@ -1119,7 +1119,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
@@ -1176,7 +1176,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
          * field for ExtraElement
          */
 
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -1438,7 +1438,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
                     while (checkReaderInParse(reader)) {
                         reader.next();
@@ -1464,7 +1464,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT_ERROR_MESSAGE + reader.getLocalName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }

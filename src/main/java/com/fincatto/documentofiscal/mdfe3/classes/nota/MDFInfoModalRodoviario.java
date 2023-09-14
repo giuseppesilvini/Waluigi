@@ -47,7 +47,7 @@ public class MDFInfoModalRodoviario extends DFBase {
      * <h1>Lacres</h1>
      */
     @ElementList(entry = "lacRodo", inline = true, required = false)
-    private List<MDFInfoLacre1A20> lacres;
+    private transient List<MDFInfoLacre1A20> lacres;
 
     public MDFInfoModalRodoviarioANTT getMdfInfoModalRodoviarioANTT() {
         return this.mdfInfoModalRodoviarioANTT;

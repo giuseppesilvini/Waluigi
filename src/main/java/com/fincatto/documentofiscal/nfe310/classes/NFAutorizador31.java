@@ -90,7 +90,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -265,7 +265,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -351,7 +351,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -437,7 +437,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -523,7 +523,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -609,7 +609,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -695,7 +695,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -781,7 +781,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -867,12 +867,12 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
         public String getNfeDownloadNF(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -954,7 +954,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -1040,7 +1040,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -1126,7 +1126,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -1212,7 +1212,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -1298,7 +1298,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -1384,7 +1384,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -1470,7 +1470,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -1556,7 +1556,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNFeDistribuicaoDFe(final DFAmbiente ambiente) {
-            throw new UnsupportedOperationException("Nao suportado ainda");
+            throw new UnsupportedOperationException(NAO_SUPORTADO_AINDA);
         }
 
         @Override
@@ -1569,6 +1569,8 @@ public enum NFAutorizador31 {
             return new DFUnidadeFederativa[] {};
         }
     };
+
+    public static final String NAO_SUPORTADO_AINDA = "Nao suportado ainda";
 
     public abstract String getNfeAutorizacao(final DFAmbiente ambiente);
 

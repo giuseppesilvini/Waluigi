@@ -13,6 +13,7 @@ import org.apache.axiom.om.OMElement;
 import org.apache.axiom.om.util.AXIOMUtil;
 
 import java.math.BigDecimal;
+import java.rmi.RemoteException;
 import java.time.ZonedDateTime;
 import java.util.Collections;
 
@@ -37,7 +38,7 @@ public class WSManifestacaoDestinatario implements DFLog {
         return this.config.getPersister().read(NFEnviaEventoRetorno.class, omElementResult.toString());
     }
     
-    private OMElement efetuaManifestacaoDestinatario(final String xmlAssinado, final String chaveAcesso) throws Exception {
+    private OMElement efetuaManifestacaoDestinatario(final String xmlAssinado, final String chaveAcesso) throws javax.xml.stream.XMLStreamException, RemoteException {
         final RecepcaoEventoStub.NfeCabecMsg cabecalho = new RecepcaoEventoStub.NfeCabecMsg();
         cabecalho.setCUF(this.config.getCUF().getCodigoIbge());
         cabecalho.setVersaoDados(WSManifestacaoDestinatario.VERSAO_LEIAUTE.toPlainString());

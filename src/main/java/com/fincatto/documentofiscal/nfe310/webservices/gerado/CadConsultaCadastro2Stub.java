@@ -16,6 +16,11 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
  */
 
 public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
+    public static final String CONSULTA_CADASTRO_2_RESULT = "consultaCadastro2Result";
+    public static final String NFE_DADOS_MSG = "nfeDadosMsg";
+    public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
+    public static final String NFE_CABEC_MSG = "nfeCabecMsg";
+    public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2 = "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2";
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
     // hashmaps to keep the fault mapping
@@ -45,7 +50,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation __operation;
         this._operations = new org.apache.axis2.description.AxisOperation[1];
         __operation = new org.apache.axis2.description.OutInAxisOperation();
-        __operation.setName(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2", "consultaCadastro2"));
+        __operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, "consultaCadastro2"));
         this._service.addOperation(__operation);
         this._operations[0] = __operation;
     }
@@ -85,11 +90,11 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
             _messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2", "consultaCadastro2")), new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2", "consultaCadastro2"));
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, "consultaCadastro2")), new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, "consultaCadastro2"));
             env.build();
             // add the children only if the parameter is not null
             if (nfeCabecMsg != null) {
-                final org.apache.axiom.om.OMElement omElementnfeCabecMsg = this.toOM(nfeCabecMsg, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2", "consultaCadastro2")));
+                final org.apache.axiom.om.OMElement omElementnfeCabecMsg = this.toOM(nfeCabecMsg, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, "consultaCadastro2")));
                 this.addHeader(omElementnfeCabecMsg, env);
             }
             // adding SOAP soap_headers
@@ -210,7 +215,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
             this.localCUF = param;
         }
 
-        protected org.apache.axiom.om.OMAttribute[] localExtraAttributes;
+        protected transient org.apache.axiom.om.OMAttribute[] localExtraAttributes;
 
         public org.apache.axiom.om.OMAttribute[] getExtraAttributes() {
             return this.localExtraAttributes;
@@ -218,10 +223,10 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
 
         protected void validateExtraAttributes(final org.apache.axiom.om.OMAttribute[] param) {
             if ((param != null) && (param.length > 1)) {
-                throw new java.lang.RuntimeException();
+                throw new IllegalArgumentException();
             }
             if ((param != null) && (param.length < 1)) {
-                throw new java.lang.RuntimeException();
+                throw new IllegalArgumentException();
             }
         }
 
@@ -258,11 +263,11 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeCabecMsg", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", NFE_CABEC_MSG, xmlWriter);
                 }
             }
             if (this.localExtraAttributes != null) {
@@ -271,7 +276,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                 }
             }
             if (this.localVersaoDadosTracker) {
-                namespace = "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2";
+                namespace = HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2;
                 this.writeStartElement(null, namespace, "versaoDados", xmlWriter);
                 if (this.localVersaoDados == null) {
                     // write the nil attribute
@@ -282,7 +287,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
             if (this.localCUFTracker) {
-                namespace = "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2";
+                namespace = HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2;
                 this.writeStartElement(null, namespace, "cUF", xmlWriter);
                 if (this.localCUF == null) {
                     // write the nil attribute
@@ -296,7 +301,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -358,7 +363,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
             final java.util.ArrayList<Serializable> elementList = new java.util.ArrayList<>();
             final java.util.ArrayList<Object> attribList = new java.util.ArrayList<>();
             if (this.localVersaoDadosTracker) {
-                elementList.add(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2", "versaoDados"));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, "versaoDados"));
                 if (this.localVersaoDados != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localVersaoDados));
                 } else {
@@ -366,7 +371,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                 }
             }
             if (this.localCUFTracker) {
-                elementList.add(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2", "cUF"));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, "cUF"));
                 if (this.localCUF != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localCUF));
                 } else {
@@ -389,8 +394,8 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
@@ -398,7 +403,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"nfeCabecMsg".equals(type)) {
+                            if (!NFE_CABEC_MSG.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (NfeCabecMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -424,8 +429,8 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2", "versaoDados").equals(reader.getName())) {
-                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "nil");
+                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, "versaoDados").equals(reader.getName())) {
+                        nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                         if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException("The element: " + "versaoDados" + "  cannot be null");
                         }
@@ -436,8 +441,8 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2", "cUF").equals(reader.getName())) {
-                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "nil");
+                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, "cUF").equals(reader.getName())) {
+                        nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                         if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException("The element: " + "cUF" + "  cannot be null");
                         }
@@ -453,7 +458,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
@@ -463,7 +468,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
     public static class NfeCabecMsgE implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 147700344211352494L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2", "nfeCabecMsg", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, NFE_CABEC_MSG, "");
 
         protected NfeCabecMsg localNfeCabecMsg;
 
@@ -513,7 +518,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                     // from anyAttributes.
                     while (!reader.isEndElement()) {
                         if (reader.isStartElement()) {
-                            if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2", "nfeCabecMsg").equals(reader.getName())) {
+                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, NFE_CABEC_MSG).equals(reader.getName())) {
                                 object.setNfeCabecMsg(NfeCabecMsg.Factory.parse(reader));
                             } // End of if for expected property start element
                             else {
@@ -525,7 +530,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                         }
                     } // end of while loop
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
@@ -535,9 +540,9 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
     public static class ConsultaCadastro2Result implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = -2645890959338742015L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2", "consultaCadastro2Result", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, CONSULTA_CADASTRO_2_RESULT, "");
 
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         public org.apache.axiom.om.OMElement getExtraElement() {
             return this.localExtraElement;
@@ -566,11 +571,11 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":consultaCadastro2Result", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":consultaCadastro2Result", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "consultaCadastro2Result", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", CONSULTA_CADASTRO_2_RESULT, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -582,7 +587,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -651,8 +656,8 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
@@ -660,7 +665,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"consultaCadastro2Result".equals(type)) {
+                            if (!CONSULTA_CADASTRO_2_RESULT.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (ConsultaCadastro2Result) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -692,7 +697,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
@@ -702,7 +707,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
     public static class ExtensionMapper {
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-            if ("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2".equals(namespaceURI) && "nfeCabecMsg".equals(typeName)) {
+            if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2.equals(namespaceURI) && NFE_CABEC_MSG.equals(typeName)) {
                 return NfeCabecMsg.Factory.parse(reader);
             }
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
@@ -712,9 +717,9 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
     public static class NfeDadosMsg implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 249980700063117388L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2", "nfeDadosMsg", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, NFE_DADOS_MSG, "");
 
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         public org.apache.axiom.om.OMElement getExtraElement() {
             return this.localExtraElement;
@@ -743,11 +748,11 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeDadosMsg", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", NFE_DADOS_MSG, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -759,7 +764,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -828,8 +833,8 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
@@ -837,7 +842,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"nfeDadosMsg".equals(type)) {
+                            if (!NFE_DADOS_MSG.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (NfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -869,7 +874,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }

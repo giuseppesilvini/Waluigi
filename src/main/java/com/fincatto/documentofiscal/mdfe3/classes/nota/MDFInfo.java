@@ -40,7 +40,7 @@ public class MDFInfo extends DFBase {
      * Informações dos Documentos fiscais vinculados ao manifesto.
      */
     @Element(name = "infDoc")
-    private MDFInfoInformacoesDocumentos informacoesDocumentos;
+    private transient MDFInfoInformacoesDocumentos informacoesDocumentos;
 
     @ElementList(name = "seg", inline = true, required = false)
     private List<MDFInfoSeguro> seguro;
@@ -52,7 +52,7 @@ public class MDFInfo extends DFBase {
     private MDFInfoTotal infoTotal;
 
     @ElementList(entry = "lacres", inline = true, required = false)
-    private List<MDFInfoLacre1A60> lacres;
+    private transient List<MDFInfoLacre1A60> lacres;
 
     @ElementList(name = "autXML", inline = true, required = false)
     private List<MDFInfoAutorizacaoDownload> autorizacaoDownload;
@@ -61,13 +61,13 @@ public class MDFInfo extends DFBase {
     private MDFInfoInformacoesAdicionais informacoesAdicionais;
 
     @Element(name = "infRespTec", required = false)
-    private MDFRespTec infRespTec;
+    private transient MDFRespTec infRespTec;
     
     /**
      * Grupo de informações do pedido de emissão da NFF
      */
     @Element(name = "infSolicNFF", required = false)
-    private MDFInfSolicNFF infSolicNFF;
+    private transient MDFInfSolicNFF infSolicNFF;
 
     public String getIdentificador() {
         return this.identificador;

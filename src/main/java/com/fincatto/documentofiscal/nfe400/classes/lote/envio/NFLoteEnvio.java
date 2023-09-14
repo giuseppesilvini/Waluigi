@@ -23,7 +23,7 @@ public class NFLoteEnvio extends DFBase {
     private NFLoteIndicadorProcessamento indicadorProcessamento;
     
     @ElementList(name = "NFe", inline = true)
-    List<NFNota> notas;
+    transient List<NFNota> notas;
 
     public String getIdLote() {
         return this.idLote;

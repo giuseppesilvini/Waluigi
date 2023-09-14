@@ -13,6 +13,8 @@ import com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.MTCadCon
 import org.apache.axiom.om.OMElement;
 import org.apache.axiom.om.util.AXIOMUtil;
 
+import java.rmi.RemoteException;
+
 class WSConsultaCadastro implements DFLog {
     
     private static final String NOME_SERVICO = "CONS-CAD";
@@ -35,7 +37,7 @@ class WSConsultaCadastro implements DFLog {
         return this.config.getPersister().read(NFRetornoConsultaCadastro.class, resultado.toString());
     }
     
-    private OMElement efetuaConsulta(final DFUnidadeFederativa uf, final OMElement omElementConsulta) throws Exception {
+    private OMElement efetuaConsulta(final DFUnidadeFederativa uf, final OMElement omElementConsulta) throws RemoteException {
         final NFAutorizador400 autorizador = NFAutorizador400.valueOfCodigoUF(uf);
         final String urlConsulta = autorizador.getConsultaCadastro(this.config.getAmbiente());
         if (urlConsulta == null) {

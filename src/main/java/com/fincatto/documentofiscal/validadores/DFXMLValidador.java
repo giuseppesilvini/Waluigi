@@ -28,11 +28,11 @@ public final class DFXMLValidador {
         return true;
     }
 
-    public static boolean validaLote(final String arquivoXML) throws Exception {
+    public static boolean validaLote(final String arquivoXML) throws IOException, SAXException, URISyntaxException {
         return DFXMLValidador.valida(arquivoXML, "enviNFe_v3.10.xsd");
     }
 
-    public static boolean validaNota(final String arquivoXML) throws Exception {
+    public static boolean validaNota(final String arquivoXML) throws IOException, SAXException, URISyntaxException {
         return DFXMLValidador.valida(arquivoXML, "nfe_v3.10.xsd");
     }
 
@@ -46,7 +46,7 @@ public final class DFXMLValidador {
         return true;
     }
 
-    public static boolean validaLote400(final String arquivoXML) throws Exception {
+    public static boolean validaLote400(final String arquivoXML) throws IOException, SAXException, URISyntaxException {
         return DFXMLValidador.valida400(arquivoXML, "enviNFe_v4.00.xsd");
     }
 
@@ -78,23 +78,23 @@ public final class DFXMLValidador {
         return true;
     }
 
-    public static boolean validaLoteMDFe(final String arquivoXML) throws Exception {
+    public static boolean validaLoteMDFe(final String arquivoXML) throws IOException, SAXException, URISyntaxException {
         return DFXMLValidador.validaMDF(arquivoXML, "enviMDFe_v3.00.xsd");
     }
 
-    public static boolean validaMDFe(final String arquivoXML) throws Exception {
+    public static boolean validaMDFe(final String arquivoXML) throws IOException, SAXException, URISyntaxException {
         return DFXMLValidador.validaMDF(arquivoXML, "mdfe_v3.00.xsd");
     }
     
-    public static boolean validaMDFeProcessado(final String xml) throws Exception {
+    public static boolean validaMDFeProcessado(final String xml) throws IOException, SAXException, URISyntaxException {
         return DFXMLValidador.validaMDF(xml, "procMDFe_v3.00.xsd");
     }
 
-    public static boolean validaEventoMDFe(final String xml) throws Exception {
+    public static boolean validaEventoMDFe(final String xml) throws IOException, SAXException, URISyntaxException {
         return DFXMLValidador.validaMDF(xml, "eventoMDFe_v3.00.xsd");
     }
 
-    public static boolean validaEventoPagamentoOperacaoMDFe(final String xml) throws Exception {
+    public static boolean validaEventoPagamentoOperacaoMDFe(final String xml) throws IOException, SAXException, URISyntaxException {
         return DFXMLValidador.validaMDF(xml, "evPagtoOperMDFe_v3.00.xsd");
     }
 
@@ -147,7 +147,7 @@ public final class DFXMLValidador {
         return DFXMLValidador.validaDistribuicaoCTe(arquivoXML, "distDFeInt_v1.00.xsd");
     }
 
-    public static boolean validaConsultaDfe(final String arquivoXML) throws Exception {
+    public static boolean validaConsultaDfe(final String arquivoXML) throws IOException, SAXException, URISyntaxException {
         return DFXMLValidador.validaDfe(arquivoXML, "distDFeInt_v1.01.xsd");
     }
 
@@ -161,11 +161,11 @@ public final class DFXMLValidador {
         return true;
     }
 
-    public static boolean validaEpec(final String arquivoXML) throws Exception {
+    public static boolean validaEpec(final String arquivoXML) throws IOException, SAXException, URISyntaxException {
         return DFXMLValidador.validaEpec(arquivoXML, "envEPEC_v1.00.xsd");
     }
 
-    public static boolean validaEventoEpec(final String arquivoXML) throws Exception {
+    public static boolean validaEventoEpec(final String arquivoXML) throws IOException, SAXException, URISyntaxException {
         return DFXMLValidador.validaEpec(arquivoXML, "EPEC_v1.00.xsd");
     }
 }

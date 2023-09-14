@@ -11,6 +11,7 @@ import org.apache.axiom.om.OMElement;
 import org.apache.axiom.om.util.AXIOMUtil;
 
 import java.math.BigDecimal;
+import java.rmi.RemoteException;
 
 class WSNotaConsulta implements DFLog {
     
@@ -32,7 +33,7 @@ class WSNotaConsulta implements DFLog {
         return this.config.getPersister().read(MDFeNotaConsultaRetorno.class, omElementRetorno.toString());
     }
     
-    private OMElement efetuaConsulta(final OMElement omElementConsulta, final String chaveDeAcesso) throws Exception {
+    private OMElement efetuaConsulta(final OMElement omElementConsulta, final String chaveDeAcesso) throws RemoteException {
         final MDFChaveParser ctChaveParser = new MDFChaveParser(chaveDeAcesso);
         final MDFeConsultaStub.MdfeCabecMsg cabec = new MDFeConsultaStub.MdfeCabecMsg();
         cabec.setCUF(ctChaveParser.getNFUnidadeFederativa().getCodigoIbge());

@@ -300,7 +300,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
          * field for ExtraElement
          */
 
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -592,7 +592,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
@@ -852,7 +852,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
                         }
                     } // end of while loop
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
@@ -947,7 +947,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
          * field for ExtraAttributes This was an Attribute! This was an Array!
          */
 
-        protected org.apache.axiom.om.OMAttribute[] localExtraAttributes;
+        protected transient org.apache.axiom.om.OMAttribute[] localExtraAttributes;
 
         /**
          * Auto generated getter method
@@ -963,10 +963,10 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
          */
         protected void validateExtraAttributes(final org.apache.axiom.om.OMAttribute[] param) {
             if ((param != null) && (param.length > 1)) {
-                throw new java.lang.RuntimeException();
+                throw new IllegalArgumentException();
             }
             if ((param != null) && (param.length < 1)) {
-                throw new java.lang.RuntimeException();
+                throw new IllegalArgumentException();
             }
         }
 
@@ -1323,7 +1323,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
@@ -1339,7 +1339,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
          * field for ExtraElement
          */
 
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -1631,7 +1631,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }

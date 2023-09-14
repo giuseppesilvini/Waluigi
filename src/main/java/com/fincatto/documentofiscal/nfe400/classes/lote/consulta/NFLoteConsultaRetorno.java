@@ -45,7 +45,7 @@ public class NFLoteConsultaRetorno extends DFBase {
     private String mensagem;
     
     @ElementList(entry = "protNFe", inline = true, required = false)
-    protected List<NFProtocolo> protocolos;
+    protected transient List<NFProtocolo> protocolos;
     
     public String getVersao() {
         return this.versao;

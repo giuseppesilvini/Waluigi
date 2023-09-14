@@ -322,7 +322,7 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
         /**
          * field for ExtraElement
          */
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -614,7 +614,7 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
@@ -649,7 +649,7 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
         /**
          * field for ExtraAttributes This was an Attribute! This was an Array!
          */
-        protected org.apache.axiom.om.OMAttribute[] localExtraAttributes;
+        protected transient org.apache.axiom.om.OMAttribute[] localExtraAttributes;
 
         public boolean isVersaoDadosSpecified() {
             return this.localVersaoDadosTracker;
@@ -1073,7 +1073,7 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
@@ -1097,7 +1097,7 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
         /**
          * field for ExtraElement
          */
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -1389,7 +1389,7 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
@@ -1649,7 +1649,7 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
                         }
                     } // end of while loop
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new java.lang.Exception(e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }

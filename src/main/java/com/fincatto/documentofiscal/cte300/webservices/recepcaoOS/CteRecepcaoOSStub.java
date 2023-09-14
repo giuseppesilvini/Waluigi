@@ -19,6 +19,10 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
     public static final String EXTRA_ELEMENT_CANNOT_BE_NULL = "extraElement cannot be null!!";
     public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
+    public static final String CTE_DADOS_MSG = "cteDadosMsg";
+    public static final String CTE_RECEPCAO_OS_RESULT = "cteRecepcaoOSResult";
+    public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
+    public static final String HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS = "http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS";
     protected org.apache.axis2.description.AxisOperation[] operations;
 
     // hashmaps to keep the fault mapping
@@ -48,7 +52,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation operation;
         this.operations = new org.apache.axis2.description.AxisOperation[1];
         operation = new org.apache.axis2.description.OutInAxisOperation();
-        operation.setName(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "cteRecepcaoOS"));
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "cteRecepcaoOS"));
         this._service.addOperation(operation);
         this.operations[0] = operation;
     }
@@ -106,11 +110,11 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
             messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "cteRecepcaoOS")), new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "cteRecepcaoOS"));
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "cteRecepcaoOS")), new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "cteRecepcaoOS"));
             env.build();
             // add the children only if the parameter is not null
             if (cteCabecMsg1 != null) {
-                final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "cteRecepcaoOS")));
+                final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "cteRecepcaoOS")));
                 this.addHeader(omElementcteCabecMsg1, env);
             }
             // adding SOAP soap_headers
@@ -174,10 +178,10 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
         org.apache.axiom.soap.SOAPEnvelope env;
         final org.apache.axis2.context.MessageContext _messageContext = MessageContextFactory.INSTANCE.create(config);
         // Style is Doc.
-        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "cteRecepcaoOS")), new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "cteRecepcaoOS"));
+        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "cteRecepcaoOS")), new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "cteRecepcaoOS"));
         // add the soap_headers only if they are not null
         if (cteCabecMsg1 != null) {
-            final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "cteRecepcaoOS")));
+            final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "cteRecepcaoOS")));
             this.addHeader(omElementcteCabecMsg1, env);
         }
         // adding SOAP soap_headers
@@ -289,7 +293,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
     public static class CteCabecMsgE implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 985824462605573260L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "cteCabecMsg", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "cteCabecMsg", "");
 
         /**
          * field for CteCabecMsg
@@ -341,7 +345,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -527,10 +531,10 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     while (!reader.isEndElement()) {
                         if (reader.isStartElement()) {
-                            if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "cteCabecMsg").equals(reader.getName())) {
+                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "cteCabecMsg").equals(reader.getName())) {
                                 object.setCteCabecMsg(CteCabecMsg.Factory.parse(reader));
                             } // End of if for expected property start element
                             else {
@@ -698,7 +702,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS);
                 serializeCheckPrefix(namespacePrefix, xmlWriter);
             }
             if (this.localExtraAttributes != null) {
@@ -707,7 +711,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                 }
             }
             if (this.localCUFTracker) {
-                namespace = "http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS";
+                namespace = HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS;
                 this.writeStartElement(null, namespace, "cUF", xmlWriter);
                 if (this.localCUF == null) {
                     // write the nil attribute
@@ -718,7 +722,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
             if (this.localVersaoDadosTracker) {
-                namespace = "http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS";
+                namespace = HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS;
                 this.writeStartElement(null, namespace, "versaoDados", xmlWriter);
                 if (this.localVersaoDados == null) {
                     // write the nil attribute
@@ -740,7 +744,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -902,7 +906,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
             final java.util.ArrayList elementList = new java.util.ArrayList();
             final java.util.ArrayList attribList = new java.util.ArrayList();
             if (this.localCUFTracker) {
-                elementList.add(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "cUF"));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "cUF"));
                 if (this.localCUF != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localCUF));
                 } else {
@@ -910,7 +914,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                 }
             }
             if (this.localVersaoDadosTracker) {
-                elementList.add(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "versaoDados"));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "versaoDados"));
                 if (this.localVersaoDados != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localVersaoDados));
                 } else {
@@ -945,8 +949,8 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
@@ -963,7 +967,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     // now run through all any or extra attributes
                     // which were not reflected until now
                     for (int i = 0; i < reader.getAttributeCount(); i++) {
@@ -980,8 +984,8 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "cUF").equals(reader.getName())) {
-                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "nil");
+                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "cUF").equals(reader.getName())) {
+                        nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                         if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException("The element: " + "cUF" + "  cannot be null");
                         }
@@ -992,8 +996,8 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "versaoDados").equals(reader.getName())) {
-                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "nil");
+                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "versaoDados").equals(reader.getName())) {
+                        nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                         if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException("The element: " + "versaoDados" + "  cannot be null");
                         }
@@ -1021,7 +1025,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
             throw new IllegalStateException(UTILITY_CLASS_EXCEPTION_MESSAGE);
         }
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-            if ("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS".equals(namespaceURI) && "cteCabecMsg".equals(typeName)) {
+            if (HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS.equals(namespaceURI) && "cteCabecMsg".equals(typeName)) {
                 return CteCabecMsg.Factory.parse(reader);
             }
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
@@ -1031,7 +1035,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
     public static class CteDadosMsg implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 1115547108226798995L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "cteDadosMsg", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, CTE_DADOS_MSG, "");
 
         /**
          * field for ExtraElement
@@ -1081,11 +1085,11 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":cteDadosMsg", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":cteDadosMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "cteDadosMsg", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", CTE_DADOS_MSG, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -1097,7 +1101,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -1288,8 +1292,8 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
@@ -1297,7 +1301,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"cteDadosMsg".equals(type)) {
+                            if (!CTE_DADOS_MSG.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (CteDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -1306,7 +1310,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
@@ -1342,7 +1346,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
     public static class CteRecepcaoOSResult implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 2563788968507390501L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS", "cteRecepcaoOSResult", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, CTE_RECEPCAO_OS_RESULT, "");
 
         /**
          * field for ExtraElement
@@ -1392,11 +1396,11 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":cteRecepcaoOSResult", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":cteRecepcaoOSResult", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "cteRecepcaoOSResult", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", CTE_RECEPCAO_OS_RESULT, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -1408,7 +1412,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS)) {
                 return "";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -1599,8 +1603,8 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                         if (fullTypeName != null) {
                             java.lang.String nsPrefix = null;
                             if (fullTypeName.contains(":")) {
@@ -1608,7 +1612,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"cteRecepcaoOSResult".equals(type)) {
+                            if (!CTE_RECEPCAO_OS_RESULT.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (CteRecepcaoOSResult) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -1617,7 +1621,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();

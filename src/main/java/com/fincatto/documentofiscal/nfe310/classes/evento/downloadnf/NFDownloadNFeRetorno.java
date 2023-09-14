@@ -30,7 +30,7 @@ public class NFDownloadNFeRetorno extends DFBase {
     private String dataRetorno;
 
     @ElementList(name = "retNFe", inline = true, required = false)
-    private List<NFDownloadNFeRetornoInfo> info;
+    private transient List<NFDownloadNFeRetornoInfo> info;
 
     public NFDownloadNFeRetorno() {
         this.versao = null;

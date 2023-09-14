@@ -15,6 +15,8 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     public static final String NFE_RESULT_MSG = "nfeResultMsg";
     public static final String CONSULTA_CADASTRO_RESULT = "consultaCadastroResult";
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
+    public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4 = "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4";
+    public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
     private static int counter = 0;
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
@@ -79,7 +81,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
         __operation = new org.apache.axis2.description.OutInAxisOperation();
 
-        __operation.setName(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4","consultaCadastro"));
+        __operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4,"consultaCadastro"));
         this._service.addOperation(__operation);
 
         this._operations[0] = __operation;
@@ -214,12 +216,12 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         public static Object getTypeObject(
                 String namespaceURI, String typeName,
                 javax.xml.stream.XMLStreamReader reader) throws Exception {
-            if ("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4".equals(
+            if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4.equals(
                     namespaceURI) && NFE_DADOS_MSG_TYPE_0.equals(typeName)) {
                 return NfeDadosMsgType0.Factory.parse(reader);
             }
 
-            if ("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4".equals(
+            if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4.equals(
                     namespaceURI) &&
                     CONSULTA_CADASTRO_RESULT_TYPE_0.equals(typeName)) {
                 return ConsultaCadastroResultType0.Factory.parse(reader);
@@ -231,7 +233,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     }
 
     public static class NfeResultMsg implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4",
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4,
                 NFE_RESULT_MSG, "ns1");
 
         /**
@@ -307,16 +309,16 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
             if (serializeType) {
                 String namespacePrefix = registerPrefix(xmlWriter,
-                        "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4");
+                        HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4);
 
                 if ((namespacePrefix != null) &&
                         (namespacePrefix.trim().length() > 0)) {
                     writeAttribute("xsi",
-                            "http://www.w3.org/2001/XMLSchema-instance", "type",
+                            XMLSCHEMA_INSTANCE, "type",
                             namespacePrefix + ":nfeResultMsg", xmlWriter);
                 } else {
                     writeAttribute("xsi",
-                            "http://www.w3.org/2001/XMLSchema-instance", "type",
+                            XMLSCHEMA_INSTANCE, "type",
                             NFE_RESULT_MSG, xmlWriter);
                 }
             }
@@ -328,7 +330,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 }
 
                 localConsultaCadastroResult.serialize(new javax.xml.namespace.QName(
-                        "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4",
+                        HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4,
                         CONSULTA_CADASTRO_RESULT), xmlWriter);
             }
 
@@ -338,7 +340,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         private static String generatePrefix(
                 String namespace) {
             if (namespace.equals(
-                    "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4")) {
+                    HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4)) {
                 return "ns1";
             }
 
@@ -463,9 +465,9 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                     currentQName = reader.getName();
 
                     if (reader.getAttributeValue(
-                            "http://www.w3.org/2001/XMLSchema-instance",
+                            XMLSCHEMA_INSTANCE,
                             "type") != null) {
-                        String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                        String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE,
                                 "type");
 
                         if (fullTypeName != null) {
@@ -494,7 +496,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
 
                     reader.next();
 
@@ -503,7 +505,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
                     if ((reader.isStartElement() &&
                             new javax.xml.namespace.QName(
-                                    "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4",
+                                    HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4,
                                     CONSULTA_CADASTRO_RESULT).equals(
                                     reader.getName())) ||
                             new javax.xml.namespace.QName("",
@@ -540,7 +542,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         /**
          * field for ExtraElement
          */
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -599,17 +601,17 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
             if (serializeType) {
                 String namespacePrefix = registerPrefix(xmlWriter,
-                        "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4");
+                        HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4);
 
                 if ((namespacePrefix != null) &&
                         (namespacePrefix.trim().length() > 0)) {
                     writeAttribute("xsi",
-                            "http://www.w3.org/2001/XMLSchema-instance", "type",
+                            XMLSCHEMA_INSTANCE, "type",
                             namespacePrefix + ":consultaCadastroResult_type0",
                             xmlWriter);
                 } else {
                     writeAttribute("xsi",
-                            "http://www.w3.org/2001/XMLSchema-instance", "type",
+                            XMLSCHEMA_INSTANCE, "type",
                             CONSULTA_CADASTRO_RESULT_TYPE_0, xmlWriter);
                 }
             }
@@ -626,7 +628,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
         private static String generatePrefix(String namespace) {
             if (namespace.equals(
-                    "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4")) {
+                    HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4)) {
                 return "ns1";
             }
 
@@ -818,9 +820,9 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                     currentQName = reader.getName();
 
                     if (reader.getAttributeValue(
-                            "http://www.w3.org/2001/XMLSchema-instance",
+                            XMLSCHEMA_INSTANCE,
                             "type") != null) {
-                        String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                        String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE,
                                 "type");
 
                         if (fullTypeName != null) {
@@ -849,7 +851,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
 
                     reader.next();
 
@@ -903,7 +905,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         /**
          * field for ExtraElement
          */
-        protected org.apache.axiom.om.OMElement localExtraElement;
+        protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         /**
          * Auto generated getter method
@@ -962,16 +964,16 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
             if (serializeType) {
                 String namespacePrefix = registerPrefix(xmlWriter,
-                        "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4");
+                        HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4);
 
                 if ((namespacePrefix != null) &&
                         (namespacePrefix.trim().length() > 0)) {
                     writeAttribute("xsi",
-                            "http://www.w3.org/2001/XMLSchema-instance", "type",
+                            XMLSCHEMA_INSTANCE, "type",
                             namespacePrefix + ":nfeDadosMsg_type0", xmlWriter);
                 } else {
                     writeAttribute("xsi",
-                            "http://www.w3.org/2001/XMLSchema-instance", "type",
+                            XMLSCHEMA_INSTANCE, "type",
                             NFE_DADOS_MSG_TYPE_0, xmlWriter);
                 }
             }
@@ -989,7 +991,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         private static String generatePrefix(
                 String namespace) {
             if (namespace.equals(
-                    "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4")) {
+                    HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4)) {
                 return "ns1";
             }
 
@@ -1181,9 +1183,9 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                     currentQName = reader.getName();
 
                     if (reader.getAttributeValue(
-                            "http://www.w3.org/2001/XMLSchema-instance",
+                            XMLSCHEMA_INSTANCE,
                             "type") != null) {
-                        String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                        String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE,
                                 "type");
 
                         if (fullTypeName != null) {
@@ -1212,7 +1214,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
 
                     reader.next();
 
@@ -1257,7 +1259,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     }
 
     public static class ConsultaCadastro implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4","consultaCadastro", "ns1");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4,"consultaCadastro", "ns1");
 
         protected NfeDadosMsgType0 localNfeDadosMsg;
         protected boolean localNfeDadosMsgTracker = false;
@@ -1313,16 +1315,16 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
             if (serializeType) {
                 String namespacePrefix = registerPrefix(xmlWriter,
-                        "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4");
+                        HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4);
 
                 if ((namespacePrefix != null) &&
                         (namespacePrefix.trim().length() > 0)) {
                     writeAttribute("xsi",
-                            "http://www.w3.org/2001/XMLSchema-instance", "type",
+                            XMLSCHEMA_INSTANCE, "type",
                             namespacePrefix + ":consultaCadastro", xmlWriter);
                 } else {
                     writeAttribute("xsi",
-                            "http://www.w3.org/2001/XMLSchema-instance", "type",
+                            XMLSCHEMA_INSTANCE, "type",
                             "consultaCadastro", xmlWriter);
                 }
             }
@@ -1334,7 +1336,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 }
 
                 localNfeDadosMsg.serialize(new javax.xml.namespace.QName(
-                        "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4",
+                        HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4,
                         NFE_DADOS_MSG), xmlWriter);
             }
 
@@ -1344,7 +1346,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         private static String generatePrefix(
                 String namespace) {
             if (namespace.equals(
-                    "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4")) {
+                    HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4)) {
                 return "ns1";
             }
 
@@ -1536,9 +1538,9 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                     currentQName = reader.getName();
 
                     if (reader.getAttributeValue(
-                            "http://www.w3.org/2001/XMLSchema-instance",
+                            XMLSCHEMA_INSTANCE,
                             "type") != null) {
-                        String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                        String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE,
                                 "type");
 
                         if (fullTypeName != null) {
@@ -1567,7 +1569,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    java.util.Vector handledAttributes = new java.util.Vector();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
 
                     reader.next();
 
@@ -1576,7 +1578,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
                     if ((reader.isStartElement() &&
                             new javax.xml.namespace.QName(
-                                    "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4",
+                                    HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4,
                                     NFE_DADOS_MSG).equals(reader.getName())) ||
                             new javax.xml.namespace.QName("", NFE_DADOS_MSG).equals(
                                     reader.getName())) {
