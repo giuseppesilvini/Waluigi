@@ -73,7 +73,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         return System.currentTimeMillis() + "_" + CadConsultaCadastro4Stub.counter;
     }
 
-    private void populateAxisService() throws org.apache.axis2.AxisFault {
+    private void populateAxisService() {
         // creating the Service with a unique name
         this._service = new org.apache.axis2.description.AxisService("CadConsultaCadastro4" + CadConsultaCadastro4Stub.getUniqueSuffix());
         this.addAnonymousOperations();

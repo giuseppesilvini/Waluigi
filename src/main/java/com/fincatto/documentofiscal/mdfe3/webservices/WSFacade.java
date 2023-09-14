@@ -15,12 +15,10 @@ import com.fincatto.documentofiscal.mdfe3.classes.nota.evento.MDFeRetorno;
 import com.fincatto.documentofiscal.utils.DFSocketFactory;
 import org.apache.commons.httpclient.protocol.Protocol;
 
-import java.io.IOException;
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
 import java.security.UnrecoverableKeyException;
-import java.security.cert.CertificateException;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -38,7 +36,7 @@ public class WSFacade {
     private final WSPagamentoTransporte wsPagamentoTransporte;
 
 //	private final WSRecepcaoLoteRetorno wsRecepcaoLoteRetorno;
-    public WSFacade(final MDFeConfig config) throws IOException, KeyManagementException, UnrecoverableKeyException, KeyStoreException, NoSuchAlgorithmException, CertificateException {
+    public WSFacade(final MDFeConfig config) throws KeyManagementException, UnrecoverableKeyException, KeyStoreException, NoSuchAlgorithmException {
         Protocol.registerProtocol("https", new Protocol("https", new DFSocketFactory(config), 443));
         this.wsStatusConsulta = new WSStatusConsulta(config);
         this.wsRecepcaoLote = new WSRecepcaoLote(config);
