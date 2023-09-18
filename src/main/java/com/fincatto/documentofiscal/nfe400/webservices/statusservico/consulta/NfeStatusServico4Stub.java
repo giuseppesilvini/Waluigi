@@ -152,18 +152,6 @@ public class NfeStatusServico4Stub extends org.apache.axis2.client.Stub {
         }
     }
 
-    private boolean optimizeContent(final javax.xml.namespace.QName opName) {
-        if (this.opNameArray == null) {
-            return false;
-        }
-        for (final QName element : this.opNameArray) {
-            if (opName.equals(element)) {
-                return true;
-            }
-        }
-        return false;
-    }
-
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final com.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub.NfeDadosMsg param) {
         final org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
         emptyEnvelope.getBody().addChild(param.getOMElement(com.fincatto.documentofiscal.nfe400.webservices.statusservico.consulta.NfeStatusServico4Stub.NfeDadosMsg.MY_QNAME, factory));

@@ -111,11 +111,11 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
             _messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), mdfeDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, "mdfeStatusServicoMDF")), new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, "mdfeStatusServicoMDF"));
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), mdfeDadosMsg0, this.optimizeContent, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, "mdfeStatusServicoMDF"));
             env.build();
             // add the children only if the parameter is not null
             if (mdfeCabecMsg1 != null) {
-                final org.apache.axiom.om.OMElement omElementmdfeCabecMsg1 = this.toOM(mdfeCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, "mdfeStatusServicoMDF")));
+                final org.apache.axiom.om.OMElement omElementmdfeCabecMsg1 = this.toOM(mdfeCabecMsg1, this.optimizeContent);
                 this.addHeader(omElementmdfeCabecMsg1, env);
             }
             // adding SOAP soap_headers
@@ -179,10 +179,10 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
         org.apache.axiom.soap.SOAPEnvelope env;
         final org.apache.axis2.context.MessageContext _messageContext = MessageContextFactory.INSTANCE.create(config);
         // Style is Doc.
-        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), mdfeDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, "mdfeStatusServicoMDF")), new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, "mdfeStatusServicoMDF"));
+        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), mdfeDadosMsg0, this.optimizeContent, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, "mdfeStatusServicoMDF"));
         // add the soap_headers only if they are not null
         if (mdfeCabecMsg1 != null) {
-            final org.apache.axiom.om.OMElement omElementmdfeCabecMsg1 = this.toOM(mdfeCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, "mdfeStatusServicoMDF")));
+            final org.apache.axiom.om.OMElement omElementmdfeCabecMsg1 = this.toOM(mdfeCabecMsg1, this.optimizeContent);
             this.addHeader(omElementmdfeCabecMsg1, env);
         }
         // adding SOAP soap_headers
@@ -280,17 +280,7 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
     private final javax.xml.namespace.QName[] opNameArray = null;
     private final DFConfig config;
 
-    private boolean optimizeContent(final javax.xml.namespace.QName opName) {
-        if (this.opNameArray == null) {
-            return false;
-        }
-        for (final QName element : this.opNameArray) {
-            if (opName.equals(element)) {
-                return true;
-            }
-        }
-        return false;
-    }
+    private boolean optimizeContent = false;
 
     // https://mdfe.sefaz.rs.gov.br/ws/MDFeStatusServico/MDFeStatusServico.asmx
     @SuppressWarnings("serial")

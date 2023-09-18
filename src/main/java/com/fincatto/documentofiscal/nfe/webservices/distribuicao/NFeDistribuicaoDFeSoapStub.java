@@ -85,7 +85,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
             _messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDistDFeInteresse, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, "nfeDistDFeInteresse")));
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDistDFeInteresse, this.optimizeContent);
             // adding SOAP soap_headers
             this._serviceClient.addHeadersToEnvelope(env);
             // set the message context with that soap envelope
@@ -146,17 +146,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
         return returnMap;
     }
 
-    private boolean optimizeContent(final javax.xml.namespace.QName opName) {
-        if (this.opNameArray == null) {
-            return false;
-        }
-        for (final QName element : this.opNameArray) {
-            if (opName.equals(element)) {
-                return true;
-            }
-        }
-        return false;
-    }
+    private boolean optimizeContent = false;
 
     // https://www1.nfe.fazenda.gov.br/NFeDistribuicaoDFe/NFeDistribuicaoDFe.asmx
     public static class NFeDistDFeInteresse implements org.apache.axis2.databinding.ADBBean {

@@ -113,11 +113,11 @@ public class CteRecepcaoStub extends org.apache.axis2.client.Stub {
             messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO, "cteRecepcaoLote")), new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO, "cteRecepcaoLote"));
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO, "cteRecepcaoLote"));
             env.build();
             // add the children only if the parameter is not null
             if (cteCabecMsg1 != null) {
-                final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO, "cteRecepcaoLote")));
+                final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent);
                 this.addHeader(omElementcteCabecMsg1, env);
             }
             // adding SOAP soap_headers
@@ -181,10 +181,10 @@ public class CteRecepcaoStub extends org.apache.axis2.client.Stub {
         org.apache.axiom.soap.SOAPEnvelope env;
         final org.apache.axis2.context.MessageContext _messageContext = MessageContextFactory.INSTANCE.create(config);
         // Style is Doc.
-        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO, "cteRecepcaoLote")), new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO, "cteRecepcaoLote"));
+        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO, "cteRecepcaoLote"));
         // add the soap_headers only if they are not null
         if (cteCabecMsg1 != null) {
-            final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO, "cteRecepcaoLote")));
+            final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent);
             this.addHeader(omElementcteCabecMsg1, env);
         }
         // adding SOAP soap_headers
@@ -277,17 +277,7 @@ public class CteRecepcaoStub extends org.apache.axis2.client.Stub {
         return returnMap;
     }
 
-    private boolean optimizeContent(final javax.xml.namespace.QName opName) {
-        if (this.opNameArray == null) {
-            return false;
-        }
-        for (final QName element : this.opNameArray) {
-            if (opName.equals(element)) {
-                return true;
-            }
-        }
-        return false;
-    }
+    private boolean optimizeContent = false;
 
     // https://cte.fazenda.mg.gov.br/cte/services/CteRecepcao
     public static class CteCabecMsgE implements org.apache.axis2.databinding.ADBBean {
