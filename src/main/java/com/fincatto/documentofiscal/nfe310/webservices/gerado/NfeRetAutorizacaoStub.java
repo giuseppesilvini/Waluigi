@@ -258,11 +258,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
                 final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_RET_AUTORIZACAO);
-                if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", URL_XML_SCHEMA, "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
-                } else {
-                    this.writeAttribute("xsi", URL_XML_SCHEMA, "type", "nfeCabecMsg", xmlWriter);
-                }
+                serializeCheckPrefix(namespacePrefix, xmlWriter);
             }
             if (this.localExtraAttributes != null) {
                 for (OMAttribute localExtraAttribute : this.localExtraAttributes) {
@@ -292,6 +288,14 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
             xmlWriter.writeEndElement();
+        }
+
+        private void serializeCheckPrefix(final java.lang.String namespacePrefix, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
+            if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
+                this.writeAttribute("xsi", URL_XML_SCHEMA, "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
+            } else {
+                this.writeAttribute("xsi", URL_XML_SCHEMA, "type", "nfeCabecMsg", xmlWriter);
+            }
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
