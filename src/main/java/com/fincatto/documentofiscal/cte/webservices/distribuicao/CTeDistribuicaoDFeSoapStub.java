@@ -114,7 +114,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
             _messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDistDFeInteresse, this.optimizeContent(new javax.xml.namespace.QName(NAME_SPACE_URI, CTE_DIST_DFE_INTERESSE)));
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDistDFeInteresse, this.optimizeContent);
             // adding SOAP soap_headers
             this._serviceClient.addHeadersToEnvelope(env);
             // set the message context with that soap envelope
@@ -175,17 +175,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
         return returnMap;
     }
 
-    private boolean optimizeContent(final javax.xml.namespace.QName opName) {
-        if (this.opNameArray == null) {
-            return false;
-        }
-        for (final QName element : this.opNameArray) {
-            if (opName.equals(element)) {
-                return true;
-            }
-        }
-        return false;
-    }
+    private boolean optimizeContent = false;
 
     // https://www1.cte.fazenda.gov.br/CTeDistribuicaoDFe/CTeDistribuicaoDFe.asmx
     public static class CteDistDFeInteresse implements org.apache.axis2.databinding.ADBBean {

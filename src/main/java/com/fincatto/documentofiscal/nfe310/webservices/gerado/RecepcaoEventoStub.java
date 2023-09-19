@@ -157,18 +157,6 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
     private final javax.xml.namespace.QName[] opNameArray = null;
     private final DFConfig config;
 
-    private boolean optimizeContent(final javax.xml.namespace.QName opName) {
-        if (this.opNameArray == null) {
-            return false;
-        }
-        for (QName anOpNameArray : this.opNameArray) {
-            if (opName.equals(anOpNameArray)) {
-                return true;
-            }
-        }
-        return false;
-    }
-
     // https://nfe.sefazvirtual.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx
     public static class NfeDadosMsg implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 7332017688778139531L;

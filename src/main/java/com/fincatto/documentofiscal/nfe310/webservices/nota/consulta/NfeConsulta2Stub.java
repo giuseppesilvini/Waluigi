@@ -245,17 +245,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
     private final javax.xml.namespace.QName[] opNameArray = null;
     private final DFConfig config;
 
-    private boolean optimizeContent(final javax.xml.namespace.QName opName) {
-        if (this.opNameArray == null) {
-            return false;
-        }
-        for (QName element : this.opNameArray) {
-            if (opName.equals(element)) {
-                return true;
-            }
-        }
-        return false;
-    }
+    private boolean optimizeContent = false;
 
     // https://nfe.sefaz.rs.gov.br/ws/nfeConsulta/nfeConsulta2.asmx
     public static class NfeCabecMsg implements org.apache.axis2.databinding.ADBBean {

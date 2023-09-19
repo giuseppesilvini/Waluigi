@@ -233,17 +233,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
     private final javax.xml.namespace.QName[] opNameArray = null;
     private final DFConfig config;
 
-    private boolean optimizeContent(final javax.xml.namespace.QName opName) {
-        if (this.opNameArray == null) {
-            return false;
-        }
-        for (final QName element : this.opNameArray) {
-            if (opName.equals(element)) {
-                return true;
-            }
-        }
-        return false;
-    }
+    private boolean optimizeContent = false;
 
     // https://nfe.sefaz.rs.gov.br/ws/nfeStatusServico/nfeStatusServico2.asmx
     public static class NfeCabecMsgE implements org.apache.axis2.databinding.ADBBean {
