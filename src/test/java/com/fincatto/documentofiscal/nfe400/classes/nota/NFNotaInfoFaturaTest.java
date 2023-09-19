@@ -93,8 +93,9 @@ public class NFNotaInfoFaturaTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirNumeroFaturaComTamanhoInvalido() {
+        NFNotaInfoFatura test = new NFNotaInfoFatura();
         try {
-            new NFNotaInfoFatura().setNumeroFatura("tQtearTIcXmO9vxNr3TPhSaItw5mk3zyTVlf2aIFXqqvtXrHoa0qPWKzUzca1");
+            test.setNumeroFatura("tQtearTIcXmO9vxNr3TPhSaItw5mk3zyTVlf2aIFXqqvtXrHoa0qPWKzUzca1");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoFatura().setNumeroFatura("");

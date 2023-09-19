@@ -10,8 +10,9 @@ public class NFNotaInfoExportacaoTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirLocalEmbarqueProdutosComTamanhoNaoPermitido() {
+        NFNotaInfoExportacao test = new NFNotaInfoExportacao();
         try {
-            new NFNotaInfoExportacao().setLocalEmbarqueProdutos("");
+            test.setLocalEmbarqueProdutos("");
             Assert.fail("Validacao nao esta funcionando corretamente");
         } catch (final IllegalStateException e) {
             new NFNotaInfoExportacao().setLocalEmbarqueProdutos("xEb99u9TExujbhMIcO9u9ycsZAg2gtKzIFgsUogoVjuyDAhnlkZz3I5Hpccm1");

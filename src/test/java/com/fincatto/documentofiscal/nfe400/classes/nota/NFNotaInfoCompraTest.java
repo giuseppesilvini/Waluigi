@@ -11,8 +11,9 @@ public class NFNotaInfoCompraTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirPedidoComTamanhoNaoPermitido() {
+        NFNotaInfoCompra test = new NFNotaInfoCompra();
         try {
-            new NFNotaInfoCompra().setPedido("");
+            test.setPedido("");
             Assert.fail("Validacao nao esta funcionando corretamente");
         } catch (final IllegalStateException e) {
             new NFNotaInfoCompra().setPedido("9tQtearTIcXmO9vxNr3TPhSaItw5mk3zyTVlf2aIFXqqvtXrHoa0qPWKzUzca");
@@ -22,8 +23,9 @@ public class NFNotaInfoCompraTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirNotaDeEmpenhoComTamanhoNaoPermitido() {
+        NFNotaInfoCompra test = new NFNotaInfoCompra();
         try {
-            new NFNotaInfoCompra().setNotaDeEmpenho("");
+            test.setNotaDeEmpenho("");
             Assert.fail("Validacao nao esta funcionando corretamente");
         } catch (final IllegalStateException e) {
             new NFNotaInfoCompra().setNotaDeEmpenho("uCJhbWe0g8OQ8KtSKlkXpRC");
@@ -33,8 +35,9 @@ public class NFNotaInfoCompraTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirContratoComTamanhoNaoPermitido() {
+        NFNotaInfoCompra test = new NFNotaInfoCompra();
         try {
-            new NFNotaInfoCompra().setContrato("");
+            test.setContrato("");
             Assert.fail("Validacao nao esta funcionando corretamente");
         } catch (final IllegalStateException e) {
             new NFNotaInfoCompra().setContrato("9tQtearTIcXmO9vxNr3TPhSaItw5mk3zyTVlf2aIFXqqvtXrHoa0qPWKzUzca");

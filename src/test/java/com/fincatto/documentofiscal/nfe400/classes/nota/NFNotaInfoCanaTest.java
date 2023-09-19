@@ -182,8 +182,9 @@ public class NFNotaInfoCanaTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirSafraComTamanhoDiferenteQue9() {
+        NFNotaInfoCana test = new NFNotaInfoCana();
         try {
-            new NFNotaInfoCana().setSafra("2013/201");
+            test.setSafra("2013/201");
             Assert.fail("Validacao da safra falhou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoCana().setSafra("2013/20140");
@@ -193,8 +194,9 @@ public class NFNotaInfoCanaTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirSafraComTamanhoDiferenteQue4() {
+        NFNotaInfoCana test = new NFNotaInfoCana();
         try {
-            new NFNotaInfoCana().setSafra("201");
+            test.setSafra("201");
             Assert.fail("Validacao da safra falhou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoCana().setSafra("2014/");
