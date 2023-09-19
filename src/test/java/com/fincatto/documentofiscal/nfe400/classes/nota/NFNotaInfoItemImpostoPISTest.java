@@ -11,18 +11,21 @@ public class NFNotaInfoItemImpostoPISTest {
         final NFNotaInfoItemImpostoPIS pis = new NFNotaInfoItemImpostoPIS();
         pis.setAliquota(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISAliquota());
 
+        NFNotaInfoItemImpostoPISNaoTributado naoTributado = FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISNaoTributado();
         try {
-            pis.setNaoTributado(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISNaoTributado());
+            pis.setNaoTributado(naoTributado);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoPISOutrasOperacoes outrasOperacoes = FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISOutrasOperacoes();
         try {
-            pis.setOutrasOperacoes(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISOutrasOperacoes());
+            pis.setOutrasOperacoes(outrasOperacoes);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoPISQuantidade quantidade = FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISQuantidade();
         try {
-            pis.setQuantidade(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISQuantidade());
+            pis.setQuantidade(quantidade);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
@@ -33,18 +36,21 @@ public class NFNotaInfoItemImpostoPISTest {
         final NFNotaInfoItemImpostoPIS pis = new NFNotaInfoItemImpostoPIS();
         pis.setNaoTributado(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISNaoTributado());
 
+        NFNotaInfoItemImpostoPISAliquota aliquota = FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISAliquota();
         try {
-            pis.setAliquota(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISAliquota());
+            pis.setAliquota(aliquota);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoPISOutrasOperacoes outrasOperacoes = FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISOutrasOperacoes();
         try {
-            pis.setOutrasOperacoes(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISOutrasOperacoes());
+            pis.setOutrasOperacoes(outrasOperacoes);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoPISQuantidade quantidade = FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISQuantidade();
         try {
-            pis.setQuantidade(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISQuantidade());
+            pis.setQuantidade(quantidade);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
@@ -55,18 +61,21 @@ public class NFNotaInfoItemImpostoPISTest {
         final NFNotaInfoItemImpostoPIS pis = new NFNotaInfoItemImpostoPIS();
         pis.setOutrasOperacoes(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISOutrasOperacoes());
 
+        NFNotaInfoItemImpostoPISAliquota aliquota = FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISAliquota();
         try {
-            pis.setAliquota(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISAliquota());
+            pis.setAliquota(aliquota);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoPISNaoTributado naoTributado = FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISNaoTributado();
         try {
-            pis.setNaoTributado(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISNaoTributado());
+            pis.setNaoTributado(naoTributado);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoPISQuantidade quantidade = FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISQuantidade();
         try {
-            pis.setQuantidade(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISQuantidade());
+            pis.setQuantidade(quantidade);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
@@ -77,18 +86,21 @@ public class NFNotaInfoItemImpostoPISTest {
         final NFNotaInfoItemImpostoPIS pis = new NFNotaInfoItemImpostoPIS();
         pis.setQuantidade(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISQuantidade());
 
+        NFNotaInfoItemImpostoPISAliquota aliquota = FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISAliquota();
         try {
-            pis.setAliquota(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISAliquota());
+            pis.setAliquota(aliquota);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoPISNaoTributado naoTributado = FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISNaoTributado();
         try {
-            pis.setNaoTributado(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISNaoTributado());
+            pis.setNaoTributado(naoTributado);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoPISOutrasOperacoes outrasOperacoes = FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISOutrasOperacoes();
         try {
-            pis.setOutrasOperacoes(FabricaDeObjetosFake.getNFNotaInfoItemImpostoPISOutrasOperacoes());
+            pis.setOutrasOperacoes(outrasOperacoes);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
