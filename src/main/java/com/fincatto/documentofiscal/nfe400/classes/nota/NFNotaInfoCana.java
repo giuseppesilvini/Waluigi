@@ -45,7 +45,7 @@ public class NFNotaInfoCana extends DFBase {
             throw new IllegalStateException("Tamanho invalido");
         }
 
-        final Pattern pattern = safra.length() == 4 ? Pattern.compile("[0-9]{4}") : Pattern.compile("[0-9]{4}/[0-9]{4}");
+        final Pattern pattern = safra.length() == 4 ? Pattern.compile("\\d{4}") : Pattern.compile("\\d{4}/\\d{4}");
         final Matcher matcher = pattern.matcher(safra);
         if (!matcher.find()) {
             throw new IllegalStateException("Padrao invalido");

@@ -44,6 +44,7 @@ public class NFNotaInfoItemProdutoCombustivelEncerrante extends DFBase {
     private String valorEncerramentoFinal;
 
     public NFNotaInfoItemProdutoCombustivelEncerrante() {
+        // Empty Method
     }
 
     public String getNumeroBico() {

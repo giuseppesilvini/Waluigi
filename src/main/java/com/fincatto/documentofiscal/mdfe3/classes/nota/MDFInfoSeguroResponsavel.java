@@ -72,7 +72,6 @@ public class MDFInfoSeguroResponsavel extends DFBase {
      */
     @Override
     public String toString() {
-        // Valida regra : Obrigatório apenas se responsável pelo seguro for (2) responsável pela contratação do transporte.
         if (StringUtils.isBlank(this.getCnpj()) && StringUtils.isBlank(this.getCpf()) && this.getResponsavelSeguro().equals(MDFTipoResponsavelSeguro.CONTRATANTE_MDFE)) {
             throw new IllegalStateException("Obrigatório CPF ou CNPJ do responsável pelo seguro para (2) responsável pela contratação do transporte.");
         }

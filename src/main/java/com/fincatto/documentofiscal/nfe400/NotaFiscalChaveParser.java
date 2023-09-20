@@ -64,7 +64,7 @@ public class NotaFiscalChaveParser {
     }
 
     public boolean isEmitidaContingenciaSCAN() {
-        return this.getSerie().matches("9[0-9]{2}");
+        return this.getSerie().matches("9\\d{2}");
     }
 
     public boolean isEmitidaContingenciaSCVAN() {
