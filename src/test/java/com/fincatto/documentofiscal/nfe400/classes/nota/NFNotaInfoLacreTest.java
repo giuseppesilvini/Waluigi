@@ -12,8 +12,9 @@ public class NFNotaInfoLacreTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirNumeroLacreComTamanhoInvalido() {
+        NFNotaInfoLacre test = new NFNotaInfoLacre();
         try {
-            new NFNotaInfoLacre().setNumeroLacre("");
+            test.setNumeroLacre("");
             Assert.fail("Validacao falhou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoLacre().setNumeroLacre("su0ue1tNrrSACxDPXEYVFAqtc2IsnlONmb5AIAv24XjKALlpJ8h5HpUviB3p1");

@@ -12,8 +12,9 @@ public class NFNotaInfoReboqueTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirPlacaVeiculoInvalido() {
+        NFNotaInfoReboque test = new NFNotaInfoReboque();
         try {
-            new NFNotaInfoReboque().setPlacaVeiculo("");
+            test.setPlacaVeiculo("");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoReboque().setPlacaVeiculo("MKZY0123");
