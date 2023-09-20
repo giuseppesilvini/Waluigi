@@ -155,10 +155,8 @@ public class MDFeConsultaStub extends org.apache.axis2.client.Stub {
                 throw f;
             }
         } finally {
-            if(_messageContext != null) {
-                if (_messageContext.getTransportOut() != null) {
-                    _messageContext.getTransportOut().getSender().cleanup(_messageContext);
-                }
+            if(_messageContext != null && _messageContext.getTransportOut() != null) {
+                _messageContext.getTransportOut().getSender().cleanup(_messageContext);
             }
         }
     }

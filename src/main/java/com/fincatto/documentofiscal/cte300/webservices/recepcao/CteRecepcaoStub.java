@@ -158,10 +158,8 @@ public class CteRecepcaoStub extends org.apache.axis2.client.Stub {
                 throw f;
             }
         } finally {
-            if(messageContext != null) {
-                if (messageContext.getTransportOut() != null) {
-                    messageContext.getTransportOut().getSender().cleanup(messageContext);
-                }
+            if(messageContext != null && messageContext.getTransportOut() != null) {
+                messageContext.getTransportOut().getSender().cleanup(messageContext);
             }
         }
     }
