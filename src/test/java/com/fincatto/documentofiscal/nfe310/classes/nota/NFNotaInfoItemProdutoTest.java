@@ -27,8 +27,9 @@ public class NFNotaInfoItemProdutoTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirCESTComTamanhoInvalido() {
+        NFNotaInfoItemProduto test = new NFNotaInfoItemProduto();
         try {
-            new NFNotaInfoItemProduto().setCodigoEspecificadorSituacaoTributaria("999999");
+            test.setCodigoEspecificadorSituacaoTributaria("999999");
             Assert.fail();
         } catch (final IllegalStateException e) {
             new NFNotaInfoItemProduto().setCodigoEspecificadorSituacaoTributaria("10000000");
@@ -1074,40 +1075,34 @@ public class NFNotaInfoItemProdutoTest {
 
     @Test
     public void naoDevePermitirSetarVeiculoCasoArmamentoOuCombustivelOuRECOPISetado() {
+        final NFNotaInfoItemProduto produto1 = new NFNotaInfoItemProduto();
+        produto1.setNumeroRECOPI("13245678901234567890");
         try {
-            final NFNotaInfoItemProduto produto = new NFNotaInfoItemProduto();
-            produto.setNumeroRECOPI("13245678901234567890");
-            produto.setVeiculo(new NFNotaInfoItemProdutoVeiculo());
+            produto1.setVeiculo(new NFNotaInfoItemProdutoVeiculo());
             Assert.fail();
         } catch (final IllegalStateException ignored) {
         }
         
         final NFNotaInfoItemProduto produto2 = new NFNotaInfoItemProduto();
-        try {
-            produto2.setArmamentos(new ArrayList<>());
-        } catch (final IllegalStateException ignored) {
-        }
+        produto2.setArmamentos(new ArrayList<>());
         NFNotaInfoItemProdutoVeiculo veiculo2 = new NFNotaInfoItemProdutoVeiculo();
         try {
             produto2.setVeiculo(veiculo2);
             Assert.fail();
         } catch (final IllegalStateException ignored) {
         }
-
+        
+        final NFNotaInfoItemProduto produto3 = new NFNotaInfoItemProduto();
+        produto3.setCombustivel(new NFNotaInfoItemProdutoCombustivel());
         try {
-            final NFNotaInfoItemProduto produto = new NFNotaInfoItemProduto();
-            produto.setCombustivel(new NFNotaInfoItemProdutoCombustivel());
-            produto.setVeiculo(new NFNotaInfoItemProdutoVeiculo());
+            produto3.setVeiculo(new NFNotaInfoItemProdutoVeiculo());
             Assert.fail();
         } catch (final IllegalStateException ignored) {
         }
 
         final NFNotaInfoItemProduto produto4 = new NFNotaInfoItemProduto();
-        try {
-            produto4.setMedicamentos(new ArrayList<>());
-        } catch (final IllegalStateException ignored) {
-        }
-       NFNotaInfoItemProdutoVeiculo veiculo4 = new NFNotaInfoItemProdutoVeiculo();
+        produto4.setMedicamentos(new ArrayList<>());
+        NFNotaInfoItemProdutoVeiculo veiculo4 = new NFNotaInfoItemProdutoVeiculo();
         try {
             produto4.setVeiculo(veiculo4);
             Assert.fail();
@@ -1118,10 +1113,7 @@ public class NFNotaInfoItemProdutoTest {
     @Test
     public void naoDevePermitirSetarArmamentoCasoVeiculoMedicamentoCombustivelOuRECOPISetado() {
         final NFNotaInfoItemProduto produto1 = new NFNotaInfoItemProduto();
-        try {
-            produto1.setArmamentos(new ArrayList<>());
-        } catch (final IllegalStateException ignored) {
-        }
+        produto1.setArmamentos(new ArrayList<>());
         NFNotaInfoItemProdutoVeiculo veiculo1 = new NFNotaInfoItemProdutoVeiculo();
         try {
             produto1.setVeiculo(veiculo1);
@@ -1130,10 +1122,7 @@ public class NFNotaInfoItemProdutoTest {
         }
 
         final NFNotaInfoItemProduto produto2 = new NFNotaInfoItemProduto();
-        try {
-            produto2.setArmamentos(new ArrayList<>());
-        } catch (final IllegalStateException ignored) {
-        }
+        produto2.setArmamentos(new ArrayList<>());
         List<NFNotaInfoItemProdutoMedicamento> medicamentos2 = new ArrayList<>();
         try {
             produto2.setMedicamentos(medicamentos2);
@@ -1142,10 +1131,7 @@ public class NFNotaInfoItemProdutoTest {
         }
 
         final NFNotaInfoItemProduto produto3 = new NFNotaInfoItemProduto();
-        try {
-            produto3.setArmamentos(new ArrayList<>());
-        } catch (final IllegalStateException ignored) {
-        }
+        produto3.setArmamentos(new ArrayList<>());
         NFNotaInfoItemProdutoCombustivel combustivel3 = new NFNotaInfoItemProdutoCombustivel();
         try {
             produto3.setCombustivel(combustivel3);
@@ -1154,10 +1140,7 @@ public class NFNotaInfoItemProdutoTest {
         }
 
         final NFNotaInfoItemProduto produto4 = new NFNotaInfoItemProduto();
-        try {
-            produto4.setArmamentos(new ArrayList<>());
-        } catch (final IllegalStateException ignored) {
-        }
+        produto4.setArmamentos(new ArrayList<>());
         try {
             produto4.setNumeroRECOPI("12346578901234567890");
             Assert.fail();
@@ -1167,19 +1150,16 @@ public class NFNotaInfoItemProdutoTest {
 
     @Test
     public void naoDevePermitirSetarRECOPICasoVeiculoMedicamentoCombustivelSetadoOuArmamento() {
+        final NFNotaInfoItemProduto produto1 = new NFNotaInfoItemProduto();
+        produto1.setNumeroRECOPI("12346578901234567890");
         try {
-            final NFNotaInfoItemProduto produto = new NFNotaInfoItemProduto();
-            produto.setNumeroRECOPI("12346578901234567890");
-            produto.setVeiculo(new NFNotaInfoItemProdutoVeiculo());
+            produto1.setVeiculo(new NFNotaInfoItemProdutoVeiculo());
             Assert.fail();
         } catch (final IllegalStateException ignored) {
         }
 
         final NFNotaInfoItemProduto produto2 = new NFNotaInfoItemProduto();
-        try {
-            produto2.setNumeroRECOPI("12346578901234567890");
-        } catch (final IllegalStateException ignored) {
-        }
+        produto2.setNumeroRECOPI("12346578901234567890");
         List<NFNotaInfoItemProdutoMedicamento> medicamentos2 = new ArrayList<>();
         try {
             produto2.setMedicamentos(medicamentos2);
@@ -1187,19 +1167,16 @@ public class NFNotaInfoItemProdutoTest {
         } catch (final IllegalStateException ignored) {
         }
 
+        final NFNotaInfoItemProduto produto3 = new NFNotaInfoItemProduto();
+        produto3.setNumeroRECOPI("12346578901234567890");
         try {
-            final NFNotaInfoItemProduto produto = new NFNotaInfoItemProduto();
-            produto.setNumeroRECOPI("12346578901234567890");
-            produto.setCombustivel(new NFNotaInfoItemProdutoCombustivel());
+            produto3.setCombustivel(new NFNotaInfoItemProdutoCombustivel());
             Assert.fail();
         } catch (final IllegalStateException ignored) {
         }
 
         final NFNotaInfoItemProduto produto4 = new NFNotaInfoItemProduto();
-        try {
-            produto4.setNumeroRECOPI("12346578901234567890");
-        } catch (final IllegalStateException ignored) {
-        }
+        produto4.setNumeroRECOPI("12346578901234567890");
         List<NFNotaInfoItemProdutoArmamento> armamentos4 = new ArrayList<>();
         try {
             produto4.setArmamentos(armamentos4);
@@ -1211,10 +1188,7 @@ public class NFNotaInfoItemProdutoTest {
     @Test
     public void naoDevePermitirSetarMedicamentoCasoVeiculoArmamentoCombustivelOuRECOPISetado() {
         final NFNotaInfoItemProduto produto1 = new NFNotaInfoItemProduto();
-        try {
-            produto1.setVeiculo(new NFNotaInfoItemProdutoVeiculo());
-        } catch (final IllegalStateException ignored) {
-        }
+        produto1.setVeiculo(new NFNotaInfoItemProdutoVeiculo());
         List<NFNotaInfoItemProdutoMedicamento> medicamentos1 = new ArrayList<>();
         try {
             produto1.setMedicamentos(medicamentos1);
@@ -1223,10 +1197,7 @@ public class NFNotaInfoItemProdutoTest {
         }
         
         final NFNotaInfoItemProduto produto2 = new NFNotaInfoItemProduto();
-        try {
-            produto2.setArmamentos(new ArrayList<>());
-        } catch (final IllegalStateException ignored) {
-        }
+        produto2.setArmamentos(new ArrayList<>());
         List<NFNotaInfoItemProdutoMedicamento> medicamentos2 = new ArrayList<>();
         try {
             produto2.setMedicamentos(medicamentos2);
@@ -1243,10 +1214,7 @@ public class NFNotaInfoItemProdutoTest {
         }
 
         final NFNotaInfoItemProduto produto4 = new NFNotaInfoItemProduto();
-        try {
-            produto4.setCombustivel(new NFNotaInfoItemProdutoCombustivel());
-        } catch (final IllegalStateException ignored) {
-        }
+        produto4.setCombustivel(new NFNotaInfoItemProdutoCombustivel());
         List<NFNotaInfoItemProdutoMedicamento> medicamentos4 = new ArrayList<>();
         try {
             produto4.setMedicamentos(medicamentos4);

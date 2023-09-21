@@ -6,7 +6,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import com.fincatto.documentofiscal.DFAmbiente;
-import com.fincatto.documentofiscal.nfe310.classes.nota.consulta.NFNotaConsulta;
 
 public class NFNotaConsultaTest {
 
@@ -44,8 +43,9 @@ public class NFNotaConsultaTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirChaveComTamanhoInvalido() {
+        NFNotaConsulta test = new NFNotaConsulta();
         try {
-            new NFNotaConsulta().setChave("4015391743214033647130945937427692679168652");
+            test.setChave("4015391743214033647130945937427692679168652");
             Assert.fail();
         } catch (final IllegalStateException e) {
             new NFNotaConsulta().setChave("401539174321403364713094593742769267916865212");
