@@ -270,14 +270,14 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace;
             prefix = parentQName.getPrefix();
             namespace = parentQName.getNamespaceURI();
+            if (prefix == null) {
+                prefix = CteDistDFeInteresse.generatePrefix(namespace);
+            }
             if ((namespace != null) && (namespace.trim().length() > 0)) {
                 final java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
                 if (writerPrefix != null) {
                     xmlWriter.writeStartElement(namespace, parentQName.getLocalPart());
                 } else {
-                    if (prefix == null) {
-                        prefix = CteDistDFeInteresse.generatePrefix(namespace);
-                    }
                     xmlWriter.writeStartElement(prefix, parentQName.getLocalPart(), namespace);
                     xmlWriter.writeNamespace(prefix, namespace);
                     xmlWriter.setPrefix(prefix, namespace);
@@ -580,14 +580,14 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace;
             prefix = parentQName.getPrefix();
             namespace = parentQName.getNamespaceURI();
+            if (prefix == null) {
+                prefix = CteDadosMsgType0.generatePrefix(namespace);
+            }
             if ((namespace != null) && (namespace.trim().length() > 0)) {
                 final java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
                 if (writerPrefix != null) {
                     xmlWriter.writeStartElement(namespace, parentQName.getLocalPart());
                 } else {
-                    if (prefix == null) {
-                        prefix = CteDadosMsgType0.generatePrefix(namespace);
-                    }
                     xmlWriter.writeStartElement(prefix, parentQName.getLocalPart(), namespace);
                     xmlWriter.writeNamespace(prefix, namespace);
                     xmlWriter.setPrefix(prefix, namespace);
@@ -909,14 +909,14 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace;
             prefix = parentQName.getPrefix();
             namespace = parentQName.getNamespaceURI();
+            if (prefix == null) {
+                prefix = CteDistDFeInteresseResponse.generatePrefix(namespace);
+            }
             if ((namespace != null) && (namespace.trim().length() > 0)) {
                 final java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
                 if (writerPrefix != null) {
                     xmlWriter.writeStartElement(namespace, parentQName.getLocalPart());
                 } else {
-                    if (prefix == null) {
-                        prefix = CteDistDFeInteresseResponse.generatePrefix(namespace);
-                    }
                     xmlWriter.writeStartElement(prefix, parentQName.getLocalPart(), namespace);
                     xmlWriter.writeNamespace(prefix, namespace);
                     xmlWriter.setPrefix(prefix, namespace);
@@ -1235,14 +1235,14 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
             java.lang.String namespace;
             prefix = parentQName.getPrefix();
             namespace = parentQName.getNamespaceURI();
+            if (prefix == null) {
+                prefix = CteDistDFeInteresseResultType0.generatePrefix(namespace);
+            }
             if ((namespace != null) && (namespace.trim().length() > 0)) {
                 final java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
                 if (writerPrefix != null) {
                     xmlWriter.writeStartElement(namespace, parentQName.getLocalPart());
                 } else {
-                    if (prefix == null) {
-                        prefix = CteDistDFeInteresseResultType0.generatePrefix(namespace);
-                    }
                     xmlWriter.writeStartElement(prefix, parentQName.getLocalPart(), namespace);
                     xmlWriter.writeNamespace(prefix, namespace);
                     xmlWriter.setPrefix(prefix, namespace);

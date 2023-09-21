@@ -36,13 +36,13 @@ class WSInutilizacao {
     }
 
     CTeRetornoEventoInutilizacao inutilizaNotaAssinada(final String eventoAssinadoXml, final DFModelo modelo) throws Exception {
-        final OMElement omElementResult = this.efetuaInutilizacao(eventoAssinadoXml, modelo);
+        final OMElement omElementResult = this.efetuaInutilizacao(eventoAssinadoXml);
         return new DFPersister().read(CTeRetornoEventoInutilizacao.class, omElementResult.toString());
     }
 
     CTeRetornoEventoInutilizacao inutilizaNota(final int anoInutilizacaoNumeracao, final String cnpjEmitente, final String serie, final String numeroInicial, final String numeroFinal, final String justificativa, final DFModelo modelo) throws Exception {
         final String inutilizacaoXMLAssinado = getXmlAssinado(anoInutilizacaoNumeracao, cnpjEmitente, serie, numeroInicial, numeroFinal, justificativa, modelo);
-        final OMElement omElementResult = this.efetuaInutilizacao(inutilizacaoXMLAssinado, modelo);
+        final OMElement omElementResult = this.efetuaInutilizacao(inutilizacaoXMLAssinado);
         return new DFPersister().read(CTeRetornoEventoInutilizacao.class, omElementResult.toString());
     }
 
@@ -51,7 +51,7 @@ class WSInutilizacao {
         return new DFAssinaturaDigital(this.config).assinarDocumento(inutilizacaoXML);
     }
 
-    private OMElement efetuaInutilizacao(final String inutilizacaoXMLAssinado, final DFModelo modelo) throws XMLStreamException, RemoteException {
+    private OMElement efetuaInutilizacao(final String inutilizacaoXMLAssinado) throws XMLStreamException, RemoteException {
         final CteInutilizacaoStub.CteDadosMsg dados = new CteInutilizacaoStub.CteDadosMsg();
         final CteCabecMsgE cabec = new CteInutilizacaoStub.CteCabecMsgE();
         CteCabecMsg param = new CteCabecMsg();
@@ -59,14 +59,18 @@ class WSInutilizacao {
         param.setVersaoDados(VERSAO_SERVICO);
 		cabec.setCteCabecMsg(param);
         final OMElement omElement = AXIOMUtil.stringToOM(inutilizacaoXMLAssinado);
-        WSInutilizacao.LOGGER.debug(omElement.toString());
+        if(WSInutilizacao.LOGGER.isDebugEnabled()) {
+            WSInutilizacao.LOGGER.debug(omElement.toString());
+        }
         dados.setExtraElement(omElement);
 
         final CTAutorizador31 autorizador = CTAutorizador31.valueOfCodigoUF(this.config.getCUF());
         final String urlWebService = autorizador.getCteInutilizacao(this.config.getAmbiente());
         final CteInutilizacaoCTResult nf4Result = new CteInutilizacaoStub(urlWebService, config).cteInutilizacaoCT(dados, cabec);
         final OMElement dadosRetorno = nf4Result.getExtraElement();
-        WSInutilizacao.LOGGER.debug(dadosRetorno.toString());
+        if(WSInutilizacao.LOGGER.isDebugEnabled()) {
+            WSInutilizacao.LOGGER.debug(dadosRetorno.toString());
+        }
         return dadosRetorno;
     }
 
