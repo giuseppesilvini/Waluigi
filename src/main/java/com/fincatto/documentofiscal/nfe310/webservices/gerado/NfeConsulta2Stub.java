@@ -58,6 +58,7 @@ public class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
 
     // populates the faults
     private void populateFaults() {
+        // Empty Method
     }
 
     public NfeConsulta2Stub(final org.apache.axis2.context.ConfigurationContext configurationContext, final java.lang.String targetEndpoint, DFConfig config) throws org.apache.axis2.AxisFault {
@@ -372,6 +373,10 @@ public class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
 
         public static class Factory {
 
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             public static NfeCabecMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 final NfeCabecMsg object = new NfeCabecMsg();
                 java.lang.String nillableValue;
@@ -562,6 +567,10 @@ public class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
 
         public static class Factory {
 
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             public static NfeConsultaNF2Result parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 final NfeConsultaNF2Result object = new NfeConsultaNF2Result();
                 try {
@@ -661,6 +670,10 @@ public class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
 
         public static class Factory {
 
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             public static NfeCabecMsgE parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 final NfeCabecMsgE object = new NfeCabecMsgE();
                 try {
@@ -691,6 +704,10 @@ public class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
     }
 
     public static class ExtensionMapper {
+
+        private ExtensionMapper() {
+            throw new IllegalStateException("Utility class");
+        }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
             if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA_2.equals(namespaceURI) && NFE_CABEC_MSG.equals(typeName)) {
@@ -811,6 +828,10 @@ public class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
         }
 
         public static class Factory {
+
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
 
             public static NfeDadosMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 final NfeDadosMsg object = new NfeDadosMsg();

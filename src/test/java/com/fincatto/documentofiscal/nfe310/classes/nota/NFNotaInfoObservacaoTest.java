@@ -4,14 +4,14 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import com.fincatto.documentofiscal.nfe310.FabricaDeObjetosFake;
-import com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoObservacao;
 
 public class NFNotaInfoObservacaoTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirConteudoCampoComTamanhoNaoPermitido() {
+        NFNotaInfoObservacao test = new NFNotaInfoObservacao();
         try {
-            new NFNotaInfoObservacao().setConteudoCampo("");
+            test.setConteudoCampo("");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoObservacao().setConteudoCampo("ML73tIXUvsLEMijwgwjHVRfpP6upxiuipvEcQcSp8fpV402GXe3nXEHXJKJo1");
@@ -21,8 +21,9 @@ public class NFNotaInfoObservacaoTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirIdentificacaoCampoComTamanhoNaoPermitido() {
+        NFNotaInfoObservacao test = new NFNotaInfoObservacao();
         try {
-            new NFNotaInfoObservacao().setIdentificacaoCampo("");
+            test.setIdentificacaoCampo("");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoObservacao().setIdentificacaoCampo("kRkrK4FGWOn27RSjYjMB1");

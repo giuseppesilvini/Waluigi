@@ -66,6 +66,7 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
 
     // populates the faults
     private void populateFaults() {
+        // Empty Method
     }
 
     public NfeAutorizacaoStub(final org.apache.axis2.context.ConfigurationContext configurationContext, final java.lang.String targetEndpoint, DFConfig config) throws org.apache.axis2.AxisFault {

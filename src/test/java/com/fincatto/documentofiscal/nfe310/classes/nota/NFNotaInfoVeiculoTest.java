@@ -7,14 +7,14 @@ import org.junit.Test;
 
 import com.fincatto.documentofiscal.DFUnidadeFederativa;
 import com.fincatto.documentofiscal.nfe310.FabricaDeObjetosFake;
-import com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoVeiculo;
 
 public class NFNotaInfoVeiculoTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirPlacaFormatoInvalido() {
+        NFNotaInfoVeiculo test = new NFNotaInfoVeiculo();
         try {
-            new NFNotaInfoVeiculo().setPlacaVeiculo("MK881");
+            test.setPlacaVeiculo("MK881");
             Assert.fail("Validacao nao funfou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoVeiculo().setPlacaVeiculo("MKZT8859");
@@ -24,8 +24,9 @@ public class NFNotaInfoVeiculoTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirRNCTComTamanhoInvalido() {
+        NFNotaInfoVeiculo test = new NFNotaInfoVeiculo();
         try {
-            new NFNotaInfoVeiculo().setRegistroNacionalTransportadorCarga("");
+            test.setRegistroNacionalTransportadorCarga("");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoVeiculo().setRegistroNacionalTransportadorCarga("8Io5YKSKW1qy3v7zGwLx1");

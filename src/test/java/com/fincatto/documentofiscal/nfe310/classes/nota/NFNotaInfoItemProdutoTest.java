@@ -117,18 +117,21 @@ public class NFNotaInfoItemProdutoTest {
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemProduto test2 = new NFNotaInfoItemProduto();
         try {
-            new NFNotaInfoItemProduto().setNcm("U0sDjya");
+            test2.setNcm("U0sDjya");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemProduto test3 = new NFNotaInfoItemProduto();
         try {
-            new NFNotaInfoItemProduto().setNcm("U0s");
+            test3.setNcm("U0s");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemProduto test4 = new NFNotaInfoItemProduto();
         try {
-            new NFNotaInfoItemProduto().setNcm("U");
+            test4.setNcm("U");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
@@ -156,23 +159,27 @@ public class NFNotaInfoItemProdutoTest {
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemProduto test2 = new NFNotaInfoItemProduto();
         try {
-            new NFNotaInfoItemProduto().setCodigoDeBarrasTributavel("EyiQt2RGqEJ");
+            test2.setCodigoDeBarrasTributavel("EyiQt2RGqEJ");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemProduto test3 = new NFNotaInfoItemProduto();
         try {
-            new NFNotaInfoItemProduto().setCodigoDeBarrasTributavel("EyiQt2RGq");
+            test3.setCodigoDeBarrasTributavel("EyiQt2RGq");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemProduto test4 = new NFNotaInfoItemProduto();
         try {
-            new NFNotaInfoItemProduto().setCodigoDeBarrasTributavel("EyiQt2R");
+            test4.setCodigoDeBarrasTributavel("EyiQt2R");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemProduto test5 = new NFNotaInfoItemProduto();
         try {
-            new NFNotaInfoItemProduto().setCodigoDeBarrasTributavel("E");
+            test5.setCodigoDeBarrasTributavel("E");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
@@ -186,23 +193,27 @@ public class NFNotaInfoItemProdutoTest {
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemProduto test2 = new NFNotaInfoItemProduto();
         try {
-            new NFNotaInfoItemProduto().setCodigoDeBarras("EyiQt2RGqEJ");
+            test2.setCodigoDeBarras("EyiQt2RGqEJ");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemProduto test3 = new NFNotaInfoItemProduto();
         try {
-            new NFNotaInfoItemProduto().setCodigoDeBarras("EyiQt2RGq");
+            test3.setCodigoDeBarras("EyiQt2RGq");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemProduto test4 = new NFNotaInfoItemProduto();
         try {
-            new NFNotaInfoItemProduto().setCodigoDeBarras("EyiQt2R");
+            test4.setCodigoDeBarras("EyiQt2R");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemProduto test5 = new NFNotaInfoItemProduto();
         try {
-            new NFNotaInfoItemProduto().setCodigoDeBarras("E");
+            test5.setCodigoDeBarras("E");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }

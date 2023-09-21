@@ -56,6 +56,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
     }
 
     private void populateFaults() {
+        // Empty Method
     }
 
     public NfeConsulta2Stub(final org.apache.axis2.context.ConfigurationContext configurationContext, final java.lang.String targetEndpoint, DFConfig config) throws org.apache.axis2.AxisFault {
@@ -104,7 +105,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
             _operationClient.execute(true);
             org.apache.axis2.context.MessageContext _returnMessageContext = _operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
             org.apache.axiom.soap.SOAPEnvelope _returnEnv = _returnMessageContext.getEnvelope();
-            java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), NfeConsulta2Stub.NfeConsultaNF2Result.class, this.getEnvelopeNamespaces(_returnEnv));
+            java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), NfeConsulta2Stub.NfeConsultaNF2Result.class);
             return (NfeConsulta2Stub.NfeConsultaNF2Result) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
@@ -123,7 +124,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                 // message class
                 java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF2"));
                 java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                java.lang.Object messageObject = this.fromOM(faultElt, messageClass, null);
+                java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                 java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
                 m.invoke(ex, messageObject);
                 throw new java.rmi.RemoteException(ex.getMessage(), ex);
@@ -164,7 +165,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
                     org.apache.axiom.soap.SOAPEnvelope resultEnv = resultContext.getEnvelope();
-                    java.lang.Object object = NfeConsulta2Stub.this.fromOM(resultEnv.getBody().getFirstElement(), NfeConsulta2Stub.NfeConsultaNF2Result.class, NfeConsulta2Stub.this.getEnvelopeNamespaces(resultEnv));
+                    java.lang.Object object = NfeConsulta2Stub.this.fromOM(resultEnv.getBody().getFirstElement(), NfeConsulta2Stub.NfeConsultaNF2Result.class);
                     callback.receiveResultnfeConsultaNF2((NfeConsulta2Stub.NfeConsultaNF2Result) object);
                 } catch (org.apache.axis2.AxisFault e) {
                     callback.receiveErrornfeConsultaNF2(e);
@@ -187,7 +188,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                                 // message class
                                 java.lang.String messageClassName = (java.lang.String) NfeConsulta2Stub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF2"));
                                 java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                                java.lang.Object messageObject = NfeConsulta2Stub.this.fromOM(faultElt, messageClass, null);
+                                java.lang.Object messageObject = NfeConsulta2Stub.this.fromOM(faultElt, messageClass);
                                 java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
                                 m.invoke(ex, messageObject);
                                 callback.receiveErrornfeConsultaNF2(new java.rmi.RemoteException(ex.getMessage(), ex));
@@ -1394,7 +1395,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
         return factory.getDefaultEnvelope();
     }
 
-    private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class type, final java.util.Map extraNamespaces) throws org.apache.axis2.AxisFault {
+    private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class type) throws org.apache.axis2.AxisFault {
         try {
             if (NfeConsulta2Stub.NfeDadosMsg.class.equals(type)) {
                 return NfeConsulta2Stub.NfeDadosMsg.Factory.parse(param.getXMLStreamReaderWithoutCaching());

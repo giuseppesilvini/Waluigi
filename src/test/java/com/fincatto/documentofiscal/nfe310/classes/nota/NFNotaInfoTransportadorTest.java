@@ -7,7 +7,6 @@ import org.junit.Test;
 
 import com.fincatto.documentofiscal.DFUnidadeFederativa;
 import com.fincatto.documentofiscal.nfe310.FabricaDeObjetosFake;
-import com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoTransportador;
 
 public class NFNotaInfoTransportadorTest {
 
@@ -176,8 +175,9 @@ public class NFNotaInfoTransportadorTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirCPFInvalido() {
+        NFNotaInfoTransportador test = new NFNotaInfoTransportador();
         try {
-            new NFNotaInfoTransportador().setCpf("134843274012");
+            test.setCpf("134843274012");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoTransportador().setCpf("1348432740");
@@ -187,8 +187,9 @@ public class NFNotaInfoTransportadorTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirCNPJInvalido() {
+        NFNotaInfoTransportador test = new NFNotaInfoTransportador();
         try {
-            new NFNotaInfoTransportador().setCnpj("348432740001641");
+            test.setCnpj("348432740001641");
             Assert.fail("validacao nao funcionou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoTransportador().setCnpj("3484327400016");

@@ -7,14 +7,14 @@ import org.junit.Test;
 
 import com.fincatto.documentofiscal.DFUnidadeFederativa;
 import com.fincatto.documentofiscal.nfe310.FabricaDeObjetosFake;
-import com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoReboque;
 
 public class NFNotaInfoReboqueTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirPlacaVeiculoInvalido() {
+        NFNotaInfoReboque test = new NFNotaInfoReboque();
         try {
-            new NFNotaInfoReboque().setPlacaVeiculo("");
+            test.setPlacaVeiculo("");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoReboque().setPlacaVeiculo("MKZY0123");
