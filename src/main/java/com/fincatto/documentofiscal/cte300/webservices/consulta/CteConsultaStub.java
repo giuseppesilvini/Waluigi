@@ -128,7 +128,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
             _operationClient.execute(true);
             final org.apache.axis2.context.MessageContext _returnMessageContext = _operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
             final org.apache.axiom.soap.SOAPEnvelope _returnEnv = _returnMessageContext.getEnvelope();
-            final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteConsultaCTResult.class, this.getEnvelopeNamespaces(_returnEnv));
+            final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteConsultaCTResult.class);
             return (com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteConsultaCTResult) object;
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
@@ -147,7 +147,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
                 // message class
                 final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString));
                 final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                final java.lang.Object messageObject = this.fromOM(faultElt, messageClass, null);
+                final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                 final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
                 m.invoke(ex, messageObject);
                 throw new java.rmi.RemoteException(ex.getMessage(), ex);
@@ -194,7 +194,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
                     final org.apache.axiom.soap.SOAPEnvelope resultEnv = resultContext.getEnvelope();
-                    final java.lang.Object object = CteConsultaStub.this.fromOM(resultEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteConsultaCTResult.class, CteConsultaStub.this.getEnvelopeNamespaces(resultEnv));
+                    final java.lang.Object object = CteConsultaStub.this.fromOM(resultEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteConsultaCTResult.class);
                     callback.receiveResultcteConsultaCT((com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteConsultaCTResult) object);
                 } catch (final org.apache.axis2.AxisFault e) {
                     callback.receiveErrorcteConsultaCT(e);
@@ -217,7 +217,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
                                 // message class
                                 final java.lang.String messageClassName = (java.lang.String) CteConsultaStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString));
                                 final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                                final java.lang.Object messageObject = CteConsultaStub.this.fromOM(faultElt, messageClass, null);
+                                final java.lang.Object messageObject = CteConsultaStub.this.fromOM(faultElt, messageClass);
                                 final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
                                 m.invoke(ex, messageObject);
                                 callback.receiveErrorcteConsultaCT(new java.rmi.RemoteException(ex.getMessage(), ex));
@@ -1682,7 +1682,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
         return factory.getDefaultEnvelope();
     }
 
-    private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class type, final java.util.Map extraNamespaces) throws org.apache.axis2.AxisFault {
+    private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class type) throws org.apache.axis2.AxisFault {
         try {
             if (com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteDadosMsg.class.equals(type)) {
                 return com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteDadosMsg.Factory.parse(param.getXMLStreamReaderWithoutCaching());

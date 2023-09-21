@@ -79,6 +79,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
 
     //populates the faults
     private void populateFaults() {
+        // Empty Method
     }
 
     /**
@@ -557,6 +558,11 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
          * Factory class that keeps the parse method
          */
         public static class Factory {
+
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             private static org.apache.commons.logging.Log log = org.apache.commons.logging.LogFactory.getLog(Factory.class);
 
             /**
@@ -669,6 +675,11 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
     }
 
     public static class ExtensionMapper {
+
+        private ExtensionMapper() {
+            throw new IllegalStateException("Utility class");
+        }
+
         public static java.lang.Object getTypeObject(java.lang.String namespaceURI, java.lang.String typeName, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
             if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO.equals(namespaceURI) && "nfeCabecMsg".equals(typeName)) {
                 return NfeCabecMsg.Factory.parse(reader);
@@ -884,6 +895,11 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
          * Factory class that keeps the parse method
          */
         public static class Factory {
+
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             private static org.apache.commons.logging.Log log = org.apache.commons.logging.LogFactory.getLog(Factory.class);
 
             /**
@@ -1154,6 +1170,11 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
          * Factory class that keeps the parse method
          */
         public static class Factory {
+
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             private static org.apache.commons.logging.Log log = org.apache.commons.logging.LogFactory.getLog(Factory.class);
 
             /**
@@ -1454,6 +1475,11 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
          * Factory class that keeps the parse method
          */
         public static class Factory {
+
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+            
             private static org.apache.commons.logging.Log log = org.apache.commons.logging.LogFactory.getLog(Factory.class);
 
             /**

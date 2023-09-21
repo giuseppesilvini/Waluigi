@@ -58,6 +58,7 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
 
     // populates the faults
     private void populateFaults() {
+        // Empty Method
     }
 
     /**
@@ -287,6 +288,10 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
 
     // https://cte.fazenda.mg.gov.br/cte/services/CteStatusServico
     public static class ExtensionMapper {
+
+        private ExtensionMapper() {
+            throw new IllegalStateException("Utility class");
+        }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
             if (WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_STATUS_SERVICO.equals(namespaceURI) && CTE_CABEC_MSG.equals(typeName)) {
@@ -539,6 +544,10 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
          * Factory class that keeps the parse method
          */
         public static class Factory {
+
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
 
             /**
              * static method to create the object Precondition: If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable If this object is not an element, it is a complex type and the reader is at the event just after the outer start element Postcondition: If this object is an element, the reader is positioned at its end element If this object is a complex type, the reader is positioned at the end element of its outer element
@@ -847,6 +856,10 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
          * Factory class that keeps the parse method
          */
         public static class Factory {
+
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
 
             /**
              * static method to create the object Precondition: If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable If this object is not an element, it is a complex type and the reader is at the event just after the outer start element Postcondition: If this object is an element, the reader is positioned at its end element If this object is a complex type, the reader is positioned at the end element of its outer element
@@ -1292,6 +1305,10 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
          */
         public static class Factory {
 
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             /**
              * static method to create the object Precondition: If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable If this object is not an element, it is a complex type and the reader is at the event just after the outer start element Postcondition: If this object is an element, the reader is positioned at its end element If this object is a complex type, the reader is positioned at the end element of its outer element
              */
@@ -1598,6 +1615,10 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
          * Factory class that keeps the parse method
          */
         public static class Factory {
+
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
 
             /**
              * static method to create the object Precondition: If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable If this object is not an element, it is a complex type and the reader is at the event just after the outer start element Postcondition: If this object is an element, the reader is positioned at its end element If this object is a complex type, the reader is positioned at the end element of its outer element

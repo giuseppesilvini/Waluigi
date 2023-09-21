@@ -22,14 +22,6 @@ public class MDFInfoModal extends DFBase {
     private MDFInfoModalRodoviario rodoviario;
 
     // TODO terminar as modalidades abaixo
-    // @Element(name = "aereo", required = false)
-    // private MDFInfoModalModalAereo aereo;
-
-    // @Element(name = "aquav", required = false)
-    // private MDFInfoModalModalAquaviario aquaviario;
-
-    // @Element(name = "ferrov", required = false)
-    // private MDFInfoModalModalFerroviario ferroviario;
 
     public String getVersao() {
         return this.versao;

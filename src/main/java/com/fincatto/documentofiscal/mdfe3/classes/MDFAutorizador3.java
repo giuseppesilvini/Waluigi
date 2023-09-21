@@ -96,7 +96,6 @@ public enum MDFAutorizador3 {
             }
         }
         return RS;
-//        throw new IllegalStateException(String.format("N\u00e3o existe autorizador para a UF %s", uf.getCodigo()));
     }
 
 }

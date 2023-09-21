@@ -56,7 +56,7 @@ public abstract class DFStringValidador {
 
     public static String telefone(final String telefone, final String info) {
         if (telefone != null) {
-            final Matcher matcher = Pattern.compile("^[0-9]{6,14}$").matcher(telefone);
+            final Matcher matcher = Pattern.compile("^\\d{6,14}$").matcher(telefone);
             if (!matcher.find()) {
                 throw new IllegalStateException(String.format("Telefone de tamanho invalido (%s) em %s", telefone, info));
             }
@@ -193,7 +193,7 @@ public abstract class DFStringValidador {
 
     public static String cnpj(final String cnpj, final String info) {
         if (cnpj != null) {
-            final Matcher matcher = Pattern.compile("^[0-9]{14}$").matcher(cnpj);
+            final Matcher matcher = Pattern.compile("^\\d{14}$").matcher(cnpj);
             if (!matcher.find()) {
                 throw new IllegalStateException(String.format("Formato CNPJ Invalido (%s) em %s", cnpj, info));
             }
@@ -212,7 +212,7 @@ public abstract class DFStringValidador {
 
     public static String cpf(final String cpf, final String info) {
         if (cpf != null) {
-            final Matcher matcher = Pattern.compile("^[0-9]{11}$").matcher(cpf);
+            final Matcher matcher = Pattern.compile("^\\d{11}$").matcher(cpf);
             if (!matcher.find()) {
                 throw new IllegalStateException(String.format("Formato CPF Invalido (%s) em %s", cpf, info));
             }
@@ -240,7 +240,7 @@ public abstract class DFStringValidador {
 
     public static String inscricaoEstadualSemIsencao(final String inscricaoEstadual, final String info) {
         if (inscricaoEstadual != null) {
-            final Matcher matcher = Pattern.compile("^([0-9]{2,14}|)$").matcher(inscricaoEstadual);
+            final Matcher matcher = Pattern.compile("^(\\d{2,14}|)$").matcher(inscricaoEstadual);
             if (!matcher.find()) {
                 throw new IllegalStateException(String.format("Inscricao estadual invalido (%s) em %s", inscricaoEstadual, info));
             }
@@ -612,10 +612,10 @@ public abstract class DFStringValidador {
         exatamente = ObjectUtils.defaultIfNull(exatamente, false);
         numerico = ObjectUtils.defaultIfNull(numerico, true);
         if (paraValidar != null) {
-            if (numerico) {
+            if (Boolean.TRUE.equals(numerico)) {
                 DFStringValidador.apenasNumerico(paraValidar, info);
             }
-            if (exatamente) {
+            if (Boolean.TRUE.equals(exatamente)) {
                 DFStringValidador.validaTamanhoExato(paraValidar, tamanho, info);
             } else {
                 DFStringValidador.validaTamanhoMaximo(paraValidar, tamanho, info);
@@ -687,7 +687,7 @@ public abstract class DFStringValidador {
     public static String validaIntervalo(final String string, final int inicio, final int fim, final String info, Boolean isNumeric) {
         if (string != null) {
             isNumeric = ObjectUtils.defaultIfNull(isNumeric, false);
-            if (isNumeric) {
+            if (Boolean.TRUE.equals(isNumeric)) {
                 DFStringValidador.apenasNumerico(string, info);
             }
             DFStringValidador.intervalo(string, inicio, fim, info);
