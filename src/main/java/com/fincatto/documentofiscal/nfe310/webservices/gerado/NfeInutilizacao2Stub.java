@@ -52,6 +52,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
 
     // populates the faults
     private void populateFaults() {
+        // Empty Method
     }
 
     public NfeInutilizacao2Stub(final org.apache.axis2.context.ConfigurationContext configurationContext, final java.lang.String targetEndpoint, DFConfig config) throws org.apache.axis2.AxisFault {
@@ -102,7 +103,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
             _operationClient.execute(true);
             final org.apache.axis2.context.MessageContext _returnMessageContext = _operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
             final org.apache.axiom.soap.SOAPEnvelope _returnEnv = _returnMessageContext.getEnvelope();
-            final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), NfeInutilizacao2Stub.NfeInutilizacaoNF2Result.class, this.getEnvelopeNamespaces(_returnEnv));
+            final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), NfeInutilizacao2Stub.NfeInutilizacaoNF2Result.class);
             return (NfeInutilizacao2Stub.NfeInutilizacaoNF2Result) object;
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
@@ -117,7 +118,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
                         // message class
                         final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeInutilizacaoNF2"));
                         final Class<?> messageClass = java.lang.Class.forName(messageClassName);
-                        final java.lang.Object messageObject = this.fromOM(faultElt, messageClass, null);
+                        final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                         final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
                         m.invoke(ex, messageObject);
                         throw new java.rmi.RemoteException(ex.getMessage(), ex);
@@ -265,6 +266,10 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
 
         public static class Factory {
 
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             public static NfeInutilizacaoNF2Result parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 final NfeInutilizacaoNF2Result object = new NfeInutilizacaoNF2Result();
                 try {
@@ -364,6 +369,10 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
 
         public static class Factory {
 
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             public static NfeCabecMsgE parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 final NfeCabecMsgE object = new NfeCabecMsgE();
                 try {
@@ -394,6 +403,10 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
     }
 
     public static class ExtensionMapper {
+
+        private ExtensionMapper() {
+            throw new IllegalStateException("Utility class");
+        }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
             if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_INUTILIZACAO_2.equals(namespaceURI) && "nfeCabecMsg".equals(typeName)) {
@@ -514,6 +527,10 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
         }
 
         public static class Factory {
+
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
 
             public static NfeDadosMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 final NfeDadosMsg object = new NfeDadosMsg();
@@ -790,6 +807,10 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
 
         public static class Factory {
 
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             public static NfeCabecMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 final NfeCabecMsg object = new NfeCabecMsg();
                 java.lang.String nillableValue;
@@ -880,7 +901,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
 
     /* methods to provide back word compatibility */
 
-    private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class<?> type, final java.util.Map<String, String> extraNamespaces) throws org.apache.axis2.AxisFault {
+    private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class<?> type) throws org.apache.axis2.AxisFault {
         try {
             if (NfeInutilizacao2Stub.NfeDadosMsg.class.equals(type)) {
                 return NfeInutilizacao2Stub.NfeDadosMsg.Factory.parse(param.getXMLStreamReaderWithoutCaching());

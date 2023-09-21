@@ -5,14 +5,14 @@ import org.junit.Test;
 
 import com.fincatto.documentofiscal.nfe310.FabricaDeObjetosFake;
 import com.fincatto.documentofiscal.nfe310.classes.NFOrigemProcesso;
-import com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoProcessoReferenciado;
 
 public class NFNotaInfoProcessoReferenciadoTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirIdentificadorProcessoOuAtoConcessorioComTamanhoNaoPermitido() {
+        NFNotaInfoProcessoReferenciado test = new NFNotaInfoProcessoReferenciado();
         try {
-            new NFNotaInfoProcessoReferenciado().setIdentificadorProcessoOuAtoConcessorio("");
+            test.setIdentificadorProcessoOuAtoConcessorio("");
             Assert.fail("Validacao nao esta funcionando corretamente");
         } catch (final IllegalStateException e) {
             new NFNotaInfoProcessoReferenciado().setIdentificadorProcessoOuAtoConcessorio("SziSRSIRZvYWlxcbmmJfRZsLgVHaHTurUL9ea1kwFe7fssrxTVSK6uaFwGO51");

@@ -147,8 +147,9 @@ public class NFNotaInfoItemImpostoICMSTest {
         final NFNotaInfoItemImpostoICMS icms = new NFNotaInfoItemImpostoICMS();
         icms.setIcms00(new NFNotaInfoItemImpostoICMS00());
 
+        NFNotaInfoItemImpostoICMS10 test1 = new NFNotaInfoItemImpostoICMS10();
         try {
-            icms.setIcms10(new NFNotaInfoItemImpostoICMS10());
+            icms.setIcms10(test1);
             Assert.fail("So pode permitir um icms cadastrado");
         } catch (final IllegalStateException ignored) {
         }

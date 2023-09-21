@@ -4,7 +4,6 @@ import org.apache.axiom.om.OMAttribute;
 import org.apache.axis2.client.Stub;
 import org.apache.axis2.databinding.utils.Constants;
 
-import javax.xml.namespace.QName;
 import java.io.Serializable;
 import java.lang.reflect.Constructor;
 
@@ -57,6 +56,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
 
     // populates the faults
     private void populateFaults() {
+        // Empty Method
     }
 
     public CadConsultaCadastro2Stub(final org.apache.axis2.context.ConfigurationContext configurationContext, final java.lang.String targetEndpoint, DFConfig config) throws org.apache.axis2.AxisFault {
@@ -107,7 +107,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
             _operationClient.execute(true);
             final org.apache.axis2.context.MessageContext _returnMessageContext = _operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
             final org.apache.axiom.soap.SOAPEnvelope _returnEnv = _returnMessageContext.getEnvelope();
-            final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), CadConsultaCadastro2Stub.ConsultaCadastro2Result.class, this.getEnvelopeNamespaces(_returnEnv));
+            final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), CadConsultaCadastro2Stub.ConsultaCadastro2Result.class);
             return (CadConsultaCadastro2Stub.ConsultaCadastro2Result) object;
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
@@ -122,7 +122,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                         // message class
                         final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "consultaCadastro2"));
                         final Class<?> messageClass = java.lang.Class.forName(messageClassName);
-                        final java.lang.Object messageObject = this.fromOM(faultElt, messageClass, null);
+                        final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                         final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
                         m.invoke(ex, messageObject);
                         throw new java.rmi.RemoteException(ex.getMessage(), ex);
@@ -381,6 +381,10 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
 
         public static class Factory {
 
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             public static NfeCabecMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 final NfeCabecMsg object = new NfeCabecMsg();
                 java.lang.String nillableValue;
@@ -501,6 +505,10 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
         }
 
         public static class Factory {
+
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
 
             public static NfeCabecMsgE parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 final NfeCabecMsgE object = new NfeCabecMsgE();
@@ -644,6 +652,10 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
 
         public static class Factory {
 
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             public static ConsultaCadastro2Result parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 final ConsultaCadastro2Result object = new ConsultaCadastro2Result();
                 try {
@@ -699,6 +711,10 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
     }
 
     public static class ExtensionMapper {
+
+        private ExtensionMapper() {
+            throw new IllegalStateException("Utility class");
+        }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
             if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2.equals(namespaceURI) && NFE_CABEC_MSG.equals(typeName)) {
@@ -821,6 +837,10 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
 
         public static class Factory {
 
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             public static NfeDadosMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 final NfeDadosMsg object = new NfeDadosMsg();
                 try {
@@ -885,7 +905,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
         return emptyEnvelope;
     }
 
-    private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class<?> type, final java.util.Map<String, String> extraNamespaces) throws org.apache.axis2.AxisFault {
+    private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class<?> type) throws org.apache.axis2.AxisFault {
         try {
             if (CadConsultaCadastro2Stub.NfeDadosMsg.class.equals(type)) {
                 return CadConsultaCadastro2Stub.NfeDadosMsg.Factory.parse(param.getXMLStreamReaderWithoutCaching());

@@ -10,18 +10,21 @@ public class NFNotaInfoItemImpostoCOFINSTest {
     public void devePermitirApenasUmQuantidade() {
         final NFNotaInfoItemImpostoCOFINS cofins = new NFNotaInfoItemImpostoCOFINS();
         cofins.setQuantidade(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSQuantidade());
+        NFNotaInfoItemImpostoCOFINSAliquota aliquota = FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSAliquota();
         try {
-            cofins.setAliquota(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSAliquota());
+            cofins.setAliquota(aliquota);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoCOFINSNaoTributavel naoTributavel = FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSNaoTributavel();
         try {
-            cofins.setNaoTributavel(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSNaoTributavel());
+            cofins.setNaoTributavel(naoTributavel);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoCOFINSOutrasOperacoes outrasOperacoes = FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSOutrasOperacoes();
         try {
-            cofins.setOutrasOperacoes(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSOutrasOperacoes());
+            cofins.setOutrasOperacoes(outrasOperacoes);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
@@ -31,18 +34,21 @@ public class NFNotaInfoItemImpostoCOFINSTest {
     public void devePermitirApenasUmAliquota() {
         final NFNotaInfoItemImpostoCOFINS cofins = new NFNotaInfoItemImpostoCOFINS();
         cofins.setAliquota(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSAliquota());
+        NFNotaInfoItemImpostoCOFINSQuantidade quantidade = FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSQuantidade();
         try {
-            cofins.setQuantidade(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSQuantidade());
+            cofins.setQuantidade(quantidade);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoCOFINSNaoTributavel naoTributavel = FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSNaoTributavel();
         try {
-            cofins.setNaoTributavel(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSNaoTributavel());
+            cofins.setNaoTributavel(naoTributavel);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoCOFINSOutrasOperacoes outrasOperacoes = FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSOutrasOperacoes();
         try {
-            cofins.setOutrasOperacoes(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSOutrasOperacoes());
+            cofins.setOutrasOperacoes(outrasOperacoes);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
@@ -52,18 +58,21 @@ public class NFNotaInfoItemImpostoCOFINSTest {
     public void devePermitirApenasUmNaoTributavel() {
         final NFNotaInfoItemImpostoCOFINS cofins = new NFNotaInfoItemImpostoCOFINS();
         cofins.setNaoTributavel(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSNaoTributavel());
+        NFNotaInfoItemImpostoCOFINSQuantidade quantidade = FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSQuantidade();
         try {
-            cofins.setQuantidade(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSQuantidade());
+            cofins.setQuantidade(quantidade);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoCOFINSAliquota aliquota = FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSAliquota();
         try {
-            cofins.setAliquota(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSAliquota());
+            cofins.setAliquota(aliquota);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoCOFINSOutrasOperacoes outrasOperacoes = FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSOutrasOperacoes();
         try {
-            cofins.setOutrasOperacoes(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSOutrasOperacoes());
+            cofins.setOutrasOperacoes(outrasOperacoes);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
@@ -73,18 +82,21 @@ public class NFNotaInfoItemImpostoCOFINSTest {
     public void devePermitirApenasUmOutrasOperacoes() {
         final NFNotaInfoItemImpostoCOFINS cofins = new NFNotaInfoItemImpostoCOFINS();
         cofins.setNaoTributavel(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSNaoTributavel());
+        NFNotaInfoItemImpostoCOFINSQuantidade quantidade = FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSQuantidade();
         try {
-            cofins.setQuantidade(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSQuantidade());
+            cofins.setQuantidade(quantidade);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoCOFINSAliquota aliquota = FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSAliquota();
         try {
-            cofins.setAliquota(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSAliquota());
+            cofins.setAliquota(aliquota);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }
+        NFNotaInfoItemImpostoCOFINSOutrasOperacoes outrasOperacoes = FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSOutrasOperacoes();
         try {
-            cofins.setOutrasOperacoes(FabricaDeObjetosFake.getNFNotaInfoItemImpostoCOFINSOutrasOperacoes());
+            cofins.setOutrasOperacoes(outrasOperacoes);
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException ignored) {
         }

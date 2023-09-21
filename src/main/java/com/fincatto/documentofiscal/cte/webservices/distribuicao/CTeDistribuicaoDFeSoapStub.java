@@ -67,6 +67,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
 
     // populates the faults
     private void populateFaults() {
+        // Empty Method
     }
 
     /**
@@ -125,7 +126,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
             _operationClient.execute(true);
             final org.apache.axis2.context.MessageContext _returnMessageContext = _operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
             final org.apache.axiom.soap.SOAPEnvelope _returnEnv = _returnMessageContext.getEnvelope();
-            final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresseResponse.class, this.getEnvelopeNamespaces(_returnEnv));
+            final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresseResponse.class);
             return (com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresseResponse) object;
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
@@ -139,7 +140,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                         // message class
                         final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(faultElt.getQName());
                         final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                        final java.lang.Object messageObject = this.fromOM(faultElt, messageClass, null);
+                        final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                         final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
                         m.invoke(ex, messageObject);
                         throw new java.rmi.RemoteException(ex.getMessage(), ex);
@@ -435,6 +436,10 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
          * Factory class that keeps the parse method
          */
         public static class Factory {
+
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
 
             /**
              * static method to create the object Precondition: If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable If this object is not an element, it is a complex type and the reader is at the event just after the outer start element Postcondition: If this object is an element, the reader is positioned at its end element If this object is a complex type, the reader is positioned at the end element of its outer element
@@ -743,6 +748,10 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
          * Factory class that keeps the parse method
          */
         public static class Factory {
+
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
 
             /**
              * static method to create the object Precondition: If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable If this object is not an element, it is a complex type and the reader is at the event just after the outer start element Postcondition: If this object is an element, the reader is positioned at its end element If this object is a complex type, the reader is positioned at the end element of its outer element
@@ -1076,6 +1085,10 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
          */
         public static class Factory {
 
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             /**
              * static method to create the object Precondition: If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable If this object is not an element, it is a complex type and the reader is at the event just after the outer start element Postcondition: If this object is an element, the reader is positioned at its end element If this object is a complex type, the reader is positioned at the end element of its outer element
              */
@@ -1399,6 +1412,10 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
          */
         public static class Factory {
 
+            private Factory() {
+                throw new IllegalStateException("Utility class");
+            }
+
             /**
              * static method to create the object Precondition: If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable If this object is not an element, it is a complex type and the reader is at the event just after the outer start element Postcondition: If this object is an element, the reader is positioned at its end element If this object is a complex type, the reader is positioned at the end element of its outer element
              */
@@ -1507,7 +1524,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
         return factory.getDefaultEnvelope();
     }
 
-    private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class type, final java.util.Map extraNamespaces) throws org.apache.axis2.AxisFault {
+    private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class type) throws org.apache.axis2.AxisFault {
         try {
             if (com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresse.class.equals(type)) {
                 return com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresse.Factory.parse(param.getXMLStreamReaderWithoutCaching());

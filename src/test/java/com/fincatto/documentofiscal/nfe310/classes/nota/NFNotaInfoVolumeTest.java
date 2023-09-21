@@ -1,8 +1,6 @@
 package com.fincatto.documentofiscal.nfe310.classes.nota;
 
 import com.fincatto.documentofiscal.nfe310.FabricaDeObjetosFake;
-import com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoLacre;
-import com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoVolume;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -38,8 +36,9 @@ public class NFNotaInfoVolumeTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirNumerocaoVolumesComTamanhoInvalido() {
+        NFNotaInfoVolume test = new NFNotaInfoVolume();
         try {
-            new NFNotaInfoVolume().setNumeracaoVolumesTransportados("");
+            test.setNumeracaoVolumesTransportados("");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoVolume().setNumeracaoVolumesTransportados("mcBUtZwnI5DKj2YZNAcLP7W9h6j1xKmF5SX1BTKmsvyg0H5xSrfVw8HGn8eb1");
@@ -49,8 +48,9 @@ public class NFNotaInfoVolumeTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirMarcaComTaamnhoInvalido() {
+        NFNotaInfoVolume test = new NFNotaInfoVolume();
         try {
-            new NFNotaInfoVolume().setMarca("");
+            test.setMarca("");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoVolume().setMarca("mcBUtZwnI5DKj2YZNAcLP7W9h6j1xKmF5SX1BTKmsvyg0H5xSrfVw8HGn8eb1");
@@ -60,8 +60,9 @@ public class NFNotaInfoVolumeTest {
 
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirEspecieVolumesTransportadosComTamanhoInvalido() {
+        NFNotaInfoVolume test = new NFNotaInfoVolume();
         try {
-            new NFNotaInfoVolume().setEspecieVolumesTransportados("");
+            test.setEspecieVolumesTransportados("");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException e) {
             new NFNotaInfoVolume().setEspecieVolumesTransportados("mcBUtZwnI5DKj2YZNAcLP7W9h6j1xKmF5SX1BTKmsvyg0H5xSrfVw8HGn8eb1");
