@@ -300,24 +300,33 @@ public class NFNotaInfoItemImpostoTest {
         Assert.assertNotNull(imposto.toString());
     }
     
-    @Test(expected = IllegalStateException.class)
+    @Test
     public void naoDeveGerarIcms10PercentualMVANulo() {
         final NFNotaInfoItemImposto imposto = new NFNotaInfoItemImposto();
         final NFNotaInfoItemImpostoICMS icms = new NFNotaInfoItemImpostoICMS();
         icms.setIcms10(FabricaDeObjetosFake.getNFNotaInfoItemImpostoICMS10());
         icms.getIcms10().setPercentualMargemValorAdicionadoICMSST(null);
-        imposto.setIcms(icms);
+        try {
+            imposto.setIcms(icms);
+            Assert.fail();
+        } catch(final IllegalStateException ignored) {
+        }
         Assert.assertNotNull(imposto.toString());
     }
 
-    @Test(expected = IllegalStateException.class)
+    @Test
     public void naoDeveGerarIcms10ComPercentualMVA() {
         final NFNotaInfoItemImposto imposto = new NFNotaInfoItemImposto();
         final NFNotaInfoItemImpostoICMS icms = new NFNotaInfoItemImpostoICMS();
         icms.setIcms10(FabricaDeObjetosFake.getNFNotaInfoItemImpostoICMS10());
         icms.getIcms10().setModalidadeBCICMSST(NFNotaInfoItemModalidadeBCICMSST.PRECO_TABELADO);
         icms.getIcms10().setPercentualMargemValorAdicionadoICMSST(BigDecimal.ONE);
-        imposto.setIcms(icms);
+        try {
+            imposto.setIcms(icms);
+            Assert.fail();
+        } catch (final IllegalStateException ignored) {
+        }
+        
         Assert.assertNotNull(imposto.toString());
     }
 

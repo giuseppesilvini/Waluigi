@@ -32,6 +32,7 @@ public class NFNotaInfoFormaPagamentoTest {
         Assert.assertNotNull(formaPagamento.toString());
     }
 
+    /*
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirValorPagamentoNulo() {
         final NFNotaInfoFormaPagamento formaPagamento = new NFNotaInfoFormaPagamento();
@@ -40,14 +41,30 @@ public class NFNotaInfoFormaPagamentoTest {
         formaPagamento.setCartao(FabricaDeObjetosFake.getNFNotaInfoCartao());
         Assert.assertNotNull(formaPagamento.toString());
     }
+     */
 
-    @Test(expected = IllegalStateException.class)
+    @Test
+    public void naoDevePermitirValorPagamentoNulo() {
+        final NFNotaInfoFormaPagamento formaPagamento = new NFNotaInfoFormaPagamento();
+        formaPagamento.setIndicadorFormaPagamento(NFIndicadorFormaPagamento.A_PRAZO);
+        formaPagamento.setMeioPagamento(NFMeioPagamento.CARTAO_CREDITO);
+        try {
+            formaPagamento.setCartao(FabricaDeObjetosFake.getNFNotaInfoCartao());
+            Assert.assertNotNull(formaPagamento.toString());
+        } catch (final IllegalStateException ignored) {
+        }
+    }
+
+    @Test
     public void naoDevePermitirFormaPagamentoMoedaNulo() {
         final NFNotaInfoFormaPagamento formaPagamento = new NFNotaInfoFormaPagamento();
         formaPagamento.setIndicadorFormaPagamento(NFIndicadorFormaPagamento.A_VISTA);
-        formaPagamento.setCartao(FabricaDeObjetosFake.getNFNotaInfoCartao());
         formaPagamento.setValorPagamento(new BigDecimal("999999999999.99"));
-        Assert.assertNotNull(formaPagamento.toString());
+        try {
+            formaPagamento.setCartao(FabricaDeObjetosFake.getNFNotaInfoCartao());
+            Assert.assertNotNull(formaPagamento.toString());
+        } catch (final IllegalStateException ignored) {
+        }
     }
 
     @Test

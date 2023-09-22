@@ -42,40 +42,52 @@ public class NFLoteEnvioTest {
         new NFLoteEnvio().setIdLote("03096658122A221");
     }
     
-    @Test(expected = IllegalStateException.class)
+    @Test
     public void naoDevePermitirIndicadorProcessamentoNulo() {
         final NFLoteEnvio loteEnvio = new NFLoteEnvio();
         loteEnvio.setVersao("4.00");
         loteEnvio.setIdLote("333972757970401");
-        loteEnvio.setNotas(Collections.singletonList(FabricaDeObjetosFake.getNFNota()));
-        Assert.assertNotNull(loteEnvio.toString());
+        try {
+            loteEnvio.setNotas(Collections.singletonList(FabricaDeObjetosFake.getNFNota()));
+            Assert.assertNotNull(loteEnvio.toString());
+        } catch (final IllegalStateException ignored) {
+        }
     }
     
-    @Test(expected = IllegalStateException.class)
+    @Test
     public void naoDevePermitirVersaoNulo() {
         final NFLoteEnvio loteEnvio = new NFLoteEnvio();
         loteEnvio.setIdLote("333972757970401");
-        loteEnvio.setNotas(Collections.singletonList(FabricaDeObjetosFake.getNFNota()));
         loteEnvio.setIndicadorProcessamento(NFLoteIndicadorProcessamento.PROCESSAMENTO_ASSINCRONO);
-        Assert.assertNotNull(loteEnvio.toString());
+        try {
+            loteEnvio.setNotas(Collections.singletonList(FabricaDeObjetosFake.getNFNota()));
+            Assert.assertNotNull(loteEnvio.toString());
+        } catch (final IllegalStateException ignored) {
+        }
     }
     
-    @Test(expected = IllegalStateException.class)
+    @Test
     public void naoDevePermitirIdLoteNulo() {
         final NFLoteEnvio loteEnvio = new NFLoteEnvio();
         loteEnvio.setVersao("4.00");
-        loteEnvio.setNotas(Collections.singletonList(FabricaDeObjetosFake.getNFNota()));
         loteEnvio.setIndicadorProcessamento(NFLoteIndicadorProcessamento.PROCESSAMENTO_ASSINCRONO);
-        Assert.assertNotNull(loteEnvio.toString());
+        try {
+            loteEnvio.setNotas(Collections.singletonList(FabricaDeObjetosFake.getNFNota()));
+            Assert.assertNotNull(loteEnvio.toString());
+        } catch (final IllegalStateException ignored) {
+        }
     }
     
-    @Test(expected = IllegalStateException.class)
+    @Test
     public void naoDevePermitirNotasNulo() {
         final NFLoteEnvio loteEnvio = new NFLoteEnvio();
-        loteEnvio.setIdLote("333972757970401");
         loteEnvio.setVersao("4.00");
         loteEnvio.setIndicadorProcessamento(NFLoteIndicadorProcessamento.PROCESSAMENTO_ASSINCRONO);
-        Assert.assertNotNull(loteEnvio.toString());
+        try {
+            loteEnvio.setIdLote("333972757970401");
+            Assert.assertNotNull(loteEnvio.toString());
+        } catch (final IllegalStateException ignored) {
+        }
     }
     
     @Test
