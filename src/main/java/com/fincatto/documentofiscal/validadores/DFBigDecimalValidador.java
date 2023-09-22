@@ -12,6 +12,10 @@ import java.util.Locale;
 
 public abstract class DFBigDecimalValidador {
 
+    private DFBigDecimalValidador() {
+        throw new IllegalStateException("Utility class");
+    }
+
     public static final String FORMATO = "0.0000";
 
     public static String tamanho11Com3CasasDecimais(final BigDecimal valor, final String info) {
@@ -75,7 +79,7 @@ public abstract class DFBigDecimalValidador {
         tamanho = ObjectUtils.defaultIfNull(tamanho, 12);
         posicaoPontoFlutuante = ObjectUtils.defaultIfNull(posicaoPontoFlutuante, 2);
         pontoFlutuanteExato = ObjectUtils.defaultIfNull(pontoFlutuanteExato, false);
-        return DFBigDecimalValidador.parse(valor, StringUtils.rightPad("0.", posicaoPontoFlutuante + 2, pontoFlutuanteExato ? "0" : "#"), tamanho, posicaoPontoFlutuante, info);
+        return DFBigDecimalValidador.parse(valor, StringUtils.rightPad("0.", posicaoPontoFlutuante + 2, Boolean.TRUE.equals(pontoFlutuanteExato) ? "0" : "#"), tamanho, posicaoPontoFlutuante, info);
     }
 
     private static String parse(BigDecimal valor, final String formato, final int tamanho, final int posicaoPontoFlutuante, final String info) {

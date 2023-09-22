@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -93,8 +92,9 @@ public class DFListValidadorTest {
 
     @Test(expected = IllegalStateException.class)
     public void deveLancarExcecaoCasoEstejaForaDoIntervalo() {
+        final List<Object> list = Collections.emptyList();
         try {
-            DFListValidador.tamanho31Obrigatorio(Collections.emptyList(), "");
+            DFListValidador.tamanho31Obrigatorio(list, "");
             Assert.fail("Validacao nao funcionou");
         } catch (final IllegalStateException e) {
             final List<Object> lista = new ArrayList<>();

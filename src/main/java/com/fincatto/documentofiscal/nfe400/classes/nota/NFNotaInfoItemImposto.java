@@ -48,10 +48,7 @@ public class NFNotaInfoItemImposto extends DFBase {
         }
         try {
             DFStringValidador.validaPreenchimentoDeMargemValorAgregado(icms);
-        }catch (IllegalAccessException e) {
-            DFLog.getLogger(NFNotaInfoItemImposto.class)
-                    .error("Erro ao validar preenchimento de Margem de Valor agregado", e);
-        } catch (InvocationTargetException e) {
+        }catch (IllegalAccessException | InvocationTargetException e) {
             DFLog.getLogger(NFNotaInfoItemImposto.class)
                     .error("Erro ao validar preenchimento de Margem de Valor agregado", e);
         }

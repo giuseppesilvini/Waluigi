@@ -4,6 +4,10 @@ import java.util.List;
 
 public abstract class DFListValidador {
 
+    private DFListValidador() {
+        throw new IllegalStateException("Utility class");
+    }
+
     public static <E> void tamanho2(final List<E> lista, final String info) {
         DFListValidador.validaTamanho(lista, 2, info);
     }

@@ -16,6 +16,10 @@ import java.util.Optional;
 
 public abstract class DFStringValidador {
 
+    private DFStringValidador() {
+        throw new IllegalStateException("Utility class");
+    }
+
     public static void mmaaaa(final String mmaaaa) {
         if (mmaaaa != null) {
             try {

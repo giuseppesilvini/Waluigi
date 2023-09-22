@@ -13,6 +13,10 @@ import org.xml.sax.SAXException;
 
 public final class DFXMLValidador {
 
+    private DFXMLValidador() {
+        throw new IllegalStateException("Utility class");
+    }
+
     private static final String URL_XML_SCHEMA = "http://www.w3.org/2001/XMLSchema";
 
     private static final String XML_VALIDATION_FAIL_MESSAGE = "Error during XML file validation";

@@ -2,6 +2,10 @@ package com.fincatto.documentofiscal.validadores;
 
 public abstract class DFIntegerValidador {
 
+    private DFIntegerValidador() {
+        throw new IllegalStateException("Utility class");
+    }
+
     public static void tamanho4(final Integer valor, final String info) {
         DFIntegerValidador.limite(valor, 9999, info);
     }

@@ -113,7 +113,9 @@ class WSLoteEnvio implements DFLog {
 		final NfeResultMsg autorizacaoLoteResult = comunicaLoteRaw(loteAssinadoXml, modelo, validarXML);
 		final NFLoteEnvioRetorno loteEnvioRetorno = this.config.getPersister().read(NFLoteEnvioRetorno.class,
 				autorizacaoLoteResult.getExtraElement().toString());
-        this.getLogger().debug(loteEnvioRetorno.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(loteEnvioRetorno.toString());
+        }
         return loteEnvioRetorno;
     }
 

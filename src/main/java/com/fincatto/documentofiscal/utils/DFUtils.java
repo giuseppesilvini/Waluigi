@@ -4,6 +4,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public abstract class DFUtils {
+
+    private DFUtils() {
+        throw new IllegalStateException("Utility class");
+    }
+
     private static final List<String> CPFS_INVALIDOS = Arrays.asList("00000000000", "11111111111", "22222222222",
             "33333333333", "44444444444", "55555555555", "66666666666", "77777777777", "88888888888", "99999999999",
             "12345678909"
@@ -17,7 +22,7 @@ public abstract class DFUtils {
      * @return Se o CNPJ informado eh valido ou nao.
      */
     public static boolean isCnpjValido(final String cnpj) {
-        if (cnpj == null || !cnpj.matches("^[0-9]{14}$")) {
+        if (cnpj == null || !cnpj.matches("^\\d{14}$")) {
             return false;
         }
 
@@ -69,7 +74,7 @@ public abstract class DFUtils {
      * @return Se o CPF informado eh valido ou nao.
      */
     public static boolean isCpfValido(final String cpf) {
-        if (cpf == null || !cpf.matches("^[0-9]{11}$")) {
+        if (cpf == null || !cpf.matches("^\\d{11}$")) {
             return false;
         }
 
