@@ -43,14 +43,18 @@ class WSInutilizacao implements DFLog {
     private OMElement efetuaInutilizacao(final String inutilizacaoXMLAssinado, final DFModelo modelo) throws XMLStreamException, RemoteException {
         final NFeInutilizacao4Stub.NfeDadosMsg dados = new NFeInutilizacao4Stub.NfeDadosMsg();
         final OMElement omElement = AXIOMUtil.stringToOM(inutilizacaoXMLAssinado);
-        this.getLogger().debug(omElement.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElement.toString());
+        }
         dados.setExtraElement(omElement);
         
         final NFAutorizador400 autorizador = NFAutorizador400.valueOfCodigoUF(this.config.getCUF());
         final String urlWebService = DFModelo.NFE.equals(modelo) ? autorizador.getNfeInutilizacao(this.config.getAmbiente()) : autorizador.getNfceInutilizacao(this.config.getAmbiente());
         final NfeResultMsg nf4Result = new NFeInutilizacao4Stub(urlWebService, config).nfeInutilizacaoNF(dados);
         final OMElement dadosRetorno = nf4Result.getExtraElement();
-        this.getLogger().debug(dadosRetorno.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(dadosRetorno.toString());
+        }
         return dadosRetorno;
     }
     

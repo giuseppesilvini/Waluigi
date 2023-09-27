@@ -30,10 +30,14 @@ class WSNotaConsulta implements DFLog {
 
     public String consultaNotaAsString(String chaveDeAcesso) throws Exception {
         final OMElement omElementConsulta = AXIOMUtil.stringToOM(this.gerarDadosConsulta(chaveDeAcesso).toString());
-        this.getLogger().debug(omElementConsulta.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementConsulta.toString());
+        }
 
         final OMElement omElementRetorno = this.efetuaConsulta(omElementConsulta, chaveDeAcesso);
-        this.getLogger().debug(omElementRetorno.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementRetorno.toString());
+        }
         return omElementRetorno.toString();
     }
 

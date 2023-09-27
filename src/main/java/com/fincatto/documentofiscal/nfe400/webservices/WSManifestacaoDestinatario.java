@@ -64,7 +64,9 @@ public class WSManifestacaoDestinatario implements DFLog {
     private OMElement efetuaManifestacaoDestinatario(final String xmlAssinado, final String chaveAcesso) throws XMLStreamException, RemoteException {
         final NFeRecepcaoEvento4Stub.NfeDadosMsg dados = new NFeRecepcaoEvento4Stub.NfeDadosMsg();
         final OMElement omElementXML = AXIOMUtil.stringToOM(xmlAssinado);
-        this.getLogger().debug(omElementXML.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementXML.toString());
+        }
         dados.setExtraElement(omElementXML);
     
         final NotaFiscalChaveParser parser = new NotaFiscalChaveParser(chaveAcesso);
@@ -76,7 +78,9 @@ public class WSManifestacaoDestinatario implements DFLog {
     
         final NfeResultMsg nfeRecepcaoEvento = new NFeRecepcaoEvento4Stub(urlWebService, config).nfeRecepcaoEvento(dados);
         final OMElement omElementResult = nfeRecepcaoEvento.getExtraElement();
-        this.getLogger().debug(omElementResult.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementResult.toString());
+        }
         return omElementResult;
     }
     

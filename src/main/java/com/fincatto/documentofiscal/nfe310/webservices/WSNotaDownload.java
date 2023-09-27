@@ -28,10 +28,14 @@ class WSNotaDownload implements DFLog {
     
     NFDownloadNFeRetorno downloadNota(final String cnpj, final String chave) throws Exception {
         final OMElement omElementConsulta = AXIOMUtil.stringToOM(this.gerarDadosDownloadNF(cnpj, chave).toString());
-        this.getLogger().debug(omElementConsulta.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementConsulta.toString());
+        }
         
         final OMElement omElementRetorno = this.efetuaDownloadNF(omElementConsulta);
-        this.getLogger().debug(omElementRetorno.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementRetorno.toString());
+        }
         
         return this.config.getPersister().read(NFDownloadNFeRetorno.class, omElementRetorno.toString());
     }
