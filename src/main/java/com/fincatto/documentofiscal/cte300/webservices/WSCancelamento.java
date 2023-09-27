@@ -49,7 +49,9 @@ class WSCancelamento implements DFLog {
         
         final RecepcaoEventoStub.CteDadosMsg dados = new RecepcaoEventoStub.CteDadosMsg();
         final OMElement omElementXML = AXIOMUtil.stringToOM(xmlAssinado);
-        this.getLogger().debug(omElementXML.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementXML.toString());
+        }
         dados.setExtraElement(omElementXML);
         
         final CTAutorizador31 autorizador = CTAutorizador31.valueOfChaveAcesso(chaveAcesso);
@@ -60,7 +62,9 @@ class WSCancelamento implements DFLog {
         
         RecepcaoEventoStub.CteRecepcaoEventoResult cteRecepcaoEventoResult = new RecepcaoEventoStub(urlWebService, config).cteRecepcaoEvento(dados, cabecE);
         final OMElement omElementResult = cteRecepcaoEventoResult.getExtraElement();
-        this.getLogger().debug(omElementResult.toString());
+        if (this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementResult.toString());
+        }
         return omElementResult;
     }
     

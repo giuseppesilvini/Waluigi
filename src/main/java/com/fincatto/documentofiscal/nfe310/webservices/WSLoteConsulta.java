@@ -24,10 +24,14 @@ class WSLoteConsulta implements DFLog {
     
     NFLoteConsultaRetorno consultaLote(final String numeroRecibo, final DFModelo modelo) throws Exception {
         final OMElement omElementConsulta = AXIOMUtil.stringToOM(this.gerarDadosConsulta(numeroRecibo).toString());
-        this.getLogger().debug(omElementConsulta.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementConsulta.toString());
+        }
         
         final OMElement omElementResult = this.efetuaConsulta(omElementConsulta, modelo);
-        this.getLogger().debug(omElementResult.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementResult.toString());
+        }
         
         return this.config.getPersister().read(NFLoteConsultaRetorno.class, omElementResult.toString());
     }

@@ -54,10 +54,11 @@ class WSEncerramento implements DFLog {
         
         final MDFeRecepcaoEventoStub.MdfeDadosMsg dados = new MDFeRecepcaoEventoStub.MdfeDadosMsg();
         final OMElement omElementXML = AXIOMUtil.stringToOM(xmlAssinado);
-        this.getLogger().debug(omElementXML.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementXML.toString());
+        }
         dados.setExtraElement(omElementXML);
         
-        //WSEncerramento.LOGGER.debug(cabec.toString());
         final MDFAutorizador3 autorizador = MDFAutorizador3.valueOfCodigoUF(mdfChaveParser.getNFUnidadeFederativa());
         final String urlWebService = autorizador.getMDFeRecepcaoEvento(this.config.getAmbiente());
         if (urlWebService == null) {
@@ -65,7 +66,9 @@ class WSEncerramento implements DFLog {
         }
         final MDFeRecepcaoEventoStub.MdfeRecepcaoEventoResult mdfeRecepcaoEventoResult = new MDFeRecepcaoEventoStub(urlWebService, config).mdfeRecepcaoEvento(dados, cabecE);
         final OMElement omElementResult = mdfeRecepcaoEventoResult.getExtraElement();
-        this.getLogger().debug(omElementResult.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementResult.toString());
+        }
         return omElementResult;
     }
     

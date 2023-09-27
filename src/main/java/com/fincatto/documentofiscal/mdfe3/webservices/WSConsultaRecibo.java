@@ -25,10 +25,14 @@ class WSConsultaRecibo implements DFLog {
     
     MDFeConsultaReciboRetorno consultaRecibo(final String numeroRecibo) throws Exception {
         final OMElement omElementConsulta = AXIOMUtil.stringToOM(this.gerarDadosConsulta(numeroRecibo).toString());
-        this.getLogger().debug(omElementConsulta.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementConsulta.toString());
+        }
         
         final OMElement omElementResult = this.efetuaConsultaRecibo(omElementConsulta);
-        this.getLogger().debug(omElementResult.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementResult.toString());
+        }
         
         return this.config.getPersister().read(MDFeConsultaReciboRetorno.class, omElementResult.toString());
     }

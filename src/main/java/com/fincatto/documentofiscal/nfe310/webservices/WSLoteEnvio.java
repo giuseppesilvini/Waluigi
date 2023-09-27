@@ -99,7 +99,9 @@ class WSLoteEnvio implements DFLog {
         dados.setExtraElement(omElement);
         
         final NfeCabecMsgE cabecalhoSOAP = this.getCabecalhoSOAP();
-        this.getLogger().debug(omElement.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElement.toString());
+        }
         
         // define o tipo de emissao
         final NFAutorizador31 autorizador = NFAutorizador31.valueOfTipoEmissao(this.config.getTipoEmissao(), this.config.getCUF());
@@ -111,7 +113,9 @@ class WSLoteEnvio implements DFLog {
         
         final NfeAutorizacaoLoteResult autorizacaoLoteResult = new NfeAutorizacaoStub(endpoint, config).nfeAutorizacaoLote(dados, cabecalhoSOAP);
         final NFLoteEnvioRetorno loteEnvioRetorno = this.config.getPersister().read(NFLoteEnvioRetorno.class, autorizacaoLoteResult.getExtraElement().toString());
-        this.getLogger().debug(loteEnvioRetorno.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(loteEnvioRetorno.toString());
+        }
         return loteEnvioRetorno;
     }
     

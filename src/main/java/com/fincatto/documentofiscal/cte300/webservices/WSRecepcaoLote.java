@@ -54,7 +54,9 @@ class WSRecepcaoLote implements DFLog {
         dados.setExtraElement(omElement);
         
         final CteCabecMsgE cabecalhoSOAP = this.getCabecalhoSOAP();
-        this.getLogger().debug(omElement.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElement.toString());
+        }
         
         final CTAutorizador31 autorizador = CTAutorizador31.valueOfTipoEmissao(this.config.getTipoEmissao(), this.config.getCUF());
         final String endpoint = autorizador.getCteRecepcao(this.config.getAmbiente());
@@ -63,7 +65,9 @@ class WSRecepcaoLote implements DFLog {
         }
         final CteRecepcaoLoteResult autorizacaoLoteResult = new CteRecepcaoStub(endpoint, config).cteRecepcaoLote(dados, cabecalhoSOAP);
         final CTeEnvioLoteRetorno retorno = this.config.getPersister().read(CTeEnvioLoteRetorno.class, autorizacaoLoteResult.getExtraElement().toString());
-        this.getLogger().debug(retorno.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(retorno.toString());
+        }
         return retorno;
     }
     

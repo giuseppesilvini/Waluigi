@@ -24,10 +24,14 @@ class WSStatusConsulta implements DFLog {
     
     CTeConsStatServRet consultaStatus(final DFUnidadeFederativa uf) throws Exception {
         final OMElement omElementConsulta = AXIOMUtil.stringToOM(gerarDadosConsulta(this.config).toString());
-        this.getLogger().debug(omElementConsulta.toString());
-        
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementConsulta.toString());
+        }
+
         final OMElement omElementResult = this.efetuaConsultaStatus(omElementConsulta, uf);
-        this.getLogger().debug(omElementResult.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementResult.toString());
+        }
         
         return this.config.getPersister().read(CTeConsStatServRet.class, omElementResult.toString());
     }

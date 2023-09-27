@@ -52,7 +52,9 @@ class WSRecepcaoLote implements DFLog {
         dados.setExtraElement(omElement);
     
         final MDFeRecepcaoStub.MdfeCabecMsgE cabecalhoSOAP = this.getCabecalhoSOAP();
-        this.getLogger().debug(omElement.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElement.toString());
+        }
         
         final MDFAutorizador3 autorizador = MDFAutorizador3.valueOfCodigoUF(this.config.getCUF());
         final String endpoint = autorizador.getMDFeRecepcao(this.config.getAmbiente());
@@ -61,7 +63,9 @@ class WSRecepcaoLote implements DFLog {
         }
         final MDFeRecepcaoStub.MdfeRecepcaoLoteResult autorizacaoLoteResult = new MDFeRecepcaoStub(endpoint, config).mdfeRecepcaoLote(dados, cabecalhoSOAP);
         final MDFEnvioLoteRetorno retorno = this.config.getPersister().read(MDFEnvioLoteRetorno.class, autorizacaoLoteResult.getExtraElement().toString());
-        this.getLogger().debug(retorno.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(retorno.toString());
+        }
         return retorno;
     }
     

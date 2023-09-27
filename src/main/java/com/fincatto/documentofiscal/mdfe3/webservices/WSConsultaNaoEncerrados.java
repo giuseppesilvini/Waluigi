@@ -26,10 +26,14 @@ class WSConsultaNaoEncerrados implements DFLog {
     
     MDFeConsultaNaoEncerradosRetorno consultaNaoEncerrados(final String cnpj) throws Exception {
         final OMElement omElementConsulta = AXIOMUtil.stringToOM(this.gerarDadosConsulta(cnpj).toString());
-        this.getLogger().debug(omElementConsulta.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementConsulta.toString());
+        }
         
         final OMElement omElementResult = this.efetuaConsultaStatus(omElementConsulta);
-        this.getLogger().debug(omElementResult.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementResult.toString());
+        }
         
         return this.config.getPersister().read(MDFeConsultaNaoEncerradosRetorno.class, omElementResult.toString());
     }

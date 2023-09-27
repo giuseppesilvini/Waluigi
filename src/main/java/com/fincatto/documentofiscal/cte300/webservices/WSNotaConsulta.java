@@ -25,13 +25,19 @@ class WSNotaConsulta implements DFLog {
 
     public CTeNotaConsultaRetorno consultaNota(final String chaveDeAcesso) throws Exception {
         final OMElement omElementConsulta = AXIOMUtil.stringToOM(this.gerarDadosConsulta(chaveDeAcesso).toString());
-        this.getLogger().debug(omElementConsulta.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementConsulta.toString());
+        }
 
         final OMElement omElementRetorno = this.efetuaConsulta(omElementConsulta, chaveDeAcesso);
-        this.getLogger().debug(omElementRetorno.toString());
+        if (this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementRetorno.toString());
+        }
     
         final CTeNotaConsultaRetorno retorno = this.config.getPersister().read(CTeNotaConsultaRetorno.class, omElementRetorno.toString());
-        this.getLogger().debug(retorno.toString());
+        if (this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(retorno.toString());
+        }
         return retorno;
     }
 
@@ -47,7 +53,9 @@ class WSNotaConsulta implements DFLog {
         final CteConsultaStub.CteDadosMsg dados = new CteConsultaStub.CteDadosMsg();
         dados.setExtraElement(omElementConsulta);
     
-        this.getLogger().debug(cabec.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(cabec.toString());
+        }
 
         final CTAutorizador31 autorizador = CTAutorizador31.valueOfTipoEmissao(this.config.getTipoEmissao(), this.config.getCUF());
         final String endpoint = autorizador.getCteConsultaProtocolo(this.config.getAmbiente());

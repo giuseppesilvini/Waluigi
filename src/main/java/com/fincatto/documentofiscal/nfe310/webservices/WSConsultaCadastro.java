@@ -33,7 +33,9 @@ class WSConsultaCadastro implements DFLog {
         
         final OMElement omElementConsulta = AXIOMUtil.stringToOM(xmlConsulta);
         final OMElement resultado = this.efetuaConsulta(uf, omElementConsulta);
-        this.getLogger().debug(resultado.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(resultado.toString());
+        }
         
         return this.config.getPersister().read(NFRetornoConsultaCadastro.class, resultado.toString());
     }

@@ -59,7 +59,9 @@ class WSCartaCorrecao implements DFLog {
         
         final RecepcaoEventoStub.NfeDadosMsg dados = new NfeDadosMsg();
         final OMElement omElementXML = AXIOMUtil.stringToOM(xmlAssinado);
-        this.getLogger().debug(omElementXML.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementXML.toString());
+        }
         dados.setExtraElement(omElementXML);
         
         final NotaFiscalChaveParser parser = new NotaFiscalChaveParser(chaveAcesso);
@@ -72,7 +74,9 @@ class WSCartaCorrecao implements DFLog {
         
         final NfeRecepcaoEventoResult nfeRecepcaoEvento = new RecepcaoEventoStub(urlWebService, config).nfeRecepcaoEvento(dados, cabecalhoE);
         final OMElement omElementResult = nfeRecepcaoEvento.getExtraElement();
-        this.getLogger().debug(omElementResult.toString());
+        if(this.getLogger().isDebugEnabled()) {
+            this.getLogger().debug(omElementResult.toString());
+        }
         return omElementResult;
     }
     
