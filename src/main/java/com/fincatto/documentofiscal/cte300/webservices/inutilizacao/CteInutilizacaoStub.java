@@ -109,11 +109,11 @@ public class CteInutilizacaoStub extends org.apache.axis2.client.Stub {
             messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_INUTILIZACAO, "cteInutilizacaoCT"));
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0);
             env.build();
             // add the children only if the parameter is not null
             if (cteCabecMsg1 != null) {
-                final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent);
+                final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1);
                 this.addHeader(omElementcteCabecMsg1, env);
             }
             // adding SOAP soap_headers
@@ -175,10 +175,10 @@ public class CteInutilizacaoStub extends org.apache.axis2.client.Stub {
         org.apache.axiom.soap.SOAPEnvelope env;
         final org.apache.axis2.context.MessageContext _messageContext = MessageContextFactory.INSTANCE.create(config);
         // Style is Doc.
-        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0, this.optimizeContent, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_INUTILIZACAO, "cteInutilizacaoCT"));
+        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0);
         // add the soap_headers only if they are not null
         if (cteCabecMsg1 != null) {
-            final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1, this.optimizeContent);
+            final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1);
             this.addHeader(omElementcteCabecMsg1, env);
         }
         // adding SOAP soap_headers
@@ -1638,38 +1638,22 @@ public class CteInutilizacaoStub extends org.apache.axis2.client.Stub {
         }// end of factory class
     }
 
-    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutilizacaoStub.CteDadosMsg param, final boolean optimizeContent) {
-        //        try {
+    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutilizacaoStub.CteDadosMsg param) {
         return param.getOMElement(com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutilizacaoStub.CteDadosMsg.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        //        } catch (final org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
-    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutilizacaoStub.CteInutilizacaoCTResult param, final boolean optimizeContent) {
-        //        try {
+    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutilizacaoStub.CteInutilizacaoCTResult param) {
         return param.getOMElement(com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutilizacaoStub.CteInutilizacaoCTResult.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        //        } catch (final org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
-    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutilizacaoStub.CteCabecMsgE param, final boolean optimizeContent) {
-        //        try {
+    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutilizacaoStub.CteCabecMsgE param) {
         return param.getOMElement(com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutilizacaoStub.CteCabecMsgE.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        //        } catch (final org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
-    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutilizacaoStub.CteDadosMsg param, final boolean optimizeContent, final javax.xml.namespace.QName methodQName) {
-        //        try {
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutilizacaoStub.CteDadosMsg param) {
         final org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
         emptyEnvelope.getBody().addChild(param.getOMElement(com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutilizacaoStub.CteDadosMsg.MY_QNAME, factory));
         return emptyEnvelope;
-        //        } catch (final org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
     /* methods to provide back word compatibility */

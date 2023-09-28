@@ -115,7 +115,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
             _messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDistDFeInteresse, this.optimizeContent);
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDistDFeInteresse);
             // adding SOAP soap_headers
             this._serviceClient.addHeadersToEnvelope(env);
             // set the message context with that soap envelope
@@ -1489,30 +1489,18 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
         }// end of factory class
     }
 
-    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresse param, final boolean optimizeContent) {
-        //        try {
+    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresse param) {
         return param.getOMElement(com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresse.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        //        } catch (final org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
-    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresseResponse param, final boolean optimizeContent) {
-        //        try {
+    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresseResponse param) {
         return param.getOMElement(com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresseResponse.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        //        } catch (final org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
-    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresse param, final boolean optimizeContent) {
-        //        try {
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresse param) {
         final org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
         emptyEnvelope.getBody().addChild(param.getOMElement(com.fincatto.documentofiscal.cte.webservices.distribuicao.CTeDistribuicaoDFeSoapStub.CteDistDFeInteresse.MY_QNAME, factory));
         return emptyEnvelope;
-        //        } catch (final org.apache.axis2.databinding.ADBException e) {
-        //            throw org.apache.axis2.AxisFault.makeFault(e);
-        //        }
     }
 
     /* methods to provide back word compatibility */
