@@ -103,15 +103,15 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
     public com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteConsultaCTResult cteConsultaCT(final com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteDadosMsg cteDadosMsg0, final com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteCabecMsgE cteCabecMsg1) throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext messageContext = null;
         try {
-            final org.apache.axis2.client.OperationClient _operationClient = this._serviceClient.createClient(this.operations[0].getName());
-            _operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta/cteConsultaCT");
-            _operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
-            this.addPropertyToOperationClient(_operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
+            final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
+            operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta/cteConsultaCT");
+            operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
+            this.addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
             // create a message context
             messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0);
+            env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0);
             env.build();
             // add the children only if the parameter is not null
             if (cteCabecMsg1 != null) {
@@ -123,10 +123,10 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
             // set the message context with that soap envelope
             messageContext.setEnvelope(env);
             // add the message contxt to the operation client
-            _operationClient.addMessageContext(messageContext);
+            operationClient.addMessageContext(messageContext);
             // execute the operation client
-            _operationClient.execute(true);
-            final org.apache.axis2.context.MessageContext _returnMessageContext = _operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
+            operationClient.execute(true);
+            final org.apache.axis2.context.MessageContext _returnMessageContext = operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
             final org.apache.axiom.soap.SOAPEnvelope _returnEnv = _returnMessageContext.getEnvelope();
             final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteConsultaCTResult.class);
             return (com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteConsultaCTResult) object;
@@ -169,15 +169,15 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
      * @param cteCabecMsg1
      */
     public void startcteConsultaCT(final com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteDadosMsg cteDadosMsg0, final com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaStub.CteCabecMsgE cteCabecMsg1, final com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaCallbackHandler callback) throws java.rmi.RemoteException {
-        final org.apache.axis2.client.OperationClient _operationClient = this._serviceClient.createClient(this.operations[0].getName());
-        _operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta/cteConsultaCT");
-        _operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
-        this.addPropertyToOperationClient(_operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
+        final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
+        operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta/cteConsultaCT");
+        operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
+        this.addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
         // create SOAP envelope with that payload
         org.apache.axiom.soap.SOAPEnvelope env;
         final org.apache.axis2.context.MessageContext _messageContext = MessageContextFactory.INSTANCE.create(config);
         // Style is Doc.
-        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0);
+        env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0);
         // add the soap_headers only if they are not null
         if (cteCabecMsg1 != null) {
             final org.apache.axiom.om.OMElement omElementcteCabecMsg1 = this.toOM(cteCabecMsg1);
@@ -188,8 +188,8 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
         // create message context with that soap envelope
         _messageContext.setEnvelope(env);
         // add the message context to the operation client
-        _operationClient.addMessageContext(_messageContext);
-        _operationClient.setCallback(new org.apache.axis2.client.async.AxisCallback() {
+        operationClient.addMessageContext(_messageContext);
+        operationClient.setCallback(new org.apache.axis2.client.async.AxisCallback() {
             @Override
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
@@ -252,12 +252,12 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
             }
         });
         org.apache.axis2.util.CallbackReceiver _callbackReceiver;
-        if (this.operations[0].getMessageReceiver() == null && _operationClient.getOptions().isUseSeparateListener()) {
+        if (this.operations[0].getMessageReceiver() == null && operationClient.getOptions().isUseSeparateListener()) {
             _callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
             this.operations[0].setMessageReceiver(_callbackReceiver);
         }
         // execute the operation client
-        _operationClient.execute(false);
+        operationClient.execute(false);
     }
 
     /**
