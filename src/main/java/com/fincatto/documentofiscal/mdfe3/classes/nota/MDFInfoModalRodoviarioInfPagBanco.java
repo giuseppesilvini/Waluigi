@@ -31,7 +31,7 @@ public class MDFInfoModalRodoviarioInfPagBanco extends DFBase {
      * Informar os zeros não significativos.
      */
     @Element(name = "CNPJIPEF", required = false)
-    private String CNPJIPEF;
+    private String cnpjipef;
 
     public String getCodBanco() {
         return codBanco;
@@ -50,11 +50,11 @@ public class MDFInfoModalRodoviarioInfPagBanco extends DFBase {
     }
 
     public String getCNPJIPEF() {
-        return CNPJIPEF;
+        return cnpjipef;
     }
 
-    public void setCNPJIPEF(String CNPJIPEF) {
-        this.CNPJIPEF = CNPJIPEF != null ? StringUtils.leftPad(CNPJIPEF, 14, "0") : null;
+    public void setCNPJIPEF(String cnpjipef) {
+        this.cnpjipef = cnpjipef != null ? StringUtils.leftPad(cnpjipef, 14, "0") : null;
     }
 
 }

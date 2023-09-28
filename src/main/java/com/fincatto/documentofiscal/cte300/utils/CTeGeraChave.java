@@ -6,7 +6,6 @@ import com.fincatto.documentofiscal.cte300.classes.nota.CTeNota;
 
 import java.security.SecureRandom;
 import java.time.format.DateTimeFormatter;
-import java.util.Random;
 import java.util.UUID;
 
 public class CTeGeraChave {

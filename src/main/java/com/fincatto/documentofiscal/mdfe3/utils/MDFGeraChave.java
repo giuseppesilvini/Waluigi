@@ -6,7 +6,6 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.security.SecureRandom;
 import java.time.format.DateTimeFormatter;
-import java.util.Random;
 
 public class MDFGeraChave {
 

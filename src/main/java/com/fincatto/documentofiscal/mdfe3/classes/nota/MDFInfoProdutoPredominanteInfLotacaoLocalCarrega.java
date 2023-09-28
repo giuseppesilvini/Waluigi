@@ -16,7 +16,7 @@ public class MDFInfoProdutoPredominanteInfLotacaoLocalCarrega extends DFBase {
     private static final long serialVersionUID = -5711457880712720488L;
 
     @Element(name = "CEP", required = false)
-    private String CEP;
+    private String cep;
     
     @Element(name = "latitude", required = false)
     private Float latitude;
@@ -25,11 +25,11 @@ public class MDFInfoProdutoPredominanteInfLotacaoLocalCarrega extends DFBase {
     private Float longitude;
 
     public String getCEP() {
-        return CEP;
+        return cep;
     }
 
-    public void setCEP(String CEP) {
-        this.CEP = CEP;
+    public void setCEP(String cep) {
+        this.cep = cep;
     }
 
     public Float getLatitude() {

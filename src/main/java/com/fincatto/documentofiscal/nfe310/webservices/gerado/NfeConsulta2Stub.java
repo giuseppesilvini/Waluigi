@@ -3,9 +3,7 @@ package com.fincatto.documentofiscal.nfe310.webservices.gerado;
 import org.apache.axiom.om.OMAttribute;
 import org.apache.axis2.client.Stub;
 import org.apache.axis2.databinding.utils.Constants;
-import org.apache.axis2.description.TransportOutDescription;
 
-import javax.xml.namespace.QName;
 import java.io.Serializable;
 import java.lang.reflect.Constructor;
 

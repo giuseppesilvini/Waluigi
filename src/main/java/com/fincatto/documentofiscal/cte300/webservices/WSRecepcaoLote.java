@@ -22,7 +22,6 @@ import javax.xml.stream.XMLStreamReader;
 import javax.xml.XMLConstants;
 import java.io.StringReader;
 import java.util.Iterator;
-import javax.xml.XMLConstants;
 
 class WSRecepcaoLote implements DFLog {
     

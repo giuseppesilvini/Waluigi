@@ -27,7 +27,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
     private final java.util.HashMap faultExceptionClassNameMap = new java.util.HashMap();
     private final java.util.HashMap faultMessageMap = new java.util.HashMap();
 
-    private final javax.xml.namespace.QName[] opNameArray = null;
+    private static final javax.xml.namespace.QName[] opNameArray = null;
     private final DFConfig config;
 
     private static final String NAME_SPACE_URI = "http://www.portalfiscal.inf.br/cte/wsdl/CTeDistribuicaoDFe";

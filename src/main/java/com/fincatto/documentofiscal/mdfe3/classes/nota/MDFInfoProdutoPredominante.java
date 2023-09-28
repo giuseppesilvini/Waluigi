@@ -29,7 +29,7 @@ public class MDFInfoProdutoPredominante extends DFBase {
     private String cEAN;
     
     @Element(name = "NCM")
-    private String NCM;
+    private String ncm;
     
     @Element(name = "infLotacao")
     private MDFInfoProdutoPredominanteInfLotacao infLotacao;
@@ -59,11 +59,11 @@ public class MDFInfoProdutoPredominante extends DFBase {
     }
 
     public String getNCM() {
-        return NCM;
+        return ncm;
     }
 
-    public void setNCM(String NCM) {
-        this.NCM = NCM;
+    public void setNCM(String ncm) {
+        this.ncm = ncm;
     }
 
     public MDFInfoProdutoPredominanteInfLotacao getInfLotacao() {

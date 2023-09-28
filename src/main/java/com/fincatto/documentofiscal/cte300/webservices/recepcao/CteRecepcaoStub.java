@@ -29,7 +29,7 @@ public class CteRecepcaoStub extends org.apache.axis2.client.Stub {
     private final java.util.HashMap faultExceptionClassNameMap = new java.util.HashMap();
     private final java.util.HashMap faultMessageMap = new java.util.HashMap();
 
-    private final javax.xml.namespace.QName[] opNameArray = null;
+    private static final javax.xml.namespace.QName[] opNameArray = null;
     private final DFConfig config;
 
     private static int counter = 0;
@@ -177,7 +177,7 @@ public class CteRecepcaoStub extends org.apache.axis2.client.Stub {
         this.addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
         // create SOAP envelope with that payload
         org.apache.axiom.soap.SOAPEnvelope env;
-        final org.apache.axis2.context.MessageContext _messageContext = MessageContextFactory.INSTANCE.create(config);
+        final org.apache.axis2.context.MessageContext messageContext = MessageContextFactory.INSTANCE.create(config);
         // Style is Doc.
         env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0);
         // add the soap_headers only if they are not null
@@ -188,9 +188,9 @@ public class CteRecepcaoStub extends org.apache.axis2.client.Stub {
         // adding SOAP soap_headers
         this._serviceClient.addHeadersToEnvelope(env);
         // create message context with that soap envelope
-        _messageContext.setEnvelope(env);
+        messageContext.setEnvelope(env);
         // add the message context to the operation client
-        operationClient.addMessageContext(_messageContext);
+        operationClient.addMessageContext(messageContext);
         operationClient.setCallback(new org.apache.axis2.client.async.AxisCallback() {
             @Override
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
@@ -247,7 +247,7 @@ public class CteRecepcaoStub extends org.apache.axis2.client.Stub {
             @Override
             public void onComplete() {
                 try {
-                    _messageContext.getTransportOut().getSender().cleanup(_messageContext);
+                    messageContext.getTransportOut().getSender().cleanup(messageContext);
                 } catch (final org.apache.axis2.AxisFault axisFault) {
                     callback.receiveErrorcteRecepcaoLote(axisFault);
                 }

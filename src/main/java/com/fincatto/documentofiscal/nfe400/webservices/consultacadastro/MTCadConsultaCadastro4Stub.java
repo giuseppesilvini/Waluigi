@@ -7,8 +7,6 @@ import javax.xml.namespace.QName;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
-
-
 public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     public static final String NFE_DADOS_MSG_TYPE_0 = "nfeDadosMsg_type0";
     public static final String CONSULTA_CADASTRO_RESULT_TYPE_0 = "consultaCadastroResult_type0";
@@ -18,7 +16,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4 = "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4";
     public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
     private static int counter = 0;
-    protected org.apache.axis2.description.AxisOperation[] _operations;
+    protected org.apache.axis2.description.AxisOperation[] operations;
 
     //hashmaps to keep the fault mapping
     private java.util.HashMap<FaultMapKey, String> faultExceptionNameMap = new java.util.HashMap<>();
@@ -75,16 +73,16 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         this.addAnonymousOperations();
 
         //creating the operations
-        org.apache.axis2.description.AxisOperation __operation;
+        org.apache.axis2.description.AxisOperation operation;
 
-        this._operations = new org.apache.axis2.description.AxisOperation[1];
+        this.operations = new org.apache.axis2.description.AxisOperation[1];
 
-        __operation = new org.apache.axis2.description.OutInAxisOperation();
+        operation = new org.apache.axis2.description.OutInAxisOperation();
 
-        __operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4,"consultaCadastro"));
-        this._service.addOperation(__operation);
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4,"consultaCadastro"));
+        this._service.addOperation(operation);
 
-        this._operations[0] = __operation;
+        this.operations[0] = operation;
     }
 
     //populates the faults
@@ -93,38 +91,38 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     }
 
     public NfeResultMsg consultaCadastro(ConsultaCadastro consultaCadastro0) throws java.rmi.RemoteException {
-        org.apache.axis2.context.MessageContext _messageContext = null;
+        org.apache.axis2.context.MessageContext messageContext = null;
 
         try {
-            org.apache.axis2.client.OperationClient _operationClient = _serviceClient.createClient(_operations[0].getName());
-            _operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4/consultaCadastro");
-            _operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
+            org.apache.axis2.client.OperationClient operationClient = _serviceClient.createClient(operations[0].getName());
+            operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4/consultaCadastro");
+            operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
 
-            addPropertyToOperationClient(_operationClient,org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR,"&");
+            addPropertyToOperationClient(operationClient,org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR,"&");
 
             // create a message context
-            _messageContext = new org.apache.axis2.context.MessageContext();
+            messageContext = new org.apache.axis2.context.MessageContext();
 
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env = null;
 
-            env = this.toEnvelope(getFactory(_operationClient.getOptions().getSoapVersionURI()),consultaCadastro0);
+            env = this.toEnvelope(getFactory(operationClient.getOptions().getSoapVersionURI()),consultaCadastro0);
 
             //adding SOAP soap_headers
             this._serviceClient.addHeadersToEnvelope(env);
             // set the message context with that soap envelope
-            _messageContext.setEnvelope(env);
+            messageContext.setEnvelope(env);
 
             // add the message contxt to the operation client
-            _operationClient.addMessageContext(_messageContext);
+            operationClient.addMessageContext(messageContext);
 
             //execute the operation client
-            _operationClient.execute(true);
+            operationClient.execute(true);
 
-            org.apache.axis2.context.MessageContext _returnMessageContext = _operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
-            org.apache.axiom.soap.SOAPEnvelope _returnEnv = _returnMessageContext.getEnvelope();
+            org.apache.axis2.context.MessageContext returnMessageContext = operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
+            org.apache.axiom.soap.SOAPEnvelope returnEnv = returnMessageContext.getEnvelope();
 
-            Object object = fromOM(_returnEnv.getBody()
+            Object object = fromOM(returnEnv.getBody()
                             .getFirstElement(),
                     NfeResultMsg.class);
 
@@ -152,8 +150,8 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                         Object messageObject = fromOM(faultElt,
                                 messageClass);
                         java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage",
-                                new Class[]{messageClass});
-                        m.invoke(ex, new Object[]{messageObject});
+                                messageClass);
+                        m.invoke(ex, messageObject);
 
                         throw new java.rmi.RemoteException(ex.getMessage(), ex);
                     } catch (ClassCastException | ClassNotFoundException| NoSuchMethodException | java.lang.reflect.InvocationTargetException | IllegalAccessException | InstantiationException e  ) {
@@ -167,8 +165,8 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 throw f;
             }
         } finally {
-            if(_messageContext != null && _messageContext.getTransportOut() != null) {
-                _messageContext.getTransportOut().getSender().cleanup(_messageContext);
+            if(messageContext != null && messageContext.getTransportOut() != null) {
+                messageContext.getTransportOut().getSender().cleanup(messageContext);
             }
         }
     }
