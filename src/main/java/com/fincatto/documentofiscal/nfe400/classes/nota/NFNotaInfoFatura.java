@@ -32,7 +32,6 @@ public class NFNotaInfoFatura extends DFBase {
     }
 
     public void setValorDesconto(final BigDecimal valorDesconto) {
-        //this.valorDesconto = BigDecimalParser.tamanho15Com2CasasDecimais(valorDesconto, "Valor Desconto Fatura");
         this.valorDesconto = DFBigDecimalValidador.tamanho13Com2CasasDecimais(valorDesconto, "Valor Desconto Fatura");
     }
     

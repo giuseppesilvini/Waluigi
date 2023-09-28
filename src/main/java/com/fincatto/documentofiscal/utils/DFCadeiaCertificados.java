@@ -17,6 +17,10 @@ import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 
 public abstract class DFCadeiaCertificados implements DFLog {
+
+    private DFCadeiaCertificados () {
+        throw new IllegalStateException("Utility class");
+    }
     
     private static final int PORT = 443;
     private static final String PROTOCOL = "TLSv1.2";
@@ -25,25 +29,6 @@ public abstract class DFCadeiaCertificados implements DFLog {
         final KeyStore keyStore = KeyStore.getInstance(KeyStore.getDefaultType());
         keyStore.load(null, senha.toCharArray());
         try (ByteArrayOutputStream out = new ByteArrayOutputStream()) {
-    
-        	/*//nao eh mais usado
-            for (final NFAutorizador31 aut : NFAutorizador31.values()) {
-                // Para NFe...
-                final String urlNF = aut.getNfeStatusServico(ambiente);
-                if (StringUtils.isNotBlank(urlNF)) {
-                    final String host = new URI(urlNF).getHost();
-                    DFCadeiaCertificados.get(keyStore, host);
-                }
-        
-                // Para NFCe...
-                final String urlNFC = aut.getNfceStatusServico(ambiente);
-                if (StringUtils.isNotBlank(urlNFC)) {
-                    final String host = new URI(urlNFC).getHost();
-                    DFCadeiaCertificados.get(keyStore, host);
-                }
-            }
-            */
-    
             for (final NFAutorizador400 aut : NFAutorizador400.values()) {
                 // Para NFe...
                 final String urlNF = aut.getNfeStatusServico(ambiente);

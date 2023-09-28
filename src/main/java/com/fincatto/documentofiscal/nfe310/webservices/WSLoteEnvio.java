@@ -61,7 +61,6 @@ class WSLoteEnvio implements DFLog {
         }
         // assina o lote
         final String documentoAssinado = new DFAssinaturaDigital(this.config).assinarDocumento(lote.toString());
-        //final NFLoteEnvio loteAssinado = new DFParser().loteParaObjeto(documentoAssinado);
         final NFLoteEnvio loteAssinado = this.config.getPersister().read(NFLoteEnvio.class, documentoAssinado);
         
         // verifica se nao tem NFCe junto com NFe no lote e gera qrcode (apos assinar mesmo, eh assim)
