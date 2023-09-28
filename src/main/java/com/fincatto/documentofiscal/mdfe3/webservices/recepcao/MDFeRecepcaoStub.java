@@ -111,11 +111,11 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
             _messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), mdfeDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO, "mdfeRecepcaoLote")), new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO, "mdfeRecepcaoLote"));
+            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), mdfeDadosMsg0);
             env.build();
             // add the children only if the parameter is not null
             if (mdfeCabecMsg1 != null) {
-                final org.apache.axiom.om.OMElement omElementmdfeCabecMsg1 = this.toOM(mdfeCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO, "mdfeRecepcaoLote")));
+                final org.apache.axiom.om.OMElement omElementmdfeCabecMsg1 = this.toOM(mdfeCabecMsg1);
                 this.addHeader(omElementmdfeCabecMsg1, env);
             }
             // adding SOAP soap_headers
@@ -128,7 +128,7 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
             _operationClient.execute(true);
             final org.apache.axis2.context.MessageContext _returnMessageContext = _operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
             final org.apache.axiom.soap.SOAPEnvelope _returnEnv = _returnMessageContext.getEnvelope();
-            final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub.MdfeRecepcaoLoteResult.class, this.getEnvelopeNamespaces(_returnEnv));
+            final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub.MdfeRecepcaoLoteResult.class);
             return (com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub.MdfeRecepcaoLoteResult) object;
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
@@ -147,7 +147,7 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
                 // message class
                 final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeRecepcaoLote"));
                 final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                final java.lang.Object messageObject = this.fromOM(faultElt, messageClass, null);
+                final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                 final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
                 m.invoke(ex, messageObject);
                 throw new java.rmi.RemoteException(ex.getMessage(), ex);
@@ -176,10 +176,10 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
         org.apache.axiom.soap.SOAPEnvelope env;
         final org.apache.axis2.context.MessageContext _messageContext = MessageContextFactory.INSTANCE.create(config);
         // Style is Doc.
-        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), mdfeDadosMsg0, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO, "mdfeRecepcaoLote")), new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO, "mdfeRecepcaoLote"));
+        env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), mdfeDadosMsg0);
         // add the soap_headers only if they are not null
         if (mdfeCabecMsg1 != null) {
-            final org.apache.axiom.om.OMElement omElementmdfeCabecMsg1 = this.toOM(mdfeCabecMsg1, this.optimizeContent(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO, "mdfeRecepcaoLote")));
+            final org.apache.axiom.om.OMElement omElementmdfeCabecMsg1 = this.toOM(mdfeCabecMsg1);
             this.addHeader(omElementmdfeCabecMsg1, env);
         }
         // adding SOAP soap_headers
@@ -193,7 +193,7 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
                     final org.apache.axiom.soap.SOAPEnvelope resultEnv = resultContext.getEnvelope();
-                    final java.lang.Object object = MDFeRecepcaoStub.this.fromOM(resultEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub.MdfeRecepcaoLoteResult.class, MDFeRecepcaoStub.this.getEnvelopeNamespaces(resultEnv));
+                    final java.lang.Object object = MDFeRecepcaoStub.this.fromOM(resultEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub.MdfeRecepcaoLoteResult.class);
                     callback.receiveResultmdfeRecepcaoLote((com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub.MdfeRecepcaoLoteResult) object);
                 } catch (final org.apache.axis2.AxisFault e) {
                     callback.receiveErrormdfeRecepcaoLote(e);
@@ -217,7 +217,7 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
                                 // message class
                                 final java.lang.String messageClassName = (java.lang.String) MDFeRecepcaoStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeRecepcaoLote"));
                                 final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                                final java.lang.Object messageObject = MDFeRecepcaoStub.this.fromOM(faultElt, messageClass, null);
+                                final java.lang.Object messageObject = MDFeRecepcaoStub.this.fromOM(faultElt, messageClass);
                                 final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
                                 m.invoke(ex, messageObject);
                                 callback.receiveErrormdfeRecepcaoLote(new java.rmi.RemoteException(ex.getMessage(), ex));
@@ -275,10 +275,6 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
     }
 
     private final DFConfig config;
-
-    private boolean optimizeContent(final javax.xml.namespace.QName opName) {
-        return false;
-    }
 
     // https://mdfe.sefaz.rs.gov.br/ws/MDFerecepcao/MDFeRecepcao.asmx
     public static class ExtensionMapper {
@@ -1679,7 +1675,7 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
     // }
     // }
 
-    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub.MdfeCabecMsgE param, final boolean optimizeContent) {
+    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub.MdfeCabecMsgE param) {
         // try {
         return param.getOMElement(com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub.MdfeCabecMsgE.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         // } catch (org.apache.axis2.databinding.ADBException e) {
@@ -1687,7 +1683,7 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
         // }
     }
 
-    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub.MdfeDadosMsg param, final boolean optimizeContent, final javax.xml.namespace.QName methodQName) {
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub.MdfeDadosMsg param) {
         // try {
         final org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
         emptyEnvelope.getBody().addChild(param.getOMElement(com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub.MdfeDadosMsg.MY_QNAME, factory));
@@ -1708,7 +1704,7 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
     }
 
     @SuppressWarnings("rawtypes")
-    private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class type, final java.util.Map extraNamespaces) throws org.apache.axis2.AxisFault {
+    private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class type) throws org.apache.axis2.AxisFault {
         try {
             if (com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub.MdfeDadosMsg.class.equals(type)) {
                 return com.fincatto.documentofiscal.mdfe3.webservices.recepcao.MDFeRecepcaoStub.MdfeDadosMsg.Factory.parse(param.getXMLStreamReaderWithoutCaching());
