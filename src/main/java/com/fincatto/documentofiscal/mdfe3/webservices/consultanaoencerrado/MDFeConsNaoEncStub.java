@@ -1659,47 +1659,16 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
             }
         }// end of factory class
     }
-    // private org.apache.axiom.om.OMElement toOM(com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub.MdfeDadosMsg param, boolean optimizeContent) throws org.apache.axis2.AxisFault {
-    // try {
-    // return param.getOMElement(com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub.MdfeDadosMsg.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-    // } catch (org.apache.axis2.databinding.ADBException e) {
-    // throw org.apache.axis2.AxisFault.makeFault(e);
-    // }
-    // }
-    //
-    // private org.apache.axiom.om.OMElement toOM(com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub.MdfeConsNaoEncResult param, boolean optimizeContent) throws org.apache.axis2.AxisFault {
-    // try {
-    // return param.getOMElement(com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub.MdfeConsNaoEncResult.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-    // } catch (org.apache.axis2.databinding.ADBException e) {
-    // throw org.apache.axis2.AxisFault.makeFault(e);
-    // }
-    // }
-
+    
     private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub.MdfeCabecMsgE param) {
-        // try {
         return param.getOMElement(com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub.MdfeCabecMsgE.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        // } catch (org.apache.axis2.databinding.ADBException e) {
-        // throw org.apache.axis2.AxisFault.makeFault(e);
-        // }
     }
 
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub.MdfeDadosMsg param) {
-        // try {
         final org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
         emptyEnvelope.getBody().addChild(param.getOMElement(com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub.MdfeDadosMsg.MY_QNAME, factory));
         return emptyEnvelope;
-        // } catch (org.apache.axis2.databinding.ADBException e) {
-        // throw org.apache.axis2.AxisFault.makeFault(e);
-        // }
     }
-    // /* methods to provide back word compatibility */
-    //
-    // /**
-    // * get the default envelope
-    // */
-    // private org.apache.axiom.soap.SOAPEnvelope toEnvelope(org.apache.axiom.soap.SOAPFactory factory) {
-    // return factory.getDefaultEnvelope();
-    // }
 
     @SuppressWarnings("rawtypes")
     private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class type) throws org.apache.axis2.AxisFault {

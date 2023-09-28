@@ -1656,38 +1656,15 @@ public class MDFeRetRecepcaoStub extends org.apache.axis2.client.Stub {
             }
         }// end of factory class
     }
-    // private org.apache.axiom.om.OMElement toOM(com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub.MdfeDadosMsg param, boolean optimizeContent) throws org.apache.axis2.AxisFault {
-    // try {
-    // return param.getOMElement(com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub.MdfeDadosMsg.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-    // } catch (org.apache.axis2.databinding.ADBException e) {
-    // throw org.apache.axis2.AxisFault.makeFault(e);
-    // }
-    // }
-    //
-    // private org.apache.axiom.om.OMElement toOM(com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub.MdfeRetRecepcaoResult param, boolean optimizeContent) throws org.apache.axis2.AxisFault {
-    // try {
-    // return param.getOMElement(com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub.MdfeRetRecepcaoResult.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-    // } catch (org.apache.axis2.databinding.ADBException e) {
-    // throw org.apache.axis2.AxisFault.makeFault(e);
-    // }
-    // }
 
     private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub.MdfeCabecMsgE param) {
-        // try {
         return param.getOMElement(com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub.MdfeCabecMsgE.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
-        // } catch (org.apache.axis2.databinding.ADBException e) {
-        // throw org.apache.axis2.AxisFault.makeFault(e);
-        // }
     }
 
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub.MdfeDadosMsg param) {
-        // try {
         final org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
         emptyEnvelope.getBody().addChild(param.getOMElement(com.fincatto.documentofiscal.mdfe3.webservices.retornorecepcao.MDFeRetRecepcaoStub.MdfeDadosMsg.MY_QNAME, factory));
         return emptyEnvelope;
-        // } catch (org.apache.axis2.databinding.ADBException e) {
-        // throw org.apache.axis2.AxisFault.makeFault(e);
-        // }
     }
 
     /* methods to provide back word compatibility */
