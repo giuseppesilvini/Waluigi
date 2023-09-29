@@ -4,7 +4,6 @@ import com.fincatto.documentofiscal.DFAmbiente;
 import com.fincatto.documentofiscal.DFLog;
 import com.fincatto.documentofiscal.cte300.classes.CTAutorizador31;
 import com.fincatto.documentofiscal.mdfe3.classes.MDFAutorizador3;
-import com.fincatto.documentofiscal.nfe310.classes.NFAutorizador31;
 import com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400;
 import org.apache.commons.lang3.StringUtils;
 

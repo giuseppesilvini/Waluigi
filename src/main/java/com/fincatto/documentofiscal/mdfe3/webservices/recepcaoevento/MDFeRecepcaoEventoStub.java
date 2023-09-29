@@ -251,10 +251,10 @@ public class MDFeRecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 }
             }
         });
-        org.apache.axis2.util.CallbackReceiver _callbackReceiver;
+        org.apache.axis2.util.CallbackReceiver callbackReceiver;
         if (this._operations[0].getMessageReceiver() == null && operationClient.getOptions().isUseSeparateListener()) {
-            _callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
-            this._operations[0].setMessageReceiver(_callbackReceiver);
+            callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
+            this._operations[0].setMessageReceiver(callbackReceiver);
         }
         // execute the operation client
         operationClient.execute(false);
