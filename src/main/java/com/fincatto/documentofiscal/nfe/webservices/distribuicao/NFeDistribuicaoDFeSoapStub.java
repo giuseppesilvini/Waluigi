@@ -26,7 +26,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
     private final java.util.HashMap faultExceptionClassNameMap = new java.util.HashMap();
     private final java.util.HashMap faultMessageMap = new java.util.HashMap();
 
-    private final javax.xml.namespace.QName[] opNameArray = null;
+    private static final javax.xml.namespace.QName[] opNameArray = null;
     private final DFConfig config;
 
     private static int counter = 0;

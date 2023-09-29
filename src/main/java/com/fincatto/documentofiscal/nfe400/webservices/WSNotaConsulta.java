@@ -25,7 +25,7 @@ class WSNotaConsulta implements DFLog {
     }
     
     NFNotaConsultaRetorno consultaNota(final String chaveDeAcesso) throws Exception {
-        return this.config.getPersister().read(NFNotaConsultaRetorno.class, consultaNotaAsString(chaveDeAcesso).toString());
+        return this.config.getPersister().read(NFNotaConsultaRetorno.class, consultaNotaAsString(chaveDeAcesso));
     }
 
     public String consultaNotaAsString(String chaveDeAcesso) throws Exception {

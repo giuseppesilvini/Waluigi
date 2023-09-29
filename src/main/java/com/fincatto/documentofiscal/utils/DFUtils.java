@@ -83,7 +83,8 @@ public abstract class DFUtils {
             return false;
         }
 
-        int d1 = 0, d2 = 0;
+        int d1 = 0;
+        int d2 = 0;
         for (int i = 1; i < 10; i++) {
             final int digitoCPF = Integer.parseInt(cpf.substring(i - 1, i));
 

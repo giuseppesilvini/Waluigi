@@ -185,7 +185,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
         // create SOAP envelope with that payload
         org.apache.axiom.soap.SOAPEnvelope env = null;
-        final org.apache.axis2.context.MessageContext _messageContext = MessageContextFactory.INSTANCE.create(config);
+        final org.apache.axis2.context.MessageContext messageContext = MessageContextFactory.INSTANCE.create(config);
 
         // Style is Doc.
         env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0, new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4", "nfeDadosMsg"));
@@ -193,10 +193,10 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         // adding SOAP soap_headers
         this._serviceClient.addHeadersToEnvelope(env);
         // create message context with that soap envelope
-        _messageContext.setEnvelope(env);
+        messageContext.setEnvelope(env);
 
         // add the message context to the operation client
-        _operationClient.addMessageContext(_messageContext);
+        _operationClient.addMessageContext(messageContext);
 
         _operationClient.setCallback(new org.apache.axis2.client.async.AxisCallback() {
             @Override
@@ -259,7 +259,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
             @Override
             public void onComplete() {
                 try {
-                    _messageContext.getTransportOut().getSender().cleanup(_messageContext);
+                    messageContext.getTransportOut().getSender().cleanup(messageContext);
                 } catch (final org.apache.axis2.AxisFault axisFault) {
                     callback.receiveErrorconsultaCadastro(axisFault);
                 }

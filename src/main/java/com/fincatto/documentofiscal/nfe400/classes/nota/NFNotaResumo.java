@@ -23,16 +23,16 @@ public class NFNotaResumo extends DFBase {
     private String chave;
 
     @Element(name = "CNPJ", required = false)
-    private String CNPJ;
+    private String cnpj;
 
     @Element(name = "CPF", required = false)
-    private String CPF;
+    private String cpf;
 
     @Element(name = "xNome")
     private String nome;
 
     @Element(name = "IE")
-    private String IE;
+    private String ie;
 
     @Element(name = "dhEmi")
     private ZonedDateTime dataHoraEmissao;
@@ -74,20 +74,20 @@ public class NFNotaResumo extends DFBase {
     }
 
     public String getCNPJ() {
-        return CNPJ;
+        return cnpj;
     }
 
-    public NFNotaResumo setCNPJ(String CNPJ) {
-        this.CNPJ = CNPJ;
+    public NFNotaResumo setCNPJ(String cnpj) {
+        this.cnpj = cnpj;
         return this;
     }
 
     public String getCPF() {
-        return CPF;
+        return cpf;
     }
 
-    public NFNotaResumo setCPF(String CPF) {
-        this.CPF = CPF;
+    public NFNotaResumo setCPF(String cpf) {
+        this.cpf = cpf;
         return this;
     }
 
@@ -101,11 +101,11 @@ public class NFNotaResumo extends DFBase {
     }
 
     public String getIE() {
-        return IE;
+        return ie;
     }
 
-    public NFNotaResumo setIE(String IE) {
-        this.IE = IE;
+    public NFNotaResumo setIE(String ie) {
+        this.ie = ie;
         return this;
     }
 

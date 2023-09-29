@@ -146,7 +146,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
         this.addPropertyToOperationClient(_operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
         // create SOAP envelope with that payload
         org.apache.axiom.soap.SOAPEnvelope env;
-        final org.apache.axis2.context.MessageContext _messageContext = MessageContextFactory.INSTANCE.create(config);
+        final org.apache.axis2.context.MessageContext messageContext = MessageContextFactory.INSTANCE.create(config);
         // Style is Doc.
         env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA_2, "nfeConsultaNF2"));
         // add the soap_headers only if they are not null
@@ -157,9 +157,9 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
         // adding SOAP soap_headers
         this._serviceClient.addHeadersToEnvelope(env);
         // create message context with that soap envelope
-        _messageContext.setEnvelope(env);
+        messageContext.setEnvelope(env);
         // add the message context to the operation client
-        _operationClient.addMessageContext(_messageContext);
+        _operationClient.addMessageContext(messageContext);
         _operationClient.setCallback(new org.apache.axis2.client.async.AxisCallback() {
             @Override
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
@@ -216,7 +216,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
             @Override
             public void onComplete() {
                 try {
-                    _messageContext.getTransportOut().getSender().cleanup(_messageContext);
+                    messageContext.getTransportOut().getSender().cleanup(messageContext);
                 } catch (org.apache.axis2.AxisFault axisFault) {
                     callback.receiveErrornfeConsultaNF2(axisFault);
                 }

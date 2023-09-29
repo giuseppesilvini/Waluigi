@@ -65,8 +65,7 @@ public class WSEpec implements DFLog {
         }
         final String documentoAssinado = new DFAssinaturaDigital(this.config).assinarDocumento(epec.toString());
         final NFEnviaEventoEpec epecAssinado = this.config.getPersister().read(NFEnviaEventoEpec.class, documentoAssinado);
-        final NFEnviaEventoEpecRetorno epecEnvioRetorno = this.comunicaEpec(epecAssinado.toString());
-        return epecEnvioRetorno;
+        return this.comunicaEpec(epecAssinado.toString());
     }
 
     private NFEnviaEventoEpec criaEnvioEpec(NFLoteEnvio loteEnvio) {
