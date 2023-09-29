@@ -16,7 +16,7 @@ public class NFGeraQRCode20Test {
     public void geraSHA256() throws Exception {
         final String entrada = "28170800156225000131650110000151341562040824|2|1|1SEU-CODIGO-CSC-CONTRIBUINTE-36-CARACTERES";
         final String saida = NFGeraQRCodeEmissaoNormal20.sha256(entrada);
-        Assert.assertEquals(saida, "181769D8A1EF647E8475BEF7741AD2C21D1AF92028DF0FE84C1E8AB5EFA34BDB");
+        Assert.assertEquals("181769D8A1EF647E8475BEF7741AD2C21D1AF92028DF0FE84C1E8AB5EFA34BDB", saida);
     }
 
     public static NFeConfig createConfigTest() {

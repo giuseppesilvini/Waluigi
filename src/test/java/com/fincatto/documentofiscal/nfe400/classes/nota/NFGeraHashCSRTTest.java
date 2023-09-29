@@ -29,7 +29,7 @@ public class NFGeraHashCSRTTest {
     public void geraSHA256() throws Exception {
         final String entrada = this.createConfigTest().getCSRT() + CHAVE_TO_TEST;
         final String saida = NFGeraHashCSRT.getStringSha256(entrada);
-        Assert.assertEquals(saida, "a94e9a8c09be88b7ee8e3746af0cbf10cbfdb5304023ade4d68465bbc2aba2de");
+        Assert.assertEquals("a94e9a8c09be88b7ee8e3746af0cbf10cbfdb5304023ade4d68465bbc2aba2de", saida);
     }
 
     /**

@@ -23,7 +23,7 @@ public abstract class NFGeraQRCode20 {
     protected final NFNota nota;
     protected final NFeConfig config;
 
-    public NFGeraQRCode20(final NFNota nota, final NFeConfig config) {
+    protected NFGeraQRCode20(final NFNota nota, final NFeConfig config) {
         this.nota = nota;
         this.config = config;
     }

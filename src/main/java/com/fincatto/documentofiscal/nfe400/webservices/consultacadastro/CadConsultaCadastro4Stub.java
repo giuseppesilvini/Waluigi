@@ -78,16 +78,16 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         this.addAnonymousOperations();
 
         // creating the operations
-        org.apache.axis2.description.AxisOperation __operation;
+        org.apache.axis2.description.AxisOperation operation;
 
         this._operations = new org.apache.axis2.description.AxisOperation[1];
 
-        __operation = new org.apache.axis2.description.OutInAxisOperation();
+        operation = new org.apache.axis2.description.OutInAxisOperation();
 
-        __operation.setName(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4", "consultaCadastro"));
-        this._service.addOperation(__operation);
+        operation.setName(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4", "consultaCadastro"));
+        this._service.addOperation(operation);
 
-        this._operations[0] = __operation;
+        this._operations[0] = operation;
     }
 
     // populates the faults
@@ -266,11 +266,11 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
             }
         });
 
-        org.apache.axis2.util.CallbackReceiver _callbackReceiver = null;
+        org.apache.axis2.util.CallbackReceiver callbackReceiver = null;
 
         if ((this._operations[0].getMessageReceiver() == null) && _operationClient.getOptions().isUseSeparateListener()) {
-            _callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
-            this._operations[0].setMessageReceiver(_callbackReceiver);
+            callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
+            this._operations[0].setMessageReceiver(callbackReceiver);
         }
 
         // execute the operation client

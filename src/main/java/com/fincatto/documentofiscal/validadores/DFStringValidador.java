@@ -826,12 +826,12 @@ public abstract class DFStringValidador {
                         }
                         modalidadeMethod = testValue.get();
 
-                        NFNotaInfoItemModalidadeBCICMSST modalidadeBCICMSST = (NFNotaInfoItemModalidadeBCICMSST) modalidadeMethod.invoke(objectValue, new Object[]{});
+                        NFNotaInfoItemModalidadeBCICMSST modalidadeBCICMSST = (NFNotaInfoItemModalidadeBCICMSST) modalidadeMethod.invoke(objectValue, (Object[]) null);
                         // retorna o metodo necessario para extrair o valor da percentualMargemValorAdicionadoICMSST(pMVAST).
                         Method percentualMethod = Arrays.stream(typeMethods).filter(method1 -> method1.getName().contains("getPercentualMargemValorAdicionadoICMSST")).findAny().orElse(null);
                         String percentualValue = null;
                         if (percentualMethod != null) {
-                            percentualValue = (String) percentualMethod.invoke(objectValue, new Object[]{});
+                            percentualValue = (String) percentualMethod.invoke(objectValue, (Object[]) null);
                         }
                         //verificacoes conforme a regra de validacao
                         if (modalidadeBCICMSST != null && modalidadeBCICMSST.equals(NFNotaInfoItemModalidadeBCICMSST.MARGEM_VALOR_AGREGADO) && StringUtils.isBlank(percentualValue)) {

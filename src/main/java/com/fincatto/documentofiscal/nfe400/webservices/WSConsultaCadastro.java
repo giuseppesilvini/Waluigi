@@ -52,9 +52,9 @@ class WSConsultaCadastro implements DFLog {
             consultaCadastro.setNfeDadosMsg(dadosMsg);
             return new MTCadConsultaCadastro4Stub(urlConsulta).consultaCadastro(consultaCadastro).getConsultaCadastroResult().getExtraElement();
         } else {
-            final NfeDadosMsg nfeDadosMsg_type0 = new NfeDadosMsg();
-            nfeDadosMsg_type0.setExtraElement(omElementConsulta);
-            return new CadConsultaCadastro4Stub(urlConsulta, config).consultaCadastro(nfeDadosMsg_type0).getExtraElement();
+            final NfeDadosMsg nfeDadosMsgType0 = new NfeDadosMsg();
+            nfeDadosMsgType0.setExtraElement(omElementConsulta);
+            return new CadConsultaCadastro4Stub(urlConsulta, config).consultaCadastro(nfeDadosMsgType0).getExtraElement();
         }
     }
     

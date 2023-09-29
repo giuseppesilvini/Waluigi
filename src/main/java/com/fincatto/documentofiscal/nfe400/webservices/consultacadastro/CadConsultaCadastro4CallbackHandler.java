@@ -13,7 +13,7 @@ public abstract class CadConsultaCadastro4CallbackHandler {
      * User can pass in any object that needs to be accessed once the NonBlocking Web service call is finished and appropriate method of this CallBack is called.
      * @param clientData Object mechanism by which the user can pass in user data that will be avilable at the time this callback is called.
      */
-    public CadConsultaCadastro4CallbackHandler(final Object clientData) {
+    protected CadConsultaCadastro4CallbackHandler(final Object clientData) {
         this.clientData = clientData;
     }
 
