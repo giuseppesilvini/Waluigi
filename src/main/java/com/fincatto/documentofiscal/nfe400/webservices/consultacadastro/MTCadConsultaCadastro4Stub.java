@@ -15,6 +15,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4 = "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4";
     public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
+    public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
     private static int counter = 0;
     protected org.apache.axis2.description.AxisOperation[] operations;
 
@@ -426,7 +427,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS_EXCEPTION_MESSAGE);
             }
 
             /**
@@ -505,7 +506,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                     if (reader.isStartElement()) {
                         // 2 - A start element we are not expecting indicates a trailing invalid property
                         throw new org.apache.axis2.databinding.ADBException(
-                                "Unexpected subelement " + reader.getName());
+                                UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
                     throw new Exception(e);
@@ -694,7 +695,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS_EXCEPTION_MESSAGE);
             }
 
             /**
@@ -770,7 +771,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                     else {
                         // 1 - A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(
-                                "Unexpected subelement " + reader.getName());
+                                UNEXPECTED_SUBELEMENT + reader.getName());
                     }
 
                     while (!reader.isStartElement() && !reader.isEndElement())
@@ -779,7 +780,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                     if (reader.isStartElement()) {
                         // 2 - A start element we are not expecting indicates a trailing invalid property
                         throw new org.apache.axis2.databinding.ADBException(
-                                "Unexpected subelement " + reader.getName());
+                                UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
                     throw new Exception(e);
@@ -972,7 +973,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS_EXCEPTION_MESSAGE);
             }
 
             /**
@@ -1045,7 +1046,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                     else {
                         // 1 - A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(
-                                "Unexpected subelement " + reader.getName());
+                                UNEXPECTED_SUBELEMENT + reader.getName());
                     }
 
                     while (!reader.isStartElement() && !reader.isEndElement())
@@ -1054,7 +1055,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                     if (reader.isStartElement()) {
                         // 2 - A start element we are not expecting indicates a trailing invalid property
                         throw new org.apache.axis2.databinding.ADBException(
-                                "Unexpected subelement " + reader.getName());
+                                UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
                     throw new Exception(e);
@@ -1240,7 +1241,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS_EXCEPTION_MESSAGE);
             }
 
             /**
@@ -1314,7 +1315,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                     if (reader.isStartElement()) {
                         // 2 - A start element we are not expecting indicates a trailing invalid property
                         throw new org.apache.axis2.databinding.ADBException(
-                                "Unexpected subelement " + reader.getName());
+                                UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
                     throw new Exception(e);

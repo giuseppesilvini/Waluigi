@@ -12,6 +12,7 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
     public static final String NFE_RESULT_MSG = "nfeResultMsg";
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4 = "http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4";
+    public static final String NFE_DADOS_MSG_ZIP = "nfeDadosMsgZip";
     private static int counter = 0;
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
@@ -682,7 +683,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
 
     @SuppressWarnings("serial")
     public static class NfeDadosMsgZip implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, "nfeDadosMsgZip", "ns1");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, NFE_DADOS_MSG_ZIP, "ns1");
 
         /**
          * field for NfeDadosMsgZip
@@ -726,7 +727,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
         public void serialize(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter, final boolean serializeType) throws javax.xml.stream.XMLStreamException {
             // We can safely assume an element has only one type associated with it
             final java.lang.String namespace = HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4;
-            final java.lang.String _localName = "nfeDadosMsgZip";
+            final java.lang.String _localName = NFE_DADOS_MSG_ZIP;
             this.writeStartElement(null, namespace, _localName, xmlWriter);
             // add the type details if this is used in a simple type
             if (serializeType) {
@@ -734,7 +735,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDadosMsgZip", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeDadosMsgZip", xmlWriter);
+                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_DADOS_MSG_ZIP, xmlWriter);
                 }
             }
             if (this.localNfeDadosMsgZip == null) {
@@ -858,9 +859,9 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
 
 
             private static boolean isNfeDadosMsgZipElement(XMLStreamReader reader) {
-                javax.xml.namespace.QName expectedQName = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, "nfeDadosMsgZip");
+                javax.xml.namespace.QName expectedQName = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, NFE_DADOS_MSG_ZIP);
                 return (reader.isStartElement() && expectedQName.equals(reader.getName())) ||
-                        new javax.xml.namespace.QName("", "nfeDadosMsgZip").equals(reader.getName());
+                        new javax.xml.namespace.QName("", NFE_DADOS_MSG_ZIP).equals(reader.getName());
             }
 
             private static String readElementText(XMLStreamReader reader) throws javax.xml.stream.XMLStreamException {
