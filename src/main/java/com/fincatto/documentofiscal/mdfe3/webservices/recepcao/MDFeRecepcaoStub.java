@@ -24,6 +24,8 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
     public static final String MDFE_DADOS_MSG = "mdfeDadosMsg";
     public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO = "http://www.portalfiscal.inf.br/mdfe/wsdl/MDFeRecepcao";
+    public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
+    public static final String MDFE_CABEC_MSG = "mdfeCabecMsg";
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
     // hashmaps to keep the fault mapping
@@ -284,7 +286,7 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
         }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-            if (HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO.equals(namespaceURI) && "mdfeCabecMsg".equals(typeName)) {
+            if (HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO.equals(namespaceURI) && MDFE_CABEC_MSG.equals(typeName)) {
                 return MdfeCabecMsg.Factory.parse(reader);
             }
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
@@ -472,7 +474,7 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
             if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                 this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":mdfeCabecMsg", xmlWriter);
             } else {
-                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "mdfeCabecMsg", xmlWriter);
+                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", MDFE_CABEC_MSG, xmlWriter);
             }
         }
 
@@ -697,7 +699,7 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"mdfeCabecMsg".equals(type)) {
+                            if (!MDFE_CABEC_MSG.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (MdfeCabecMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -749,7 +751,7 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
                     }
                     if (reader.isStartElement()) {
                         // A start element we are not expecting indicates a trailing invalid property
-                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                        throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
                     throw new javax.xml.stream.XMLStreamException(e);
@@ -1058,14 +1060,14 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
                     } // End of if for expected property start element
                     else {
                         // A start element we are not expecting indicates an invalid parameter was passed
-                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                        throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
                         // A start element we are not expecting indicates a trailing invalid property
-                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                        throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
                     throw new javax.xml.stream.XMLStreamException(e);
@@ -1078,7 +1080,7 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
     @SuppressWarnings("serial")
     public static class MdfeCabecMsgE implements org.apache.axis2.databinding.ADBBean {
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO, "mdfeCabecMsg", "ns2");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO, MDFE_CABEC_MSG, "ns2");
 
         /**
          * field for MdfeCabecMsg
@@ -1325,12 +1327,12 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     while (!reader.isEndElement()) {
                         if (reader.isStartElement()) {
-                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO, "mdfeCabecMsg").equals(reader.getName())) {
+                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO, MDFE_CABEC_MSG).equals(reader.getName())) {
                                 object.setMdfeCabecMsg(MdfeCabecMsg.Factory.parse(reader));
                             } // End of if for expected property start element
                             else {
                                 // A start element we are not expecting indicates an invalid parameter was passed
-                                throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                                throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                             }
                         } else {
                             reader.next();
@@ -1643,14 +1645,14 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
                     } // End of if for expected property start element
                     else {
                         // A start element we are not expecting indicates an invalid parameter was passed
-                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                        throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
                         // A start element we are not expecting indicates a trailing invalid property
-                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                        throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
                     throw new javax.xml.stream.XMLStreamException(e);

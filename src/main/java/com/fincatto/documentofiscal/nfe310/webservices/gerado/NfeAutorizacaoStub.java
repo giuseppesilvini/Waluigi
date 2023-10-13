@@ -25,6 +25,7 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO = "http://www.portalfiscal.inf.br/nfe/wsdl/NfeAutorizacao";
     public static final String NFE_AUTORIZACAO_LOTE_ZIP = "nfeAutorizacaoLoteZip";
     public static final String NFE_AUTORIZACAO_LOTE = "nfeAutorizacaoLote";
+    public static final String EXTRA_ELEMENT_CANNOT_BE_NULL = "extraElement cannot be null!!";
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
     // hashmaps to keep the fault mapping
@@ -278,7 +279,7 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
             if (this.localExtraElement != null) {
                 this.localExtraElement.serialize(xmlWriter);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             xmlWriter.writeEndElement();
         }
@@ -339,7 +340,7 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
                 elementList.add(org.apache.axis2.databinding.utils.Constants.OM_ELEMENT_KEY);
                 elementList.add(this.localExtraElement);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName, elementList.toArray(), new java.util.ArrayList<>().toArray());
         }
@@ -524,7 +525,7 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
             if (this.localExtraElement != null) {
                 this.localExtraElement.serialize(xmlWriter);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             xmlWriter.writeEndElement();
         }
@@ -585,7 +586,7 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
                 elementList.add(org.apache.axis2.databinding.utils.Constants.OM_ELEMENT_KEY);
                 elementList.add(this.localExtraElement);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName, elementList.toArray(), new java.util.ArrayList<>().toArray());
         }
@@ -1151,7 +1152,7 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
             if (this.localExtraElement != null) {
                 this.localExtraElement.serialize(xmlWriter);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             xmlWriter.writeEndElement();
         }
@@ -1212,7 +1213,7 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
                 elementList.add(org.apache.axis2.databinding.utils.Constants.OM_ELEMENT_KEY);
                 elementList.add(this.localExtraElement);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName, elementList.toArray(), new ArrayList<>().toArray());
         }

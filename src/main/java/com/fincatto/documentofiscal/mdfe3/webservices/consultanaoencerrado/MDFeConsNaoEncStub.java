@@ -25,6 +25,7 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
     public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_CONS_NAO_ENC = "http://www.portalfiscal.inf.br/mdfe/wsdl/MDFeConsNaoEnc";
     public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
+    public static final String MDFE_CABEC_MSG = "mdfeCabecMsg";
     protected org.apache.axis2.description.AxisOperation[] _operations;
 
     // hashmaps to keep the fault mapping
@@ -459,7 +460,7 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
             if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                 this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":mdfeCabecMsg", xmlWriter);
             } else {
-                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "mdfeCabecMsg", xmlWriter);
+                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", MDFE_CABEC_MSG, xmlWriter);
             }
         }
 
@@ -684,7 +685,7 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"mdfeCabecMsg".equals(type)) {
+                            if (!MDFE_CABEC_MSG.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (MdfeCabecMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -753,7 +754,7 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
         }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-            if (HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_CONS_NAO_ENC.equals(namespaceURI) && "mdfeCabecMsg".equals(typeName)) {
+            if (HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_CONS_NAO_ENC.equals(namespaceURI) && MDFE_CABEC_MSG.equals(typeName)) {
                 return MdfeCabecMsg.Factory.parse(reader);
             }
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
@@ -1079,7 +1080,7 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
     @SuppressWarnings("serial")
     public static class MdfeCabecMsgE implements org.apache.axis2.databinding.ADBBean {
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_CONS_NAO_ENC, "mdfeCabecMsg", "ns6");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_CONS_NAO_ENC, MDFE_CABEC_MSG, "ns6");
 
         /**
          * field for MdfeCabecMsg
@@ -1326,7 +1327,7 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     while (!reader.isEndElement()) {
                         if (reader.isStartElement()) {
-                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_CONS_NAO_ENC, "mdfeCabecMsg").equals(reader.getName())) {
+                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_CONS_NAO_ENC, MDFE_CABEC_MSG).equals(reader.getName())) {
                                 object.setMdfeCabecMsg(MdfeCabecMsg.Factory.parse(reader));
                             } // End of if for expected property start element
                             else {

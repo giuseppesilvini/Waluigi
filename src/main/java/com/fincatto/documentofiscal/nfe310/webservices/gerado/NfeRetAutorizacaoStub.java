@@ -19,6 +19,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
     public static final String NFE_RET_AUTORIZACAO_LOTE_RESULT = "nfeRetAutorizacaoLoteResult";
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_RET_AUTORIZACAO = "http://www.portalfiscal.inf.br/nfe/wsdl/NfeRetAutorizacao";
+    public static final String NFE_CABEC_MSG = "nfeCabecMsg";
     protected org.apache.axis2.description.AxisOperation[] operations;
 
     // hashmaps to keep the fault mapping
@@ -294,7 +295,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
             if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                 this.writeAttribute("xsi", URL_XML_SCHEMA, "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
             } else {
-                this.writeAttribute("xsi", URL_XML_SCHEMA, "type", "nfeCabecMsg", xmlWriter);
+                this.writeAttribute("xsi", URL_XML_SCHEMA, "type", NFE_CABEC_MSG, xmlWriter);
             }
         }
 
@@ -404,7 +405,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
                             }
                             nsPrefix = nsPrefix == null ? "" : nsPrefix;
                             final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"nfeCabecMsg".equals(type)) {
+                            if (!NFE_CABEC_MSG.equals(type)) {
                                 // find namespace for the prefix
                                 final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                                 return (NfeCabecMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -470,7 +471,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
 
         private static final long serialVersionUID = 1409703958813033600L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_RET_AUTORIZACAO, "nfeCabecMsg", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_RET_AUTORIZACAO, NFE_CABEC_MSG, "");
 
         protected NfeCabecMsg localNfeCabecMsg;
 
@@ -523,7 +524,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
                     // from anyAttributes.
                     while (!reader.isEndElement()) {
                         if (reader.isStartElement()) {
-                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_RET_AUTORIZACAO, "nfeCabecMsg").equals(reader.getName())) {
+                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_RET_AUTORIZACAO, NFE_CABEC_MSG).equals(reader.getName())) {
                                 object.setNfeCabecMsg(NfeCabecMsg.Factory.parse(reader));
                             } // End of if for expected property start element
                             else {
@@ -548,7 +549,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
         }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-            if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_RET_AUTORIZACAO.equals(namespaceURI) && "nfeCabecMsg".equals(typeName)) {
+            if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_RET_AUTORIZACAO.equals(namespaceURI) && NFE_CABEC_MSG.equals(typeName)) {
                 return NfeCabecMsg.Factory.parse(reader);
             }
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);

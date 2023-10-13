@@ -17,6 +17,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
     public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2 = "http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico2";
+    public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
     protected org.apache.axis2.description.AxisOperation[] _operations;
     private final java.util.HashMap faultExceptionNameMap = new java.util.HashMap();
     private final java.util.HashMap faultExceptionClassNameMap = new java.util.HashMap();
@@ -439,7 +440,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                             } // End of if for expected property start element
                             else {
                                 // A start element we are not expecting indicates an invalid parameter was passed
-                                throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                                throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                             }
                         } else {
                             reader.next();
@@ -700,14 +701,14 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                     } // End of if for expected property start element
                     else {
                         // A start element we are not expecting indicates an invalid parameter was passed
-                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                        throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
                         // A start element we are not expecting indicates a trailing invalid property
-                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                        throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
                     throw new javax.xml.stream.XMLStreamException(e);
@@ -1105,7 +1106,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                     }
                     if (reader.isStartElement()) {
                         // A start element we are not expecting indicates a trailing invalid property
-                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                        throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
                     throw new javax.xml.stream.XMLStreamException(e);
@@ -1362,14 +1363,14 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                     } // End of if for expected property start element
                     else {
                         // A start element we are not expecting indicates an invalid parameter was passed
-                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                        throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                     while (!reader.isStartElement() && !reader.isEndElement()) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
                         // A start element we are not expecting indicates a trailing invalid property
-                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                        throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
                     throw new javax.xml.stream.XMLStreamException(e);
