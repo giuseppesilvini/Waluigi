@@ -219,7 +219,7 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.SEYCHELLES, new DFPaisTransformer().read("7315"));
         Assert.assertEquals(DFPais.SERRA_LEOA, new DFPaisTransformer().read("7358"));
         Assert.assertEquals(DFPais.SERVIA, new DFPaisTransformer().read("7370"));
-        Assert.assertEquals(DFPais.SANTA_HELENA, new DFPaisTransformer().read("7412"));
+        Assert.assertEquals(DFPais.CINGAPURA, new DFPaisTransformer().read("7412"));
         Assert.assertEquals(DFPais.SIRIA_REPUBLICA_ARABE_DA, new DFPaisTransformer().read("7447"));
         Assert.assertEquals(DFPais.SOMALIA, new DFPaisTransformer().read("7480"));
         Assert.assertEquals(DFPais.SRI_LANKA, new DFPaisTransformer().read("7501"));
