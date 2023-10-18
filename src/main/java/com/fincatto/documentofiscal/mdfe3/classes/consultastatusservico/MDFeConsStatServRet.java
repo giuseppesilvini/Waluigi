@@ -42,7 +42,7 @@ public class MDFeConsStatServRet extends DFBase {
     private String dataRetorno;
 
     @Element(name = "xObs", required = false)
-    private String Observacao;
+    private String observacao;
 
     @Attribute(name = "versao", required = false)
     private String versao;
@@ -112,11 +112,11 @@ public class MDFeConsStatServRet extends DFBase {
     }
 
     public String getObservacao() {
-        return this.Observacao;
+        return this.observacao;
     }
 
     public void setObservacao(final String observacao) {
-        this.Observacao = observacao;
+        this.observacao = observacao;
     }
 
     public String getVersao() {

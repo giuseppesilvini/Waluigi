@@ -21,14 +21,14 @@ public abstract class MDFeRecepcaoEventoCallbackHandler {
      * @param clientData Object mechanism by which the user can pass in user data
      * that will be avilable at the time this callback is called.
      */
-    public MDFeRecepcaoEventoCallbackHandler(Object clientData) {
+    protected MDFeRecepcaoEventoCallbackHandler(Object clientData) {
         this.clientData = clientData;
     }
 
     /**
      * Please use this constructor if you don't want to set any clientData
      */
-    public MDFeRecepcaoEventoCallbackHandler() {
+    protected MDFeRecepcaoEventoCallbackHandler() {
         this.clientData = null;
     }
 

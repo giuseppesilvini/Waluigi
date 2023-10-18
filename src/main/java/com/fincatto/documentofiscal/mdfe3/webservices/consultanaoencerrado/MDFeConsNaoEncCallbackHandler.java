@@ -21,14 +21,14 @@ public abstract class MDFeConsNaoEncCallbackHandler {
      * @param clientData Object mechanism by which the user can pass in user data
      * that will be avilable at the time this callback is called.
      */
-    public MDFeConsNaoEncCallbackHandler(Object clientData) {
+    protected MDFeConsNaoEncCallbackHandler(Object clientData) {
         this.clientData = clientData;
     }
 
     /**
      * Please use this constructor if you don't want to set any clientData
      */
-    public MDFeConsNaoEncCallbackHandler() {
+    protected MDFeConsNaoEncCallbackHandler() {
         this.clientData = null;
     }
 

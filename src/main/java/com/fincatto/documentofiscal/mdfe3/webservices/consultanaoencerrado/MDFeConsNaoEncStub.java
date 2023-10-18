@@ -26,7 +26,7 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_CONS_NAO_ENC = "http://www.portalfiscal.inf.br/mdfe/wsdl/MDFeConsNaoEnc";
     public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
     public static final String MDFE_CABEC_MSG = "mdfeCabecMsg";
-    protected org.apache.axis2.description.AxisOperation[] _operations;
+    protected org.apache.axis2.description.AxisOperation[] operations;
 
     // hashmaps to keep the fault mapping
     @SuppressWarnings("rawtypes")
@@ -52,12 +52,12 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
         this._service = new org.apache.axis2.description.AxisService("MDFeConsNaoEnc" + MDFeConsNaoEncStub.getUniqueSuffix());
         this.addAnonymousOperations();
         // creating the operations
-        org.apache.axis2.description.AxisOperation __operation;
-        this._operations = new org.apache.axis2.description.AxisOperation[1];
-        __operation = new org.apache.axis2.description.OutInAxisOperation();
-        __operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_CONS_NAO_ENC, "mdfeConsNaoEnc"));
-        this._service.addOperation(__operation);
-        this._operations[0] = __operation;
+        org.apache.axis2.description.AxisOperation operation;
+        this.operations = new org.apache.axis2.description.AxisOperation[1];
+        operation = new org.apache.axis2.description.OutInAxisOperation();
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_CONS_NAO_ENC, "mdfeConsNaoEnc"));
+        this._service.addOperation(operation);
+        this.operations[0] = operation;
     }
 
     // populates the faults
@@ -103,14 +103,14 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
 
     @SuppressWarnings({ "rawtypes", "unchecked" })
     public com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub.MdfeConsNaoEncResult mdfeConsNaoEnc(final com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub.MdfeDadosMsg mdfeDadosMsg0, final com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub.MdfeCabecMsgE mdfeCabecMsg1) throws java.rmi.RemoteException {
-        org.apache.axis2.context.MessageContext _messageContext = null;
+        org.apache.axis2.context.MessageContext messageContext = null;
         try {
-            final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this._operations[0].getName());
+            final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
             operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/mdfe/wsdl/MDFeConsNaoEnc/mdfeConsNaoEnc");
             operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
             this.addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
             // create a message context
-            _messageContext = MessageContextFactory.INSTANCE.create(config);
+            messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
             env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), mdfeDadosMsg0);
@@ -123,9 +123,9 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
             // adding SOAP soap_headers
             this._serviceClient.addHeadersToEnvelope(env);
             // set the message context with that soap envelope
-            _messageContext.setEnvelope(env);
+            messageContext.setEnvelope(env);
             // add the message contxt to the operation client
-            operationClient.addMessageContext(_messageContext);
+            operationClient.addMessageContext(messageContext);
             // execute the operation client
             operationClient.execute(true);
             final org.apache.axis2.context.MessageContext returnMessageContext = operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
@@ -158,8 +158,8 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
                 throw f;
             }
         } finally {
-            if(_messageContext != null && _messageContext.getTransportOut() != null) {
-                _messageContext.getTransportOut().getSender().cleanup(_messageContext);
+            if(messageContext != null && messageContext.getTransportOut() != null) {
+                messageContext.getTransportOut().getSender().cleanup(messageContext);
             }
         }
     }
@@ -170,7 +170,7 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
      * @param mdfeCabecMsg1
      */
     public void startmdfeConsNaoEnc(final com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub.MdfeDadosMsg mdfeDadosMsg0, final com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncStub.MdfeCabecMsgE mdfeCabecMsg1, final com.fincatto.documentofiscal.mdfe3.webservices.consultanaoencerrado.MDFeConsNaoEncCallbackHandler callback) throws java.rmi.RemoteException {
-        final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this._operations[0].getName());
+        final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
         operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/mdfe/wsdl/MDFeConsNaoEnc/mdfeConsNaoEnc");
         operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
         this.addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
@@ -254,9 +254,9 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
             }
         });
         org.apache.axis2.util.CallbackReceiver callbackReceiver;
-        if (this._operations[0].getMessageReceiver() == null && operationClient.getOptions().isUseSeparateListener()) {
+        if (this.operations[0].getMessageReceiver() == null && operationClient.getOptions().isUseSeparateListener()) {
             callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
-            this._operations[0].setMessageReceiver(callbackReceiver);
+            this.operations[0].setMessageReceiver(callbackReceiver);
         }
         // execute the operation client
         operationClient.execute(false);

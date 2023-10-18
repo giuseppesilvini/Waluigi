@@ -21,14 +21,14 @@ public abstract class MDFeConsultaCallbackHandler {
      * @param clientData Object mechanism by which the user can pass in user data
      * that will be avilable at the time this callback is called.
      */
-    public MDFeConsultaCallbackHandler(Object clientData) {
+    protected MDFeConsultaCallbackHandler(Object clientData) {
         this.clientData = clientData;
     }
 
     /**
      * Please use this constructor if you don't want to set any clientData
      */
-    public MDFeConsultaCallbackHandler() {
+    protected MDFeConsultaCallbackHandler() {
         this.clientData = null;
     }
 

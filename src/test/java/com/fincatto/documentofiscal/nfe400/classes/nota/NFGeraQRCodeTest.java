@@ -31,7 +31,7 @@ public class NFGeraQRCodeTest {
     public void geraSHA256() throws Exception {
         final String entrada = "chNFe=28140300156225000131650110000151341562040824&nVersao=100&tpAmb=1&cDest=13017959000181&dhEmi=323031342d30332d31385431303a35353a33332d30333a3030&vNF=60.90&vICMS=12.75&digVal=797a4759685578312f5859597a6b7357422b6650523351633530633d&cIdToken=000001SEU-CODIGO-CSC-CONTRIBUINTE-36-CARACTERES";
         final String saida = NFGeraQRCode.sha256(entrada);
-        Assert.assertEquals(saida, "2e3f013d0be1821d2418b5115bc6e3066fd26553312ffcfeeb729083e25763ae");
+        Assert.assertEquals("2e3f013d0be1821d2418b5115bc6e3066fd26553312ffcfeeb729083e25763ae", saida);
     }
     
     @Test

@@ -49,7 +49,7 @@ public class MDFeConsultaReciboRetorno extends DFBase {
     private String dataRetorno;
 
     @Element(name = "xObs", required = false)
-    private String Observacao;
+    private String observacao;
 
     @Element(name = "protMDFe", required = false)
     private MDFProtocolo mdfProtocolo;
@@ -119,11 +119,11 @@ public class MDFeConsultaReciboRetorno extends DFBase {
     }
 
     public String getObservacao() {
-        return this.Observacao;
+        return this.observacao;
     }
 
     public void setObservacao(final String observacao) {
-        this.Observacao = observacao;
+        this.observacao = observacao;
     }
 
     public String getVersao() {
