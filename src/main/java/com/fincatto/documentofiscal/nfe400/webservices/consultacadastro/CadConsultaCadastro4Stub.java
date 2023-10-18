@@ -21,7 +21,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4 = "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4";
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
     private static int counter = 0;
-    protected org.apache.axis2.description.AxisOperation[] _operations;
+    protected org.apache.axis2.description.AxisOperation[] operations;
 
     // hashmaps to keep the fault mapping
     @SuppressWarnings("rawtypes")
@@ -83,14 +83,14 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         // creating the operations
         org.apache.axis2.description.AxisOperation operation;
 
-        this._operations = new org.apache.axis2.description.AxisOperation[1];
+        this.operations = new org.apache.axis2.description.AxisOperation[1];
 
         operation = new org.apache.axis2.description.OutInAxisOperation();
 
         operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4, "consultaCadastro"));
         this._service.addOperation(operation);
 
-        this._operations[0] = operation;
+        this.operations[0] = operation;
     }
 
     // populates the faults
@@ -105,17 +105,17 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
      */
     @SuppressWarnings({ "rawtypes", "unchecked" })
     public CadConsultaCadastro4Stub.NfeResultMsg consultaCadastro(final CadConsultaCadastro4Stub.NfeDadosMsg nfeDadosMsg0) throws java.rmi.RemoteException {
-        org.apache.axis2.context.MessageContext _messageContext = null;
+        org.apache.axis2.context.MessageContext messageContext = null;
 
         try {
-            final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this._operations[0].getName());
+            final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
             operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4/consultaCadastro");
             operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
 
             this.addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
 
             // create a message context
-            _messageContext = MessageContextFactory.INSTANCE.create(config);
+            messageContext = MessageContextFactory.INSTANCE.create(config);
 
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env = null;
@@ -125,10 +125,10 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
             // adding SOAP soap_headers
             this._serviceClient.addHeadersToEnvelope(env);
             // set the message context with that soap envelope
-            _messageContext.setEnvelope(env);
+            messageContext.setEnvelope(env);
 
             // add the message contxt to the operation client
-            operationClient.addMessageContext(_messageContext);
+            operationClient.addMessageContext(messageContext);
 
             // execute the operation client
             operationClient.execute(true);
@@ -170,8 +170,8 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 throw f;
             }
         } finally {
-            if(_messageContext != null && _messageContext.getTransportOut() != null) {
-                _messageContext.getTransportOut().getSender().cleanup(_messageContext);
+            if(messageContext != null && messageContext.getTransportOut() != null) {
+                messageContext.getTransportOut().getSender().cleanup(messageContext);
             }
         }
     }
@@ -180,7 +180,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
      * Auto generated method signature for Asynchronous Invocations Serviço destinado à consulta no Cadastro.
      */
     public void startconsultaCadastro(final CadConsultaCadastro4Stub.NfeDadosMsg nfeDadosMsg0, final CadConsultaCadastro4CallbackHandler callback) throws java.rmi.RemoteException {
-        final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this._operations[0].getName());
+        final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
         operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4/consultaCadastro");
         operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
 
@@ -271,9 +271,9 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
         org.apache.axis2.util.CallbackReceiver callbackReceiver = null;
 
-        if ((this._operations[0].getMessageReceiver() == null) && operationClient.getOptions().isUseSeparateListener()) {
+        if ((this.operations[0].getMessageReceiver() == null) && operationClient.getOptions().isUseSeparateListener()) {
             callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
-            this._operations[0].setMessageReceiver(callbackReceiver);
+            this.operations[0].setMessageReceiver(callbackReceiver);
         }
 
         // execute the operation client

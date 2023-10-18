@@ -62,8 +62,8 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.COMORES_ILHAS, new DFPaisTransformer().read("1732"));
         Assert.assertEquals(DFPais.CONGO, new DFPaisTransformer().read("1775"));
         Assert.assertEquals(DFPais.COOK_ILHAS, new DFPaisTransformer().read("1830"));
-        Assert.assertEquals(DFPais.COREIA_DO_NORTE__REP_POP_DEMOCRATICA, new DFPaisTransformer().read("1872"));
-        Assert.assertEquals(DFPais.COREIA_DO_SUL__REPUBLICA_DA, new DFPaisTransformer().read("1902"));
+        Assert.assertEquals(DFPais.COREIA_DO_NORTE_REP_POP_DEMOCRATICA, new DFPaisTransformer().read("1872"));
+        Assert.assertEquals(DFPais.COREIA_DO_SUL_REPUBLICA_DA, new DFPaisTransformer().read("1902"));
         Assert.assertEquals(DFPais.COSTA_DO_MARFIM, new DFPaisTransformer().read("1937"));
         Assert.assertEquals(DFPais.CROACIA_REPUBLICA_DA, new DFPaisTransformer().read("1953"));
         Assert.assertEquals(DFPais.COSTA_RICA, new DFPaisTransformer().read("1961"));
@@ -321,8 +321,8 @@ public class DFPaisTransformerTest {
         Assert.assertEquals("1732", new DFPaisTransformer().write(DFPais.COMORES_ILHAS));
         Assert.assertEquals("1775", new DFPaisTransformer().write(DFPais.CONGO));
         Assert.assertEquals("1830", new DFPaisTransformer().write(DFPais.COOK_ILHAS));
-        Assert.assertEquals("1872", new DFPaisTransformer().write(DFPais.COREIA_DO_NORTE__REP_POP_DEMOCRATICA));
-        Assert.assertEquals("1902", new DFPaisTransformer().write(DFPais.COREIA_DO_SUL__REPUBLICA_DA));
+        Assert.assertEquals("1872", new DFPaisTransformer().write(DFPais.COREIA_DO_NORTE_REP_POP_DEMOCRATICA));
+        Assert.assertEquals("1902", new DFPaisTransformer().write(DFPais.COREIA_DO_SUL_REPUBLICA_DA));
         Assert.assertEquals("1937", new DFPaisTransformer().write(DFPais.COSTA_DO_MARFIM));
         Assert.assertEquals("1953", new DFPaisTransformer().write(DFPais.CROACIA_REPUBLICA_DA));
         Assert.assertEquals("1961", new DFPaisTransformer().write(DFPais.COSTA_RICA));

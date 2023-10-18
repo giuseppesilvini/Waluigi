@@ -20,7 +20,7 @@ public abstract class CadConsultaCadastro4CallbackHandler {
     /**
      * Please use this constructor if you don't want to set any clientData
      */
-    public CadConsultaCadastro4CallbackHandler() {
+    protected CadConsultaCadastro4CallbackHandler() {
         this.clientData = null;
     }
 
