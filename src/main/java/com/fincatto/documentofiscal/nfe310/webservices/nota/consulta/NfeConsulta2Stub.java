@@ -27,6 +27,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
     private static final String NFE_CABEC_MSG = "nfeCabecMsg";
     private static final String XML_SCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA_2 = "http://www.portalfiscal.inf.br/nfe/wsdl/NfeConsulta2";
+    private static final String OPERATION_NAME = "nfeConsultaNF2";
 
     protected org.apache.axis2.description.AxisOperation[] operations;
     private final java.util.HashMap faultExceptionNameMap = new java.util.HashMap();
@@ -50,7 +51,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation operation;
         this.operations = new org.apache.axis2.description.AxisOperation[1];
         operation = new org.apache.axis2.description.OutInAxisOperation();
-        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA_2, "nfeConsultaNF2"));
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA_2, OPERATION_NAME));
         this._service.addOperation(operation);
         this.operations[0] = operation;
     }
@@ -88,7 +89,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
             messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA_2, "nfeConsultaNF2"));
+            env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA_2, OPERATION_NAME));
             env.build();
             // add the children only if the parameter is not null
             if (nfeCabecMsg1 != null) {
@@ -112,17 +113,17 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
             if (faultElt == null) {
                 throw f;
             }
-            if (!this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF2"))) {
+            if (!this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), OPERATION_NAME))) {
                 throw f;
             }
             // make the fault by reflection
             try {
-                java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF2"));
+                java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), OPERATION_NAME));
                 java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                 java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
                 java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
                 // message class
-                java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF2"));
+                java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), OPERATION_NAME));
                 java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                 java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                 java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
@@ -148,7 +149,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
         org.apache.axiom.soap.SOAPEnvelope env;
         final org.apache.axis2.context.MessageContext messageContext = MessageContextFactory.INSTANCE.create(config);
         // Style is Doc.
-        env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA_2, "nfeConsultaNF2"));
+        env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA_2, OPERATION_NAME));
         // add the soap_headers only if they are not null
         if (nfeCabecMsg1 != null) {
             org.apache.axiom.om.OMElement omElementnfeCabecMsg1 = this.toOM(nfeCabecMsg1);
@@ -178,15 +179,15 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                     org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
                     org.apache.axiom.om.OMElement faultElt = f.getDetail();
                     if (faultElt != null) {
-                        if (NfeConsulta2Stub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF2"))) {
+                        if (NfeConsulta2Stub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), OPERATION_NAME))) {
                             // make the fault by reflection
                             try {
-                                java.lang.String exceptionClassName = (java.lang.String) NfeConsulta2Stub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF2"));
+                                java.lang.String exceptionClassName = (java.lang.String) NfeConsulta2Stub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), OPERATION_NAME));
                                 java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                                 java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
                                 java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
                                 // message class
-                                java.lang.String messageClassName = (java.lang.String) NfeConsulta2Stub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF2"));
+                                java.lang.String messageClassName = (java.lang.String) NfeConsulta2Stub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), OPERATION_NAME));
                                 java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                                 java.lang.Object messageObject = NfeConsulta2Stub.this.fromOM(faultElt, messageClass);
                                 java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
@@ -622,7 +623,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
-                    e.printStackTrace();
+                    //e.printStackTrace();
                 }
                 return object;
             }
@@ -884,7 +885,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
-                    e.printStackTrace();
+                    //e.printStackTrace();
                 }
                 return object;
             }
@@ -1095,7 +1096,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                             reader.next();
                         }
                     } // end of while loop
-                } catch (javax.xml.stream.XMLStreamException e) {e.printStackTrace();}
+                } catch (javax.xml.stream.XMLStreamException e) {/* e.printStackTrace(); */}
                 return object;
             }
         }// end of factory class
@@ -1366,7 +1367,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                         // A start element we are not expecting indicates a trailing invalid property
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
-                } catch (javax.xml.stream.XMLStreamException e) {e.printStackTrace();}
+                } catch (javax.xml.stream.XMLStreamException e) {/* e.printStackTrace(); */}
                 return object;
             }
         }// end of factory class

@@ -93,14 +93,14 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
      * @param nfeCabecMsg
      */
     public com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeStatusServicoNFResult nfeStatusServicoNF(com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeDadosMsg nfeDadosMsg, com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeCabecMsgE nfeCabecMsg) throws java.rmi.RemoteException {
-        org.apache.axis2.context.MessageContext messageContext = null;
+        org.apache.axis2.context.MessageContext _messageContext = null;
         try {
             org.apache.axis2.client.OperationClient operationClient = _serviceClient.createClient(operations[0].getName());
             operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico/nfeStatusServicoNF");
             operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
             addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
             // create a message context
-            messageContext = MessageContextFactory.INSTANCE.create(config);
+            _messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
             env = toEnvelope(getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg);
@@ -113,9 +113,9 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
             //adding SOAP soap_headers
             _serviceClient.addHeadersToEnvelope(env);
             // set the message context with that soap envelope
-            messageContext.setEnvelope(env);
+            _messageContext.setEnvelope(env);
             // add the message contxt to the operation client
-            operationClient.addMessageContext(messageContext);
+            operationClient.addMessageContext(_messageContext);
             //execute the operation client
             operationClient.execute(true);
             org.apache.axis2.context.MessageContext returnMessageContext = operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
@@ -139,7 +139,9 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
                         java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
                         m.invoke(ex, messageObject);
                         throw new java.rmi.RemoteException(ex.getMessage(), ex);
-                    } catch (ClassCastException | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
+                    } catch (ClassCastException | InstantiationException | IllegalAccessException |
+                             java.lang.reflect.InvocationTargetException | NoSuchMethodException |
+                             ClassNotFoundException e) {
                         // we cannot intantiate the class - throw the original Axis fault
                         throw f;
                     }
@@ -150,8 +152,10 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
                 throw f;
             }
         } finally {
-            if (messageContext.getTransportOut() != null) {
-                messageContext.getTransportOut().getSender().cleanup(messageContext);
+            if (_messageContext != null) {
+                if (_messageContext.getTransportOut() != null) {
+                    _messageContext.getTransportOut().getSender().cleanup(_messageContext);
+                }
             }
         }
     }
