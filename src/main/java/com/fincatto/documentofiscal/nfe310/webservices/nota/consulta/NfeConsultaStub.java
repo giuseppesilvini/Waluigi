@@ -102,15 +102,15 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
     public com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub.NfeConsultaNFResult nfeConsultaNF(final com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub.NfeDadosMsg nfeDadosMsg0, final com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub.NfeCabecMsgE nfeCabecMsg1) throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext messageContext = null;
         try {
-            final org.apache.axis2.client.OperationClient _operationClient = this._serviceClient.createClient(this._operations[0].getName());
-            _operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/NfeConsulta/nfeConsultaNF");
-            _operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
-            this.addPropertyToOperationClient(_operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
+            final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this._operations[0].getName());
+            operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/NfeConsulta/nfeConsultaNF");
+            operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
+            this.addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
             // create a message context
             messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0);
+            env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0);
             env.build();
             // add the children only if the parameter is not null
             if (nfeCabecMsg1 != null) {
@@ -122,10 +122,10 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
             // set the message context with that soap envelope
             messageContext.setEnvelope(env);
             // add the message contxt to the operation client
-            _operationClient.addMessageContext(messageContext);
+            operationClient.addMessageContext(messageContext);
             // execute the operation client
-            _operationClient.execute(true);
-            final org.apache.axis2.context.MessageContext returnMessageContext = _operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
+            operationClient.execute(true);
+            final org.apache.axis2.context.MessageContext returnMessageContext = operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
             final org.apache.axiom.soap.SOAPEnvelope returnEnv = returnMessageContext.getEnvelope();
             final java.lang.Object object = this.fromOM(returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub.NfeConsultaNFResult.class);
             return (com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub.NfeConsultaNFResult) object;

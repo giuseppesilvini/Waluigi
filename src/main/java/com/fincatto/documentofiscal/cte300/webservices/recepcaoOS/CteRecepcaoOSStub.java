@@ -125,9 +125,9 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
             operationClient.addMessageContext(messageContext);
             // execute the operation client
             operationClient.execute(true);
-            final org.apache.axis2.context.MessageContext _returnMessageContext = operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
-            final org.apache.axiom.soap.SOAPEnvelope _returnEnv = _returnMessageContext.getEnvelope();
-            final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteRecepcaoOSResult.class);
+            final org.apache.axis2.context.MessageContext returnMessageContext = operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
+            final org.apache.axiom.soap.SOAPEnvelope returnEnv = returnMessageContext.getEnvelope();
+            final java.lang.Object object = this.fromOM(returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteRecepcaoOSResult.class);
             return (com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteRecepcaoOSResult) object;
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
@@ -272,7 +272,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
         return returnMap;
     }
 
-    private final javax.xml.namespace.QName[] opNameArray = null;
+    private static final javax.xml.namespace.QName[] opNameArray = null;
     private final DFConfig config;
 
     private boolean optimizeContent = false;

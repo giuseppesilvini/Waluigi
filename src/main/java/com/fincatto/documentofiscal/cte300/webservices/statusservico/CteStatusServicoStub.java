@@ -24,7 +24,7 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
     public static final String CTE_STATUS_SERVICO_CT = "cteStatusServicoCT";
     public static final String WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_STATUS_SERVICO = "http://www.portalfiscal.inf.br/cte/wsdl/CteStatusServico";
     public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
-    protected org.apache.axis2.description.AxisOperation[] _operations;
+    protected org.apache.axis2.description.AxisOperation[] operations;
 
     // hashmaps to keep the fault mapping
     private final java.util.HashMap faultExceptionNameMap = new java.util.HashMap();
@@ -49,12 +49,12 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
         this._service = new org.apache.axis2.description.AxisService("CteStatusServico" + CteStatusServicoStub.getUniqueSuffix());
         this.addAnonymousOperations();
         // creating the operations
-        org.apache.axis2.description.AxisOperation __operation;
-        this._operations = new org.apache.axis2.description.AxisOperation[1];
-        __operation = new org.apache.axis2.description.OutInAxisOperation();
-        __operation.setName(new javax.xml.namespace.QName(WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_STATUS_SERVICO, CTE_STATUS_SERVICO_CT));
-        this._service.addOperation(__operation);
-        this._operations[0] = __operation;
+        org.apache.axis2.description.AxisOperation operation;
+        this.operations = new org.apache.axis2.description.AxisOperation[1];
+        operation = new org.apache.axis2.description.OutInAxisOperation();
+        operation.setName(new javax.xml.namespace.QName(WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_STATUS_SERVICO, CTE_STATUS_SERVICO_CT));
+        this._service.addOperation(operation);
+        this.operations[0] = operation;
     }
 
     // populates the faults
@@ -102,15 +102,15 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
     public com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub.CteStatusServicoCTResult cteStatusServicoCT(final com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub.CteDadosMsg cteDadosMsg0, final com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub.CteCabecMsgE cteCabecMsg1) throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext messageContext = null;
         try {
-            final org.apache.axis2.client.OperationClient _operationClient = this._serviceClient.createClient(this._operations[0].getName());
-            _operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/cte/wsdl/CteStatusServico/cteStatusServicoCT");
-            _operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
-            this.addPropertyToOperationClient(_operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
+            final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
+            operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/cte/wsdl/CteStatusServico/cteStatusServicoCT");
+            operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
+            this.addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
             // create a message context
             messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0);
+            env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), cteDadosMsg0);
             env.build();
             // add the children only if the parameter is not null
             if (cteCabecMsg1 != null) {
@@ -122,10 +122,10 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
             // set the message context with that soap envelope
             messageContext.setEnvelope(env);
             // add the message contxt to the operation client
-            _operationClient.addMessageContext(messageContext);
+            operationClient.addMessageContext(messageContext);
             // execute the operation client
-            _operationClient.execute(true);
-            final org.apache.axis2.context.MessageContext returnMessageContext = _operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
+            operationClient.execute(true);
+            final org.apache.axis2.context.MessageContext returnMessageContext = operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
             final org.apache.axiom.soap.SOAPEnvelope returnEnv = returnMessageContext.getEnvelope();
             final java.lang.Object object = this.fromOM(returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub.CteStatusServicoCTResult.class);
             return (com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub.CteStatusServicoCTResult) object;
@@ -171,7 +171,7 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
      * @param cteCabecMsg1
      */
     public void startcteStatusServicoCT(final com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub.CteDadosMsg cteDadosMsg0, final com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoStub.CteCabecMsgE cteCabecMsg1, final com.fincatto.documentofiscal.cte300.webservices.statusservico.CteStatusServicoCallbackHandler callback) throws java.rmi.RemoteException {
-        final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this._operations[0].getName());
+        final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
         operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/cte/wsdl/CteStatusServico/cteStatusServicoCT");
         operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
         this.addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
@@ -254,9 +254,9 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
             }
         });
         org.apache.axis2.util.CallbackReceiver callbackReceiver;
-        if (this._operations[0].getMessageReceiver() == null && operationClient.getOptions().isUseSeparateListener()) {
+        if (this.operations[0].getMessageReceiver() == null && operationClient.getOptions().isUseSeparateListener()) {
             callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
-            this._operations[0].setMessageReceiver(callbackReceiver);
+            this.operations[0].setMessageReceiver(callbackReceiver);
         }
         // execute the operation client
         operationClient.execute(false);
