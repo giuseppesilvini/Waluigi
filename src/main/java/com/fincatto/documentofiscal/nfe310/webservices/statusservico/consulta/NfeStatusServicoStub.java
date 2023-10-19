@@ -19,7 +19,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
     public static final String NFE_CABEC_MSG = "nfeCabecMsg";
     public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
     private static int counter = 0;
-    protected org.apache.axis2.description.AxisOperation[] _operations;
+    protected org.apache.axis2.description.AxisOperation[] operations;
 
     //hashmaps to keep the fault mapping
     private java.util.HashMap faultExceptionNameMap = new java.util.HashMap();
@@ -72,12 +72,12 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
         _service = new org.apache.axis2.description.AxisService("NfeStatusServico" + getUniqueSuffix());
         addAnonymousOperations();
         //creating the operations
-        org.apache.axis2.description.AxisOperation __operation;
-        _operations = new org.apache.axis2.description.AxisOperation[1];
-        __operation = new org.apache.axis2.description.OutInAxisOperation();
-        __operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO, NFE_STATUS_SERVICO_NF));
-        _service.addOperation(__operation);
-        _operations[0] = __operation;
+        org.apache.axis2.description.AxisOperation operation;
+        operations = new org.apache.axis2.description.AxisOperation[1];
+        operation = new org.apache.axis2.description.OutInAxisOperation();
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO, NFE_STATUS_SERVICO_NF));
+        _service.addOperation(operation);
+        operations[0] = operation;
     }
 
     //populates the faults
@@ -93,17 +93,17 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
      * @param nfeCabecMsg
      */
     public com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeStatusServicoNFResult nfeStatusServicoNF(com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeDadosMsg nfeDadosMsg, com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeCabecMsgE nfeCabecMsg) throws java.rmi.RemoteException {
-        org.apache.axis2.context.MessageContext _messageContext = null;
+        org.apache.axis2.context.MessageContext messageContext = null;
         try {
-            org.apache.axis2.client.OperationClient _operationClient = _serviceClient.createClient(_operations[0].getName());
-            _operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico/nfeStatusServicoNF");
-            _operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
-            addPropertyToOperationClient(_operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
+            org.apache.axis2.client.OperationClient operationClient = _serviceClient.createClient(operations[0].getName());
+            operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico/nfeStatusServicoNF");
+            operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
+            addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
             // create a message context
-            _messageContext = MessageContextFactory.INSTANCE.create(config);
+            messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = toEnvelope(getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg);
+            env = toEnvelope(getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg);
             env.build();
             // add the children only if the parameter is not null
             if (nfeCabecMsg != null) {
@@ -113,14 +113,14 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
             //adding SOAP soap_headers
             _serviceClient.addHeadersToEnvelope(env);
             // set the message context with that soap envelope
-            _messageContext.setEnvelope(env);
+            messageContext.setEnvelope(env);
             // add the message contxt to the operation client
-            _operationClient.addMessageContext(_messageContext);
+            operationClient.addMessageContext(messageContext);
             //execute the operation client
-            _operationClient.execute(true);
-            org.apache.axis2.context.MessageContext _returnMessageContext = _operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
-            org.apache.axiom.soap.SOAPEnvelope _returnEnv = _returnMessageContext.getEnvelope();
-            java.lang.Object object = fromOM(_returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeStatusServicoNFResult.class);
+            operationClient.execute(true);
+            org.apache.axis2.context.MessageContext returnMessageContext = operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
+            org.apache.axiom.soap.SOAPEnvelope returnEnv = returnMessageContext.getEnvelope();
+            java.lang.Object object = fromOM(returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeStatusServicoNFResult.class);
             return (com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeStatusServicoNFResult) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
@@ -150,8 +150,8 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
                 throw f;
             }
         } finally {
-            if (_messageContext.getTransportOut() != null) {
-                _messageContext.getTransportOut().getSender().cleanup(_messageContext);
+            if (messageContext.getTransportOut() != null) {
+                messageContext.getTransportOut().getSender().cleanup(messageContext);
             }
         }
     }

@@ -20,14 +20,14 @@ public abstract class NfeConsultaCallbackHandler {
      * @param clientData Object mechanism by which the user can pass in user data
      * that will be avilable at the time this callback is called.
      */
-    public NfeConsultaCallbackHandler(Object clientData) {
+    protected NfeConsultaCallbackHandler(Object clientData) {
         this.clientData = clientData;
     }
 
     /**
      * Please use this constructor if you don't want to set any clientData
      */
-    public NfeConsultaCallbackHandler() {
+    protected NfeConsultaCallbackHandler() {
         this.clientData = null;
     }
 

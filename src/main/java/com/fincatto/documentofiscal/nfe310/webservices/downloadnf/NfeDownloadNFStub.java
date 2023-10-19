@@ -32,7 +32,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
     public static final String WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DOWNLOAD_NF = "http://www.portalfiscal.inf.br/nfe/wsdl/NfeDownloadNF";
     public static final String NFE_DOWNLOAD_NF = "nfeDownloadNF";
     public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
-    protected org.apache.axis2.description.AxisOperation[] _operations;
+    protected org.apache.axis2.description.AxisOperation[] operations;
 
     // hashmaps to keep the fault mapping
     private final java.util.HashMap faultExceptionNameMap = new java.util.HashMap();
@@ -55,12 +55,12 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
         this._service = new org.apache.axis2.description.AxisService(NFE_DOWNLOAD_NF + NfeDownloadNFStub.getUniqueSuffix());
         this.addAnonymousOperations();
         // creating the operations
-        org.apache.axis2.description.AxisOperation __operation;
-        this._operations = new org.apache.axis2.description.AxisOperation[1];
-        __operation = new org.apache.axis2.description.OutInAxisOperation();
-        __operation.setName(new javax.xml.namespace.QName(WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DOWNLOAD_NF, NFE_DOWNLOAD_NF));
-        this._service.addOperation(__operation);
-        this._operations[0] = __operation;
+        org.apache.axis2.description.AxisOperation operation;
+        this.operations = new org.apache.axis2.description.AxisOperation[1];
+        operation = new org.apache.axis2.description.OutInAxisOperation();
+        operation.setName(new javax.xml.namespace.QName(WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DOWNLOAD_NF, NFE_DOWNLOAD_NF));
+        this._service.addOperation(operation);
+        this.operations[0] = operation;
     }
 
     // populates the faults
@@ -108,7 +108,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
     public com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub.NfeDownloadNFResult nfeDownloadNF(final com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub.NfeDadosMsg nfeDadosMsg0, final com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub.NfeCabecMsgE nfeCabecMsg1) throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext messageContext = null;
         try {
-            final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this._operations[0].getName());
+            final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
             operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/NfeDownloadNF/nfeDownloadNF");
             operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
             this.addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
@@ -174,7 +174,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
      * @param nfeCabecMsg1
      */
     public void startnfeDownloadNF(final com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub.NfeDadosMsg nfeDadosMsg0, final com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub.NfeCabecMsgE nfeCabecMsg1, final com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFCallbackHandler callback) throws java.rmi.RemoteException {
-        final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this._operations[0].getName());
+        final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
         operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/NfeDownloadNF/nfeDownloadNF");
         operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
         this.addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
@@ -257,9 +257,9 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
             }
         });
         org.apache.axis2.util.CallbackReceiver callbackReceiver;
-        if (this._operations[0].getMessageReceiver() == null && operationClient.getOptions().isUseSeparateListener()) {
+        if (this.operations[0].getMessageReceiver() == null && operationClient.getOptions().isUseSeparateListener()) {
             callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
-            this._operations[0].setMessageReceiver(callbackReceiver);
+            this.operations[0].setMessageReceiver(callbackReceiver);
         }
         // execute the operation client
         operationClient.execute(false);

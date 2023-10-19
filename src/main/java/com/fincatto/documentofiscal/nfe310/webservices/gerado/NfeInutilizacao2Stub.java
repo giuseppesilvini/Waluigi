@@ -18,7 +18,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_INUTILIZACAO_2 = "http://www.portalfiscal.inf.br/nfe/wsdl/NfeInutilizacao2";
     public static final String NFE_INUTILIZACAO_NF_2 = "nfeInutilizacaoNF2";
     public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
-    protected org.apache.axis2.description.AxisOperation[] _operations;
+    protected org.apache.axis2.description.AxisOperation[] operations;
 
     // hashmaps to keep the fault mapping
     @SuppressWarnings("rawtypes")
@@ -44,12 +44,12 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
         this._service = new org.apache.axis2.description.AxisService("NfeInutilizacao2" + NfeInutilizacao2Stub.getUniqueSuffix());
         this.addAnonymousOperations();
         // creating the operations
-        org.apache.axis2.description.AxisOperation __operation;
-        this._operations = new org.apache.axis2.description.AxisOperation[1];
-        __operation = new org.apache.axis2.description.OutInAxisOperation();
-        __operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_INUTILIZACAO_2, NFE_INUTILIZACAO_NF_2));
-        this._service.addOperation(__operation);
-        this._operations[0] = __operation;
+        org.apache.axis2.description.AxisOperation operation;
+        this.operations = new org.apache.axis2.description.AxisOperation[1];
+        operation = new org.apache.axis2.description.OutInAxisOperation();
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_INUTILIZACAO_2, NFE_INUTILIZACAO_NF_2));
+        this._service.addOperation(operation);
+        this.operations[0] = operation;
     }
 
     // populates the faults
@@ -78,17 +78,17 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
     }
 
     public NfeInutilizacao2Stub.NfeInutilizacaoNF2Result nfeInutilizacaoNF2(final NfeInutilizacao2Stub.NfeDadosMsg nfeDadosMsg, final NfeInutilizacao2Stub.NfeCabecMsgE nfeCabecMsg) throws java.rmi.RemoteException {
-        org.apache.axis2.context.MessageContext _messageContext = null;
+        org.apache.axis2.context.MessageContext messageContext = null;
         try {
-            final org.apache.axis2.client.OperationClient _operationClient = this._serviceClient.createClient(this._operations[0].getName());
-            _operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/NfeInutilizacao2/nfeInutilizacaoNF2");
-            _operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
-            this.addPropertyToOperationClient(_operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
+            final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
+            operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/NfeInutilizacao2/nfeInutilizacaoNF2");
+            operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
+            this.addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
             // create a message context
-            _messageContext = MessageContextFactory.INSTANCE.create(config);
+            messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(_operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg, new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeInutilizacao2", NFE_INUTILIZACAO_NF_2));
+            env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg, new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeInutilizacao2", NFE_INUTILIZACAO_NF_2));
             env.build();
             // add the children only if the parameter is not null
             if (nfeCabecMsg != null) {
@@ -98,14 +98,14 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
             // adding SOAP soap_headers
             this._serviceClient.addHeadersToEnvelope(env);
             // set the message context with that soap envelope
-            _messageContext.setEnvelope(env);
+            messageContext.setEnvelope(env);
             // add the message contxt to the operation client
-            _operationClient.addMessageContext(_messageContext);
+            operationClient.addMessageContext(messageContext);
             // execute the operation client
-            _operationClient.execute(true);
-            final org.apache.axis2.context.MessageContext _returnMessageContext = _operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
-            final org.apache.axiom.soap.SOAPEnvelope _returnEnv = _returnMessageContext.getEnvelope();
-            final java.lang.Object object = this.fromOM(_returnEnv.getBody().getFirstElement(), NfeInutilizacao2Stub.NfeInutilizacaoNF2Result.class);
+            operationClient.execute(true);
+            final org.apache.axis2.context.MessageContext returnMessageContext = operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
+            final org.apache.axiom.soap.SOAPEnvelope returnEnv = returnMessageContext.getEnvelope();
+            final java.lang.Object object = this.fromOM(returnEnv.getBody().getFirstElement(), NfeInutilizacao2Stub.NfeInutilizacaoNF2Result.class);
             return (NfeInutilizacao2Stub.NfeInutilizacaoNF2Result) object;
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
@@ -135,8 +135,8 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
                 throw f;
             }
         } finally {
-            if(_messageContext != null && _messageContext.getTransportOut() != null) {
-                _messageContext.getTransportOut().getSender().cleanup(_messageContext);
+            if(messageContext != null && messageContext.getTransportOut() != null) {
+                messageContext.getTransportOut().getSender().cleanup(messageContext);
             }
         }
     }
@@ -151,7 +151,6 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
         return returnMap;
     }
 
-    private final javax.xml.namespace.QName[] opNameArray = null;
     private final DFConfig config;
 
 

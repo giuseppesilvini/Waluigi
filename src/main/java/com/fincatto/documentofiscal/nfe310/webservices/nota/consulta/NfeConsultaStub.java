@@ -28,7 +28,7 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
     public static final String WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA = "http://www.portalfiscal.inf.br/nfe/wsdl/NfeConsulta";
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
     private static int counter = 0;
-    protected org.apache.axis2.description.AxisOperation[] _operations;
+    protected org.apache.axis2.description.AxisOperation[] operations;
 
     // hashmaps to keep the fault mapping
     private final java.util.HashMap faultExceptionNameMap = new java.util.HashMap();
@@ -80,12 +80,12 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
         this._service = new org.apache.axis2.description.AxisService("NfeConsulta" + NfeConsultaStub.getUniqueSuffix());
         this.addAnonymousOperations();
         // creating the operations
-        org.apache.axis2.description.AxisOperation __operation;
-        this._operations = new org.apache.axis2.description.AxisOperation[1];
-        __operation = new org.apache.axis2.description.OutInAxisOperation();
-        __operation.setName(new javax.xml.namespace.QName(WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA, NFE_CONSULTA_NF));
-        this._service.addOperation(__operation);
-        this._operations[0] = __operation;
+        org.apache.axis2.description.AxisOperation operation;
+        this.operations = new org.apache.axis2.description.AxisOperation[1];
+        operation = new org.apache.axis2.description.OutInAxisOperation();
+        operation.setName(new javax.xml.namespace.QName(WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA, NFE_CONSULTA_NF));
+        this._service.addOperation(operation);
+        this.operations[0] = operation;
     }
 
     // populates the faults
@@ -102,7 +102,7 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
     public com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub.NfeConsultaNFResult nfeConsultaNF(final com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub.NfeDadosMsg nfeDadosMsg0, final com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub.NfeCabecMsgE nfeCabecMsg1) throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext messageContext = null;
         try {
-            final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this._operations[0].getName());
+            final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
             operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/NfeConsulta/nfeConsultaNF");
             operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
             this.addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
@@ -170,7 +170,7 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
      * @param nfeCabecMsg1
      */
     public void startnfeConsultaNF(final com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub.NfeDadosMsg nfeDadosMsg0, final com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub.NfeCabecMsgE nfeCabecMsg1, final com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaCallbackHandler callback) throws java.rmi.RemoteException {
-        final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this._operations[0].getName());
+        final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
         operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/nfe/wsdl/NfeConsulta/nfeConsultaNF");
         operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
         this.addPropertyToOperationClient(operationClient, org.apache.axis2.description.WSDL2Constants.ATTR_WHTTP_QUERY_PARAMETER_SEPARATOR, "&");
@@ -253,9 +253,9 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
             }
         });
         org.apache.axis2.util.CallbackReceiver callbackReceiver;
-        if ((this._operations[0].getMessageReceiver() == null) && operationClient.getOptions().isUseSeparateListener()) {
+        if ((this.operations[0].getMessageReceiver() == null) && operationClient.getOptions().isUseSeparateListener()) {
             callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
-            this._operations[0].setMessageReceiver(callbackReceiver);
+            this.operations[0].setMessageReceiver(callbackReceiver);
         }
         // execute the operation client
         operationClient.execute(false);

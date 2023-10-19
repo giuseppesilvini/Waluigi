@@ -16,13 +16,13 @@ public class NFVerificaChaveTest {
     @Test
     public void verificaChave() {
         String chave = "43101000012345678901559999999999991999999993";
-        Assert.assertEquals(chave.length(), 44);
+        Assert.assertEquals(44, chave.length());
         final NFVerificaChave nfVerificaChave = new NFVerificaChave(chave);
         Assert.assertTrue(nfVerificaChave.isChaveValida());
         chave = "53101000012345678901559999999999991999999993";
         Assert.assertFalse(NFVerificaChave.isChaveValida(chave));
         chave = "43101000012345678901559999999999991999999";
-        Assert.assertEquals(chave.length(), 41);
+        Assert.assertEquals(41, chave.length());
         Assert.assertFalse(NFVerificaChave.isChaveValida(chave));
     }
 
