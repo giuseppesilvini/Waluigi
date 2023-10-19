@@ -13,11 +13,11 @@ abstract class NfeConsulta2CallbackHandler {
 
     protected final Object clientData;
 	
-	public NfeConsulta2CallbackHandler(final Object clientData) {
+	protected NfeConsulta2CallbackHandler(final Object clientData) {
 		this.clientData = clientData;
 	}
 	
-	public NfeConsulta2CallbackHandler() {
+	protected NfeConsulta2CallbackHandler() {
 		this.clientData = null;
 	}
 	
