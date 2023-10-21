@@ -42,7 +42,7 @@ public abstract class DFStringValidador {
 
     public static void codigoDeBarras(final String codigoDeBarras) {
         if (codigoDeBarras != null) {
-            final Matcher matcher = Pattern.compile("^(\\d{0}|\\d{8}|\\d{12,14}|SEM GTIN)$").matcher(codigoDeBarras);
+            final Matcher matcher = Pattern.compile("^(|\\d{8}|\\d{12,14}|SEM GTIN)$").matcher(codigoDeBarras);
             if (!matcher.find()) {
                 throw new IllegalStateException(String.format("Codigo de barras com formato invalido (%s)", codigoDeBarras));
             }
