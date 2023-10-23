@@ -43,11 +43,11 @@ public enum NFOperadoraCartao {
 		return descricao;
 	}
 
-	public void setDescricao(String descricao) {
+	protected void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
 
-	public void setCodigo(String codigo) {
+	protected void setCodigo(String codigo) {
 		this.codigo = codigo;
 	}
     
