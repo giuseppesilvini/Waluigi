@@ -11,7 +11,7 @@ public enum CTTipoEntregaHorario {
     A_PARTIR_HORARIO("3", "A partir do hor\u00e1rio"),
     NO_INTERVALO("4", "No intervalo de tempo");
 
-    public static final List<CTTipoEntregaHorario> COM_HORARIO = Arrays.asList(CTTipoEntregaHorario.NO_HORARIO, CTTipoEntregaHorario.ATE_HORARIO, CTTipoEntregaHorario.A_PARTIR_HORARIO);
+    protected static final List<CTTipoEntregaHorario> COM_HORARIO = Arrays.asList(CTTipoEntregaHorario.NO_HORARIO, CTTipoEntregaHorario.ATE_HORARIO, CTTipoEntregaHorario.A_PARTIR_HORARIO);
 
     private final String codigo;
     private final String descricao;
@@ -37,5 +37,9 @@ public enum CTTipoEntregaHorario {
     @Override
     public String toString() {
         return this.codigo + " - " + this.descricao;
+    }
+
+    public static List<CTTipoEntregaHorario> getCOM_HORARIO() {
+        return COM_HORARIO;
     }
 }

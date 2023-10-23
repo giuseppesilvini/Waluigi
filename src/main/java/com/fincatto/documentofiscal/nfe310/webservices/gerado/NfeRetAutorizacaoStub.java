@@ -702,31 +702,16 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
             public static NfeDadosMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 final NfeDadosMsg object = new NfeDadosMsg();
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.getAttributeValue(URL_XML_SCHEMA, "type") != null) {
                         final java.lang.String fullTypeName = reader.getAttributeValue(URL_XML_SCHEMA, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!NFE_DADOS_MSG.equals(type)) {
-                                // find namespace for the prefix
-                                final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (NfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                        return fullTypeNameNotNull(fullTypeName, reader);
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.isStartElement()) {
                         // use the QName from the parser as the name for the builder
                         final javax.xml.namespace.QName startQname1 = reader.getName();
@@ -740,9 +725,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
                         // A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT_MESSAGE + reader.getName());
                     }
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.isStartElement()) {
                         // A start element we are not expecting indicates a trailing invalid property
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT_MESSAGE + reader.getName());
@@ -752,6 +735,34 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
                 }
                 return object;
             }
+
+            private static void nextReader(javax.xml.stream.XMLStreamReader reader) throws Exception {
+                while (!reader.isStartElement() && !reader.isEndElement()) {
+                    reader.next();
+                }
+            }
+
+            private static NfeDadosMsg fullTypeNameNotNull(String fullTypeName, javax.xml.stream.XMLStreamReader reader) throws Exception {
+                if (fullTypeName != null) {
+                    String nsPrefix = getNsPrefix(fullTypeName);
+                    final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                    if (!NFE_DADOS_MSG.equals(type)) {
+                        // find namespace for the prefix
+                        final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                        return (NfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                    }
+                }
+                return null;
+            }
+
+            private static String getNsPrefix(String fullTypeName) {
+                java.lang.String nsPrefix = null;
+                if (fullTypeName.contains(":")) {
+                    nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                }
+                return nsPrefix = nsPrefix == null ? "" : nsPrefix;
+            }
+
         }// end of factory class
     }
 
@@ -875,31 +886,16 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
             public static NfeRetAutorizacaoLoteResult parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 final NfeRetAutorizacaoLoteResult object = new NfeRetAutorizacaoLoteResult();
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.getAttributeValue(URL_XML_SCHEMA, "type") != null) {
                         final java.lang.String fullTypeName = reader.getAttributeValue(URL_XML_SCHEMA, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!NFE_RET_AUTORIZACAO_LOTE_RESULT.equals(type)) {
-                                // find namespace for the prefix
-                                final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (NfeRetAutorizacaoLoteResult) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                        return fullTypeNameNotNull(fullTypeName, reader);
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.isStartElement()) {
                         // use the QName from the parser as the name for the builder
                         final javax.xml.namespace.QName startQname1 = reader.getName();
@@ -913,18 +909,44 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
                         // A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT_MESSAGE + reader.getName());
                     }
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.isStartElement()) {
                         // A start element we are not expecting indicates a trailing invalid property
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT_MESSAGE + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    throw new org.apache.axis2.databinding.ADBException(XML_PARSING_ERROR_MESSAGE, e);
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
+
+            private static void nextReader(javax.xml.stream.XMLStreamReader reader) throws Exception {
+                while (!reader.isStartElement() && !reader.isEndElement()) {
+                    reader.next();
+                }
+            }
+
+            private static NfeRetAutorizacaoLoteResult fullTypeNameNotNull(String fullTypeName, javax.xml.stream.XMLStreamReader reader) throws Exception {
+                if (fullTypeName != null) {
+                    String nsPrefix = getNsPrefix(fullTypeName);
+                    final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                    if (!NFE_RET_AUTORIZACAO_LOTE_RESULT.equals(type)) {
+                        // find namespace for the prefix
+                        final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                        return (NfeRetAutorizacaoLoteResult) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                    }
+                }
+                return null;
+            }
+
+            private static String getNsPrefix(String fullTypeName) {
+                java.lang.String nsPrefix = null;
+                if (fullTypeName.contains(":")) {
+                    nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                }
+                return nsPrefix = nsPrefix == null ? "" : nsPrefix;
+            }
+
         }// end of factory class
     }
 

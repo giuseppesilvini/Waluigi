@@ -18,6 +18,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
     public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2 = "http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico2";
     public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
+    public static final String OPERATION_NAME = "versaoDados";
     protected org.apache.axis2.description.AxisOperation[] operations;
     private final java.util.HashMap faultExceptionNameMap = new java.util.HashMap();
     private final java.util.HashMap faultExceptionClassNameMap = new java.util.HashMap();
@@ -664,32 +665,16 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
                         final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!NFE_STATUS_SERVICO_NF_2_RESULT.equals(type)) {
-                                // find namespace for the prefix
-                                final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (NfeStatusServicoNF2Result) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                        return fullTypeNameNotNull(fullTypeName, reader);
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.isStartElement()) {
                         // use the QName from the parser as the name for the builder
                         final javax.xml.namespace.QName startQname1 = reader.getName();
@@ -703,9 +688,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                         // A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.isStartElement()) {
                         // A start element we are not expecting indicates a trailing invalid property
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
@@ -715,6 +698,34 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 }
                 return object;
             }
+
+            private static void nextReader(javax.xml.stream.XMLStreamReader reader) throws Exception {
+                while (!reader.isStartElement() && !reader.isEndElement()) {
+                    reader.next();
+                }
+            }
+
+            private static NfeStatusServicoNF2Result fullTypeNameNotNull(String fullTypeName, javax.xml.stream.XMLStreamReader reader) throws Exception {
+                if (fullTypeName != null) {
+                    String nsPrefix = getNsPrefix(fullTypeName);
+                    final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                    if (!NFE_STATUS_SERVICO_NF_2_RESULT.equals(type)) {
+                        // find namespace for the prefix
+                        final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                        return (NfeStatusServicoNF2Result) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                    }
+                }
+                return null;
+            }
+
+            private static String getNsPrefix(String fullTypeName) {
+                java.lang.String nsPrefix = null;
+                if (fullTypeName.contains(":")) {
+                    nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                }
+                return nsPrefix = nsPrefix == null ? "" : nsPrefix;
+            }
+
         }// end of factory class
     }
 
@@ -846,7 +857,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
             }
             if (this.localVersaoDadosTracker) {
                 namespace = HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2;
-                this.writeStartElement(null, namespace, "versaoDados", xmlWriter);
+                this.writeStartElement(null, namespace, OPERATION_NAME, xmlWriter);
                 if (this.localVersaoDados == null) {
                     // write the nil attribute
                     throw new org.apache.axis2.databinding.ADBException("versaoDados cannot be null!!");
@@ -1015,7 +1026,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 }
             }
             if (this.localVersaoDadosTracker) {
-                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2, "versaoDados"));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2, OPERATION_NAME));
                 if (this.localVersaoDados != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localVersaoDados));
                 } else {
@@ -1126,10 +1137,10 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();
                 }
-                if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2, "versaoDados").equals(reader.getName())) {
+                if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2, OPERATION_NAME).equals(reader.getName())) {
                     nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                     if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
-                        throw new org.apache.axis2.databinding.ADBException("The element: " + "versaoDados" + "  cannot be null");
+                        throw new org.apache.axis2.databinding.ADBException("The element: " + OPERATION_NAME + "  cannot be null");
                     }
                     final java.lang.String content = reader.getElementText();
                     object.setVersaoDados(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
@@ -1350,32 +1361,16 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
                         final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!NFE_DADOS_MSG.equals(type)) {
-                                // find namespace for the prefix
-                                final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (NfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                        return fullTypeNameNotNull(fullTypeName, reader);
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.isStartElement()) {
                         // use the QName from the parser as the name for the builder
                         final javax.xml.namespace.QName startQname1 = reader.getName();
@@ -1389,9 +1384,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                         // A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.isStartElement()) {
                         // A start element we are not expecting indicates a trailing invalid property
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
@@ -1401,6 +1394,34 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 }
                 return object;
             }
+
+            private static void nextReader(javax.xml.stream.XMLStreamReader reader) throws Exception {
+                while (!reader.isStartElement() && !reader.isEndElement()) {
+                    reader.next();
+                }
+            }
+
+            private static NfeDadosMsg fullTypeNameNotNull(String fullTypeName, javax.xml.stream.XMLStreamReader reader) throws Exception {
+                if (fullTypeName != null) {
+                    String nsPrefix = getNsPrefix(fullTypeName);
+                    final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                    if (!NFE_DADOS_MSG.equals(type)) {
+                        // find namespace for the prefix
+                        final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                        return (NfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                    }
+                }
+                return null;
+            }
+
+            private static String getNsPrefix(String fullTypeName) {
+                java.lang.String nsPrefix = null;
+                if (fullTypeName.contains(":")) {
+                    nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                }
+                return nsPrefix = nsPrefix == null ? "" : nsPrefix;
+            }
+
         }// end of factory class
     }
 
@@ -1442,4 +1463,5 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
         }
         return null;
     }
+
 }

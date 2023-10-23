@@ -6,6 +6,7 @@
  */
 package com.fincatto.documentofiscal.nfe310.webservices.nota.consulta;
 
+import com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServico2Stub;
 import org.apache.axiom.om.OMAttribute;
 import org.apache.axis2.client.Stub;
 
@@ -865,38 +866,22 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                 java.lang.String prefix = "";
                 java.lang.String namespaceuri = "";
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type") != null) {
-                        java.lang.String fullTypeName = reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!NFE_CONSULTA_NF2_RESULT.equals(type)) {
-                                // find namespace for the prefix
-                                java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (NfeConsultaNF2Result) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type");
+                        return fullTypeNameNotNull(fullTypeName, reader);
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    java.util.ArrayList handledAttributes = new java.util.ArrayList();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.isStartElement()) {
                         // use the QName from the parser as the name for the builder
-                        javax.xml.namespace.QName startQname1 = reader.getName();
+                        final javax.xml.namespace.QName startQname1 = reader.getName();
                         // We need to wrap the reader so that it produces a fake START_DOCUMENT event
                         // this is needed by the builder classes
-                        org.apache.axis2.databinding.utils.NamedStaxOMBuilder builder1 = new org.apache.axis2.databinding.utils.NamedStaxOMBuilder(new org.apache.axis2.util.StreamWrapper(reader), startQname1);
+                        final org.apache.axis2.databinding.utils.NamedStaxOMBuilder builder1 = new org.apache.axis2.databinding.utils.NamedStaxOMBuilder(new org.apache.axis2.util.StreamWrapper(reader), startQname1);
                         object.setExtraElement(builder1.getOMElement());
                         reader.next();
                     } // End of if for expected property start element
@@ -904,18 +889,44 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                         // A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.isStartElement()) {
                         // A start element we are not expecting indicates a trailing invalid property
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
-                } catch (javax.xml.stream.XMLStreamException e) {
-                    //e.printStackTrace();
+                } catch (final javax.xml.stream.XMLStreamException e) {
+                    throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
             }
+
+            private static void nextReader(javax.xml.stream.XMLStreamReader reader) throws Exception {
+                while (!reader.isStartElement() && !reader.isEndElement()) {
+                    reader.next();
+                }
+            }
+
+            private static NfeConsultaNF2Result fullTypeNameNotNull(String fullTypeName, javax.xml.stream.XMLStreamReader reader) throws Exception {
+                if (fullTypeName != null) {
+                    String nsPrefix = getNsPrefix(fullTypeName);
+                    final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                    if (!NFE_CONSULTA_NF2_RESULT.equals(type)) {
+                        // find namespace for the prefix
+                        final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                        return (NfeConsultaNF2Result) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                    }
+                }
+                return null;
+            }
+
+            private static String getNsPrefix(String fullTypeName) {
+                java.lang.String nsPrefix = null;
+                if (fullTypeName.contains(":")) {
+                    nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                }
+                return nsPrefix = nsPrefix == null ? "" : nsPrefix;
+            }
+
         }// end of factory class
     }
 
@@ -1348,38 +1359,22 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                 java.lang.String prefix = "";
                 java.lang.String namespaceuri = "";
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type") != null) {
-                        java.lang.String fullTypeName = reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!NFE_DADOS_MSG.equals(type)) {
-                                // find namespace for the prefix
-                                java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (NfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                        final java.lang.String fullTypeName = reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type");
+                        return fullTypeNameNotNull(fullTypeName, reader);
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    java.util.ArrayList handledAttributes = new java.util.ArrayList();
+                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.isStartElement()) {
                         // use the QName from the parser as the name for the builder
-                        javax.xml.namespace.QName startQname1 = reader.getName();
+                        final javax.xml.namespace.QName startQname1 = reader.getName();
                         // We need to wrap the reader so that it produces a fake START_DOCUMENT event
                         // this is needed by the builder classes
-                        org.apache.axis2.databinding.utils.NamedStaxOMBuilder builder1 = new org.apache.axis2.databinding.utils.NamedStaxOMBuilder(new org.apache.axis2.util.StreamWrapper(reader), startQname1);
+                        final org.apache.axis2.databinding.utils.NamedStaxOMBuilder builder1 = new org.apache.axis2.databinding.utils.NamedStaxOMBuilder(new org.apache.axis2.util.StreamWrapper(reader), startQname1);
                         object.setExtraElement(builder1.getOMElement());
                         reader.next();
                     } // End of if for expected property start element
@@ -1387,16 +1382,44 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                         // A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
+                    nextReader(reader);
                     if (reader.isStartElement()) {
                         // A start element we are not expecting indicates a trailing invalid property
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
-                } catch (javax.xml.stream.XMLStreamException e) {/* e.printStackTrace(); */}
+                } catch (final javax.xml.stream.XMLStreamException e) {
+                    throw new javax.xml.stream.XMLStreamException(e);
+                }
                 return object;
             }
+
+            private static void nextReader(javax.xml.stream.XMLStreamReader reader) throws Exception {
+                while (!reader.isStartElement() && !reader.isEndElement()) {
+                    reader.next();
+                }
+            }
+
+            private static NfeDadosMsg fullTypeNameNotNull(String fullTypeName, javax.xml.stream.XMLStreamReader reader) throws Exception {
+                if (fullTypeName != null) {
+                    String nsPrefix = getNsPrefix(fullTypeName);
+                    final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                    if (!NFE_DADOS_MSG.equals(type)) {
+                        // find namespace for the prefix
+                        final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                        return (NfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                    }
+                }
+                return null;
+            }
+
+            private static String getNsPrefix(String fullTypeName) {
+                java.lang.String nsPrefix = null;
+                if (fullTypeName.contains(":")) {
+                    nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                }
+                return nsPrefix = nsPrefix == null ? "" : nsPrefix;
+            }
+
         }// end of factory class
     }
 

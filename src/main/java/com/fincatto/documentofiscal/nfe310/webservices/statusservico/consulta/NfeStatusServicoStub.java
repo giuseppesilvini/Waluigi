@@ -18,6 +18,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
     public static final String NFE_STATUS_SERVICO_NF = "nfeStatusServicoNF";
     public static final String NFE_CABEC_MSG = "nfeCabecMsg";
     public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
+    public static final String OPERATION_NAME = "versaoDados";
     private static int counter = 0;
     protected org.apache.axis2.description.AxisOperation[] operations;
 
@@ -374,7 +375,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
             }
             if (localVersaoDadosTracker) {
                 namespace = HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO;
-                writeStartElement(null, namespace, "versaoDados", xmlWriter);
+                writeStartElement(null, namespace, OPERATION_NAME, xmlWriter);
                 if (localVersaoDados == null) {
                     // write the nil attribute
                     throw new org.apache.axis2.databinding.ADBException("versaoDados cannot be null!!");
@@ -650,10 +651,10 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
             static private NfeCabecMsg parsePart2(NfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
                 java.lang.String nillableValue;
                 while (isNotStartOrEndElement(reader)) reader.next();
-                if ((reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO, "versaoDados").equals(reader.getName())) || new javax.xml.namespace.QName("", "versaoDados").equals(reader.getName())) {
+                if ((reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO, OPERATION_NAME).equals(reader.getName())) || new javax.xml.namespace.QName("", OPERATION_NAME).equals(reader.getName())) {
                     nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                     if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
-                        throw new org.apache.axis2.databinding.ADBException("The element: " + "versaoDados" + "  cannot be null");
+                        throw new org.apache.axis2.databinding.ADBException("The element: " + OPERATION_NAME + "  cannot be null");
                     }
                     java.lang.String content = reader.getElementText();
                     object.setVersaoDados(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
@@ -692,7 +693,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
                 }
             }
             if (this.localVersaoDadosTracker) {
-                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO, "versaoDados"));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO, OPERATION_NAME));
                 if (this.localVersaoDados != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localVersaoDados));
                 } else {

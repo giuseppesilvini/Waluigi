@@ -36,7 +36,7 @@ public class CTeNotaInfoIdentificacaoTomadorServico3 extends DFBase {
      * Tomador do Serviço 0-Remetente; 1-Expedidor; 2-Recebedor; 3-Destinatário Serão utilizadas as informações contidas no respectivo grupo, conforme indicado pelo conteúdo deste campo
      */
     public void setTomadorServico(final CTTomadorServico tomadorServico) {
-        if (!CTTomadorServico.TOMADOR_3.contains(tomadorServico)) {
+        if (!CTTomadorServico.getTOMADOR_3().contains(tomadorServico)) {
             throw new IllegalArgumentException("O tomador do servico n\u00e3o \u00e9 v\u00e1lido para este papel");
         }
         this.tomadorServico = tomadorServico;
