@@ -161,7 +161,18 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
         messageContext.setEnvelope(env);
         // add the message context to the operation client
         operationClient.addMessageContext(messageContext);
-        operationClient.setCallback(new org.apache.axis2.client.async.AxisCallback() {
+        operationClient.setCallback(createCallback(callback, messageContext));
+        org.apache.axis2.util.CallbackReceiver callbackReceiver;
+        if (this.operations[0].getMessageReceiver() == null && operationClient.getOptions().isUseSeparateListener()) {
+            callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
+            this.operations[0].setMessageReceiver(callbackReceiver);
+        }
+        // execute the operation client
+        operationClient.execute(false);
+    }
+
+    private org.apache.axis2.client.async.AxisCallback createCallback(NfeConsulta2CallbackHandler callback, org.apache.axis2.context.MessageContext messageContext) {
+        org.apache.axis2.client.async.AxisCallback returnCallback = new org.apache.axis2.client.async.AxisCallback() {
             @Override
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
@@ -178,26 +189,23 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                 if (error instanceof org.apache.axis2.AxisFault) {
                     org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
                     org.apache.axiom.om.OMElement faultElt = f.getDetail();
-                    if (faultElt != null) {
-                        if (NfeConsulta2Stub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), OPERATION_NAME))) {
-                            // make the fault by reflection
-                            try {
-                                java.lang.String exceptionClassName = (java.lang.String) NfeConsulta2Stub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), OPERATION_NAME));
-                                java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
-                                java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
-                                java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
-                                // message class
-                                java.lang.String messageClassName = (java.lang.String) NfeConsulta2Stub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), OPERATION_NAME));
-                                java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                                java.lang.Object messageObject = NfeConsulta2Stub.this.fromOM(faultElt, messageClass);
-                                java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
-                                m.invoke(ex, messageObject);
-                                callback.receiveErrornfeConsultaNF2(new java.rmi.RemoteException(ex.getMessage(), ex));
-                            } catch (ClassCastException | org.apache.axis2.AxisFault | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
-                                // we cannot intantiate the class - throw the original Axis fault
-                                callback.receiveErrornfeConsultaNF2(f);
-                            }
-                        } else {
+                    if (faultElt != null &&
+                                NfeConsulta2Stub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), OPERATION_NAME))) {
+                        // make the fault by reflection
+                        try {
+                            java.lang.String exceptionClassName = (java.lang.String) NfeConsulta2Stub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), OPERATION_NAME));
+                            java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
+                            java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
+                            java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
+                            // message class
+                            java.lang.String messageClassName = (java.lang.String) NfeConsulta2Stub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), OPERATION_NAME));
+                            java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
+                            java.lang.Object messageObject = NfeConsulta2Stub.this.fromOM(faultElt, messageClass);
+                            java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
+                            m.invoke(ex, messageObject);
+                            callback.receiveErrornfeConsultaNF2(new java.rmi.RemoteException(ex.getMessage(), ex));
+                        } catch (ClassCastException | org.apache.axis2.AxisFault | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
+                            // we cannot intantiate the class - throw the original Axis fault
                             callback.receiveErrornfeConsultaNF2(f);
                         }
                     } else {
@@ -222,14 +230,8 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                     callback.receiveErrornfeConsultaNF2(axisFault);
                 }
             }
-        });
-        org.apache.axis2.util.CallbackReceiver callbackReceiver;
-        if (this.operations[0].getMessageReceiver() == null && operationClient.getOptions().isUseSeparateListener()) {
-            callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
-            this.operations[0].setMessageReceiver(callbackReceiver);
-        }
-        // execute the operation client
-        operationClient.execute(false);
+        };
+        return returnCallback;
     }
 
     private java.util.Map getEnvelopeNamespaces(final org.apache.axiom.soap.SOAPEnvelope env) {

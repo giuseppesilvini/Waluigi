@@ -190,7 +190,18 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
         messageContext.setEnvelope(env);
         // add the message context to the operation client
         operationClient.addMessageContext(messageContext);
-        operationClient.setCallback(new org.apache.axis2.client.async.AxisCallback() {
+        operationClient.setCallback(createCallback(callback, messageContext));
+        org.apache.axis2.util.CallbackReceiver callbackReceiver;
+        if ((this.operations[0].getMessageReceiver() == null) && operationClient.getOptions().isUseSeparateListener()) {
+            callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
+            this.operations[0].setMessageReceiver(callbackReceiver);
+        }
+        // execute the operation client
+        operationClient.execute(false);
+    }
+
+    private org.apache.axis2.client.async.AxisCallback createCallback(com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaCallbackHandler callback, org.apache.axis2.context.MessageContext messageContext) {
+        org.apache.axis2.client.async.AxisCallback returnCallback = new org.apache.axis2.client.async.AxisCallback() {
             @Override
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
@@ -251,14 +262,8 @@ public class NfeConsultaStub extends org.apache.axis2.client.Stub {
                     callback.receiveErrornfeConsultaNF(axisFault);
                 }
             }
-        });
-        org.apache.axis2.util.CallbackReceiver callbackReceiver;
-        if ((this.operations[0].getMessageReceiver() == null) && operationClient.getOptions().isUseSeparateListener()) {
-            callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
-            this.operations[0].setMessageReceiver(callbackReceiver);
-        }
-        // execute the operation client
-        operationClient.execute(false);
+        };
+        return returnCallback;
     }
 
     private boolean optimizeContent(final javax.xml.namespace.QName opName) {

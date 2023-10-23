@@ -191,7 +191,18 @@ public class MDFeConsultaStub extends org.apache.axis2.client.Stub {
         messageContext.setEnvelope(env);
         // add the message context to the operation client
         operationClient.addMessageContext(messageContext);
-        operationClient.setCallback(new org.apache.axis2.client.async.AxisCallback() {
+        operationClient.setCallback(createCallback(callback, messageContext));
+        org.apache.axis2.util.CallbackReceiver callbackReceiver;
+        if (this.operations[0].getMessageReceiver() == null && operationClient.getOptions().isUseSeparateListener()) {
+            callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
+            this.operations[0].setMessageReceiver(callbackReceiver);
+        }
+        // execute the operation client
+        operationClient.execute(false);
+    }
+
+    private org.apache.axis2.client.async.AxisCallback createCallback(com.fincatto.documentofiscal.mdfe3.webservices.consulta.MDFeConsultaCallbackHandler callback, org.apache.axis2.context.MessageContext messageContext) {
+        org.apache.axis2.client.async.AxisCallback returnCallback = new org.apache.axis2.client.async.AxisCallback() {
             @Override
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
@@ -209,26 +220,23 @@ public class MDFeConsultaStub extends org.apache.axis2.client.Stub {
                 if (error instanceof org.apache.axis2.AxisFault) {
                     final org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
                     final org.apache.axiom.om.OMElement faultElt = f.getDetail();
-                    if (faultElt != null) {
-                        if (MDFeConsultaStub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeConsultaMDF"))) {
-                            // make the fault by reflection
-                            try {
-                                final java.lang.String exceptionClassName = (java.lang.String) MDFeConsultaStub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeConsultaMDF"));
-                                final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
-                                final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
-                                final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
-                                // message class
-                                final java.lang.String messageClassName = (java.lang.String) MDFeConsultaStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeConsultaMDF"));
-                                final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                                final java.lang.Object messageObject = MDFeConsultaStub.this.fromOM(faultElt, messageClass);
-                                final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
-                                m.invoke(ex, messageObject);
-                                callback.receiveErrormdfeConsultaMDF(new java.rmi.RemoteException(ex.getMessage(), ex));
-                            } catch (ClassCastException | org.apache.axis2.AxisFault | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
-                                // we cannot intantiate the class - throw the original Axis fault
-                                callback.receiveErrormdfeConsultaMDF(f);
-                            }
-                        } else {
+                    if (faultElt != null &&
+                                MDFeConsultaStub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeConsultaMDF"))) {
+                        // make the fault by reflection
+                        try {
+                            final java.lang.String exceptionClassName = (java.lang.String) MDFeConsultaStub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeConsultaMDF"));
+                            final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
+                            final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
+                            final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
+                            // message class
+                            final java.lang.String messageClassName = (java.lang.String) MDFeConsultaStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeConsultaMDF"));
+                            final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
+                            final java.lang.Object messageObject = MDFeConsultaStub.this.fromOM(faultElt, messageClass);
+                            final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
+                            m.invoke(ex, messageObject);
+                            callback.receiveErrormdfeConsultaMDF(new java.rmi.RemoteException(ex.getMessage(), ex));
+                        } catch (ClassCastException | org.apache.axis2.AxisFault | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
+                            // we cannot intantiate the class - throw the original Axis fault
                             callback.receiveErrormdfeConsultaMDF(f);
                         }
                     } else {
@@ -253,14 +261,8 @@ public class MDFeConsultaStub extends org.apache.axis2.client.Stub {
                     callback.receiveErrormdfeConsultaMDF(axisFault);
                 }
             }
-        });
-        org.apache.axis2.util.CallbackReceiver callbackReceiver;
-        if (this.operations[0].getMessageReceiver() == null && operationClient.getOptions().isUseSeparateListener()) {
-            callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
-            this.operations[0].setMessageReceiver(callbackReceiver);
-        }
-        // execute the operation client
-        operationClient.execute(false);
+        };
+        return returnCallback;
     }
 
     /**

@@ -711,39 +711,14 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 ConsultaCadastroResultType0 object = new ConsultaCadastroResultType0();
 
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement())
+                    while (isNotStartOrEndElement(reader))
                         reader.next();
 
                     reader.getName();
 
-                    if (reader.getAttributeValue(
-                            XMLSCHEMA_INSTANCE,
-                            "type") != null) {
-                        String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE,
-                                "type");
-
-                        if (fullTypeName != null) {
-                            String nsPrefix = null;
-
-                            if (fullTypeName.indexOf(":") > -1) {
-                                nsPrefix = fullTypeName.substring(0,
-                                        fullTypeName.indexOf(":"));
-                            }
-
-                            nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
-
-                            String type = fullTypeName.substring(fullTypeName.indexOf(
-                                    ":") + 1);
-
-                            if (!CONSULTA_CADASTRO_RESULT_TYPE_0.equals(type)) {
-                                //find namespace for the prefix
-                                String nsUri = reader.getNamespaceContext()
-                                        .getNamespaceURI(nsPrefix);
-
-                                return (ConsultaCadastroResultType0) ExtensionMapper.getTypeObject(nsUri,
-                                        type, reader);
-                            }
-                        }
+                    ConsultaCadastroResultType0 varParse = parsePart1(reader);
+                    if(varParse != null) {
+                        return varParse;
                     }
 
                     // Note all attributes that were handled. Used to differ normal attributes
@@ -751,7 +726,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
                     reader.next();
 
-                    while (!reader.isStartElement() && !reader.isEndElement())
+                    while (isNotStartOrEndElement(reader))
                         reader.next();
 
                     if (reader.isStartElement()) {
@@ -774,7 +749,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                                 UNEXPECTED_SUBELEMENT + reader.getName());
                     }
 
-                    while (!reader.isStartElement() && !reader.isEndElement())
+                    while (isNotStartOrEndElement(reader))
                         reader.next();
 
                     if (reader.isStartElement()) {
@@ -787,6 +762,43 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 }
 
                 return object;
+            }
+
+            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+                return !reader.isStartElement() && !reader.isEndElement();
+            }
+
+            static private ConsultaCadastroResultType0 parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                if (reader.getAttributeValue(
+                        XMLSCHEMA_INSTANCE,
+                        "type") != null) {
+                    String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE,
+                            "type");
+
+                    if (fullTypeName != null) {
+                        String nsPrefix = null;
+
+                        if (fullTypeName.indexOf(":") > -1) {
+                            nsPrefix = fullTypeName.substring(0,
+                                    fullTypeName.indexOf(":"));
+                        }
+
+                        nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
+
+                        String type = fullTypeName.substring(fullTypeName.indexOf(
+                                ":") + 1);
+
+                        if (!CONSULTA_CADASTRO_RESULT_TYPE_0.equals(type)) {
+                            //find namespace for the prefix
+                            String nsUri = reader.getNamespaceContext()
+                                    .getNamespaceURI(nsPrefix);
+
+                            return (ConsultaCadastroResultType0) ExtensionMapper.getTypeObject(nsUri,
+                                    type, reader);
+                        }
+                    }
+                }
+                return null;
             }
         } //end of factory class
     }
@@ -1257,44 +1269,19 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 ConsultaCadastro object = new ConsultaCadastro();
 
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement())
+                    while (isNotStartOrEndElement(reader))
                         reader.next();
 
                     reader.getName();
 
-                    if (reader.getAttributeValue(
-                            XMLSCHEMA_INSTANCE,
-                            "type") != null) {
-                        String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE,
-                                "type");
-
-                        if (fullTypeName != null) {
-                            String nsPrefix = null;
-
-                            if (fullTypeName.indexOf(":") > -1) {
-                                nsPrefix = fullTypeName.substring(0,
-                                        fullTypeName.indexOf(":"));
-                            }
-
-                            nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
-
-                            String type = fullTypeName.substring(fullTypeName.indexOf(
-                                    ":") + 1);
-
-                            if (!"consultaCadastro".equals(type)) {
-                                //find namespace for the prefix
-                                String nsUri = reader.getNamespaceContext()
-                                        .getNamespaceURI(nsPrefix);
-
-                                return (ConsultaCadastro) ExtensionMapper.getTypeObject(nsUri,
-                                        type, reader);
-                            }
-                        }
+                    ConsultaCadastro varParse = parsePart1 (reader);
+                    if(varParse != null) {
+                        return varParse;
                     }
 
                     reader.next();
 
-                    while (!reader.isStartElement() && !reader.isEndElement())
+                    while (isNotStartOrEndElement(reader))
                         reader.next();
 
                     if ((reader.isStartElement() &&
@@ -1309,7 +1296,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                         reader.next();
                     } // End of if for expected property start element
 
-                    while (!reader.isStartElement() && !reader.isEndElement())
+                    while (isNotStartOrEndElement(reader))
                         reader.next();
 
                     if (reader.isStartElement()) {
@@ -1322,6 +1309,43 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 }
 
                 return object;
+            }
+
+            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+                return !reader.isStartElement() && !reader.isEndElement();
+            }
+
+            static private ConsultaCadastro parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                if (reader.getAttributeValue(
+                        XMLSCHEMA_INSTANCE,
+                        "type") != null) {
+                    String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE,
+                            "type");
+
+                    if (fullTypeName != null) {
+                        String nsPrefix = null;
+
+                        if (fullTypeName.indexOf(":") > -1) {
+                            nsPrefix = fullTypeName.substring(0,
+                                    fullTypeName.indexOf(":"));
+                        }
+
+                        nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
+
+                        String type = fullTypeName.substring(fullTypeName.indexOf(
+                                ":") + 1);
+
+                        if (!"consultaCadastro".equals(type)) {
+                            //find namespace for the prefix
+                            String nsUri = reader.getNamespaceContext()
+                                    .getNamespaceURI(nsPrefix);
+
+                            return (ConsultaCadastro) ExtensionMapper.getTypeObject(nsUri,
+                                    type, reader);
+                        }
+                    }
+                }
+                return null;
             }
         } //end of factory class
     }
