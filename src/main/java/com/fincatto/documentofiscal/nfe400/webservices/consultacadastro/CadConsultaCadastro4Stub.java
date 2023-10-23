@@ -201,7 +201,20 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         // add the message context to the operation client
         operationClient.addMessageContext(messageContext);
 
-        operationClient.setCallback(new org.apache.axis2.client.async.AxisCallback() {
+        operationClient.setCallback(createCallback(callback, messageContext));
+        org.apache.axis2.util.CallbackReceiver callbackReceiver = null;
+
+        if ((this.operations[0].getMessageReceiver() == null) && operationClient.getOptions().isUseSeparateListener()) {
+            callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
+            this.operations[0].setMessageReceiver(callbackReceiver);
+        }
+
+        // execute the operation client
+        operationClient.execute(false);
+    }
+
+    private org.apache.axis2.client.async.AxisCallback createCallback(CadConsultaCadastro4CallbackHandler callback, org.apache.axis2.context.MessageContext messageContext) {
+        org.apache.axis2.client.async.AxisCallback returnCallback = new org.apache.axis2.client.async.AxisCallback() {
             @Override
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
@@ -221,28 +234,25 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                     final org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
                     final org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
-                    if (faultElt != null) {
-                        if (CadConsultaCadastro4Stub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "consultaCadastro"))) {
-                            // make the fault by reflection
-                            try {
-                                final java.lang.String exceptionClassName = (java.lang.String) CadConsultaCadastro4Stub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "consultaCadastro"));
-                                final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
-                                final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(java.lang.String.class);
-                                final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
+                    if (faultElt != null &&
+                                CadConsultaCadastro4Stub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "consultaCadastro"))) {
+                        // make the fault by reflection
+                        try {
+                            final java.lang.String exceptionClassName = (java.lang.String) CadConsultaCadastro4Stub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "consultaCadastro"));
+                            final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
+                            final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(java.lang.String.class);
+                            final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
 
-                                // message class
-                                final java.lang.String messageClassName = (java.lang.String) CadConsultaCadastro4Stub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "consultaCadastro"));
-                                final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                                final java.lang.Object messageObject = CadConsultaCadastro4Stub.this.fromOM(faultElt, messageClass);
-                                final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
-                                m.invoke(ex, messageObject);
+                            // message class
+                            final java.lang.String messageClassName = (java.lang.String) CadConsultaCadastro4Stub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "consultaCadastro"));
+                            final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
+                            final java.lang.Object messageObject = CadConsultaCadastro4Stub.this.fromOM(faultElt, messageClass);
+                            final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
+                            m.invoke(ex, messageObject);
 
-                                callback.receiveErrorconsultaCadastro(new java.rmi.RemoteException(ex.getMessage(), ex));
-                            } catch (final ClassCastException | AxisFault | InstantiationException | IllegalAccessException | InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
-                                // we cannot intantiate the class - throw the original Axis fault
-                                callback.receiveErrorconsultaCadastro(f);
-                            }
-                        } else {
+                            callback.receiveErrorconsultaCadastro(new java.rmi.RemoteException(ex.getMessage(), ex));
+                        } catch (final ClassCastException | AxisFault | InstantiationException | IllegalAccessException | InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
+                            // we cannot intantiate the class - throw the original Axis fault
                             callback.receiveErrorconsultaCadastro(f);
                         }
                     } else {
@@ -267,18 +277,10 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                     callback.receiveErrorconsultaCadastro(axisFault);
                 }
             }
-        });
-
-        org.apache.axis2.util.CallbackReceiver callbackReceiver = null;
-
-        if ((this.operations[0].getMessageReceiver() == null) && operationClient.getOptions().isUseSeparateListener()) {
-            callbackReceiver = new org.apache.axis2.util.CallbackReceiver();
-            this.operations[0].setMessageReceiver(callbackReceiver);
-        }
-
-        // execute the operation client
-        operationClient.execute(false);
+        };
+        return returnCallback;
     }
+
 
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final CadConsultaCadastro4Stub.NfeDadosMsg param, final javax.xml.namespace.QName elementQName) throws org.apache.axis2.AxisFault {
         try {
@@ -481,34 +483,13 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 final java.lang.String namespaceuri = "";
 
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
 
                     currentQName = reader.getName();
 
-                    if (reader.getAttributeValue(HTTP_WWW_W_3_ORG_2001_XMLSCHEMA_INSTANCE, "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue(HTTP_WWW_W_3_ORG_2001_XMLSCHEMA_INSTANCE, "type");
-
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-    
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-
-                            nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
-
-                            final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-
-                            if (!NFE_RESULT_MSG.equals(type)) {
-                                // find namespace for the prefix
-                                final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-
-                                return (NfeResultMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
-                    }
+                    NfeResultMsg varParse = parsePart1(reader);
 
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
@@ -516,7 +497,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
                     reader.next();
 
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
 
@@ -537,7 +518,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
                     }
 
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
 
@@ -550,6 +531,36 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 }
 
                 return object;
+            }
+
+            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+                return !reader.isStartElement() && !reader.isEndElement();
+            }
+
+            static private NfeResultMsg parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                if (reader.getAttributeValue(HTTP_WWW_W_3_ORG_2001_XMLSCHEMA_INSTANCE, "type") != null) {
+                    final java.lang.String fullTypeName = reader.getAttributeValue(HTTP_WWW_W_3_ORG_2001_XMLSCHEMA_INSTANCE, "type");
+
+                    if (fullTypeName != null) {
+                        java.lang.String nsPrefix = null;
+
+                        if (fullTypeName.contains(":")) {
+                            nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                        }
+
+                        nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
+
+                        final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+
+                        if (!NFE_RESULT_MSG.equals(type)) {
+                            // find namespace for the prefix
+                            final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+
+                            return (NfeResultMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                        }
+                    }
+                }
+                return null;
             }
         } // end of factory class
 
@@ -721,33 +732,15 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 final java.lang.String namespaceuri = "";
 
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
 
                     currentQName = reader.getName();
 
-                    if (reader.getAttributeValue(HTTP_WWW_W_3_ORG_2001_XMLSCHEMA_INSTANCE, "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue(HTTP_WWW_W_3_ORG_2001_XMLSCHEMA_INSTANCE, "type");
-
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-    
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-
-                            nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
-
-                            final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-
-                            if (!NFE_DADOS_MSG.equals(type)) {
-                                // find namespace for the prefix
-                                final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-
-                                return (NfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                    NfeDadosMsg varParse = parsePart1(reader);
+                    if(varParse != null) {
+                        return varParse;
                     }
 
                     // Note all attributes that were handled. Used to differ normal attributes
@@ -756,7 +749,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
                     reader.next();
 
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
 
@@ -777,7 +770,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
                     }
 
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
 
@@ -790,6 +783,36 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 }
 
                 return object;
+            }
+
+            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+                return !reader.isStartElement() && !reader.isEndElement();
+            }
+
+            static private NfeDadosMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                if (reader.getAttributeValue(HTTP_WWW_W_3_ORG_2001_XMLSCHEMA_INSTANCE, "type") != null) {
+                    final java.lang.String fullTypeName = reader.getAttributeValue(HTTP_WWW_W_3_ORG_2001_XMLSCHEMA_INSTANCE, "type");
+
+                    if (fullTypeName != null) {
+                        java.lang.String nsPrefix = null;
+
+                        if (fullTypeName.contains(":")) {
+                            nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                        }
+
+                        nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
+
+                        final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+
+                        if (!NFE_DADOS_MSG.equals(type)) {
+                            // find namespace for the prefix
+                            final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+
+                            return (NfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                        }
+                    }
+                }
+                return null;
             }
         } // end of factory class
 

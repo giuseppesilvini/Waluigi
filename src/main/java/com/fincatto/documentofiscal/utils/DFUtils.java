@@ -34,7 +34,14 @@ public abstract class DFUtils {
         String cnpjCalculado = cnpj.substring(0, 12);
         final char[] chrCNPJ = cnpj.toCharArray();
 
-        // primeira parte
+        cnpjCalculado = isValidoPart1(chrCNPJ, cnpjCalculado);
+        
+        cnpjCalculado = isValidoPart2(chrCNPJ, cnpjCalculado);
+        
+        return cnpj.equals(cnpjCalculado);
+    }
+
+    static private String isValidoPart1(char[] chrCNPJ, String cnpjCalculado) {
         int soma = 0;
         for (int i = 0; i < 4; i++) {
             if (((chrCNPJ[i] - 48) >= 0) && ((chrCNPJ[i] - 48) <= 9)) {
@@ -48,9 +55,11 @@ public abstract class DFUtils {
         }
         int dig = 11 - (soma % 11);
         cnpjCalculado += (dig == 10) || (dig == 11) ? "0" : Integer.toString(dig);
+        return cnpjCalculado;
+    }
 
-        // segunda parte
-        soma = 0;
+    static private String isValidoPart2(char[] chrCNPJ, String cnpjCalculado) {
+        int soma = 0;
         for (int i = 0; i < 5; i++) {
             if (((chrCNPJ[i] - 48) >= 0) && ((chrCNPJ[i] - 48) <= 9)) {
                 soma += (chrCNPJ[i] - 48) * (7 - (i + 1));
@@ -61,9 +70,10 @@ public abstract class DFUtils {
                 soma += (chrCNPJ[i + 5] - 48) * (10 - (i + 1));
             }
         }
-        dig = 11 - (soma % 11);
+        int dig = 11 - (soma % 11);
         cnpjCalculado += (dig == 10) || (dig == 11) ? "0" : Integer.toString(dig);
-        return cnpj.equals(cnpjCalculado);
+        return cnpjCalculado;
+
     }
 
     /**

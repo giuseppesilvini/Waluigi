@@ -1053,30 +1053,18 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!MDFE_CONS_NAO_ENC_RESULT.equals(type)) {
-                                // find namespace for the prefix
-                                final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (MdfeConsNaoEncResult) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                    MdfeConsNaoEncResult varParse = parsePart1(reader);
+                    if (varParse != null) {
+                        return varParse;
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -1092,7 +1080,7 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
                         // A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -1103,6 +1091,30 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
                     throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
+            }
+
+            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+                return !reader.isStartElement() && !reader.isEndElement();
+            }
+
+            static private MdfeConsNaoEncResult parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                    final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
+                    if (fullTypeName != null) {
+                        java.lang.String nsPrefix = null;
+                        if (fullTypeName.contains(":")) {
+                            nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                        }
+                        nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                        final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                        if (!MDFE_CONS_NAO_ENC_RESULT.equals(type)) {
+                            // find namespace for the prefix
+                            final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                            return (MdfeConsNaoEncResult) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                        }
+                    }
+                }
+                return null;
             }
         }// end of factory class
     }
@@ -1638,30 +1650,18 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!MDFE_DADOS_MSG.equals(type)) {
-                                // find namespace for the prefix
-                                final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (MdfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                    MdfeDadosMsg varParse = parsePart1(reader);
+                    if(varParse != null) {
+                        return varParse;
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -1677,7 +1677,7 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
                         // A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -1688,6 +1688,30 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
                     throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
+            }
+
+            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+                return !reader.isStartElement() && !reader.isEndElement();
+            }
+
+            static private MdfeDadosMsg parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                    final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
+                    if (fullTypeName != null) {
+                        java.lang.String nsPrefix = null;
+                        if (fullTypeName.contains(":")) {
+                            nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                        }
+                        nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                        final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                        if (!MDFE_DADOS_MSG.equals(type)) {
+                            // find namespace for the prefix
+                            final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                            return (MdfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                        }
+                    }
+                }
+                return null;
             }
         }// end of factory class
     }
