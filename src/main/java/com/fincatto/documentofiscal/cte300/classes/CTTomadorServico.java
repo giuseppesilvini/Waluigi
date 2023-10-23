@@ -12,7 +12,7 @@ public enum CTTomadorServico {
     DESTINATARIO("3", "Destinatário"),
     OUTROS("4", "Outros");
 
-    public static final List<CTTomadorServico> TOMADOR_3 = Arrays.asList(CTTomadorServico.REMETENTE, CTTomadorServico.EXPEDIDOR, CTTomadorServico.RECEBEDOR, CTTomadorServico.DESTINATARIO);
+    protected static final List<CTTomadorServico> TOMADOR_3 = Arrays.asList(CTTomadorServico.REMETENTE, CTTomadorServico.EXPEDIDOR, CTTomadorServico.RECEBEDOR, CTTomadorServico.DESTINATARIO);
     public static final List<CTTomadorServico> TOMADOR_4 = Collections.singletonList(CTTomadorServico.OUTROS);
 
 
@@ -44,5 +44,9 @@ public enum CTTomadorServico {
     @Override
     public String toString() {
         return codigo + " - " + descricao;
+    }
+
+    public static List<CTTomadorServico> getTOMADOR_3() {
+        return TOMADOR_3;
     }
 }

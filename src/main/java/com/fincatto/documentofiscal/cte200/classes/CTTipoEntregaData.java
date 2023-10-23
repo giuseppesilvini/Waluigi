@@ -11,7 +11,7 @@ public enum CTTipoEntregaData {
     A_PARTIR_DATA("3", "A partir da data"),
     NO_PERIODO("4", "No per\u00edodo");
 
-    public static final List<CTTipoEntregaData> COM_DATA = Arrays.asList(CTTipoEntregaData.NA_DATA, CTTipoEntregaData.ATE_DATA, CTTipoEntregaData.A_PARTIR_DATA);
+    protected static final List<CTTipoEntregaData> COM_DATA = Arrays.asList(CTTipoEntregaData.NA_DATA, CTTipoEntregaData.ATE_DATA, CTTipoEntregaData.A_PARTIR_DATA);
 
     private final String codigo;
     private final String descricao;
@@ -37,5 +37,9 @@ public enum CTTipoEntregaData {
     @Override
     public String toString() {
         return this.codigo + " - " + this.descricao;
+    }
+
+    public static List<CTTipoEntregaData> getCOM_DATA() {
+        return COM_DATA;
     }
 }

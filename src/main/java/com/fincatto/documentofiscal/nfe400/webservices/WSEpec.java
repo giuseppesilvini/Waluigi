@@ -72,7 +72,7 @@ public class WSEpec implements DFLog {
         NFEnviaEventoEpec nfEnviaEventoEpec = new NFEnviaEventoEpec();
         nfEnviaEventoEpec.setIdLote(StringUtils.isBlank(loteEnvio.getIdLote()) ? String.valueOf(new java.util.Date().getTime()) : loteEnvio.getIdLote());
         nfEnviaEventoEpec.setVersao("1.00");
-        nfEnviaEventoEpec.setEvento(new ArrayList<NFEventoEpec>());
+        nfEnviaEventoEpec.setEvento(new ArrayList<>());
         int i = 1;
         for (NFNota nfNota : loteEnvio.getNotas()) {
             NFEventoEpec nfEventoEpec = new NFEventoEpec();
