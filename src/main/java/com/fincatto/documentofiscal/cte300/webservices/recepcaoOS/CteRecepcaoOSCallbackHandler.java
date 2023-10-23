@@ -1,4 +1,4 @@
-package com.fincatto.documentofiscal.cte300.webservices.recepcaoOS;
+package com.fincatto.documentofiscal.cte300.webservices.recepcaoos;
 
     /**
      *  CteRecepcaoOSCallbackHandler Callback class, Users can extend this class and implement
@@ -39,7 +39,7 @@ package com.fincatto.documentofiscal.cte300.webservices.recepcaoOS;
             * override this method for handling normal response from cteRecepcaoOS operation
             */
            public void receiveResultcteRecepcaoOS(
-                    com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteRecepcaoOSResult result
+                    com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteRecepcaoOSResult result
                         ) {
            }
 

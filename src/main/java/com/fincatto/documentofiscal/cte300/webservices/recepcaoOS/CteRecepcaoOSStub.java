@@ -1,4 +1,4 @@
-package com.fincatto.documentofiscal.cte300.webservices.recepcaoOS;
+package com.fincatto.documentofiscal.cte300.webservices.recepcaoos;
 
 import com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub;
 import org.apache.axiom.om.OMAttribute;
@@ -99,7 +99,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
      * @param cteCabecMsg1
      */
 
-    public com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteRecepcaoOSResult cteRecepcaoOS(final com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteDadosMsg cteDadosMsg0, final com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteCabecMsgE cteCabecMsg1) throws java.rmi.RemoteException {
+    public com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteRecepcaoOSResult cteRecepcaoOS(final com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteDadosMsg cteDadosMsg0, final com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteCabecMsgE cteCabecMsg1) throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext messageContext = null;
         try {
             final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
@@ -127,8 +127,8 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
             operationClient.execute(true);
             final org.apache.axis2.context.MessageContext returnMessageContext = operationClient.getMessageContext(org.apache.axis2.wsdl.WSDLConstants.MESSAGE_LABEL_IN_VALUE);
             final org.apache.axiom.soap.SOAPEnvelope returnEnv = returnMessageContext.getEnvelope();
-            final java.lang.Object object = this.fromOM(returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteRecepcaoOSResult.class);
-            return (com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteRecepcaoOSResult) object;
+            final java.lang.Object object = this.fromOM(returnEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteRecepcaoOSResult.class);
+            return (com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteRecepcaoOSResult) object;
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
             if (faultElt == null) {
@@ -167,7 +167,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
      * @param cteDadosMsg0
      * @param cteCabecMsg1
      */
-    public void startcteRecepcaoOS(final com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteDadosMsg cteDadosMsg0, final com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteCabecMsgE cteCabecMsg1, final com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSCallbackHandler callback) throws java.rmi.RemoteException {
+    public void startcteRecepcaoOS(final com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteDadosMsg cteDadosMsg0, final com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteCabecMsgE cteCabecMsg1, final com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSCallbackHandler callback) throws java.rmi.RemoteException {
         final org.apache.axis2.client.OperationClient operationClient = this._serviceClient.createClient(this.operations[0].getName());
         operationClient.getOptions().setAction("http://www.portalfiscal.inf.br/cte/wsdl/CteRecepcaoOS/cteRecepcaoOS");
         operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
@@ -198,14 +198,14 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
         operationClient.execute(false);
     }
 
-    private org.apache.axis2.client.async.AxisCallback createCallback(com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSCallbackHandler callback, org.apache.axis2.context.MessageContext messageContext) {
+    private org.apache.axis2.client.async.AxisCallback createCallback(com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSCallbackHandler callback, org.apache.axis2.context.MessageContext messageContext) {
         org.apache.axis2.client.async.AxisCallback returnCallback = new org.apache.axis2.client.async.AxisCallback() {
             @Override
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
                     final org.apache.axiom.soap.SOAPEnvelope resultEnv = resultContext.getEnvelope();
-                    final java.lang.Object object = CteRecepcaoOSStub.this.fromOM(resultEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteRecepcaoOSResult.class);
-                    callback.receiveResultcteRecepcaoOS((com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteRecepcaoOSResult) object);
+                    final java.lang.Object object = CteRecepcaoOSStub.this.fromOM(resultEnv.getBody().getFirstElement(), com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteRecepcaoOSResult.class);
+                    callback.receiveResultcteRecepcaoOS((com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteRecepcaoOSResult) object);
                 } catch (final org.apache.axis2.AxisFault e) {
                     callback.receiveErrorcteRecepcaoOS(e);
                 }
@@ -1695,21 +1695,21 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
         }// end of factory class
     }
 
-    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteDadosMsg param) {
-        return param.getOMElement(com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteDadosMsg.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
+    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteDadosMsg param) {
+        return param.getOMElement(com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteDadosMsg.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
     }
 
-    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteRecepcaoOSResult param) {
-        return param.getOMElement(com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteRecepcaoOSResult.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
+    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteRecepcaoOSResult param) {
+        return param.getOMElement(com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteRecepcaoOSResult.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
     }
 
-    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteCabecMsgE param) {
-        return param.getOMElement(com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteCabecMsgE.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
+    private org.apache.axiom.om.OMElement toOM(final com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteCabecMsgE param) {
+        return param.getOMElement(com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteCabecMsgE.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
     }
 
-    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteDadosMsg param) {
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteDadosMsg param) {
         final org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
-        emptyEnvelope.getBody().addChild(param.getOMElement(com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteDadosMsg.MY_QNAME, factory));
+        emptyEnvelope.getBody().addChild(param.getOMElement(com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteDadosMsg.MY_QNAME, factory));
         return emptyEnvelope;
     }
 
@@ -1724,14 +1724,14 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
 
     private java.lang.Object fromOM(final org.apache.axiom.om.OMElement param, final java.lang.Class type) throws org.apache.axis2.AxisFault {
         try {
-            if (com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteDadosMsg.class.equals(type)) {
-                return com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteDadosMsg.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+            if (com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteDadosMsg.class.equals(type)) {
+                return com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteDadosMsg.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
-            if (com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteRecepcaoOSResult.class.equals(type)) {
-                return com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteRecepcaoOSResult.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+            if (com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteRecepcaoOSResult.class.equals(type)) {
+                return com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteRecepcaoOSResult.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
-            if (com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteCabecMsgE.class.equals(type)) {
-                return com.fincatto.documentofiscal.cte300.webservices.recepcaoOS.CteRecepcaoOSStub.CteCabecMsgE.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+            if (com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteCabecMsgE.class.equals(type)) {
+                return com.fincatto.documentofiscal.cte300.webservices.recepcaoos.CteRecepcaoOSStub.CteCabecMsgE.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
         } catch (final java.lang.Exception e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
