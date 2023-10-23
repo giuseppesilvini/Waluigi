@@ -818,30 +818,34 @@ public abstract class DFStringValidador {
                     //invoca o metodo para verificar qual classe de ICMS esta preenchida(objectValue!=null)
                     Object objectValue = method.invoke(impostoICMS);
                     if (objectValue != null) {
-                        // retorna o metodo necessario para extrair o valor de ModalidadeMVA.
-                        Method modalidadeMethod;
-                        Optional<Method> testValue = Arrays.stream(typeMethods).filter(method1 -> method1.getReturnType().equals(NFNotaInfoItemModalidadeBCICMSST.class)).findAny();
-                        if(!testValue.isPresent()) {
-                            throw new IllegalStateException("Is not present");
-                        }
-                        modalidadeMethod = testValue.get();
-
-                        NFNotaInfoItemModalidadeBCICMSST modalidadeBCICMSST = (NFNotaInfoItemModalidadeBCICMSST) modalidadeMethod.invoke(objectValue, (Object[]) null);
-                        // retorna o metodo necessario para extrair o valor da percentualMargemValorAdicionadoICMSST(pMVAST).
-                        Method percentualMethod = Arrays.stream(typeMethods).filter(method1 -> method1.getName().contains("getPercentualMargemValorAdicionadoICMSST")).findAny().orElse(null);
-                        String percentualValue = null;
-                        if (percentualMethod != null) {
-                            percentualValue = (String) percentualMethod.invoke(objectValue, (Object[]) null);
-                        }
-                        //verificacoes conforme a regra de validacao
-                        if (modalidadeBCICMSST != null && modalidadeBCICMSST.equals(NFNotaInfoItemModalidadeBCICMSST.MARGEM_VALOR_AGREGADO) && StringUtils.isBlank(percentualValue)) {
-                            throw new IllegalStateException("Informada modalidade de determinacao da BC da ST como MVA(modBCST=4)" + " e nao informado o campo pMVAST!");
-                        } else if (StringUtils.isNotBlank(percentualValue) && (modalidadeBCICMSST == null || !modalidadeBCICMSST.equals(NFNotaInfoItemModalidadeBCICMSST.MARGEM_VALOR_AGREGADO))) {
-                            throw new IllegalStateException(String.format("Informada modalidade de determinacao da BC da ST diferente de MVA(informado[%s]) e informado o campo pMVAST", (modalidadeBCICMSST != null ? modalidadeBCICMSST.toString() : "modBCST<>4")));
-                        }
+                        validaPart2(typeMethods, objectValue);
                     }
                 }
             }
+        }
+    }
+
+    static private void validaPart2(Method[] typeMethods, Object objectValue) throws InvocationTargetException, IllegalAccessException {
+        // retorna o metodo necessario para extrair o valor de ModalidadeMVA.
+        Method modalidadeMethod;
+        Optional<Method> testValue = Arrays.stream(typeMethods).filter(method1 -> method1.getReturnType().equals(NFNotaInfoItemModalidadeBCICMSST.class)).findAny();
+        if(!testValue.isPresent()) {
+            throw new IllegalStateException("Is not present");
+        }
+        modalidadeMethod = testValue.get();
+
+        NFNotaInfoItemModalidadeBCICMSST modalidadeBCICMSST = (NFNotaInfoItemModalidadeBCICMSST) modalidadeMethod.invoke(objectValue, (Object[]) null);
+        // retorna o metodo necessario para extrair o valor da percentualMargemValorAdicionadoICMSST(pMVAST).
+        Method percentualMethod = Arrays.stream(typeMethods).filter(method1 -> method1.getName().contains("getPercentualMargemValorAdicionadoICMSST")).findAny().orElse(null);
+        String percentualValue = null;
+        if (percentualMethod != null) {
+            percentualValue = (String) percentualMethod.invoke(objectValue, (Object[]) null);
+        }
+        //verificacoes conforme a regra de validacao
+        if (modalidadeBCICMSST != null && modalidadeBCICMSST.equals(NFNotaInfoItemModalidadeBCICMSST.MARGEM_VALOR_AGREGADO) && StringUtils.isBlank(percentualValue)) {
+            throw new IllegalStateException("Informada modalidade de determinacao da BC da ST como MVA(modBCST=4)" + " e nao informado o campo pMVAST!");
+        } else if (StringUtils.isNotBlank(percentualValue) && (modalidadeBCICMSST == null || !modalidadeBCICMSST.equals(NFNotaInfoItemModalidadeBCICMSST.MARGEM_VALOR_AGREGADO))) {
+            throw new IllegalStateException(String.format("Informada modalidade de determinacao da BC da ST diferente de MVA(informado[%s]) e informado o campo pMVAST", (modalidadeBCICMSST != null ? modalidadeBCICMSST.toString() : "modBCST<>4")));
         }
     }
 }

@@ -681,31 +681,21 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
              */
             @SuppressWarnings({ "unused", "rawtypes" })
             public static MdfeCabecMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-                final MdfeCabecMsg object = new MdfeCabecMsg();
+                MdfeCabecMsg object = new MdfeCabecMsg();
                 final int event;
                 java.lang.String nillableValue;
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!MDFE_CABEC_MSG.equals(type)) {
-                                // find namespace for the prefix
-                                final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (MdfeCabecMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                    
+                    MdfeCabecMsg varParse = parsePart1(reader);
+                    if(varParse != null) {
+                        return varParse;
                     }
+
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
@@ -722,31 +712,10 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
                         }
                     }
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO, "cUF").equals(reader.getName())) {
-                        nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
-                        if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
-                            throw new org.apache.axis2.databinding.ADBException("The element: " + "cUF" + "  cannot be null");
-                        }
-                        final java.lang.String content = reader.getElementText();
-                        object.setCUF(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
-                        reader.next();
-                    } // End of if for expected property start element
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO, "versaoDados").equals(reader.getName())) {
-                        nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
-                        if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
-                            throw new org.apache.axis2.databinding.ADBException("The element: " + "versaoDados" + "  cannot be null");
-                        }
-                        final java.lang.String content = reader.getElementText();
-                        object.setVersaoDados(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
-                        reader.next();
-                    } // End of if for expected property start element
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    object = parsePart2(object, reader);
+                    object = parsePart3(object, reader);
+                    
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -756,6 +725,64 @@ public class MDFeRecepcaoStub extends org.apache.axis2.client.Stub {
                 } catch (final javax.xml.stream.XMLStreamException e) {
                     throw new javax.xml.stream.XMLStreamException(e);
                 }
+                return object;
+            }
+
+            static private boolean isNotStartOrEndElement (javax.xml.stream.XMLStreamReader reader) {
+                return !reader.isStartElement() && !reader.isEndElement();
+            }
+
+            static private MdfeCabecMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                    final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
+                    if (fullTypeName != null) {
+                        java.lang.String nsPrefix = null;
+                        if (fullTypeName.contains(":")) {
+                            nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                        }
+                        nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                        final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                        if (!MDFE_CABEC_MSG.equals(type)) {
+                            // find namespace for the prefix
+                            final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                            return (MdfeCabecMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                        }
+                    }
+                }
+                return null;
+            }
+
+            static private MdfeCabecMsg parsePart2 (MdfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                String nillableValue;
+                while (isNotStartOrEndElement(reader)) {
+                    reader.next();
+                }
+                if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO, "cUF").equals(reader.getName())) {
+                    nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
+                    if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
+                        throw new org.apache.axis2.databinding.ADBException("The element: " + "cUF" + "  cannot be null");
+                    }
+                    final java.lang.String content = reader.getElementText();
+                    object.setCUF(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                    reader.next();
+                } // End of if for expected property start element
+                return object;
+            }
+
+            static private MdfeCabecMsg parsePart3 (MdfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                String nillableValue;
+                while (isNotStartOrEndElement(reader)) {
+                    reader.next();
+                }
+                if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO, "versaoDados").equals(reader.getName())) {
+                    nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
+                    if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
+                        throw new org.apache.axis2.databinding.ADBException("The element: " + "versaoDados" + "  cannot be null");
+                    }
+                    final java.lang.String content = reader.getElementText();
+                    object.setVersaoDados(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                    reader.next();
+                } // End of if for expected property start element
                 return object;
             }
         }// end of factory class

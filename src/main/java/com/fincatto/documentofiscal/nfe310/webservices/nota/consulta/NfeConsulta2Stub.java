@@ -556,25 +556,15 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                 java.lang.String prefix = "";
                 java.lang.String namespaceuri = "";
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type") != null) {
-                        java.lang.String fullTypeName = reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!NFE_CABEC_MSG.equals(type)) {
-                                // find namespace for the prefix
-                                java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (NfeCabecMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                    
+                    NfeCabecMsg varParse = parsePart1(reader);
+                    if(varParse != null) {
+                        return varParse;
                     }
+
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
                     java.util.ArrayList handledAttributes = new java.util.ArrayList();
@@ -591,31 +581,10 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                         }
                     }
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA_2, "cUF").equals(reader.getName())) {
-                        nillableValue = reader.getAttributeValue(XML_SCHEMA_INSTANCE, "nil");
-                        if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
-                            throw new org.apache.axis2.databinding.ADBException("The element: " + "cUF" + "  cannot be null");
-                        }
-                        java.lang.String content = reader.getElementText();
-                        object.setCUF(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
-                        reader.next();
-                    } // End of if for expected property start element
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA_2, VERSAO_DADOS).equals(reader.getName())) {
-                        nillableValue = reader.getAttributeValue(XML_SCHEMA_INSTANCE, "nil");
-                        if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
-                            throw new org.apache.axis2.databinding.ADBException("The element: " + VERSAO_DADOS + "  cannot be null");
-                        }
-                        java.lang.String content = reader.getElementText();
-                        object.setVersaoDados(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
-                        reader.next();
-                    } // End of if for expected property start element
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    object = parsePart2(object, reader);
+                    object = parsePart3(object, reader);
+                    
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -625,6 +594,64 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                 } catch (javax.xml.stream.XMLStreamException e) {
                     //e.printStackTrace();
                 }
+                return object;
+            }
+
+            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+                return !reader.isStartElement() && !reader.isEndElement();
+            }
+
+            static private NfeCabecMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                if (reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type") != null) {
+                    java.lang.String fullTypeName = reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type");
+                    if (fullTypeName != null) {
+                        java.lang.String nsPrefix = null;
+                        if (fullTypeName.contains(":")) {
+                            nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                        }
+                        nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                        java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                        if (!NFE_CABEC_MSG.equals(type)) {
+                            // find namespace for the prefix
+                            java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                            return (NfeCabecMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                        }
+                    }
+                }
+                return null;
+            }
+
+            static private NfeCabecMsg parsePart2(NfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                String nillableValue;
+                while (isNotStartOrEndElement(reader)) {
+                    reader.next();
+                }
+                if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA_2, "cUF").equals(reader.getName())) {
+                    nillableValue = reader.getAttributeValue(XML_SCHEMA_INSTANCE, "nil");
+                    if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
+                        throw new org.apache.axis2.databinding.ADBException("The element: " + "cUF" + "  cannot be null");
+                    }
+                    java.lang.String content = reader.getElementText();
+                    object.setCUF(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                    reader.next();
+                } // End of if for expected property start element
+                return object;
+            }
+
+            static private NfeCabecMsg parsePart3(NfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                String nillableValue;
+                while (isNotStartOrEndElement(reader)) {
+                    reader.next();
+                }
+                if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_CONSULTA_2, VERSAO_DADOS).equals(reader.getName())) {
+                    nillableValue = reader.getAttributeValue(XML_SCHEMA_INSTANCE, "nil");
+                    if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
+                        throw new org.apache.axis2.databinding.ADBException("The element: " + VERSAO_DADOS + "  cannot be null");
+                    }
+                    java.lang.String content = reader.getElementText();
+                    object.setVersaoDados(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                    reader.next();
+                } // End of if for expected property start element
                 return object;
             }
         }// end of factory class

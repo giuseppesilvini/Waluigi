@@ -1227,31 +1227,21 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
              * static method to create the object Precondition: If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable If this object is not an element, it is a complex type and the reader is at the event just after the outer start element Postcondition: If this object is an element, the reader is positioned at its end element If this object is a complex type, the reader is positioned at the end element of its outer element
              */
             public static CteCabecMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-                final CteCabecMsg object = new CteCabecMsg();
+                CteCabecMsg object = new CteCabecMsg();
                 final int event;
                 java.lang.String nillableValue;
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"cteCabecMsg".equals(type)) {
-                                // find namespace for the prefix
-                                final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (CteCabecMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                    
+                    CteCabecMsg varParse = parsePart1(reader);
+                    if(varParse != null) {
+                        return varParse;
                     }
+
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
@@ -1268,31 +1258,10 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                         }
                     }
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, "cUF").equals(reader.getName())) {
-                        nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
-                        if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
-                            throw new org.apache.axis2.databinding.ADBException("The element: " + "cUF" + "  cannot be null");
-                        }
-                        final java.lang.String content = reader.getElementText();
-                        object.setCUF(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
-                        reader.next();
-                    } // End of if for expected property start element
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
-                        reader.next();
-                    }
-                    if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, VERSAO_DADOS).equals(reader.getName())) {
-                        nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
-                        if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
-                            throw new org.apache.axis2.databinding.ADBException("The element: " + VERSAO_DADOS + "  cannot be null");
-                        }
-                        final java.lang.String content = reader.getElementText();
-                        object.setVersaoDados(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
-                        reader.next();
-                    } // End of if for expected property start element
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    object = parsePart2(object, reader); 
+                    object = parsePart3(object, reader);
+
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -1302,6 +1271,64 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 } catch (final javax.xml.stream.XMLStreamException e) {
                     throw new org.apache.axis2.databinding.ADBException(XML_PARSING_ERROR_MESSAGE);
                 }
+                return object;
+            }
+
+            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+                return !reader.isStartElement() && !reader.isEndElement();
+            }
+
+            static private CteCabecMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                    final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
+                    if (fullTypeName != null) {
+                        java.lang.String nsPrefix = null;
+                        if (fullTypeName.contains(":")) {
+                            nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                        }
+                        nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                        final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                        if (!"cteCabecMsg".equals(type)) {
+                            // find namespace for the prefix
+                            final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                            return (CteCabecMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                        }
+                    }
+                }
+                return null;
+            }
+
+            static private CteCabecMsg parsePart2 (CteCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                String nillableValue;
+                 while (isNotStartOrEndElement(reader)) {
+                    reader.next();
+                }
+                if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, "cUF").equals(reader.getName())) {
+                    nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
+                    if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
+                        throw new org.apache.axis2.databinding.ADBException("The element: " + "cUF" + "  cannot be null");
+                    }
+                    final java.lang.String content = reader.getElementText();
+                    object.setCUF(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                    reader.next();
+                } // End of if for expected property start element
+                return object;
+            }
+
+            static private CteCabecMsg parsePart3 (CteCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                String nillableValue;
+                while (isNotStartOrEndElement(reader)) {
+                    reader.next();
+                }
+                if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_EVENTO, VERSAO_DADOS).equals(reader.getName())) {
+                    nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
+                    if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
+                        throw new org.apache.axis2.databinding.ADBException("The element: " + VERSAO_DADOS + "  cannot be null");
+                    }
+                    final java.lang.String content = reader.getElementText();
+                    object.setVersaoDados(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                    reader.next();
+                } // End of if for expected property start element
                 return object;
             }
         }// end of factory class
