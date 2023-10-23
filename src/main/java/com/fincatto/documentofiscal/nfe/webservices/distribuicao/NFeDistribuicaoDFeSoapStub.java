@@ -1,6 +1,7 @@
 package com.fincatto.documentofiscal.nfe.webservices.distribuicao;
 
 import com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub;
+
 import org.apache.axis2.client.Stub;
 
 import javax.xml.namespace.QName;
@@ -421,37 +422,25 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!"nfeDistDFeInteresse".equals(type)) {
-                                // find namespace for the prefix
-                                final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (NFeDistDFeInteresse) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                    NFeDistDFeInteresse varParse = parsePart1(reader);
+                    if(varParse != null) {
+                        return varParse;
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_RESULT_MSG).equals(reader.getName())) {
                         object.setNFeDadosMsg(NFeDadosMsgType0.Factory.parse(reader));
                         reader.next();
                     } // End of if for expected property start element
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -462,6 +451,30 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
+            }
+
+            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+                return !reader.isStartElement() && !reader.isEndElement();
+            }
+
+            static private NFeDistDFeInteresse parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                    final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
+                    if (fullTypeName != null) {
+                        java.lang.String nsPrefix = null;
+                        if (fullTypeName.contains(":")) {
+                            nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                        }
+                        nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                        final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                        if (!"nfeDistDFeInteresse".equals(type)) {
+                            // find namespace for the prefix
+                            final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                            return (NFeDistDFeInteresse) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                        }
+                    }
+                }
+                return null;
             }
         }// end of factory class
     }
@@ -744,30 +757,18 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!NFE_DADOS_MSG_TYPE_0.equals(type)) {
-                                // find namespace for the prefix
-                                final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (NFeDadosMsgType0) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                    NFeDadosMsgType0 varParse = parsePart1(reader);
+                    if(varParse != null) {
+                        return varParse;
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -783,7 +784,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                         // A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getLocalName());
                     }
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -794,6 +795,30 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
+            }
+
+            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+                return !reader.isStartElement() && !reader.isEndElement();
+            }
+
+            static private NFeDadosMsgType0 parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                    final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
+                    if (fullTypeName != null) {
+                        java.lang.String nsPrefix = null;
+                        if (fullTypeName.contains(":")) {
+                            nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                        }
+                        nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                        final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                        if (!NFE_DADOS_MSG_TYPE_0.equals(type)) {
+                            // find namespace for the prefix
+                            final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                            return (NFeDadosMsgType0) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                        }
+                    }
+                }
+                return null;
             }
         }// end of factory class
     }
@@ -1084,37 +1109,25 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!NFE_DIST_D_FE_INTERESSE_RESPONSE.equals(type)) {
-                                // find namespace for the prefix
-                                final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (NFeDistDFeInteresseResponse) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                    NFeDistDFeInteresseResponse varParse = parsePart1(reader);
+                    if(varParse != null) {
+                        return varParse;
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_DIST_D_FE_INTERESSE_RESULT).equals(reader.getName())) {
                         object.setNFeDistDFeInteresseResult(NFeDistDFeInteresseResultType0.Factory.parse(reader));
                         reader.next();
                     } // End of if for expected property start element
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -1125,6 +1138,30 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
+            }
+
+            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+                return !reader.isStartElement() && !reader.isEndElement();
+            }
+
+            static private NFeDistDFeInteresseResponse parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                    final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
+                    if (fullTypeName != null) {
+                        java.lang.String nsPrefix = null;
+                        if (fullTypeName.contains(":")) {
+                            nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                        }
+                        nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                        final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                        if (!NFE_DIST_D_FE_INTERESSE_RESPONSE.equals(type)) {
+                            // find namespace for the prefix
+                            final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                            return (NFeDistDFeInteresseResponse) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                        }
+                    }
+                }
+                return null;
             }
         }// end of factory class
     }
@@ -1424,30 +1461,18 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 final java.lang.String prefix = "";
                 final java.lang.String namespaceuri = "";
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
-                    if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
-                        final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
-                        if (fullTypeName != null) {
-                            java.lang.String nsPrefix = null;
-                            if (fullTypeName.contains(":")) {
-                                nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
-                            }
-                            nsPrefix = nsPrefix == null ? "" : nsPrefix;
-                            final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                            if (!NFE_DIST_DFE_INTERESSE_RESULT_TYPE_0.equals(type)) {
-                                // find namespace for the prefix
-                                final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
-                                return (NFeDistDFeInteresseResultType0) ExtensionMapper.getTypeObject(nsUri, type, reader);
-                            }
-                        }
+                    NFeDistDFeInteresseResultType0 varParse = parsePart1(reader);
+                    if(varParse != null) {
+                        return varParse;
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -1463,7 +1488,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                         // A start element we are not expecting indicates an invalid parameter was passed
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getLocalName());
                     }
-                    while (!reader.isStartElement() && !reader.isEndElement()) {
+                    while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
@@ -1474,6 +1499,30 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                     throw new javax.xml.stream.XMLStreamException(e);
                 }
                 return object;
+            }
+
+            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+                return !reader.isStartElement() && !reader.isEndElement();
+            }
+
+            static private NFeDistDFeInteresseResultType0 parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+                if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
+                    final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
+                    if (fullTypeName != null) {
+                        java.lang.String nsPrefix = null;
+                        if (fullTypeName.contains(":")) {
+                            nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
+                        }
+                        nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                        final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
+                        if (!NFE_DIST_DFE_INTERESSE_RESULT_TYPE_0.equals(type)) {
+                            // find namespace for the prefix
+                            final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                            return (NFeDistDFeInteresseResultType0) ExtensionMapper.getTypeObject(nsUri, type, reader);
+                        }
+                    }
+                }
+                return null;
             }
         }// end of factory class
     }
