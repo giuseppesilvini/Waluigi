@@ -13,7 +13,7 @@ import java.util.Arrays;
 public class DFPaisTest {
 
     @Test
-    public void deveRepresentarOCodigoCorretamente() {
+    public void deveRepresentarOCodigoCorretamente1() {
         Assert.assertEquals("AFEGANISTAO", DFPais.AFEGANISTAO.getDescricao());
         Assert.assertEquals(Integer.valueOf(132), DFPais.AFEGANISTAO.getCodigo());
         Assert.assertEquals("ALAND, ILHAS", DFPais.ALAND_ILHAS.getDescricao());
@@ -38,6 +38,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(477), DFPais.ANTILHAS_HOLANDESAS.getCodigo());
         Assert.assertEquals("ARABIA SAUDITA", DFPais.ARABIA_SAUDITA.getDescricao());
         Assert.assertEquals(Integer.valueOf(531), DFPais.ARABIA_SAUDITA.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente2() {
         Assert.assertEquals("ARGELIA", DFPais.ARGELIA.getDescricao());
         Assert.assertEquals(Integer.valueOf(590), DFPais.ARGELIA.getCodigo());
         Assert.assertEquals("ARGENTINA", DFPais.ARGENTINA.getDescricao());
@@ -62,6 +66,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(833), DFPais.BARBADOS.getCodigo());
         Assert.assertEquals("BELARUS, REPUBLICA DA", DFPais.BELARUS_REPUBLICA_DA.getDescricao());
         Assert.assertEquals(Integer.valueOf(850), DFPais.BELARUS_REPUBLICA_DA.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente3() {
         Assert.assertEquals("BELGICA", DFPais.BELGICA.getDescricao());
         Assert.assertEquals(Integer.valueOf(876), DFPais.BELGICA.getCodigo());
         Assert.assertEquals("BELIZE", DFPais.BELIZE.getDescricao());
@@ -86,6 +94,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(1082), DFPais.BRUNEI.getCodigo());
         Assert.assertEquals("BULGARIA, REPUBLICA DA", DFPais.BULGARIA_REPUBLICA_DA.getDescricao());
         Assert.assertEquals(Integer.valueOf(1112), DFPais.BULGARIA_REPUBLICA_DA.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente4() {
         Assert.assertEquals("BURUNDI", DFPais.BURUNDI.getDescricao());
         Assert.assertEquals(Integer.valueOf(1155), DFPais.BURUNDI.getCodigo());
         Assert.assertEquals("BUTAO", DFPais.BUTAO.getDescricao());
@@ -110,6 +122,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(1600), DFPais.CHINA_REPUBLICA_POPULAR.getCodigo());
         Assert.assertEquals("FORMOSA (TAIWAN)", DFPais.FORMOSA_TAIWAN.getDescricao());
         Assert.assertEquals(Integer.valueOf(1619), DFPais.FORMOSA_TAIWAN.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente5() {
         Assert.assertEquals("CHIPRE", DFPais.CHIPRE.getDescricao());
         Assert.assertEquals(Integer.valueOf(1635), DFPais.CHIPRE.getCodigo());
         Assert.assertEquals("COCOS(KEELING),ILHAS", DFPais.COCOS_KEELING_ILHAS.getDescricao());
@@ -134,6 +150,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(1961), DFPais.COSTA_RICA.getCodigo());
         Assert.assertEquals("KUWAIT", DFPais.KUWAIT.getDescricao());
         Assert.assertEquals(Integer.valueOf(1988), DFPais.KUWAIT.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente6() {
         Assert.assertEquals("CUBA", DFPais.CUBA.getDescricao());
         Assert.assertEquals(Integer.valueOf(1996), DFPais.CUBA.getCodigo());
         Assert.assertEquals("CURACAO", DFPais.CURACAO.getDescricao());
@@ -158,6 +178,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(2461), DFPais.ESLOVENIA_REPUBLICA_DA.getCodigo());
         Assert.assertEquals("ESLOVACA, REPUBLICA", DFPais.ESLOVACA_REPUBLICA.getDescricao());
         Assert.assertEquals(Integer.valueOf(2470), DFPais.ESLOVACA_REPUBLICA.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente7() {
         Assert.assertEquals("ESTADOS UNIDOS", DFPais.ESTADOS_UNIDOS.getDescricao());
         Assert.assertEquals(Integer.valueOf(2496), DFPais.ESTADOS_UNIDOS.getCodigo());
         Assert.assertEquals("ESTONIA, REPUBLICA DA", DFPais.ESTONIA_REPUBLICA_DA.getDescricao());
@@ -182,6 +206,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(2895), DFPais.GANA.getCodigo());
         Assert.assertEquals("GEORGIA, REPUBLICA DA", DFPais.GEORGIA_REPUBLICA_DA.getDescricao());
         Assert.assertEquals(Integer.valueOf(2917), DFPais.GEORGIA_REPUBLICA_DA.getCodigo());
+    }
+    
+    @Test
+    public void deveRepresentarOCodigoCorretamente8() {
         Assert.assertEquals("ILHAS GEORGIA DO SUL E SANDWICH DO SUL", DFPais.ILHAS_GEORGIA_DO_SUL_E_SANDWICH_DO_SUL.getDescricao());
         Assert.assertEquals(Integer.valueOf(2925), DFPais.ILHAS_GEORGIA_DO_SUL_E_SANDWICH_DO_SUL.getCodigo());
         Assert.assertEquals("GIBRALTAR", DFPais.GIBRALTAR.getDescricao());
@@ -206,6 +234,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(3298), DFPais.GUINE.getCodigo());
         Assert.assertEquals("GUINE-EQUATORIAL", DFPais.GUINE_EQUATORIAL.getDescricao());
         Assert.assertEquals(Integer.valueOf(3310), DFPais.GUINE_EQUATORIAL.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente9() {
         Assert.assertEquals("GUINE-BISSAU", DFPais.GUINE_BISSAU.getDescricao());
         Assert.assertEquals(Integer.valueOf(3344), DFPais.GUINE_BISSAU.getCodigo());
         Assert.assertEquals("GUIANA", DFPais.GUIANA.getDescricao());
@@ -230,6 +262,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(3654), DFPais.INDONESIA.getCodigo());
         Assert.assertEquals("IRAQUE", DFPais.IRAQUE.getDescricao());
         Assert.assertEquals(Integer.valueOf(3697), DFPais.IRAQUE.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente10() {
         Assert.assertEquals("IRA, REPUBLICA ISLAMICA DO", DFPais.IRA_REPUBLICA_ISLAMICA_DO.getDescricao());
         Assert.assertEquals(Integer.valueOf(3727), DFPais.IRA_REPUBLICA_ISLAMICA_DO.getCodigo());
         Assert.assertEquals("IRLANDA", DFPais.IRLANDA.getDescricao());
@@ -254,6 +290,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(4111), DFPais.KIRIBATI.getCodigo());
         Assert.assertEquals("LAOS, REP.POP.DEMOCR.DO", DFPais.LAOS_REP_POP_DEMOCR_DO.getDescricao());
         Assert.assertEquals(Integer.valueOf(4200), DFPais.LAOS_REP_POP_DEMOCR_DO.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente11() {
         Assert.assertEquals("LEBUAN,ILHAS", DFPais.LEBUAN_ILHAS.getDescricao());
         Assert.assertEquals(Integer.valueOf(4235), DFPais.LEBUAN_ILHAS.getCodigo());
         Assert.assertEquals("LESOTO", DFPais.LESOTO.getDescricao());
@@ -278,6 +318,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(4499), DFPais.MACEDONIA_ANT_REP_IUGOSLAVA.getCodigo());
         Assert.assertEquals("MADAGASCAR", DFPais.MADAGASCAR.getDescricao());
         Assert.assertEquals(Integer.valueOf(4502), DFPais.MADAGASCAR.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente12() {
         Assert.assertEquals("MADEIRA, ILHA DA", DFPais.MADEIRA_ILHA_DA.getDescricao());
         Assert.assertEquals(Integer.valueOf(4525), DFPais.MADEIRA_ILHA_DA.getCodigo());
         Assert.assertEquals("MALASIA", DFPais.MALASIA.getDescricao());
@@ -302,6 +346,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(4855), DFPais.MAURICIO.getCodigo());
         Assert.assertEquals("MAURITANIA", DFPais.MAURITANIA.getDescricao());
         Assert.assertEquals(Integer.valueOf(4880), DFPais.MAURITANIA.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente13() {
         Assert.assertEquals("MAYOTTE (ILHAS FRANCESAS)", DFPais.MAYOTTE_ILHAS_FRANCESAS.getDescricao());
         Assert.assertEquals(Integer.valueOf(4898), DFPais.MAYOTTE_ILHAS_FRANCESAS.getCodigo());
         Assert.assertEquals("MIDWAY, ILHAS", DFPais.MIDWAY_ILHAS.getDescricao());
@@ -326,6 +374,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(5070), DFPais.NAMIBIA.getCodigo());
         Assert.assertEquals("NAURU", DFPais.NAURU.getDescricao());
         Assert.assertEquals(Integer.valueOf(5088), DFPais.NAURU.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente14() {
         Assert.assertEquals("CHRISTMAS,ILHA (NAVIDAD)", DFPais.CHRISTMAS_ILHA_NAVIDAD.getDescricao());
         Assert.assertEquals(Integer.valueOf(5118), DFPais.CHRISTMAS_ILHA_NAVIDAD.getCodigo());
         Assert.assertEquals("NEPAL", DFPais.NEPAL.getDescricao());
@@ -350,6 +402,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(5487), DFPais.NOVA_ZELANDIA.getCodigo());
         Assert.assertEquals("VANUATU", DFPais.VANUATU.getDescricao());
         Assert.assertEquals(Integer.valueOf(5517), DFPais.VANUATU.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente15() {
         Assert.assertEquals("OMA", DFPais.OMA.getDescricao());
         Assert.assertEquals(Integer.valueOf(5568), DFPais.OMA.getCodigo());
         Assert.assertEquals("PACIFICO,ILHAS DO (POSSESSAO DOS EUA)", DFPais.PACIFICO_ILHAS_DO_POSSESSAO_DOS_EUA.getDescricao());
@@ -374,6 +430,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(5991), DFPais.POLINESIA_FRANCESA.getCodigo());
         Assert.assertEquals("POLONIA, REPUBLICA DA", DFPais.POLONIA_REPUBLICA_DA.getDescricao());
         Assert.assertEquals(Integer.valueOf(6033), DFPais.POLONIA_REPUBLICA_DA.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente16() {
         Assert.assertEquals("PORTUGAL", DFPais.PORTUGAL.getDescricao());
         Assert.assertEquals(Integer.valueOf(6076), DFPais.PORTUGAL.getCodigo());
         Assert.assertEquals("PORTO RICO", DFPais.PORTO_RICO.getDescricao());
@@ -398,6 +458,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(6750), DFPais.RUANDA.getCodigo());
         Assert.assertEquals("RUSSIA, FEDERACAO DA", DFPais.RUSSIA_FEDERACAO_DA.getDescricao());
         Assert.assertEquals(Integer.valueOf(6769), DFPais.RUSSIA_FEDERACAO_DA.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente17() {
         Assert.assertEquals("SALOMAO, ILHAS", DFPais.SALOMAO_ILHAS.getDescricao());
         Assert.assertEquals(Integer.valueOf(6777), DFPais.SALOMAO_ILHAS.getCodigo());
         Assert.assertEquals("SAARA OCIDENTAL", DFPais.SAARA_OCIDENTAL.getDescricao());
@@ -422,6 +486,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(7005), DFPais.SAO_PEDRO_E_MIQUELON.getCodigo());
         Assert.assertEquals("SAO VICENTE E GRANADINAS", DFPais.SAO_VICENTE_E_GRANADINAS.getDescricao());
         Assert.assertEquals(Integer.valueOf(7056), DFPais.SAO_VICENTE_E_GRANADINAS.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente18() {
         Assert.assertEquals("SANTA HELENA", DFPais.SANTA_HELENA.getDescricao());
         Assert.assertEquals(Integer.valueOf(7102), DFPais.SANTA_HELENA.getCodigo());
         Assert.assertEquals("SANTA LUCIA", DFPais.SANTA_LUCIA.getDescricao());
@@ -446,6 +514,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(7501), DFPais.SRI_LANKA.getCodigo());
         Assert.assertEquals("SUAZILANDIA", DFPais.SUAZILANDIA.getDescricao());
         Assert.assertEquals(Integer.valueOf(7544), DFPais.SUAZILANDIA.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente19() {
         Assert.assertEquals("SVALBARD E JAN MAYERN", DFPais.SVALBARD_E_JAN_MAYERN.getDescricao());
         Assert.assertEquals(Integer.valueOf(7552), DFPais.SVALBARD_E_JAN_MAYERN.getCodigo());
         Assert.assertEquals("AFRICA DO SUL", DFPais.AFRICA_DO_SUL.getDescricao());
@@ -470,6 +542,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(7811), DFPais.TERRAS_AUSTRAIS_E_ANTARTICAS_FRANCESAS.getCodigo());
         Assert.assertEquals("TERRITORIO BRIT.OC.INDICO", DFPais.TERRITORIO_BRIT_OC_INDICO.getDescricao());
         Assert.assertEquals(Integer.valueOf(7820), DFPais.TERRITORIO_BRIT_OC_INDICO.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente20() {
         Assert.assertEquals("DJIBUTI", DFPais.DJIBUTI.getDescricao());
         Assert.assertEquals(Integer.valueOf(7838), DFPais.DJIBUTI.getCodigo());
         Assert.assertEquals("CHADE", DFPais.CHADE.getDescricao());
@@ -494,6 +570,10 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(8249), DFPais.TURCOMENISTAO_REPUBLICA_DO.getCodigo());
         Assert.assertEquals("TURQUIA", DFPais.TURQUIA.getDescricao());
         Assert.assertEquals(Integer.valueOf(8273), DFPais.TURQUIA.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente21() {
         Assert.assertEquals("TUVALU", DFPais.TUVALU.getDescricao());
         Assert.assertEquals(Integer.valueOf(8281), DFPais.TUVALU.getCodigo());
         Assert.assertEquals("UCRANIA", DFPais.UCRANIA.getDescricao());
@@ -518,14 +598,19 @@ public class DFPaisTest {
         Assert.assertEquals(Integer.valueOf(8702), DFPais.FIJI.getCodigo());
         Assert.assertEquals("WALLIS E FUTUNA, ILHAS", DFPais.WALLIS_E_FUTUNA_ILHAS.getDescricao());
         Assert.assertEquals(Integer.valueOf(8753), DFPais.WALLIS_E_FUTUNA_ILHAS.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente22() {
         Assert.assertEquals("WAKE, ILHA", DFPais.WAKE_ILHA.getDescricao());
         Assert.assertEquals(Integer.valueOf(8737), DFPais.WAKE_ILHA.getCodigo());
         Assert.assertEquals("CONGO, REPUBLICA DEMOCRATICA DO", DFPais.CONGO_REPUBLICA_DEMOCRATICA_DO.getDescricao());
         Assert.assertEquals(Integer.valueOf(8885), DFPais.CONGO_REPUBLICA_DEMOCRATICA_DO.getCodigo());
         Assert.assertEquals("ZAMBIA", DFPais.ZAMBIA.getDescricao());
         Assert.assertEquals(Integer.valueOf(8907), DFPais.ZAMBIA.getCodigo());
-
     }
+
+
 
     @Test
     public void deveRetornarNullCasoTenteBuscarUmCodigoErrado() {
@@ -548,8 +633,9 @@ public class DFPaisTest {
                 DFPais.TERRAS_AUSTRAIS_E_ANTARTICAS_FRANCESAS), DFPais.getListByDesc("RAS"));
     }
 
-     @Test
-    public void deveRetornarPorCodigo() {
+
+    @Test
+    public void deveRetornarPorCodigo1() {
          Assert.assertEquals(DFPais.AFEGANISTAO, DFPais.valueOfCodigo("132"));
          Assert.assertEquals(DFPais.AFEGANISTAO, DFPais.valueOfCodigo(132));
          Assert.assertEquals(DFPais.ALAND_ILHAS, DFPais.valueOfCodigo("153"));
@@ -574,6 +660,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.ANTILHAS_HOLANDESAS, DFPais.valueOfCodigo(477));
          Assert.assertEquals(DFPais.ARABIA_SAUDITA, DFPais.valueOfCodigo("531"));
          Assert.assertEquals(DFPais.ARABIA_SAUDITA, DFPais.valueOfCodigo(531));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo2() {
          Assert.assertEquals(DFPais.ARGELIA, DFPais.valueOfCodigo("590"));
          Assert.assertEquals(DFPais.ARGELIA, DFPais.valueOfCodigo(590));
          Assert.assertEquals(DFPais.ARGENTINA, DFPais.valueOfCodigo("639"));
@@ -598,6 +688,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.BARBADOS, DFPais.valueOfCodigo(833));
          Assert.assertEquals(DFPais.BELARUS_REPUBLICA_DA, DFPais.valueOfCodigo("850"));
          Assert.assertEquals(DFPais.BELARUS_REPUBLICA_DA, DFPais.valueOfCodigo(850));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo3() {
          Assert.assertEquals(DFPais.BELGICA, DFPais.valueOfCodigo("876"));
          Assert.assertEquals(DFPais.BELGICA, DFPais.valueOfCodigo(876));
          Assert.assertEquals(DFPais.BELIZE, DFPais.valueOfCodigo("884"));
@@ -622,6 +716,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.BRUNEI, DFPais.valueOfCodigo(1082));
          Assert.assertEquals(DFPais.BULGARIA_REPUBLICA_DA, DFPais.valueOfCodigo("1112"));
          Assert.assertEquals(DFPais.BULGARIA_REPUBLICA_DA, DFPais.valueOfCodigo(1112));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo4() {
          Assert.assertEquals(DFPais.BURUNDI, DFPais.valueOfCodigo("1155"));
          Assert.assertEquals(DFPais.BURUNDI, DFPais.valueOfCodigo(1155));
          Assert.assertEquals(DFPais.BUTAO, DFPais.valueOfCodigo("1198"));
@@ -646,6 +744,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.CHINA_REPUBLICA_POPULAR, DFPais.valueOfCodigo(1600));
          Assert.assertEquals(DFPais.FORMOSA_TAIWAN, DFPais.valueOfCodigo("1619"));
          Assert.assertEquals(DFPais.FORMOSA_TAIWAN, DFPais.valueOfCodigo(1619));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo5() {
          Assert.assertEquals(DFPais.CHIPRE, DFPais.valueOfCodigo("1635"));
          Assert.assertEquals(DFPais.CHIPRE, DFPais.valueOfCodigo(1635));
          Assert.assertEquals(DFPais.COCOS_KEELING_ILHAS, DFPais.valueOfCodigo("1651"));
@@ -670,6 +772,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.COSTA_RICA, DFPais.valueOfCodigo(1961));
          Assert.assertEquals(DFPais.KUWAIT, DFPais.valueOfCodigo("1988"));
          Assert.assertEquals(DFPais.KUWAIT, DFPais.valueOfCodigo(1988));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo6() {
          Assert.assertEquals(DFPais.CUBA, DFPais.valueOfCodigo("1996"));
          Assert.assertEquals(DFPais.CUBA, DFPais.valueOfCodigo(1996));
          Assert.assertEquals(DFPais.CURACAO, DFPais.valueOfCodigo("2003"));
@@ -694,6 +800,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.ESLOVENIA_REPUBLICA_DA, DFPais.valueOfCodigo(2461));
          Assert.assertEquals(DFPais.ESLOVACA_REPUBLICA, DFPais.valueOfCodigo("2470"));
          Assert.assertEquals(DFPais.ESLOVACA_REPUBLICA, DFPais.valueOfCodigo(2470));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo7() {
          Assert.assertEquals(DFPais.ESTADOS_UNIDOS, DFPais.valueOfCodigo("2496"));
          Assert.assertEquals(DFPais.ESTADOS_UNIDOS, DFPais.valueOfCodigo(2496));
          Assert.assertEquals(DFPais.ESTONIA_REPUBLICA_DA, DFPais.valueOfCodigo("2518"));
@@ -718,6 +828,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.GANA, DFPais.valueOfCodigo(2895));
          Assert.assertEquals(DFPais.GEORGIA_REPUBLICA_DA, DFPais.valueOfCodigo("2917"));
          Assert.assertEquals(DFPais.GEORGIA_REPUBLICA_DA, DFPais.valueOfCodigo(2917));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo8() {
          Assert.assertEquals(DFPais.ILHAS_GEORGIA_DO_SUL_E_SANDWICH_DO_SUL, DFPais.valueOfCodigo("2925"));
          Assert.assertEquals(DFPais.ILHAS_GEORGIA_DO_SUL_E_SANDWICH_DO_SUL, DFPais.valueOfCodigo(2925));
          Assert.assertEquals(DFPais.GIBRALTAR, DFPais.valueOfCodigo("2933"));
@@ -742,6 +856,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.GUINE, DFPais.valueOfCodigo(3298));
          Assert.assertEquals(DFPais.GUINE_EQUATORIAL, DFPais.valueOfCodigo("3310"));
          Assert.assertEquals(DFPais.GUINE_EQUATORIAL, DFPais.valueOfCodigo(3310));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo9() {
          Assert.assertEquals(DFPais.GUINE_BISSAU, DFPais.valueOfCodigo("3344"));
          Assert.assertEquals(DFPais.GUINE_BISSAU, DFPais.valueOfCodigo(3344));
          Assert.assertEquals(DFPais.GUIANA, DFPais.valueOfCodigo("3379"));
@@ -766,6 +884,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.INDONESIA, DFPais.valueOfCodigo(3654));
          Assert.assertEquals(DFPais.IRAQUE, DFPais.valueOfCodigo("3697"));
          Assert.assertEquals(DFPais.IRAQUE, DFPais.valueOfCodigo(3697));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo10() {
          Assert.assertEquals(DFPais.IRA_REPUBLICA_ISLAMICA_DO, DFPais.valueOfCodigo("3727"));
          Assert.assertEquals(DFPais.IRA_REPUBLICA_ISLAMICA_DO, DFPais.valueOfCodigo(3727));
          Assert.assertEquals(DFPais.IRLANDA, DFPais.valueOfCodigo("3751"));
@@ -790,6 +912,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.KIRIBATI, DFPais.valueOfCodigo(4111));
          Assert.assertEquals(DFPais.LAOS_REP_POP_DEMOCR_DO, DFPais.valueOfCodigo("4200"));
          Assert.assertEquals(DFPais.LAOS_REP_POP_DEMOCR_DO, DFPais.valueOfCodigo(4200));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo11() {
          Assert.assertEquals(DFPais.LEBUAN_ILHAS, DFPais.valueOfCodigo("4235"));
          Assert.assertEquals(DFPais.LEBUAN_ILHAS, DFPais.valueOfCodigo(4235));
          Assert.assertEquals(DFPais.LESOTO, DFPais.valueOfCodigo("4260"));
@@ -814,6 +940,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.MACEDONIA_ANT_REP_IUGOSLAVA, DFPais.valueOfCodigo(4499));
          Assert.assertEquals(DFPais.MADAGASCAR, DFPais.valueOfCodigo("4502"));
          Assert.assertEquals(DFPais.MADAGASCAR, DFPais.valueOfCodigo(4502));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo12() {
          Assert.assertEquals(DFPais.MADEIRA_ILHA_DA, DFPais.valueOfCodigo("4525"));
          Assert.assertEquals(DFPais.MADEIRA_ILHA_DA, DFPais.valueOfCodigo(4525));
          Assert.assertEquals(DFPais.MALASIA, DFPais.valueOfCodigo("4553"));
@@ -838,6 +968,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.MAURICIO, DFPais.valueOfCodigo(4855));
          Assert.assertEquals(DFPais.MAURITANIA, DFPais.valueOfCodigo("4880"));
          Assert.assertEquals(DFPais.MAURITANIA, DFPais.valueOfCodigo(4880));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo13() {
          Assert.assertEquals(DFPais.MAYOTTE_ILHAS_FRANCESAS, DFPais.valueOfCodigo("4898"));
          Assert.assertEquals(DFPais.MAYOTTE_ILHAS_FRANCESAS, DFPais.valueOfCodigo(4898));
          Assert.assertEquals(DFPais.MIDWAY_ILHAS, DFPais.valueOfCodigo("4901"));
@@ -862,6 +996,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.NAMIBIA, DFPais.valueOfCodigo(5070));
          Assert.assertEquals(DFPais.NAURU, DFPais.valueOfCodigo("5088"));
          Assert.assertEquals(DFPais.NAURU, DFPais.valueOfCodigo(5088));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo14() {
          Assert.assertEquals(DFPais.CHRISTMAS_ILHA_NAVIDAD, DFPais.valueOfCodigo("5118"));
          Assert.assertEquals(DFPais.CHRISTMAS_ILHA_NAVIDAD, DFPais.valueOfCodigo(5118));
          Assert.assertEquals(DFPais.NEPAL, DFPais.valueOfCodigo("5177"));
@@ -886,6 +1024,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.NOVA_ZELANDIA, DFPais.valueOfCodigo(5487));
          Assert.assertEquals(DFPais.VANUATU, DFPais.valueOfCodigo("5517"));
          Assert.assertEquals(DFPais.VANUATU, DFPais.valueOfCodigo(5517));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo15() {
          Assert.assertEquals(DFPais.OMA, DFPais.valueOfCodigo("5568"));
          Assert.assertEquals(DFPais.OMA, DFPais.valueOfCodigo(5568));
          Assert.assertEquals(DFPais.PACIFICO_ILHAS_DO_POSSESSAO_DOS_EUA, DFPais.valueOfCodigo("5665"));
@@ -910,6 +1052,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.POLINESIA_FRANCESA, DFPais.valueOfCodigo(5991));
          Assert.assertEquals(DFPais.POLONIA_REPUBLICA_DA, DFPais.valueOfCodigo("6033"));
          Assert.assertEquals(DFPais.POLONIA_REPUBLICA_DA, DFPais.valueOfCodigo(6033));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo16() {
          Assert.assertEquals(DFPais.PORTUGAL, DFPais.valueOfCodigo("6076"));
          Assert.assertEquals(DFPais.PORTUGAL, DFPais.valueOfCodigo(6076));
          Assert.assertEquals(DFPais.PORTO_RICO, DFPais.valueOfCodigo("6114"));
@@ -934,6 +1080,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.RUANDA, DFPais.valueOfCodigo(6750));
          Assert.assertEquals(DFPais.RUSSIA_FEDERACAO_DA, DFPais.valueOfCodigo("6769"));
          Assert.assertEquals(DFPais.RUSSIA_FEDERACAO_DA, DFPais.valueOfCodigo(6769));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo17() {
          Assert.assertEquals(DFPais.SALOMAO_ILHAS, DFPais.valueOfCodigo("6777"));
          Assert.assertEquals(DFPais.SALOMAO_ILHAS, DFPais.valueOfCodigo(6777));
          Assert.assertEquals(DFPais.SAARA_OCIDENTAL, DFPais.valueOfCodigo("6858"));
@@ -958,6 +1108,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.SAO_PEDRO_E_MIQUELON, DFPais.valueOfCodigo(7005));
          Assert.assertEquals(DFPais.SAO_VICENTE_E_GRANADINAS, DFPais.valueOfCodigo("7056"));
          Assert.assertEquals(DFPais.SAO_VICENTE_E_GRANADINAS, DFPais.valueOfCodigo(7056));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo18() {
          Assert.assertEquals(DFPais.SANTA_HELENA, DFPais.valueOfCodigo("7102"));
          Assert.assertEquals(DFPais.SANTA_HELENA, DFPais.valueOfCodigo(7102));
          Assert.assertEquals(DFPais.SANTA_LUCIA, DFPais.valueOfCodigo("7153"));
@@ -982,6 +1136,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.SRI_LANKA, DFPais.valueOfCodigo(7501));
          Assert.assertEquals(DFPais.SUAZILANDIA, DFPais.valueOfCodigo("7544"));
          Assert.assertEquals(DFPais.SUAZILANDIA, DFPais.valueOfCodigo(7544));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo19() {
          Assert.assertEquals(DFPais.SVALBARD_E_JAN_MAYERN, DFPais.valueOfCodigo("7552"));
          Assert.assertEquals(DFPais.SVALBARD_E_JAN_MAYERN, DFPais.valueOfCodigo(7552));
          Assert.assertEquals(DFPais.AFRICA_DO_SUL, DFPais.valueOfCodigo("7560"));
@@ -1006,6 +1164,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.TERRAS_AUSTRAIS_E_ANTARTICAS_FRANCESAS, DFPais.valueOfCodigo(7811));
          Assert.assertEquals(DFPais.TERRITORIO_BRIT_OC_INDICO, DFPais.valueOfCodigo("7820"));
          Assert.assertEquals(DFPais.TERRITORIO_BRIT_OC_INDICO, DFPais.valueOfCodigo(7820));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo20() {
          Assert.assertEquals(DFPais.DJIBUTI, DFPais.valueOfCodigo("7838"));
          Assert.assertEquals(DFPais.DJIBUTI, DFPais.valueOfCodigo(7838));
          Assert.assertEquals(DFPais.CHADE, DFPais.valueOfCodigo("7889"));
@@ -1030,6 +1192,10 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.TURCOMENISTAO_REPUBLICA_DO, DFPais.valueOfCodigo(8249));
          Assert.assertEquals(DFPais.TURQUIA, DFPais.valueOfCodigo("8273"));
          Assert.assertEquals(DFPais.TURQUIA, DFPais.valueOfCodigo(8273));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo21() {
          Assert.assertEquals(DFPais.TUVALU, DFPais.valueOfCodigo("8281"));
          Assert.assertEquals(DFPais.TUVALU, DFPais.valueOfCodigo(8281));
          Assert.assertEquals(DFPais.UCRANIA, DFPais.valueOfCodigo("8311"));
@@ -1054,13 +1220,16 @@ public class DFPaisTest {
          Assert.assertEquals(DFPais.FIJI, DFPais.valueOfCodigo(8702));
          Assert.assertEquals(DFPais.WALLIS_E_FUTUNA_ILHAS, DFPais.valueOfCodigo("8753"));
          Assert.assertEquals(DFPais.WALLIS_E_FUTUNA_ILHAS, DFPais.valueOfCodigo(8753));
+    }
+
+    @Test
+    public void deveRetornarPorCodigo22() {
          Assert.assertEquals(DFPais.WAKE_ILHA, DFPais.valueOfCodigo("8737"));
          Assert.assertEquals(DFPais.WAKE_ILHA, DFPais.valueOfCodigo(8737));
          Assert.assertEquals(DFPais.CONGO_REPUBLICA_DEMOCRATICA_DO, DFPais.valueOfCodigo("8885"));
          Assert.assertEquals(DFPais.CONGO_REPUBLICA_DEMOCRATICA_DO, DFPais.valueOfCodigo(8885));
          Assert.assertEquals(DFPais.ZAMBIA, DFPais.valueOfCodigo("8907"));
          Assert.assertEquals(DFPais.ZAMBIA, DFPais.valueOfCodigo(8907));
-
-     }
+    }
 
 }

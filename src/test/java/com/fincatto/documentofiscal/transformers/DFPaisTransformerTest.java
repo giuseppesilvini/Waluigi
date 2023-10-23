@@ -6,8 +6,8 @@ import org.junit.Test;
 
 public class DFPaisTransformerTest {
 
-	@Test
-	public void deveTestarLeitura() throws Exception {
+        @Test
+	public void deveTestarLeitura1() throws Exception {
         Assert.assertEquals(DFPais.AFEGANISTAO,new DFPaisTransformer().read("132"));
         Assert.assertEquals(DFPais.ALAND_ILHAS, new DFPaisTransformer().read("153"));
         Assert.assertEquals(DFPais.ALBANIA_REPUBLICA_DA, new DFPaisTransformer().read("175"));
@@ -28,6 +28,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.AUSTRIA, new DFPaisTransformer().read("728"));
         Assert.assertEquals(DFPais.AZERBAIJAO_REPUBLICA_DO, new DFPaisTransformer().read("736"));
         Assert.assertEquals(DFPais.BAHAMAS_ILHAS, new DFPaisTransformer().read("779"));
+        }
+        
+        @Test
+	public void deveTestarLeitura2() throws Exception {
         Assert.assertEquals(DFPais.BAHREIN_ILHAS, new DFPaisTransformer().read("809"));
         Assert.assertEquals(DFPais.BANGLADESH, new DFPaisTransformer().read("817"));
         Assert.assertEquals(DFPais.BARBADOS, new DFPaisTransformer().read("833"));
@@ -48,6 +52,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.CABO_VERDE_REPUBLICA_DE, new DFPaisTransformer().read("1279"));
         Assert.assertEquals(DFPais.CAYMAN_ILHAS, new DFPaisTransformer().read("1376"));
         Assert.assertEquals(DFPais.BOTSUANA, new DFPaisTransformer().read("1015"));
+        }
+
+        @Test
+	public void deveTestarLeitura3() throws Exception {
         Assert.assertEquals(DFPais.CAMBOJA, new DFPaisTransformer().read("1414"));
         Assert.assertEquals(DFPais.CAMAROES, new DFPaisTransformer().read("1457"));
         Assert.assertEquals(DFPais.CANADA, new DFPaisTransformer().read("1490"));
@@ -68,6 +76,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.CROACIA_REPUBLICA_DA, new DFPaisTransformer().read("1953"));
         Assert.assertEquals(DFPais.COSTA_RICA, new DFPaisTransformer().read("1961"));
         Assert.assertEquals(DFPais.KUWAIT, new DFPaisTransformer().read("1988"));
+        }
+
+        @Test
+	public void deveTestarLeitura4() throws Exception {
         Assert.assertEquals(DFPais.CUBA, new DFPaisTransformer().read("1996"));
         Assert.assertEquals(DFPais.CURACAO, new DFPaisTransformer().read("2003"));
         Assert.assertEquals(DFPais.BENIN, new DFPaisTransformer().read("2291"));
@@ -88,6 +100,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.FILIPINAS, new DFPaisTransformer().read("2674"));
         Assert.assertEquals(DFPais.FINLANDIA, new DFPaisTransformer().read("2712"));
         Assert.assertEquals(DFPais.FRANCA, new DFPaisTransformer().read("2755"));
+        }
+
+        @Test
+	public void deveTestarLeitura5() throws Exception {
         Assert.assertEquals(DFPais.GABAO, new DFPaisTransformer().read("2810"));
         Assert.assertEquals(DFPais.GAMBIA, new DFPaisTransformer().read("2852"));
         Assert.assertEquals(DFPais.GANA, new DFPaisTransformer().read("2895"));
@@ -108,6 +124,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.JERSEY_ILHA_DO_CANAL, new DFPaisTransformer().read("3930"));
         Assert.assertEquals(DFPais.JAMAICA, new DFPaisTransformer().read("3913"));
         Assert.assertEquals(DFPais.ITALIA, new DFPaisTransformer().read("3867"));
+        }
+
+        @Test
+	public void deveTestarLeitura6() throws Exception {
         Assert.assertEquals(DFPais.ISRAEL, new DFPaisTransformer().read("3832"));
         Assert.assertEquals(DFPais.ISLANDIA, new DFPaisTransformer().read("3794"));
         Assert.assertEquals(DFPais.IRLANDA, new DFPaisTransformer().read("3751"));
@@ -128,6 +148,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.GUINE, new DFPaisTransformer().read("3298"));
         Assert.assertEquals(DFPais.GUIANA_FRANCESA, new DFPaisTransformer().read("3255"));
         Assert.assertEquals(DFPais.GUERNSEY_ILHA_DO_CANAL_INCLUI_ALDERNEY_E_SARK, new DFPaisTransformer().read("3212"));
+        }
+
+        @Test
+	public void deveTestarLeitura7() throws Exception {
         Assert.assertEquals(DFPais.GUATEMALA, new DFPaisTransformer().read("3174"));
         Assert.assertEquals(DFPais.LESOTO, new DFPaisTransformer().read("4260"));
         Assert.assertEquals(DFPais.LETONIA_REPUBLICA_DA, new DFPaisTransformer().read("4278"));
@@ -148,6 +172,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.MALTA, new DFPaisTransformer().read("4677"));
         Assert.assertEquals(DFPais.MARIANAS_DO_NORTE, new DFPaisTransformer().read("4723"));
         Assert.assertEquals(DFPais.MARROCOS, new DFPaisTransformer().read("4740"));
+        }
+
+        @Test
+	public void deveTestarLeitura8() throws Exception {
         Assert.assertEquals(DFPais.MARSHALL_ILHAS, new DFPaisTransformer().read("4766"));
         Assert.assertEquals(DFPais.MARTINICA, new DFPaisTransformer().read("4774"));
         Assert.assertEquals(DFPais.MAURICIO, new DFPaisTransformer().read("4855"));
@@ -168,6 +196,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.NEPAL, new DFPaisTransformer().read("5177"));
         Assert.assertEquals(DFPais.NICARAGUA, new DFPaisTransformer().read("5215"));
         Assert.assertEquals(DFPais.NIGER, new DFPaisTransformer().read("5258"));
+        }
+
+        @Test
+	public void deveTestarLeitura9() throws Exception {
         Assert.assertEquals(DFPais.NIGERIA, new DFPaisTransformer().read("5282"));
         Assert.assertEquals(DFPais.NIUE_ILHA, new DFPaisTransformer().read("5312"));
         Assert.assertEquals(DFPais.NORFOLK_ILHA, new DFPaisTransformer().read("5355"));
@@ -188,6 +220,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.PITCAIRN_ILHA, new DFPaisTransformer().read("5932"));
         Assert.assertEquals(DFPais.POLINESIA_FRANCESA, new DFPaisTransformer().read("5991"));
         Assert.assertEquals(DFPais.POLONIA_REPUBLICA_DA, new DFPaisTransformer().read("6033"));
+        }
+
+        @Test
+	public void deveTestarLeitura10() throws Exception {
         Assert.assertEquals(DFPais.PORTUGAL, new DFPaisTransformer().read("6076"));
         Assert.assertEquals(DFPais.PORTO_RICO, new DFPaisTransformer().read("6114"));
         Assert.assertEquals(DFPais.QUENIA, new DFPaisTransformer().read("6238"));
@@ -208,6 +244,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.SAO_CRISTOVAO_E_NEVES_ILHAS, new DFPaisTransformer().read("6955"));
         Assert.assertEquals(DFPais.SAO_BARTOLOMEU, new DFPaisTransformer().read("6939"));
         Assert.assertEquals(DFPais.SAN_MARINO, new DFPaisTransformer().read("6971"));
+        }
+
+        @Test
+	public void deveTestarLeitura11() throws Exception {
         Assert.assertEquals(DFPais.ILHAS_DE_SAO_MARTINHO_PARTE_FRANCESA, new DFPaisTransformer().read("6980"));
         Assert.assertEquals(DFPais.SAO_MARTINHO_ILHA_DE_PARTE_FRANCESA, new DFPaisTransformer().read("6998"));
         Assert.assertEquals(DFPais.SAO_PEDRO_E_MIQUELON, new DFPaisTransformer().read("7005"));
@@ -228,6 +268,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.AFRICA_DO_SUL, new DFPaisTransformer().read("7560"));
         Assert.assertEquals(DFPais.SUDAO, new DFPaisTransformer().read("7595"));
         Assert.assertEquals(DFPais.SUD_O_DO_SUL, new DFPaisTransformer().read("7600"));
+        }
+
+        @Test
+	public void deveTestarLeitura12() throws Exception {
         Assert.assertEquals(DFPais.SUECIA, new DFPaisTransformer().read("7641"));
         Assert.assertEquals(DFPais.SUICA, new DFPaisTransformer().read("7676"));
         Assert.assertEquals(DFPais.SURINAME, new DFPaisTransformer().read("7706"));
@@ -248,6 +292,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.TURCAS_E_CAICOS_ILHAS, new DFPaisTransformer().read("8230"));
         Assert.assertEquals(DFPais.TURCOMENISTAO_REPUBLICA_DO, new DFPaisTransformer().read("8249"));
         Assert.assertEquals(DFPais.TURQUIA, new DFPaisTransformer().read("8273"));
+        }
+
+        @Test
+	public void deveTestarLeitura13() throws Exception {
         Assert.assertEquals(DFPais.TUVALU, new DFPaisTransformer().read("8281"));
         Assert.assertEquals(DFPais.UCRANIA, new DFPaisTransformer().read("8311"));
         Assert.assertEquals(DFPais.UGANDA, new DFPaisTransformer().read("8338"));
@@ -263,10 +311,13 @@ public class DFPaisTransformerTest {
         Assert.assertEquals(DFPais.WAKE_ILHA, new DFPaisTransformer().read("8737"));
         Assert.assertEquals(DFPais.CONGO_REPUBLICA_DEMOCRATICA_DO, new DFPaisTransformer().read("8885"));
         Assert.assertEquals(DFPais.ZAMBIA, new DFPaisTransformer().read("8907"));
-    }
+        }
 
-	@Test
-	public void deveTestarEscrita() throws Exception {
+
+
+
+        @Test
+	public void deveTestarEscrita1() throws Exception {
         Assert.assertEquals("132", new DFPaisTransformer().write(DFPais.AFEGANISTAO));
         Assert.assertEquals("153", new DFPaisTransformer().write(DFPais.ALAND_ILHAS));
         Assert.assertEquals("175", new DFPaisTransformer().write(DFPais.ALBANIA_REPUBLICA_DA));
@@ -287,6 +338,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals("728", new DFPaisTransformer().write(DFPais.AUSTRIA));
         Assert.assertEquals("736", new DFPaisTransformer().write(DFPais.AZERBAIJAO_REPUBLICA_DO));
         Assert.assertEquals("779", new DFPaisTransformer().write(DFPais.BAHAMAS_ILHAS));
+        }
+
+        @Test
+	public void deveTestarEscrita2() throws Exception {
         Assert.assertEquals("809", new DFPaisTransformer().write(DFPais.BAHREIN_ILHAS));
         Assert.assertEquals("817", new DFPaisTransformer().write(DFPais.BANGLADESH));
         Assert.assertEquals("833", new DFPaisTransformer().write(DFPais.BARBADOS));
@@ -307,6 +362,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals("1198", new DFPaisTransformer().write(DFPais.BUTAO));
         Assert.assertEquals("1279", new DFPaisTransformer().write(DFPais.CABO_VERDE_REPUBLICA_DE));
         Assert.assertEquals("1376", new DFPaisTransformer().write(DFPais.CAYMAN_ILHAS));
+        }
+
+        @Test
+	public void deveTestarEscrita3() throws Exception {
         Assert.assertEquals("1414", new DFPaisTransformer().write(DFPais.CAMBOJA));
         Assert.assertEquals("1457", new DFPaisTransformer().write(DFPais.CAMAROES));
         Assert.assertEquals("1490", new DFPaisTransformer().write(DFPais.CANADA));
@@ -327,6 +386,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals("1953", new DFPaisTransformer().write(DFPais.CROACIA_REPUBLICA_DA));
         Assert.assertEquals("1961", new DFPaisTransformer().write(DFPais.COSTA_RICA));
         Assert.assertEquals("1988", new DFPaisTransformer().write(DFPais.KUWAIT));
+        }
+
+        @Test
+	public void deveTestarEscrita4() throws Exception {
         Assert.assertEquals("1996", new DFPaisTransformer().write(DFPais.CUBA));
         Assert.assertEquals("2003", new DFPaisTransformer().write(DFPais.CURACAO));
         Assert.assertEquals("2291", new DFPaisTransformer().write(DFPais.BENIN));
@@ -347,6 +410,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals("2674", new DFPaisTransformer().write(DFPais.FILIPINAS));
         Assert.assertEquals("2712", new DFPaisTransformer().write(DFPais.FINLANDIA));
         Assert.assertEquals("2755", new DFPaisTransformer().write(DFPais.FRANCA));
+        }
+
+        @Test
+	public void deveTestarEscrita5() throws Exception {
         Assert.assertEquals("2810", new DFPaisTransformer().write(DFPais.GABAO));
         Assert.assertEquals("2852", new DFPaisTransformer().write(DFPais.GAMBIA));
         Assert.assertEquals("2895", new DFPaisTransformer().write(DFPais.GANA));
@@ -367,6 +434,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals("3379", new DFPaisTransformer().write(DFPais.GUIANA));
         Assert.assertEquals("3417", new DFPaisTransformer().write(DFPais.HAITI));
         Assert.assertEquals("3433", new DFPaisTransformer().write(DFPais.ILHA_HEARD_E_ILHAS_MCDONALD));
+        }
+
+        @Test
+	public void deveTestarEscrita6() throws Exception {
         Assert.assertEquals("3450", new DFPaisTransformer().write(DFPais.HONDURAS));
         Assert.assertEquals("3514", new DFPaisTransformer().write(DFPais.HONG_KONG));
         Assert.assertEquals("3557", new DFPaisTransformer().write(DFPais.HUNGRIA_REPUBLICA_DA));
@@ -387,6 +458,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals("4030", new DFPaisTransformer().write(DFPais.JORDANIA));
         Assert.assertEquals("4111", new DFPaisTransformer().write(DFPais.KIRIBATI));
         Assert.assertEquals("4200", new DFPaisTransformer().write(DFPais.LAOS_REP_POP_DEMOCR_DO));
+        }
+
+        @Test
+	public void deveTestarEscrita7() throws Exception {
         Assert.assertEquals("4235", new DFPaisTransformer().write(DFPais.LEBUAN_ILHAS));
         Assert.assertEquals("4260", new DFPaisTransformer().write(DFPais.LESOTO));
         Assert.assertEquals("4278", new DFPaisTransformer().write(DFPais.LETONIA_REPUBLICA_DA));
@@ -407,6 +482,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals("4677", new DFPaisTransformer().write(DFPais.MALTA));
         Assert.assertEquals("4723", new DFPaisTransformer().write(DFPais.MARIANAS_DO_NORTE));
         Assert.assertEquals("4740", new DFPaisTransformer().write(DFPais.MARROCOS));
+        }
+
+        @Test
+	public void deveTestarEscrita8() throws Exception {
         Assert.assertEquals("4766", new DFPaisTransformer().write(DFPais.MARSHALL_ILHAS));
         Assert.assertEquals("4774", new DFPaisTransformer().write(DFPais.MARTINICA));
         Assert.assertEquals("4855", new DFPaisTransformer().write(DFPais.MAURICIO));
@@ -427,6 +506,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals("5177", new DFPaisTransformer().write(DFPais.NEPAL));
         Assert.assertEquals("5215", new DFPaisTransformer().write(DFPais.NICARAGUA));
         Assert.assertEquals("5258", new DFPaisTransformer().write(DFPais.NIGER));
+        }
+
+        @Test
+	public void deveTestarEscrita9() throws Exception {
         Assert.assertEquals("5282", new DFPaisTransformer().write(DFPais.NIGERIA));
         Assert.assertEquals("5312", new DFPaisTransformer().write(DFPais.NIUE_ILHA));
         Assert.assertEquals("5355", new DFPaisTransformer().write(DFPais.NORFOLK_ILHA));
@@ -447,6 +530,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals("5932", new DFPaisTransformer().write(DFPais.PITCAIRN_ILHA));
         Assert.assertEquals("5991", new DFPaisTransformer().write(DFPais.POLINESIA_FRANCESA));
         Assert.assertEquals("6033", new DFPaisTransformer().write(DFPais.POLONIA_REPUBLICA_DA));
+        }
+
+        @Test
+	public void deveTestarEscrita10() throws Exception {
         Assert.assertEquals("6076", new DFPaisTransformer().write(DFPais.PORTUGAL));
         Assert.assertEquals("6114", new DFPaisTransformer().write(DFPais.PORTO_RICO));
         Assert.assertEquals("6238", new DFPaisTransformer().write(DFPais.QUENIA));
@@ -467,6 +554,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals("6955", new DFPaisTransformer().write(DFPais.SAO_CRISTOVAO_E_NEVES_ILHAS));
         Assert.assertEquals("6939", new DFPaisTransformer().write(DFPais.SAO_BARTOLOMEU));
         Assert.assertEquals("6971", new DFPaisTransformer().write(DFPais.SAN_MARINO));
+        }
+
+        @Test
+	public void deveTestarEscrita11() throws Exception {
         Assert.assertEquals("6980", new DFPaisTransformer().write(DFPais.ILHAS_DE_SAO_MARTINHO_PARTE_FRANCESA));
         Assert.assertEquals("6998", new DFPaisTransformer().write(DFPais.SAO_MARTINHO_ILHA_DE_PARTE_FRANCESA));
         Assert.assertEquals("7005", new DFPaisTransformer().write(DFPais.SAO_PEDRO_E_MIQUELON));
@@ -487,6 +578,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals("7560", new DFPaisTransformer().write(DFPais.AFRICA_DO_SUL));
         Assert.assertEquals("7595", new DFPaisTransformer().write(DFPais.SUDAO));
         Assert.assertEquals("7600", new DFPaisTransformer().write(DFPais.SUD_O_DO_SUL));
+        }
+
+        @Test
+	public void deveTestarEscrita12() throws Exception {
         Assert.assertEquals("7641", new DFPaisTransformer().write(DFPais.SUECIA));
         Assert.assertEquals("7676", new DFPaisTransformer().write(DFPais.SUICA));
         Assert.assertEquals("7706", new DFPaisTransformer().write(DFPais.SURINAME));
@@ -507,6 +602,10 @@ public class DFPaisTransformerTest {
         Assert.assertEquals("8230", new DFPaisTransformer().write(DFPais.TURCAS_E_CAICOS_ILHAS));
         Assert.assertEquals("8249", new DFPaisTransformer().write(DFPais.TURCOMENISTAO_REPUBLICA_DO));
         Assert.assertEquals("8273", new DFPaisTransformer().write(DFPais.TURQUIA));
+        }
+
+        @Test
+	public void deveTestarEscrita13() throws Exception {
         Assert.assertEquals("8281", new DFPaisTransformer().write(DFPais.TUVALU));
         Assert.assertEquals("8311", new DFPaisTransformer().write(DFPais.UCRANIA));
         Assert.assertEquals("8338", new DFPaisTransformer().write(DFPais.UGANDA));
@@ -522,6 +621,6 @@ public class DFPaisTransformerTest {
         Assert.assertEquals("8737", new DFPaisTransformer().write(DFPais.WAKE_ILHA));
         Assert.assertEquals("8885", new DFPaisTransformer().write(DFPais.CONGO_REPUBLICA_DEMOCRATICA_DO));
         Assert.assertEquals("8907", new DFPaisTransformer().write(DFPais.ZAMBIA));
-	}
+        }
 
 }
