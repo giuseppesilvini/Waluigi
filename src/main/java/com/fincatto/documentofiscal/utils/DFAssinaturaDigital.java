@@ -157,10 +157,9 @@ public class DFAssinaturaDigital implements DFLog {
     static class DFKeySelector extends KeySelector {
         @Override
         public KeySelectorResult select(final KeyInfo keyInfo, final KeySelector.Purpose purpose, final AlgorithmMethod method, final XMLCryptoContext context) throws KeySelectorException {
-            for (final Object object : keyInfo.getContent()) {
-                final XMLStructure info = (XMLStructure) object;
-                if (info instanceof X509Data) {
-                    final X509Data x509Data = (X509Data) info;
+            for (final XMLStructure object : keyInfo.getContent()) {
+                if (object instanceof X509Data) {
+                    final X509Data x509Data = (X509Data) object;
                     for (final Object certificado : x509Data.getContent()) {
                         if (certificado instanceof X509Certificate) {
                             final X509Certificate x509Certificate = (X509Certificate) certificado;

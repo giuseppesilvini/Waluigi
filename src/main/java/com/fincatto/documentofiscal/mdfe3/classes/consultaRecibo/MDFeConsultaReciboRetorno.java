@@ -1,4 +1,4 @@
-package com.fincatto.documentofiscal.mdfe3.classes.consultaRecibo;
+package com.fincatto.documentofiscal.mdfe3.classes.consultarecibo;
 
 import org.simpleframework.xml.Attribute;
 import org.simpleframework.xml.Element;
