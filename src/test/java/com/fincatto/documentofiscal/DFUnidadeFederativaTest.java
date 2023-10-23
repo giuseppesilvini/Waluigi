@@ -237,7 +237,7 @@ public class DFUnidadeFederativaTest {
     }
 
     @Test
-    public void deveObterAtravesDaSiglaAUF() {
+    public void deveObterAtravesDaSiglaAUF1() {
         Assert.assertEquals(DFUnidadeFederativa.AC, DFUnidadeFederativa.valueOfCodigo("AC"));
         Assert.assertEquals(DFUnidadeFederativa.AL, DFUnidadeFederativa.valueOfCodigo("AL"));
         Assert.assertEquals(DFUnidadeFederativa.AM, DFUnidadeFederativa.valueOfCodigo("AM"));
@@ -253,6 +253,10 @@ public class DFUnidadeFederativaTest {
         Assert.assertEquals(DFUnidadeFederativa.MS, DFUnidadeFederativa.valueOfCodigo("MS"));
         Assert.assertEquals(DFUnidadeFederativa.MT, DFUnidadeFederativa.valueOfCodigo("MT"));
         Assert.assertEquals(DFUnidadeFederativa.NACIONAL, DFUnidadeFederativa.valueOfCodigo("NC"));
+    }
+
+    @Test
+    public void deveObterAtravesDaSiglaAUF2() {
         Assert.assertEquals(DFUnidadeFederativa.PA, DFUnidadeFederativa.valueOfCodigo("PA"));
         Assert.assertEquals(DFUnidadeFederativa.PB, DFUnidadeFederativa.valueOfCodigo("PB"));
         Assert.assertEquals(DFUnidadeFederativa.PE, DFUnidadeFederativa.valueOfCodigo("PE"));

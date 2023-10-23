@@ -3,12 +3,10 @@ package com.fincatto.documentofiscal.nfe310.classes;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.fincatto.documentofiscal.nfe310.classes.NFNotaInfoSituacaoTributariaPIS;
-
 public class NFNotaInfoSituacaoTributariaPISTest {
 
     @Test
-    public void deveRepresentarOCodigoCorretamente() {
+    public void deveRepresentarOCodigoCorretamente1() {
         Assert.assertEquals("01", NFNotaInfoSituacaoTributariaPIS.OPERACAO_TRIBUTAVEL_CUMULATIVO_NAO_CUMULATIVO.getCodigo());
         Assert.assertEquals("02", NFNotaInfoSituacaoTributariaPIS.OPERACAO_TRIBUTAVEL_ALIQUOTA_DIFERENCIADA.getCodigo());
         Assert.assertEquals("03", NFNotaInfoSituacaoTributariaPIS.OPERACAO_TRIBUTAVEL_QUANTIDADE_VENDIDA_POR_ALIQUOTA_POR_UNIDADE_PRODUTO.getCodigo());
@@ -25,6 +23,10 @@ public class NFNotaInfoSituacaoTributariaPISTest {
         Assert.assertEquals("54", NFNotaInfoSituacaoTributariaPIS.OPERACAO_DIREITO_CREDITO_VINCULADA_RECEITAS_TRIBUTADAS_NO_MERCADO_INTERNO_EXPORTACAO.getCodigo());
         Assert.assertEquals("55", NFNotaInfoSituacaoTributariaPIS.OPERACAO_DIREITO_CREDITO_VINCULADA_RECEITAS_NAO_TRIBUTADA_NO_MERCADO_INTERNO_EXPORTACAO.getCodigo());
         Assert.assertEquals("56", NFNotaInfoSituacaoTributariaPIS.OPERACAO_DIREITO_CREDITO_VINCULADA_RECEITAS_TRIBUTADAS_E_NAO_TRIBUTADAS_MERCADO_INTERNO_EXPORTACAO.getCodigo());
+    }
+
+    @Test
+    public void deveRepresentarOCodigoCorretamente2() {
         Assert.assertEquals("60", NFNotaInfoSituacaoTributariaPIS.CREDITO_PRESUMIDO_OPERACAO_AQUISICAO_VINCULADA_EXCLUSIVAMENTE_RECEITA_TRIBUTADA_MERCADO_INTERNO.getCodigo());
         Assert.assertEquals("61", NFNotaInfoSituacaoTributariaPIS.CREDITO_PRESUMIDO_OPERACAO_AQUISICAO_VINCULADA_EXCLUSIVAMENTE_A_RECEITA_NAO_TRIBUTADA_MERCADO_INTERNO.getCodigo());
         Assert.assertEquals("62", NFNotaInfoSituacaoTributariaPIS.CREDITO_PRESUMIDO_OPERACAO_AQUISICAO_VINCULADA_EXCLUSIVAMENTE_RECEITA_EXPORTACAO.getCodigo());
