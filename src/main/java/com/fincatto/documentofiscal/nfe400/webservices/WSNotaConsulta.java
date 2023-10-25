@@ -15,6 +15,8 @@ import org.apache.axiom.om.util.AXIOMUtil;
 import java.math.BigDecimal;
 import java.rmi.RemoteException;
 
+import javax.xml.stream.XMLStreamException;
+
 class WSNotaConsulta implements DFLog {
     private static final String NOME_SERVICO = "CONSULTAR";
     private static final String VERSAO_SERVICO = "4.00";
@@ -28,7 +30,7 @@ class WSNotaConsulta implements DFLog {
         return this.config.getPersister().read(NFNotaConsultaRetorno.class, consultaNotaAsString(chaveDeAcesso));
     }
 
-    public String consultaNotaAsString(String chaveDeAcesso) throws Exception {
+    public String consultaNotaAsString(String chaveDeAcesso) throws RemoteException, XMLStreamException {
         final OMElement omElementConsulta = AXIOMUtil.stringToOM(this.gerarDadosConsulta(chaveDeAcesso).toString());
         if(this.getLogger().isDebugEnabled()) {
             this.getLogger().debug(omElementConsulta.toString());

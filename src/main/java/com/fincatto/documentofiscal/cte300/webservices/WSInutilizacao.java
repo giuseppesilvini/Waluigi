@@ -35,7 +35,7 @@ class WSInutilizacao {
         this.config = config;
     }
 
-    CTeRetornoEventoInutilizacao inutilizaNotaAssinada(final String eventoAssinadoXml, final DFModelo modelo) throws Exception {
+    CTeRetornoEventoInutilizacao inutilizaNotaAssinada(final String eventoAssinadoXml) throws Exception {
         final OMElement omElementResult = this.efetuaInutilizacao(eventoAssinadoXml);
         return new DFPersister().read(CTeRetornoEventoInutilizacao.class, omElementResult.toString());
     }

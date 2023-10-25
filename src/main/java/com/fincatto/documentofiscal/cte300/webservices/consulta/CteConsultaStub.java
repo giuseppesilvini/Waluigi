@@ -36,7 +36,6 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
     private static int counter = 0;
 
     private static String cteConsultaCTString = "cteConsultaCT";
-    private static String cteConsultaLinkString = "http://www.portalfiscal.inf.br/cte/wsdl/CteConsulta";
 
     private static synchronized java.lang.String getUniqueSuffix() {
         // reset the counter if it is greater than 99999
@@ -1126,9 +1125,9 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
 
         private void serializeCheckPrefix(final java.lang.String namespacePrefix, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":cteCabecMsg", xmlWriter);
+                this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":cteCabecMsg", xmlWriter);
             } else {
-                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", CTE_CABEC_MSG, xmlWriter);
+                this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", CTE_CABEC_MSG, xmlWriter);
             }
         }
 

@@ -7,7 +7,6 @@ import com.fincatto.documentofiscal.nfe400.classes.nota.NFNota;
 import org.apache.commons.lang3.StringUtils;
 
 import java.math.BigInteger;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

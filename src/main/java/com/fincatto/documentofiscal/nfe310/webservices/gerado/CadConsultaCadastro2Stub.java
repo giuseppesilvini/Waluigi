@@ -148,19 +148,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
         }
     }
 
-    private java.util.Map<String, String> getEnvelopeNamespaces(final org.apache.axiom.soap.SOAPEnvelope env) {
-        final java.util.Map<String, String> returnMap = new java.util.HashMap<>();
-        @SuppressWarnings("rawtypes") final java.util.Iterator namespaceIterator = env.getAllDeclaredNamespaces();
-        while (namespaceIterator.hasNext()) {
-            final org.apache.axiom.om.OMNamespace ns = (org.apache.axiom.om.OMNamespace) namespaceIterator.next();
-            returnMap.put(ns.getPrefix(), ns.getNamespaceURI());
-        }
-        return returnMap;
-    }
-
     private final DFConfig config;
-
-    private boolean optimizeContent = false;
 
     public static class NfeCabecMsg implements org.apache.axis2.databinding.ADBBean {
         /*
@@ -391,7 +379,6 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
 
             public static NfeCabecMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 NfeCabecMsg object = new NfeCabecMsg();
-                java.lang.String nillableValue;
                 try {
                     while (isNotStartOrEndElement(reader)) {
                         reader.next();

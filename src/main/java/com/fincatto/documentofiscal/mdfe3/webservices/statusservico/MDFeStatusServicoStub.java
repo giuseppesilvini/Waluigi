@@ -288,8 +288,6 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
 
     private final DFConfig config;
 
-    private boolean optimizeContent = false;
-
     // https://mdfe.sefaz.rs.gov.br/ws/MDFeStatusServico/MDFeStatusServico.asmx
     @SuppressWarnings("serial")
     public static class MdfeCabecMsgE implements org.apache.axis2.databinding.ADBBean {
@@ -1424,9 +1422,9 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
 
         private void serializeCheckPrefix(final java.lang.String namespacePrefix, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":mdfeCabecMsg", xmlWriter);
+                this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":mdfeCabecMsg", xmlWriter);
             } else {
-                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", MDFE_CABEC_MSG, xmlWriter);
+                this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", MDFE_CABEC_MSG, xmlWriter);
             }
         }
 

@@ -53,15 +53,19 @@ public class NFNotaInfoItemProdutoDeclaracaoImportacaoAdicaoTest {
         importacaoAdicao.toString();
     }
 
-    @Test(expected = IllegalStateException.class)
+    @Test
     public void naoDevePermitirCodigoFabricanteNulo() {
         final NFNotaInfoItemProdutoDeclaracaoImportacaoAdicao importacaoAdicao = new NFNotaInfoItemProdutoDeclaracaoImportacaoAdicao();
-	Assert.assertNotNull(importacaoAdicao);
         importacaoAdicao.setDesconto(new BigDecimal("999999999999.99"));
         importacaoAdicao.setNumero(999);
         importacaoAdicao.setSequencial(999);
         importacaoAdicao.setNumeroAtoConcessorioDrawback(new BigInteger("99999999999"));
-        importacaoAdicao.toString();
+        try {
+            importacaoAdicao.toString();
+            Assert.fail();
+        } catch(IllegalStateException ignored) {
+
+        }
     }
 
     @Test

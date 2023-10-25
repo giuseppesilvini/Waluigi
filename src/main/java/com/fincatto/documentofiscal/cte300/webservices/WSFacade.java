@@ -119,7 +119,7 @@ public class WSFacade {
      * @throws Exception caso nao consiga gerar o xml ou problema de conexao com o sefaz
      */
     public CTeRetornoEventoInutilizacao inutilizaNotaAssinada(final String eventoAssinadoXml, final DFModelo modelo) throws Exception {
-        return this.wsInutilizacao.inutilizaNotaAssinada(eventoAssinadoXml, modelo);
+        return this.wsInutilizacao.inutilizaNotaAssinada(eventoAssinadoXml);
     }
 
     /**

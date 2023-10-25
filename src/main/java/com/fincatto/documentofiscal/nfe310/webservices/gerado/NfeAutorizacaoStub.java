@@ -227,17 +227,7 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
         }
     }
 
-    private static final javax.xml.namespace.QName[] opNameArray = null;
     private final DFConfig config;
-
-    private boolean optimizeContent(final javax.xml.namespace.QName opName) {
-        for (QName anOpNameArray : this.opNameArray) {
-            if (opName.equals(anOpNameArray)) {
-                return true;
-            }
-        }
-        return false;
-    }
 
     // https://nfe.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao.asmx
     public static class NfeAutorizacaoLoteZipResult implements org.apache.axis2.databinding.ADBBean {
@@ -910,7 +900,6 @@ public class NfeAutorizacaoStub extends org.apache.axis2.client.Stub {
 
             public static NfeCabecMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 NfeCabecMsg object = new NfeCabecMsg();
-                java.lang.String nillableValue;
                 try {
                     while (isNotStartOrEndElement(reader)) {
                         reader.next();

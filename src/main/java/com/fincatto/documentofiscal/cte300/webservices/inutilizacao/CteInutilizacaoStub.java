@@ -1392,9 +1392,9 @@ public class CteInutilizacaoStub extends org.apache.axis2.client.Stub {
 
         private void serializeCheckPrefix(final java.lang.String namespacePrefix, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":cteCabecMsg", xmlWriter);
+                this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":cteCabecMsg", xmlWriter);
             } else {
-                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", CTE_CABEC_MSG, xmlWriter);
+                this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", CTE_CABEC_MSG, xmlWriter);
             }
         }
 

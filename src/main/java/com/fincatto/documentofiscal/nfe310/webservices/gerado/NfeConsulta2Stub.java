@@ -379,7 +379,6 @@ public class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
 
             public static NfeCabecMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 NfeCabecMsg object = new NfeCabecMsg();
-                java.lang.String nillableValue;
                 try {
                     while (isNotStartOrEndElement(reader)) {
                         reader.next();

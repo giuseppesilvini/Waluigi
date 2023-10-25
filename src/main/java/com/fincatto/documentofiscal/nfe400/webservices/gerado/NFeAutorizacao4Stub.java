@@ -11,6 +11,7 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 
 public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
 
+    private static final String UTILITY_CLASS = "Utility class";
     private static final String NFE_AUTORIZACAO_LOTE_ZIP = "nfeAutorizacaoLoteZip";
     private static final String NFE_AUTORIZACAO_LOTE = "nfeAutorizacaoLote";
     public static final String NFE_RESULT_MSG = "nfeResultMsg";
@@ -380,8 +381,9 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
          * Factory class that keeps the parse method
          */
         public static class Factory {
+
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
             @SuppressWarnings("unused")
             private static org.apache.commons.logging.Log log = org.apache.commons.logging.LogFactory.getLog(Factory.class);
@@ -482,7 +484,10 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
 
     @SuppressWarnings("serial")
     public static class NfeDadosMsg implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, "nfeDadosMsg", "ns1");
+
+        private static final String NFE_DADOS_MSG = "nfeDadosMsg";
+
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, NFE_DADOS_MSG, "ns1");
 
         /**
          * field for ExtraElement
@@ -534,7 +539,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeDadosMsg", xmlWriter);
+                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_DADOS_MSG, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -611,7 +616,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
          */
         public static class Factory {
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
             @SuppressWarnings("unused")
             private static org.apache.commons.logging.Log log = org.apache.commons.logging.LogFactory.getLog(Factory.class);
@@ -680,7 +685,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
                         }
                         nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
                         final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                        if (!"nfeDadosMsg".equals(type)) {
+                        if (!NFE_DADOS_MSG.equals(type)) {
                             // find namespace for the prefix
                             final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                             return (NfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -699,7 +704,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
 
     public static class ExtensionMapper {
         private ExtensionMapper() {
-            throw new IllegalStateException("Utility class");
+            throw new IllegalStateException(UTILITY_CLASS);
         }
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
@@ -837,7 +842,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
          */
         public static class Factory {
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
             @SuppressWarnings("unused")
             private static org.apache.commons.logging.Log log = org.apache.commons.logging.LogFactory.getLog(Factory.class);

@@ -274,7 +274,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 if (this.localNFeDadosMsg == null) {
                     throw new org.apache.axis2.databinding.ADBException("nfeDadosMsg cannot be null!!");
                 }
-                this.localNFeDadosMsg.serialize(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_RESULT_MSG), factory, xmlWriter);
+                this.localNFeDadosMsg.serialize(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_RESULT_MSG), xmlWriter);
             }
             xmlWriter.writeEndElement();
         }
@@ -545,7 +545,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
 
                 @Override
                 public void serialize(final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
-                    NFeDadosMsgType0.this.serialize(this.parentQName, factory, xmlWriter);
+                    NFeDadosMsgType0.this.serialize(this.parentQName, xmlWriter);
                 }
             };
             return factory.createOMElement(dataSource, parentQName);
@@ -559,10 +559,6 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
         @Override
         public void serialize(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             this.serialize(parentQName, xmlWriter, false);
-        }
-
-        public void serialize(final javax.xml.namespace.QName parentQName, final org.apache.axiom.om.OMFactory factory, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
-            this.serialize2(parentQName, xmlWriter, false);
         }
 
         public void serialize2(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter, final boolean serializeType) throws javax.xml.stream.XMLStreamException {
@@ -947,7 +943,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 if (this.localNFeDistDFeInteresseResult == null) {
                     throw new org.apache.axis2.databinding.ADBException("nfeDistDFeInteresseResult cannot be null!!");
                 }
-                this.localNFeDistDFeInteresseResult.serialize(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_DIST_D_FE_INTERESSE_RESULT), factory, xmlWriter);
+                this.localNFeDistDFeInteresseResult.serialize(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_DIST_D_FE_INTERESSE_RESULT), xmlWriter);
             }
             xmlWriter.writeEndElement();
         }
@@ -1249,7 +1245,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
 
                 @Override
                 public void serialize(final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
-                    NFeDistDFeInteresseResultType0.this.serialize(this.parentQName, factory, xmlWriter);
+                    NFeDistDFeInteresseResultType0.this.serialize(this.parentQName, xmlWriter);
                 }
             };
             return factory.createOMElement(dataSource, parentQName);
@@ -1263,10 +1259,6 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
         @Override
         public void serialize(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             this.serialize(parentQName, xmlWriter, false);
-        }
-
-        public void serialize(final javax.xml.namespace.QName parentQName, final org.apache.axiom.om.OMFactory factory, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
-            this.serialize2(parentQName, xmlWriter, false);
         }
 
         public void serialize2(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter, final boolean serializeType) throws javax.xml.stream.XMLStreamException {

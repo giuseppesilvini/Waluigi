@@ -298,7 +298,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 if (this.localCteDadosMsg == null) {
                     throw new org.apache.axis2.databinding.ADBException("cteDadosMsg cannot be null!!");
                 }
-                this.localCteDadosMsg.serialize(new javax.xml.namespace.QName(NAME_SPACE_URI, CTE_DADOS_MSG), factory, xmlWriter);
+                this.localCteDadosMsg.serialize(new javax.xml.namespace.QName(NAME_SPACE_URI, CTE_DADOS_MSG), xmlWriter);
             }
             xmlWriter.writeEndElement();
         }
@@ -572,7 +572,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
 
                 @Override
                 public void serialize(final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
-                    CteDadosMsgType0.this.serialize(this.parentQName, factory, xmlWriter);
+                    CteDadosMsgType0.this.serialize(this.parentQName, xmlWriter);
                 }
             };
             return factory.createOMElement(dataSource, parentQName);
@@ -580,10 +580,6 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
 
         @Override
         public void serialize(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
-            this.serialize(parentQName, xmlWriter, false);
-        }
-
-        public void serialize(final javax.xml.namespace.QName parentQName, final org.apache.axiom.om.OMFactory factory, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             this.serialize(parentQName, xmlWriter, false);
         }
 
@@ -952,7 +948,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 if (this.localCteDistDFeInteresseResult == null) {
                     throw new org.apache.axis2.databinding.ADBException("cteDistDFeInteresseResult cannot be null!!");
                 }
-                this.localCteDistDFeInteresseResult.serialize(new javax.xml.namespace.QName(NAME_SPACE_URI, CTE_DIST_D_FE_INTERESSE_RESULT), factory, xmlWriter);
+                this.localCteDistDFeInteresseResult.serialize(new javax.xml.namespace.QName(NAME_SPACE_URI, CTE_DIST_D_FE_INTERESSE_RESULT), xmlWriter);
             }
             xmlWriter.writeEndElement();
         }
@@ -1242,7 +1238,7 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
 
                 @Override
                 public void serialize(final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
-                    CteDistDFeInteresseResultType0.this.serialize(this.parentQName, factory, xmlWriter);
+                    CteDistDFeInteresseResultType0.this.serialize(this.parentQName, xmlWriter);
                 }
             };
             return factory.createOMElement(dataSource, parentQName);
@@ -1250,10 +1246,6 @@ public class CTeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
 
         @Override
         public void serialize(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
-            this.serialize(parentQName, xmlWriter, false);
-        }
-
-        public void serialize(final javax.xml.namespace.QName parentQName, final org.apache.axiom.om.OMFactory factory, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             this.serialize(parentQName, xmlWriter, false);
         }
 

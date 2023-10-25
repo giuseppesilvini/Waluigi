@@ -98,7 +98,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
             messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, NFE_RECEPCAO_EVENTO));
+            env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg);
             env.build();
             // add the children only if the parameter is not null
             if (nfeCabecMsg != null) {
@@ -149,16 +149,6 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 messageContext.getTransportOut().getSender().cleanup(messageContext);
             }
         }
-    }
-
-    private java.util.Map<String, String> getEnvelopeNamespaces(final org.apache.axiom.soap.SOAPEnvelope env) {
-        final java.util.Map<String, String> returnMap = new java.util.HashMap<>();
-        @SuppressWarnings("rawtypes") final java.util.Iterator namespaceIterator = env.getAllDeclaredNamespaces();
-        while (namespaceIterator.hasNext()) {
-            final org.apache.axiom.om.OMNamespace ns = (org.apache.axiom.om.OMNamespace) namespaceIterator.next();
-            returnMap.put(ns.getPrefix(), ns.getNamespaceURI());
-        }
-        return returnMap;
     }
 
     private final DFConfig config;
@@ -850,7 +840,6 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
 
             public static NfeCabecMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 NfeCabecMsg object = new NfeCabecMsg();
-                java.lang.String nillableValue;
                 try {
                     while (isNotStartOrEndElement(reader)) {
                         reader.next();
@@ -957,7 +946,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         return param.getOMElement(RecepcaoEventoStub.NfeCabecMsgE.MY_QNAME, org.apache.axiom.om.OMAbstractFactory.getOMFactory());
     }
 
-    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final RecepcaoEventoStub.NfeDadosMsg param, final javax.xml.namespace.QName methodQName) {
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final RecepcaoEventoStub.NfeDadosMsg param) {
         final org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
         emptyEnvelope.getBody().addChild(param.getOMElement(RecepcaoEventoStub.NfeDadosMsg.MY_QNAME, factory));
         return emptyEnvelope;

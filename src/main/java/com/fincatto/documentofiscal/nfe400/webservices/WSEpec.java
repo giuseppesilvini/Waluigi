@@ -7,10 +7,12 @@ import com.fincatto.documentofiscal.nfe.NFTipoEmissao;
 import com.fincatto.documentofiscal.nfe.NFeConfig;
 import com.fincatto.documentofiscal.nfe400.classes.NFAutorizador400;
 import java.math.BigDecimal;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 
 import org.apache.axiom.om.OMElement;
 import org.apache.commons.lang3.StringUtils;
+import org.xml.sax.SAXException;
 
 import com.fincatto.documentofiscal.nfe400.classes.evento.epec.NFEnviaEventoEpec;
 import com.fincatto.documentofiscal.nfe400.classes.evento.epec.NFEnviaEventoEpecRetorno;
@@ -24,6 +26,8 @@ import com.fincatto.documentofiscal.nfe400.utils.NFGeraChave;
 import com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeRecepcaoEvento4Stub;
 import com.fincatto.documentofiscal.utils.DFAssinaturaDigital;
 import com.fincatto.documentofiscal.validadores.DFXMLValidador;
+
+import java.io.IOException;
 import java.io.StringReader;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
@@ -102,7 +106,7 @@ public class WSEpec implements DFLog {
             nfInfoEpec.setVersaoAplicativo("1.0");
             infEpec.setEpec(nfInfoEpec);
             
-            nfEventoEpec = criaEnvioEpecCalculateNFEventoEpec(nfNota, nfInfoEpec, nfEventoEpec, infEpec);
+            criaEnvioEpecCalculateNFEventoEpec(nfNota, nfInfoEpec, nfEventoEpec, infEpec);
             nfEnviaEventoEpec.getEvento().add(nfEventoEpec);
         }
         return nfEnviaEventoEpec;
@@ -139,7 +143,7 @@ public class WSEpec implements DFLog {
         return this.config.getPersister().read(NFEnviaEventoEpecRetorno.class, xmlRetorno);
     }
 
-    public NFeRecepcaoEvento4Stub.NfeResultMsg comunicaLoteRaw(String loteAssinadoXml, DFModelo modelo) throws Exception {
+    public NFeRecepcaoEvento4Stub.NfeResultMsg comunicaLoteRaw(String loteAssinadoXml, DFModelo modelo) throws java.rmi.RemoteException, IOException, SAXException, URISyntaxException, XMLStreamException {
         // valida o epec assinado, para verificar se o xsd foi satisfeito, antes de comunicar com a sefaz
         DFXMLValidador.validaEpec(loteAssinadoXml);
 

@@ -14,6 +14,7 @@ import org.apache.axis2.databinding.ADBException;
  */
 public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
 
+    private static final String UTILITY_CLASS = "Utility class";
     private static final String NFE_CONSULTA_NF = "nfeConsultaNF";
     private static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_CONSULTA_PROTOCOLO4 = "http://www.portalfiscal.inf.br/nfe/wsdl/NFeConsultaProtocolo4";
     public static final String NFE_CONSULTA_NF_RESULT = "nfeConsultaNFResult";
@@ -302,7 +303,7 @@ public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             @SuppressWarnings("unused")
@@ -394,7 +395,7 @@ public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
 
     public static class ExtensionMapper {
         private ExtensionMapper() {
-            throw new IllegalStateException("Utility class");
+            throw new IllegalStateException(UTILITY_CLASS);
         }
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws ADBException {
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
@@ -533,7 +534,7 @@ public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
             
             @SuppressWarnings("unused")

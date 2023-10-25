@@ -12,6 +12,7 @@ import org.apache.axis2.databinding.ADBException;
 
 public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
 
+    private static final String UTILITY_CLASS = "Utility class";
     private static final String NFE_INUTILIZACAO_NF = "nfeInutilizacaoNF";
     private static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_INUTILIZACAO4 = "http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao4";
     public static final String NFE_RESULT_MSG = "nfeResultMsg";
@@ -174,8 +175,9 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
 
     // https://nfe.sefazrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx
     public static class ExtensionMapper {
+
         private ExtensionMapper() {
-            throw new IllegalStateException("Utility class");
+            throw new IllegalStateException(UTILITY_CLASS);
         }
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws ADBException {
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
@@ -313,7 +315,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
          */
         public static class Factory {
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             @SuppressWarnings("unused")
@@ -534,7 +536,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
          */
         public static class Factory {
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
             
             @SuppressWarnings("unused")

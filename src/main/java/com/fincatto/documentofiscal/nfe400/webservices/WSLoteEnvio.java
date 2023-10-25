@@ -21,12 +21,16 @@ import com.fincatto.documentofiscal.validadores.DFXMLValidador;
 import org.apache.axiom.om.OMElement;
 import org.apache.axiom.om.impl.builder.StAXOMBuilder;
 import org.apache.commons.lang3.StringUtils;
+import org.xml.sax.SAXException;
 
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 import javax.xml.XMLConstants;
+
+import java.io.IOException;
 import java.io.StringReader;
+import java.net.URISyntaxException;
 import java.util.Iterator;
 
 class WSLoteEnvio implements DFLog {
@@ -125,7 +129,7 @@ class WSLoteEnvio implements DFLog {
     }
 
     NfeResultMsg comunicaLoteRaw(final String loteAssinadoXml, final DFModelo modelo, boolean validarXML)
-            throws Exception {
+            throws java.rmi.RemoteException, IOException, SAXException, URISyntaxException, XMLStreamException {
 
         if (validarXML) {
             // valida o lote assinado, para verificar se o xsd foi satisfeito, antes de
