@@ -20,6 +20,10 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
  */
 
 public class MDFeRecepcaoEventoStub extends org.apache.axis2.client.Stub {
+    /**
+     *
+     */
+    private static final String MDFE_RECEPCAO_EVENTO = "mdfeRecepcaoEvento";
     public static final String MDFE_DADOS_MSG = "mdfeDadosMsg";
     public static final String MDFE_RECEPCAO_EVENTO_RESULT = "mdfeRecepcaoEventoResult";
     public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
@@ -55,7 +59,7 @@ public class MDFeRecepcaoEventoStub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation operation;
         this.operations = new org.apache.axis2.description.AxisOperation[1];
         operation = new org.apache.axis2.description.OutInAxisOperation();
-        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO_EVENTO, "mdfeRecepcaoEvento"));
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_RECEPCAO_EVENTO, MDFE_RECEPCAO_EVENTO));
         this._service.addOperation(operation);
         this.operations[0] = operation;
     }
@@ -137,17 +141,17 @@ public class MDFeRecepcaoEventoStub extends org.apache.axis2.client.Stub {
             if (faultElt == null) {
                 throw f;
             }
-            if (!this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeRecepcaoEvento"))) {
+            if (!this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), MDFE_RECEPCAO_EVENTO))) {
                 throw f;
             }
             // make the fault by reflection
             try {
-                final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeRecepcaoEvento"));
+                final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), MDFE_RECEPCAO_EVENTO));
                 final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                 final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
                 final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
                 // message class
-                final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeRecepcaoEvento"));
+                final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), MDFE_RECEPCAO_EVENTO));
                 final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                 final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                 final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
@@ -201,7 +205,7 @@ public class MDFeRecepcaoEventoStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axis2.client.async.AxisCallback createCallback(com.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoCallbackHandler callback, org.apache.axis2.context.MessageContext messageContext) {
-        org.apache.axis2.client.async.AxisCallback returnCallback = new org.apache.axis2.client.async.AxisCallback() {
+        return new org.apache.axis2.client.async.AxisCallback() {
             @Override
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
@@ -213,37 +217,9 @@ public class MDFeRecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 }
             }
 
-            @SuppressWarnings({ "rawtypes", "unchecked" })
             @Override
             public void onError(final java.lang.Exception error) {
-                if (error instanceof org.apache.axis2.AxisFault) {
-                    final org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
-                    final org.apache.axiom.om.OMElement faultElt = f.getDetail();
-                    if (faultElt != null &&
-                                MDFeRecepcaoEventoStub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeRecepcaoEvento"))) {
-                        // make the fault by reflection
-                        try {
-                            final java.lang.String exceptionClassName = (java.lang.String) MDFeRecepcaoEventoStub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeRecepcaoEvento"));
-                            final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
-                            final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
-                            final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
-                            // message class
-                            final java.lang.String messageClassName = (java.lang.String) MDFeRecepcaoEventoStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "mdfeRecepcaoEvento"));
-                            final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                            final java.lang.Object messageObject = MDFeRecepcaoEventoStub.this.fromOM(faultElt, messageClass);
-                            final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
-                            m.invoke(ex, messageObject);
-                            callback.receiveErrormdfeRecepcaoEvento(new java.rmi.RemoteException(ex.getMessage(), ex));
-                        } catch (ClassCastException | org.apache.axis2.AxisFault | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
-                            // we cannot intantiate the class - throw the original Axis fault
-                            callback.receiveErrormdfeRecepcaoEvento(f);
-                        }
-                    } else {
-                        callback.receiveErrormdfeRecepcaoEvento(f);
-                    }
-                } else {
-                    callback.receiveErrormdfeRecepcaoEvento(error);
-                }
+                callbackError(error, callback);
             }
 
             @Override
@@ -261,7 +237,38 @@ public class MDFeRecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 }
             }
         };
-        return returnCallback;
+    }
+
+    @SuppressWarnings({ "rawtypes", "unchecked" })
+    private void callbackError(java.lang.Exception error, com.fincatto.documentofiscal.mdfe3.webservices.recepcaoevento.MDFeRecepcaoEventoCallbackHandler callback) {
+        if (error instanceof org.apache.axis2.AxisFault) {
+            final org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
+            final org.apache.axiom.om.OMElement faultElt = f.getDetail();
+            if (faultElt != null &&
+                        MDFeRecepcaoEventoStub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), MDFE_RECEPCAO_EVENTO))) {
+                // make the fault by reflection
+                try {
+                    final java.lang.String exceptionClassName = (java.lang.String) MDFeRecepcaoEventoStub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), MDFE_RECEPCAO_EVENTO));
+                    final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
+                    final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
+                    final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
+                    // message class
+                    final java.lang.String messageClassName = (java.lang.String) MDFeRecepcaoEventoStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), MDFE_RECEPCAO_EVENTO));
+                    final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
+                    final java.lang.Object messageObject = MDFeRecepcaoEventoStub.this.fromOM(faultElt, messageClass);
+                    final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
+                    m.invoke(ex, messageObject);
+                    callback.receiveErrormdfeRecepcaoEvento(new java.rmi.RemoteException(ex.getMessage(), ex));
+                } catch (ClassCastException | org.apache.axis2.AxisFault | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
+                    // we cannot intantiate the class - throw the original Axis fault
+                    callback.receiveErrormdfeRecepcaoEvento(f);
+                }
+            } else {
+                callback.receiveErrormdfeRecepcaoEvento(f);
+            }
+        } else {
+            callback.receiveErrormdfeRecepcaoEvento(error);
+        }
     }
 
     /**

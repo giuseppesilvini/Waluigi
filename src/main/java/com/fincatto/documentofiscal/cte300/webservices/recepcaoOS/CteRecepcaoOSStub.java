@@ -17,6 +17,10 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 
 @SuppressWarnings({"rawtypes", "unchecked", "deprecation", "unused"})
 public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
+    /**
+     *
+     */
+    private static final String CTE_RECEPCAO_OS = "cteRecepcaoOS";
     public static final String EXTRA_ELEMENT_CANNOT_BE_NULL = "extraElement cannot be null!!";
     public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
     public static final String CTE_DADOS_MSG = "cteDadosMsg";
@@ -52,7 +56,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation operation;
         this.operations = new org.apache.axis2.description.AxisOperation[1];
         operation = new org.apache.axis2.description.OutInAxisOperation();
-        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "cteRecepcaoOS"));
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, CTE_RECEPCAO_OS));
         this._service.addOperation(operation);
         this.operations[0] = operation;
     }
@@ -134,17 +138,17 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
             if (faultElt == null) {
                 throw f;
             }
-            if (!this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteRecepcaoOS"))) {
+            if (!this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CTE_RECEPCAO_OS))) {
                 throw f;
             }
             // make the fault by reflection
             try {
-                final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteRecepcaoOS"));
+                final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CTE_RECEPCAO_OS));
                 final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                 final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
                 final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
                 // message class
-                final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteRecepcaoOS"));
+                final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CTE_RECEPCAO_OS));
                 final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                 final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                 final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
@@ -217,15 +221,15 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                     final org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
                     final org.apache.axiom.om.OMElement faultElt = f.getDetail();
                     if (faultElt != null &&
-                                CteRecepcaoOSStub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteRecepcaoOS"))) {
+                                CteRecepcaoOSStub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CTE_RECEPCAO_OS))) {
                         // make the fault by reflection
                         try {
-                            final java.lang.String exceptionClassName = (java.lang.String) CteRecepcaoOSStub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteRecepcaoOS"));
+                            final java.lang.String exceptionClassName = (java.lang.String) CteRecepcaoOSStub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CTE_RECEPCAO_OS));
                             final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                             final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
                             final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
                             // message class
-                            final java.lang.String messageClassName = (java.lang.String) CteRecepcaoOSStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteRecepcaoOS"));
+                            final java.lang.String messageClassName = (java.lang.String) CteRecepcaoOSStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CTE_RECEPCAO_OS));
                             final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                             final java.lang.Object messageObject = CteRecepcaoOSStub.this.fromOM(faultElt, messageClass);
                             final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);

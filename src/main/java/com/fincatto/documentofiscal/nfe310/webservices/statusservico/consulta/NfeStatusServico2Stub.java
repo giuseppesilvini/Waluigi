@@ -701,7 +701,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            private static void nextReader(javax.xml.stream.XMLStreamReader reader) throws Exception {
+            private static void nextReader(javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 while (!reader.isStartElement() && !reader.isEndElement()) {
                     reader.next();
                 }
@@ -725,7 +725,8 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 if (fullTypeName.contains(":")) {
                     nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
                 }
-                return nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                return nsPrefix;
             }
 
         }// end of factory class
@@ -1397,7 +1398,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            private static void nextReader(javax.xml.stream.XMLStreamReader reader) throws Exception {
+            private static void nextReader(javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 while (!reader.isStartElement() && !reader.isEndElement()) {
                     reader.next();
                 }
@@ -1421,7 +1422,8 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 if (fullTypeName.contains(":")) {
                     nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
                 }
-                return nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                return nsPrefix;
             }
 
         }// end of factory class

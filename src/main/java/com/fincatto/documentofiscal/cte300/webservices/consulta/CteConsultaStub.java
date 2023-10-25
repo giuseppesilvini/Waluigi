@@ -200,7 +200,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axis2.client.async.AxisCallback createCallback(com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaCallbackHandler callback, org.apache.axis2.context.MessageContext messageContext) {
-        org.apache.axis2.client.async.AxisCallback returnCallback = new org.apache.axis2.client.async.AxisCallback() {
+        return new org.apache.axis2.client.async.AxisCallback() {
             @Override
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
@@ -214,34 +214,7 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
 
             @Override
             public void onError(final java.lang.Exception error) {
-                if (error instanceof org.apache.axis2.AxisFault) {
-                    final org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
-                    final org.apache.axiom.om.OMElement faultElt = f.getDetail();
-                    if (faultElt != null &&
-                                CteConsultaStub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString))) {
-                        // make the fault by reflection
-                        try {
-                            final java.lang.String exceptionClassName = (java.lang.String) CteConsultaStub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString));
-                            final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
-                            final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
-                            final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
-                            // message class
-                            final java.lang.String messageClassName = (java.lang.String) CteConsultaStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString));
-                            final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                            final java.lang.Object messageObject = CteConsultaStub.this.fromOM(faultElt, messageClass);
-                            final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
-                            m.invoke(ex, messageObject);
-                            callback.receiveErrorcteConsultaCT(new java.rmi.RemoteException(ex.getMessage(), ex));
-                        } catch (final ClassCastException | org.apache.axis2.AxisFault | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
-                            // we cannot intantiate the class - throw the original Axis fault
-                            callback.receiveErrorcteConsultaCT(f);
-                        }
-                    } else {
-                        callback.receiveErrorcteConsultaCT(f);
-                    }
-                } else {
-                    callback.receiveErrorcteConsultaCT(error);
-                }
+                callbackError(error, callback);
             }
 
             @Override
@@ -259,7 +232,37 @@ public class CteConsultaStub extends org.apache.axis2.client.Stub {
                 }
             }
         };
-        return returnCallback;
+    }
+
+    private void callbackError(java.lang.Exception error, com.fincatto.documentofiscal.cte300.webservices.consulta.CteConsultaCallbackHandler callback) {
+        if (error instanceof org.apache.axis2.AxisFault) {
+            final org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
+            final org.apache.axiom.om.OMElement faultElt = f.getDetail();
+            if (faultElt != null &&
+                        CteConsultaStub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString))) {
+                // make the fault by reflection
+                try {
+                    final java.lang.String exceptionClassName = (java.lang.String) CteConsultaStub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString));
+                    final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
+                    final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
+                    final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
+                    // message class
+                    final java.lang.String messageClassName = (java.lang.String) CteConsultaStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), cteConsultaCTString));
+                    final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
+                    final java.lang.Object messageObject = CteConsultaStub.this.fromOM(faultElt, messageClass);
+                    final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
+                    m.invoke(ex, messageObject);
+                    callback.receiveErrorcteConsultaCT(new java.rmi.RemoteException(ex.getMessage(), ex));
+                } catch (final ClassCastException | org.apache.axis2.AxisFault | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
+                    // we cannot intantiate the class - throw the original Axis fault
+                    callback.receiveErrorcteConsultaCT(f);
+                }
+            } else {
+                callback.receiveErrorcteConsultaCT(f);
+            }
+        } else {
+            callback.receiveErrorcteConsultaCT(error);
+        }
     }
 
     /**

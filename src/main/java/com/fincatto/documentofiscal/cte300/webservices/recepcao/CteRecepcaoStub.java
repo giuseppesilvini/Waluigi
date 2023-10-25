@@ -16,6 +16,10 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
  */
 @SuppressWarnings({"rawtypes", "unchecked", "deprecation", "unused"})
 public class CteRecepcaoStub extends org.apache.axis2.client.Stub {
+    /**
+     *
+     */
+    private static final String CTE_RECEPCAO_LOTE = "cteRecepcaoLote";
     public static final String EXTRA_ELEMENT_CANNOT_BE_NULL = "extraElement cannot be null!!";
     public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
     public static final String CTE_DADOS_MSG = "cteDadosMsg";
@@ -55,7 +59,7 @@ public class CteRecepcaoStub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation operation;
         this.operations = new org.apache.axis2.description.AxisOperation[1];
         operation = new org.apache.axis2.description.OutInAxisOperation();
-        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO, "cteRecepcaoLote"));
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO, CTE_RECEPCAO_LOTE));
         this._service.addOperation(operation);
         this.operations[0] = operation;
     }
@@ -137,17 +141,17 @@ public class CteRecepcaoStub extends org.apache.axis2.client.Stub {
             if (faultElt == null) {
                 throw f;
             }
-            if (!this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteRecepcaoLote"))) {
+            if (!this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CTE_RECEPCAO_LOTE))) {
                 throw f;
             }
             // make the fault by reflection
             try {
-                final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteRecepcaoLote"));
+                final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CTE_RECEPCAO_LOTE));
                 final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                 final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
                 final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
                 // message class
-                final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteRecepcaoLote"));
+                final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CTE_RECEPCAO_LOTE));
                 final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                 final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                 final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
@@ -202,7 +206,7 @@ public class CteRecepcaoStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axis2.client.async.AxisCallback createCallback(com.fincatto.documentofiscal.cte300.webservices.recepcao.CteRecepcaoCallbackHandler callback, org.apache.axis2.context.MessageContext messageContext) {
-        org.apache.axis2.client.async.AxisCallback returnCallback = new org.apache.axis2.client.async.AxisCallback() {
+        return new org.apache.axis2.client.async.AxisCallback() {
             @Override
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
@@ -216,34 +220,7 @@ public class CteRecepcaoStub extends org.apache.axis2.client.Stub {
 
             @Override
             public void onError(final java.lang.Exception error) {
-                if (error instanceof org.apache.axis2.AxisFault) {
-                    final org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
-                    final org.apache.axiom.om.OMElement faultElt = f.getDetail();
-                    if (faultElt != null &&
-                                CteRecepcaoStub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteRecepcaoLote"))) {
-                        // make the fault by reflection
-                        try {
-                            final java.lang.String exceptionClassName = (java.lang.String) CteRecepcaoStub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteRecepcaoLote"));
-                            final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
-                            final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
-                            final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
-                            // message class
-                            final java.lang.String messageClassName = (java.lang.String) CteRecepcaoStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "cteRecepcaoLote"));
-                            final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                            final java.lang.Object messageObject = CteRecepcaoStub.this.fromOM(faultElt, messageClass);
-                            final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
-                            m.invoke(ex, messageObject);
-                            callback.receiveErrorcteRecepcaoLote(new java.rmi.RemoteException(ex.getMessage(), ex));
-                        } catch (final ClassCastException | org.apache.axis2.AxisFault | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
-                            // we cannot intantiate the class - throw the original Axis fault
-                            callback.receiveErrorcteRecepcaoLote(f);
-                        }
-                    } else {
-                        callback.receiveErrorcteRecepcaoLote(f);
-                    }
-                } else {
-                    callback.receiveErrorcteRecepcaoLote(error);
-                }
+                callbackError(error, callback);
             }
 
             @Override
@@ -261,7 +238,37 @@ public class CteRecepcaoStub extends org.apache.axis2.client.Stub {
                 }
             }
         };
-        return returnCallback;
+    }
+
+    private void callbackError(java.lang.Exception error, com.fincatto.documentofiscal.cte300.webservices.recepcao.CteRecepcaoCallbackHandler callback) {
+        if (error instanceof org.apache.axis2.AxisFault) {
+            final org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
+            final org.apache.axiom.om.OMElement faultElt = f.getDetail();
+            if (faultElt != null &&
+                        CteRecepcaoStub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CTE_RECEPCAO_LOTE))) {
+                // make the fault by reflection
+                try {
+                    final java.lang.String exceptionClassName = (java.lang.String) CteRecepcaoStub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CTE_RECEPCAO_LOTE));
+                    final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
+                    final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
+                    final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
+                    // message class
+                    final java.lang.String messageClassName = (java.lang.String) CteRecepcaoStub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CTE_RECEPCAO_LOTE));
+                    final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
+                    final java.lang.Object messageObject = CteRecepcaoStub.this.fromOM(faultElt, messageClass);
+                    final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
+                    m.invoke(ex, messageObject);
+                    callback.receiveErrorcteRecepcaoLote(new java.rmi.RemoteException(ex.getMessage(), ex));
+                } catch (final ClassCastException | org.apache.axis2.AxisFault | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
+                    // we cannot intantiate the class - throw the original Axis fault
+                    callback.receiveErrorcteRecepcaoLote(f);
+                }
+            } else {
+                callback.receiveErrorcteRecepcaoLote(f);
+            }
+        } else {
+            callback.receiveErrorcteRecepcaoLote(error);
+        }
     }
 
     /**
