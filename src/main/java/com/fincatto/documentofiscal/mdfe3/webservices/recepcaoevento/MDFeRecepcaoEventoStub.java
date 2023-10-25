@@ -1659,11 +1659,11 @@ public class MDFeRecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private boolean isNotStartOrEndElement (javax.xml.stream.XMLStreamReader reader) {
+            private static boolean isNotStartOrEndElement (javax.xml.stream.XMLStreamReader reader) {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            static private MdfeCabecMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
+            private static MdfeCabecMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
                 if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
                     final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                     if (fullTypeName != null) {
@@ -1683,7 +1683,7 @@ public class MDFeRecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 return null;
             }
 
-            static private MdfeCabecMsg parsePart2 (MdfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static MdfeCabecMsg parsePart2 (MdfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 String nillableValue;
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();
@@ -1700,7 +1700,7 @@ public class MDFeRecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private MdfeCabecMsg parsePart3 (MdfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static MdfeCabecMsg parsePart3 (MdfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 String nillableValue;
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();

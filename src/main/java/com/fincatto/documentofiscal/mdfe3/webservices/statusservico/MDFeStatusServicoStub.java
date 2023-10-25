@@ -23,6 +23,8 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
     /**
      *
      */
+
+    private static final String MDFE_CABEC_MSG = "mdfeCabecMsg";
     private static final String MDFE_STATUS_SERVICO_MDF = "mdfeStatusServicoMDF";
     public static final String MDFE_DADOS_MSG = "mdfeDadosMsg";
     public static final String MDFE_STATUS_SERVICO_MDF_RESULT = "mdfeStatusServicoMDFResult";
@@ -294,7 +296,11 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
     @SuppressWarnings("serial")
     public static class MdfeCabecMsgE implements org.apache.axis2.databinding.ADBBean {
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, "mdfeCabecMsg", "ns5");
+        /**
+         *
+         */
+
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, MDFE_CABEC_MSG, "ns5");
 
         /**
          * field for MdfeCabecMsg
@@ -542,7 +548,7 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     while (!reader.isEndElement()) {
                         if (reader.isStartElement()) {
-                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, "mdfeCabecMsg").equals(reader.getName())) {
+                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, MDFE_CABEC_MSG).equals(reader.getName())) {
                                 object.setMdfeCabecMsg(MdfeCabecMsg.Factory.parse(reader));
                             } // End of if for expected property start element
                             else {
@@ -568,7 +574,7 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
         }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-            if (HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO.equals(namespaceURI) && "mdfeCabecMsg".equals(typeName)) {
+            if (HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO.equals(namespaceURI) && MDFE_CABEC_MSG.equals(typeName)) {
                 return MdfeCabecMsg.Factory.parse(reader);
             }
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
@@ -1422,7 +1428,7 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
             if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                 this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":mdfeCabecMsg", xmlWriter);
             } else {
-                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "mdfeCabecMsg", xmlWriter);
+                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", MDFE_CABEC_MSG, xmlWriter);
             }
         }
 
@@ -1674,11 +1680,11 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private boolean isNotStartOrEndElement (javax.xml.stream.XMLStreamReader reader) {
+            private static boolean isNotStartOrEndElement (javax.xml.stream.XMLStreamReader reader) {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            static private MdfeCabecMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static MdfeCabecMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
                     final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                     if (fullTypeName != null) {
@@ -1688,7 +1694,7 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
                         }
                         nsPrefix = nsPrefix == null ? "" : nsPrefix;
                         final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                        if (!"mdfeCabecMsg".equals(type)) {
+                        if (!MDFE_CABEC_MSG.equals(type)) {
                             // find namespace for the prefix
                             final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                             return (MdfeCabecMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -1698,7 +1704,7 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
                 return null;
             }
 
-            static private MdfeCabecMsg parsePart2 (MdfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static MdfeCabecMsg parsePart2 (MdfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 String nillableValue;
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();
@@ -1715,7 +1721,7 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private MdfeCabecMsg parsePart3 (MdfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static MdfeCabecMsg parsePart3 (MdfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 String nillableValue;
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();

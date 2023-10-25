@@ -3,7 +3,6 @@
  */
 package com.fincatto.documentofiscal.mdfe3.webservices.consulta;
 
-import com.fincatto.documentofiscal.nfe310.webservices.downloadnf.NfeDownloadNFStub.NfeCabecMsg;
 import com.fincatto.documentofiscal.nfe310.webservices.nota.consulta.NfeConsultaStub;
 import org.apache.axiom.om.OMAttribute;
 import org.apache.axis2.client.Stub;
@@ -1337,11 +1336,11 @@ public class MDFeConsultaStub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private boolean isNotStartOrEndElement (final javax.xml.stream.XMLStreamReader reader) {
+            private static boolean isNotStartOrEndElement (final javax.xml.stream.XMLStreamReader reader) {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            static private MdfeCabecMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static MdfeCabecMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
                     final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                     if (fullTypeName != null) {
@@ -1361,7 +1360,7 @@ public class MDFeConsultaStub extends org.apache.axis2.client.Stub {
                 return null;
             }
 
-            static private MdfeCabecMsg parsePart2 (MdfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static MdfeCabecMsg parsePart2 (MdfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 java.lang.String nillableValue;
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();
@@ -1378,7 +1377,7 @@ public class MDFeConsultaStub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private MdfeCabecMsg parsePart3 (MdfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static MdfeCabecMsg parsePart3 (MdfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 java.lang.String nillableValue;
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();
