@@ -17,6 +17,7 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 @SuppressWarnings({"rawtypes", "unchecked", "deprecation", "unused"})
 public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
 
+    private static final String EXTRA_ELEMENT_CANNOT_BE_NULL = "extraElement cannot be null!!";
     private static final String UTILITY_CLASS = "Utility class";
     public static final String VERSAO_DADOS = "versaoDados";
     public static final String CTE_STATUS_SERVICO_CT_RESULT = "cteStatusServicoCTResult";
@@ -310,6 +311,7 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
     }
 
     public static class CteDadosMsg implements org.apache.axis2.databinding.ADBBean {
+
         private static final long serialVersionUID = 2750586338028444859L;
 
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_STATUS_SERVICO, CTE_DADOS_MSG, "");
@@ -372,7 +374,7 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
             if (this.localExtraElement != null) {
                 this.localExtraElement.serialize(xmlWriter);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             xmlWriter.writeEndElement();
         }
@@ -543,7 +545,7 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
                 elementList.add(org.apache.axis2.databinding.utils.Constants.OM_ELEMENT_KEY);
                 elementList.add(this.localExtraElement);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName, elementList.toArray(), attribList.toArray());
         }

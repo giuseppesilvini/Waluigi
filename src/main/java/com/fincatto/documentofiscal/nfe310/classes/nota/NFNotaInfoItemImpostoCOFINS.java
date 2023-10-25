@@ -5,6 +5,8 @@ import org.simpleframework.xml.Element;
 import com.fincatto.documentofiscal.DFBase;
 
 public class NFNotaInfoItemImpostoCOFINS extends DFBase {
+
+    private static final String ALIQUOTA_QUANTIDADE_NAO_TRIBUTAVEL_E_OUTRAS_OPERACOES_SAO_MUTUAMENTE_EXCLUSIVOS = "Aliquota, quantidade, nao tributavel e outras operacoes sao mutuamente exclusivos";
     private static final long serialVersionUID = -2776137091542174644L;
 
     @Element(name = "COFINSAliq", required = false)
@@ -21,28 +23,28 @@ public class NFNotaInfoItemImpostoCOFINS extends DFBase {
 
     public void setAliquota(final NFNotaInfoItemImpostoCOFINSAliquota aliquota) {
         if (this.quantidade != null || this.naoTributavel != null || this.outrasOperacoes != null) {
-            throw new IllegalStateException("Aliquota, quantidade, nao tributavel e outras operacoes sao mutuamente exclusivos");
+            throw new IllegalStateException(ALIQUOTA_QUANTIDADE_NAO_TRIBUTAVEL_E_OUTRAS_OPERACOES_SAO_MUTUAMENTE_EXCLUSIVOS);
         }
         this.aliquota = aliquota;
     }
 
     public void setQuantidade(final NFNotaInfoItemImpostoCOFINSQuantidade quantidade) {
         if (this.aliquota != null || this.naoTributavel != null || this.outrasOperacoes != null) {
-            throw new IllegalStateException("Aliquota, quantidade, nao tributavel e outras operacoes sao mutuamente exclusivos");
+            throw new IllegalStateException(ALIQUOTA_QUANTIDADE_NAO_TRIBUTAVEL_E_OUTRAS_OPERACOES_SAO_MUTUAMENTE_EXCLUSIVOS);
         }
         this.quantidade = quantidade;
     }
 
     public void setNaoTributavel(final NFNotaInfoItemImpostoCOFINSNaoTributavel naoTributavel) {
         if (this.quantidade != null || this.aliquota != null || this.outrasOperacoes != null) {
-            throw new IllegalStateException("Aliquota, quantidade, nao tributavel e outras operacoes sao mutuamente exclusivos");
+            throw new IllegalStateException(ALIQUOTA_QUANTIDADE_NAO_TRIBUTAVEL_E_OUTRAS_OPERACOES_SAO_MUTUAMENTE_EXCLUSIVOS);
         }
         this.naoTributavel = naoTributavel;
     }
 
     public void setOutrasOperacoes(final NFNotaInfoItemImpostoCOFINSOutrasOperacoes outrasOperacoes) {
         if (this.quantidade != null || this.naoTributavel != null || this.aliquota != null) {
-            throw new IllegalStateException("Aliquota, quantidade, nao tributavel e outras operacoes sao mutuamente exclusivos");
+            throw new IllegalStateException(ALIQUOTA_QUANTIDADE_NAO_TRIBUTAVEL_E_OUTRAS_OPERACOES_SAO_MUTUAMENTE_EXCLUSIVOS);
         }
         this.outrasOperacoes = outrasOperacoes;
     }

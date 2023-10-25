@@ -447,30 +447,38 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 // we have to store this data until last moment since it is not possible to write any
                 // namespace data after writing the charactor data
                 final StringBuilder stringToWrite = new StringBuilder();
-                java.lang.String namespaceURI;
-                java.lang.String prefix;
+                
                 for (int i = 0; i < qnames.length; i++) {
                     if (i > 0) {
                         stringToWrite.append(" ");
                     }
-                    namespaceURI = qnames[i].getNamespaceURI();
-                    if (namespaceURI != null) {
-                        prefix = xmlWriter.getPrefix(namespaceURI);
-                        if ((prefix == null) || (prefix.length() == 0)) {
-                            prefix = CteCabecMsgE.generatePrefix(namespaceURI);
-                            xmlWriter.writeNamespace(prefix, namespaceURI);
-                            xmlWriter.setPrefix(prefix, namespaceURI);
-                        }
-                        if (prefix.trim().length() > 0) {
-                            stringToWrite.append(prefix).append(":").append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                        } else {
-                            stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                        }
-                    } else {
-                        stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                    }
+                    writeQNamesPart2(qnames, i, xmlWriter, stringToWrite);
                 }
                 xmlWriter.writeCharacters(stringToWrite.toString());
+            }
+        }
+
+        private void writeQNamesPart2(javax.xml.namespace.QName[] qnames, int i, javax.xml.stream.XMLStreamWriter xmlWriter, StringBuilder stringToWrite) 
+            throws XMLStreamException
+        {
+            java.lang.String namespaceURI;
+            java.lang.String prefix;
+
+            namespaceURI = qnames[i].getNamespaceURI();
+            if (namespaceURI != null) {
+                prefix = xmlWriter.getPrefix(namespaceURI);
+                if ((prefix == null) || (prefix.length() == 0)) {
+                    prefix = CteCabecMsgE.generatePrefix(namespaceURI);
+                    xmlWriter.writeNamespace(prefix, namespaceURI);
+                    xmlWriter.setPrefix(prefix, namespaceURI);
+                }
+                if (prefix.trim().length() > 0) {
+                    stringToWrite.append(prefix).append(":").append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
+                } else {
+                    stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
+                }
+            } else {
+                stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
             }
         }
 
@@ -718,30 +726,38 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 // we have to store this data until last moment since it is not possible to write any
                 // namespace data after writing the charactor data
                 final StringBuilder stringToWrite = new StringBuilder();
-                java.lang.String namespaceURI;
-                java.lang.String prefix;
+                
                 for (int i = 0; i < qnames.length; i++) {
                     if (i > 0) {
                         stringToWrite.append(" ");
                     }
-                    namespaceURI = qnames[i].getNamespaceURI();
-                    if (namespaceURI != null) {
-                        prefix = xmlWriter.getPrefix(namespaceURI);
-                        if ((prefix == null) || (prefix.length() == 0)) {
-                            prefix = CteRecepcaoEventoResult.generatePrefix(namespaceURI);
-                            xmlWriter.writeNamespace(prefix, namespaceURI);
-                            xmlWriter.setPrefix(prefix, namespaceURI);
-                        }
-                        if (prefix.trim().length() > 0) {
-                            stringToWrite.append(prefix).append(":").append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                        } else {
-                            stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                        }
-                    } else {
-                        stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
-                    }
+                    writeQNamesPart2(qnames, i, xmlWriter, stringToWrite);
                 }
                 xmlWriter.writeCharacters(stringToWrite.toString());
+            }
+        }
+
+        private void writeQNamesPart2(javax.xml.namespace.QName[] qnames, int i, javax.xml.stream.XMLStreamWriter xmlWriter, StringBuilder stringToWrite)
+            throws XMLStreamException
+        {
+            java.lang.String namespaceURI;
+            java.lang.String prefix;
+            
+            namespaceURI = qnames[i].getNamespaceURI();
+            if (namespaceURI != null) {
+                prefix = xmlWriter.getPrefix(namespaceURI);
+                if ((prefix == null) || (prefix.length() == 0)) {
+                    prefix = CteRecepcaoEventoResult.generatePrefix(namespaceURI);
+                    xmlWriter.writeNamespace(prefix, namespaceURI);
+                    xmlWriter.setPrefix(prefix, namespaceURI);
+                }
+                if (prefix.trim().length() > 0) {
+                    stringToWrite.append(prefix).append(":").append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
+                } else {
+                    stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
+                }
+            } else {
+                stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
             }
         }
 

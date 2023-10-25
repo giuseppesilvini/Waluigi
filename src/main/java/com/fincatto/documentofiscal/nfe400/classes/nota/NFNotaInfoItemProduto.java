@@ -15,6 +15,9 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public class NFNotaInfoItemProduto extends DFBase {
+
+    private static final String VEICULOS_MEDICAMENTOS_ARMAMENTOS_RECOPI_E_COMBUSTIVEL_SAO_MUTUAMENTE_EXCLUSIVOS = "veiculos, medicamentos, armamentos, RECOPI e combustivel sao mutuamente exclusivos";
+
     private static final long serialVersionUID = -2271625077897052364L;
     
     @Element(name = "cProd")
@@ -237,14 +240,14 @@ public class NFNotaInfoItemProduto extends DFBase {
 
     public void setMedicamento(final NFNotaInfoItemProdutoMedicamento medicamento) {
         if (this.veiculo != null || this.armamentos != null || this.combustivel != null || this.numeroRECOPI != null) {
-            throw new IllegalStateException("veiculos, medicamentos, armamentos, RECOPI e combustivel sao mutuamente exclusivos");
+            throw new IllegalStateException(VEICULOS_MEDICAMENTOS_ARMAMENTOS_RECOPI_E_COMBUSTIVEL_SAO_MUTUAMENTE_EXCLUSIVOS);
         }
         this.medicamento = medicamento;
     }
 
     public void setArmamentos(final List<NFNotaInfoItemProdutoArmamento> armamentos) {
         if (this.medicamento != null || this.veiculo != null || this.combustivel != null || this.numeroRECOPI != null) {
-            throw new IllegalStateException("veiculos, medicamentos, armamentos, RECOPI e combustivel sao mutuamente exclusivos");
+            throw new IllegalStateException(VEICULOS_MEDICAMENTOS_ARMAMENTOS_RECOPI_E_COMBUSTIVEL_SAO_MUTUAMENTE_EXCLUSIVOS);
         }
         DFListValidador.tamanho500(armamentos, "Armamentos Produto");
         this.armamentos = armamentos;
@@ -252,7 +255,7 @@ public class NFNotaInfoItemProduto extends DFBase {
 
     public void setCombustivel(final NFNotaInfoItemProdutoCombustivel combustivel) {
         if (this.medicamento != null || this.armamentos != null || this.veiculo != null || this.numeroRECOPI != null) {
-            throw new IllegalStateException("veiculos, medicamentos, armamentos, RECOPI e combustivel sao mutuamente exclusivos");
+            throw new IllegalStateException(VEICULOS_MEDICAMENTOS_ARMAMENTOS_RECOPI_E_COMBUSTIVEL_SAO_MUTUAMENTE_EXCLUSIVOS);
         }
         this.combustivel = combustivel;
     }
@@ -276,7 +279,7 @@ public class NFNotaInfoItemProduto extends DFBase {
 
     public void setNumeroRECOPI(final String numeroRECOPI) {
         if (this.medicamento != null || this.armamentos != null || this.veiculo != null || this.combustivel != null) {
-            throw new IllegalStateException("veiculos, medicamentos, armamentos, RECOPI e combustivel sao mutuamente exclusivos");
+            throw new IllegalStateException(VEICULOS_MEDICAMENTOS_ARMAMENTOS_RECOPI_E_COMBUSTIVEL_SAO_MUTUAMENTE_EXCLUSIVOS);
         }
         DFStringValidador.exatamente20N(numeroRECOPI, "Numero RECOPI Produto");
         this.numeroRECOPI = numeroRECOPI;

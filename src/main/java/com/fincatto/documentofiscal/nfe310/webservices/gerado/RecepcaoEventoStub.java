@@ -20,6 +20,8 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 
 public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
 
+    private static final String VERSAO_DADOS = "versaoDados";
+    private static final String EXTRA_ELEMENT_CANNOT_BE_NULL = "extraElement cannot be null!!";
     private static final String UTILITY_CLASS = "Utility class";
     public static final String NFE_CABEC_MSG = "nfeCabecMsg";
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
@@ -155,10 +157,9 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
 
     // https://nfe.sefazvirtual.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx
     public static class NfeDadosMsg implements org.apache.axis2.databinding.ADBBean {
+
         private static final long serialVersionUID = 7332017688778139531L;
-
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, NFE_DADOS_MSG, "");
-
         protected transient org.apache.axiom.om.OMElement localExtraElement;
 
         public org.apache.axiom.om.OMElement getExtraElement() {
@@ -198,7 +199,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
             if (this.localExtraElement != null) {
                 this.localExtraElement.serialize(xmlWriter);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             xmlWriter.writeEndElement();
         }
@@ -260,7 +261,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 elementList.add(org.apache.axis2.databinding.utils.Constants.OM_ELEMENT_KEY);
                 elementList.add(this.localExtraElement);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName, elementList.toArray(), attribList.toArray());
         }
@@ -727,7 +728,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
             }
             if (this.localVersaoDadosTracker) {
                 namespace = HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO;
-                this.writeStartElement(null, namespace, "versaoDados", xmlWriter);
+                this.writeStartElement(null, namespace, VERSAO_DADOS, xmlWriter);
                 if (this.localVersaoDados == null) {
                     // write the nil attribute
                     throw new org.apache.axis2.databinding.ADBException("versaoDados cannot be null!!");
@@ -818,7 +819,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 }
             }
             if (this.localVersaoDadosTracker) {
-                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, "versaoDados"));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, VERSAO_DADOS));
                 if (this.localVersaoDados != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localVersaoDados));
                 } else {
@@ -928,10 +929,10 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();
                 }
-                if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, "versaoDados").equals(reader.getName())) {
+                if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_RECEPCAO_EVENTO, VERSAO_DADOS).equals(reader.getName())) {
                     nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                     if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
-                        throw new org.apache.axis2.databinding.ADBException("The element: " + "versaoDados" + "  cannot be null");
+                        throw new org.apache.axis2.databinding.ADBException("The element: " + VERSAO_DADOS + "  cannot be null");
                     }
                     final java.lang.String content = reader.getElementText();
                     object.setVersaoDados(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));

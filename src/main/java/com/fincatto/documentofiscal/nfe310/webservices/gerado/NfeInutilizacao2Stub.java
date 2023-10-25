@@ -14,6 +14,7 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 
 public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
 
+    private static final String EXTRA_ELEMENT_CANNOT_BE_NULL = "extraElement cannot be null!!";
     private static final String UTILITY_CLASS = "Utility class";
     public static final String NFE_CABEC_MSG = "nfeCabecMsg";
     public static final String NFE_INUTILIZACAO_NF_2_RESULT = "nfeInutilizacaoNF2Result";
@@ -150,6 +151,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
 
     // https://nfe.sefazvirtual.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao2.asmx
     public static class NfeInutilizacaoNF2Result implements org.apache.axis2.databinding.ADBBean {
+
         private static final long serialVersionUID = -5156456883095840793L;
 
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_INUTILIZACAO_2, NFE_INUTILIZACAO_NF_2_RESULT, "");
@@ -193,7 +195,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
             if (this.localExtraElement != null) {
                 this.localExtraElement.serialize(xmlWriter);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             xmlWriter.writeEndElement();
         }
@@ -254,7 +256,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
                 elementList.add(org.apache.axis2.databinding.utils.Constants.OM_ELEMENT_KEY);
                 elementList.add(this.localExtraElement);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName, elementList.toArray(), new Object[]{});
         }
@@ -610,6 +612,9 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
     }
 
     public static class NfeCabecMsg implements org.apache.axis2.databinding.ADBBean {
+
+        private static final String VERSAO_DADOS_CANNOT_BE_NULL = "versaoDados cannot be null!!";
+
         private static final long serialVersionUID = -5528740111615359741L;
 
         protected java.lang.String localCUF;
@@ -724,7 +729,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
                 this.writeStartElement(null, namespace, "versaoDados", xmlWriter);
                 if (this.localVersaoDados == null) {
                     // write the nil attribute
-                    throw new org.apache.axis2.databinding.ADBException("versaoDados cannot be null!!");
+                    throw new org.apache.axis2.databinding.ADBException(VERSAO_DADOS_CANNOT_BE_NULL);
                 } else {
                     xmlWriter.writeCharacters(this.localVersaoDados);
                 }
@@ -816,7 +821,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
                 if (this.localVersaoDados != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localVersaoDados));
                 } else {
-                    throw new org.apache.axis2.databinding.ADBException("versaoDados cannot be null!!");
+                    throw new org.apache.axis2.databinding.ADBException(VERSAO_DADOS_CANNOT_BE_NULL);
                 }
             }
             for (OMAttribute localExtraAttribute : this.localExtraAttributes) {

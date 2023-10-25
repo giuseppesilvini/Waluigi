@@ -9,7 +9,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import com.fincatto.documentofiscal.nfe310.FabricaDeObjetosFake;
-import com.fincatto.documentofiscal.nfe310.classes.nota.NFNotaInfoItemProdutoDeclaracaoImportacaoAdicao;
 
 public class NFNotaInfoItemProdutoDeclaracaoImportacaoAdicaoTest {
 
@@ -51,6 +50,7 @@ public class NFNotaInfoItemProdutoDeclaracaoImportacaoAdicaoTest {
         importacaoAdicao.setSequencial(999);
         importacaoAdicao.setNumeroAtoConcessorioDrawback(new BigInteger("99999999999"));
         importacaoAdicao.toString();
+        Assert.assertNotNull(importacaoAdicao);
     }
 
     @Test

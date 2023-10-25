@@ -24,6 +24,7 @@ import java.util.List;
 @SuppressWarnings({"rawtypes", "unchecked", "unused"})
 public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
 
+    private static final String EXTRA_ELEMENT_CANNOT_BE_NULL = "extraElement cannot be null!!";
     private static final String UTILITY_CLASS = "Utility class";
     public static final String NFE_DOWNLOAD_NF_RESULT = "nfeDownloadNFResult";
     public static final String VERSAO_DADOS = "versaoDados";
@@ -299,6 +300,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
 
     // https://www.nfe.fazenda.gov.br/NfeDownloadNF/NfeDownloadNF.asmx
     public static class NfeDadosMsg implements org.apache.axis2.databinding.ADBBean {
+
         private static final long serialVersionUID = -6125867823526921405L;
 
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DOWNLOAD_NF, NFE_DADOS_MSG, "");
@@ -361,7 +363,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
             if (this.localExtraElement != null) {
                 this.localExtraElement.serialize(xmlWriter);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             xmlWriter.writeEndElement();
         }
@@ -532,7 +534,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
                 elementList.add(org.apache.axis2.databinding.utils.Constants.OM_ELEMENT_KEY);
                 elementList.add(this.localExtraElement);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName, elementList.toArray(), attribList.toArray());
         }

@@ -10,6 +10,9 @@ import java.lang.reflect.InvocationTargetException;
 import java.math.BigDecimal;
 
 public class NFNotaInfoItemImposto extends DFBase {
+
+    private static final String ICMS_IPI_E_II_SAO_MUTUAMENTE_EXCLUSIVO_COM_ISSQN = "ICMS, IPI e II sao mutuamente exclusivo com ISSQN";
+
     private static final long serialVersionUID = 8579628067567740408L;
 
     @Element(name = "vTotTrib", required = false)
@@ -44,7 +47,7 @@ public class NFNotaInfoItemImposto extends DFBase {
 
     public void setIcms(final NFNotaInfoItemImpostoICMS icms) {
         if (this.issqn != null) {
-            throw new IllegalStateException("ICMS, IPI e II sao mutuamente exclusivo com ISSQN");
+            throw new IllegalStateException(ICMS_IPI_E_II_SAO_MUTUAMENTE_EXCLUSIVO_COM_ISSQN);
         }
         try {
             DFStringValidador.validaPreenchimentoDeMargemValorAgregado(icms);
@@ -57,21 +60,21 @@ public class NFNotaInfoItemImposto extends DFBase {
 
     public void setIpi(final NFNotaInfoItemImpostoIPI ipi) {
         if (this.issqn != null) {
-            throw new IllegalStateException("ICMS, IPI e II sao mutuamente exclusivo com ISSQN");
+            throw new IllegalStateException(ICMS_IPI_E_II_SAO_MUTUAMENTE_EXCLUSIVO_COM_ISSQN);
         }
         this.ipi = ipi;
     }
 
     public void setImpostoImportacao(final NFNotaInfoItemImpostoImportacao impostoImportacao) {
         if (this.issqn != null) {
-            throw new IllegalStateException("ICMS, IPI e II sao mutuamente exclusivo com ISSQN");
+            throw new IllegalStateException(ICMS_IPI_E_II_SAO_MUTUAMENTE_EXCLUSIVO_COM_ISSQN);
         }
         this.impostoImportacao = impostoImportacao;
     }
 
     public void setIssqn(final NFNotaInfoItemImpostoISSQN issqn) {
         if (this.icms != null || this.ipi != null || this.impostoImportacao != null) {
-            throw new IllegalStateException("ICMS, IPI e II sao mutuamente exclusivo com ISSQN");
+            throw new IllegalStateException(ICMS_IPI_E_II_SAO_MUTUAMENTE_EXCLUSIVO_COM_ISSQN);
         }
         this.issqn = issqn;
     }

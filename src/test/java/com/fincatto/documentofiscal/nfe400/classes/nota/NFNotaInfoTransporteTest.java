@@ -45,28 +45,6 @@ public class NFNotaInfoTransporteTest {
     }
 
     @Test
-    public void devePermitirVagaoNulo() {
-        final NFNotaInfoTransporte transporte = new NFNotaInfoTransporte();
-        assertNotNull(transporte);
-        transporte.setIcmsTransporte(FabricaDeObjetosFake.getNFNotaInfoRetencaoICMSTransporte());
-        transporte.setModalidadeFrete(NFModalidadeFrete.SEM_OCORRENCIA_TRANSPORTE);
-        transporte.setReboques(Collections.singletonList(FabricaDeObjetosFake.getNFNotaInfoReboque()));
-        transporte.setTransportador(FabricaDeObjetosFake.getNFNotaInfoTransportador());
-        transporte.toString();
-    }
-
-    @Test
-    public void devePermitirVolumesNulo() {
-        final NFNotaInfoTransporte transporte = new NFNotaInfoTransporte();
-        assertNotNull(transporte);
-        transporte.setIcmsTransporte(FabricaDeObjetosFake.getNFNotaInfoRetencaoICMSTransporte());
-        transporte.setModalidadeFrete(NFModalidadeFrete.SEM_OCORRENCIA_TRANSPORTE);
-        transporte.setReboques(Collections.singletonList(FabricaDeObjetosFake.getNFNotaInfoReboque()));
-        transporte.setTransportador(FabricaDeObjetosFake.getNFNotaInfoTransportador());
-        transporte.toString();
-    }
-
-    @Test
     public void devePermitirReboqueNulo() {
         final NFNotaInfoTransporte transporte = new NFNotaInfoTransporte();
         assertNotNull(transporte);

@@ -1088,8 +1088,9 @@ public class NFNotaInfoItemProdutoTest {
     public void naoDevePermitirSetarVeiculoCasoArmamentoOuCombustivelOuRECOPISetado() {
         final NFNotaInfoItemProduto produto1 = new NFNotaInfoItemProduto();
         produto1.setNumeroRECOPI("13245678901234567890");
+        NFNotaInfoItemProdutoVeiculo veiculo1 = new NFNotaInfoItemProdutoVeiculo();
         try {
-            produto1.setVeiculo(new NFNotaInfoItemProdutoVeiculo());
+            produto1.setVeiculo(veiculo1);
             Assert.fail();
         } catch (final IllegalStateException ignored) {
         }

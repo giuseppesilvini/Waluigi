@@ -2,9 +2,10 @@ package com.fincatto.documentofiscal.nfe310.classes.evento.cancelamento;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import com.fincatto.documentofiscal.nfe310.FabricaDeObjetosFake;
-import com.fincatto.documentofiscal.nfe310.classes.evento.cancelamento.NFInfoCancelamento;
 
 public class NFInfoCancelamentoTest {
 
@@ -16,24 +17,11 @@ public class NFInfoCancelamentoTest {
         Assert.assertEquals(protocoloAutorizacao, infoCancelamento.getProtocoloAutorizacao());
     }
 
-    @Test(expected = IllegalStateException.class)
-    public void naoDevePermitirProtocoloAutorizacaoVazio() {
+    @ParameterizedTest
+    @ValueSource(strings = {"", "123456789A12345", "1234567890123456"})
+    public void naoDevePermitirProtocoloAutorizacaoParametrized() {
         final NFInfoCancelamento infoCancelamento = new NFInfoCancelamento();
         final String protocoloAutorizacao = "";
-        infoCancelamento.setProtocoloAutorizacao(protocoloAutorizacao);
-    }
-
-    @Test(expected = IllegalStateException.class)
-    public void naoDevePermitirProtocoloAutorizacaoComLetras() {
-        final NFInfoCancelamento infoCancelamento = new NFInfoCancelamento();
-        final String protocoloAutorizacao = "123456789A12345";
-        infoCancelamento.setProtocoloAutorizacao(protocoloAutorizacao);
-    }
-
-    @Test(expected = IllegalStateException.class)
-    public void naoDevePermitirProtocoloAutorizacaoComTamanhoExtrapolado() {
-        final NFInfoCancelamento infoCancelamento = new NFInfoCancelamento();
-        final String protocoloAutorizacao = "1234567890123456";
         infoCancelamento.setProtocoloAutorizacao(protocoloAutorizacao);
     }
 
