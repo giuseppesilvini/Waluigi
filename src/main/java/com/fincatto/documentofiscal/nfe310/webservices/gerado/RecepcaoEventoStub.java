@@ -9,6 +9,8 @@ import java.lang.reflect.Constructor;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.xml.stream.XMLStreamException;
+
 import com.fincatto.documentofiscal.DFConfig;
 import com.fincatto.documentofiscal.utils.MessageContextFactory;
 
@@ -286,7 +288,6 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
                     nextReader(reader);
                     if (reader.isStartElement()) {
@@ -313,7 +314,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            private static void nextReader(javax.xml.stream.XMLStreamReader reader) throws Exception {
+            private static void nextReader(javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 while (!reader.isStartElement() && !reader.isEndElement()) {
                     reader.next();
                 }
@@ -337,7 +338,8 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 if (fullTypeName.contains(":")) {
                     nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
                 }
-                return nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                return nsPrefix;
             }
 
         }// end of factory class
@@ -484,7 +486,6 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                     }
                     // Note all attributes that were handled. Used to differ normal attributes
                     // from anyAttributes.
-                    final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     reader.next();
                     nextReader(reader);
                     if (reader.isStartElement()) {
@@ -511,7 +512,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            private static void nextReader(javax.xml.stream.XMLStreamReader reader) throws Exception {
+            private static void nextReader(javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 while (!reader.isStartElement() && !reader.isEndElement()) {
                     reader.next();
                 }
@@ -535,7 +536,8 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
                 if (fullTypeName.contains(":")) {
                     nsPrefix = fullTypeName.substring(0, fullTypeName.indexOf(":"));
                 }
-                return nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                nsPrefix = nsPrefix == null ? "" : nsPrefix;
+                return nsPrefix;
             }
 
         }// end of factory class
