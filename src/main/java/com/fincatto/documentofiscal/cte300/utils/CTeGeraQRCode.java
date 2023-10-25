@@ -1,5 +1,11 @@
 package com.fincatto.documentofiscal.cte300.utils;
 
+import java.security.InvalidKeyException;
+import java.security.KeyStoreException;
+import java.security.NoSuchAlgorithmException;
+import java.security.SignatureException;
+import java.security.UnrecoverableEntryException;
+
 import com.fincatto.documentofiscal.cte300.CTeConfig;
 import com.fincatto.documentofiscal.cte300.classes.CTAutorizador31;
 import com.fincatto.documentofiscal.cte300.classes.CTTipoEmissao;
@@ -14,7 +20,9 @@ public class CTeGeraQRCode {
         this.config = config;
     }
 
-    public String getQRCode(CTeNota cTeNota) throws Exception {
+    public String getQRCode(CTeNota cTeNota)
+        throws NoSuchAlgorithmException, UnrecoverableEntryException, KeyStoreException, InvalidKeyException, SignatureException
+    {
         String chaveAcesso = cTeNota.getCteNotaInfo().getChaveAcesso();
         String url = CTAutorizador31.valueOfChaveAcesso(chaveAcesso).getCteQrCode(this.config.getAmbiente());
         final StringBuilder parametros = new StringBuilder();

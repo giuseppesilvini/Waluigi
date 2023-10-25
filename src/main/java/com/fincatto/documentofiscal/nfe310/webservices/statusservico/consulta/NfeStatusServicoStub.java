@@ -13,6 +13,7 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 @SuppressWarnings({"rawtypes", "unchecked", "serial", "unused", "deprecation"})
 public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
 
+    private static final String EXTRA_ELEMENT_CANNOT_BE_NULL = "extraElement cannot be null!!";
     private static final String UTILITY_CLASS = "Utility class";
     public static final String NFE_STATUS_SERVICO_NF_RESULT = "nfeStatusServicoNFResult";
     public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
@@ -397,9 +398,9 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
 
         private void serializeCheckPrefix(java.lang.String namespacePrefix, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
+                writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
             } else {
-                writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_CABEC_MSG, xmlWriter);
+                writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", NFE_CABEC_MSG, xmlWriter);
             }
         }
 
@@ -1039,7 +1040,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
             if (localExtraElement != null) {
                 localExtraElement.serialize(xmlWriter);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             xmlWriter.writeEndElement();
         }
@@ -1294,7 +1295,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
                 elementList.add(org.apache.axis2.databinding.utils.Constants.OM_ELEMENT_KEY);
                 elementList.add(this.localExtraElement);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName, elementList.toArray(), attribList.toArray());
         }
@@ -1356,7 +1357,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
             if (localExtraElement != null) {
                 localExtraElement.serialize(xmlWriter);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             xmlWriter.writeEndElement();
         }
@@ -1611,7 +1612,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
                 elementList.add(org.apache.axis2.databinding.utils.Constants.OM_ELEMENT_KEY);
                 elementList.add(this.localExtraElement);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName, elementList.toArray(), attribList.toArray());
         }

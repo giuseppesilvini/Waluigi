@@ -14,6 +14,8 @@ import org.apache.axis2.databinding.ADBException;
  */
 public class NFeRetAutorizacao4Stub extends org.apache.axis2.client.Stub {
 
+    private static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
+    private static final String HTTP_WWW_W3_ORG_2001_XML_SCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
     private static final String UTILITY_CLASS = "Utility class";
     private static final String NFE_RET_AUTORIZACAO_LOTE = "nfeRetAutorizacaoLote";
     private static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_RET_AUTORIZACAO4 = "http://www.portalfiscal.inf.br/nfe/wsdl/NFeRetAutorizacao4";
@@ -183,7 +185,10 @@ public class NFeRetAutorizacao4Stub extends org.apache.axis2.client.Stub {
 
     @SuppressWarnings("serial")
     public static class NfeDadosMsg implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_RET_AUTORIZACAO4, "nfeDadosMsg", "ns1");
+
+        private static final String NFE_DADOS_MSG = "nfeDadosMsg";
+
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_RET_AUTORIZACAO4, NFE_DADOS_MSG, "ns1");
 
         /**
          * field for ExtraElement
@@ -233,9 +238,9 @@ public class NFeRetAutorizacao4Stub extends org.apache.axis2.client.Stub {
             if (serializeType) {
                 final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_RET_AUTORIZACAO4);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
+                    this.writeAttribute("xsi", HTTP_WWW_W3_ORG_2001_XML_SCHEMA_INSTANCE, "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "nfeDadosMsg", xmlWriter);
+                    this.writeAttribute("xsi", HTTP_WWW_W3_ORG_2001_XML_SCHEMA_INSTANCE, "type", NFE_DADOS_MSG, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -311,6 +316,7 @@ public class NFeRetAutorizacao4Stub extends org.apache.axis2.client.Stub {
          * Factory class that keeps the parse method
          */
         public static class Factory {
+
             private Factory() {
                 throw new IllegalStateException(UTILITY_CLASS);
             }
@@ -355,14 +361,14 @@ public class NFeRetAutorizacao4Stub extends org.apache.axis2.client.Stub {
                     } // End of if for expected property start element
                     else {
                         // 1 - A start element we are not expecting indicates an invalid parameter was passed
-                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                        throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                     while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
                         // 2 - A start element we are not expecting indicates a trailing invalid property
-                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                        throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
                     throw new javax.xml.stream.XMLStreamException(e);
@@ -375,8 +381,8 @@ public class NFeRetAutorizacao4Stub extends org.apache.axis2.client.Stub {
             }
 
             static private NfeDadosMsg parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-                if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                    final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                if (reader.getAttributeValue(HTTP_WWW_W3_ORG_2001_XML_SCHEMA_INSTANCE, "type") != null) {
+                    final java.lang.String fullTypeName = reader.getAttributeValue(HTTP_WWW_W3_ORG_2001_XML_SCHEMA_INSTANCE, "type");
                     if (fullTypeName != null) {
                         java.lang.String nsPrefix = null;
                         if (fullTypeName.contains(":")) {
@@ -384,7 +390,7 @@ public class NFeRetAutorizacao4Stub extends org.apache.axis2.client.Stub {
                         }
                         nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
                         final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                        if (!"nfeDadosMsg".equals(type)) {
+                        if (!NFE_DADOS_MSG.equals(type)) {
                             // find namespace for the prefix
                             final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                             return (NfeDadosMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -453,9 +459,9 @@ public class NFeRetAutorizacao4Stub extends org.apache.axis2.client.Stub {
             if (serializeType) {
                 final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_RET_AUTORIZACAO4);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeResultMsg", xmlWriter);
+                    this.writeAttribute("xsi", HTTP_WWW_W3_ORG_2001_XML_SCHEMA_INSTANCE, "type", namespacePrefix + ":nfeResultMsg", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", NFE_RESULT_MSG, xmlWriter);
+                    this.writeAttribute("xsi", HTTP_WWW_W3_ORG_2001_XML_SCHEMA_INSTANCE, "type", NFE_RESULT_MSG, xmlWriter);
                 }
             }
             if (this.localExtraElement != null) {
@@ -553,7 +559,7 @@ public class NFeRetAutorizacao4Stub extends org.apache.axis2.client.Stub {
                         reader.next();
                     }
                     currentQName = reader.getName();
-                    nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "nil");
+                    nillableValue = reader.getAttributeValue(HTTP_WWW_W3_ORG_2001_XML_SCHEMA_INSTANCE, "nil");
                     if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
                         // Skip the element and report the null value. It cannot have subelements.
                         while (!reader.isEndElement()) {
@@ -603,8 +609,8 @@ public class NFeRetAutorizacao4Stub extends org.apache.axis2.client.Stub {
             }
 
             private static NfeResultMsg parsePart1(javax.xml.stream.XMLStreamReader reader) throws ADBException {
-                if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type") != null) {
-                    final java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance", "type");
+                if (reader.getAttributeValue(HTTP_WWW_W3_ORG_2001_XML_SCHEMA_INSTANCE, "type") != null) {
+                    final java.lang.String fullTypeName = reader.getAttributeValue(HTTP_WWW_W3_ORG_2001_XML_SCHEMA_INSTANCE, "type");
                     if (fullTypeName != null) {
                         java.lang.String nsPrefix = null;
                         if (fullTypeName.contains(":")) {

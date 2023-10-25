@@ -70,8 +70,10 @@ public class DFAssinaturaDigital implements DFLog {
         return this.assinarDocumento(conteudoXml, DFAssinaturaDigital.ELEMENTOS_ASSINAVEIS);
     }
 
-    public String assinarDocumento(final String conteudoXml, final String... elementosAssinaveis) throws Exception {
-        try (StringReader reader = new StringReader(conteudoXml)) {
+    public String assinarDocumento(final String conteudoXml, final String... elementosAssinaveis) 
+        throws KeyStoreException, NoSuchAlgorithmException, UnrecoverableEntryException, InvalidNameException, InvalidAlgorithmParameterException, ParserConfigurationException, IOException, XMLSignatureException, SAXException, MarshalException, TransformerException {
+        
+            try (StringReader reader = new StringReader(conteudoXml)) {
             try (StringWriter writer = new StringWriter()) {
                 this.assinarDocumento(reader, writer, elementosAssinaveis);
                 return writer.toString();

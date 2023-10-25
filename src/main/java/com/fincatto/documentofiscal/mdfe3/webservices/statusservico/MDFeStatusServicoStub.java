@@ -1242,6 +1242,8 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
          * This type was generated from the piece of schema that had name = mdfeCabecMsg Namespace URI = http://www.portalfiscal.inf.br/mdfe/wsdl/MDFeStatusServico Namespace Prefix = ns5
          */
 
+        private static final String VERSAO_DADOS = "versaoDados";
+
         /**
          * field for CUF
          */
@@ -1408,7 +1410,7 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
             }
             if (this.localVersaoDadosTracker) {
                 namespace = HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO;
-                this.writeStartElement(null, namespace, "versaoDados", xmlWriter);
+                this.writeStartElement(null, namespace, VERSAO_DADOS, xmlWriter);
                 if (this.localVersaoDados == null) {
                     // write the nil attribute
                     throw new org.apache.axis2.databinding.ADBException("versaoDados cannot be null!!");
@@ -1602,7 +1604,7 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
                 }
             }
             if (this.localVersaoDadosTracker) {
-                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, "versaoDados"));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, VERSAO_DADOS));
                 if (this.localVersaoDados != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localVersaoDados));
                 } else {
@@ -1722,10 +1724,10 @@ public class MDFeStatusServicoStub extends org.apache.axis2.client.Stub {
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();
                 }
-                if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, "versaoDados").equals(reader.getName())) {
+                if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_MDFE_WSDL_MDFE_STATUS_SERVICO, VERSAO_DADOS).equals(reader.getName())) {
                     nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                     if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
-                        throw new org.apache.axis2.databinding.ADBException("The element: " + "versaoDados" + "  cannot be null");
+                        throw new org.apache.axis2.databinding.ADBException("The element: " + VERSAO_DADOS + "  cannot be null");
                     }
                     final java.lang.String content = reader.getElementText();
                     object.setVersaoDados(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));

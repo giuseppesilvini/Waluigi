@@ -15,6 +15,8 @@ import org.apache.axiom.om.util.AXIOMUtil;
 import java.math.BigDecimal;
 import java.time.ZonedDateTime;
 
+import javax.xml.stream.XMLStreamException;
+
 /**
  * Created by Eldevan Nery Junior on 17/11/17.
  */
@@ -41,7 +43,9 @@ class WSIncluirCondutor implements DFLog {
         return this.config.getPersister().read(MDFeRetorno.class, omElementResult.toString());
     }
     
-    private OMElement efetuaIncluirCondutor(final String xmlAssinado, final String chaveAcesso) throws Exception {
+    private OMElement efetuaIncluirCondutor(final String xmlAssinado, final String chaveAcesso) 
+        throws org.apache.axis2.AxisFault, XMLStreamException, java.rmi.RemoteException
+    {
         final MDFChaveParser mdfChaveParser = new MDFChaveParser(chaveAcesso);
         final MDFeRecepcaoEventoStub.MdfeCabecMsg cabec = new MDFeRecepcaoEventoStub.MdfeCabecMsg();
         cabec.setCUF(mdfChaveParser.getNFUnidadeFederativa().getCodigoIbge());

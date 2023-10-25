@@ -9,7 +9,9 @@ import org.apache.commons.lang3.StringUtils;
 
 import javax.net.ssl.*;
 import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.net.URI;
+import java.net.URISyntaxException;
 import java.security.*;
 import java.security.cert.CertificateEncodingException;
 import java.security.cert.CertificateException;
@@ -24,7 +26,11 @@ public abstract class DFCadeiaCertificados implements DFLog {
     private static final int PORT = 443;
     private static final String PROTOCOL = "TLSv1.2";
     
-    public static byte[] geraCadeiaCertificados(final DFAmbiente ambiente, final String senha) throws Exception {
+    public static byte[] geraCadeiaCertificados(final DFAmbiente ambiente, final String senha) 
+            throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException, CertificateEncodingException,
+                IOException, NoSuchAlgorithmException, CertificateException,
+                URISyntaxException {
+
         final KeyStore keyStore = KeyStore.getInstance(KeyStore.getDefaultType());
         keyStore.load(null, senha.toCharArray());
         try (ByteArrayOutputStream out = new ByteArrayOutputStream()) {
@@ -35,7 +41,7 @@ public abstract class DFCadeiaCertificados implements DFLog {
                     final String host = new URI(urlNF).getHost();
                     DFCadeiaCertificados.get(keyStore, host);
                 }
-        
+
                 // Para NFCe...
                 final String urlNFC = aut.getNfceStatusServico(ambiente);
                 if (StringUtils.isNotBlank(urlNFC)) {

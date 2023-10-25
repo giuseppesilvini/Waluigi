@@ -54,7 +54,7 @@ public final class DFXMLValidador {
         return DFXMLValidador.valida400(arquivoXML, "enviNFe_v4.00.xsd");
     }
 
-    public static boolean validaNota400(final String arquivoXML) throws Exception {
+    public static boolean validaNota400(final String arquivoXML) throws IOException, SAXException, URISyntaxException {
         return DFXMLValidador.valida400(arquivoXML, "nfe_v4.00.xsd");
     }
 

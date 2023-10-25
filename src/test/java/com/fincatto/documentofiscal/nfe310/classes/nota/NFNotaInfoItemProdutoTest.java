@@ -1105,8 +1105,9 @@ public class NFNotaInfoItemProdutoTest {
         
         final NFNotaInfoItemProduto produto3 = new NFNotaInfoItemProduto();
         produto3.setCombustivel(new NFNotaInfoItemProdutoCombustivel());
+        NFNotaInfoItemProdutoVeiculo veiculo3 = new NFNotaInfoItemProdutoVeiculo();
         try {
-            produto3.setVeiculo(new NFNotaInfoItemProdutoVeiculo());
+            produto3.setVeiculo(veiculo3);
             Assert.fail();
         } catch (final IllegalStateException ignored) {
         }
@@ -1163,8 +1164,9 @@ public class NFNotaInfoItemProdutoTest {
     public void naoDevePermitirSetarRECOPICasoVeiculoMedicamentoCombustivelSetadoOuArmamento() {
         final NFNotaInfoItemProduto produto1 = new NFNotaInfoItemProduto();
         produto1.setNumeroRECOPI("12346578901234567890");
+        NFNotaInfoItemProdutoVeiculo veiculo1 = new NFNotaInfoItemProdutoVeiculo();
         try {
-            produto1.setVeiculo(new NFNotaInfoItemProdutoVeiculo());
+            produto1.setVeiculo(veiculo1);
             Assert.fail();
         } catch (final IllegalStateException ignored) {
         }
@@ -1180,8 +1182,9 @@ public class NFNotaInfoItemProdutoTest {
 
         final NFNotaInfoItemProduto produto3 = new NFNotaInfoItemProduto();
         produto3.setNumeroRECOPI("12346578901234567890");
+        NFNotaInfoItemProdutoCombustivel combustivel3 = new NFNotaInfoItemProdutoCombustivel();
         try {
-            produto3.setCombustivel(new NFNotaInfoItemProdutoCombustivel());
+            produto3.setCombustivel(combustivel3);
             Assert.fail();
         } catch (final IllegalStateException ignored) {
         }
@@ -1217,9 +1220,9 @@ public class NFNotaInfoItemProdutoTest {
         }
 
         final NFNotaInfoItemProduto produto3 = new NFNotaInfoItemProduto();
+        produto3.setMedicamentos(new ArrayList<>());
         try {
             produto3.setNumeroRECOPI("013246578901234657890");
-            produto3.setMedicamentos(new ArrayList<>());
             Assert.fail();
         } catch (final IllegalStateException ignored) {
         }

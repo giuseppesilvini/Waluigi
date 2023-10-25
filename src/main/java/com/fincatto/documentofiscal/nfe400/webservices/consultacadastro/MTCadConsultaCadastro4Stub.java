@@ -2,6 +2,7 @@ package com.fincatto.documentofiscal.nfe400.webservices.consultacadastro;
 
 
 import org.apache.axis2.client.FaultMapKey;
+import org.apache.axis2.databinding.ADBException;
 
 import javax.xml.namespace.QName;
 import javax.xml.stream.XMLStreamException;
@@ -214,9 +215,10 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         private ExtensionMapper() {
             throw new IllegalStateException(UTILITY_CLASS_EXCEPTION_MESSAGE);
         }
+
         public static Object getTypeObject(
                 String namespaceURI, String typeName,
-                javax.xml.stream.XMLStreamReader reader) throws Exception {
+                javax.xml.stream.XMLStreamReader reader) throws XMLStreamException, ADBException {
             if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4.equals(
                     namespaceURI) && NFE_DADOS_MSG_TYPE_0.equals(typeName)) {
                 return NfeDadosMsgType0.Factory.parse(reader);
@@ -445,44 +447,19 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 NfeResultMsg object = new NfeResultMsg();
 
                 try {
-                    while (!reader.isStartElement() && !reader.isEndElement())
+                    while (isNotStartOrEndElement(reader))
                         reader.next();
 
                     reader.getName();
 
-                    if (reader.getAttributeValue(
-                            XMLSCHEMA_INSTANCE,
-                            "type") != null) {
-                        String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE,
-                                "type");
-
-                        if (fullTypeName != null) {
-                            String nsPrefix = null;
-
-                            if (fullTypeName.indexOf(":") > -1) {
-                                nsPrefix = fullTypeName.substring(0,
-                                        fullTypeName.indexOf(":"));
-                            }
-
-                            nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
-
-                            String type = fullTypeName.substring(fullTypeName.indexOf(
-                                    ":") + 1);
-
-                            if (!NFE_RESULT_MSG.equals(type)) {
-                                //find namespace for the prefix
-                                String nsUri = reader.getNamespaceContext()
-                                        .getNamespaceURI(nsPrefix);
-
-                                return (NfeResultMsg) ExtensionMapper.getTypeObject(nsUri,
-                                        type, reader);
-                            }
-                        }
+                    NfeResultMsg varParse = parsePart1(reader);
+                    if(varParse != null) {
+                        return varParse;
                     }
 
                     reader.next();
 
-                    while (!reader.isStartElement() && !reader.isEndElement())
+                    while (isNotStartOrEndElement(reader))
                         reader.next();
 
                     if ((reader.isStartElement() &&
@@ -499,10 +476,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                         reader.next();
                     } // End of if for expected property start element
 
-                    else {
-                    }
-
-                    while (!reader.isStartElement() && !reader.isEndElement())
+                    while (isNotStartOrEndElement(reader))
                         reader.next();
 
                     if (reader.isStartElement()) {
@@ -511,10 +485,47 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                                 UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
-                    throw new Exception(e);
+                    throw e;
                 }
 
                 return object;
+            }
+
+            private static boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+                return !reader.isStartElement() && !reader.isEndElement();
+            }
+
+            private static NfeResultMsg parsePart1(javax.xml.stream.XMLStreamReader reader) throws Exception {
+                if (reader.getAttributeValue(
+                        XMLSCHEMA_INSTANCE,
+                        "type") != null) {
+                    String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE,
+                            "type");
+
+                    if (fullTypeName != null) {
+                        String nsPrefix = null;
+
+                        if (fullTypeName.indexOf(":") > -1) {
+                            nsPrefix = fullTypeName.substring(0,
+                                    fullTypeName.indexOf(":"));
+                        }
+
+                        nsPrefix = (nsPrefix == null) ? "" : nsPrefix;
+
+                        String type = fullTypeName.substring(fullTypeName.indexOf(
+                                ":") + 1);
+
+                        if (!NFE_RESULT_MSG.equals(type)) {
+                            //find namespace for the prefix
+                            String nsUri = reader.getNamespaceContext()
+                                    .getNamespaceURI(nsPrefix);
+
+                            return (NfeResultMsg) ExtensionMapper.getTypeObject(nsUri,
+                                    type, reader);
+                        }
+                    }
+                }
+                return null;
             }
         } //end of factory class
     }
@@ -709,7 +720,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
              */
             public static ConsultaCadastroResultType0 parse(
                     javax.xml.stream.XMLStreamReader reader)
-                    throws Exception {
+                    throws XMLStreamException, ADBException {
                 ConsultaCadastroResultType0 object = new ConsultaCadastroResultType0();
 
                 try {
@@ -760,7 +771,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                                 UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
-                    throw new Exception(e);
+                    throw e;
                 }
 
                 return object;
@@ -770,7 +781,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            private static ConsultaCadastroResultType0 parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static ConsultaCadastroResultType0 parsePart1 (javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 if (reader.getAttributeValue(
                         XMLSCHEMA_INSTANCE,
                         "type") != null) {
@@ -999,7 +1010,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
              */
             public static NfeDadosMsgType0 parse(
                     javax.xml.stream.XMLStreamReader reader)
-                    throws Exception {
+                    throws XMLStreamException, ADBException {
                 NfeDadosMsgType0 object = new NfeDadosMsgType0();
 
                 try {
@@ -1047,7 +1058,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                                 UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
-                    throw new Exception(e);
+                    throw e;
                 }
 
                 return object;
@@ -1057,7 +1068,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            static private NfeDadosMsgType0 parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            static private NfeDadosMsgType0 parsePart1(javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 if (reader.getAttributeValue(
                         XMLSCHEMA_INSTANCE,
                         "type") != null) {
@@ -1279,7 +1290,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
              */
             public static ConsultaCadastro parse(
                     javax.xml.stream.XMLStreamReader reader)
-                    throws Exception {
+                    throws XMLStreamException, ADBException {
                 ConsultaCadastro object = new ConsultaCadastro();
 
                 try {
@@ -1319,7 +1330,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                                 UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
-                    throw new Exception(e);
+                    throw e;
                 }
 
                 return object;
@@ -1329,7 +1340,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            private static ConsultaCadastro parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static ConsultaCadastro parsePart1(javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 if (reader.getAttributeValue(
                         XMLSCHEMA_INSTANCE,
                         "type") != null) {

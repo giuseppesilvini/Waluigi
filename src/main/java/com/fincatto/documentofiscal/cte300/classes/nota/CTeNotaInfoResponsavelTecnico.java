@@ -10,6 +10,8 @@ import org.simpleframework.xml.Root;
 @Namespace(reference = "http://www.portalfiscal.inf.br/cte")
 public class CTeNotaInfoResponsavelTecnico extends DFBase {
 
+    private static final String RESPONSAVEL_TECNICO = "Responsavel tecnico";
+
     @Element(name = "CNPJ")
     private String cnpj;
 
@@ -43,7 +45,7 @@ public class CTeNotaInfoResponsavelTecnico extends DFBase {
     }
 
     public CTeNotaInfoResponsavelTecnico setContatoNome(String contatoNome) {
-        DFStringValidador.tamanho2ate60(contatoNome, "Responsavel tecnico");
+        DFStringValidador.tamanho2ate60(contatoNome, RESPONSAVEL_TECNICO);
         this.contatoNome = contatoNome;
         return this;
     }
@@ -54,7 +56,7 @@ public class CTeNotaInfoResponsavelTecnico extends DFBase {
 
     public CTeNotaInfoResponsavelTecnico setEmail(String email) {
         DFStringValidador.email(email, "Responsavel tecnico ");
-        DFStringValidador.validaIntervalo(email, 6, 60, "Responsavel tecnico");
+        DFStringValidador.validaIntervalo(email, 6, 60, RESPONSAVEL_TECNICO);
         this.email = email;
         return this;
     }
@@ -64,7 +66,7 @@ public class CTeNotaInfoResponsavelTecnico extends DFBase {
     }
 
     public CTeNotaInfoResponsavelTecnico setTelefone(String telefone) {
-        DFStringValidador.telefone(telefone, "Responsavel tecnico");
+        DFStringValidador.telefone(telefone, RESPONSAVEL_TECNICO);
         this.telefone = telefone;
         return this;
     }
@@ -74,7 +76,7 @@ public class CTeNotaInfoResponsavelTecnico extends DFBase {
     }
 
     public void setIdCSRT(String idCSRT) {
-        DFStringValidador.exatamente2N(idCSRT, "Responsavel tecnico");
+        DFStringValidador.exatamente2N(idCSRT, RESPONSAVEL_TECNICO);
         this.idCSRT = idCSRT;
     }
 

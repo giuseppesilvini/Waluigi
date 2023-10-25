@@ -65,7 +65,7 @@ public class DFSocketFactory implements ProtocolSocketFactory {
         return this.sslContext.getSocketFactory().createSocket(host, port);
     }
 
-    private SSLContext createSSLContext(final DFConfig config) throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException, UnrecoverableKeyException {
+    private SSLContext createSSLContext(final DFConfig config) throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
         final KeyManager[] keyManagers = this.createKeyManagers(config);
         final TrustManager[] trustManagers = this.createTrustManagers(config);
         final SSLContext sslContext2 = SSLContext.getInstance(config.getSSLProtocolos()[0]);

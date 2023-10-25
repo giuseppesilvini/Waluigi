@@ -12,7 +12,9 @@ import org.simpleframework.xml.Root;
  */
 @Root(name = "infRespTec")
 public class NFNotaInfoResponsavelTecnico extends DFBase {
-    
+
+    private static final String RESPONSAVEL_TECNICO = "Responsavel tecnico";
+
     @Element(name = "CNPJ")
     private String cnpj;
     
@@ -46,7 +48,7 @@ public class NFNotaInfoResponsavelTecnico extends DFBase {
     }
     
     public NFNotaInfoResponsavelTecnico setContatoNome(String contatoNome) {
-        DFStringValidador.tamanho2ate60(contatoNome, "Responsavel tecnico");
+        DFStringValidador.tamanho2ate60(contatoNome, RESPONSAVEL_TECNICO);
         this.contatoNome = contatoNome;
         return this;
     }
@@ -57,7 +59,7 @@ public class NFNotaInfoResponsavelTecnico extends DFBase {
     
     public NFNotaInfoResponsavelTecnico setEmail(String email) {
         DFStringValidador.email(email, "Responsavel tecnico ");
-        DFStringValidador.validaIntervalo(email, 6, 60, "Responsavel tecnico");
+        DFStringValidador.validaIntervalo(email, 6, 60, RESPONSAVEL_TECNICO);
         this.email = email;
         return this;
     }
@@ -67,7 +69,7 @@ public class NFNotaInfoResponsavelTecnico extends DFBase {
     }
     
     public NFNotaInfoResponsavelTecnico setTelefone(String telefone) {
-        DFStringValidador.telefone(telefone, "Responsavel tecnico");
+        DFStringValidador.telefone(telefone, RESPONSAVEL_TECNICO);
         this.telefone = telefone;
         return this;
     }
@@ -77,7 +79,7 @@ public class NFNotaInfoResponsavelTecnico extends DFBase {
     }
     
     public void setIdCSRT(String idCSRT) {
-        DFStringValidador.exatamente2N(idCSRT, "Responsavel tecnico");
+        DFStringValidador.exatamente2N(idCSRT, RESPONSAVEL_TECNICO);
         this.idCSRT = idCSRT;
     }
     

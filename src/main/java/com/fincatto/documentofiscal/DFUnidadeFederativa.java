@@ -27,7 +27,7 @@ public enum DFUnidadeFederativa {
     PI("PI", "Piau\u00ED", "22", "http://www.sefaz.pi.gov.br/nfce/qrcode", "http://www.sefaz.pi.gov.br/nfce/qrcode" , "http://www.sefaz.pi.gov.br/nfce/consulta", "http://www.sefaz.pi.gov.br/nfce/consulta"),
     RJ("RJ", "Rio de Janeiro", "33", "http://www4.fazenda.rj.gov.br/consultaNFCe/QRCode", "http://www4.fazenda.rj.gov.br/consultaNFCe/QRCode", "www.fazenda.rj.gov.br/nfce/consulta", "www.fazenda.rj.gov.br/nfce/consulta"),
     RN("RN", "Rio Grande do Norte", "24", "http://hom.nfce.set.rn.gov.br/consultarNFCe.aspx", Constants.HTTP_NFCE_SET_RN_GOV_BR_CONSULTAR_NFCE_ASPX, Constants.HTTP_NFCE_SET_RN_GOV_BR_CONSULTAR_NFCE_ASPX, Constants.HTTP_NFCE_SET_RN_GOV_BR_CONSULTAR_NFCE_ASPX),
-    RS("RS", "Rio Grande do Sul", "43", "https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx", "https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx", "https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx", "https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx"),
+    RS("RS", "Rio Grande do Sul", "43", Constants.HTTPS_WWW_SEFAZ_RS_GOV_BR_NFCE_NFCE_COM_ASPX, Constants.HTTPS_WWW_SEFAZ_RS_GOV_BR_NFCE_NFCE_COM_ASPX, Constants.HTTPS_WWW_SEFAZ_RS_GOV_BR_NFCE_NFCE_COM_ASPX, Constants.HTTPS_WWW_SEFAZ_RS_GOV_BR_NFCE_NFCE_COM_ASPX),
     RO("RO", "Rond\u00F4nia", "11", "http://www.nfce.sefin.ro.gov.br/consultanfce/consulta.jsp", "http://www.nfce.sefin.ro.gov.br/consultanfce/consulta.jsp", "http://www.nfce.sefin.ro.gov.br", "http://www.nfce.sefin.ro.gov.br"),
     RR("RR", "Roraima", "14", "http://"+Constants.SERVER_1+"/nfce/servlet/qrcode", "https://www.sefaz.rr.gov.br/nfce/servlet/qrcode", "http://"+Constants.SERVER_2+"/nfce/servlet/wp_consulta_nfce", "https://www.sefaz.rr.gov.br/nfce/servlet/wp_consulta_nfce"),
     SP("SP", "S\u00E3o Paulo", "35", "https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx", "https://www.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx", "https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica", "https://www.nfce.fazenda.sp.gov.br/NFCeConsultaPublica"),
@@ -101,9 +101,8 @@ public enum DFUnidadeFederativa {
      */
     public static DFUnidadeFederativa valueOfCodigo(final String codigo) {
         for (final DFUnidadeFederativa uf : DFUnidadeFederativa.values()) {
-            if (uf.getCodigo().equalsIgnoreCase(StringUtils.trim(codigo))) {
-                return uf;
-            } else if (uf.getCodigoIbge().equalsIgnoreCase(StringUtils.trim(codigo))) {
+            if (uf.getCodigo().equalsIgnoreCase(StringUtils.trim(codigo))
+                    || uf.getCodigoIbge().equalsIgnoreCase(StringUtils.trim(codigo))) {
                 return uf;
             }
         }
@@ -114,5 +113,6 @@ public enum DFUnidadeFederativa {
         public static final String HTTP_NFCE_SET_RN_GOV_BR_CONSULTAR_NFCE_ASPX = "http://nfce.set.rn.gov.br/consultarNFCe.aspx";
         public static final String SERVER_1 = "200.174.88.103:8080";
         public static final String SERVER_2 = "200.174.88.103:8080";
+        private static final String HTTPS_WWW_SEFAZ_RS_GOV_BR_NFCE_NFCE_COM_ASPX = "https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx";
     }
 }
