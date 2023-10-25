@@ -20,6 +20,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
     /**
      *
      */
+    private static final String CTE_CABEC_MSG = "cteCabecMsg";
     private static final String CTE_RECEPCAO_OS = "cteRecepcaoOS";
     public static final String EXTRA_ELEMENT_CANNOT_BE_NULL = "extraElement cannot be null!!";
     public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
@@ -285,9 +286,13 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
 
     // https://cte.fazenda.mg.gov.br/cte/services/CteRecepcaoOS
     public static class CteCabecMsgE implements org.apache.axis2.databinding.ADBBean {
+        /**
+         *
+         */
+        
         private static final long serialVersionUID = 985824462605573260L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "cteCabecMsg", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, CTE_CABEC_MSG, "");
 
         /**
          * field for CteCabecMsg
@@ -528,7 +533,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     while (!reader.isEndElement()) {
                         if (reader.isStartElement()) {
-                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, "cteCabecMsg").equals(reader.getName())) {
+                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS, CTE_CABEC_MSG).equals(reader.getName())) {
                                 object.setCteCabecMsg(CteCabecMsg.Factory.parse(reader));
                             } // End of if for expected property start element
                             else {
@@ -733,7 +738,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
             if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                 this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":cteCabecMsg", xmlWriter);
             } else {
-                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", "cteCabecMsg", xmlWriter);
+                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", CTE_CABEC_MSG, xmlWriter);
             }
         }
 
@@ -981,11 +986,11 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+            private static boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            static private CteCabecMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static CteCabecMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
                     final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                     if (fullTypeName != null) {
@@ -995,7 +1000,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                         }
                         nsPrefix = nsPrefix == null ? "" : nsPrefix;
                         final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                        if (!"cteCabecMsg".equals(type)) {
+                        if (!CTE_CABEC_MSG.equals(type)) {
                             // find namespace for the prefix
                             final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                             return (CteCabecMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -1005,7 +1010,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                 return null;
             }
 
-            static private CteCabecMsg parsePart2 (CteCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static CteCabecMsg parsePart2 (CteCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 String nillableValue;
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();
@@ -1022,7 +1027,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private CteCabecMsg parsePart3(CteCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static CteCabecMsg parsePart3(CteCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 String nillableValue;
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();
@@ -1046,7 +1051,7 @@ public class CteRecepcaoOSStub extends org.apache.axis2.client.Stub {
             throw new IllegalStateException(UTILITY_CLASS_EXCEPTION_MESSAGE);
         }
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-            if (HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS.equals(namespaceURI) && "cteCabecMsg".equals(typeName)) {
+            if (HTTP_WWW_PORTALFISCAL_INF_BR_CTE_WSDL_CTE_RECEPCAO_OS.equals(namespaceURI) && CTE_CABEC_MSG.equals(typeName)) {
                 return CteCabecMsg.Factory.parse(reader);
             }
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
