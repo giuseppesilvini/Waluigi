@@ -764,11 +764,11 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+            private static boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            static private ConsultaCadastroResultType0 parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static ConsultaCadastroResultType0 parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 if (reader.getAttributeValue(
                         XMLSCHEMA_INSTANCE,
                         "type") != null) {
@@ -1323,11 +1323,11 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+            private static boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            static private ConsultaCadastro parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static ConsultaCadastro parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 if (reader.getAttributeValue(
                         XMLSCHEMA_INSTANCE,
                         "type") != null) {

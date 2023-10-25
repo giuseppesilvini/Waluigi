@@ -13,6 +13,10 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 
 @SuppressWarnings({"rawtypes", "unchecked", "serial", "unused", "deprecation"})
 public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
+    /**
+     *
+     */
+    private static final String NFE_STATUS_SERVICO_NF2 = "nfeStatusServicoNF2";
     public static final String NFE_STATUS_SERVICO_NF_2_RESULT = "nfeStatusServicoNF2Result";
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
     public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
@@ -40,7 +44,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation operation;
         this.operations = new org.apache.axis2.description.AxisOperation[1];
         operation = new org.apache.axis2.description.OutInAxisOperation();
-        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2, "nfeStatusServicoNF2"));
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2, NFE_STATUS_SERVICO_NF2));
         this._service.addOperation(operation);
         this.operations[0] = operation;
     }
@@ -100,15 +104,15 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
             if (faultElt != null) {
-                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeStatusServicoNF2"))) {
+                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_STATUS_SERVICO_NF2))) {
                     // make the fault by reflection
                     try {
-                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeStatusServicoNF2"));
+                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_STATUS_SERVICO_NF2));
                         final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                         final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
                         final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
                         // message class
-                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeStatusServicoNF2"));
+                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_STATUS_SERVICO_NF2));
                         final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                         final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                         final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
@@ -163,7 +167,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axis2.client.async.AxisCallback createCallback(NfeStatusServico2CallbackHandler callback, org.apache.axis2.context.MessageContext messageContext) {
-        org.apache.axis2.client.async.AxisCallback returnCallback = new org.apache.axis2.client.async.AxisCallback() {
+        return new org.apache.axis2.client.async.AxisCallback() {
             @Override
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
@@ -177,34 +181,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
 
             @Override
             public void onError(final java.lang.Exception error) {
-                if (error instanceof org.apache.axis2.AxisFault) {
-                    final org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
-                    final org.apache.axiom.om.OMElement faultElt = f.getDetail();
-                    if (faultElt != null &&
-                                NfeStatusServico2Stub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeStatusServicoNF2"))) {
-                        // make the fault by reflection
-                        try {
-                            final java.lang.String exceptionClassName = (java.lang.String) NfeStatusServico2Stub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeStatusServicoNF2"));
-                            final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
-                            final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
-                            final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
-                            // message class
-                            final java.lang.String messageClassName = (java.lang.String) NfeStatusServico2Stub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeStatusServicoNF2"));
-                            final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                            final java.lang.Object messageObject = NfeStatusServico2Stub.this.fromOM(faultElt, messageClass);
-                            final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
-                            m.invoke(ex, messageObject);
-                            callback.receiveErrornfeStatusServicoNF2(new java.rmi.RemoteException(ex.getMessage(), ex));
-                        } catch (final ClassCastException | org.apache.axis2.AxisFault | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
-                            // we cannot intantiate the class - throw the original Axis fault
-                            callback.receiveErrornfeStatusServicoNF2(f);
-                        }
-                    } else {
-                        callback.receiveErrornfeStatusServicoNF2(f);
-                    }
-                } else {
-                    callback.receiveErrornfeStatusServicoNF2(error);
-                }
+                callbackError(error, callback);
             }
 
             @Override
@@ -222,7 +199,37 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 }
             }
         };
-        return returnCallback;
+    }
+
+    private void callbackError(java.lang.Exception error, NfeStatusServico2CallbackHandler callback) {
+        if (error instanceof org.apache.axis2.AxisFault) {
+            final org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
+            final org.apache.axiom.om.OMElement faultElt = f.getDetail();
+            if (faultElt != null &&
+                        NfeStatusServico2Stub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_STATUS_SERVICO_NF2))) {
+                // make the fault by reflection
+                try {
+                    final java.lang.String exceptionClassName = (java.lang.String) NfeStatusServico2Stub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_STATUS_SERVICO_NF2));
+                    final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
+                    final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(String.class);
+                    final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
+                    // message class
+                    final java.lang.String messageClassName = (java.lang.String) NfeStatusServico2Stub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_STATUS_SERVICO_NF2));
+                    final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
+                    final java.lang.Object messageObject = NfeStatusServico2Stub.this.fromOM(faultElt, messageClass);
+                    final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
+                    m.invoke(ex, messageObject);
+                    callback.receiveErrornfeStatusServicoNF2(new java.rmi.RemoteException(ex.getMessage(), ex));
+                } catch (final ClassCastException | org.apache.axis2.AxisFault | InstantiationException | IllegalAccessException | java.lang.reflect.InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
+                    // we cannot intantiate the class - throw the original Axis fault
+                    callback.receiveErrornfeStatusServicoNF2(f);
+                }
+            } else {
+                callback.receiveErrornfeStatusServicoNF2(f);
+            }
+        } else {
+            callback.receiveErrornfeStatusServicoNF2(error);
+        }
     }
 
     private java.util.Map getEnvelopeNamespaces(final org.apache.axiom.soap.SOAPEnvelope env) {
