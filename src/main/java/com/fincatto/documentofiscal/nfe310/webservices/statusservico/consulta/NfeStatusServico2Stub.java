@@ -16,6 +16,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
     /**
      *
      */
+    private static final String NFE_CABEC_MSG = "nfeCabecMsg";
     private static final String NFE_STATUS_SERVICO_NF2 = "nfeStatusServicoNF2";
     public static final String NFE_STATUS_SERVICO_NF_2_RESULT = "nfeStatusServicoNF2Result";
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
@@ -250,7 +251,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
     // https://nfe.sefaz.rs.gov.br/ws/nfeStatusServico/nfeStatusServico2.asmx
     public static class NfeCabecMsgE implements org.apache.axis2.databinding.ADBBean {
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2, "nfeCabecMsg", "");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2, NFE_CABEC_MSG, "");
 
         protected NfeCabecMsg localNfeCabecMsg;
 
@@ -445,7 +446,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                     final java.util.ArrayList<String> handledAttributes = new java.util.ArrayList<>();
                     while (!reader.isEndElement()) {
                         if (reader.isStartElement()) {
-                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2, "nfeCabecMsg").equals(reader.getName())) {
+                            if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2, NFE_CABEC_MSG).equals(reader.getName())) {
                                 object.setNfeCabecMsg(NfeCabecMsg.Factory.parse(reader));
                             } // End of if for expected property start element
                             else {
@@ -746,7 +747,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
         }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
-            if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2.equals(namespaceURI) && "nfeCabecMsg".equals(typeName)) {
+            if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO_2.equals(namespaceURI) && NFE_CABEC_MSG.equals(typeName)) {
                 return NfeCabecMsg.Factory.parse(reader);
             }
             throw new org.apache.axis2.databinding.ADBException("Unsupported type " + namespaceURI + " " + typeName);
@@ -883,7 +884,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
             if (namespacePrefix != null && namespacePrefix.trim().length() > 0) {
                 this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeCabecMsg", xmlWriter);
             } else {
-                this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", "nfeCabecMsg", xmlWriter);
+                this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", NFE_CABEC_MSG, xmlWriter);
             }
         }
 
@@ -1101,11 +1102,11 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+            private static boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            static private NfeCabecMsg parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static NfeCabecMsg parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
                     final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                     if (fullTypeName != null) {
@@ -1115,7 +1116,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                         }
                         nsPrefix = nsPrefix == null ? "" : nsPrefix;
                         final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                        if (!"nfeCabecMsg".equals(type)) {
+                        if (!NFE_CABEC_MSG.equals(type)) {
                             // find namespace for the prefix
                             final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                             return (NfeCabecMsg) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -1125,7 +1126,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 return null;
             }
 
-            static private NfeCabecMsg parsePart2(NfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static NfeCabecMsg parsePart2(NfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 String nillableValue;
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();
@@ -1142,7 +1143,7 @@ public class NfeStatusServico2Stub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private NfeCabecMsg parsePart3 (NfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static NfeCabecMsg parsePart3 (NfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 String nillableValue;
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();

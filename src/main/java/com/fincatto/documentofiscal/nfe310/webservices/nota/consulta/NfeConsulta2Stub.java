@@ -587,8 +587,8 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                         }
                     }
                     reader.next();
-                    object = parsePart2(object, reader);
-                    object = parsePart3(object, reader);
+                    parsePart2(object, reader);
+                    parsePart3(object, reader);
                     
                     while (isNotStartOrEndElement(reader)) {
                         reader.next();
@@ -598,16 +598,16 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
-                    //e.printStackTrace();
+
                 }
                 return object;
             }
 
-            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+            private static boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            static private NfeCabecMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static NfeCabecMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 if (reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type") != null) {
                     java.lang.String fullTypeName = reader.getAttributeValue(XML_SCHEMA_INSTANCE, "type");
                     if (fullTypeName != null) {
@@ -627,7 +627,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                 return null;
             }
 
-            static private NfeCabecMsg parsePart2(NfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static NfeCabecMsg parsePart2(NfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 String nillableValue;
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();
@@ -644,7 +644,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private NfeCabecMsg parsePart3(NfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static NfeCabecMsg parsePart3(NfeCabecMsg object, javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 String nillableValue;
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();
