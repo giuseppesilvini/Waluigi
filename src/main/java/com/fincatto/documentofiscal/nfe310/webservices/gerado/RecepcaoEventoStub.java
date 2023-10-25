@@ -20,6 +20,7 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 
 public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
 
+    private static final String UTILITY_CLASS = "Utility class";
     public static final String NFE_CABEC_MSG = "nfeCabecMsg";
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
     public static final String NFE_RECEPCAO_EVENTO_RESULT = "nfeRecepcaoEventoResult";
@@ -277,7 +278,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             public static NfeDadosMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -350,7 +351,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
     public static class ExtensionMapper {
 
         private ExtensionMapper() {
-            throw new IllegalStateException("Utility class");
+            throw new IllegalStateException(UTILITY_CLASS);
         }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -475,7 +476,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             public static NfeRecepcaoEventoResult parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -589,7 +590,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             public static NfeCabecMsgE parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -844,7 +845,7 @@ public class RecepcaoEventoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             public static NfeCabecMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {

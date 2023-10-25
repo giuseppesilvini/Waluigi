@@ -20,9 +20,8 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
  */
 
 public class MDFeRetRecepcaoStub extends org.apache.axis2.client.Stub {
-    /**
-     *
-     */
+
+    private static final String UTILITY_CLASS = "Utility class";
     private static final String MDFE_RET_RECEPCAO = "mdfeRetRecepcao";
     public static final String MDFE_RET_RECEPCAO_RESULT = "mdfeRetRecepcaoResult";
     public static final String MDFE_DADOS_MSG = "mdfeDadosMsg";
@@ -667,7 +666,7 @@ public class MDFeRetRecepcaoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**
@@ -784,7 +783,7 @@ public class MDFeRetRecepcaoStub extends org.apache.axis2.client.Stub {
     public static class ExtensionMapper {
 
         private ExtensionMapper() {
-            throw new IllegalStateException("Utility class");
+            throw new IllegalStateException(UTILITY_CLASS);
         }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -1043,7 +1042,7 @@ public class MDFeRetRecepcaoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory () {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**
@@ -1370,7 +1369,7 @@ public class MDFeRetRecepcaoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**
@@ -1677,7 +1676,7 @@ public class MDFeRetRecepcaoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**

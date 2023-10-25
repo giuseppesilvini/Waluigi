@@ -20,9 +20,8 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
  */
 
 public class MDFeConsultaStub extends org.apache.axis2.client.Stub {
-    /**
-     *
-     */
+
+    private static final String UTILITY_CLASS = "Utility class";
     private static final String MDFE_CONSULTA_MDF = "mdfeConsultaMDF";
     public static final String MDFE_DADOS_MSG = "mdfeDadosMsg";
     public static final String MDFE_CONSULTA_MDF_RESULT = "mdfeConsultaMDFResult";
@@ -291,7 +290,7 @@ public class MDFeConsultaStub extends org.apache.axis2.client.Stub {
     public static class ExtensionMapper {
 
         private ExtensionMapper() {
-            throw new IllegalStateException("Utility class");
+            throw new IllegalStateException(UTILITY_CLASS);
         }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -550,7 +549,7 @@ public class MDFeConsultaStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**
@@ -859,7 +858,7 @@ public class MDFeConsultaStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**
@@ -1079,9 +1078,9 @@ public class MDFeConsultaStub extends org.apache.axis2.client.Stub {
 
         private void serializeCheckPrefix(final java.lang.String namespacePrefix, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
-                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":mdfeCabecMsg", xmlWriter);
+                this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":mdfeCabecMsg", xmlWriter);
             } else {
-                this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", MDFE_CABEC_MSG, xmlWriter);
+                this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", MDFE_CABEC_MSG, xmlWriter);
             }
         }
 
@@ -1280,7 +1279,7 @@ public class MDFeConsultaStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**
@@ -1644,7 +1643,7 @@ public class MDFeConsultaStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**

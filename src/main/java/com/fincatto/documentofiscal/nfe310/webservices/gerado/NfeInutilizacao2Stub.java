@@ -15,6 +15,7 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 
 public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
 
+    private static final String UTILITY_CLASS = "Utility class";
     public static final String NFE_CABEC_MSG = "nfeCabecMsg";
     public static final String NFE_INUTILIZACAO_NF_2_RESULT = "nfeInutilizacaoNF2Result";
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
@@ -92,7 +93,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
             messageContext = MessageContextFactory.INSTANCE.create(config);
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env;
-            env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg, new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NfeInutilizacao2", NFE_INUTILIZACAO_NF_2));
+            env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_INUTILIZACAO_2, NFE_INUTILIZACAO_NF_2));
             env.build();
             // add the children only if the parameter is not null
             if (nfeCabecMsg != null) {
@@ -272,7 +273,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             public static NfeInutilizacaoNF2Result parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -390,7 +391,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             public static NfeCabecMsgE parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -425,7 +426,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
     public static class ExtensionMapper {
 
         private ExtensionMapper() {
-            throw new IllegalStateException("Utility class");
+            throw new IllegalStateException(UTILITY_CLASS);
         }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -549,7 +550,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             public static NfeDadosMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -839,7 +840,7 @@ public class NfeInutilizacao2Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             public static NfeCabecMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {

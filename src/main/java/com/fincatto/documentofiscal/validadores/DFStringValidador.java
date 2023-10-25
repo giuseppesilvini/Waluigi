@@ -825,7 +825,7 @@ public abstract class DFStringValidador {
         }
     }
 
-    static private void validaPart2(Method[] typeMethods, Object objectValue) throws InvocationTargetException, IllegalAccessException {
+    private static void validaPart2(Method[] typeMethods, Object objectValue) throws InvocationTargetException, IllegalAccessException {
         // retorna o metodo necessario para extrair o valor de ModalidadeMVA.
         Method modalidadeMethod;
         Optional<Method> testValue = Arrays.stream(typeMethods).filter(method1 -> method1.getReturnType().equals(NFNotaInfoItemModalidadeBCICMSST.class)).findAny();

@@ -12,6 +12,8 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 
 @SuppressWarnings({"rawtypes", "unchecked", "serial", "unused", "deprecation"})
 public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
+
+    private static final String UTILITY_CLASS = "Utility class";
     public static final String NFE_STATUS_SERVICO_NF_RESULT = "nfeStatusServicoNFResult";
     public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_STATUS_SERVICO = "http://www.portalfiscal.inf.br/nfe/wsdl/NfeStatusServico";
@@ -125,38 +127,33 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
             return (com.fincatto.documentofiscal.nfe310.webservices.statusservico.consulta.NfeStatusServicoStub.NfeStatusServicoNFResult) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
-            if (faultElt != null) {
-                if (faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_STATUS_SERVICO_NF))) {
-                    //make the fault by reflection
-                    try {
-                        java.lang.String exceptionClassName = (java.lang.String) faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_STATUS_SERVICO_NF));
-                        java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
-                        java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(java.lang.String.class);
-                        java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
-                        //message class
-                        java.lang.String messageClassName = (java.lang.String) faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_STATUS_SERVICO_NF));
-                        java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                        java.lang.Object messageObject = fromOM(faultElt, messageClass);
-                        java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
-                        m.invoke(ex, messageObject);
-                        throw new java.rmi.RemoteException(ex.getMessage(), ex);
-                    } catch (ClassCastException | InstantiationException | IllegalAccessException |
-                             java.lang.reflect.InvocationTargetException | NoSuchMethodException |
-                             ClassNotFoundException e) {
-                        // we cannot intantiate the class - throw the original Axis fault
-                        throw f;
-                    }
-                } else {
+            if (faultElt != null &&
+                        faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_STATUS_SERVICO_NF))) {
+                //make the fault by reflection
+                try {
+                    java.lang.String exceptionClassName = (java.lang.String) faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_STATUS_SERVICO_NF));
+                    java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
+                    java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(java.lang.String.class);
+                    java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
+                    //message class
+                    java.lang.String messageClassName = (java.lang.String) faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_STATUS_SERVICO_NF));
+                    java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
+                    java.lang.Object messageObject = fromOM(faultElt, messageClass);
+                    java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
+                    m.invoke(ex, messageObject);
+                    throw new java.rmi.RemoteException(ex.getMessage(), ex);
+                } catch (ClassCastException | InstantiationException | IllegalAccessException |
+                            java.lang.reflect.InvocationTargetException | NoSuchMethodException |
+                            ClassNotFoundException e) {
+                    // we cannot intantiate the class - throw the original Axis fault
                     throw f;
                 }
             } else {
                 throw f;
             }
         } finally {
-            if (_messageContext != null) {
-                if (_messageContext.getTransportOut() != null) {
-                    _messageContext.getTransportOut().getSender().cleanup(_messageContext);
-                }
+            if (_messageContext != null && _messageContext.getTransportOut() != null) {
+                _messageContext.getTransportOut().getSender().cleanup(_messageContext);
             }
         }
     }
@@ -568,7 +565,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             private static org.apache.commons.logging.Log log = org.apache.commons.logging.LogFactory.getLog(Factory.class);
@@ -711,7 +708,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
     public static class ExtensionMapper {
 
         private ExtensionMapper() {
-            throw new IllegalStateException("Utility class");
+            throw new IllegalStateException(UTILITY_CLASS);
         }
 
         public static java.lang.Object getTypeObject(java.lang.String namespaceURI, java.lang.String typeName, javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -931,7 +928,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             private static org.apache.commons.logging.Log log = org.apache.commons.logging.LogFactory.getLog(Factory.class);
@@ -1206,7 +1203,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             private static org.apache.commons.logging.Log log = org.apache.commons.logging.LogFactory.getLog(Factory.class);
@@ -1523,7 +1520,7 @@ public class NfeStatusServicoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
             
             private static org.apache.commons.logging.Log log = org.apache.commons.logging.LogFactory.getLog(Factory.class);

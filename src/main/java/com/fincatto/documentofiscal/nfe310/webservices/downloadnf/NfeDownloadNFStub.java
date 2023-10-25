@@ -23,6 +23,8 @@ import java.util.List;
  */
 @SuppressWarnings({"rawtypes", "unchecked", "unused"})
 public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
+
+    private static final String UTILITY_CLASS = "Utility class";
     public static final String NFE_DOWNLOAD_NF_RESULT = "nfeDownloadNFResult";
     public static final String VERSAO_DADOS = "versaoDados";
     public static final String NFE_CABEC_MSG = "nfeCabecMsg";
@@ -541,7 +543,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**
@@ -844,7 +846,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**
@@ -887,7 +889,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
     public static class ExtensionMapper {
 
         private ExtensionMapper() {
-            throw new IllegalStateException("Utility class");
+            throw new IllegalStateException(UTILITY_CLASS);
         }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -1276,7 +1278,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**
@@ -1634,7 +1636,7 @@ public class NfeDownloadNFStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**

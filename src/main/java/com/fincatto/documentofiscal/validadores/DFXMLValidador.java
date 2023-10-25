@@ -5,7 +5,6 @@ import java.io.StringReader;
 import java.net.URISyntaxException;
 import java.net.URL;
 import javax.xml.XMLConstants;
-import javax.xml.stream.XMLInputFactory;
 import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;

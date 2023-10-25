@@ -17,6 +17,7 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
  */
 
 public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
+    private static final String UTILITY_CLASS = "Utility class";
     public static final String CONSULTA_CADASTRO_2_RESULT = "consultaCadastro2Result";
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
     public static final String XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
@@ -385,7 +386,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             public static NfeCabecMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -538,7 +539,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             public static NfeCabecMsgE parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -684,7 +685,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             public static ConsultaCadastro2Result parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -757,7 +758,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
     public static class ExtensionMapper {
 
         private ExtensionMapper() {
-            throw new IllegalStateException("Utility class");
+            throw new IllegalStateException(UTILITY_CLASS);
         }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -882,7 +883,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             public static NfeDadosMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {

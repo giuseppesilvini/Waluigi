@@ -882,7 +882,7 @@ public class NfeRetAutorizacaoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS_EXCEPTION_MESSAGE);
             }
 
             public static NfeRetAutorizacaoLoteResult parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {

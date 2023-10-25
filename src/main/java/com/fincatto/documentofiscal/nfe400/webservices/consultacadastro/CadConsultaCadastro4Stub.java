@@ -16,6 +16,7 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 import org.apache.axis2.databinding.ADBException;
 
 public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
+    private static final String UTILITY_CLASS = "Utility class";
     public static final String NFE_RESULT_MSG = "nfeResultMsg";
     public static final String HTTP_WWW_W_3_ORG_2001_XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4 = "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4";
@@ -120,7 +121,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
             // create SOAP envelope with that payload
             org.apache.axiom.soap.SOAPEnvelope env = null;
 
-            env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4, NFE_DADOS_MSG));
+            env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0);
 
             // adding SOAP soap_headers
             this._serviceClient.addHeadersToEnvelope(env);
@@ -191,7 +192,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         final org.apache.axis2.context.MessageContext messageContext = MessageContextFactory.INSTANCE.create(config);
 
         // Style is Doc.
-        env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0, new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4, NFE_DADOS_MSG));
+        env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0);
 
         // adding SOAP soap_headers
         this._serviceClient.addHeadersToEnvelope(env);
@@ -282,7 +283,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     }
 
 
-    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final CadConsultaCadastro4Stub.NfeDadosMsg param, final javax.xml.namespace.QName elementQName) throws org.apache.axis2.AxisFault {
+    private org.apache.axiom.soap.SOAPEnvelope toEnvelope(final org.apache.axiom.soap.SOAPFactory factory, final CadConsultaCadastro4Stub.NfeDadosMsg param) throws org.apache.axis2.AxisFault {
         try {
             final org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody().addChild(param.getOMElement(CadConsultaCadastro4Stub.NfeDadosMsg.MY_QNAME, factory));
@@ -311,8 +312,9 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     }
 
     public static class ExtensionMapper {
+
         private ExtensionMapper () {
-            throw new IllegalStateException("Utility class");
+            throw new IllegalStateException(UTILITY_CLASS);
         }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws ADBException {
@@ -466,7 +468,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory () {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
             
             /**
@@ -716,7 +718,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
         public static class Factory {
             
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
             /**
              * static method to create the object Precondition: If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable If this object is not an element, it is a complex type and the reader is at the event just after the outer start element Postcondition: If this object is an element, the reader is positioned at its end element If this object is a complex type, the reader is positioned at the end element of its outer element

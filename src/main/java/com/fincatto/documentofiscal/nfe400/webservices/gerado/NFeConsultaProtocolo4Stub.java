@@ -13,6 +13,9 @@ import org.apache.axis2.databinding.ADBException;
  * NFeConsultaProtocolo4Stub java implementation
  */
 public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
+
+    private static final String NFE_CONSULTA_NF = "nfeConsultaNF";
+    private static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_CONSULTA_PROTOCOLO4 = "http://www.portalfiscal.inf.br/nfe/wsdl/NFeConsultaProtocolo4";
     public static final String NFE_CONSULTA_NF_RESULT = "nfeConsultaNFResult";
     private static int counter = 0;
     protected org.apache.axis2.description.AxisOperation[] operations;
@@ -72,7 +75,7 @@ public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation operation;
         this.operations = new org.apache.axis2.description.AxisOperation[1];
         operation = new org.apache.axis2.description.OutInAxisOperation();
-        operation.setName(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeConsultaProtocolo4", "nfeConsultaNF"));
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_CONSULTA_PROTOCOLO4, NFE_CONSULTA_NF));
         this._service.addOperation(operation);
         this.operations[0] = operation;
     }
@@ -115,15 +118,15 @@ public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
             if (faultElt != null) {
-                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF"))) {
+                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_CONSULTA_NF))) {
                     // make the fault by reflection
                     try {
-                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF"));
+                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_CONSULTA_NF));
                         final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                         final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(java.lang.String.class);
                         final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
                         // message class
-                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeConsultaNF"));
+                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_CONSULTA_NF));
                         final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                         final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                         final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
@@ -169,7 +172,7 @@ public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
 
     @SuppressWarnings("serial")
     public static class NfeDadosMsg implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeConsultaProtocolo4", "nfeDadosMsg");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_CONSULTA_PROTOCOLO4, "nfeDadosMsg");
 
         /**
          * field for ExtraElement
@@ -217,7 +220,7 @@ public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NFeConsultaProtocolo4");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_CONSULTA_PROTOCOLO4);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
                 } else {
@@ -233,7 +236,7 @@ public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/NFeConsultaProtocolo4")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_CONSULTA_PROTOCOLO4)) {
                 return "ns1";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -400,7 +403,7 @@ public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
 
     @SuppressWarnings("serial")
     public static class NfeConsultaNFResult implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeConsultaProtocolo4", NFE_CONSULTA_NF_RESULT, "ns1");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_CONSULTA_PROTOCOLO4, NFE_CONSULTA_NF_RESULT, "ns1");
 
         /**
          * field for ExtraElement
@@ -448,7 +451,7 @@ public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NFeConsultaProtocolo4");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_CONSULTA_PROTOCOLO4);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeConsultaNFResult", xmlWriter);
                 } else {
@@ -464,7 +467,7 @@ public class NFeConsultaProtocolo4Stub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/NFeConsultaProtocolo4")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_CONSULTA_PROTOCOLO4)) {
                 return "ns1";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();

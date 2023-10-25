@@ -10,6 +10,9 @@ import com.fincatto.documentofiscal.DFConfig;
 import com.fincatto.documentofiscal.utils.MessageContextFactory;
 
 public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
+
+    private static final String NFE_AUTORIZACAO_LOTE_ZIP = "nfeAutorizacaoLoteZip";
+    private static final String NFE_AUTORIZACAO_LOTE = "nfeAutorizacaoLote";
     public static final String NFE_RESULT_MSG = "nfeResultMsg";
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4 = "http://www.portalfiscal.inf.br/nfe/wsdl/NFeAutorizacao4";
     public static final String NFE_DADOS_MSG_ZIP = "nfeDadosMsgZip";
@@ -73,11 +76,11 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation operation;
         this.operations = new org.apache.axis2.description.AxisOperation[2];
         operation = new org.apache.axis2.description.OutInAxisOperation();
-        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, "nfeAutorizacaoLote"));
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, NFE_AUTORIZACAO_LOTE));
         this._service.addOperation(operation);
         this.operations[0] = operation;
         operation = new org.apache.axis2.description.OutInAxisOperation();
-        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, "nfeAutorizacaoLoteZip"));
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_AUTORIZACAO_4, NFE_AUTORIZACAO_LOTE_ZIP));
         this._service.addOperation(operation);
         this.operations[1] = operation;
     }
@@ -121,15 +124,15 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
             if (faultElt != null) {
-                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeAutorizacaoLote"))) {
+                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_AUTORIZACAO_LOTE))) {
                     // make the fault by reflection
                     try {
-                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeAutorizacaoLote"));
+                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_AUTORIZACAO_LOTE));
                         final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                         final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(java.lang.String.class);
                         final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
                         // message class
-                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeAutorizacaoLote"));
+                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_AUTORIZACAO_LOTE));
                         final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                         final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                         final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
@@ -185,15 +188,15 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
             if (faultElt != null) {
-                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeAutorizacaoLoteZip"))) {
+                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_AUTORIZACAO_LOTE_ZIP))) {
                     // make the fault by reflection
                     try {
-                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeAutorizacaoLoteZip"));
+                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_AUTORIZACAO_LOTE_ZIP));
                         final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                         final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(java.lang.String.class);
                         final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
                         // message class
-                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeAutorizacaoLoteZip"));
+                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_AUTORIZACAO_LOTE_ZIP));
                         final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                         final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                         final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);

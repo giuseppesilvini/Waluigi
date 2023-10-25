@@ -16,6 +16,8 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
  */
 @SuppressWarnings({"rawtypes", "unchecked", "deprecation", "unused"})
 public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
+
+    private static final String UTILITY_CLASS = "Utility class";
     public static final String VERSAO_DADOS = "versaoDados";
     public static final String CTE_STATUS_SERVICO_CT_RESULT = "cteStatusServicoCTResult";
     public static final String ORG_2001_XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
@@ -296,7 +298,7 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
     public static class ExtensionMapper {
 
         private ExtensionMapper() {
-            throw new IllegalStateException("Utility class");
+            throw new IllegalStateException(UTILITY_CLASS);
         }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -552,7 +554,7 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**
@@ -876,7 +878,7 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**
@@ -1336,7 +1338,7 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**
@@ -1675,7 +1677,7 @@ public class CteStatusServicoStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**

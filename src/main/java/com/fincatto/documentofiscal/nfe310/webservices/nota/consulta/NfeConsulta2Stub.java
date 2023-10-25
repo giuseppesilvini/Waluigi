@@ -1140,7 +1140,9 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                             reader.next();
                         }
                     } // end of while loop
-                } catch (javax.xml.stream.XMLStreamException e) {/* e.printStackTrace(); */}
+                } catch (javax.xml.stream.XMLStreamException e) {
+                    
+                }
                 return object;
             }
         }// end of factory class

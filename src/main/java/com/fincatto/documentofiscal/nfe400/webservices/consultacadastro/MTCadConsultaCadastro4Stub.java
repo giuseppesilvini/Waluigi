@@ -8,6 +8,8 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
 public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
+
+    private static final String CONSULTA_CADASTRO = "consultaCadastro";
     public static final String NFE_DADOS_MSG_TYPE_0 = "nfeDadosMsg_type0";
     public static final String CONSULTA_CADASTRO_RESULT_TYPE_0 = "consultaCadastroResult_type0";
     public static final String NFE_RESULT_MSG = "nfeResultMsg";
@@ -80,7 +82,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
         operation = new org.apache.axis2.description.OutInAxisOperation();
 
-        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4,"consultaCadastro"));
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4,CONSULTA_CADASTRO));
         this._service.addOperation(operation);
 
         this.operations[0] = operation;
@@ -134,11 +136,11 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
             if (faultElt != null) {
                 if (faultExceptionNameMap.containsKey(
                         new org.apache.axis2.client.FaultMapKey(
-                                faultElt.getQName(), "consultaCadastro"))) {
+                                faultElt.getQName(), CONSULTA_CADASTRO))) {
                     //make the fault by reflection
                     try {
                         String exceptionClassName = faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(
-                                faultElt.getQName(), "consultaCadastro"));
+                                faultElt.getQName(), CONSULTA_CADASTRO));
                         Class<? extends Throwable> exceptionClass = Class.forName(exceptionClassName).asSubclass(Throwable.class);
                         java.lang.reflect.Constructor<? extends Throwable> constructor = exceptionClass.getConstructor(String.class);
                         Throwable ex = constructor.newInstance(f.getMessage());
@@ -146,7 +148,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
                         //message class
                         String messageClassName = faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(
-                                faultElt.getQName(), "consultaCadastro"));
+                                faultElt.getQName(), CONSULTA_CADASTRO));
                         Class<?> messageClass = Class.forName(messageClassName);
                         Object messageObject = fromOM(faultElt,
                                 messageClass);
@@ -1091,7 +1093,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     }
 
     public static class ConsultaCadastro implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4,"consultaCadastro", "ns1");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4,CONSULTA_CADASTRO, "ns1");
 
         protected NfeDadosMsgType0 localNfeDadosMsg;
         protected boolean localNfeDadosMsgTracker = false;
@@ -1155,7 +1157,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 } else {
                     writeAttribute("xsi",
                             XMLSCHEMA_INSTANCE, "type",
-                            "consultaCadastro", xmlWriter);
+                            CONSULTA_CADASTRO, xmlWriter);
                 }
             }
 
@@ -1347,7 +1349,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                         String type = fullTypeName.substring(fullTypeName.indexOf(
                                 ":") + 1);
 
-                        if (!"consultaCadastro".equals(type)) {
+                        if (!CONSULTA_CADASTRO.equals(type)) {
                             //find namespace for the prefix
                             String nsUri = reader.getNamespaceContext()
                                     .getNamespaceURI(nsPrefix);

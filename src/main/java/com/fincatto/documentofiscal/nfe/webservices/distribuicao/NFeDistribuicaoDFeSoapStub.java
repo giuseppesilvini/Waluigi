@@ -13,6 +13,9 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 
 @SuppressWarnings({"rawtypes", "unchecked", "deprecation", "unused"})
 public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
+
+    private static final String UTILITY_CLASS = "Utility class";
+    private static final String NFE_DIST_D_FE_INTERESSE = "nfeDistDFeInteresse";
     public static final String NFE_RESULT_MSG = "nfeDadosMsg";
     public static final String NFE_DADOS_MSG_TYPE_0 = "nfeDadosMsg_type0";
     public static final String NFE_DIST_D_FE_INTERESSE_RESPONSE = "nfeDistDFeInteresseResponse";
@@ -49,7 +52,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation operation;
         this.operations = new org.apache.axis2.description.AxisOperation[1];
         operation = new org.apache.axis2.description.OutInAxisOperation();
-        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, "nfeDistDFeInteresse"));
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_DIST_D_FE_INTERESSE));
         this._service.addOperation(operation);
         this.operations[0] = operation;
     }
@@ -153,7 +156,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
     public static class NFeDistDFeInteresse implements org.apache.axis2.databinding.ADBBean {
         private static final long serialVersionUID = 2957376822838111021L;
 
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, "nfeDistDFeInteresse", "ns1");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE, NFE_DIST_D_FE_INTERESSE, "ns1");
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
             if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_NFE_DISTRIBUICAO_DFE)) {
@@ -264,7 +267,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", namespacePrefix + ":nfeDistDFeInteresse", xmlWriter);
                 } else {
-                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", "nfeDistDFeInteresse", xmlWriter);
+                    this.writeAttribute("xsi", XMLSCHEMA_INSTANCE, "type", NFE_DIST_D_FE_INTERESSE, xmlWriter);
                 }
             }
             if (this.localNFeDadosMsgTracker) {
@@ -412,7 +415,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             public static NFeDistDFeInteresse parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -467,7 +470,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
                         }
                         nsPrefix = nsPrefix == null ? "" : nsPrefix;
                         final java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":") + 1);
-                        if (!"nfeDistDFeInteresse".equals(type)) {
+                        if (!NFE_DIST_D_FE_INTERESSE.equals(type)) {
                             // find namespace for the prefix
                             final java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
                             return (NFeDistDFeInteresse) ExtensionMapper.getTypeObject(nsUri, type, reader);
@@ -744,7 +747,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**
@@ -1096,7 +1099,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**
@@ -1169,7 +1172,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
     public static class ExtensionMapper {
 
         private ExtensionMapper() {
-            throw new IllegalStateException("Utility class");
+            throw new IllegalStateException(UTILITY_CLASS);
         }
 
         public static java.lang.Object getTypeObject(final java.lang.String namespaceURI, final java.lang.String typeName, final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
@@ -1448,7 +1451,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
         public static class Factory {
 
             private Factory() {
-                throw new IllegalStateException("Utility class");
+                throw new IllegalStateException(UTILITY_CLASS);
             }
 
             /**

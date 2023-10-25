@@ -11,6 +11,9 @@ import com.fincatto.documentofiscal.utils.MessageContextFactory;
 import org.apache.axis2.databinding.ADBException;
 
 public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
+
+    private static final String NFE_INUTILIZACAO_NF = "nfeInutilizacaoNF";
+    private static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_INUTILIZACAO4 = "http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao4";
     public static final String NFE_RESULT_MSG = "nfeResultMsg";
     private static int counter = 0;
     protected org.apache.axis2.description.AxisOperation[] operations;
@@ -70,7 +73,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
         org.apache.axis2.description.AxisOperation operation;
         this.operations = new org.apache.axis2.description.AxisOperation[1];
         operation = new org.apache.axis2.description.OutInAxisOperation();
-        operation.setName(new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao4", "nfeInutilizacaoNF"));
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_INUTILIZACAO4, NFE_INUTILIZACAO_NF));
         this._service.addOperation(operation);
         this.operations[0] = operation;
     }
@@ -100,7 +103,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
             env = this.toEnvelope(Stub.getFactory(operationClient.getOptions().getSoapVersionURI()), nfeDadosMsg0);
             
             //Alteracao para correcao da inutilizacao da faixa de valores para o estado do Ceara
-            env.declareNamespace("http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao4", "ns1");
+            env.declareNamespace(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_INUTILIZACAO4, "ns1");
                 
             // adding SOAP soap_headers
             this._serviceClient.addHeadersToEnvelope(env);
@@ -117,15 +120,15 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
         } catch (final org.apache.axis2.AxisFault f) {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
             if (faultElt != null) {
-                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeInutilizacaoNF"))) {
+                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_INUTILIZACAO_NF))) {
                     // make the fault by reflection
                     try {
-                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeInutilizacaoNF"));
+                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_INUTILIZACAO_NF));
                         final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                         final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(java.lang.String.class);
                         final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
                         // message class
-                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "nfeInutilizacaoNF"));
+                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), NFE_INUTILIZACAO_NF));
                         final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                         final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                         final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
@@ -181,7 +184,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
 
     @SuppressWarnings("serial")
     public static class NfeDadosMsg implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao4", "nfeDadosMsg", "ns1");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_INUTILIZACAO4, "nfeDadosMsg", "ns1");
 
         /**
          * field for ExtraElement
@@ -229,7 +232,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao4");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_INUTILIZACAO4);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeDadosMsg", xmlWriter);
                 } else {
@@ -245,7 +248,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao4")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_INUTILIZACAO4)) {
                 return "ns1";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
@@ -402,7 +405,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
 
     @SuppressWarnings("serial")
     public static class NfeResultMsg implements org.apache.axis2.databinding.ADBBean {
-        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao4", NFE_RESULT_MSG, "ns1");
+        public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_INUTILIZACAO4, NFE_RESULT_MSG, "ns1");
 
         /**
          * field for ExtraElement
@@ -450,7 +453,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
             namespace = parentQName.getNamespaceURI();
             this.writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
             if (serializeType) {
-                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, "http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao4");
+                final java.lang.String namespacePrefix = this.registerPrefix(xmlWriter, HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_INUTILIZACAO4);
                 if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)) {
                     this.writeAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance", "type", namespacePrefix + ":nfeResultMsg", xmlWriter);
                 } else {
@@ -466,7 +469,7 @@ public class NFeInutilizacao4Stub extends org.apache.axis2.client.Stub {
         }
 
         private static java.lang.String generatePrefix(final java.lang.String namespace) {
-            if (namespace.equals("http://www.portalfiscal.inf.br/nfe/wsdl/NFeInutilizacao4")) {
+            if (namespace.equals(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_N_FE_INUTILIZACAO4)) {
                 return "ns1";
             }
             return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
