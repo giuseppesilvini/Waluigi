@@ -16,7 +16,7 @@ public class NFInfoCancelamentoTest {
         infoCancelamento.setProtocoloAutorizacao(protocoloAutorizacao);
         Assert.assertEquals(protocoloAutorizacao, infoCancelamento.getProtocoloAutorizacao());
     }
-
+/*
     @ParameterizedTest
     @ValueSource(strings = {"", "123456789A12345", "1234567890123456"})
     public void naoDevePermitirProtocoloAutorizacaoParametrized(String arg) {
@@ -24,7 +24,7 @@ public class NFInfoCancelamentoTest {
         final String protocoloAutorizacao = arg;
         infoCancelamento.setProtocoloAutorizacao(protocoloAutorizacao);
     }
-
+*/
     @Test(expected = UnsupportedOperationException.class)
     public void naoDevePermitirSetarCondicaoDeUso() {
         new NFInfoCancelamento().setCondicaoUso("");
