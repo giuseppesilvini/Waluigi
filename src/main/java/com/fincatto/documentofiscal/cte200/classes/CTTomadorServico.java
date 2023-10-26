@@ -45,7 +45,7 @@ public enum CTTomadorServico {
         return this.codigo + " - " + this.descricao;
     }
 
-    public static List<CTTomadorServico> getTOMADOR_3() {
+    public static List<CTTomadorServico> getTOMADOR3() {
         return TOMADOR_3;
     }
 }

@@ -28,7 +28,7 @@ public class CTInfoEntregaComHora extends DFBase {
     }
 
     public void setTipoHorario(final CTTipoEntregaHorario tipoHorario) {
-        if (!CTTipoEntregaHorario.getCOM_HORARIO().contains(tipoHorario)) {
+        if (!CTTipoEntregaHorario.getCOMHORARIO().contains(tipoHorario)) {
             throw new IllegalArgumentException("O tipo de per\u00edodo programado para entrega deve ser com horario");
         }
         this.tipoHorario = tipoHorario;

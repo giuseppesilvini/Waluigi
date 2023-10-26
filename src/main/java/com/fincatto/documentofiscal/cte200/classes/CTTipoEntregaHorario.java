@@ -39,7 +39,7 @@ public enum CTTipoEntregaHorario {
         return this.codigo + " - " + this.descricao;
     }
 
-    public static List<CTTipoEntregaHorario> getCOM_HORARIO() {
+    public static List<CTTipoEntregaHorario> getCOMHORARIO() {
         return COM_HORARIO;
     }
 }

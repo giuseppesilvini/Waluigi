@@ -28,7 +28,7 @@ public class CTInfoEntregaComData extends DFBase {
     }
 
     public void setTipoPeriodo(final CTTipoEntregaData tipoPeriodo) {
-        if (!CTTipoEntregaData.getCOM_DATA().contains(tipoPeriodo)) {
+        if (!CTTipoEntregaData.getCOMDATA().contains(tipoPeriodo)) {
             throw new IllegalArgumentException("O tipo de per\u00edodo programado para entrega deve ser com data");
         }
         this.tipoPeriodo = tipoPeriodo;

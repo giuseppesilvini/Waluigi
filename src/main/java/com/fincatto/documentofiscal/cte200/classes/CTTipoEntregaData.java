@@ -39,7 +39,7 @@ public enum CTTipoEntregaData {
         return this.codigo + " - " + this.descricao;
     }
 
-    public static List<CTTipoEntregaData> getCOM_DATA() {
+    public static List<CTTipoEntregaData> getCOMDATA() {
         return COM_DATA;
     }
 }

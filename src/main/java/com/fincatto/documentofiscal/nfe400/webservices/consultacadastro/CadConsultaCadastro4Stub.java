@@ -23,6 +23,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     public static final String HTTP_WWW_W_3_ORG_2001_XMLSCHEMA_INSTANCE = "http://www.w3.org/2001/XMLSchema-instance";
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4 = "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro4";
     public static final String NFE_DADOS_MSG = "nfeDadosMsg";
+    public static final String CONSULTA_CADASTRO = "consultaCadastro";
     private static int counter = 0;
     protected org.apache.axis2.description.AxisOperation[] operations;
 
@@ -90,7 +91,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
         operation = new org.apache.axis2.description.OutInAxisOperation();
 
-        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4, "consultaCadastro"));
+        operation.setName(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4, CONSULTA_CADASTRO));
         this._service.addOperation(operation);
 
         this.operations[0] = operation;
@@ -146,16 +147,16 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
             final org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
             if (faultElt != null) {
-                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "consultaCadastro"))) {
+                if (this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CONSULTA_CADASTRO))) {
                     // make the fault by reflection
                     try {
-                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "consultaCadastro"));
+                        final java.lang.String exceptionClassName = (java.lang.String) this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CONSULTA_CADASTRO));
                         final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                         final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(java.lang.String.class);
                         final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
 
                         // message class
-                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "consultaCadastro"));
+                        final java.lang.String messageClassName = (java.lang.String) this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CONSULTA_CADASTRO));
                         final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                         final java.lang.Object messageObject = this.fromOM(faultElt, messageClass);
                         final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
@@ -238,16 +239,16 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                     final org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
                     if (faultElt != null &&
-                                CadConsultaCadastro4Stub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "consultaCadastro"))) {
+                                CadConsultaCadastro4Stub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CONSULTA_CADASTRO))) {
                         // make the fault by reflection
                         try {
-                            final java.lang.String exceptionClassName = (java.lang.String) CadConsultaCadastro4Stub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "consultaCadastro"));
+                            final java.lang.String exceptionClassName = (java.lang.String) CadConsultaCadastro4Stub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CONSULTA_CADASTRO));
                             final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
                             final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(java.lang.String.class);
                             final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
 
                             // message class
-                            final java.lang.String messageClassName = (java.lang.String) CadConsultaCadastro4Stub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), "consultaCadastro"));
+                            final java.lang.String messageClassName = (java.lang.String) CadConsultaCadastro4Stub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CONSULTA_CADASTRO));
                             final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
                             final java.lang.Object messageObject = CadConsultaCadastro4Stub.this.fromOM(faultElt, messageClass);
                             final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
