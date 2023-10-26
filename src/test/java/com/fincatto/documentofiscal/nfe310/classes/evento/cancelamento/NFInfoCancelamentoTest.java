@@ -19,10 +19,13 @@ public class NFInfoCancelamentoTest {
 
     @ParameterizedTest
     @ValueSource(strings = {"", "123456789A12345", "1234567890123456"})
-    public void naoDevePermitirProtocoloAutorizacaoParametrized(String arg) {
+    public void naoDevePermitirProtocoloAutorizacaoParametrized(final String protocoloAutorizacao) {
         final NFInfoCancelamento infoCancelamento = new NFInfoCancelamento();
-        final String protocoloAutorizacao = arg;
-        infoCancelamento.setProtocoloAutorizacao(protocoloAutorizacao);
+        try {
+            infoCancelamento.setProtocoloAutorizacao(protocoloAutorizacao);
+            Assert.fail();
+        } catch(final IllegalStateException ignored) {
+        }
     }
 
     @Test(expected = UnsupportedOperationException.class)
