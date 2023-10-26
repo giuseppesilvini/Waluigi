@@ -1,13 +1,19 @@
 package com.fincatto.documentofiscal.cte300.webservices;
 
+import java.io.IOException;
 import java.math.BigDecimal;
 import java.rmi.RemoteException;
+import java.security.InvalidAlgorithmParameterException;
+import java.security.KeyStoreException;
+import java.security.NoSuchAlgorithmException;
+import java.security.UnrecoverableEntryException;
 
 import org.apache.axiom.om.OMElement;
 import org.apache.axiom.om.util.AXIOMUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.xml.sax.SAXException;
 
 import com.fincatto.documentofiscal.DFModelo;
 import com.fincatto.documentofiscal.cte300.CTeConfig;
@@ -22,7 +28,11 @@ import com.fincatto.documentofiscal.cte300.webservices.inutilizacao.CteInutiliza
 import com.fincatto.documentofiscal.utils.DFAssinaturaDigital;
 import com.fincatto.documentofiscal.utils.DFPersister;
 
+import javax.naming.InvalidNameException;
+import javax.xml.crypto.dsig.XMLSignatureException;
+import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.stream.XMLStreamException;
+import javax.xml.transform.TransformerException;
 
 class WSInutilizacao {
 
@@ -46,7 +56,9 @@ class WSInutilizacao {
         return new DFPersister().read(CTeRetornoEventoInutilizacao.class, omElementResult.toString());
     }
 
-    String getXmlAssinado(final int anoInutilizacaoNumeracao, final String cnpjEmitente, final String serie, final String numeroInicial, final String numeroFinal, final String justificativa, final DFModelo modelo) throws Exception {
+    String getXmlAssinado(final int anoInutilizacaoNumeracao, final String cnpjEmitente, final String serie, final String numeroInicial, final String numeroFinal, final String justificativa, final DFModelo modelo) 
+        throws KeyStoreException, NoSuchAlgorithmException, UnrecoverableEntryException, InvalidNameException, InvalidAlgorithmParameterException, ParserConfigurationException, IOException, XMLSignatureException, SAXException, TransformerException, javax.xml.crypto.MarshalException
+    {
     	final String inutilizacaoXML = this.geraDadosInutilizacao(anoInutilizacaoNumeracao, cnpjEmitente, serie, numeroInicial, numeroFinal, justificativa, modelo).toString();
         return new DFAssinaturaDigital(this.config).assinarDocumento(inutilizacaoXML);
     }

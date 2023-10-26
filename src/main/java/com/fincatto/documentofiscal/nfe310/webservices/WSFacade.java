@@ -23,7 +23,6 @@ import org.apache.commons.httpclient.protocol.Protocol;
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
-import java.security.UnrecoverableKeyException;
 
 public class WSFacade {
 
@@ -39,7 +38,7 @@ public class WSFacade {
     private final WSNotaDownload wsNotaDownload;
     private final WSDistribuicaoNFe wSDistribuicaoNFe;
 
-    public WSFacade(final NFeConfig config) throws KeyManagementException, UnrecoverableKeyException, KeyStoreException, NoSuchAlgorithmException {
+    public WSFacade(final NFeConfig config) throws KeyManagementException, KeyStoreException, NoSuchAlgorithmException {
         Protocol.registerProtocol("https", new Protocol("https", new DFSocketFactory(config), 443));
 
         // inicia os servicos disponiveis da nfe

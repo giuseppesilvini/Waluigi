@@ -223,7 +223,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
 
                 @Override
                 public void serialize(final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
-                    NFeDistDFeInteresse.this.serialize(NFeDistDFeInteresse.MY_QNAME, factory, xmlWriter);
+                    NFeDistDFeInteresse.this.serialize(NFeDistDFeInteresse.MY_QNAME, xmlWriter);
                 }
             };
             return factory.createOMElement(dataSource, NFeDistDFeInteresse.MY_QNAME);
@@ -231,10 +231,6 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
 
         @Override
         public void serialize(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
-            this.serialize(parentQName, xmlWriter, false);
-        }
-
-        public void serialize(final javax.xml.namespace.QName parentQName, final org.apache.axiom.om.OMFactory factory, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             this.serialize(parentQName, xmlWriter, false);
         }
 
@@ -889,7 +885,7 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
 
                 @Override
                 public void serialize(final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
-                    NFeDistDFeInteresseResponse.this.serialize(NFeDistDFeInteresseResponse.MY_QNAME, factory, xmlWriter);
+                    NFeDistDFeInteresseResponse.this.serialize(NFeDistDFeInteresseResponse.MY_QNAME, xmlWriter);
                 }
             };
             return factory.createOMElement(dataSource, NFeDistDFeInteresseResponse.MY_QNAME);
@@ -897,10 +893,6 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
 
         @Override
         public void serialize(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
-            this.serialize(parentQName, xmlWriter, false);
-        }
-
-        public void serialize(final javax.xml.namespace.QName parentQName, final org.apache.axiom.om.OMFactory factory, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             this.serialize(parentQName, xmlWriter, false);
         }
 

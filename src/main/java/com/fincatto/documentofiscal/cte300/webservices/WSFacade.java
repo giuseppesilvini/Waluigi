@@ -16,7 +16,6 @@ import com.fincatto.documentofiscal.utils.DFSocketFactory;
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
-import java.security.UnrecoverableKeyException;
 import org.apache.commons.httpclient.protocol.Protocol;
 
 public class WSFacade {
@@ -30,7 +29,7 @@ public class WSFacade {
 
     private final WSRecepcaoLoteRetorno wsRecepcaoLoteRetorno;
 
-    public WSFacade(final CTeConfig config) throws KeyManagementException, UnrecoverableKeyException, KeyStoreException, NoSuchAlgorithmException {
+    public WSFacade(final CTeConfig config) throws KeyManagementException, KeyStoreException, NoSuchAlgorithmException {
         Protocol.registerProtocol("https", new Protocol("https", new DFSocketFactory(config), 443));
         this.wsStatusConsulta = new WSStatusConsulta(config);
         this.wsRecepcaoLote = new WSRecepcaoLote(config);

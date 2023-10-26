@@ -18,7 +18,6 @@ import org.apache.commons.httpclient.protocol.Protocol;
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
-import java.security.UnrecoverableKeyException;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -35,7 +34,7 @@ public class WSFacade {
     private final WSIncluirDFe wsIncluirDFe;
     private final WSPagamentoTransporte wsPagamentoTransporte;
 
-    public WSFacade(final MDFeConfig config) throws KeyManagementException, UnrecoverableKeyException, KeyStoreException, NoSuchAlgorithmException {
+    public WSFacade(final MDFeConfig config) throws KeyManagementException, KeyStoreException, NoSuchAlgorithmException {
         Protocol.registerProtocol("https", new Protocol("https", new DFSocketFactory(config), 443));
         this.wsStatusConsulta = new WSStatusConsulta(config);
         this.wsRecepcaoLote = new WSRecepcaoLote(config);

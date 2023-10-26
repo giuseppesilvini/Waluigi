@@ -19,7 +19,6 @@ import java.rmi.RemoteException;
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
-import java.security.UnrecoverableKeyException;
 import java.util.Base64;
 import java.util.zip.GZIPInputStream;
 import javax.xml.stream.XMLStreamException;
@@ -42,7 +41,7 @@ public class WSDistribuicaoCTe {
      * A receita nao disponibiliza o conhecimento varias vezes para consultar, retorna rejeicao: Consumo indevido
      */
 
-    public static String consultar(final CTDistribuicaoInt distDFeInt, final NFeConfig config) throws RemoteException, XMLStreamException, UnrecoverableKeyException, NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
+    public static String consultar(final CTDistribuicaoInt distDFeInt, final NFeConfig config) throws RemoteException, XMLStreamException, NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
         Protocol.registerProtocol("https", new Protocol("https", new DFSocketFactory(config), 443));
 
         final OMElement ome = AXIOMUtil.stringToOM(distDFeInt.toString());

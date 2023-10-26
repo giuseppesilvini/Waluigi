@@ -30,7 +30,6 @@ import java.rmi.RemoteException;
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
-import java.security.UnrecoverableKeyException;
 
 import javax.xml.stream.XMLStreamException;
 
@@ -48,7 +47,7 @@ public class WSFacade {
     private final WSDistribuicaoNFe wSDistribuicaoNFe;
     private final WSEpec wsEpec;
 
-    public WSFacade(final NFeConfig config) throws KeyManagementException, UnrecoverableKeyException, KeyStoreException, NoSuchAlgorithmException {
+    public WSFacade(final NFeConfig config) throws KeyManagementException, KeyStoreException, NoSuchAlgorithmException {
         Protocol.registerProtocol("https", new Protocol("https", new DFSocketFactory(config), 443));
 
         // inicia os servicos disponiveis da nfe
