@@ -9,6 +9,7 @@ import org.apache.axis2.client.Stub;
 import javax.xml.namespace.QName;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
+import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 import com.fincatto.documentofiscal.DFConfig;
@@ -104,7 +105,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
     /**
      * Auto generated method signature Serviço destinado à consulta no Cadastro.
-     * @see CadConsultaCadastro4#consultaCadastro
+     * @see CadConsultaCadastro4Stub
      * @param nfeDadosMsg0
      */
     @SuppressWarnings({ "rawtypes", "unchecked" })
@@ -218,7 +219,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axis2.client.async.AxisCallback createCallback(CadConsultaCadastro4CallbackHandler callback, org.apache.axis2.context.MessageContext messageContext) {
-        org.apache.axis2.client.async.AxisCallback returnCallback = new org.apache.axis2.client.async.AxisCallback() {
+        return new org.apache.axis2.client.async.AxisCallback() {
             @Override
             public void onMessage(final org.apache.axis2.context.MessageContext resultContext) {
                 try {
@@ -231,40 +232,9 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 }
             }
 
-            @SuppressWarnings({ "rawtypes", "unchecked" })
             @Override
             public void onError(final java.lang.Exception error) {
-                if (error instanceof org.apache.axis2.AxisFault) {
-                    final org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
-                    final org.apache.axiom.om.OMElement faultElt = f.getDetail();
-
-                    if (faultElt != null &&
-                                CadConsultaCadastro4Stub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CONSULTA_CADASTRO))) {
-                        // make the fault by reflection
-                        try {
-                            final java.lang.String exceptionClassName = (java.lang.String) CadConsultaCadastro4Stub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CONSULTA_CADASTRO));
-                            final java.lang.Class exceptionClass = java.lang.Class.forName(exceptionClassName);
-                            final java.lang.reflect.Constructor constructor = exceptionClass.getConstructor(java.lang.String.class);
-                            final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
-
-                            // message class
-                            final java.lang.String messageClassName = (java.lang.String) CadConsultaCadastro4Stub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CONSULTA_CADASTRO));
-                            final java.lang.Class messageClass = java.lang.Class.forName(messageClassName);
-                            final java.lang.Object messageObject = CadConsultaCadastro4Stub.this.fromOM(faultElt, messageClass);
-                            final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
-                            m.invoke(ex, messageObject);
-
-                            callback.receiveErrorconsultaCadastro(new java.rmi.RemoteException(ex.getMessage(), ex));
-                        } catch (final ClassCastException | AxisFault | InstantiationException | IllegalAccessException | InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
-                            // we cannot intantiate the class - throw the original Axis fault
-                            callback.receiveErrorconsultaCadastro(f);
-                        }
-                    } else {
-                        callback.receiveErrorconsultaCadastro(f);
-                    }
-                } else {
-                    callback.receiveErrorconsultaCadastro(error);
-                }
+                callbackError(error, callback);
             }
 
             @Override
@@ -282,7 +252,36 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 }
             }
         };
-        return returnCallback;
+    }
+    private void callbackError(java.lang.Exception error, com.fincatto.documentofiscal.nfe400.webservices.consultacadastro.CadConsultaCadastro4CallbackHandler callback) {
+        if (error instanceof org.apache.axis2.AxisFault) {
+            final org.apache.axis2.AxisFault f = (org.apache.axis2.AxisFault) error;
+            final org.apache.axiom.om.OMElement faultElt = f.getDetail();
+            if (faultElt != null &&
+                    CadConsultaCadastro4Stub.this.faultExceptionNameMap.containsKey(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CONSULTA_CADASTRO))) {
+                // make the fault by reflection
+                try {
+                    final java.lang.String exceptionClassName = (java.lang.String) CadConsultaCadastro4Stub.this.faultExceptionClassNameMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CONSULTA_CADASTRO));
+                    final Class<?> exceptionClass = Class.forName(exceptionClassName);
+                    final Constructor<?> constructor = exceptionClass.getConstructor(String.class);
+                    final java.lang.Exception ex = (java.lang.Exception) constructor.newInstance(f.getMessage());
+                    // message class
+                    final java.lang.String messageClassName = (java.lang.String) CadConsultaCadastro4Stub.this.faultMessageMap.get(new org.apache.axis2.client.FaultMapKey(faultElt.getQName(), CONSULTA_CADASTRO));
+                    final Class<?> messageClass = Class.forName(messageClassName);
+                    final java.lang.Object messageObject = CadConsultaCadastro4Stub.this.fromOM(faultElt, messageClass);
+                    final java.lang.reflect.Method m = exceptionClass.getMethod("setFaultMessage", messageClass);
+                    m.invoke(ex, messageObject);
+                    callback.receiveErrorconsultaCadastro(new java.rmi.RemoteException(ex.getMessage(), ex));
+                } catch (final ClassCastException | AxisFault | InstantiationException | IllegalAccessException | InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
+                    // we cannot intantiate the class - throw the original Axis fault
+                    callback.receiveErrorconsultaCadastro(f);
+                }
+            } else {
+                callback.receiveErrorconsultaCadastro(f);
+            }
+        } else {
+            callback.receiveErrorconsultaCadastro(error);
+        }
     }
 
 
