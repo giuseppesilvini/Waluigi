@@ -19,9 +19,9 @@ public class NFInfoCancelamentoTest {
 
     @ParameterizedTest
     @ValueSource(strings = {"", "123456789A12345", "1234567890123456"})
-    public void naoDevePermitirProtocoloAutorizacaoParametrized() {
+    public void naoDevePermitirProtocoloAutorizacaoParametrized(String arg) {
         final NFInfoCancelamento infoCancelamento = new NFInfoCancelamento();
-        final String protocoloAutorizacao = "";
+        final String protocoloAutorizacao = arg;
         infoCancelamento.setProtocoloAutorizacao(protocoloAutorizacao);
     }
 
