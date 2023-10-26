@@ -477,7 +477,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
              * static method to create the object Precondition: If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable If this object is not an element, it is a complex type and the reader is at the event just after the outer start element Postcondition: If this object is an element, the reader is positioned at its end element If this object is a complex type, the reader is positioned at the end element of its outer element
              */
             @SuppressWarnings({ "unused", "rawtypes" })
-            public static NfeResultMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            public static NfeResultMsg parse(final javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 final NfeResultMsg object = new NfeResultMsg();
 
                 final int event;
@@ -541,7 +541,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            private static NfeResultMsg parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static NfeResultMsg parsePart1(javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 if (reader.getAttributeValue(HTTP_WWW_W_3_ORG_2001_XMLSCHEMA_INSTANCE, "type") != null) {
                     final java.lang.String fullTypeName = reader.getAttributeValue(HTTP_WWW_W_3_ORG_2001_XMLSCHEMA_INSTANCE, "type");
 
@@ -726,7 +726,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
              * static method to create the object Precondition: If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable If this object is not an element, it is a complex type and the reader is at the event just after the outer start element Postcondition: If this object is an element, the reader is positioned at its end element If this object is a complex type, the reader is positioned at the end element of its outer element
              */
             @SuppressWarnings({ "unused", "rawtypes" })
-            public static NfeDadosMsg parse(final javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            public static NfeDadosMsg parse(final javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 final NfeDadosMsg object = new NfeDadosMsg();
 
                 final int event;
@@ -793,7 +793,7 @@ public class CadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            private static NfeDadosMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static NfeDadosMsg parsePart1 (javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 if (reader.getAttributeValue(HTTP_WWW_W_3_ORG_2001_XMLSCHEMA_INSTANCE, "type") != null) {
                     final java.lang.String fullTypeName = reader.getAttributeValue(HTTP_WWW_W_3_ORG_2001_XMLSCHEMA_INSTANCE, "type");
 
