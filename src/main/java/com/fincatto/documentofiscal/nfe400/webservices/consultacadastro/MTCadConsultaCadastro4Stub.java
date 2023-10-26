@@ -1064,11 +1064,11 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+            private static boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            static private NfeDadosMsgType0 parsePart1(javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
+            private static NfeDadosMsgType0 parsePart1(javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
                 if (reader.getAttributeValue(
                         XMLSCHEMA_INSTANCE,
                         "type") != null) {

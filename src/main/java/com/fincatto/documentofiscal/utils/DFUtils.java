@@ -41,7 +41,7 @@ public abstract class DFUtils {
         return cnpj.equals(cnpjCalculado);
     }
 
-    static private String isValidoPart1(char[] chrCNPJ, String cnpjCalculado) {
+    private static String isValidoPart1(char[] chrCNPJ, String cnpjCalculado) {
         int soma = 0;
         for (int i = 0; i < 4; i++) {
             if (((chrCNPJ[i] - 48) >= 0) && ((chrCNPJ[i] - 48) <= 9)) {
@@ -58,7 +58,7 @@ public abstract class DFUtils {
         return cnpjCalculado;
     }
 
-    static private String isValidoPart2(char[] chrCNPJ, String cnpjCalculado) {
+    private static String isValidoPart2(char[] chrCNPJ, String cnpjCalculado) {
         int soma = 0;
         for (int i = 0; i < 5; i++) {
             if (((chrCNPJ[i] - 48) >= 0) && ((chrCNPJ[i] - 48) <= 9)) {

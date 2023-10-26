@@ -1105,11 +1105,11 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+            private static boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            static private MdfeConsNaoEncResult parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static MdfeConsNaoEncResult parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
                     final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                     if (fullTypeName != null) {
@@ -1702,11 +1702,11 @@ public class MDFeConsNaoEncStub extends org.apache.axis2.client.Stub {
                 return object;
             }
 
-            static private boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
+            private static  boolean isNotStartOrEndElement(javax.xml.stream.XMLStreamReader reader) {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            static private MdfeDadosMsg parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
+            private static MdfeDadosMsg parsePart1(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception {
                 if (reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type") != null) {
                     final java.lang.String fullTypeName = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "type");
                     if (fullTypeName != null) {
