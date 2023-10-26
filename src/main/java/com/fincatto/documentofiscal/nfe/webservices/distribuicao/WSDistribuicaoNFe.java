@@ -57,7 +57,7 @@ public class WSDistribuicaoNFe {
     
             return this.config.getPersister().read(NFDistribuicaoIntRetorno.class, result.getNFeDistDFeInteresseResult().getExtraElement().toString());
         } catch (RemoteException | XMLStreamException e) {
-            e.printStackTrace();
+            //Ignore catch
             throw e;
         }
     }

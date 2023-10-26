@@ -451,7 +451,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    e.printStackTrace();
+                    //Ignore catch
                     throw e;
                 }
                 return object;
@@ -672,7 +672,7 @@ public class NFeAutorizacao4Stub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
-                    e.printStackTrace();
+                    //Ignore catch
                     throw e;
                 }
                 return object;
