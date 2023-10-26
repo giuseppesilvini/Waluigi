@@ -12,7 +12,6 @@ import java.util.ArrayList;
 
 import org.apache.axiom.om.OMElement;
 import org.apache.commons.lang3.StringUtils;
-import org.xml.sax.SAXException;
 
 import com.fincatto.documentofiscal.nfe400.classes.evento.epec.NFEnviaEventoEpec;
 import com.fincatto.documentofiscal.nfe400.classes.evento.epec.NFEnviaEventoEpecRetorno;
@@ -37,6 +36,7 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 import javax.xml.XMLConstants;
 import org.apache.axiom.om.impl.builder.StAXOMBuilder;
+import org.xml.sax.SAXException;
 
 public class WSEpec implements DFLog {
 
@@ -143,7 +143,7 @@ public class WSEpec implements DFLog {
         return this.config.getPersister().read(NFEnviaEventoEpecRetorno.class, xmlRetorno);
     }
 
-    public NFeRecepcaoEvento4Stub.NfeResultMsg comunicaLoteRaw(String loteAssinadoXml, DFModelo modelo) throws java.rmi.RemoteException, IOException, SAXException, URISyntaxException, XMLStreamException {
+    public NFeRecepcaoEvento4Stub.NfeResultMsg comunicaLoteRaw(String loteAssinadoXml, DFModelo modelo) throws IOException, XMLStreamException, URISyntaxException, SAXException {
         // valida o epec assinado, para verificar se o xsd foi satisfeito, antes de comunicar com a sefaz
         DFXMLValidador.validaEpec(loteAssinadoXml);
 

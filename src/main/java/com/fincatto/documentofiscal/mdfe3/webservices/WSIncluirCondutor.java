@@ -44,7 +44,7 @@ class WSIncluirCondutor implements DFLog {
     }
     
     private OMElement efetuaIncluirCondutor(final String xmlAssinado, final String chaveAcesso) 
-        throws org.apache.axis2.AxisFault, XMLStreamException, java.rmi.RemoteException
+        throws XMLStreamException, java.rmi.RemoteException
     {
         final MDFChaveParser mdfChaveParser = new MDFChaveParser(chaveAcesso);
         final MDFeRecepcaoEventoStub.MdfeCabecMsg cabec = new MDFeRecepcaoEventoStub.MdfeCabecMsg();

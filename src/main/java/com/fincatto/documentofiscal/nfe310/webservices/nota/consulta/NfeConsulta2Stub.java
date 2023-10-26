@@ -598,7 +598,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                         throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
-
+                    //
                 }
                 return object;
             }
@@ -1141,7 +1141,7 @@ class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                         }
                     } // end of while loop
                 } catch (javax.xml.stream.XMLStreamException e) {
-                    
+                    //
                 }
                 return object;
             }

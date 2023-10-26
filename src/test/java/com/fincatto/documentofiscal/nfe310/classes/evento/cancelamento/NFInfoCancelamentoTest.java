@@ -7,7 +7,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import com.fincatto.documentofiscal.nfe310.FabricaDeObjetosFake;
 
-public class NFInfoCancelamentoTest {
+class NFInfoCancelamentoTest {
 
     @Test
     public void deveObterProtocoloAutorizacaoComoFoiSetado() {
@@ -19,7 +19,7 @@ public class NFInfoCancelamentoTest {
 
     @ParameterizedTest
     @ValueSource(strings = {"", "123456789A12345", "1234567890123456"})
-    public void naoDevePermitirProtocoloAutorizacaoParametrized(final String protocoloAutorizacao) {
+    void naoDevePermitirProtocoloAutorizacaoParametrized(final String protocoloAutorizacao) {
         final NFInfoCancelamento infoCancelamento = new NFInfoCancelamento();
         try {
             infoCancelamento.setProtocoloAutorizacao(protocoloAutorizacao);

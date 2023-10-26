@@ -590,14 +590,14 @@ public class NFeRetAutorizacao4Stub extends org.apache.axis2.client.Stub {
                     } // End of if for expected property start element
                     else {
                         // 1 - A start element we are not expecting indicates an invalid parameter was passed
-                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                        throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                     while (isNotStartOrEndElement(reader)) {
                         reader.next();
                     }
                     if (reader.isStartElement()) {
                         // 2 - A start element we are not expecting indicates a trailing invalid property
-                        throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                        throw new org.apache.axis2.databinding.ADBException(UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (final javax.xml.stream.XMLStreamException e) {
                     throw new javax.xml.stream.XMLStreamException(e);

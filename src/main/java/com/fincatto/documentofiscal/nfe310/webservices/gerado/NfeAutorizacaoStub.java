@@ -4,7 +4,6 @@ import org.apache.axiom.om.OMAttribute;
 import org.apache.axis2.client.Stub;
 import org.apache.axis2.databinding.utils.Constants;
 
-import javax.xml.namespace.QName;
 import javax.xml.stream.XMLStreamException;
 
 import java.io.Serializable;

@@ -140,7 +140,6 @@ public class CTeNotaInfoCTeNormalInfoDocumentosInfoOutros extends DFBase {
 
     /**
      * Informações das Unidades de Carga (Containeres/ULD/Outros)<br>
-     * Dispositivo de carga utilizada (Unit Load Device - ULD) significa todo tipo de contêiner de carga, vagão, contêiner de avião, palete de aeronave com rede ou palete de aeronave com rede sobre um iglu.
      */
     public void setInfoUnidCarga(final List<CTeNotaInfoCTeNormalInfoDocumentosInfoUnidadeCarga> infoUnidCarga) {
         this.infoUnidCarga = infoUnidCarga;

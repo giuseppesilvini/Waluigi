@@ -129,7 +129,7 @@ class WSLoteEnvio implements DFLog {
     }
 
     NfeResultMsg comunicaLoteRaw(final String loteAssinadoXml, final DFModelo modelo, boolean validarXML)
-            throws java.rmi.RemoteException, IOException, SAXException, URISyntaxException, XMLStreamException {
+            throws  IOException, SAXException, URISyntaxException, XMLStreamException {
 
         if (validarXML) {
             // valida o lote assinado, para verificar se o xsd foi satisfeito, antes de

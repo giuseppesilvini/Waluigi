@@ -2,7 +2,6 @@ package com.fincatto.documentofiscal.nfe400.webservices.consultacadastro;
 
 
 import org.apache.axis2.client.FaultMapKey;
-import org.apache.axis2.databinding.ADBException;
 
 import javax.xml.namespace.QName;
 import javax.xml.stream.XMLStreamException;
@@ -218,7 +217,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
 
         public static Object getTypeObject(
                 String namespaceURI, String typeName,
-                javax.xml.stream.XMLStreamReader reader) throws XMLStreamException, ADBException {
+                javax.xml.stream.XMLStreamReader reader) throws XMLStreamException {
             if (HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_4.equals(
                     namespaceURI) && NFE_DADOS_MSG_TYPE_0.equals(typeName)) {
                 return NfeDadosMsgType0.Factory.parse(reader);
@@ -720,7 +719,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
              */
             public static ConsultaCadastroResultType0 parse(
                     javax.xml.stream.XMLStreamReader reader)
-                    throws XMLStreamException, ADBException {
+                    throws XMLStreamException {
                 ConsultaCadastroResultType0 object = new ConsultaCadastroResultType0();
 
                 try {
@@ -1010,7 +1009,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
              */
             public static NfeDadosMsgType0 parse(
                     javax.xml.stream.XMLStreamReader reader)
-                    throws XMLStreamException, ADBException {
+                    throws XMLStreamException {
                 NfeDadosMsgType0 object = new NfeDadosMsgType0();
 
                 try {
@@ -1290,7 +1289,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
              */
             public static ConsultaCadastro parse(
                     javax.xml.stream.XMLStreamReader reader)
-                    throws XMLStreamException, ADBException {
+                    throws XMLStreamException {
                 ConsultaCadastro object = new ConsultaCadastro();
 
                 try {

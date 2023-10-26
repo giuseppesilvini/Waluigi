@@ -804,7 +804,7 @@ public class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
             if (this.localExtraElement != null) {
                 this.localExtraElement.serialize(xmlWriter);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             xmlWriter.writeEndElement();
         }
@@ -865,7 +865,7 @@ public class NfeConsulta2Stub extends org.apache.axis2.client.Stub {
                 elementList.add(org.apache.axis2.databinding.utils.Constants.OM_ELEMENT_KEY);
                 elementList.add(this.localExtraElement);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName, elementList.toArray(), new java.util.ArrayList<>().toArray());
         }

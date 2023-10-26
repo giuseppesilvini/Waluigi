@@ -1,15 +1,12 @@
 package com.fincatto.documentofiscal.mdfe3.utils;
 
-import java.security.InvalidKeyException;
-import java.security.KeyStoreException;
-import java.security.NoSuchAlgorithmException;
-import java.security.SignatureException;
-import java.security.UnrecoverableEntryException;
 
 import com.fincatto.documentofiscal.mdfe3.MDFeConfig;
 import com.fincatto.documentofiscal.mdfe3.classes.def.MDFTipoEmissao;
 import com.fincatto.documentofiscal.mdfe3.classes.nota.MDFe;
 import com.fincatto.documentofiscal.utils.DFAssinaturaDigital;
+
+import java.security.*;
 
 public class MDFGeraQRCode {
 
@@ -23,15 +20,13 @@ public class MDFGeraQRCode {
         this.config = config;
     }
 
-    public String getQRCode() 
-            throws NoSuchAlgorithmException, UnrecoverableEntryException, KeyStoreException, InvalidKeyException, SignatureException
-    {
+    public String getQRCode() throws UnrecoverableEntryException, NoSuchAlgorithmException, KeyStoreException, SignatureException, InvalidKeyException {
         final StringBuilder parametros = new StringBuilder();
 //        1a parte - URL para acessar o MDF-e, seguido do caractere “?”
         String url = qrCodeUrl;
 
 //        2a parte - parâmetros chMDFe e tpAmb da mesma forma como na forma de emissão normal
-//        separados pelo caractere “&”;
+
         String chaveAcesso = this.mdf.getInfo().getChaveAcesso();
         parametros.append("chMDFe=").append(chaveAcesso).append("&"); // Chave de Acesso do MDFE
         parametros.append("tpAmb=").append(this.config.getAmbiente().getCodigo());

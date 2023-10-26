@@ -28,6 +28,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
     public static final String HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2 = "http://www.portalfiscal.inf.br/nfe/wsdl/CadConsultaCadastro2";
     public static final String CONSULTA_CADASTRO_2 = "consultaCadastro2";
     public static final String UNEXPECTED_SUBELEMENT = "Unexpected subelement ";
+    public static final String VERSAO_DADOS = "versaoDados";
     protected org.apache.axis2.description.AxisOperation[] operations;
 
     // hashmaps to keep the fault mapping
@@ -255,7 +256,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
             }
             if (this.localVersaoDadosTracker) {
                 namespace = HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2;
-                this.writeStartElement(null, namespace, "versaoDados", xmlWriter);
+                this.writeStartElement(null, namespace, VERSAO_DADOS, xmlWriter);
                 if (this.localVersaoDados == null) {
                     // write the nil attribute
                     throw new org.apache.axis2.databinding.ADBException(VERSAO_DADOS_CANNOT_BE_NULL);
@@ -349,7 +350,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
             final java.util.ArrayList<Serializable> elementList = new java.util.ArrayList<>();
             final java.util.ArrayList<Object> attribList = new java.util.ArrayList<>();
             if (this.localVersaoDadosTracker) {
-                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, "versaoDados"));
+                elementList.add(new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, VERSAO_DADOS));
                 if (this.localVersaoDados != null) {
                     elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(this.localVersaoDados));
                 } else {
@@ -451,10 +452,10 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                 while (isNotStartOrEndElement(reader)) {
                     reader.next();
                 }
-                if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, "versaoDados").equals(reader.getName())) {
+                if (reader.isStartElement() && new javax.xml.namespace.QName(HTTP_WWW_PORTALFISCAL_INF_BR_NFE_WSDL_CAD_CONSULTA_CADASTRO_2, VERSAO_DADOS).equals(reader.getName())) {
                     nillableValue = reader.getAttributeValue(XMLSCHEMA_INSTANCE, "nil");
                     if ("true".equals(nillableValue) || "1".equals(nillableValue)) {
-                        throw new org.apache.axis2.databinding.ADBException("The element: " + "versaoDados" + "  cannot be null");
+                        throw new org.apache.axis2.databinding.ADBException("The element: " + VERSAO_DADOS + "  cannot be null");
                     }
                     final java.lang.String content = reader.getElementText();
                     object.setVersaoDados(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
@@ -801,7 +802,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
             if (this.localExtraElement != null) {
                 this.localExtraElement.serialize(xmlWriter);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             xmlWriter.writeEndElement();
         }
@@ -863,7 +864,7 @@ public class CadConsultaCadastro2Stub extends org.apache.axis2.client.Stub {
                 elementList.add(org.apache.axis2.databinding.utils.Constants.OM_ELEMENT_KEY);
                 elementList.add(this.localExtraElement);
             } else {
-                throw new org.apache.axis2.databinding.ADBException("extraElement cannot be null!!");
+                throw new org.apache.axis2.databinding.ADBException(EXTRA_ELEMENT_CANNOT_BE_NULL);
             }
             return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName, elementList.toArray(), attribList.toArray());
         }

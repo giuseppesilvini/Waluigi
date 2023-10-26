@@ -15,7 +15,6 @@ import java.util.List;
 /**
  * @author Caio
  * @info Informações das Unidades de Carga (Containeres/ULD/Outros)<br>
- *       Dispositivo de carga utilizada (Unit Load Device - ULD) significa todo tipo de contêiner de carga, vagão, contêiner de avião, palete de aeronave com rede ou palete de aeronave com rede sobre um iglu.
  */
 
 @Root(name = "infUnidCarga")

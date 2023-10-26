@@ -21,7 +21,6 @@ public class MDFInfoModal extends DFBase {
     @Element(name = "rodo", required = false)
     private MDFInfoModalRodoviario rodoviario;
 
-    // TODO terminar as modalidades abaixo
 
     public String getVersao() {
         return this.versao;
