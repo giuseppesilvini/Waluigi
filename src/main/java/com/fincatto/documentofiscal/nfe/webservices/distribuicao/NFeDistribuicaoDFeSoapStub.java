@@ -230,20 +230,16 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
         }
 
         @Override
-        public void serialize(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter, final boolean serializeType) {
-            this.serialize(parentQName, xmlWriter, serializeType);
-        }
-
-        @Override
         public void serialize(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             this.serialize(parentQName, xmlWriter, false);
         }
 
         public void serialize(final javax.xml.namespace.QName parentQName, final org.apache.axiom.om.OMFactory factory, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
-            this.serialize(parentQName, factory, xmlWriter, false);
+            this.serialize(parentQName, xmlWriter, false);
         }
 
-        public void serialize(final javax.xml.namespace.QName parentQName, final org.apache.axiom.om.OMFactory factory, final javax.xml.stream.XMLStreamWriter xmlWriter, final boolean serializeType) throws javax.xml.stream.XMLStreamException {
+        @Override
+        public void serialize(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter, final boolean serializeType) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix;
             java.lang.String namespace;
             prefix = parentQName.getPrefix();
@@ -900,20 +896,16 @@ public class NFeDistribuicaoDFeSoapStub extends org.apache.axis2.client.Stub {
         }
 
         @Override
-        public void serialize(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter, final boolean serializeType) {
-            this.serialize(parentQName, xmlWriter, serializeType);
-        }
-
-        @Override
         public void serialize(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
             this.serialize(parentQName, xmlWriter, false);
         }
 
         public void serialize(final javax.xml.namespace.QName parentQName, final org.apache.axiom.om.OMFactory factory, final javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
-            this.serialize(parentQName, factory, xmlWriter, false);
+            this.serialize(parentQName, xmlWriter, false);
         }
 
-        public void serialize(final javax.xml.namespace.QName parentQName, final org.apache.axiom.om.OMFactory factory, final javax.xml.stream.XMLStreamWriter xmlWriter, final boolean serializeType) throws javax.xml.stream.XMLStreamException {
+        @Override
+        public void serialize(final javax.xml.namespace.QName parentQName, final javax.xml.stream.XMLStreamWriter xmlWriter, final boolean serializeType) throws javax.xml.stream.XMLStreamException {
             java.lang.String prefix;
             java.lang.String namespace;
             prefix = parentQName.getPrefix();

@@ -27,7 +27,7 @@ public abstract class DFCadeiaCertificados implements DFLog {
     private static final String PROTOCOL = "TLSv1.2";
     
     public static byte[] geraCadeiaCertificados(final DFAmbiente ambiente, final String senha) 
-            throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException, CertificateEncodingException,
+            throws KeyStoreException, KeyManagementException,
                 IOException, NoSuchAlgorithmException, CertificateException,
                 URISyntaxException {
 

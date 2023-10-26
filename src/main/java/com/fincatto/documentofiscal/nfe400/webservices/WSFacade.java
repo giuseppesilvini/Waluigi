@@ -22,11 +22,17 @@ import com.fincatto.documentofiscal.nfe400.classes.statusservico.consulta.NFStat
 import com.fincatto.documentofiscal.nfe400.webservices.gerado.NFeAutorizacao4Stub;
 import com.fincatto.documentofiscal.utils.DFSocketFactory;
 import org.apache.commons.httpclient.protocol.Protocol;
+import org.xml.sax.SAXException;
 
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.rmi.RemoteException;
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
 import java.security.UnrecoverableKeyException;
+
+import javax.xml.stream.XMLStreamException;
 
 public class WSFacade {
 
@@ -110,7 +116,9 @@ public class WSFacade {
      * @throws Exception caso nao consiga gerar o xml ou problema de conexao com
      * o sefaz
      */
-    public NFeAutorizacao4Stub.NfeResultMsg getNfeResultMsg(final String loteAssinadoXml, final DFModelo modelo) throws Exception {
+    public NFeAutorizacao4Stub.NfeResultMsg getNfeResultMsg(final String loteAssinadoXml, final DFModelo modelo)
+        throws  IOException, SAXException, URISyntaxException, XMLStreamException
+    {
         return this.wsLoteEnvio.comunicaLoteRaw(loteAssinadoXml, modelo, true);
     }
 
@@ -160,7 +168,7 @@ public class WSFacade {
      * @throws Exception caso nao consiga gerar o xml ou problema de conexao com
      * o sefaz
      */
-    public String consultaNotaAsString(final String chaveDeAcesso) throws Exception {
+    public String consultaNotaAsString(final String chaveDeAcesso) throws RemoteException, XMLStreamException {
         return this.wsNotaConsulta.consultaNotaAsString(chaveDeAcesso);
     }
 

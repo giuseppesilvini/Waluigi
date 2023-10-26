@@ -442,7 +442,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
              */
             public static NfeResultMsg parse(
                     javax.xml.stream.XMLStreamReader reader)
-                    throws Exception {
+                    throws XMLStreamException {
                 NfeResultMsg object = new NfeResultMsg();
 
                 try {
@@ -484,6 +484,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                                 UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
+                    e.printStackTrace();
                     throw e;
                 }
 
@@ -494,7 +495,9 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                 return !reader.isStartElement() && !reader.isEndElement();
             }
 
-            private static NfeResultMsg parsePart1(javax.xml.stream.XMLStreamReader reader) throws Exception {
+            private static NfeResultMsg parsePart1(javax.xml.stream.XMLStreamReader reader) 
+            throws XMLStreamException
+            {
                 if (reader.getAttributeValue(
                         XMLSCHEMA_INSTANCE,
                         "type") != null) {
@@ -770,6 +773,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                                 UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
+                    e.printStackTrace();
                     throw e;
                 }
 
@@ -1057,6 +1061,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                                 UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
+                    e.printStackTrace();
                     throw e;
                 }
 
@@ -1329,6 +1334,7 @@ public class MTCadConsultaCadastro4Stub extends org.apache.axis2.client.Stub {
                                 UNEXPECTED_SUBELEMENT + reader.getName());
                     }
                 } catch (javax.xml.stream.XMLStreamException e) {
+                    e.printStackTrace();
                     throw e;
                 }
 

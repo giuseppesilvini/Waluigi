@@ -66,7 +66,9 @@ public class DFAssinaturaDigital implements DFLog {
         return signatureFactory.unmarshalXMLSignature(validateContext).validate(validateContext);
     }
 
-    public String assinarDocumento(final String conteudoXml) throws Exception {
+    public String assinarDocumento(final String conteudoXml)
+        throws KeyStoreException, NoSuchAlgorithmException, UnrecoverableEntryException, InvalidNameException, InvalidAlgorithmParameterException, ParserConfigurationException, IOException, XMLSignatureException, SAXException, MarshalException, TransformerException
+    {
         return this.assinarDocumento(conteudoXml, DFAssinaturaDigital.ELEMENTOS_ASSINAVEIS);
     }
 

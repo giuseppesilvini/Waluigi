@@ -7,7 +7,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import com.fincatto.documentofiscal.nfe310.FabricaDeObjetosFake;
 
-class NFInfoCancelamentoTest {
+public class NFInfoCancelamentoTest {
 
     @Test
     public void deveObterProtocoloAutorizacaoComoFoiSetado() {

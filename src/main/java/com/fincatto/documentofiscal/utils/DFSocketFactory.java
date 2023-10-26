@@ -16,7 +16,6 @@ import java.net.Socket;
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
-import java.security.UnrecoverableKeyException;
 
 public class DFSocketFactory implements ProtocolSocketFactory {
 
@@ -26,7 +25,7 @@ public class DFSocketFactory implements ProtocolSocketFactory {
     private final DFConfig config;
     private final SSLContext sslContext;
     
-    public DFSocketFactory(final DFConfig config) throws UnrecoverableKeyException, NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
+    public DFSocketFactory(final DFConfig config) throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
         this.config = config;
         this.sslContext = this.createSSLContext(config);
     }
