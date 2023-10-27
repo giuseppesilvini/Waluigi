@@ -70,7 +70,7 @@ public abstract class DFStringValidador {
 
     public static void email(final String email) {
         if (email != null) {
-            final String regex = "^([_a-zA-Z0-9-]+[\\.[_a-zA-Z0-9-]+]*@[a-zA-Z0-9-]+[\\.[a-zA-Z0-9-]+]*(\\.[a-zA-Z]{1,6}))?$";		// ho provato ad usare i possessive quantifiers e sostituire [^_] al posto del . ma fallivano i test 
+            final String regex = "^[\\w.-]+@[\\w.-]+\\.[a-zA-Z]{1,6}$";
             final Matcher matcher = Pattern.compile(regex).matcher(email);
             if (!matcher.find()) {
                 throw new IllegalStateException(String.format("Email invalido (%s)", email));
@@ -80,14 +80,15 @@ public abstract class DFStringValidador {
 
     public static String email(final String email, final String info) {
         if (email != null) {
-            final String regex = "^([_a-zA-Z0-9-]+[\\.[_a-zA-Z0-9-]+]*@[a-zA-Z0-9-]+[\\.[a-zA-Z0-9-]+]*(\\.[a-zA-Z]{1,6}))?$";		// ho provato ad usare i possessive quantifiers e sostituire [^_] al posto del . ma fallivano i test 
+            final String regex = "^[\\w.-]+@[\\w.-]+\\.[a-zA-Z]{1,6}$";
             final Matcher matcher = Pattern.compile(regex).matcher(email);
-            if (!matcher.find()) {
+            if (!matcher.matches()) {
                 throw new IllegalStateException(String.format("Email invalido (%s) em %s", email, info));
             }
         }
         return email;
     }
+
 
     public static void tamanho256(final String string, final String info) {
         if (string != null) {
