@@ -70,7 +70,7 @@ public abstract class DFStringValidador {
 
     public static void email(final String email) {
         if (email != null) {
-            final String regex = "^[\\w.-]+@[\\w.-]+\\.[a-zA-Z]{1,6}$";
+            final String regex = "^[a-zA-Z0-9._%+-]{1,64}@(?:[a-zA-Z0-9-]{1,63}\\.){1,125}[a-zA-Z]{2,63}$";
             final Matcher matcher = Pattern.compile(regex).matcher(email);
             if (!matcher.find()) {
                 throw new IllegalStateException(String.format("Email invalido (%s)", email));
@@ -80,7 +80,7 @@ public abstract class DFStringValidador {
 
     public static String email(final String email, final String info) {
         if (email != null) {
-            final String regex = "^[\\w.-]+@[\\w.-]+\\.[a-zA-Z]{1,6}$";
+            final String regex = "^[a-zA-Z0-9._%+-]{1,64}@(?:[a-zA-Z0-9-]{1,63}\\.){1,125}[a-zA-Z]{2,63}$";
             final Matcher matcher = Pattern.compile(regex).matcher(email);
             if (!matcher.matches()) {
                 throw new IllegalStateException(String.format("Email invalido (%s) em %s", email, info));
