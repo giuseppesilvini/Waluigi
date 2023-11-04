@@ -1964,7 +1964,7 @@ Opcional para Redespacho Intermediario e Serviço vinculado a multimodal.</xs:do
 											</xs:annotation>
 											<xs:complexType>
 												<xs:sequence>
-													<xs:any processContents="skip">
+													<xs:any processContents="strict">
 														<xs:annotation>
 															<xs:documentation>XML do modal
 Insira neste local o XML específico do modal (rodoviário, aéreo, ferroviário, aquaviário ou dutoviário).  </xs:documentation>
@@ -3271,7 +3271,7 @@ Obrigatório para Pessoas e Bagagem</xs:documentation>
 											</xs:annotation>
 											<xs:complexType>
 												<xs:sequence>
-													<xs:any processContents="skip">
+													<xs:any processContents="strict">
 														<xs:annotation>
 															<xs:documentation>XML do modal
 Insira neste local o XML específico do modal</xs:documentation>

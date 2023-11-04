@@ -78,7 +78,7 @@ Usar com serie específica 920-969 para emitente pessoa física com inscrição 
 							</xs:annotation>
 							<xs:complexType>
 								<xs:sequence>
-									<xs:any processContents="skip">
+									<xs:any processContents="strict">
 										<xs:annotation>
 											<xs:documentation>XML do evento
 Insira neste local o XML específico do tipo de evento (cancelamento, encerramento, registro de passagem).  </xs:documentation>

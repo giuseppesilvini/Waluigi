@@ -342,9 +342,9 @@
                             </xs:annotation>
                             <xs:complexType>
                                 <xs:sequence>
-                                    <xs:any processContents="skip" maxOccurs="unbounded"/>
+                                    <xs:any processContents="strict" maxOccurs="unbounded"/>
                                 </xs:sequence>
-                                <xs:anyAttribute processContents="skip"/>
+                                <xs:anyAttribute processContents="strict"/>
                             </xs:complexType>
                         </xs:element>
                     </xs:sequence>
